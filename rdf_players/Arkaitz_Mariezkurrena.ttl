@@ -1,0 +1,51 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Arkaitz_Mariezkurrena a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q131295995> ;
+    foaf:name "Arkaitz Mariezkurrena"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 10 ;
+    stats:blocks 4 ;
+    stats:carries 60 ;
+    stats:clearances 4 ;
+    stats:dispossessed 6 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 1.0 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 2.7 ;
+    stats:matchesPlayed 9 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 241 ;
+    stats:miscontrols 9 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 3 ;
+    stats:progressivePasses 4 ;
+    stats:progressivePassesReceived 12 ;
+    stats:rank 1625 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 0 ;
+    stats:touches 105 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2005-04-05"^^xsd:date ;
+    schema:description "Arkaitz Mariezkurrena Etxezarreta (born 5 April 2005) is a Spanish footballer who plays mainly as a left winger for Real Sociedad B."@en ;
+    schema:height "1.81 m (5 ft 11 in)"^^xsd:string ;
+    schema:memberOf "Real Sociedad B"^^xsd:string ;
+    schema:name "Arkaitz Mariezkurrena"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

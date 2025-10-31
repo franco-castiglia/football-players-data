@@ -1,0 +1,52 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Gabriel_Moscardo a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q120681423> ;
+    foaf:name "Gabriel Moscardo"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 4 ;
+    stats:blocks 3 ;
+    stats:carries 29 ;
+    stats:clearances 1 ;
+    stats:dispossessed 3 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.9 ;
+    stats:matchesPlayed 6 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 84 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 3 ;
+    stats:progressivePassesReceived 3 ;
+    stats:rank 1798 ;
+    stats:redCards 0 ;
+    stats:tackles 3 ;
+    stats:tacklesWon 1 ;
+    stats:touches 54 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2005-09-28"^^xsd:date ;
+    schema:description "Gabriel Silva Moscardo de Salles (born 28 September 2005), known as Gabriel Moscardo, is a Brazilian professional footballer who plays as a defensive midfielder for Ligue 1 club Reims, on loan from Paris Saint-Germain."@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:memberOf "Stade de Reims"^^xsd:string ;
+    schema:name "Gabriel Moscardo"^^xsd:string ;
+    schema:nationality "Brazil"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

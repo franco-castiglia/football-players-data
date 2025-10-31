@@ -1,0 +1,63 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ko_Itakura a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q20038711> ;
+    foaf:account "www.instagram.com/kouitakura/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/v3ptg81759497926.png"^^xsd:anyURI ;
+    foaf:name "Ko Itakura"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 95 ;
+    stats:blocks 41 ;
+    stats:carries 1326 ;
+    stats:clearances 171 ;
+    stats:dispossessed 8 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.8 ;
+    stats:expectedGoals 1.6 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 28 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 31.0 ;
+    stats:matchesPlayed 31 ;
+    stats:matchesStarted 31 ;
+    stats:minutesPlayed 2790 ;
+    stats:miscontrols 9 ;
+    stats:passesIntoPenaltyArea 8 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 23 ;
+    stats:progressivePasses 69 ;
+    stats:progressivePassesReceived 5 ;
+    stats:rank 1226 ;
+    stats:redCards 0 ;
+    stats:tackles 40 ;
+    stats:tacklesWon 29 ;
+    stats:touches 2170 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1997-01-27"^^xsd:date ;
+    schema:description """Kō Itakura (born 27 January 1997) is a Japanese professional footballer who plays as centre-back or defensive midfielder for Eredivisie club Ajax and the Japan national team.\r
+\r
+Club career\r
+In January 2019, Itakura joined Premier League club Manchester City and was immediately loaned to Eredivisie club Groningen, until the summer of 2020. On 24 July 2020, his stay with Groningen was extended with one more year after both clubs agreed.\r
+\r
+On 19 August 2021, Itakura signed a season-long loan deal with 2. Bundesliga club Schalke 04 with an option to make the move permanent for £5 million. At the end of the season, he was promoted to the Bundesliga with Schalke, but the club did not activate the option due to financial reasons. Instead, he signed a four-year deal with fellow Bundesliga club Borussia Mönchengladbach.\r
+\r
+On August 19 2023, he scored his first goal in the Bundesliga against Augsburg, and on September 2, he scored a goal against Bayern Munich, which had the most wins and were the champions of the previous year. On September 8th, he was selected as the team's MVP for August.\r
+\r
+On August 7, 2025, it was announced that Itakura will return to the Eredivisie and signed a contract with Ajax, thus becoming the first Japanese player to represent the club."""@en ;
+    schema:height "1.87 m (6 ft 1 1⁄2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/l9ixej1658675646.jpg"^^xsd:anyURI ;
+    schema:memberOf "Ajax"^^xsd:string ;
+    schema:name "Ko Itakura"^^xsd:string ;
+    schema:nationality "Japan"^^xsd:string ;
+    schema:weight "75 kg (165 lb)"^^xsd:string .
+

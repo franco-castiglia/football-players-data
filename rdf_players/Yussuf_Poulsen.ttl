@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Yussuf_Poulsen a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q759710> ;
+    foaf:account "http://instagram.com/yussufyurarypoulsen/"^^xsd:anyURI,
+        "http://twitter.com/YussufYurary"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/0iwbjy1742070014.png"^^xsd:anyURI ;
+    foaf:name "Yussuf Poulsen"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 16 ;
+    stats:blocks 7 ;
+    stats:carries 89 ;
+    stats:clearances 14 ;
+    stats:dispossessed 10 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.6 ;
+    stats:expectedGoals 3.3 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 4.2 ;
+    stats:matchesPlayed 22 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 378 ;
+    stats:miscontrols 16 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 12 ;
+    stats:progressivePassesReceived 30 ;
+    stats:rank 2145 ;
+    stats:redCards 0 ;
+    stats:tackles 10 ;
+    stats:tacklesWon 5 ;
+    stats:touches 221 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1994-06-15"^^xsd:date ;
+    schema:description "Yussuf Yurary Poulsen is a Danish professional footballer who plays as a forward for Bundesliga club Hamburger SV and the Denmark national team. He sometimes uses Yurary as his shirt name. After starting his professional career with Lyngby, he transferred to RB Leipzig in 2013, helping them from the 3."@en ;
+    schema:height "1.93 m (6 ft 4 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/7mlj7c1578228298.jpg"^^xsd:anyURI ;
+    schema:memberOf "Hamburg"^^xsd:string ;
+    schema:name "Yussuf Poulsen"^^xsd:string ;
+    schema:nationality "Denmark"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

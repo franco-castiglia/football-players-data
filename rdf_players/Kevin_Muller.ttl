@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Kevin_Muller a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1740225> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/yy7vl71705317362.png"^^xsd:anyURI ;
+    foaf:name "Kevin Muller"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 50 ;
+    stats:blocks 0 ;
+    stats:carries 779 ;
+    stats:clearances 13 ;
+    stats:dispossessed 0 ;
+    stats:errors 4 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 32.7 ;
+    stats:matchesPlayed 33 ;
+    stats:matchesStarted 33 ;
+    stats:minutesPlayed 2939 ;
+    stats:miscontrols 2 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 1 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1815 ;
+    stats:redCards 0 ;
+    stats:tackles 3 ;
+    stats:tacklesWon 2 ;
+    stats:touches 1393 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1991-03-15"^^xsd:date ;
+    schema:description """Kevin Müller (born 15 March 1991) is a German football goalkeeper who plays for 1. FC Heidenheim.\r
+\r
+Career\r
+For the 2013–14 season Müller moved to VfB Stuttgart II. On 10 June 2013 he signed a contract until June 2015 with VfB Stuttgart.\r
+\r
+On 1 August 2014 he was loaned out to FC Energie Cottbus. Simultaneously he extended his contract with Stuttgart until 2016. Cottbus hired him as a replacement for just recently injured regular goalkeeper René Renno.\r
+\r
+For the 2015–16 season he moved to 1. FC Heidenheim."""@en ;
+    schema:height "189 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/7917n81542017433.jpg"^^xsd:anyURI ;
+    schema:memberOf "FC Heidenheim"^^xsd:string ;
+    schema:name "Kevin Muller"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "205 lbs"^^xsd:string .
+

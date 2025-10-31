@@ -1,0 +1,67 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Alberto_Mari a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q980161> ;
+    foaf:name "Alberto Marí"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 0 ;
+    stats:blocks 0 ;
+    stats:carries 2 ;
+    stats:clearances 0 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.1 ;
+    stats:matchesPlayed 1 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 7 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 1 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 1618 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 4 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2001-07-11"^^xsd:date ;
+    schema:description """Alberto Marí Sánchez (born 11 July 2001) is a Spanish professional footballer who plays as a striker for Real Zaragoza, on loan from Valencia CF.\r
+\r
+Born in Alicante, Valencian Community, Marí began his career with CF Costa Alicante, and moved to Hércules CF for their Infantil squad at the age of 12. In 2016, after his older brother had joined Real Valladolid, he moved to the club's youth categories.\r
+\r
+In 2018, Marí again followed his brother's footsteps to SD Eibar. After scoring 21 goals with their Juvenil team, he was promoted to the farm team CD Vitoria in Tercera División in 2020.\r
+\r
+Marí made his senior debut on 28 October 2020, starting in a 2–0 away win over CD Basconia. He scored his first goal on 28 November, netting the winner in a 1–0 away success over CD Ariznabarra, and finished the season with five goals.\r
+\r
+On 4 June 2021, Marí left Eibar.\r
+\r
+On 23 June 2021, Marí signed a three-year contract with Valencia CF, being initially assigned to the reserves in Tercera División RFEF. He scored six times in his first season, helping in the B-team's promotion to Segunda Federación.\r
+\r
+Marí started training with the senior Valencia team in March 2023, after having a prolific season with the B's in the 2022–23 campaign. He made his professional debut with the Che on 23 April, coming on as a second-half substitute for Samuel Lino in a 2–0 La Liga away win over Elche CF.\r
+\r
+Marí scored his first professional goal on 14 May 2023, netting an 88th minute winner in a 2–1 away success over RC Celta de Vigo. On 1 September, he was definitely promoted to the main squad, being assigned the number 22 jersey.\r
+\r
+On 30 August 2024, Marí was loaned to Segunda División side Real Zaragoza for the season."""@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:memberOf "Zaragoza"^^xsd:string ;
+    schema:name "Alberto Marí"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

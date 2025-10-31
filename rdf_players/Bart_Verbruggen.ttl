@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Bart_Verbruggen a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q98682558> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/5ak40b1756999759.png"^^xsd:anyURI ;
+    foaf:name "Bart Verbruggen"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 59 ;
+    stats:blocks 1 ;
+    stats:carries 955 ;
+    stats:clearances 29 ;
+    stats:dispossessed 0 ;
+    stats:errors 5 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 36.0 ;
+    stats:matchesPlayed 36 ;
+    stats:matchesStarted 36 ;
+    stats:minutesPlayed 3240 ;
+    stats:miscontrols 2 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 2 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 2695 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 1406 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "2002-08-18"^^xsd:date ;
+    schema:description "Bart Verbruggen (born 18 August 2002) is a Dutch professional footballer who plays as a goalkeeper for Premier League club Brighton & Hove Albion."@en ;
+    schema:height "6 ft 4 in"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/jlon461620771748.jpg"^^xsd:anyURI ;
+    schema:memberOf "Brighton and Hove Albion"^^xsd:string ;
+    schema:name "Bart Verbruggen"^^xsd:string ;
+    schema:nationality "The Netherlands"^^xsd:string ;
+    schema:weight "146 lbs"^^xsd:string .
+

@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Cristian_Romero a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q28058687> ;
+    foaf:account "www.instagram.com/cutiromero2/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/dme7x81757016317.png"^^xsd:anyURI ;
+    foaf:name "Cristian Romero"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 90 ;
+    stats:blocks 18 ;
+    stats:carries 896 ;
+    stats:clearances 57 ;
+    stats:dispossessed 5 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.6 ;
+    stats:expectedGoals 1.6 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 21 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 15.7 ;
+    stats:matchesPlayed 18 ;
+    stats:matchesStarted 18 ;
+    stats:minutesPlayed 1416 ;
+    stats:miscontrols 10 ;
+    stats:passesIntoPenaltyArea 8 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 12 ;
+    stats:progressivePasses 71 ;
+    stats:progressivePassesReceived 3 ;
+    stats:rank 2251 ;
+    stats:redCards 0 ;
+    stats:tackles 35 ;
+    stats:tacklesWon 29 ;
+    stats:touches 1377 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1998-04-27"^^xsd:date ;
+    schema:description "Cristian \"Cuti\" Gabriel Romero (born 27 April 1998) is an Argentine professional footballer who plays as a centre-back for Premier League club Tottenham Hotspur and the Argentina national team."@en ;
+    schema:height "185cm / 6'1\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ulwf941748761042.jpg"^^xsd:anyURI ;
+    schema:memberOf "Tottenham"^^xsd:string ;
+    schema:name "Cristian Romero"^^xsd:string ;
+    schema:nationality "Argentina"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

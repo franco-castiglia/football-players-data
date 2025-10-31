@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Hans_Hateboer a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q15694381> ;
+    foaf:account "twitter.com/hans33hateboer"^^xsd:anyURI,
+        "www.instagram.com/hhateboer/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/nfahnj1695157245.png"^^xsd:anyURI ;
+    foaf:name "Hans Hateboer"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 62 ;
+    stats:blocks 19 ;
+    stats:carries 696 ;
+    stats:clearances 64 ;
+    stats:dispossessed 5 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 1.5 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 29 ;
+    stats:keyPasses 15 ;
+    stats:matches90s 18.7 ;
+    stats:matchesPlayed 26 ;
+    stats:matchesStarted 18 ;
+    stats:minutesPlayed 1684 ;
+    stats:miscontrols 11 ;
+    stats:passesIntoPenaltyArea 12 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 28 ;
+    stats:progressivePasses 92 ;
+    stats:progressivePassesReceived 63 ;
+    stats:rank 1133 ;
+    stats:redCards 0 ;
+    stats:tackles 31 ;
+    stats:tacklesWon 16 ;
+    stats:touches 1305 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1994-01-09"^^xsd:date ;
+    schema:description "Hans Hateboer (born 9 January 1994) is a Dutch professional footballer who plays as a right back for Rennes."@en ;
+    schema:height "1.87 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/d0jdxq1546085215.jpg"^^xsd:anyURI ;
+    schema:memberOf "Rennes"^^xsd:string ;
+    schema:name "Hans Hateboer"^^xsd:string ;
+    schema:nationality "The Netherlands"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Michel_Aebischer a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q27469951> ;
+    foaf:account "www.instagram.com/michel.aebischer/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/bd0ok31695158639.png"^^xsd:anyURI ;
+    foaf:name "Michel Aebischer"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 35 ;
+    stats:blocks 4 ;
+    stats:carries 291 ;
+    stats:clearances 6 ;
+    stats:dispossessed 7 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.4 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 7 ;
+    stats:keyPasses 8 ;
+    stats:matches90s 8.0 ;
+    stats:matchesPlayed 14 ;
+    stats:matchesStarted 9 ;
+    stats:minutesPlayed 724 ;
+    stats:miscontrols 5 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 8 ;
+    stats:progressivePasses 33 ;
+    stats:progressivePassesReceived 17 ;
+    stats:rank 37 ;
+    stats:redCards 0 ;
+    stats:tackles 18 ;
+    stats:tacklesWon 13 ;
+    stats:touches 485 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1997-01-06"^^xsd:date ;
+    schema:description "Michel Aebischer (born 6 January 1997) is a Swiss footballer who currently plays as a midfielder for Bologna on loan from BSC Young Boys ."@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ux8q991629963878.jpg"^^xsd:anyURI ;
+    schema:memberOf "Pisa"^^xsd:string ;
+    schema:name "Michel Aebischer"^^xsd:string ;
+    schema:nationality "Switzerland"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

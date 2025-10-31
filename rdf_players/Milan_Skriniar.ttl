@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Milan_Skriniar a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q891520> ;
+    foaf:account "www.facebook.com/MilanSkriniarOficial/"^^xsd:anyURI,
+        "www.instagram.com/milanskriniar/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/xt1q2g1704623959.png"^^xsd:anyURI ;
+    foaf:name "Milan Škriniar"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 25 ;
+    stats:blocks 7 ;
+    stats:carries 244 ;
+    stats:clearances 16 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 3 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 4.2 ;
+    stats:matchesPlayed 5 ;
+    stats:matchesStarted 4 ;
+    stats:minutesPlayed 382 ;
+    stats:miscontrols 2 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 3 ;
+    stats:progressivePasses 20 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 2451 ;
+    stats:redCards 0 ;
+    stats:tackles 7 ;
+    stats:tacklesWon 5 ;
+    stats:touches 417 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1995-02-11"^^xsd:date ;
+    schema:description """Milan Škriniar (born 11 February 1995) is a Slovak professional footballer who plays as a centre-back for Süper Lig club Fenerbahçe, on loan from Ligue 1 club Paris Saint-Germain, and captains the Slovakia national team.\r
+\r
+Škriniar began his career in his native Slovakia with Žilina. He also underwent a loan spell at ViOn Zlaté Moravce early in his career. In 2016, Škriniar moved to Italy with Sampdoria, where he would play for a season before joining league rivals Internazionale. Škriniar went on to win one Serie A, two Coppa Italia, and two Supercoppa Italiana titles for the Nerazzurri, eventually becoming the team's captain. He joined French club Paris Saint-Germain in 2023.\r
+\r
+As a youth international, Škriniar represented Slovakia at under-17, under-18, under-19, and under-21 level. In May 2016, at the age of 21, he made his senior Slovakia debut, and was selected for the team representing his country at UEFA Euro 2016. Škriniar later played for Slovakia at Euro 2020 and Euro 2024."""@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/knn8491704623903.jpg"^^xsd:anyURI ;
+    schema:memberOf "Fenerbahce"^^xsd:string ;
+    schema:name "Milan Škriniar"^^xsd:string ;
+    schema:nationality "Slovakia"^^xsd:string ;
+    schema:weight "83 kg (183 lb)"^^xsd:string .
+

@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Carlos_Alcaraz a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q88130791> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/78jq5c1756976805.png"^^xsd:anyURI ;
+    foaf:name "Carlos Alcaraz"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 37 ;
+    stats:blocks 9 ;
+    stats:carries 211 ;
+    stats:clearances 10 ;
+    stats:dispossessed 13 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.6 ;
+    stats:expectedGoals 1.7 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 13 ;
+    stats:matches90s 8.5 ;
+    stats:matchesPlayed 15 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 764 ;
+    stats:miscontrols 14 ;
+    stats:passesIntoPenaltyArea 18 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 19 ;
+    stats:progressivePasses 42 ;
+    stats:progressivePassesReceived 21 ;
+    stats:rank 79 ;
+    stats:redCards 0 ;
+    stats:tackles 11 ;
+    stats:tacklesWon 5 ;
+    stats:touches 378 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2002-11-30"^^xsd:date ;
+    schema:description """Carlos Jonas "Charly" Alcaraz Durán (born 30 November 2002) is an Argentine professional footballer who plays as a midfielder Premier League club Everton.\r
+\r
+Alcaraz played for Deportes Infantiles de Villa Elisa, before joining the youth academy of Racing Club in 2017. Alcaraz made his professional debut with Racing Club in a 1–1 Argentine Primera División tie with Atlético Tucumán on 26 January 2020.\r
+\r
+He scored the winning goal of the 2022 Argentine Cup Final against Boca Juniors in extra-time sparking a large melee, and being one of ten red cards.\r
+\r
+Southampton\r
+In January 2023, he signed a four-and-a-half-year contract for Premier League side Southampton. According to several media, Alcaraz was sold for £12m, and Racing Club also secured 15% of a potential future sale. On 14 January, Alcaraz made his Premier League debut in a 2–1 away victory against Everton, replacing Roméo Lavia in the 61st minute."""@en ;
+    schema:height "183 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/3hdsje1674645223.jpg"^^xsd:anyURI ;
+    schema:memberOf "Everton"^^xsd:string ;
+    schema:name "Carlos Alcaraz"^^xsd:string ;
+    schema:nationality "Argentina"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

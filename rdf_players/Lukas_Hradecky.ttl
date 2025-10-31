@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Lukas_Hradecky a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q713627> ;
+    foaf:account "http://www.instagram.com/lhradecky/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/6svg1c1741871941.png"^^xsd:anyURI ;
+    foaf:name "Lukas Hradecky"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 70 ;
+    stats:blocks 0 ;
+    stats:carries 538 ;
+    stats:clearances 8 ;
+    stats:dispossessed 0 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 29.0 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 29 ;
+    stats:minutesPlayed 2610 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1186 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 962 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1989-11-24"^^xsd:date ;
+    schema:description """Lukáš Hrádecký (born 24 November 1989), is a Slovak-born Finnish football goalkeeper who plays for Bayer Leverkusen and the Finland national team. Hrádecký was born in Bratislava, Slovakia. He began his senior club career playing for TPS, before signing with Esbjerg fB at age 19 in 2009. After winning his first trophy, the Danish 1st Division, during his third season in Denmark, he helped Esbjerg win the Danish Cup in 2013.\r
+\r
+Hrádecký made his international debut for Finland in May 2010, at the age of 20 and has almost 50 caps, including appearing in 2014 and 2018 FIFA World Cup qualifications."""@en ;
+    schema:height "1.92 m (6 ft 4 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/7aag3g1578225981.jpg"^^xsd:anyURI ;
+    schema:memberOf "Monaco"^^xsd:string ;
+    schema:name "Lukas Hradecky"^^xsd:string ;
+    schema:nationality "Finland"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

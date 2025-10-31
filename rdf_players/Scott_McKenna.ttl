@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Scott_McKenna a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q24084667> ;
+    foaf:account "twitter.com/scotttmckenna"^^xsd:anyURI,
+        "www.instagram.com/scottmckenna19/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/znbep11707938012.png"^^xsd:anyURI ;
+    foaf:name "Scott McKenna"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 69 ;
+    stats:blocks 36 ;
+    stats:carries 912 ;
+    stats:clearances 163 ;
+    stats:dispossessed 4 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.7 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 9 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 27.4 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 28 ;
+    stats:minutesPlayed 2466 ;
+    stats:miscontrols 8 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 11 ;
+    stats:progressivePasses 45 ;
+    stats:progressivePassesReceived 3 ;
+    stats:rank 1700 ;
+    stats:redCards 1 ;
+    stats:tackles 21 ;
+    stats:tacklesWon 13 ;
+    stats:touches 1745 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1996-11-12"^^xsd:date ;
+    schema:description "Scott Fraser McKenna (born 12 November 1996) is a Scottish professional footballer who plays as a centre-back for La Liga club Las Palmas and the Scotland national team."@en ;
+    schema:height "1.89 m (6 ft 2+1⁄2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/a77jaz1724170595.jpg"^^xsd:anyURI ;
+    schema:memberOf "Las Palmas"^^xsd:string ;
+    schema:name "Scott McKenna"^^xsd:string ;
+    schema:nationality "Scotland"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

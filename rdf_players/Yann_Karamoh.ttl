@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Yann_Karamoh a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q23902246> ;
+    foaf:account "twitter.com/y_karamoh7"^^xsd:anyURI,
+        "www.instagram.com/ykaramoh/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/6v6i791678372841.png"^^xsd:anyURI ;
+    foaf:name "Yann Karamoh"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 42 ;
+    stats:blocks 10 ;
+    stats:carries 292 ;
+    stats:clearances 5 ;
+    stats:dispossessed 26 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 1.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 3 ;
+    stats:keyPasses 9 ;
+    stats:matches90s 11.6 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 10 ;
+    stats:minutesPlayed 1046 ;
+    stats:miscontrols 26 ;
+    stats:passesIntoPenaltyArea 9 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 37 ;
+    stats:progressivePasses 28 ;
+    stats:progressivePassesReceived 80 ;
+    stats:rank 1320 ;
+    stats:redCards 0 ;
+    stats:tackles 5 ;
+    stats:tacklesWon 2 ;
+    stats:touches 412 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1998-07-08"^^xsd:date ;
+    schema:description "Yann Dorgelès Isaac Karamoh (born 8 July 1998) is a professional footballer who plays as a forward or right winger for Serie A club Torino. Born in the Ivory Coast, he is a former youth international for France."@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/baan2g1610450779.jpg"^^xsd:anyURI ;
+    schema:memberOf "FC Porto"^^xsd:string ;
+    schema:name "Yann Karamoh"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

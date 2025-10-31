@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Cedric_Kipre a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q33129919> ;
+    foaf:account "twitter.com/cecekipros"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ju13hg1694272096.png"^^xsd:anyURI ;
+    foaf:name "Cédric Kipré"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 73 ;
+    stats:blocks 42 ;
+    stats:carries 925 ;
+    stats:clearances 162 ;
+    stats:dispossessed 3 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 1.3 ;
+    stats:expectedGoals 0.6 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 32 ;
+    stats:keyPasses 10 ;
+    stats:matches90s 24.3 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 26 ;
+    stats:minutesPlayed 2190 ;
+    stats:miscontrols 15 ;
+    stats:passesIntoPenaltyArea 10 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 16 ;
+    stats:progressivePasses 77 ;
+    stats:progressivePassesReceived 3 ;
+    stats:rank 1363 ;
+    stats:redCards 2 ;
+    stats:tackles 42 ;
+    stats:tacklesWon 30 ;
+    stats:touches 1596 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1996-12-09"^^xsd:date ;
+    schema:description "Cédric Kipré (born 9 December 1996) is a professional footballer who plays as a defender for EFL Championship club Ipswich Town on loan from Ligue 2 club Reims. Born in France, he represents the Ivory Coast national team."@en ;
+    schema:height "1.93 m (6 ft 4 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/78qvk51603140010.jpg"^^xsd:anyURI ;
+    schema:memberOf "Ipswich Town"^^xsd:string ;
+    schema:name "Cédric Kipré"^^xsd:string ;
+    schema:nationality "Ivory Coast"^^xsd:string ;
+    schema:weight "196 lbs"^^xsd:string .
+

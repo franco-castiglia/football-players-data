@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jakub_Kaminski a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q73235453> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/hr9rkz1742139459.png"^^xsd:anyURI ;
+    foaf:name "Jakub Kamiński"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 52 ;
+    stats:blocks 17 ;
+    stats:carries 301 ;
+    stats:clearances 23 ;
+    stats:dispossessed 11 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 3.3 ;
+    stats:expectedGoals 0.9 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 13 ;
+    stats:keyPasses 24 ;
+    stats:matches90s 12.6 ;
+    stats:matchesPlayed 22 ;
+    stats:matchesStarted 12 ;
+    stats:minutesPlayed 1130 ;
+    stats:miscontrols 20 ;
+    stats:passesIntoPenaltyArea 13 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 41 ;
+    stats:progressivePasses 40 ;
+    stats:progressivePassesReceived 69 ;
+    stats:rank 1315 ;
+    stats:redCards 0 ;
+    stats:tackles 17 ;
+    stats:tacklesWon 8 ;
+    stats:touches 603 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2002-06-05"^^xsd:date ;
+    schema:description "Jakub Piotr Kamiński is a Polish professional footballer who plays as a left winger for Bundesliga club 1. FC Köln, on loan from VfL Wolfsburg, and the Poland national team."@en ;
+    schema:height "179 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/2fajk31658323780.jpg"^^xsd:anyURI ;
+    schema:memberOf "FC Köln"^^xsd:string ;
+    schema:name "Jakub Kamiński"^^xsd:string ;
+    schema:nationality "Poland"^^xsd:string ;
+    schema:weight "139 lbs"^^xsd:string .
+

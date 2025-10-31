@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Alessandro_Deiola a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q20949250> ;
+    foaf:account "twitter.com/deiola"^^xsd:anyURI,
+        "www.facebook.com/lorenzo.deiola"^^xsd:anyURI,
+        "www.instagram.com/alessandrodeiola/?hl=it"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/zduxfu1697923656.png"^^xsd:anyURI ;
+    foaf:name "Alessandro Deiola"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 68 ;
+    stats:blocks 26 ;
+    stats:carries 332 ;
+    stats:clearances 38 ;
+    stats:dispossessed 11 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.6 ;
+    stats:expectedGoals 1.7 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 13 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 15.9 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 16 ;
+    stats:minutesPlayed 1432 ;
+    stats:miscontrols 15 ;
+    stats:passesIntoPenaltyArea 8 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 11 ;
+    stats:progressivePasses 40 ;
+    stats:progressivePassesReceived 36 ;
+    stats:rank 689 ;
+    stats:redCards 0 ;
+    stats:tackles 31 ;
+    stats:tacklesWon 20 ;
+    stats:touches 686 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "1995-08-01"^^xsd:date ;
+    schema:description "Alessandro Deiola (born 1 August 1995) is an Italian footballer who plays as a midfielder for Cagliari."@en ;
+    schema:height "1.90 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/iywfj81600891861.jpg"^^xsd:anyURI ;
+    schema:memberOf "Cagliari"^^xsd:string ;
+    schema:name "Alessandro Deiola"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "185 lbs"^^xsd:string .
+

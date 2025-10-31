@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Saimon_Bouabre a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q118442074> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/luhka91748683984.png"^^xsd:anyURI ;
+    foaf:name "Saïmon Bouabré"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 2 ;
+    stats:blocks 1 ;
+    stats:carries 27 ;
+    stats:clearances 0 ;
+    stats:dispossessed 2 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 1.1 ;
+    stats:matchesPlayed 3 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 97 ;
+    stats:miscontrols 2 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:progressiveCarries 3 ;
+    stats:progressivePasses 2 ;
+    stats:progressivePassesReceived 5 ;
+    stats:rank 366 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 0 ;
+    stats:touches 36 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2006-06-01"^^xsd:date ;
+    schema:description """Saïmon Nadélia Bouabré (born 1 June 2006) is a French footballer who plays as an attacking midfielder for Ligue 1 club Monaco.\r
+\r
+Early career\r
+Born in Saint-Étienne, Bouabré started playing football in the youth team of AS Saint-Étienne. He then played for Andrézieux-Bouthéon FC and SC Air Bel before joining the youth side of Monaco. He was part of the under-18 team which won the Coupe Gambardella during the 2022–2023 season after. With a goal and an assist, his performance in the final against Clermont Foot highly impressed the media.\r
+\r
+International career\r
+Bouabré was called to the France U17 squad for the 2023 UEFA European Under-17 Championship. Throughout the tournament, he started in all matches and lead France to the final, where Bouabré eventually missed the decisive shot during the penalty shoot-out which made Germany win the title. Therefore, he was named in the Team of the tournament.\r
+\r
+He took part in the 2023 FIFA U-17 World Cup with the France under-17s. In the final game against Germany, he scored a goal in the 53rd minute to help France reduce the score to 1–2 before Mathis Amougou equalized the score in the 85th minute, leading the match to the penalty shooutouts. For the second time in the year, Bouabré and his teammates lost to Germany on penalties and finished as runners-up."""@en ;
+    schema:height "174cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/lvs1pw1748683945.jpg"^^xsd:anyURI ;
+    schema:memberOf "Monaco"^^xsd:string ;
+    schema:name "Saïmon Bouabré"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "139 lbs"^^xsd:string .
+

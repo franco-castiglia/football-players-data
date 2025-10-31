@@ -1,0 +1,63 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Thomas_Muller a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q43666> ;
+    foaf:account "http://www.facebook.com/es.muellert"^^xsd:anyURI,
+        "twitter.com/esmuellert_"^^xsd:anyURI,
+        "www.instagram.com/esmuellert/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/l6rwyb1741877941.png"^^xsd:anyURI ;
+    foaf:name "Thomas Muller"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 24 ;
+    stats:blocks 10 ;
+    stats:carries 386 ;
+    stats:clearances 14 ;
+    stats:dispossessed 20 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.9 ;
+    stats:expectedGoals 3.8 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 35 ;
+    stats:matches90s 13.6 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 12 ;
+    stats:minutesPlayed 1225 ;
+    stats:miscontrols 24 ;
+    stats:passesIntoPenaltyArea 24 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 24 ;
+    stats:progressivePasses 50 ;
+    stats:progressivePassesReceived 143 ;
+    stats:rank 1817 ;
+    stats:redCards 0 ;
+    stats:tackles 8 ;
+    stats:tacklesWon 5 ;
+    stats:touches 763 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1989-09-13"^^xsd:date ;
+    schema:description """Thomas Müller (born 13 September 1989) is a German professional footballer who plays for Bundesliga club Bayern Munich and the Germany national team. A versatile player, Müller plays as a midfielder or forward, and has been deployed in a variety of attacking roles – as an attacking midfielder, second striker, centre forward and on either wing.\r
+\r
+Müller has been praised for his positioning, teamwork and stamina, work-rate, and has shown consistency in both scoring and creating goals. He is also widely regarded as one of the best players to ever play without the ball due to his immaculate positional awareness. Due to numerous strengths in his game, he is also widely regarded as one of the most complete attacking players in the game.\r
+\r
+A product of Bayern's youth system, he made his first-team breakthrough in the 2009–10 season after Louis van Gaal was appointed as the main coach; he played almost every game as the club won the league and cup double and reached the Champions League final. Müller scored 23 goals in the 2012–13 season as Bayern won a historic treble; the league title, cup and Champions League. He broke the Bundesliga record for assists by providing 21 in a season (a record in the top five leagues jointly held with Lionel Messi in La Liga) and scored 14 goals as Bayern won a second treble in the 2019–20 season.\r
+\r
+Müller earned a call-up to the German national team in 2010. At the 2010 World Cup he scored five goals in six appearances as Germany finished in third place. He was named the Best Young Player of the tournament and won the Golden Boot as the tournament's top scorer, with five goals and three assists. At the 2014 World Cup he played a major role in helping the team win the trophy, scoring five goals and receiving the Silver Ball as the tournament's second top player and the Silver Boot as the second top goalscorer, and was also named in the World Cup All Star XI and in the Dream Team. In 2014, Müller was ranked the fifth-best footballer in the world by The Guardian."""@en ;
+    schema:height "185cm / 6'1\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/rhbgrp1702750958.jpg"^^xsd:anyURI ;
+    schema:memberOf "Vancouver Whitecaps"^^xsd:string ;
+    schema:name "Thomas Muller"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

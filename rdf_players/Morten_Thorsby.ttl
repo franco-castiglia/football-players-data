@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Morten_Thorsby a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16852194> ;
+    foaf:account "twitter.com/mortenthorsby"^^xsd:anyURI,
+        "www.instagram.com/mortenthorsby/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/5d3sxp1758997721.png"^^xsd:anyURI ;
+    foaf:name "Morten Thorsby"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 51 ;
+    stats:blocks 22 ;
+    stats:carries 295 ;
+    stats:clearances 28 ;
+    stats:dispossessed 28 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 2.1 ;
+    stats:expectedGoals 2.8 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 27 ;
+    stats:matches90s 21.1 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 22 ;
+    stats:minutesPlayed 1898 ;
+    stats:miscontrols 45 ;
+    stats:passesIntoPenaltyArea 10 ;
+    stats:penaltiesConceded 2 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 24 ;
+    stats:progressivePasses 58 ;
+    stats:progressivePassesReceived 76 ;
+    stats:rank 2591 ;
+    stats:redCards 0 ;
+    stats:tackles 49 ;
+    stats:tacklesWon 30 ;
+    stats:touches 753 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "1996-05-05"^^xsd:date ;
+    schema:description """Morten Thorsby (born 5 May 1996) is a Norwegian professional footballer who plays for Genoa on loan from Bundesliga side Union Berlin and the Norway national team as a midfielder.\r
+\r
+Thorsby is known for his commitment to environmentalism and is an advocate for stronger actions on climate change. He established the We Play Green foundation to encourage the football community to adopt environmentally friendly initiatives, and has met with municipal and national leaders in Italy while at Sampdoria in support of improved climate policy. In August 2021, he switched his shirt number to 2 to raise awareness of climate change. The digit represents the target of the internationally-adopted Paris Agreement of keeping global warming "well below" 2 °C above pre-industrial times, in order to avoid dangerous levels of climate change. He was named 'Young Athlete of The Year' at The BBC Green Sport Awards 2022."""@en ;
+    schema:height "189 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/9qr03n1610561687.jpg"^^xsd:anyURI ;
+    schema:memberOf "Genoa"^^xsd:string ;
+    schema:name "Morten Thorsby"^^xsd:string ;
+    schema:nationality "Norway"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

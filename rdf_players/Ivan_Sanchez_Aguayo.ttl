@@ -1,0 +1,78 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ivan_Sanchez_Aguayo a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18637500> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/z18i6j1678996115.png"^^xsd:anyURI ;
+    foaf:name "Iván Sánchez Aguayo"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 59 ;
+    stats:blocks 18 ;
+    stats:carries 467 ;
+    stats:clearances 10 ;
+    stats:dispossessed 21 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.9 ;
+    stats:expectedGoals 0.7 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 14 ;
+    stats:keyPasses 24 ;
+    stats:matches90s 15.6 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 11 ;
+    stats:minutesPlayed 1404 ;
+    stats:miscontrols 24 ;
+    stats:passesIntoPenaltyArea 23 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 60 ;
+    stats:progressivePasses 77 ;
+    stats:progressivePassesReceived 93 ;
+    stats:rank 2328 ;
+    stats:redCards 0 ;
+    stats:tackles 37 ;
+    stats:tacklesWon 20 ;
+    stats:touches 755 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1992-09-23"^^xsd:date ;
+    schema:description """Iván Sánchez Aguayo (born 23 September 1992) is a Spanish professional footballer who plays as a winger for Real Valladolid.\r
+ He previously played domestically at second- and third-tier level for Real Jaén, Atlético Madrid B, Almería B, Almería, Albacete and Elche, and helped Elche gain promotion to La Liga in 2020.\r
+\r
+Club career\r
+Jaén\r
+Sánchez was born in Campillo de Arenas, in the province of Jaén in Andalusia. He learnt his football in the youth system of Real Jaén, and made his senior debut with the reserves in 2009–10 in the Primera Andaluza. He moved into the first team the following season, and appeared regularly for them in the third-tier Segunda División B.\r
+\r
+Atlético Madrid B\r
+On 14 July 2011, Sánchez signed a three-year deal with Atlético Madrid. He was allocated to Atlético's B team, who also played in the Segunda B. He played 18 matches in 2011–12, and represented the club at the 2012 U-20 Copa Libertadores in Peru. In what the player attributed to his performance at that tournament, he was called up by manager Diego Simeone for pre-season training with the first team ahead of the 2012–13 season. It was as close as he got to first-team action. He was a regular for Atlético B in the second and third years of his contract, and missed only three matches in 2013–14 as they avoided relegation via the play-out with the help of a Sánchez goal.\r
+\r
+Almería\r
+In June 2014, Sánchez signed a three-year contract with another top-flight club, Almería, where he was again recruited for their B team playing in the Segunda B. In his first season, he appeared twice for the first team in the 2014–15 Copa del Rey, the first of which was on 5 December when he started in a 4–3 away win against Real Betis, but he only played league football for the reserves.\r
+\r
+Almería were relegated that season, and Sánchez was included in the first-team squad for 2015–16. He made his Segunda División debut on 6 September, as a second-half substitute for Quique González in a 2–1 home win over Osasuna, and went on to play 25 matches in all competitions.\r
+\r
+Albacete and loan to Elche\r
+On 18 January 2017, after being sparingly used during the first half of the season at UD Almería, Sánchez was loaned to division three club Albacete Balompié until June. On 28 June 2018, after helping to win promotion, Sánchez joined Albacete Balompié on a permanent basis,.\r
+\r
+Under a week later, Sánchez was loaned to fellow Segunda División B club Elche CF on 4 August 2018, where he was to play a key role in Elche's promotion back to the second division.\r
+\r
+On 26 June 2018, he signed a permanent two-year deal with the club on a free transfer.\r
+\r
+Sánchez became a regular for the side, scoring 7 goals in 36 appearances during his first full season at the club at Segunda División level. In his second season, Elche were promoted back to La Liga for the first time in five years, defeating Girona FC in the play-offs.\r
+\r
+Birmingham City\r
+On 27 August 2020, Sánchez signed as a free agent for English Championship (second-tier) club Birmingham City; he agreed a three-year contract with the option of a fourth. He made his debut in the starting eleven for Birmingham's opening fixture of the Championship season, at home to Brentford on 12 September; after 37 minutes he took a whipped corner from which Jérémie Bela scored the only goal of the game with a glancing near-post header. He was named in the Championship Team of the Month for September, and in the first match of October, a draw away to Stoke City, he took the corner from which Harlee Dean headed the opening goal. Away to Cardiff City on 16 December, he "ripped through their defence with a slaloming run as he skipped past three defenders and lashed the ball home left footed from the edge of the area" to give Birmingham a 2–1 lead with his first goal for the club, but the match ended as a 3–2 defeat."""@en ;
+    schema:height "1.71 m (5 ft 6 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/kwun0b1609533477.jpg"^^xsd:anyURI ;
+    schema:memberOf "Valladolid"^^xsd:string ;
+    schema:name "Iván Sánchez Aguayo"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "64 kg"^^xsd:string .
+

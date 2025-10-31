@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Moi_Gomez a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3884280> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/rzfsgk1725091020.png"^^xsd:anyURI ;
+    foaf:name "Moi Gómez"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 66 ;
+    stats:blocks 5 ;
+    stats:carries 353 ;
+    stats:clearances 7 ;
+    stats:dispossessed 8 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.8 ;
+    stats:expectedGoals 0.5 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 11 ;
+    stats:matches90s 8.8 ;
+    stats:matchesPlayed 26 ;
+    stats:matchesStarted 6 ;
+    stats:minutesPlayed 796 ;
+    stats:miscontrols 10 ;
+    stats:passesIntoPenaltyArea 13 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:progressiveCarries 13 ;
+    stats:progressivePasses 49 ;
+    stats:progressivePassesReceived 16 ;
+    stats:rank 1030 ;
+    stats:redCards 0 ;
+    stats:tackles 13 ;
+    stats:tacklesWon 9 ;
+    stats:touches 571 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1994-06-23"^^xsd:date ;
+    schema:description "Moisés 'Moi' Gómez Bordonado (born 23 June 1994) is a Spanish professional footballer who plays as an attacking midfielder for La Liga club CA Osasuna."@en ;
+    schema:height "1.76 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/y7emw11725090986.jpg"^^xsd:anyURI ;
+    schema:memberOf "Osasuna"^^xsd:string ;
+    schema:name "Moi Gómez"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "65 kg (143 lb)"^^xsd:string .
+

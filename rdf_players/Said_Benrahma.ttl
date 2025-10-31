@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Said_Benrahma a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q15082662> ;
+    foaf:account "twitter.com/benrahma2"^^xsd:anyURI,
+        "www.facebook.com/Said.BenrahmaDZ/"^^xsd:anyURI,
+        "www.instagram.com/saidbenrahma11/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/l5602v1694257438.png"^^xsd:anyURI ;
+    foaf:name "Said Benrahma"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 32 ;
+    stats:blocks 6 ;
+    stats:carries 286 ;
+    stats:clearances 2 ;
+    stats:dispossessed 11 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.1 ;
+    stats:expectedGoals 2.0 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 3 ;
+    stats:keyPasses 14 ;
+    stats:matches90s 8.2 ;
+    stats:matchesPlayed 13 ;
+    stats:matchesStarted 9 ;
+    stats:minutesPlayed 735 ;
+    stats:miscontrols 15 ;
+    stats:passesIntoPenaltyArea 19 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 41 ;
+    stats:progressivePasses 32 ;
+    stats:progressivePassesReceived 109 ;
+    stats:rank 301 ;
+    stats:redCards 0 ;
+    stats:tackles 9 ;
+    stats:tacklesWon 5 ;
+    stats:touches 447 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1995-08-10"^^xsd:date ;
+    schema:description """Mohamed Saïd Benrahma (Arabic: مُحَمَّد سَعِيد بْن رَحْمَة; born 10 August 1995) is an Algerian professional footballer who plays as a left winger for Saudi First Division League club Neom, on loan from Ligue 1 club Lyon, and the Algeria national team.\r
+\r
+Benrahma began his professional career with Nice, later spending time on loan with Angers, Gazélec and Châteauroux during his early career. He came to prominence in the EFL Championship after a move to Brentford in 2018, scoring 27 goals in 83 appearances for the West London outfit before moving to the Premier League with West Ham United. In June 2024, Lyon exercised their purchase option and signed him on a permanent basis following a successful loan spell."""@en ;
+    schema:height "1.72 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/up7jna1551797959.jpg"^^xsd:anyURI ;
+    schema:memberOf "Neom"^^xsd:string ;
+    schema:name "Said Benrahma"^^xsd:string ;
+    schema:nationality "Algeria"^^xsd:string ;
+    schema:weight "148 lbs"^^xsd:string .
+

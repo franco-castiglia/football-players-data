@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Antonio_Sanabria a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q10856523> ;
+    foaf:account "twitter.com/tsanabria9"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/3vkhoo1758886470.png"^^xsd:anyURI ;
+    foaf:name "Antonio Sanabria"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 24 ;
+    stats:blocks 6 ;
+    stats:carries 227 ;
+    stats:clearances 13 ;
+    stats:dispossessed 23 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 2.9 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 9 ;
+    stats:matches90s 14.6 ;
+    stats:matchesPlayed 26 ;
+    stats:matchesStarted 16 ;
+    stats:minutesPlayed 1318 ;
+    stats:miscontrols 32 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 6 ;
+    stats:progressivePasses 18 ;
+    stats:progressivePassesReceived 54 ;
+    stats:rank 2324 ;
+    stats:redCards 0 ;
+    stats:tackles 3 ;
+    stats:tacklesWon 3 ;
+    stats:touches 377 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1996-03-04"^^xsd:date ;
+    schema:description "Arnaldo Antonio Sanabria Ayala (born 4 March 1996), also known as Tonny Sanabria, is a Paraguayan professional footballer who plays for Torino, as a striker."@en ;
+    schema:height "1.81 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/gtfkf11503229618.jpg"^^xsd:anyURI ;
+    schema:memberOf "Cremonese"^^xsd:string ;
+    schema:name "Antonio Sanabria"^^xsd:string ;
+    schema:nationality "Paraguay"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Nemanja_Matic a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q297603> ;
+    foaf:account "twitter.com/NemanjaMatic"^^xsd:anyURI,
+        "www.instagram.com/nemanjamatic"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/erkdqw1679567141.png"^^xsd:anyURI ;
+    foaf:name "Nemanja Matic"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 125 ;
+    stats:blocks 21 ;
+    stats:carries 979 ;
+    stats:clearances 31 ;
+    stats:dispossessed 21 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.3 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 18 ;
+    stats:keyPasses 17 ;
+    stats:matches90s 22.3 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 25 ;
+    stats:minutesPlayed 2010 ;
+    stats:miscontrols 13 ;
+    stats:passesIntoPenaltyArea 16 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 35 ;
+    stats:progressivePasses 150 ;
+    stats:progressivePassesReceived 15 ;
+    stats:rank 1672 ;
+    stats:redCards 0 ;
+    stats:tackles 42 ;
+    stats:tacklesWon 29 ;
+    stats:touches 1569 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1988-08-01"^^xsd:date ;
+    schema:description """Nemanja Matić (Serbian Cyrillic: Немања Матић, pronounced ; born 1 August 1988) is a Serbian professional footballer who plays as a defensive midfielder for Ligue 1 club Rennes. Starting his career as an attacking midfielder, Matić shifted to a defensive midfielder during his spell at Benfica. He is known for his consistent performances on the pitch and his combative style of play.\r
+\r
+Matić began his senior career at Kolubara, before joining Slovak side Košice in 2007. He moved to English club Chelsea for £1.5 million in 2009. Used sparingly during his first spell at the club, he spent the 2010–11 season on loan at Dutch club Vitesse, and in the summer of 2011, he moved to Benfica as part of a swap deal involving David Luiz. He won the Primeira Liga Player of the Year award for his performances in the 2012–13 season. Matić returned to Chelsea in January 2014, for £21 million. He was named in the PFA Team of the Year for the 2014–15 season. In July 2017, he was reunited with former Chelsea manager José Mourinho after signing for Manchester United.\r
+\r
+Matić represented Serbia at under-21 level. He made his senior international debut in 2008 and scored twice in 48 appearances. He was part of Serbia's squad at the 2018 FIFA World Cup."""@en ;
+    schema:height "1.94 m (6 ft 4 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/kdiqkt1510319092.jpg"^^xsd:anyURI ;
+    schema:memberOf "Sassuolo"^^xsd:string ;
+    schema:name "Nemanja Matic"^^xsd:string ;
+    schema:nationality "Serbia"^^xsd:string ;
+    schema:weight "185 lbs"^^xsd:string .
+

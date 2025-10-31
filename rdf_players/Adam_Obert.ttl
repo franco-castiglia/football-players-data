@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Adam_Obert a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q66466838> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/wnixky1697923839.png"^^xsd:anyURI ;
+    foaf:name "Adam Obert"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 59 ;
+    stats:blocks 19 ;
+    stats:carries 298 ;
+    stats:clearances 48 ;
+    stats:dispossessed 7 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.4 ;
+    stats:expectedGoals 0.9 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 23 ;
+    stats:keyPasses 10 ;
+    stats:matches90s 12.0 ;
+    stats:matchesPlayed 21 ;
+    stats:matchesStarted 13 ;
+    stats:minutesPlayed 1077 ;
+    stats:miscontrols 26 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 12 ;
+    stats:progressivePasses 50 ;
+    stats:progressivePassesReceived 19 ;
+    stats:rank 1937 ;
+    stats:redCards 0 ;
+    stats:tackles 31 ;
+    stats:tacklesWon 18 ;
+    stats:touches 710 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2002-08-23"^^xsd:date ;
+    schema:description "Adam Obert is a Slovak football player defender for Cagliari."@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/6h4u6s1632343808.jpg"^^xsd:anyURI ;
+    schema:memberOf "Cagliari"^^xsd:string ;
+    schema:name "Adam Obert"^^xsd:string ;
+    schema:nationality "Slovakia"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Nicolas_Pepe a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q20641306> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ea4qot1724780109.png"^^xsd:anyURI ;
+    foaf:name "Nicolas Pépé"^^xsd:string ;
+    stats:assists 6 ;
+    stats:ballRecoveries 53 ;
+    stats:blocks 12 ;
+    stats:carries 518 ;
+    stats:clearances 12 ;
+    stats:dispossessed 20 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 4.8 ;
+    stats:expectedGoals 3.8 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 33 ;
+    stats:matches90s 16.7 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 15 ;
+    stats:minutesPlayed 1500 ;
+    stats:miscontrols 52 ;
+    stats:passesIntoPenaltyArea 27 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 76 ;
+    stats:progressivePasses 60 ;
+    stats:progressivePassesReceived 159 ;
+    stats:rank 2079 ;
+    stats:redCards 0 ;
+    stats:tackles 22 ;
+    stats:tacklesWon 9 ;
+    stats:touches 842 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1995-05-29"^^xsd:date ;
+    schema:description """Nicolas Pépé (born 29 May 1995) is a professional footballer who plays as a right winger or forward for La Liga club Villarreal. Born in France, he plays for the Ivory Coast national team.\r
+\r
+Pépé began his senior club career with Poitiers in the Championnat de France Amateur 2. He signed for Angers in 2013, aged 18, and spent a season on loan at Orléans in 2015. He signed for Lille in 2017, and was named to the UNFP Ligue 1 Team of the Year in the 2018–19 season. That summer, Pépé joined Arsenal for a then club-record fee of £72 million, and won the FA Cup in his debut season.\r
+\r
+Pépé, who was born in France to Ivorian parents, made his debut for the Ivory Coast on 15 November 2016 in a friendly against France. He was selected for the Africa Cup of Nations in 2017, 2019, 2021, and 2023."""@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/7ewjmz1724779988.jpg"^^xsd:anyURI ;
+    schema:memberOf "Villarreal"^^xsd:string ;
+    schema:name "Nicolas Pépé"^^xsd:string ;
+    schema:nationality "Ivory Coast"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

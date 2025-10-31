@@ -1,0 +1,62 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:David_Odogu a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q118874365> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/ld3b8q1758893781.png"^^xsd:anyURI ;
+    foaf:name "David Odogu"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 4 ;
+    stats:blocks 2 ;
+    stats:carries 78 ;
+    stats:clearances 25 ;
+    stats:dispossessed 0 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 2.2 ;
+    stats:matchesPlayed 3 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 195 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 8 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1943 ;
+    stats:redCards 0 ;
+    stats:tackles 6 ;
+    stats:tacklesWon 4 ;
+    stats:touches 143 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2006-06-03"^^xsd:date ;
+    schema:description """David Uyoyo Odogu (Berlin 3 June 2006) is a German professional footballer who plays as a centre-back for Serie A club AC Milan. He is a German youth international.\r
+\r
+Club career\r
+VfL Wolfsburg\r
+Born in Berlin, Odogu played for the youth academy of Steglitzer SC Südwest, before spending a season with the Union Berlin youth academy. He moved to Bundesliga club VfL Wolfsburg in 2020, initially joining the youth academy. In December 2022, he signed a new contract with VfL Wolfsburg. In January 2023, he attended mid-season training camp with the VfL Wolfsburg first-team squad. Odogu finished runner-up with VfL Wolfsburg under-17 in the U17 Nachwuchsliga at the end of the 2022–23 season.\r
+\r
+AC Milan\r
+On 1 September 2025, he moved to Italy and joined Serie A club AC Milan, permanently for an estimated €10 million transfer fee ahead of the 2025–26 season.\r
+\r
+On 23 September, Odogu made his debut for the club in a 3–0 Coppa Italia home victory over Lecce, substituting Strahinja Pavlović. One day later, he debuted for AC Milan's reserve team Milan Futuro on 24 September, starting in a goalless draw Serie D Group B away match against Casatese Merate."""@en ;
+    schema:height "1.91 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://www.thesportsdb.com/images/media/player/thumb/zpkihq1758893747.jpg"^^xsd:anyURI ;
+    schema:memberOf "AC Milan"^^xsd:string ;
+    schema:name "David Odogu"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

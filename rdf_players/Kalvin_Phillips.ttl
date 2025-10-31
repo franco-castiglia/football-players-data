@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Kalvin_Phillips a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q20641319> ;
+    foaf:account "www.instagram.com/kalvinphillips/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/vokeo81755870309.png"^^xsd:anyURI ;
+    foaf:name "Kalvin Phillips"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 68 ;
+    stats:blocks 35 ;
+    stats:carries 310 ;
+    stats:clearances 37 ;
+    stats:dispossessed 10 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 19 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 13.7 ;
+    stats:matchesPlayed 19 ;
+    stats:matchesStarted 14 ;
+    stats:minutesPlayed 1237 ;
+    stats:miscontrols 25 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:progressiveCarries 4 ;
+    stats:progressivePasses 51 ;
+    stats:progressivePassesReceived 4 ;
+    stats:rank 2112 ;
+    stats:redCards 1 ;
+    stats:tackles 35 ;
+    stats:tacklesWon 19 ;
+    stats:touches 739 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "1995-12-02"^^xsd:date ;
+    schema:description """Kalvin Mark Phillips (born 2 December 1995) is an English professional footballer who plays as a defensive midfielder for Premier League club Manchester City. \r
+\r
+An academy graduate of hometown club Leeds United, Phillips made his senior debut in 2015. In the 2019–20 season, he was a member of the Leeds team coached by Marcelo Bielsa that won the Championship. Phillips signed for Manchester City in 2022 and was part of the squad that won a continental treble of the Premier League, FA Cup, and UEFA Champions League in his debut season. He struggled for playing time at City, spending time on loan with West Ham United and Ipswich Town.\r
+\r
+Phillips made his international debut for the England national team in 2020, and represented the country at UEFA Euro 2020, where England were runners-up, and the 2022 FIFA World Cup.\r
+\r
+On 16 August 2024, Phillips was loaned to newly promoted Premier League club Ipswich Town for the 2024–25 season."""@en ;
+    schema:height "5 ft 11 in (1.80 m)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/560pcu1703325295.jpg"^^xsd:anyURI ;
+    schema:memberOf "Manchester City"^^xsd:string ;
+    schema:name "Kalvin Phillips"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

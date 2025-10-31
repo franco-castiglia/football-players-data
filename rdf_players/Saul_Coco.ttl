@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Saul_Coco a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q38977285> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/6yf5p41758813163.png"^^xsd:anyURI ;
+    foaf:name "Saúl Coco"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 87 ;
+    stats:blocks 49 ;
+    stats:carries 1135 ;
+    stats:clearances 157 ;
+    stats:dispossessed 2 ;
+    stats:errors 4 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 1.2 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 38 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 31.6 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 32 ;
+    stats:minutesPlayed 2845 ;
+    stats:miscontrols 13 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 17 ;
+    stats:progressivePasses 70 ;
+    stats:progressivePassesReceived 3 ;
+    stats:rank 577 ;
+    stats:redCards 0 ;
+    stats:tackles 46 ;
+    stats:tacklesWon 26 ;
+    stats:touches 1879 ;
+    stats:yellowCards 10 ;
+    schema:birthDate "1999-02-09"^^xsd:date ;
+    schema:description "Saúl Basilio Coco-Bassey Oubiña (born 9 February 1999), better known as Saúl Coco, is a professional footballer who plays as a centre-back for Serie A club Torino. Born in Spain, he represents Equatorial Guinea at international level."@en ;
+    schema:height "1.87 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/b4t4kl1716013933.jpg"^^xsd:anyURI ;
+    schema:memberOf "Torino"^^xsd:string ;
+    schema:name "Saúl Coco"^^xsd:string ;
+    schema:nationality "Equatorial Guinea"^^xsd:string ;
+    schema:weight "190 lbs"^^xsd:string .
+

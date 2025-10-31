@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Kassoum_Ouattara a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q118353095> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/g4l6kc1705663525.png"^^xsd:anyURI ;
+    foaf:name "Kassoum Ouattara"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 27 ;
+    stats:blocks 6 ;
+    stats:carries 137 ;
+    stats:clearances 2 ;
+    stats:dispossessed 7 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.2 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 4.3 ;
+    stats:matchesPlayed 12 ;
+    stats:matchesStarted 5 ;
+    stats:minutesPlayed 391 ;
+    stats:miscontrols 12 ;
+    stats:passesIntoPenaltyArea 8 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 15 ;
+    stats:progressivePasses 16 ;
+    stats:progressivePassesReceived 35 ;
+    stats:rank 2005 ;
+    stats:redCards 0 ;
+    stats:tackles 9 ;
+    stats:tacklesWon 7 ;
+    stats:touches 274 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2004-10-14"^^xsd:date ;
+    schema:description """Kassoum Ouattara (born 14 October 2004) is a French professional footballer who plays as a left-back for Ligue 1 club Monaco.\r
+\r
+Club career\r
+On 7 July 2022, Ouattara signed his first professional contract for Amiens, a deal until 2025. He made his debut in a 3–1 Ligue 2 defeat to Bastia on 20 August 2022. In the second half of the 2022–23 season, he became a regular starter, starting ten of nineteen matches before an injury ended his season.\r
+\r
+On 1 November 2023, Ouattara signed a five-year contract with Ligue 1 club AS Monaco, for a reported fee of €2 million, which could rise to €4 million with add-ons. The move was a "joker" transfer, following Caio Henrique's long-term injury.\r
+\r
+International career\r
+Born in France with Ivorian descent, Ouattara is eligible to represent both France and Ivory Coast at international level. He made his debut for the France under-19s in March 2023."""@en ;
+    schema:height "1.76 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/21rbkt1705663315.jpg"^^xsd:anyURI ;
+    schema:memberOf "Monaco"^^xsd:string ;
+    schema:name "Kassoum Ouattara"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

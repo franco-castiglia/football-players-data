@@ -1,0 +1,52 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Francesco_Zampano a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5479611> ;
+    foaf:name "Francesco Zampano"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 77 ;
+    stats:blocks 21 ;
+    stats:carries 418 ;
+    stats:clearances 29 ;
+    stats:dispossessed 17 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.8 ;
+    stats:expectedGoals 1.0 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 12 ;
+    stats:matches90s 18.2 ;
+    stats:matchesPlayed 24 ;
+    stats:matchesStarted 17 ;
+    stats:minutesPlayed 1639 ;
+    stats:miscontrols 28 ;
+    stats:passesIntoPenaltyArea 17 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 42 ;
+    stats:progressivePasses 41 ;
+    stats:progressivePassesReceived 85 ;
+    stats:rank 2817 ;
+    stats:redCards 0 ;
+    stats:tackles 31 ;
+    stats:tacklesWon 20 ;
+    stats:touches 731 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1993-09-30"^^xsd:date ;
+    schema:description "Francesco Filippo Zampano (born 30 September 1993) is an Italian professional footballer who plays as a full-back for Serie A club Venezia."@en ;
+    schema:height "177 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/bf75yp1546700173.jpg"^^xsd:anyURI ;
+    schema:memberOf "Modena"^^xsd:string ;
+    schema:name "Francesco Zampano"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

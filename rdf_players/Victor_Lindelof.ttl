@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Victor_Lindelof a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q4125587> ;
+    foaf:account "twitter.com/vlindelof"^^xsd:anyURI,
+        "www.instagram.com/victorlindelof"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/07mdel1756984093.png"^^xsd:anyURI ;
+    foaf:name "Victor Lindelof"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 29 ;
+    stats:blocks 6 ;
+    stats:carries 263 ;
+    stats:clearances 36 ;
+    stats:dispossessed 1 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 7.8 ;
+    stats:matchesPlayed 16 ;
+    stats:matchesStarted 6 ;
+    stats:minutesPlayed 704 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 5 ;
+    stats:progressivePasses 26 ;
+    stats:progressivePassesReceived 4 ;
+    stats:rank 1494 ;
+    stats:redCards 0 ;
+    stats:tackles 7 ;
+    stats:tacklesWon 2 ;
+    stats:touches 452 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1994-07-17"^^xsd:date ;
+    schema:description """Victor Jörgen Nilsson Lindelöf (born 17 July 1994) is a Swedish professional footballer who plays as a centre-back and captains the Sweden national team. \r
+Lindelöf began his career in Sweden at Västerås SK, making his debut in September 2010. In December 2011, he agreed to move to Benfica in Portugal, initially representing the club at youth and B levels. After making his first team debut in September 2013, he continued to appear for the club at B level, while also winning three Primeira Liga titles.\r
+\r
+Lindelöf has represented Sweden at under-17, under-19, under-21 and senior levels. He was a member of the under-21 side that won the 2015 UEFA European Under-21 Championship. He made his senior international debut in March 2016 and represented his country at UEFA Euro 2016."""@en ;
+    schema:height "1.87 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/bnnrjd1510318819.jpg"^^xsd:anyURI ;
+    schema:memberOf "Aston Villa"^^xsd:string ;
+    schema:name "Victor Lindelof"^^xsd:string ;
+    schema:nationality "Sweden"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

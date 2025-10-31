@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Tom_Louchet a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q123863201> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/cmcvqg1731084160.png"^^xsd:anyURI ;
+    foaf:name "Tom Louchet"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 36 ;
+    stats:blocks 12 ;
+    stats:carries 246 ;
+    stats:clearances 20 ;
+    stats:dispossessed 7 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.2 ;
+    stats:expectedGoals 0.8 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 18 ;
+    stats:keyPasses 14 ;
+    stats:matches90s 8.6 ;
+    stats:matchesPlayed 22 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 775 ;
+    stats:miscontrols 12 ;
+    stats:passesIntoPenaltyArea 9 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 19 ;
+    stats:progressivePasses 36 ;
+    stats:progressivePassesReceived 37 ;
+    stats:rank 1529 ;
+    stats:redCards 0 ;
+    stats:tackles 27 ;
+    stats:tacklesWon 17 ;
+    stats:touches 579 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2003-05-04"^^xsd:date ;
+    schema:description """Tom Alexis Louchet (born 4 May 2003) is a French professional footballer who plays as a defender for Ligue 1 club Nice.\r
+\r
+Club career\r
+Originally from Manosque in the Provence region of France, Louchet spent his youth career at SC Volxien, EP Manosque, US Vivo 04, Gap Foot 05, and Istres. He joined Nice in July 2019, where he made his debut with the reserve team in the Championnat National 3 several months later.\r
+\r
+On 27 October 2023, Louchet made his professional debut with Nice, coming on as an 88th-minute substitute in a 1–0 win away to Clermont in Ligue 1. He scored his first goal in a 3–1 defeat away to Le Havre on 16 December 2023.\r
+\r
+International career\r
+Born in France, Louchet is of Algerian descent. He has represented France at youth international level, playing two matches for the under-17s in February 2020."""@en ;
+    schema:height "1.78 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/xhl32u1731084135.jpg"^^xsd:anyURI ;
+    schema:memberOf "Nice"^^xsd:string ;
+    schema:name "Tom Louchet"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "141 lbs"^^xsd:string .
+

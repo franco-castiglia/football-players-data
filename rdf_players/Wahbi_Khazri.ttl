@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Wahbi_Khazri a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q27794> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/9rij0v1674742344.png"^^xsd:anyURI ;
+    foaf:name "Wahbi Khazri"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 44 ;
+    stats:blocks 13 ;
+    stats:carries 259 ;
+    stats:clearances 7 ;
+    stats:dispossessed 25 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.2 ;
+    stats:expectedGoals 2.3 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 18 ;
+    stats:matches90s 12.4 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 10 ;
+    stats:minutesPlayed 1118 ;
+    stats:miscontrols 21 ;
+    stats:passesIntoPenaltyArea 8 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:progressiveCarries 24 ;
+    stats:progressivePasses 33 ;
+    stats:progressivePassesReceived 53 ;
+    stats:rank 1350 ;
+    stats:redCards 0 ;
+    stats:tackles 25 ;
+    stats:tacklesWon 18 ;
+    stats:touches 486 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1991-02-08"^^xsd:date ;
+    schema:description """Wahbi Khazri is a professional footballer who plays as an attacking midfielder or as a forward for Ligue 1 club Montpellier and the Tunisia national team.\r
+\r
+He began his career at Bastia, scoring 34 goals in 183 competitive games, winning the Championnat National and Ligue 2 in consecutive seasons. After 18 months at Bordeaux of Ligue 1, he transferred to Sunderland in January 2016, who loaned him to Rennes in 2017–18.\r
+\r
+Khazri represented Tunisia at under-20 level and France at under-21. He made his senior debut for the former in 2013 and represented the country at three Africa Cup of Nations tournaments and the 2018 FIFA World Cup."""@en ;
+    schema:height "1.82"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ysuxyt1471169575.jpg"^^xsd:anyURI ;
+    schema:memberOf "Montpellier"^^xsd:string ;
+    schema:name "Wahbi Khazri"^^xsd:string ;
+    schema:nationality "Tunisia"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

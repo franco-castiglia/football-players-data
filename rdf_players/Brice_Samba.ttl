@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Brice_Samba a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q15627817> ;
+    foaf:account "twitter.com/samba_brice"^^xsd:anyURI,
+        "www.facebook.com/OfficielBriceSamba/"^^xsd:anyURI,
+        "www.instagram.com/brice_samba1/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/j27ewi1674744091.png"^^xsd:anyURI ;
+    foaf:name "Brice Samba"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 25 ;
+    stats:blocks 0 ;
+    stats:carries 404 ;
+    stats:clearances 12 ;
+    stats:dispossessed 0 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 17.0 ;
+    stats:matchesPlayed 17 ;
+    stats:matchesStarted 17 ;
+    stats:minutesPlayed 1529 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 1 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 2319 ;
+    stats:redCards 0 ;
+    stats:tackles 2 ;
+    stats:tacklesWon 1 ;
+    stats:touches 723 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1994-04-25"^^xsd:date ;
+    schema:description "Brice Lauriche Samba (born 25 April 1994) is a professional footballer who plays as a goalkeeper for Ligue 1 club Rennes. Born in the Republic of Congo, he plays for the France national team."@en ;
+    schema:height "1.87 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/mzfwqe1549735384.jpg"^^xsd:anyURI ;
+    schema:memberOf "Rennes"^^xsd:string ;
+    schema:name "Brice Samba"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "196 lbs"^^xsd:string .
+

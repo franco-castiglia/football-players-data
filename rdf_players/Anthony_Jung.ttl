@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Anthony_Jung a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q573461> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/vl73nc1742136558.png"^^xsd:anyURI ;
+    foaf:name "Anthony Jung"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 81 ;
+    stats:blocks 23 ;
+    stats:carries 1044 ;
+    stats:clearances 77 ;
+    stats:dispossessed 2 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 25 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 21.1 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 20 ;
+    stats:minutesPlayed 1898 ;
+    stats:miscontrols 13 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 2 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 20 ;
+    stats:progressivePasses 121 ;
+    stats:progressivePassesReceived 6 ;
+    stats:rank 1287 ;
+    stats:redCards 0 ;
+    stats:tackles 34 ;
+    stats:tacklesWon 22 ;
+    stats:touches 1695 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1991-11-03"^^xsd:date ;
+    schema:description """Anthony Jung (German pronunciation: ; born 3 November 1991) is a German professional footballer who plays as a left-back for 2. Bundesliga club Werder Bremen. \r
+\r
+Club career\r
+Early career\r
+Jung played youth football for multiple clubs in the Wiesbaden area before joining the Eintracht Frankfurt youth academy in 2005. In 2010 he was included in the club's second team, where he became a regular in the German fourth tier. In January 2012, first team head coach, Armin Veh included Jung in the first team training camp in Qatar. After the 2011–12 season, he joined FSV Frankfurt on a free transfer, signing a one-year deal with the option of extending the deal with another year. In the first match of the 2012–13 season, a 1–1 draw against SV Sandhausen, Jung made his professional debut."""@en ;
+    schema:height "1.86 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ftlv6g1610626182.jpg"^^xsd:anyURI ;
+    schema:memberOf "Werder Bremen"^^xsd:string ;
+    schema:name "Anthony Jung"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

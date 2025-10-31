@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:TylerJay_Dibling a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ivberf1756977120.png"^^xsd:anyURI ;
+    foaf:name "Tyler-Jay Dibling"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 80 ;
+    stats:blocks 19 ;
+    stats:carries 558 ;
+    stats:clearances 16 ;
+    stats:dispossessed 55 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.5 ;
+    stats:expectedGoals 2.5 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 20 ;
+    stats:matches90s 20.8 ;
+    stats:matchesPlayed 33 ;
+    stats:matchesStarted 20 ;
+    stats:minutesPlayed 1874 ;
+    stats:miscontrols 44 ;
+    stats:passesIntoPenaltyArea 20 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 2 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 69 ;
+    stats:progressivePasses 64 ;
+    stats:progressivePassesReceived 96 ;
+    stats:rank 726 ;
+    stats:redCards 0 ;
+    stats:tackles 34 ;
+    stats:tacklesWon 20 ;
+    stats:touches 868 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "2006-03-12"^^xsd:date ;
+    schema:description """Tyler-Jay Robert Dibling (born 17 February 2006) is an English professional footballer who plays as a winger for Premier League club Everton.\r
+\r
+Club career\r
+Early career\r
+Born in Exeter, Dibling started his career with local side Axminster Town AFC, where his father Sam played for the men's team. He joined Millwey Rise FC at the age of five, spending two years with the youth side.\r
+\r
+He joined Southampton in 2012, also spending a year with Exeter City at the age of seven, before signing a professional contract with The Saints in October 2021. In April 2022, he scored a hat-trick of near-identical goals in a Premier League 2 game against Newcastle United, with a video of the goals going viral.\r
+\r
+Having been named on the bench for a Premier League game against Brentford, in which he did not feature, Dibling drew attention from Newcastle United and Chelsea.\r
+\r
+He joined the latter in July 2022, after ten years with Southampton, with the promise of a professional contract once he turned seventeen. However, after failing to settle at Chelsea, making only two appearances for the club's under-18 side, he returned to Southampton in September 2022."""@en ;
+    schema:height "1.78 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/57pgpp1735569640.jpg"^^xsd:anyURI ;
+    schema:memberOf "Everton"^^xsd:string ;
+    schema:name "Tyler-Jay Dibling"^^xsd:string ;
+    schema:nationality "England"^^xsd:string .
+

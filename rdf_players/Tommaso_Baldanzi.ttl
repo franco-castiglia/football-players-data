@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Tommaso_Baldanzi a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q108188237> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/vg7j8q1758815262.png"^^xsd:anyURI ;
+    foaf:name "Tommaso Baldanzi"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 48 ;
+    stats:blocks 4 ;
+    stats:carries 292 ;
+    stats:clearances 8 ;
+    stats:dispossessed 9 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.0 ;
+    stats:expectedGoals 1.4 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 10 ;
+    stats:matches90s 9.2 ;
+    stats:matchesPlayed 31 ;
+    stats:matchesStarted 5 ;
+    stats:minutesPlayed 832 ;
+    stats:miscontrols 16 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 39 ;
+    stats:progressivePasses 23 ;
+    stats:progressivePassesReceived 57 ;
+    stats:rank 215 ;
+    stats:redCards 0 ;
+    stats:tackles 12 ;
+    stats:tacklesWon 4 ;
+    stats:touches 472 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2003-03-23"^^xsd:date ;
+    schema:description "Tommaso Baldanzi (born 23 March 2003) is an Italian professional footballer who plays as an attacking midfielder for Serie A club Roma."@en ;
+    schema:height "1.70 m (5 ft 7 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/j1wtmh1629815243.jpg"^^xsd:anyURI ;
+    schema:memberOf "Roma"^^xsd:string ;
+    schema:name "Tommaso Baldanzi"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "139 lbs"^^xsd:string .
+

@@ -1,0 +1,62 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Luca_Pellegrini a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    foaf:account "www.instagram.com/lucapellegrini3/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/nyb0nd1698231538.png"^^xsd:anyURI ;
+    foaf:name "Luca Pellegrini"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 41 ;
+    stats:blocks 10 ;
+    stats:carries 420 ;
+    stats:clearances 32 ;
+    stats:dispossessed 9 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.8 ;
+    stats:expectedGoals 0.7 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 19 ;
+    stats:keyPasses 20 ;
+    stats:matches90s 11.9 ;
+    stats:matchesPlayed 22 ;
+    stats:matchesStarted 10 ;
+    stats:minutesPlayed 1067 ;
+    stats:miscontrols 17 ;
+    stats:passesIntoPenaltyArea 21 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 21 ;
+    stats:progressivePasses 72 ;
+    stats:progressivePassesReceived 61 ;
+    stats:rank 2070 ;
+    stats:redCards 0 ;
+    stats:tackles 23 ;
+    stats:tacklesWon 11 ;
+    stats:touches 851 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1999-03-07"^^xsd:date ;
+    schema:description """Luca Pellegrini (born 7 March 1999) is an Italian professional footballer who plays as a left back for Serie A club Lazio, on loan from Juventus, and the Italy national team. \r
+\r
+Pellegrini made his debut with the Italy U21 team on 11 October 2018, in a friendly match lost 1–0 against Belgium.\r
+\r
+With the Italy U20 side he took part in the 2019 FIFA U-20 World Cup, in which Italy achieved a fourth–place finish.\r
+\r
+He received his first call up to the Italy senior squad for the team's UEFA Euro 2020 qualifying matches against Armenia and Finland in September 2019.\r
+\r
+He made his senior debut with Italy on 11 November 2020, featuring as a substitute in a 4–0 friendly win over Estonia in Florence.\r
+\r
+Despite appearing in earlier qualifiers, he was not selected for Italy's 2021 UEFA European Under-21 Championship squad. He was unavailable for selection as he was suffering from a persistent adductor muscle injury beginning in February 2021."""@en ;
+    schema:height "178 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/wna2071600249379.jpg"^^xsd:anyURI ;
+    schema:memberOf "Lazio"^^xsd:string ;
+    schema:name "Luca Pellegrini"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

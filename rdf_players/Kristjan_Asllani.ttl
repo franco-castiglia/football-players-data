@@ -1,0 +1,68 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Kristjan_Asllani a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q106313163> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/vqdsnf1758813343.png"^^xsd:anyURI ;
+    foaf:name "Kristjan Asllani"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 49 ;
+    stats:blocks 8 ;
+    stats:carries 700 ;
+    stats:clearances 13 ;
+    stats:dispossessed 2 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.9 ;
+    stats:expectedGoals 2.5 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 9 ;
+    stats:keyPasses 15 ;
+    stats:matches90s 10.9 ;
+    stats:matchesPlayed 21 ;
+    stats:matchesStarted 10 ;
+    stats:minutesPlayed 980 ;
+    stats:miscontrols 5 ;
+    stats:passesIntoPenaltyArea 18 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:progressiveCarries 7 ;
+    stats:progressivePasses 55 ;
+    stats:progressivePassesReceived 20 ;
+    stats:rank 167 ;
+    stats:redCards 0 ;
+    stats:tackles 14 ;
+    stats:tacklesWon 3 ;
+    stats:touches 1061 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2002-03-09"^^xsd:date ;
+    schema:description """Kristjan Asllani (born 9 March 2002) is an Albanian professional footballer who plays as a midfielder for Serie A club Inter Milan, on loan from Empoli. He represents the Albania national team.\r
+\r
+Personal life\r
+Asllani was born in Elbasan to Albanian parents, but soon relocated to Italy together with his family in the small Tuscan town of Buti, where he started playing football at the age of five with a small local team.\r
+\r
+Club career\r
+Empoli\r
+Asllani made his professional debut for Empoli on 13 January 2021, in a Coppa Italia game against Napoli.\r
+\r
+Inter\r
+On 29 June 2022, Asllani joined Inter from Empoli for a fee of €14m. Empoli announced that the transfer is structured as a loan initially, with a subsequent Inter obligation to buy. Asllani scored his first goal in his first appearance in a friendly against F.C. Milano.\r
+\r
+On 18 January 2023, Asllani won his first career trophy, the 2022 Supercoppa Italiana, as Inter defeated Milan 3–0 in King Fahd International Stadium; he was brought on in the 84th minute of the match.\r
+\r
+International career\r
+In June 2021, Asllani made his debut for Albania U21 in a friendly against Belgium U21. Having lived in Italy since the age of five, Asllani is eligible for Italy or Albania as he holds both citizenships, but chose to represent the latter."""@en ;
+    schema:height "5' 9\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/tx43901700756309.jpg"^^xsd:anyURI ;
+    schema:memberOf "Torino"^^xsd:string ;
+    schema:name "Kristjan Asllani"^^xsd:string ;
+    schema:nationality "Albania"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

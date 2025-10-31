@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Lukas_Ullrich a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q118108336> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/3679fq1756313492.png"^^xsd:anyURI ;
+    foaf:name "Lukas Ullrich"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 73 ;
+    stats:blocks 26 ;
+    stats:carries 531 ;
+    stats:clearances 74 ;
+    stats:dispossessed 12 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.8 ;
+    stats:expectedGoals 0.9 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 23 ;
+    stats:keyPasses 8 ;
+    stats:matches90s 21.1 ;
+    stats:matchesPlayed 26 ;
+    stats:matchesStarted 24 ;
+    stats:minutesPlayed 1903 ;
+    stats:miscontrols 21 ;
+    stats:passesIntoPenaltyArea 9 ;
+    stats:penaltiesConceded 2 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 31 ;
+    stats:progressivePasses 39 ;
+    stats:progressivePassesReceived 71 ;
+    stats:rank 2647 ;
+    stats:redCards 0 ;
+    stats:tackles 25 ;
+    stats:tacklesWon 16 ;
+    stats:touches 1073 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2004-03-16"^^xsd:date ;
+    schema:description "Lukas Ullrich (born 16 March 2004) is a German professional footballer who plays as a left-back for Bundesliga club Borussia Mönchengladbach."@en ;
+    schema:height "180 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/hgv2ts1741815576.jpg"^^xsd:anyURI ;
+    schema:memberOf "Borussia Mönchengladbach"^^xsd:string ;
+    schema:name "Lukas Ullrich"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

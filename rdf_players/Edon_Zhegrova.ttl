@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Edon_Zhegrova a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q42303600> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/0cl9vy1759225607.png"^^xsd:anyURI ;
+    foaf:name "Edon Zhegrova"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 42 ;
+    stats:blocks 8 ;
+    stats:carries 360 ;
+    stats:clearances 1 ;
+    stats:dispossessed 29 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.2 ;
+    stats:expectedGoals 2.3 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 16 ;
+    stats:matches90s 10.9 ;
+    stats:matchesPlayed 12 ;
+    stats:matchesStarted 12 ;
+    stats:minutesPlayed 978 ;
+    stats:miscontrols 23 ;
+    stats:passesIntoPenaltyArea 26 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 37 ;
+    stats:progressivePasses 54 ;
+    stats:progressivePassesReceived 81 ;
+    stats:rank 2838 ;
+    stats:redCards 0 ;
+    stats:tackles 5 ;
+    stats:tacklesWon 2 ;
+    stats:touches 524 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1999-03-31"^^xsd:date ;
+    schema:description """Edon Lulzim Zhegrova (born 31 March 1999) is a professional footballer who plays as a right winger or right midfielder for Serie A club Juventus. Born in Germany, he plays for the Kosovo national team.\r
+\r
+Club career\r
+Early career / Genk\r
+Zhegrova is a product of youth team systems of the different Kosovan and Belgian sides. In 2012, he was chosen as the best player of the Milan Junior Camp which was held in Kosovo. On 22 March 2017, Zhegrova joined Belgian First Division A side Genk. On 10 September 2017, he made his debut in a 1–1 away draw against Gent after coming on as a substitute in the 80th minute in place of Ruslan Malinovskyi."""@en ;
+    schema:height "1.81 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/g1klsb1653486280.jpg"^^xsd:anyURI ;
+    schema:memberOf "Juventus"^^xsd:string ;
+    schema:name "Edon Zhegrova"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "146 lbs"^^xsd:string .
+

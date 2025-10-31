@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Arthur_Melo a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q39667548> ;
+    foaf:account "instagram.com/arthurhmelo?igshid=151w3snz2eg18"^^xsd:anyURI,
+        "twitter.com/arthurmeloreal"^^xsd:anyURI,
+        "www.facebook.com/ArthurMeloOficial/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/41k0xi1697893800.png"^^xsd:anyURI ;
+    foaf:name "Arthur Melo"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 49 ;
+    stats:blocks 5 ;
+    stats:carries 539 ;
+    stats:clearances 12 ;
+    stats:dispossessed 9 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 10.5 ;
+    stats:matchesPlayed 15 ;
+    stats:matchesStarted 10 ;
+    stats:minutesPlayed 941 ;
+    stats:miscontrols 10 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 24 ;
+    stats:progressivePasses 70 ;
+    stats:progressivePassesReceived 17 ;
+    stats:rank 1717 ;
+    stats:redCards 0 ;
+    stats:tackles 25 ;
+    stats:tacklesWon 11 ;
+    stats:touches 806 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1996-08-12"^^xsd:date ;
+    schema:description """Arthur Henrique Ramos de Oliveira Melo (born 12 August 1996), known as Arthur Melo or simply Arthur, is a Brazilian professional footballer who plays as a midfielder for Serie A club Juventus.\r
+\r
+Born in Goiânia, Arthur began his career with Grêmio, and won the Copa Libertadores in 2017. He signed for Barcelona for an initial fee of €31 million in 2018. Arthur joined Italian club Juventus in 2020. He was loaned out to Liverpool in the 2022–23 season, only making one appearance for the club. The following season he was loaned to Fiorentina.\r
+\r
+Arthur made his senior debut for Brazil in 2018 after previously being capped by Brazil youth team at under-17 level. He was later part of the squad that won the 2019 Copa América."""@en ;
+    schema:height "1.71 m (5 ft 7 1⁄2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ldio091621544825.jpg"^^xsd:anyURI ;
+    schema:memberOf "Grêmio"^^xsd:string ;
+    schema:name "Arthur Melo"^^xsd:string ;
+    schema:nationality "Brazil"^^xsd:string ;
+    schema:weight "73 kg (161 lb)"^^xsd:string .
+

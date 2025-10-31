@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Vitaliy_Mykolenko a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q37875995> ;
+    foaf:account "www.instagram.com/mikola_16/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/d5b47x1756976481.png"^^xsd:anyURI ;
+    foaf:name "Vitaliy Mykolenko"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 88 ;
+    stats:blocks 25 ;
+    stats:carries 697 ;
+    stats:clearances 145 ;
+    stats:dispossessed 11 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 2.6 ;
+    stats:expectedGoals 0.5 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 44 ;
+    stats:keyPasses 24 ;
+    stats:matches90s 34.2 ;
+    stats:matchesPlayed 35 ;
+    stats:matchesStarted 35 ;
+    stats:minutesPlayed 3082 ;
+    stats:miscontrols 23 ;
+    stats:passesIntoPenaltyArea 40 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:progressiveCarries 33 ;
+    stats:progressivePasses 110 ;
+    stats:progressivePassesReceived 99 ;
+    stats:rank 1843 ;
+    stats:redCards 0 ;
+    stats:tackles 63 ;
+    stats:tacklesWon 38 ;
+    stats:touches 1678 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1999-05-29"^^xsd:date ;
+    schema:description "Vitaliy Serhiyovych Mykolenko (born 29 May 1999) is a Ukrainian professional footballer who plays as a left-back for Premier League club Everton and the Ukraine national team."@en ;
+    schema:height "1.81 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/wq9a3t1715903574.jpg"^^xsd:anyURI ;
+    schema:memberOf "Everton"^^xsd:string ;
+    schema:name "Vitaliy Mykolenko"^^xsd:string ;
+    schema:nationality "Ukraine"^^xsd:string ;
+    schema:weight "157 lbs"^^xsd:string .
+

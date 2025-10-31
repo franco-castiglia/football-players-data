@@ -1,0 +1,77 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:David_Alaba a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q31981> ;
+    foaf:account "twitter.com/david_alaba"^^xsd:anyURI,
+        "www.facebook.com/david.alaba.10888/"^^xsd:anyURI,
+        "www.instagram.com/da_27/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/zxblp31733653341.png"^^xsd:anyURI ;
+    foaf:name "David Alaba"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 8 ;
+    stats:blocks 5 ;
+    stats:carries 180 ;
+    stats:clearances 7 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 3.5 ;
+    stats:matchesPlayed 7 ;
+    stats:matchesStarted 4 ;
+    stats:minutesPlayed 317 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 7 ;
+    stats:progressivePassesReceived 4 ;
+    stats:rank 74 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 0 ;
+    stats:touches 247 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1992-06-24"^^xsd:date ;
+    schema:description """David Olatukunbo Alaba (German pronunciation: ; born 24 June 1992) is an Austrian professional footballer who plays as a centre-back or left-back for La Liga club Real Madrid and captains the Austria national team. Considered one of the best defenders in the world, he is renowned for his versatility, technical skills and ability to contribute effectively in both defensive and offensive roles on the field.\r
+\r
+Alaba started out in Bayern's youth system before being promoted to the reserve team for the 2009–10 season. In January 2011, Alaba joined TSG 1899 Hoffenheim on loan until the end of the 2010–11 season. He returned to Bayern at the start of the 2011–12 season, where he went on to become a regular member of the first-team squad. Alaba made over 400 appearances for Bayern Munich, winning 27 honours including ten Bundesliga titles and two UEFA Champions League titles in 2013 and 2020, both as part of trebles. During his time in Germany, he was named in the UEFA Team of the Year three times. In 2021, Alaba signed for Real Madrid; he won the 2021–22 La Liga, Supercopa and Champions League title in his debut season.\r
+\r
+Alaba is Austria's second youngest player to play for their senior national team, debuting for them in 2009 as a 17-year-old. He has earned over 100 caps and represented his country at UEFA Euro 2016 and UEFA Euro 2020. He was voted Austrian Footballer of the Year on nine occasions (including six consecutive times from 2011 to 2016).\r
+\r
+Alaba played for Austria at under-17, under-19 and under-21 level. In October 2009, he was called up to the senior Austria national team for a match against France. He made his debut in this game, making him the youngest player in the history of the Austria national team. He scored his first goal for Austria on 16 October 2012 in a World Cup Qualifying game at home to Kazakhstan where Austria were 4–0 winners.\r
+\r
+At the age of just 19, Alaba won the prestigious vote for Austrian Footballer of the Year in 2011. In the poll organised by APA (Austrian press agency) among the coaches of the ten Austrian Bundesliga clubs, Alaba finished top on 21 points, just ahead of Austria Wien's Dutch star Nacer Barazite (20 points) and VfB Stuttgart's Martin Harnik. In December 2012, he received the award for the second consecutive year. On 10 September 2013, Alaba scored the only goal of the game against Ireland in the 84-minute to give Austria a 1–0. He scored the final goal in Austria's 3–0 win in the final qualification match against Faroe Islands.\r
+\r
+Alaba ended the 2014 FIFA World Cup qualification campaign as Austria's top scorer with six goals.\r
+\r
+He scored a ninth-minute Panenka-style penalty kick on 8 September 2015 to open a 4–1 away win over Sweden at the Friends Arena in Solna. The result qualified Austria for UEFA Euro 2016, their first successful qualification campaign for the continental championship. Alaba played in all three group matches as Austria finished last in their group with one point.\r
+\r
+On 24 March 2017, he captained Austria for the first time in a World Cup 2018 qualification game against Moldova in a 2–0 victory, deputizing in the absence of suspended captain Julian Baumgartlinger. Alaba played in eight matches as Austria failed to qualify for the 2018 FIFA World Cup.\r
+\r
+Alaba captained Austria during the UEFA Euro 2020, in which they reached the knockout stages in that competition for the first time in their history.\r
+\r
+On 17 June 2023, Alaba played his 100th match for Austria in a 1–1 away draw against Belgium during the UEFA Euro 2024 qualifying.\r
+\r
+Alaba was born in Vienna to George and Gina Alaba and has one sister, a professional recording artist, named Rose May Alaba. His Yoruba Nigerian father is a prince from Ogere who is also a rapper and works as a DJ. His Visayan mother emigrated from the Philippines to work as a nurse. He is a member of the Seventh-day Adventist Church."""@en ;
+    schema:height "180 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/sdcmqe1702815753.jpg"^^xsd:anyURI ;
+    schema:memberOf "Real Madrid"^^xsd:string ;
+    schema:name "David Alaba"^^xsd:string ;
+    schema:nationality "Austria"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

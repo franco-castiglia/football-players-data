@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Lewis_Cook a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q17496370> ;
+    foaf:account "twitter.com/lewiscook_"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/uf2dcw1757018455.png"^^xsd:anyURI ;
+    foaf:name "Lewis Cook"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 187 ;
+    stats:blocks 30 ;
+    stats:carries 825 ;
+    stats:clearances 70 ;
+    stats:dispossessed 18 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 4.1 ;
+    stats:expectedGoals 0.9 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 41 ;
+    stats:keyPasses 48 ;
+    stats:matches90s 33.1 ;
+    stats:matchesPlayed 36 ;
+    stats:matchesStarted 32 ;
+    stats:minutesPlayed 2978 ;
+    stats:miscontrols 31 ;
+    stats:passesIntoPenaltyArea 26 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 33 ;
+    stats:progressivePasses 158 ;
+    stats:progressivePassesReceived 52 ;
+    stats:rank 595 ;
+    stats:redCards 1 ;
+    stats:tackles 81 ;
+    stats:tacklesWon 42 ;
+    stats:touches 1900 ;
+    stats:yellowCards 8 ;
+    schema:birthDate "1997-02-03"^^xsd:date ;
+    schema:description """Lewis John Cook (born 3 February 1997) is an English professional footballer who plays as a midfielder for Premier League club AFC Bournemouth and the English national team.\r
+\r
+Cook is a graduate of Leeds United's academy. He has represented England at various youth levels. He has won the 2014 UEFA European Under-17 Championship, 2017 FIFA U-20 World Cup and 2018 Toulon Tournament with his country, captaining the team in the latter two tournaments."""@en ;
+    schema:height "1.75 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/2d50fx1510783216.jpg"^^xsd:anyURI ;
+    schema:memberOf "Bournemouth"^^xsd:string ;
+    schema:name "Lewis Cook"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "157 lbs"^^xsd:string .
+

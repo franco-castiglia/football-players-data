@@ -1,0 +1,52 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Konan_NDri a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q62056421> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/a61yrn1759692575.png"^^xsd:anyURI ;
+    foaf:name "Konan N’Dri"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 7 ;
+    stats:blocks 4 ;
+    stats:carries 78 ;
+    stats:clearances 0 ;
+    stats:dispossessed 8 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.5 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 3.4 ;
+    stats:matchesPlayed 11 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 306 ;
+    stats:miscontrols 11 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacker"^^xsd:string ;
+    stats:progressiveCarries 16 ;
+    stats:progressivePasses 2 ;
+    stats:progressivePassesReceived 22 ;
+    stats:rank 1846 ;
+    stats:redCards 0 ;
+    stats:tackles 3 ;
+    stats:tacklesWon 3 ;
+    stats:touches 122 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2000-10-27"^^xsd:date ;
+    schema:description "Konan Ignace Jocelyn N'Dri (born 27 October 2000) is an Ivorian professional footballer who plays as a winger or a forward for Italian Serie A club Lecce."@en ;
+    schema:height "1.74 m (5 ft 7 in)"^^xsd:string ;
+    schema:image "https://www.thesportsdb.com/images/media/player/thumb/3f24h31759692639.jpg"^^xsd:anyURI ;
+    schema:memberOf "Lecce"^^xsd:string ;
+    schema:name "Konan N’Dri"^^xsd:string ;
+    schema:nationality "Ivory Coast"^^xsd:string .
+

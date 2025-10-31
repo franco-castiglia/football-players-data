@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Caleb_Kporha a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q131109014> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/7reo1y1757013241.png"^^xsd:anyURI ;
+    foaf:name "Caleb Kporha"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 1 ;
+    stats:blocks 0 ;
+    stats:carries 4 ;
+    stats:clearances 1 ;
+    stats:dispossessed 2 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.1 ;
+    stats:matchesPlayed 2 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 13 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1408 ;
+    stats:redCards 0 ;
+    stats:tackles 2 ;
+    stats:tacklesWon 1 ;
+    stats:touches 11 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2006-07-15"^^xsd:date ;
+    schema:description "Caleb Billy Mawuko Kporha (born 15 July 2006) is an English professional footballer who plays for Premier League club Crystal Palace as a right-back or right wing-back. He is an England youth international."@en ;
+    schema:height "1.70 m (5 ft 7 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/t1sgyq1752343356.jpg"^^xsd:anyURI ;
+    schema:memberOf "Crystal Palace"^^xsd:string ;
+    schema:name "Caleb Kporha"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "67 kg (148 lb)"^^xsd:string .
+

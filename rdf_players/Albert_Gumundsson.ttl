@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Albert_Gumundsson a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q21171299> ;
+    foaf:account "twitter.com/snjallbert"^^xsd:anyURI,
+        "www.instagram.com/albertgudmundsson/?hl=nl"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/02k9mg1758891762.png"^^xsd:anyURI ;
+    foaf:name "Albert Guðmundsson"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 53 ;
+    stats:blocks 5 ;
+    stats:carries 402 ;
+    stats:clearances 9 ;
+    stats:dispossessed 14 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.8 ;
+    stats:expectedGoals 4.5 ;
+    stats:goals 6 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 15 ;
+    stats:matches90s 14.1 ;
+    stats:matchesPlayed 24 ;
+    stats:matchesStarted 16 ;
+    stats:minutesPlayed 1273 ;
+    stats:miscontrols 29 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 35 ;
+    stats:progressivePasses 37 ;
+    stats:progressivePassesReceived 59 ;
+    stats:rank 1106 ;
+    stats:redCards 0 ;
+    stats:tackles 9 ;
+    stats:tacklesWon 5 ;
+    stats:touches 624 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1997-06-15"^^xsd:date ;
+    schema:description "Albert Guðmundsson (born 15 June 1997) is an Icelandic professional footballer who plays as a winger for Fiorentina on loan from Genoa. He initially moved to the Netherlands joining SC Heerenveen in 2013. For the 2015–16 season, he signed for PSV and made his debut for Jong PSV in 2015."@en ;
+    schema:height "1.77 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/njw0ii1700049359.jpg"^^xsd:anyURI ;
+    schema:memberOf "Fiorentina"^^xsd:string ;
+    schema:name "Albert Guðmundsson"^^xsd:string ;
+    schema:nationality "Iceland"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

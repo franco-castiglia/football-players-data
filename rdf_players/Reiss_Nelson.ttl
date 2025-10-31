@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Reiss_Nelson a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q35039261> ;
+    foaf:account "twitter.com/reissnelson9"^^xsd:anyURI,
+        "www.facebook.com/ReissNelsonOfficial/"^^xsd:anyURI,
+        "www.instagram.com/reissnelson/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/gzbhps1756990425.png"^^xsd:anyURI ;
+    foaf:name "Reiss Nelson"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 29 ;
+    stats:blocks 11 ;
+    stats:carries 259 ;
+    stats:clearances 2 ;
+    stats:dispossessed 8 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.0 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 13 ;
+    stats:matches90s 5.4 ;
+    stats:matchesPlayed 11 ;
+    stats:matchesStarted 5 ;
+    stats:minutesPlayed 487 ;
+    stats:miscontrols 14 ;
+    stats:passesIntoPenaltyArea 15 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 45 ;
+    stats:progressivePasses 35 ;
+    stats:progressivePassesReceived 63 ;
+    stats:rank 1879 ;
+    stats:redCards 0 ;
+    stats:tackles 8 ;
+    stats:tacklesWon 6 ;
+    stats:touches 347 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1999-12-10"^^xsd:date ;
+    schema:description "Reiss Luke Nelson is an English professional footballer who plays as a winger for Premier League club Brentford, on loan from Arsenal."@en ;
+    schema:height "5 ft 9 in (1.75 m)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/mjwq641678272867.jpg"^^xsd:anyURI ;
+    schema:memberOf "Brentford"^^xsd:string ;
+    schema:name "Reiss Nelson"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "157 lbs"^^xsd:string .
+

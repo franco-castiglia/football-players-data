@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Luis_Perez a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/3059wj1678998968.png"^^xsd:anyURI ;
+    foaf:name "Luis Pérez"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 77 ;
+    stats:blocks 26 ;
+    stats:carries 585 ;
+    stats:clearances 86 ;
+    stats:dispossessed 5 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.1 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 29 ;
+    stats:keyPasses 27 ;
+    stats:matches90s 28.4 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 28 ;
+    stats:minutesPlayed 2558 ;
+    stats:miscontrols 28 ;
+    stats:passesIntoPenaltyArea 32 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 41 ;
+    stats:progressivePasses 89 ;
+    stats:progressivePassesReceived 117 ;
+    stats:rank 2094 ;
+    stats:redCards 0 ;
+    stats:tackles 41 ;
+    stats:tacklesWon 30 ;
+    stats:touches 1444 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1995-02-04"^^xsd:date ;
+    schema:description """Luis Jesús Pérez Maqueda (born 4 February 1995) is a Spanish footballer who plays for Real Valladolid as a right back. \r
+\r
+Born in Utrera, Seville, Andalusia, Pérez finished his graduation with Sevilla FC, and made his senior debut with the C-team in the 2014–15 season, in Tercera División. He also appeared with the reserves in Segunda División B during that campaign, featuring in two matches.\r
+\r
+On 12 July 2015, Pérez moved to fellow third-tier club Real Jaén, signing a one-year deal. After being an undisputed starter during the campaign, he signed for Segunda División side Elche CF on 11 July 2016.\r
+\r
+Pérez made his professional debut on 3 September 2016, coming on as a second-half substitute for Javi Noblejas in a 3–1 home win against CD Tenerife. On 21 July of the following year, after suffering relegation, he signed a three-year contract with the latter club.\r
+\r
+On 23 July 2020, Pérez signed a three-year deal with La Liga side Real Valladolid."""@en ;
+    schema:height "1.78 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/mgt8mn1604681374.jpg"^^xsd:anyURI ;
+    schema:memberOf "Valladolid"^^xsd:string ;
+    schema:name "Luis Pérez"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

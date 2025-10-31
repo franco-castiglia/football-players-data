@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Maximiliano_Caufriez a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q24037029> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/gg8qqn1674745359.png"^^xsd:anyURI ;
+    foaf:name "Maximiliano Caufriez"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 1 ;
+    stats:blocks 2 ;
+    stats:carries 8 ;
+    stats:clearances 4 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 1.0 ;
+    stats:matchesPlayed 1 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 90 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 1 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 515 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 1 ;
+    stats:touches 23 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1997-02-16"^^xsd:date ;
+    schema:description "Maximiliano Caufriez (born 16 February 1997) is a Belgian professional footballer who plays as a centre-back and right-back for La Liga club Valencia, on loan from Clermont."@en ;
+    schema:height "1.89 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/qaridk1638146293.jpg"^^xsd:anyURI ;
+    schema:memberOf "Clermont Foot"^^xsd:string ;
+    schema:name "Maximiliano Caufriez"^^xsd:string ;
+    schema:nationality "Belgium"^^xsd:string ;
+    schema:weight "81 kg (179 lb)"^^xsd:string .
+

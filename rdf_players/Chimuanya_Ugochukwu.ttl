@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Chimuanya_Ugochukwu a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q106366721> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/joik2s1757177541.png"^^xsd:anyURI ;
+    foaf:name "Chimuanya Ugochukwu"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 67 ;
+    stats:blocks 27 ;
+    stats:carries 479 ;
+    stats:clearances 23 ;
+    stats:dispossessed 13 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 1.0 ;
+    stats:expectedGoals 0.9 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 14 ;
+    stats:keyPasses 14 ;
+    stats:matches90s 18.4 ;
+    stats:matchesPlayed 26 ;
+    stats:matchesStarted 18 ;
+    stats:minutesPlayed 1655 ;
+    stats:miscontrols 12 ;
+    stats:passesIntoPenaltyArea 7 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 29 ;
+    stats:progressivePasses 49 ;
+    stats:progressivePassesReceived 20 ;
+    stats:rank 2646 ;
+    stats:redCards 0 ;
+    stats:tackles 50 ;
+    stats:tacklesWon 24 ;
+    stats:touches 879 ;
+    stats:yellowCards 7 ;
+    schema:birthDate "2004-03-26"^^xsd:date ;
+    schema:description "Chimuanya Lesley Ugochukwu is a French professional footballer who plays as a central midfielder for Premier League club Burnley."@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/h93zxf1693424833.jpg"^^xsd:anyURI ;
+    schema:memberOf "Burnley"^^xsd:string ;
+    schema:name "Chimuanya Ugochukwu"^^xsd:string ;
+    schema:nationality "France"^^xsd:string .
+

@@ -1,0 +1,66 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jubal_Junior a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q10552612> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/15ib171674739326.png"^^xsd:anyURI ;
+    foaf:name "Jubal Júnior"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 90 ;
+    stats:blocks 61 ;
+    stats:carries 698 ;
+    stats:clearances 201 ;
+    stats:dispossessed 2 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 5.2 ;
+    stats:goals 6 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 25 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 29.3 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 30 ;
+    stats:minutesPlayed 2640 ;
+    stats:miscontrols 7 ;
+    stats:passesIntoPenaltyArea 7 ;
+    stats:penaltiesConceded 2 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 33 ;
+    stats:progressivePassesReceived 3 ;
+    stats:rank 1286 ;
+    stats:redCards 0 ;
+    stats:tackles 60 ;
+    stats:tacklesWon 39 ;
+    stats:touches 1458 ;
+    stats:yellowCards 7 ;
+    schema:birthDate "1993-08-29"^^xsd:date ;
+    schema:description """Jubal Rocha Mendes Júnior (born 29 August 1993), simply known as Jubal, is a Brazilian professional footballer who plays as a centre-back for Ligue 1 club Auxerre.\r
+\r
+Club career\r
+Born in Inhumas, Goiás, Jubal began his career on Vila Nova. He made his professional debut on 13 February 2011, against Aparecidense for the Campeonato Goiano championship.\r
+\r
+In June, Jubal was transferred to Santos, being assigned to the youth setup. He made his debut for the club on 30 January 2013, starting in a 1–0 Campeonato Paulista away win against Ituano; it was his maiden appearance of the year.\r
+\r
+Profiting from Edu Dracena's injury, Jubal started the first game of the 2014 campaign, a 1–0 home success over XV de Piracicaba on 18 January. Three days later he scored his first professional goal, netting the last through a header in a 1–1 away draw against Audax.\r
+\r
+Jubal made his Série A debut on 20 April, coming on as a substitute for Neto in a 1–1 home draw against Sport Recife. On 11 June 2015 he was loaned to fellow league team Avaí, until the end of the year.\r
+\r
+On 29 January 2016, Jubal rescinded with Santos and moved to Primera Liga side Arouca, with his former club retaining 50% of his federative rights. After being a regular starter, he moved to fellow league team Vitória de Guimarães on 18 August 2017, on a one-year loan deal.\r
+\r
+On 2 September 2019, Jubal signed with Vitória de Setúbal."""@en ;
+    schema:height "1.87 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/d4rov91674739321.jpg"^^xsd:anyURI ;
+    schema:memberOf "Auxerre"^^xsd:string ;
+    schema:name "Jubal Júnior"^^xsd:string ;
+    schema:nationality "Brazil"^^xsd:string ;
+    schema:weight "77 kg"^^xsd:string .
+

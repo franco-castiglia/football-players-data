@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Daniel_Peretz a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q100272666> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/t5gqz71741878153.png"^^xsd:anyURI ;
+    foaf:name "Daniel Peretz"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 10 ;
+    stats:blocks 0 ;
+    stats:carries 67 ;
+    stats:clearances 2 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 3.0 ;
+    stats:matchesPlayed 3 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 270 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 1 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 2088 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 106 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2000-07-10"^^xsd:date ;
+    schema:description "Daniel Peretz (Hebrew: דניאל פרץ, /ˈdɑːˈnɪɛl ˈpɛrɛ/ t̻͡s̪; born 10 July 2000) is an Israeli professional footballer who plays as a goalkeeper for Bundesliga club Bayern Munich and the Israel national team."@en ;
+    schema:height "190 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/mxxe201698561238.jpg"^^xsd:anyURI ;
+    schema:memberOf "Hamburg"^^xsd:string ;
+    schema:name "Daniel Peretz"^^xsd:string ;
+    schema:nationality "Israel"^^xsd:string ;
+    schema:weight "194 lbs"^^xsd:string .
+

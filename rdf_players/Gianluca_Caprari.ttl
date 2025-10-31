@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Gianluca_Caprari a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1539560> ;
+    foaf:account "http://www.facebook.com/GianlucaCaprari/"^^xsd:anyURI,
+        "twitter.com/gianlucacaprari"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/d6cfcn1679663682.png"^^xsd:anyURI ;
+    foaf:name "Gianluca Caprari"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 57 ;
+    stats:blocks 14 ;
+    stats:carries 629 ;
+    stats:clearances 2 ;
+    stats:dispossessed 31 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 2.4 ;
+    stats:expectedGoals 4.2 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 30 ;
+    stats:matches90s 18.3 ;
+    stats:matchesPlayed 34 ;
+    stats:matchesStarted 18 ;
+    stats:minutesPlayed 1651 ;
+    stats:miscontrols 38 ;
+    stats:passesIntoPenaltyArea 21 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 43 ;
+    stats:progressivePasses 81 ;
+    stats:progressivePassesReceived 104 ;
+    stats:rank 469 ;
+    stats:redCards 0 ;
+    stats:tackles 19 ;
+    stats:tacklesWon 11 ;
+    stats:touches 912 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1993-07-30"^^xsd:date ;
+    schema:description "Gianluca Caprari (born 30 July 1993) is an Italian professional footballer who plays as a forward for Serie A club Monza, on loan from Hellas Verona. He also plays for the Italy national team."@en ;
+    schema:height "1.76 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/fquskc1546256702.jpg"^^xsd:anyURI ;
+    schema:memberOf "Monza"^^xsd:string ;
+    schema:name "Gianluca Caprari"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

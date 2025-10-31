@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ander_Barrenetxea a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q59823403> ;
+    foaf:account "www.instagram.com/anderbarrene7/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/02yrla1659961210.png"^^xsd:anyURI ;
+    foaf:name "Ander Barrenetxea"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 88 ;
+    stats:blocks 15 ;
+    stats:carries 470 ;
+    stats:clearances 16 ;
+    stats:dispossessed 26 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.9 ;
+    stats:expectedGoals 1.6 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 11 ;
+    stats:keyPasses 16 ;
+    stats:matches90s 14.0 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 14 ;
+    stats:minutesPlayed 1263 ;
+    stats:miscontrols 47 ;
+    stats:passesIntoPenaltyArea 22 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 43 ;
+    stats:progressivePasses 48 ;
+    stats:progressivePassesReceived 152 ;
+    stats:rank 250 ;
+    stats:redCards 0 ;
+    stats:tackles 26 ;
+    stats:tacklesWon 19 ;
+    stats:touches 751 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "2001-12-27"^^xsd:date ;
+    schema:description "Ander Barrenetxea Muguruza (born 27 December 2001) is a Spanish professional footballer who plays for Real Sociedad as a forward."@en ;
+    schema:height "1.78 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/hkavks1600722048.jpg"^^xsd:anyURI ;
+    schema:memberOf "Real Sociedad"^^xsd:string ;
+    schema:name "Ander Barrenetxea"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

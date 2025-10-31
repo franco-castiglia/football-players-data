@@ -1,0 +1,52 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Natan a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    foaf:account "www.instagram.com/natansouza04/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/gxku2i1697532941.png"^^xsd:anyURI ;
+    foaf:name "Natan"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 75 ;
+    stats:blocks 24 ;
+    stats:carries 929 ;
+    stats:clearances 123 ;
+    stats:dispossessed 8 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.6 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 28 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 24.2 ;
+    stats:matchesPlayed 31 ;
+    stats:matchesStarted 23 ;
+    stats:minutesPlayed 2175 ;
+    stats:miscontrols 15 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 12 ;
+    stats:progressivePasses 52 ;
+    stats:progressivePassesReceived 6 ;
+    stats:rank 1859 ;
+    stats:redCards 1 ;
+    stats:tackles 35 ;
+    stats:tacklesWon 24 ;
+    stats:touches 1514 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "2001-02-06"^^xsd:date ;
+    schema:description "Natan Bernardo de Souza (born 6 February 2001), simply known as Natan, is a Brazilian professional footballer who plays as a centre-back for La Liga side Betis."@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/i3td7p1702563899.jpg"^^xsd:anyURI ;
+    schema:memberOf "Real Betis"^^xsd:string ;
+    schema:name "Natan"^^xsd:string ;
+    schema:nationality "Brazil"^^xsd:string ;
+    schema:weight "203 lbs"^^xsd:string .
+

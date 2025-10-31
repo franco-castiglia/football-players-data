@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Aitor_Ruibal a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q46748781> ;
+    foaf:account "twitter.com/aruibal9?lang=ar"^^xsd:anyURI,
+        "www.instagram.com/aitorrg9/?hl=es"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/gfsisn1701176760.png"^^xsd:anyURI ;
+    foaf:name "Aitor Ruibal"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 71 ;
+    stats:blocks 20 ;
+    stats:carries 398 ;
+    stats:clearances 40 ;
+    stats:dispossessed 16 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 2.4 ;
+    stats:expectedGoals 0.9 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 14 ;
+    stats:keyPasses 20 ;
+    stats:matches90s 14.6 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 13 ;
+    stats:minutesPlayed 1313 ;
+    stats:miscontrols 27 ;
+    stats:passesIntoPenaltyArea 12 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 21 ;
+    stats:progressivePasses 50 ;
+    stats:progressivePassesReceived 64 ;
+    stats:rank 2273 ;
+    stats:redCards 0 ;
+    stats:tackles 32 ;
+    stats:tacklesWon 23 ;
+    stats:touches 790 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1996-03-22"^^xsd:date ;
+    schema:description "Aitor Ruibal García (born 22 March 1996) is a Spanish footballer who plays as a forward for Real Betis."@en ;
+    schema:height "1.76 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/yygd3z1603104142.jpg"^^xsd:anyURI ;
+    schema:memberOf "Real Betis"^^xsd:string ;
+    schema:name "Aitor Ruibal"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

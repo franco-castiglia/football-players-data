@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Andrea_Carboni a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q96617433> ;
+    foaf:account "http://www.instagram.com/andreacarboni36/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/3jz13d1632342615.png"^^xsd:anyURI ;
+    foaf:name "Andrea Carboni"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 62 ;
+    stats:blocks 31 ;
+    stats:carries 822 ;
+    stats:clearances 106 ;
+    stats:dispossessed 5 ;
+    stats:errors 4 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 27 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 24.3 ;
+    stats:matchesPlayed 26 ;
+    stats:matchesStarted 25 ;
+    stats:minutesPlayed 2191 ;
+    stats:miscontrols 15 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 9 ;
+    stats:progressivePasses 51 ;
+    stats:progressivePassesReceived 32 ;
+    stats:rank 477 ;
+    stats:redCards 0 ;
+    stats:tackles 60 ;
+    stats:tacklesWon 35 ;
+    stats:touches 1412 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "2001-02-04"^^xsd:date ;
+    schema:description "Andrea Carboni (born 4 February 2001) is an Italian professional footballer who plays as a defender for Serie A club Monza."@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/g4868j1607076158.jpg"^^xsd:anyURI ;
+    schema:memberOf "Monza"^^xsd:string ;
+    schema:name "Andrea Carboni"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

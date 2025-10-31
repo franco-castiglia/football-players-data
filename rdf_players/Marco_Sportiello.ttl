@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Marco_Sportiello a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6757719> ;
+    foaf:account "twitter.com/marcosportiell1"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/c4zs4t1729895496.png"^^xsd:anyURI ;
+    foaf:name "Marco Sportiello"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 1 ;
+    stats:blocks 0 ;
+    stats:carries 37 ;
+    stats:clearances 1 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 1.4 ;
+    stats:matchesPlayed 2 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 126 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 2489 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 63 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1992-05-10"^^xsd:date ;
+    schema:description "Marco Sportiello (born 10 May 1992) is an Italian professional footballer who plays as a goalkeeper for Serie A club Atalanta. He is considered a penalty saving specialist."@en ;
+    schema:height "192 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/5d6ie81546700392.jpg"^^xsd:anyURI ;
+    schema:memberOf "Atalanta"^^xsd:string ;
+    schema:name "Marco Sportiello"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "192 lbs"^^xsd:string .
+

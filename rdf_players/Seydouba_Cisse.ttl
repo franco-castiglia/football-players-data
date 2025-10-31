@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Seydouba_Cisse a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q108515126> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/kujtjx1724222480.png"^^xsd:anyURI ;
+    foaf:name "Seydouba Cissé"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 154 ;
+    stats:blocks 25 ;
+    stats:carries 787 ;
+    stats:clearances 45 ;
+    stats:dispossessed 33 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.0 ;
+    stats:expectedGoals 3.0 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 12 ;
+    stats:keyPasses 17 ;
+    stats:matches90s 27.1 ;
+    stats:matchesPlayed 34 ;
+    stats:matchesStarted 31 ;
+    stats:minutesPlayed 2435 ;
+    stats:miscontrols 32 ;
+    stats:passesIntoPenaltyArea 15 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 26 ;
+    stats:progressivePasses 110 ;
+    stats:progressivePassesReceived 42 ;
+    stats:rank 566 ;
+    stats:redCards 1 ;
+    stats:tackles 59 ;
+    stats:tacklesWon 37 ;
+    stats:touches 1409 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2001-02-10"^^xsd:date ;
+    schema:description "Seydouba Cissé (born 10 February 2001) is a Guinean footballer who plays as a midfielder for Spanish club CD Leganés and the Guinea national team."@en ;
+    schema:height "1.78 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/udomeu1724222397.jpg"^^xsd:anyURI ;
+    schema:memberOf "Leganes"^^xsd:string ;
+    schema:name "Seydouba Cissé"^^xsd:string ;
+    schema:nationality "Guinea"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

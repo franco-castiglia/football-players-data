@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Antoine_Semenyo a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q52990659> ;
+    foaf:account "twitter.com/serlomkofi"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/vv0nyv1757018869.png"^^xsd:anyURI ;
+    foaf:name "Antoine Semenyo"^^xsd:string ;
+    stats:assists 5 ;
+    stats:ballRecoveries 158 ;
+    stats:blocks 67 ;
+    stats:carries 979 ;
+    stats:clearances 39 ;
+    stats:dispossessed 77 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 5.8 ;
+    stats:expectedGoals 10.0 ;
+    stats:goals 11 ;
+    stats:goalsNonPenalty 11 ;
+    stats:interceptions 11 ;
+    stats:keyPasses 46 ;
+    stats:matches90s 35.6 ;
+    stats:matchesPlayed 37 ;
+    stats:matchesStarted 36 ;
+    stats:minutesPlayed 3203 ;
+    stats:miscontrols 84 ;
+    stats:passesIntoPenaltyArea 45 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 140 ;
+    stats:progressivePasses 109 ;
+    stats:progressivePassesReceived 282 ;
+    stats:rank 2394 ;
+    stats:redCards 0 ;
+    stats:tackles 55 ;
+    stats:tacklesWon 35 ;
+    stats:touches 1653 ;
+    stats:yellowCards 9 ;
+    schema:birthDate "2000-01-07"^^xsd:date ;
+    schema:description "Antoine Serlom Semenyo (born 7 January 2000) is a Ghanaian professional footballer who plays as a striker for Premier League side AFC Bournemouth and the Ghana national team."@en ;
+    schema:height "6' 1\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/lo08l71545503874.jpg"^^xsd:anyURI ;
+    schema:memberOf "Bournemouth"^^xsd:string ;
+    schema:name "Antoine Semenyo"^^xsd:string ;
+    schema:nationality "Ghana"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

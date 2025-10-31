@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Alvaro_Tejero a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q21643725> ;
+    foaf:account "twitter.com/alvarotejero2"^^xsd:anyURI,
+        "www.instagram.com/alvarotejero2/?hl=es"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/71d0qo1724486673.png"^^xsd:anyURI ;
+    foaf:name "Álvaro Tejero"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 64 ;
+    stats:blocks 9 ;
+    stats:carries 336 ;
+    stats:clearances 34 ;
+    stats:dispossessed 6 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 2.9 ;
+    stats:expectedGoals 0.6 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 13 ;
+    stats:keyPasses 33 ;
+    stats:matches90s 13.8 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 13 ;
+    stats:minutesPlayed 1238 ;
+    stats:miscontrols 17 ;
+    stats:passesIntoPenaltyArea 21 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 27 ;
+    stats:progressivePasses 46 ;
+    stats:progressivePassesReceived 72 ;
+    stats:rank 2564 ;
+    stats:redCards 0 ;
+    stats:tackles 14 ;
+    stats:tacklesWon 4 ;
+    stats:touches 757 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1996-07-20"^^xsd:date ;
+    schema:description "Álvaro Tejero Sacristán (born 20 July 1996) is a Spanish professional footballer who plays as a full back for RCD Espanyol."@en ;
+    schema:height "1.74 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/30mj1i1605386344.jpg"^^xsd:anyURI ;
+    schema:memberOf "Espanyol"^^xsd:string ;
+    schema:name "Álvaro Tejero"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

@@ -1,0 +1,51 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Alberto_Risco a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q125661552> ;
+    foaf:name "Alberto Risco"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 5 ;
+    stats:blocks 2 ;
+    stats:carries 32 ;
+    stats:clearances 0 ;
+    stats:dispossessed 4 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 0.8 ;
+    stats:matchesPlayed 5 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 69 ;
+    stats:miscontrols 5 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:progressiveCarries 3 ;
+    stats:progressivePasses 3 ;
+    stats:progressivePassesReceived 6 ;
+    stats:rank 2218 ;
+    stats:redCards 0 ;
+    stats:tackles 4 ;
+    stats:tacklesWon 4 ;
+    stats:touches 57 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2005-08-30"^^xsd:date ;
+    schema:description "Alberto Risco Alcántara (born 30 August 2005) is a Spanish professional footballer who plays as an attacking midfielder for Getafe CF B."@en ;
+    schema:height "1.57 m (5 ft 2 in)"^^xsd:string ;
+    schema:memberOf "Getafe B"^^xsd:string ;
+    schema:name "Alberto Risco"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "42 kg"^^xsd:string .
+

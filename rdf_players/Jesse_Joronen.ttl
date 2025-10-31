@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jesse_Joronen a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6186502> ;
+    foaf:account "twitter.com/jessejoronen"^^xsd:anyURI,
+        "www.instagram.com/jessejoronen/"^^xsd:anyURI ;
+    foaf:name "Jesse Joronen"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 11 ;
+    stats:blocks 0 ;
+    stats:carries 196 ;
+    stats:clearances 4 ;
+    stats:dispossessed 0 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 7.8 ;
+    stats:matchesPlayed 8 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 703 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1278 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 327 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1993-03-21"^^xsd:date ;
+    schema:description "Jesse Pekka Joronen (born 21 March 1993) is a Finnish footballer who plays as a goalkeeper for Serie A club Brescia. Joronen made his senior debut for Finland in 2013."@en ;
+    schema:height "1.97 m (6 ft 6 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/uz0cgs1586353093.jpg"^^xsd:anyURI ;
+    schema:memberOf "Venezia"^^xsd:string ;
+    schema:name "Jesse Joronen"^^xsd:string ;
+    schema:nationality "Finland"^^xsd:string ;
+    schema:weight "194 lbs"^^xsd:string .
+

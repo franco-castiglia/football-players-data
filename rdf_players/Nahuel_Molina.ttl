@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Nahuel_Molina a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q22082590> ;
+    foaf:account "instagram.com/nahuelmolina35?igshid=5bny6y7icll3"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/qhhx421735984282.png"^^xsd:anyURI ;
+    foaf:name "Nahuel Molina"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 66 ;
+    stats:blocks 16 ;
+    stats:carries 782 ;
+    stats:clearances 53 ;
+    stats:dispossessed 3 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.5 ;
+    stats:expectedGoals 0.8 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 13 ;
+    stats:keyPasses 13 ;
+    stats:matches90s 17.7 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 17 ;
+    stats:minutesPlayed 1590 ;
+    stats:miscontrols 21 ;
+    stats:passesIntoPenaltyArea 19 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 35 ;
+    stats:progressivePasses 61 ;
+    stats:progressivePassesReceived 96 ;
+    stats:rank 1776 ;
+    stats:redCards 0 ;
+    stats:tackles 44 ;
+    stats:tacklesWon 19 ;
+    stats:touches 1366 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1998-04-06"^^xsd:date ;
+    schema:description "Nahuel Molina Lucero (born 6 April 1998) is an Argentine professional footballer who plays as a right-back for La Liga club club Atlético Madrid and the Argentina national team."@en ;
+    schema:height "1.75 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/uhc6mv1719036284.jpg"^^xsd:anyURI ;
+    schema:memberOf "Atletico Madrid"^^xsd:string ;
+    schema:name "Nahuel Molina"^^xsd:string ;
+    schema:nationality "Argentina"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

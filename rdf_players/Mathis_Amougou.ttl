@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mathis_Amougou a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q123458677> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/yf6d1l1727952497.png"^^xsd:anyURI ;
+    foaf:name "Mathis Amougou"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 37 ;
+    stats:blocks 10 ;
+    stats:carries 242 ;
+    stats:clearances 4 ;
+    stats:dispossessed 8 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.4 ;
+    stats:expectedGoals 0.5 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 12 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 9.5 ;
+    stats:matchesPlayed 17 ;
+    stats:matchesStarted 9 ;
+    stats:minutesPlayed 859 ;
+    stats:miscontrols 22 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 8 ;
+    stats:progressivePasses 36 ;
+    stats:progressivePassesReceived 17 ;
+    stats:rank 119 ;
+    stats:redCards 0 ;
+    stats:tackles 21 ;
+    stats:tacklesWon 15 ;
+    stats:touches 407 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2006-01-18"^^xsd:date ;
+    schema:description """Mathis Amougou (born 18 January 2006) is a French footballer who plays as a midfielder for Saint-Étienne.\r
+\r
+Early life\r
+Born in Le Blanc-Mesnil, Amougou has three brothers; one elder, a twin and one younger, all of whom also play football. He first took an interest in football as a child, accompanying his elder brother to his football training sessions in Sevran, though he was not able to register with any club as he was too young."""@en ;
+    schema:height "1.77 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/88y6vp1727952475.jpg"^^xsd:anyURI ;
+    schema:memberOf "St Etienne"^^xsd:string ;
+    schema:name "Mathis Amougou"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "141 lbs"^^xsd:string .
+

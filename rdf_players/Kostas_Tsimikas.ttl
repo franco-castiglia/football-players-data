@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Kostas_Tsimikas a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q22005877> ;
+    foaf:account "www.instagram.com/tsimikas21/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/v9dy2d1758816412.png"^^xsd:anyURI ;
+    foaf:name "Kostas Tsimikas"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 31 ;
+    stats:blocks 5 ;
+    stats:carries 368 ;
+    stats:clearances 20 ;
+    stats:dispossessed 4 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.1 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 11 ;
+    stats:keyPasses 16 ;
+    stats:matches90s 9.3 ;
+    stats:matchesPlayed 18 ;
+    stats:matchesStarted 9 ;
+    stats:minutesPlayed 837 ;
+    stats:miscontrols 6 ;
+    stats:passesIntoPenaltyArea 12 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 17 ;
+    stats:progressivePasses 76 ;
+    stats:progressivePassesReceived 43 ;
+    stats:rank 2637 ;
+    stats:redCards 0 ;
+    stats:tackles 31 ;
+    stats:tacklesWon 20 ;
+    stats:touches 741 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1996-05-12"^^xsd:date ;
+    schema:description "Konstantinos \"Kostas\" Tsimikas (born 12 May 1996) is a Greek professional footballer who plays as a left-back for Serie A club Roma, on loan from Premier League club Liverpool, and the Greece national team."@en ;
+    schema:height "1.78 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/nyn02b1732226486.jpg"^^xsd:anyURI ;
+    schema:memberOf "Roma"^^xsd:string ;
+    schema:name "Kostas Tsimikas"^^xsd:string ;
+    schema:nationality "Greece"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

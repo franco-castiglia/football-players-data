@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Neco_Williams a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q72921909> ;
+    foaf:account "http://twitter.com/necowilliams01"^^xsd:anyURI,
+        "http://www.instagram.com/necowilliams01/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/qzuqwn1757163242.png"^^xsd:anyURI ;
+    foaf:name "Neco Williams"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 110 ;
+    stats:blocks 42 ;
+    stats:carries 650 ;
+    stats:clearances 137 ;
+    stats:dispossessed 21 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 1.6 ;
+    stats:expectedGoals 2.3 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 31 ;
+    stats:keyPasses 18 ;
+    stats:matches90s 28.8 ;
+    stats:matchesPlayed 35 ;
+    stats:matchesStarted 28 ;
+    stats:minutesPlayed 2594 ;
+    stats:miscontrols 36 ;
+    stats:passesIntoPenaltyArea 22 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 68 ;
+    stats:progressivePasses 89 ;
+    stats:progressivePassesReceived 103 ;
+    stats:rank 2770 ;
+    stats:redCards 0 ;
+    stats:tackles 90 ;
+    stats:tacklesWon 57 ;
+    stats:touches 1565 ;
+    stats:yellowCards 7 ;
+    schema:birthDate "2001-04-13"^^xsd:date ;
+    schema:description "Neco Shay Williams (born 13 April 2001) is a Welsh professional footballer who plays as a right-back for Nottingham Forest and the Wales national team."@en ;
+    schema:height "1.83 m (6 ft 0 in) m"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/6eyfhg1577014861.jpg"^^xsd:anyURI ;
+    schema:memberOf "Nottingham Forest"^^xsd:string ;
+    schema:name "Neco Williams"^^xsd:string ;
+    schema:nationality "Wales"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

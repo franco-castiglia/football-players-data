@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Iker_Munoz a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q116603156> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/0mkl6d1705004182.png"^^xsd:anyURI ;
+    foaf:name "Iker Muñoz"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 28 ;
+    stats:blocks 9 ;
+    stats:carries 184 ;
+    stats:clearances 12 ;
+    stats:dispossessed 4 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.0 ;
+    stats:expectedGoals 0.5 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 6.8 ;
+    stats:matchesPlayed 23 ;
+    stats:matchesStarted 4 ;
+    stats:minutesPlayed 610 ;
+    stats:miscontrols 6 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:progressiveCarries 6 ;
+    stats:progressivePasses 24 ;
+    stats:progressivePassesReceived 10 ;
+    stats:rank 1825 ;
+    stats:redCards 0 ;
+    stats:tackles 5 ;
+    stats:tacklesWon 2 ;
+    stats:touches 365 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2002-11-05"^^xsd:date ;
+    schema:description """Iker Muñoz Cameros (born 5 November 2002) is a Spanish footballer who plays as a midfielder for CA Osasuna.\r
+\r
+Born in Villafranca, Navarre, Muñoz joined CA Osasuna's youth setup in 2018, from CD Oberena. On 9 April of the following year, he renewed his contract until 2021.\r
+\r
+Muñoz made his senior debut with the reserves on 30 November 2019, coming on as a late substitute for goalscorer Aimar Oroz in a 3–1 Segunda División B home win over Deportivo Alavés B. Definitely promoted to the B-side ahead of the 2021–22 season, he scored his first goal on 16 October 2021, netting the B's second in a 2–2 home draw against Racing Rioja CF.\r
+\r
+On 30 December 2022, Muñoz further extended his link until 2025. He made his first team – and La Liga – debut the following 12 February, replacing Lucas Torró in a 0–0 away draw against Real Valladolid."""@en ;
+    schema:height "1.79 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/qwqhy11705004134.jpg"^^xsd:anyURI ;
+    schema:memberOf "Osasuna"^^xsd:string ;
+    schema:name "Iker Muñoz"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string .
+

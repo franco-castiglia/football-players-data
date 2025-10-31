@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jon_Martin a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/qzif7b1725101521.png"^^xsd:anyURI ;
+    foaf:name "Jon Martín"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 22 ;
+    stats:blocks 13 ;
+    stats:carries 375 ;
+    stats:clearances 80 ;
+    stats:dispossessed 0 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.6 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 7 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 10.0 ;
+    stats:matchesPlayed 13 ;
+    stats:matchesStarted 6 ;
+    stats:minutesPlayed 904 ;
+    stats:miscontrols 8 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 4 ;
+    stats:progressivePasses 34 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1642 ;
+    stats:redCards 0 ;
+    stats:tackles 11 ;
+    stats:tacklesWon 9 ;
+    stats:touches 677 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2006-04-23"^^xsd:date ;
+    schema:description """Jon Martín Vicente (born 23 April 2006) is a Spanish footballer who plays as a centre-back for Real Sociedad B.\r
+\r
+On 11 October 2023, he was named by English newspaper The Guardian as one of the best players born in 2006 worldwide. His father Xanti Martín was also a footballer and a centre-back."""@en ;
+    schema:height "1.87 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/6lrgmq1725101469.jpg"^^xsd:anyURI ;
+    schema:memberOf "Real Sociedad B"^^xsd:string ;
+    schema:name "Jon Martín"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

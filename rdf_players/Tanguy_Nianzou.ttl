@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Tanguy_Nianzou a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q67070943> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/vbylxh1724789842.png"^^xsd:anyURI ;
+    foaf:name "Tanguy Nianzou"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 9 ;
+    stats:blocks 1 ;
+    stats:carries 207 ;
+    stats:clearances 27 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 5.8 ;
+    stats:matchesPlayed 6 ;
+    stats:matchesStarted 6 ;
+    stats:minutesPlayed 518 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 4 ;
+    stats:progressivePasses 10 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1897 ;
+    stats:redCards 1 ;
+    stats:tackles 7 ;
+    stats:tacklesWon 5 ;
+    stats:touches 376 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2002-06-07"^^xsd:date ;
+    schema:description "Tanguy-Austin Nianzou Kouassi (born 7 June 2002), known as Tanguy Nianzou, is a French professional footballer who plays as a centre-back for La Liga club Sevilla. He has represented France internationally at various youth levels."@en ;
+    schema:height "1.87 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/wi9w851666988191.jpg"^^xsd:anyURI ;
+    schema:memberOf "Sevilla"^^xsd:string ;
+    schema:name "Tanguy Nianzou"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

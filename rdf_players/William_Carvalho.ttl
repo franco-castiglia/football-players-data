@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:William_Carvalho a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q304416> ;
+    foaf:account "twitter.com/wllmcarvalho14"^^xsd:anyURI,
+        "www.facebook.com/WilliamCarvalhoOfficial/"^^xsd:anyURI,
+        "www.instagram.com/wcarvalho14/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/uteo0w1701176799.png"^^xsd:anyURI ;
+    foaf:name "William Carvalho"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 29 ;
+    stats:blocks 6 ;
+    stats:carries 294 ;
+    stats:clearances 6 ;
+    stats:dispossessed 6 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 3 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 5.4 ;
+    stats:matchesPlayed 14 ;
+    stats:matchesStarted 6 ;
+    stats:minutesPlayed 484 ;
+    stats:miscontrols 6 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:progressiveCarries 5 ;
+    stats:progressivePasses 45 ;
+    stats:progressivePassesReceived 10 ;
+    stats:rank 495 ;
+    stats:redCards 0 ;
+    stats:tackles 9 ;
+    stats:tacklesWon 6 ;
+    stats:touches 432 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1992-04-07"^^xsd:date ;
+    schema:description """William Silva de Carvalho ComM (born 7 April 1992) is a Portuguese professional footballer who plays for Spanish club Real Betis and the Portugal national team as a defensive midfielder.\r
+\r
+He spent most of his career with Sporting CP since making his debut with the first team at the age of 18, going on to appear in 192 competitive games and win the 2015 Portuguese Cup.\r
+\r
+A full international for Portugal since 2013, Carvalho represented the nation in two World Cups and Euro 2016, winning the latter tournament."""@en ;
+    schema:height "1.87 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/nk8dxw1712514804.jpg"^^xsd:anyURI ;
+    schema:memberOf "Real Betis"^^xsd:string ;
+    schema:name "William Carvalho"^^xsd:string ;
+    schema:nationality "Portugal"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

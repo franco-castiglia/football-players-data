@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Pierrick_Capelle a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3387922> ;
+    foaf:account "twitter.com/pierrickcapelle"^^xsd:anyURI,
+        "www.instagram.com/capello_1504/?hl=en"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/7jphlp1674740327.png"^^xsd:anyURI ;
+    foaf:name "Pierrick Capelle"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 28 ;
+    stats:blocks 4 ;
+    stats:carries 138 ;
+    stats:clearances 5 ;
+    stats:dispossessed 6 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.2 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 11 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 5.4 ;
+    stats:matchesPlayed 16 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 483 ;
+    stats:miscontrols 15 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 10 ;
+    stats:progressivePasses 22 ;
+    stats:progressivePassesReceived 17 ;
+    stats:rank 468 ;
+    stats:redCards 0 ;
+    stats:tackles 24 ;
+    stats:tacklesWon 17 ;
+    stats:touches 299 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1987-04-15"^^xsd:date ;
+    schema:description "Pierrick Capelle (born 15 April 1987) is a French professional footballer who plays as a midfielder for Ligue 1 side Angers SCO."@en ;
+    schema:height "1.80 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/pxstrf1570032699.jpg"^^xsd:anyURI ;
+    schema:memberOf "Angers"^^xsd:string ;
+    schema:name "Pierrick Capelle"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

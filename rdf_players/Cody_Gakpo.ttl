@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Cody_Gakpo a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q28801927> ;
+    foaf:account "www.facebook.com/codygakpo/"^^xsd:anyURI,
+        "www.instagram.com/codymathesgakpo/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/lwkl5n1757088091.png"^^xsd:anyURI ;
+    foaf:name "Cody Gakpo"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 77 ;
+    stats:blocks 23 ;
+    stats:carries 605 ;
+    stats:clearances 19 ;
+    stats:dispossessed 24 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 4.4 ;
+    stats:expectedGoals 7.1 ;
+    stats:goals 10 ;
+    stats:goalsNonPenalty 10 ;
+    stats:interceptions 12 ;
+    stats:keyPasses 38 ;
+    stats:matches90s 21.5 ;
+    stats:matchesPlayed 35 ;
+    stats:matchesStarted 23 ;
+    stats:minutesPlayed 1935 ;
+    stats:miscontrols 45 ;
+    stats:passesIntoPenaltyArea 27 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:progressiveCarries 59 ;
+    stats:progressivePasses 52 ;
+    stats:progressivePassesReceived 278 ;
+    stats:rank 956 ;
+    stats:redCards 0 ;
+    stats:tackles 28 ;
+    stats:tacklesWon 16 ;
+    stats:touches 888 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1999-05-07"^^xsd:date ;
+    schema:description """Cody Mathès Gakpo (born 7 May 1999) is a Dutch professional footballer who plays as a winger for Premier League club Liverpool and the Netherlands national team.\r
+\r
+A PSV academy graduate, Gakpo made his first-team debut in February 2018. In the 2021–22 season, he won the Dutch Footballer of the Year award after scoring 21 goals in 47 games in all competitions. He signed for Liverpool in January 2023.\r
+\r
+Gakpo played youth international football for the Netherlands from under-18 to under-21 level. He made his senior international debut in June 2021 at UEFA Euro 2020."""@en ;
+    schema:height "1.87 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/m9g2ki1669145821.jpg"^^xsd:anyURI ;
+    schema:memberOf "Liverpool"^^xsd:string ;
+    schema:name "Cody Gakpo"^^xsd:string ;
+    schema:nationality "The Netherlands"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

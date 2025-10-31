@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Martin_Tejon a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q129259801> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/8noju31725098699.png"^^xsd:anyURI ;
+    foaf:name "Martín Tejón"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 4 ;
+    stats:blocks 0 ;
+    stats:carries 17 ;
+    stats:clearances 0 ;
+    stats:dispossessed 3 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 0.5 ;
+    stats:matchesPlayed 4 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 49 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 4 ;
+    stats:progressivePassesReceived 6 ;
+    stats:rank 2565 ;
+    stats:redCards 0 ;
+    stats:tackles 2 ;
+    stats:tacklesWon 0 ;
+    stats:touches 34 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2004-04-12"^^xsd:date ;
+    schema:description "Martín Tejón Fauli (born 12 April 2004) is a Spanish footballer who plays as an attacking midfielder for Valencia CF Mestalla."@en ;
+    schema:height "1.65 m (5 ft 5 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/v9fc9k1725098810.jpg"^^xsd:anyURI ;
+    schema:memberOf "Valencia Mestalla"^^xsd:string ;
+    schema:name "Martín Tejón"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "130 lbs"^^xsd:string .
+

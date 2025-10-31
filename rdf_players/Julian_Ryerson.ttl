@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Julian_Ryerson a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q28717698> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/3cofj41756326544.png"^^xsd:anyURI ;
+    foaf:name "Julian Ryerson"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 120 ;
+    stats:blocks 29 ;
+    stats:carries 1002 ;
+    stats:clearances 26 ;
+    stats:dispossessed 20 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 4.5 ;
+    stats:expectedGoals 0.7 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 22 ;
+    stats:keyPasses 36 ;
+    stats:matches90s 25.1 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 27 ;
+    stats:minutesPlayed 2259 ;
+    stats:miscontrols 42 ;
+    stats:passesIntoPenaltyArea 31 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 66 ;
+    stats:progressivePasses 92 ;
+    stats:progressivePassesReceived 136 ;
+    stats:rank 2280 ;
+    stats:redCards 1 ;
+    stats:tackles 46 ;
+    stats:tacklesWon 30 ;
+    stats:touches 1684 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "1997-11-17"^^xsd:date ;
+    schema:description "Julian Ryerson (born 17 November 1997) is a Norwegian footballer who plays as a full-back or midfielder for 1. FC Union Berlin."@en ;
+    schema:height "183cm / 6'0\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/c3ru7l1680185000.jpg"^^xsd:anyURI ;
+    schema:memberOf "Borussia Dortmund"^^xsd:string ;
+    schema:name "Julian Ryerson"^^xsd:string ;
+    schema:nationality "Norway"^^xsd:string ;
+    schema:weight "190 lbs"^^xsd:string .
+

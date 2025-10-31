@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Duvan_Zapata a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q577481> ;
+    foaf:account "www.instagram.com/duvanzapata91/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/z3pk7r1758814292.png"^^xsd:anyURI ;
+    foaf:name "Duván Zapata"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 15 ;
+    stats:blocks 2 ;
+    stats:carries 104 ;
+    stats:clearances 7 ;
+    stats:dispossessed 8 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 3.4 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 9 ;
+    stats:matches90s 6.5 ;
+    stats:matchesPlayed 7 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 587 ;
+    stats:miscontrols 9 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 6 ;
+    stats:progressivePasses 7 ;
+    stats:progressivePassesReceived 36 ;
+    stats:rank 2821 ;
+    stats:redCards 0 ;
+    stats:tackles 7 ;
+    stats:tacklesWon 5 ;
+    stats:touches 192 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1991-04-01"^^xsd:date ;
+    schema:description """Duván Esteban Zapata Banguero (born 1 April 1991) is a Colombian professional footballer who plays as a striker for Italian club Torino and the Colombia national team.\r
+\r
+After starting his career with Colombian club América de Cali, he later played for Estudiantes in Argentina, before moving to Italy, where he played for a number of teams, including Napoli, Udinese, Sampdoria, and Atalanta.\r
+\r
+At international level, he made his senior debut for Colombia in 2017, and took part at the 2019 Copa América."""@en ;
+    schema:height "1.89 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/g660m41546085722.jpg"^^xsd:anyURI ;
+    schema:memberOf "Torino"^^xsd:string ;
+    schema:name "Duván Zapata"^^xsd:string ;
+    schema:nationality "Colombia"^^xsd:string ;
+    schema:weight "192 lbs"^^xsd:string .
+

@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Assane_Diao a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q120509822> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/hbcxsr1701176042.png"^^xsd:anyURI ;
+    foaf:name "Assane Diao"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 41 ;
+    stats:blocks 8 ;
+    stats:carries 376 ;
+    stats:clearances 19 ;
+    stats:dispossessed 38 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.4 ;
+    stats:expectedGoals 4.0 ;
+    stats:goals 8 ;
+    stats:goalsNonPenalty 8 ;
+    stats:interceptions 3 ;
+    stats:keyPasses 8 ;
+    stats:matches90s 13.9 ;
+    stats:matchesPlayed 15 ;
+    stats:matchesStarted 14 ;
+    stats:minutesPlayed 1252 ;
+    stats:miscontrols 50 ;
+    stats:passesIntoPenaltyArea 13 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 50 ;
+    stats:progressivePasses 36 ;
+    stats:progressivePassesReceived 116 ;
+    stats:rank 713 ;
+    stats:redCards 0 ;
+    stats:tackles 25 ;
+    stats:tacklesWon 14 ;
+    stats:touches 523 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2005-09-07"^^xsd:date ;
+    schema:description "Assane Diao Diaoune (born 7 September 2005) is a professional footballer who plays as a winger for Serie A club Como. Born in Senegal, he is a youth international for Spain."@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/vhi0m61701176025.jpg"^^xsd:anyURI ;
+    schema:memberOf "Como"^^xsd:string ;
+    schema:name "Assane Diao"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

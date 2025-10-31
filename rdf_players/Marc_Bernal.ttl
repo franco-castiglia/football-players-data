@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Marc_Bernal a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q121982284> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/s4dmb61724178001.png"^^xsd:anyURI ;
+    foaf:name "Marc Bernal"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 9 ;
+    stats:blocks 5 ;
+    stats:carries 97 ;
+    stats:clearances 4 ;
+    stats:dispossessed 2 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 2.7 ;
+    stats:matchesPlayed 3 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 242 ;
+    stats:miscontrols 2 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 8 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 315 ;
+    stats:redCards 0 ;
+    stats:tackles 8 ;
+    stats:tacklesWon 6 ;
+    stats:touches 184 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2007-05-26"^^xsd:date ;
+    schema:description "Marc Bernal Casas (born 26 May 2007) is a Spanish professional footballer who plays as a defensive midfielder for FC Barcelona Atlètic."@en ;
+    schema:height "1.91 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/1v79cz1723965218.jpg"^^xsd:anyURI ;
+    schema:memberOf "Barcelona Atlètic"^^xsd:string ;
+    schema:name "Marc Bernal"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

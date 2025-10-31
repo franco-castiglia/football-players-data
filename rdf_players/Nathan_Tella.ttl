@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Nathan_Tella a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q96464733> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/1rh7pn1756316720.png"^^xsd:anyURI ;
+    foaf:name "Nathan Tella"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 37 ;
+    stats:blocks 15 ;
+    stats:carries 308 ;
+    stats:clearances 10 ;
+    stats:dispossessed 16 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.5 ;
+    stats:expectedGoals 3.1 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 18 ;
+    stats:matches90s 15.1 ;
+    stats:matchesPlayed 27 ;
+    stats:matchesStarted 17 ;
+    stats:minutesPlayed 1359 ;
+    stats:miscontrols 39 ;
+    stats:passesIntoPenaltyArea 10 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 38 ;
+    stats:progressivePasses 22 ;
+    stats:progressivePassesReceived 130 ;
+    stats:rank 2568 ;
+    stats:redCards 0 ;
+    stats:tackles 16 ;
+    stats:tacklesWon 11 ;
+    stats:touches 529 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1999-07-05"^^xsd:date ;
+    schema:description "Nathan Adewale Temitayo Tella (born 5 July 1999) is an English professional footballer who plays as an attacking midfielder or right winger for Bundesliga club Bayer Leverkusen."@en ;
+    schema:height "1.73 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/z56l7u1600718039.jpg"^^xsd:anyURI ;
+    schema:memberOf "Bayer Leverkusen"^^xsd:string ;
+    schema:name "Nathan Tella"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

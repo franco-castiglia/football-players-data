@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Nadiem_Amiri a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q19274473> ;
+    foaf:account "www.instagram.com/nadiemamiri18/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/9mdxrt1742068509.png"^^xsd:anyURI ;
+    foaf:name "Nadiem Amiri"^^xsd:string ;
+    stats:assists 5 ;
+    stats:ballRecoveries 207 ;
+    stats:blocks 19 ;
+    stats:carries 1134 ;
+    stats:clearances 30 ;
+    stats:dispossessed 27 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 6.6 ;
+    stats:expectedGoals 5.5 ;
+    stats:goals 7 ;
+    stats:goalsNonPenalty 5 ;
+    stats:interceptions 16 ;
+    stats:keyPasses 63 ;
+    stats:matches90s 27.5 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 30 ;
+    stats:minutesPlayed 2473 ;
+    stats:miscontrols 42 ;
+    stats:passesIntoPenaltyArea 57 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:progressiveCarries 50 ;
+    stats:progressivePasses 204 ;
+    stats:progressivePassesReceived 64 ;
+    stats:rank 115 ;
+    stats:redCards 2 ;
+    stats:tackles 50 ;
+    stats:tacklesWon 23 ;
+    stats:touches 2093 ;
+    stats:yellowCards 9 ;
+    schema:birthDate "1996-10-27"^^xsd:date ;
+    schema:description """Nadiem Amiri (born 27 October 1996) is a German professional footballer who plays as an attacking midfielder for Bundesliga club Mainz 05 and the Germany national team.\r
+He was born in Ludwigshafen to Afghan parents. His brother Nauwid Amiri also plays football."""@en ;
+    schema:height "1.80 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/t69qoe1578225835.jpg"^^xsd:anyURI ;
+    schema:memberOf "Mainz"^^xsd:string ;
+    schema:name "Nadiem Amiri"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

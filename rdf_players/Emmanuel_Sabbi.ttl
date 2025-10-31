@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Emmanuel_Sabbi a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q40448385> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/sfglh61702297206.png"^^xsd:anyURI ;
+    foaf:name "Emmanuel Sabbi"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 26 ;
+    stats:blocks 2 ;
+    stats:carries 130 ;
+    stats:clearances 4 ;
+    stats:dispossessed 10 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.6 ;
+    stats:expectedGoals 1.9 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 3 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 7.3 ;
+    stats:matchesPlayed 15 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 653 ;
+    stats:miscontrols 20 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 11 ;
+    stats:progressivePasses 15 ;
+    stats:progressivePassesReceived 39 ;
+    stats:rank 2285 ;
+    stats:redCards 0 ;
+    stats:tackles 14 ;
+    stats:tacklesWon 7 ;
+    stats:touches 230 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1997-12-24"^^xsd:date ;
+    schema:description "Emmanuel Afriyie Mario Sabbi (born December 24, 1997) is an American professional soccer player who plays as a winger for Major League Soccer club Vancouver Whitecaps."@en ;
+    schema:height "1.78 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/f137au1654619842.jpg"^^xsd:anyURI ;
+    schema:memberOf "Vancouver Whitecaps"^^xsd:string ;
+    schema:name "Emmanuel Sabbi"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

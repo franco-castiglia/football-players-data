@@ -1,0 +1,72 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jordan_Lotomba a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q26255809> ;
+    foaf:account "http://www.instagram.com/j_lotomba/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/5kd4lu1758187251.png"^^xsd:anyURI ;
+    foaf:name "Jordan Lotomba"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 2 ;
+    stats:blocks 0 ;
+    stats:carries 19 ;
+    stats:clearances 1 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.4 ;
+    stats:matchesPlayed 2 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 35 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 4 ;
+    stats:progressivePasses 3 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 1528 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 24 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1998-09-29"^^xsd:date ;
+    schema:description """Mvula Jordan Lotomba (born 29 September 1998) is a Swiss professional footballer who plays as a defender for Ligue 1 club Nice.\r
+\r
+Club career\r
+Lausanne-Sport\r
+Lotomba was trained in the Lausanne-Sport academy. He made his Swiss Super League debut on 24 July 2016 against Grasshopper Club Zürich.\r
+\r
+Young Boys\r
+Having joined Young Boys in the summer of 2017 he scored the goal that sealed victory against Dynamo Kyiv in the UEFA champions league.\r
+\r
+He was part of the Young Boys squad that won the 2017–18 Swiss Super League, their first league title for 32 years.\r
+\r
+Nice\r
+On 3 August 2020, Lotomba signed for OGC Nice in a deal worth around €5 million.\r
+\r
+International career\r
+He made his national team debut on 7 October 2020 in a friendly against Croatia.\r
+\r
+Personal life\r
+Lotomba was born in Switzerland, and is of Angolan descent through his father and of Congolese descent through his mother."""@en ;
+    schema:height "1.77 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/xmxk4f1609022604.jpg"^^xsd:anyURI ;
+    schema:memberOf "Feyenoord"^^xsd:string ;
+    schema:name "Jordan Lotomba"^^xsd:string ;
+    schema:nationality "Switzerland"^^xsd:string ;
+    schema:weight "157 lbs"^^xsd:string .
+

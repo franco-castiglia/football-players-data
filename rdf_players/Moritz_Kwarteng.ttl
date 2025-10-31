@@ -1,0 +1,52 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Moritz_Kwarteng a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q57579398> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/15anph1709994228.png"^^xsd:anyURI ;
+    foaf:name "Moritz Kwarteng"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 8 ;
+    stats:blocks 0 ;
+    stats:carries 63 ;
+    stats:clearances 1 ;
+    stats:dispossessed 2 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 1.9 ;
+    stats:matchesPlayed 7 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 172 ;
+    stats:miscontrols 6 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 4 ;
+    stats:progressivePasses 12 ;
+    stats:progressivePassesReceived 16 ;
+    stats:rank 1429 ;
+    stats:redCards 0 ;
+    stats:tackles 4 ;
+    stats:tacklesWon 3 ;
+    stats:touches 104 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1998-04-28"^^xsd:date ;
+    schema:description "Moritz-Broni Kwarteng (born 28 April 1998) is a German professional footballer who plays as a midfielder for 2. Bundesliga club Fortuna Düsseldorf on loan from VfL Bochum.["@en ;
+    schema:height "5 ft 9 in"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/wdtrdc1709993453.jpg"^^xsd:anyURI ;
+    schema:memberOf "Fortuna Düsseldorf"^^xsd:string ;
+    schema:name "Moritz Kwarteng"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string .
+

@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mathieu_Gorgelin a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q13057> ;
+    foaf:account "fr-fr.facebook.com/MathieuGorgelin"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/zsnfw31702297663.png"^^xsd:anyURI ;
+    foaf:name "Mathieu Gorgelin"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 16 ;
+    stats:blocks 0 ;
+    stats:carries 322 ;
+    stats:clearances 8 ;
+    stats:dispossessed 0 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 16.0 ;
+    stats:matchesPlayed 16 ;
+    stats:matchesStarted 16 ;
+    stats:minutesPlayed 1440 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1043 ;
+    stats:redCards 0 ;
+    stats:tackles 2 ;
+    stats:tacklesWon 2 ;
+    stats:touches 576 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1990-08-05"^^xsd:date ;
+    schema:description """Mathieu Gorgelin (born 5 August 1990) is a French professional footballer who plays as a goalkeeper for Ligue 2 club Le Havre.\r
+\r
+Gorgelin developed through the Lyon academy. He became a first team member in 2010. During the 2011/12 season, he was loaned out to Red Star. He made his debut in Ligue 1 on 2 November 2013 in a 2-0 home win against EA Guingamp. He entered the field after 32 minutes for injured goalkeeper Anthony Lopes, and kept a clean sheet on his competitive debut for the club.\r
+\r
+He has represented France at under-20 and under-21 level."""@en ;
+    schema:height "1.87"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/5pcrgc1534007490.jpg"^^xsd:anyURI ;
+    schema:memberOf "Le Havre"^^xsd:string ;
+    schema:name "Mathieu Gorgelin"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

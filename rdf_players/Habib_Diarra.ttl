@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Habib_Diarra a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q108924143> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/fbklgi1756903777.png"^^xsd:anyURI ;
+    foaf:name "Habib Diarra"^^xsd:string ;
+    stats:assists 5 ;
+    stats:ballRecoveries 90 ;
+    stats:blocks 22 ;
+    stats:carries 709 ;
+    stats:clearances 46 ;
+    stats:dispossessed 22 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 4.5 ;
+    stats:expectedGoals 3.3 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 13 ;
+    stats:keyPasses 27 ;
+    stats:matches90s 26.1 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 27 ;
+    stats:minutesPlayed 2352 ;
+    stats:miscontrols 30 ;
+    stats:passesIntoPenaltyArea 27 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 61 ;
+    stats:progressivePasses 116 ;
+    stats:progressivePassesReceived 114 ;
+    stats:rank 715 ;
+    stats:redCards 0 ;
+    stats:tackles 22 ;
+    stats:tacklesWon 13 ;
+    stats:touches 1214 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "2004-01-03"^^xsd:date ;
+    schema:description "Mouhamadou Habib Diarra (born 3 January 2004) is a Senegalese professional footballer who plays as a midfielder or winger for Premier League club Sunderland. Born in Senegal, he represented France on junior levels before switching his allegiance to the Senegal national team."@en ;
+    schema:height "1.79 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/qs5htd1681486012.jpg"^^xsd:anyURI ;
+    schema:memberOf "Sunderland"^^xsd:string ;
+    schema:name "Habib Diarra"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

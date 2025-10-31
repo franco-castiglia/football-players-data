@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Axel_Witsel a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q151838> ;
+    foaf:account "twitter.com/axelwitsel28"^^xsd:anyURI,
+        "www.facebook.com/axelwitsel28/"^^xsd:anyURI,
+        "www.instagram.com/axelwitsel28/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/johbr61678570637.png"^^xsd:anyURI ;
+    foaf:name "Axel Witsel"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 32 ;
+    stats:blocks 15 ;
+    stats:carries 405 ;
+    stats:clearances 34 ;
+    stats:dispossessed 0 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 11 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 9.5 ;
+    stats:matchesPlayed 14 ;
+    stats:matchesStarted 9 ;
+    stats:minutesPlayed 852 ;
+    stats:miscontrols 9 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 21 ;
+    stats:progressivePassesReceived 1 ;
+    stats:rank 2783 ;
+    stats:redCards 0 ;
+    stats:tackles 16 ;
+    stats:tacklesWon 12 ;
+    stats:touches 645 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1989-01-12"^^xsd:date ;
+    schema:description """Axel Laurent Angel Lambert Witsel (born 12 January 1989) is a Belgian professional footballer who plays for La Liga club Atlético Madrid and the Belgian national team. Witsel broke into Belgium's first team as a right-winger, and can also play attacking midfielder, though his natural position is as a central midfielder.\r
+\r
+He began his career at hometown club Standard Liège, making 183 appearances and scoring 42 goals while winning five domestic trophies. He was awarded the Belgian Golden Shoe in 2008. After a season in Portugal with Benfica, he signed for Zenit Saint Petersburg for a €40 million fee in 2012. Witsel won four honours during his time in Russia, before leaving for Tianjin Quanjian in January 2017. He returned to Europe with Borussia Dortmund in August 2018. With the Bundesliga side, Witsel won the 2019 DFL-Supercup and the 2020–21 DFB-Pokal.\r
+\r
+Witsel made his senior international debut in 2008 and earned his 100th cap for Belgium on 15 November 2018. He represented the country at the FIFA World Cup in 2014 and 2018, and the UEFA European Championship in 2016 and 2020, helping them to third place in the 2018 tournament."""@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/gex6yt1706956962.jpg"^^xsd:anyURI ;
+    schema:memberOf "Atletico Madrid"^^xsd:string ;
+    schema:name "Axel Witsel"^^xsd:string ;
+    schema:nationality "Belgium"^^xsd:string ;
+    schema:weight "179 lbs"^^xsd:string .
+

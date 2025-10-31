@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Patrick_Mainka a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q15839651> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/r4lndy1742057387.png"^^xsd:anyURI ;
+    foaf:name "Patrick Mainka"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 152 ;
+    stats:blocks 61 ;
+    stats:carries 1171 ;
+    stats:clearances 206 ;
+    stats:dispossessed 8 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 1.9 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 68 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 34.0 ;
+    stats:matchesPlayed 34 ;
+    stats:matchesStarted 34 ;
+    stats:minutesPlayed 3060 ;
+    stats:miscontrols 16 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 21 ;
+    stats:progressivePasses 102 ;
+    stats:progressivePassesReceived 12 ;
+    stats:rank 1574 ;
+    stats:redCards 0 ;
+    stats:tackles 58 ;
+    stats:tacklesWon 30 ;
+    stats:touches 2136 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1994-11-06"^^xsd:date ;
+    schema:description "Patrick Mainka (born 6 November 1994) is a German professional footballer who plays as a defender for 1. FC Heidenheim."@en ;
+    schema:height "1.94 m (6 ft 4 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/vv6akm1623326768.jpg"^^xsd:anyURI ;
+    schema:memberOf "FC Heidenheim"^^xsd:string ;
+    schema:name "Patrick Mainka"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "190 lbs"^^xsd:string .
+

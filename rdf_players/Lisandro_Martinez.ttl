@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Lisandro_Martinez a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q30881092> ;
+    foaf:account "www.instagram.com/lisandromartinezzz/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/esrm831735600609.png"^^xsd:anyURI ;
+    foaf:name "Lisandro Martínez"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 81 ;
+    stats:blocks 22 ;
+    stats:carries 1017 ;
+    stats:clearances 57 ;
+    stats:dispossessed 3 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.1 ;
+    stats:expectedGoals 1.3 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 32 ;
+    stats:keyPasses 9 ;
+    stats:matches90s 19.5 ;
+    stats:matchesPlayed 20 ;
+    stats:matchesStarted 20 ;
+    stats:minutesPlayed 1751 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 18 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 23 ;
+    stats:progressivePasses 117 ;
+    stats:progressivePassesReceived 7 ;
+    stats:rank 1652 ;
+    stats:redCards 0 ;
+    stats:tackles 40 ;
+    stats:tacklesWon 24 ;
+    stats:touches 1524 ;
+    stats:yellowCards 7 ;
+    schema:birthDate "1998-01-18"^^xsd:date ;
+    schema:description """Lisandro Martínez (born 18 January 1998) is an Argentine professional footballer who plays primarily as a centre-back for Premier League club Manchester United and the Argentina national team.\r
+\r
+Martínez began his career at Newell's Old Boys before joining Defensa y Justicia in 2017, initially on loan. In 2019, he signed for Ajax and has since won two Eredivisie titles and one KNVB Cup. He won the Ajax Player of the Year award in the 2021–22 season.\r
+\r
+Martínez represented Argentina at under-20 and under-23 levels, before making his senior international debut in March 2019. He was a member of the squads that won the 2021 Copa América and the 2022 Finalissima."""@en ;
+    schema:height "1.78 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/c61z2k1719034954.jpg"^^xsd:anyURI ;
+    schema:memberOf "Manchester United"^^xsd:string ;
+    schema:name "Lisandro Martínez"^^xsd:string ;
+    schema:nationality "Argentina"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

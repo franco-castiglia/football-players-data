@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Walid_Cheddira a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q69580745> ;
+    foaf:account "www.instagram.com/walo_98/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/51ebee1697925317.png"^^xsd:anyURI ;
+    foaf:name "Walid Cheddira"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 19 ;
+    stats:blocks 4 ;
+    stats:carries 108 ;
+    stats:clearances 6 ;
+    stats:dispossessed 9 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.2 ;
+    stats:expectedGoals 1.0 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 7.1 ;
+    stats:matchesPlayed 22 ;
+    stats:matchesStarted 5 ;
+    stats:minutesPlayed 640 ;
+    stats:miscontrols 25 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 8 ;
+    stats:progressivePasses 12 ;
+    stats:progressivePassesReceived 34 ;
+    stats:rank 538 ;
+    stats:redCards 0 ;
+    stats:tackles 5 ;
+    stats:tacklesWon 0 ;
+    stats:touches 203 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1998-01-22"^^xsd:date ;
+    schema:description "Walid Cheddira (Arabic: وليد شديرة; born 22 January 1998) is a professional footballer who plays as a forward Espamyol on loan from Napoli and the Morocco national team. Born in Italy, Cheddira is of Moroccan descent; he has represented Morocco internationally since 2022."@en ;
+    schema:height "1.87 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/gx5hon1668951593.jpg"^^xsd:anyURI ;
+    schema:memberOf "Espanyol"^^xsd:string ;
+    schema:name "Walid Cheddira"^^xsd:string ;
+    schema:nationality "Morocco"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

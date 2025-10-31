@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Milan_uric a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3857716> ;
+    foaf:account "www.instagram.com/djuric22/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/8s11vd1759779890.png"^^xsd:anyURI ;
+    foaf:name "Milan Đurić"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 13 ;
+    stats:blocks 6 ;
+    stats:carries 150 ;
+    stats:clearances 17 ;
+    stats:dispossessed 14 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.1 ;
+    stats:expectedGoals 2.9 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 14.1 ;
+    stats:matchesPlayed 18 ;
+    stats:matchesStarted 13 ;
+    stats:minutesPlayed 1270 ;
+    stats:miscontrols 15 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 21 ;
+    stats:progressivePassesReceived 30 ;
+    stats:rank 2853 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 1 ;
+    stats:touches 358 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1990-05-22"^^xsd:date ;
+    schema:description """Milan Đurić (born 22 May 1990) is a Bosnian professional footballer who plays as a forward for Serie A club Parma.\r
+\r
+Đurić started his professional career at Cesena, before joining Parma in 2010, who loaned him to Ascoli later that year and to Crotone in 2011. In 2012, he went back to Cesena, who sent him on loan to Cremonese later that year, to Trapani in 2013 and to Cittadella 2014. He was transferred to Bristol City in 2017. The following year, Đurić signed with Salernitana. Four years later, he moved to Hellas Verona. In 2024, he switched to Monza. A year later, he returned to Parma.\r
+\r
+A former youth international for Bosnia and Herzegovina, Đurić made his senior international debut in 2015, earning 15 caps until 2020."""@en ;
+    schema:height "1.99 m (6 ft 6 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/a3qs701633595076.jpg"^^xsd:anyURI ;
+    schema:memberOf "Parma Calcio 1913"^^xsd:string ;
+    schema:name "Milan Đurić"^^xsd:string ;
+    schema:nationality "Bosnia and Herzegovina"^^xsd:string ;
+    schema:weight "99 kg"^^xsd:string .
+

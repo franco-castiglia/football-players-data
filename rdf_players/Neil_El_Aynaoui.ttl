@@ -1,0 +1,64 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Neil_El_Aynaoui a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q107745867> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/wbm4lk1758815430.png"^^xsd:anyURI ;
+    foaf:name "Neil El Aynaoui"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 90 ;
+    stats:blocks 34 ;
+    stats:carries 582 ;
+    stats:clearances 29 ;
+    stats:dispossessed 21 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.0 ;
+    stats:expectedGoals 4.0 ;
+    stats:goals 8 ;
+    stats:goalsNonPenalty 5 ;
+    stats:interceptions 30 ;
+    stats:keyPasses 22 ;
+    stats:matches90s 17.6 ;
+    stats:matchesPlayed 24 ;
+    stats:matchesStarted 17 ;
+    stats:minutesPlayed 1588 ;
+    stats:miscontrols 25 ;
+    stats:passesIntoPenaltyArea 7 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 11 ;
+    stats:progressivePasses 75 ;
+    stats:progressivePassesReceived 29 ;
+    stats:rank 187 ;
+    stats:redCards 0 ;
+    stats:tackles 39 ;
+    stats:tacklesWon 21 ;
+    stats:touches 1196 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2001-07-02"^^xsd:date ;
+    schema:description """Neil El Aynaoui (Arabic: نيل العيناوي; born 2 July 2001) is a professional footballer who plays as a midfielder for Romas. Born in France, he is a youth international for Morocco. El Aynaoui can also play as a defensive midfielder.\r
+\r
+Career\r
+El Aynaoui joined the youth academy of Nancy when he was 8, and signed his first professional contract with the club on 3 June 2021. He made his professional debut with Nancy in a 4–0 Ligue 2 loss to Toulouse on 31 July 2021.\r
+\r
+On 29 June 2023, El Aynaoui signed for Ligue 1 club Lens on a four-year contract. He scored his first goal on 28 October 2023 against FC Nantes.\r
+\r
+International career\r
+Born in France, El Aynaoui holds French and Moroccan nationalities. He was called up to the Morocco U23s for a set of friendlies in September 2023.\r
+\r
+Personal life\r
+El Aynaoui is the son of the retired Moroccan tennis player Younes El Aynaoui."""@en ;
+    schema:height "186 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/nk9xla1702305984.jpg"^^xsd:anyURI ;
+    schema:memberOf "Roma"^^xsd:string ;
+    schema:name "Neil El Aynaoui"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

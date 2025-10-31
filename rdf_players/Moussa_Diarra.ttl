@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Moussa_Diarra a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q112687080> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/om10ay1727206300.png"^^xsd:anyURI ;
+    foaf:name "Moussa Diarra"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 76 ;
+    stats:blocks 15 ;
+    stats:carries 499 ;
+    stats:clearances 46 ;
+    stats:dispossessed 15 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 21 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 20.7 ;
+    stats:matchesPlayed 26 ;
+    stats:matchesStarted 20 ;
+    stats:minutesPlayed 1866 ;
+    stats:miscontrols 17 ;
+    stats:passesIntoPenaltyArea 8 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 12 ;
+    stats:progressivePasses 70 ;
+    stats:progressivePassesReceived 31 ;
+    stats:rank 716 ;
+    stats:redCards 0 ;
+    stats:tackles 40 ;
+    stats:tacklesWon 24 ;
+    stats:touches 1012 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "2000-11-10"^^xsd:date ;
+    schema:description "Moussa Diarra (born 10 November 2000) is a professional footballer who plays for La Liga club Deportivo Alavés. Mainly a centre-back, he can also play as a left-back. Born in France, Diarra plays for the Mali national team."@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/kjyi121659969487.jpg"^^xsd:anyURI ;
+    schema:memberOf "Alaves"^^xsd:string ;
+    schema:name "Moussa Diarra"^^xsd:string ;
+    schema:nationality "Mali"^^xsd:string ;
+    schema:weight "68 kg (150 lb)"^^xsd:string .
+

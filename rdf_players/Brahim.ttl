@@ -1,0 +1,65 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Brahim a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q26973015> ;
+    foaf:account "twitter.com/Brahim"^^xsd:anyURI,
+        "www.facebook.com/BrahimADiaz/?ref=br_rs"^^xsd:anyURI,
+        "www.instagram.com/brahim"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/civrzg1733653256.png"^^xsd:anyURI ;
+    foaf:name "Brahim"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 54 ;
+    stats:blocks 16 ;
+    stats:carries 541 ;
+    stats:clearances 2 ;
+    stats:dispossessed 27 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 3.3 ;
+    stats:expectedGoals 5.3 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 23 ;
+    stats:matches90s 15.4 ;
+    stats:matchesPlayed 31 ;
+    stats:matchesStarted 16 ;
+    stats:minutesPlayed 1385 ;
+    stats:miscontrols 44 ;
+    stats:passesIntoPenaltyArea 19 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 39 ;
+    stats:progressivePasses 74 ;
+    stats:progressivePassesReceived 110 ;
+    stats:rank 722 ;
+    stats:redCards 0 ;
+    stats:tackles 25 ;
+    stats:tacklesWon 19 ;
+    stats:touches 833 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1999-08-03"^^xsd:date ;
+    schema:description """Brahim Abdelkader Diaz (Spanish pronunciation: ; born 3 August 1999), known as Brahim Díaz or simply Brahim, is a Spanish professional footballer who plays as a midfielder for Serie A club AC Milan, on loan from La Liga club Real Madrid.\r
+\r
+Brahim is a youth international for Spain, and made his first appearances at age 16, where he received praise for his performances for Spain's U17s in the 2016 UEFA European Under-17 Championship.\r
+\r
+Due to the isolation of some national team players following the positive COVID-19 test of Sergio Busquets, Spain's under-21 squad were called up for the international friendly against Lithuania on 8 June 2021. Brahim made his senior debut in the match and scored the second goal in a 4–0 victory against Lithuania. On January 27 2023, it was announced that Brahim planned to switch allegiances to the Morocco national team.\r
+\r
+Brahim, as he was born in Spain to Spanish parents of Moroccan origin from Melilla, was eligible to play for Morocco.\r
+\r
+On 15 October 2021, it was announced that Diaz had contracted COVID-19. By October 26 he had recovered."""@en ;
+    schema:height "1.71 m (5 ft 7 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/kowo4b1547229522.jpg"^^xsd:anyURI ;
+    schema:memberOf "Real Madrid"^^xsd:string ;
+    schema:name "Brahim"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "68 kg (150 lb)"^^xsd:string .
+

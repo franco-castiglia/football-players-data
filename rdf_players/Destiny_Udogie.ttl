@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Destiny_Udogie a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q73825355> ;
+    foaf:account "http://www.instagram.com/udogiethree/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/cduafm1757016239.png"^^xsd:anyURI ;
+    foaf:name "Destiny Udogie"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 111 ;
+    stats:blocks 40 ;
+    stats:carries 758 ;
+    stats:clearances 36 ;
+    stats:dispossessed 19 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.5 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 22 ;
+    stats:keyPasses 16 ;
+    stats:matches90s 21.4 ;
+    stats:matchesPlayed 25 ;
+    stats:matchesStarted 24 ;
+    stats:minutesPlayed 1924 ;
+    stats:miscontrols 37 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 54 ;
+    stats:progressivePasses 121 ;
+    stats:progressivePassesReceived 94 ;
+    stats:rank 2644 ;
+    stats:redCards 0 ;
+    stats:tackles 75 ;
+    stats:tacklesWon 47 ;
+    stats:touches 1376 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2002-11-28"^^xsd:date ;
+    schema:description "Iyenoma Destiny Udogie (born 28 November 2002) is an Italian professional footballer who currently plays as a left-back for Premier League club Tottenham Hotspur."@en ;
+    schema:height "1.87 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/gd2xbz1611327875.jpg"^^xsd:anyURI ;
+    schema:memberOf "Tottenham"^^xsd:string ;
+    schema:name "Destiny Udogie"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

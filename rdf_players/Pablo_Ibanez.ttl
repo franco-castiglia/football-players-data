@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Pablo_Ibanez a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q314138> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/oe2l731725094002.png"^^xsd:anyURI ;
+    foaf:name "Pablo Ibáñez"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 56 ;
+    stats:blocks 20 ;
+    stats:carries 368 ;
+    stats:clearances 21 ;
+    stats:dispossessed 16 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.6 ;
+    stats:expectedGoals 1.6 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 18 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 14.4 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 13 ;
+    stats:minutesPlayed 1294 ;
+    stats:miscontrols 20 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 21 ;
+    stats:progressivePasses 51 ;
+    stats:progressivePassesReceived 31 ;
+    stats:rank 1198 ;
+    stats:redCards 0 ;
+    stats:tackles 20 ;
+    stats:tacklesWon 10 ;
+    stats:touches 673 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1998-09-20"^^xsd:date ;
+    schema:description "Pablo Ibáñez Lumbreras (born 20 September 1998) is a Spanish footballer who plays as a central midfielder for CA Osasuna."@en ;
+    schema:height "1.79 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/i3l1tf1725094217.jpg"^^xsd:anyURI ;
+    schema:memberOf "Osasuna"^^xsd:string ;
+    schema:name "Pablo Ibáñez"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

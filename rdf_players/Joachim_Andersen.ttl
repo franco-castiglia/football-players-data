@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Joachim_Andersen a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q15943423> ;
+    foaf:account "www.instagram.com/joachimandersen3/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/f4r1st1757070196.png"^^xsd:anyURI ;
+    foaf:name "Joachim Andersen"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 122 ;
+    stats:blocks 37 ;
+    stats:carries 1350 ;
+    stats:clearances 188 ;
+    stats:dispossessed 3 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 1.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 34 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 28.7 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 29 ;
+    stats:minutesPlayed 2583 ;
+    stats:miscontrols 6 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 16 ;
+    stats:progressivePasses 112 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 123 ;
+    stats:redCards 1 ;
+    stats:tackles 27 ;
+    stats:tacklesWon 18 ;
+    stats:touches 2336 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "1996-05-31"^^xsd:date ;
+    schema:description """Joachim Christian Andersen (born 31 May 1996) is a Danish professional footballer who plays as a centre back for Premier League club Fulham and the Denmark national team. \r
+He represented Denmark at U16, U17, U19, U20, and U21 levels before he was called up to the senior team for matches against Kosovo and Switzerland in March 2019. On October 15 2019 he earned his first national team cap when Denmark beat Luxembourg 4-0."""@en ;
+    schema:height "1.93 m (6 ft 4 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/qytaw51546257155.jpg"^^xsd:anyURI ;
+    schema:memberOf "Fulham"^^xsd:string ;
+    schema:name "Joachim Andersen"^^xsd:string ;
+    schema:nationality "Denmark"^^xsd:string ;
+    schema:weight "190 lbs"^^xsd:string .
+

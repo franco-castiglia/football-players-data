@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Aliou_Balde a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q106088792> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/nd3w9e1700558039.png"^^xsd:anyURI ;
+    foaf:name "Aliou Balde"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 3 ;
+    stats:blocks 2 ;
+    stats:carries 30 ;
+    stats:clearances 0 ;
+    stats:dispossessed 3 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 1.0 ;
+    stats:matchesPlayed 5 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 91 ;
+    stats:miscontrols 5 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 1 ;
+    stats:progressivePassesReceived 5 ;
+    stats:rank 197 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 1 ;
+    stats:touches 43 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2002-12-12"^^xsd:date ;
+    schema:description """Aliou Badara Baldé (born 12 December 2002) is a Senegalese professional footballer who plays as a winger for Ligue 1 club Nice.\r
+\r
+Club career\r
+On 19 January 2021, Baldé signed a professional contract with Feyenoord. He made his professional debut with Feyenoord in a 1–1 Eredivisie tie with FC Emmen on 20 March 2021.\r
+\r
+On 7 January 2022, Baldé was loaned to Waasland-Beveren in Belgium. On 31 August 2022, he was loaned to Dordrecht. On 31 January 2023, Baldé was recalled from his loan at FC Dordrecht and moved to Swiss club FC Lausanne-Sport.\r
+\r
+International career\r
+Baldé represented the Senegal U17s at the 2019 FIFA U-17 World Cup."""@en ;
+    schema:height "170 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/w9q6u51700558130.jpg"^^xsd:anyURI ;
+    schema:memberOf "Nice"^^xsd:string ;
+    schema:name "Aliou Balde"^^xsd:string ;
+    schema:nationality "Guinea"^^xsd:string ;
+    schema:weight "130 lbs"^^xsd:string .
+

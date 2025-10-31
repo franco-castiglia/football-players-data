@@ -1,0 +1,52 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Cheick_Conde a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q104555683> ;
+    foaf:account "www.instagram.com/cheick_nfamary_conde/"^^xsd:anyURI ;
+    foaf:name "Cheick Condé"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 13 ;
+    stats:blocks 7 ;
+    stats:carries 31 ;
+    stats:clearances 3 ;
+    stats:dispossessed 5 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 1.7 ;
+    stats:matchesPlayed 9 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 151 ;
+    stats:miscontrols 2 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 8 ;
+    stats:progressivePassesReceived 5 ;
+    stats:rank 2009 ;
+    stats:redCards 0 ;
+    stats:tackles 6 ;
+    stats:tacklesWon 5 ;
+    stats:touches 80 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2000-07-26"^^xsd:date ;
+    schema:description "Cheick Oumar Condé (born 26 July 2000) is a Guinean professional footballer who plays as a midfielder for Italian Serie A club Venezia and the Guinea national team."@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/95r5hs1741950628.jpg"^^xsd:anyURI ;
+    schema:memberOf "Venezia"^^xsd:string ;
+    schema:name "Cheick Condé"^^xsd:string ;
+    schema:nationality "Guinea"^^xsd:string .
+

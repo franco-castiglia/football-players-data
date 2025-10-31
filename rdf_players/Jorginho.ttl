@@ -1,0 +1,62 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jorginho a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3810078> ;
+    foaf:account "twitter.com/FrelloJorginho"^^xsd:anyURI,
+        "www.facebook.com/frellojorginho05/"^^xsd:anyURI,
+        "www.instagram.com/jorginhofrello/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/fvtteu1750921284.png"^^xsd:anyURI ;
+    foaf:name "Jorginho"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 55 ;
+    stats:blocks 3 ;
+    stats:carries 302 ;
+    stats:clearances 2 ;
+    stats:dispossessed 9 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.4 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 7 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 7.8 ;
+    stats:matchesPlayed 15 ;
+    stats:matchesStarted 9 ;
+    stats:minutesPlayed 704 ;
+    stats:miscontrols 12 ;
+    stats:passesIntoPenaltyArea 10 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 12 ;
+    stats:progressivePasses 48 ;
+    stats:progressivePassesReceived 6 ;
+    stats:rank 1277 ;
+    stats:redCards 0 ;
+    stats:tackles 12 ;
+    stats:tacklesWon 4 ;
+    stats:touches 522 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1991-12-20"^^xsd:date ;
+    schema:description """Jorge Luiz Frello Filho Cavaliere OMRI (born 20 December 1991), known as Jorginho, is a professional footballer who plays as a defensive midfielder for Campeonato Brasileiro Série A club Flamengo. \r
+He operates as a defensive midfielder or a deep-lying playmaker, also known as a “Regista” in Italian Football.\r
+\r
+Born in Brazil, Jorginho moved to Italy at the age of 15, and began his professional career with the Verona youth team, before being promoted to the senior team. During the 2010–11 season, he was sent on loan to Sambonifacese. In January 2014, he moved to Napoli, where he soon after won the Coppa Italia and the Supercoppa Italiana. He totaled 160 games for the club before a £50 million move to Chelsea in 2018, where he won the UEFA Europa League in his first season.\r
+\r
+At international level, he has represented Italy, making his senior debut in 2016, while his competitive debut came the following year."""@en ;
+    schema:height "1.80 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/vj8b5f1678272317.jpg"^^xsd:anyURI ;
+    schema:memberOf "Flamengo"^^xsd:string ;
+    schema:name "Jorginho"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "141 lbs"^^xsd:string .
+

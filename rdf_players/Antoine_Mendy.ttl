@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Antoine_Mendy a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q114713518> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/r6a1qo1681397730.png"^^xsd:anyURI ;
+    foaf:name "Antoine Mendy"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 48 ;
+    stats:blocks 9 ;
+    stats:carries 314 ;
+    stats:clearances 29 ;
+    stats:dispossessed 4 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.6 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 9.2 ;
+    stats:matchesPlayed 18 ;
+    stats:matchesStarted 8 ;
+    stats:minutesPlayed 825 ;
+    stats:miscontrols 11 ;
+    stats:passesIntoPenaltyArea 7 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 12 ;
+    stats:progressivePasses 35 ;
+    stats:progressivePassesReceived 15 ;
+    stats:rank 1720 ;
+    stats:redCards 0 ;
+    stats:tackles 30 ;
+    stats:tacklesWon 21 ;
+    stats:touches 595 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2004-05-27"^^xsd:date ;
+    schema:description "Antoine Mendy (born 27 May 2004) is a French professional footballer who plays as a right-back for Nice."@en ;
+    schema:height "1.87 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/yq49qq1681393139.jpg"^^xsd:anyURI ;
+    schema:memberOf "Nice"^^xsd:string ;
+    schema:name "Antoine Mendy"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

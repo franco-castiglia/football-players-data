@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Tom_Rothe a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q111626301> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/4t3qu01742134866.png"^^xsd:anyURI ;
+    foaf:name "Tom Rothe"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 77 ;
+    stats:blocks 41 ;
+    stats:carries 456 ;
+    stats:clearances 57 ;
+    stats:dispossessed 31 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.3 ;
+    stats:expectedGoals 1.8 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 18 ;
+    stats:keyPasses 12 ;
+    stats:matches90s 18.6 ;
+    stats:matchesPlayed 26 ;
+    stats:matchesStarted 19 ;
+    stats:minutesPlayed 1670 ;
+    stats:miscontrols 23 ;
+    stats:passesIntoPenaltyArea 15 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 25 ;
+    stats:progressivePasses 50 ;
+    stats:progressivePassesReceived 91 ;
+    stats:rank 2262 ;
+    stats:redCards 1 ;
+    stats:tackles 45 ;
+    stats:tacklesWon 28 ;
+    stats:touches 1074 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2004-10-29"^^xsd:date ;
+    schema:description "Tom Alexander Rothe (born 29 October 2004) is a German professional footballer who plays as a left-back for Bundesliga club Union Berlin."@en ;
+    schema:height "1.92 m (6 ft 4 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/6tl8vz1659534409.jpg"^^xsd:anyURI ;
+    schema:memberOf "Union Berlin"^^xsd:string ;
+    schema:name "Tom Rothe"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "185 lbs"^^xsd:string .
+

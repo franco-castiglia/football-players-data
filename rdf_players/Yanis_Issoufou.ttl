@@ -1,0 +1,50 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Yanis_Issoufou a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q118437408> ;
+    foaf:name "Yanis Issoufou"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 3 ;
+    stats:blocks 1 ;
+    stats:carries 16 ;
+    stats:clearances 1 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.9 ;
+    stats:matchesPlayed 4 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 77 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacker"^^xsd:string ;
+    stats:progressiveCarries 3 ;
+    stats:progressivePasses 2 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 1225 ;
+    stats:redCards 0 ;
+    stats:tackles 6 ;
+    stats:tacklesWon 4 ;
+    stats:touches 28 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2006-10-28"^^xsd:date ;
+    schema:height "6' 0\""^^xsd:string ;
+    schema:memberOf "Montpellier"^^xsd:string ;
+    schema:name "Yanis Issoufou"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

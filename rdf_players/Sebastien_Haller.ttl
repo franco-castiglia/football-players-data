@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Sebastien_Haller a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7665927> ;
+    foaf:account "twitter.com/HallerSeb"^^xsd:anyURI,
+        "www.instagram.com/sebastien.haller/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/1tu3in1759780321.png"^^xsd:anyURI ;
+    foaf:name "Sebastien Haller"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 10 ;
+    stats:blocks 1 ;
+    stats:carries 56 ;
+    stats:clearances 7 ;
+    stats:dispossessed 5 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 4.5 ;
+    stats:matchesPlayed 8 ;
+    stats:matchesStarted 5 ;
+    stats:minutesPlayed 404 ;
+    stats:miscontrols 17 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 3 ;
+    stats:progressivePasses 4 ;
+    stats:progressivePassesReceived 14 ;
+    stats:rank 1122 ;
+    stats:redCards 0 ;
+    stats:tackles 2 ;
+    stats:tacklesWon 0 ;
+    stats:touches 129 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1994-06-22"^^xsd:date ;
+    schema:description """Sébastien Romain Teddy Haller (born 22 June 1994) is a professional footballer who plays as a striker for Eredivisie ɛʁ];club Utrecht. Born in France, he plays for the Ivory Coast national team. \r
+Haller began his career in France with Auxerre, and moved on loan to Eredivisie side Utrecht in 2015, before signing on a permanent basis. Two years later, he moved to the German club Eintracht Frankfurt, winning the DFB-Pokal in 2018. Premier League side West Ham United signed him a year later for a club-record transfer worth €49.8 million (£45 million). Haller returned to the Netherlands in 2021, signing with Ajax, for a club record fee of €22.5 million (£18.8 million). In his first six months, he won the Eredivisie and the KNVB Cup. He became the first player to score across seven consecutive UEFA Champions League matches during the 2021–22 season, and then transferred to Borussia Dortmund for an initial €31 million.\r
+\r
+Haller represented France at youth level, before switching his allegiance in 2020 to the Ivory Coast. He scored on his international debut against Madagascar, and represented the national team at the Africa Cup of Nations in 2021 and 2023, scoring the winning goal in the final of the latter tournament."""@en ;
+    schema:height "1.90 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/prf3mf1610112961.jpg"^^xsd:anyURI ;
+    schema:memberOf "Utrecht"^^xsd:string ;
+    schema:name "Sebastien Haller"^^xsd:string ;
+    schema:nationality "Ivory Coast"^^xsd:string ;
+    schema:weight "181 lbs"^^xsd:string .
+

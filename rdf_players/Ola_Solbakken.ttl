@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ola_Solbakken a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q55364051> ;
+    foaf:account "http://www.instagram.com/olassolbakken/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/cliny41679566481.png"^^xsd:anyURI ;
+    foaf:name "Ola Solbakken"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 19 ;
+    stats:blocks 0 ;
+    stats:carries 150 ;
+    stats:clearances 8 ;
+    stats:dispossessed 8 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.4 ;
+    stats:expectedGoals 0.8 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 9 ;
+    stats:matches90s 8.4 ;
+    stats:matchesPlayed 21 ;
+    stats:matchesStarted 8 ;
+    stats:minutesPlayed 760 ;
+    stats:miscontrols 15 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 18 ;
+    stats:progressivePasses 20 ;
+    stats:progressivePassesReceived 32 ;
+    stats:rank 2465 ;
+    stats:redCards 0 ;
+    stats:tackles 7 ;
+    stats:tacklesWon 4 ;
+    stats:touches 263 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1998-09-07"^^xsd:date ;
+    schema:description "Ola Selvaag Solbakken (born 7 September 1998) is a Norwegian professional footballer who plays as a winger for Serie A club Empoli, on loan from Roma. He also plays for the Norway national team."@en ;
+    schema:height "1.86 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/gvicjc1610706233.jpg"^^xsd:anyURI ;
+    schema:memberOf "Empoli"^^xsd:string ;
+    schema:name "Ola Solbakken"^^xsd:string ;
+    schema:nationality "Norway"^^xsd:string ;
+    schema:weight "181 lbs"^^xsd:string .
+

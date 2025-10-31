@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Randy_Nteka a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q65160117> ;
+    foaf:account "www.instagram.com/r.nteka91/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/5g7ct41701167628.png"^^xsd:anyURI ;
+    foaf:name "Randy Nteka"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 26 ;
+    stats:blocks 13 ;
+    stats:carries 159 ;
+    stats:clearances 20 ;
+    stats:dispossessed 17 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 2.6 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 9 ;
+    stats:matches90s 12.5 ;
+    stats:matchesPlayed 24 ;
+    stats:matchesStarted 16 ;
+    stats:minutesPlayed 1129 ;
+    stats:miscontrols 32 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:progressiveCarries 10 ;
+    stats:progressivePasses 8 ;
+    stats:progressivePassesReceived 44 ;
+    stats:rank 1919 ;
+    stats:redCards 0 ;
+    stats:tackles 16 ;
+    stats:tacklesWon 5 ;
+    stats:touches 366 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "1997-12-06"^^xsd:date ;
+    schema:description "Randy Nteka (born 6 December 1997) is a professional footballer who plays for La Liga club Rayo Vallecano. Mainly an attacking midfielder, he can also play as a forward. Born in France, he represents Angola internationally."@en ;
+    schema:height "1.89 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/5w8tkz1630010756.jpg"^^xsd:anyURI ;
+    schema:memberOf "Vallecano"^^xsd:string ;
+    schema:name "Randy Nteka"^^xsd:string ;
+    schema:nationality "Angola"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

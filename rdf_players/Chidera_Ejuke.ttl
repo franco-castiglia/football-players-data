@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Chidera_Ejuke a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q37850911> ;
+    foaf:account "www.facebook.com/chidera.ejuke"^^xsd:anyURI,
+        "www.instagram.com/chideraejukejr10/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/jyouu41724785227.png"^^xsd:anyURI ;
+    foaf:name "Chidera Ejuke"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 63 ;
+    stats:blocks 12 ;
+    stats:carries 416 ;
+    stats:clearances 8 ;
+    stats:dispossessed 22 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.9 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 21 ;
+    stats:matches90s 10.7 ;
+    stats:matchesPlayed 25 ;
+    stats:matchesStarted 9 ;
+    stats:minutesPlayed 966 ;
+    stats:miscontrols 35 ;
+    stats:passesIntoPenaltyArea 20 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:progressiveCarries 75 ;
+    stats:progressivePasses 38 ;
+    stats:progressivePassesReceived 101 ;
+    stats:rank 822 ;
+    stats:redCards 0 ;
+    stats:tackles 19 ;
+    stats:tacklesWon 13 ;
+    stats:touches 612 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1998-01-02"^^xsd:date ;
+    schema:description "Chidera Ejuke (born 2 January 1998) is a Nigerian professional footballer who plays as a winger for La Liga club Sevilla and the Nigeria national team."@en ;
+    schema:height "1.76 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/xj5dal1724785033.jpg"^^xsd:anyURI ;
+    schema:memberOf "Sevilla"^^xsd:string ;
+    schema:name "Chidera Ejuke"^^xsd:string ;
+    schema:nationality "Nigeria"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

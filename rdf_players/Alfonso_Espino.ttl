@@ -1,0 +1,51 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Alfonso_Espino a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/kh5wvn1701095547.png"^^xsd:anyURI ;
+    foaf:name "Alfonso Espino"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 55 ;
+    stats:blocks 19 ;
+    stats:carries 307 ;
+    stats:clearances 32 ;
+    stats:dispossessed 9 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.6 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 12 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 9.3 ;
+    stats:matchesPlayed 16 ;
+    stats:matchesStarted 9 ;
+    stats:minutesPlayed 833 ;
+    stats:miscontrols 10 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:progressiveCarries 10 ;
+    stats:progressivePasses 39 ;
+    stats:progressivePassesReceived 29 ;
+    stats:rank 852 ;
+    stats:redCards 0 ;
+    stats:tackles 41 ;
+    stats:tacklesWon 24 ;
+    stats:touches 637 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1992-01-05"^^xsd:date ;
+    schema:description "Luis Alfonso Espino García (born 5 January 1992), commonly known as Pacha Espino, is a Uruguayan professional footballer who plays as a left back for Spanish club Rayo Vallecano."@en ;
+    schema:height "1.72 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/23g3xx1652555542.jpg"^^xsd:anyURI ;
+    schema:memberOf "Vallecano"^^xsd:string ;
+    schema:name "Alfonso Espino"^^xsd:string ;
+    schema:nationality "Uruguay"^^xsd:string ;
+    schema:weight "157 lbs"^^xsd:string .
+

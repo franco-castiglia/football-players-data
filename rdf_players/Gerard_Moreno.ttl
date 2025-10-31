@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Gerard_Moreno a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5550103> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/com9ik1679063853.png"^^xsd:anyURI ;
+    foaf:name "Gerard Moreno"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 25 ;
+    stats:blocks 0 ;
+    stats:carries 243 ;
+    stats:clearances 8 ;
+    stats:dispossessed 9 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 3.6 ;
+    stats:expectedGoals 4.2 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 17 ;
+    stats:matches90s 8.0 ;
+    stats:matchesPlayed 17 ;
+    stats:matchesStarted 6 ;
+    stats:minutesPlayed 721 ;
+    stats:miscontrols 17 ;
+    stats:passesIntoPenaltyArea 15 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 19 ;
+    stats:progressivePasses 53 ;
+    stats:progressivePassesReceived 60 ;
+    stats:rank 1788 ;
+    stats:redCards 0 ;
+    stats:tackles 7 ;
+    stats:tacklesWon 4 ;
+    stats:touches 404 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1992-04-07"^^xsd:date ;
+    schema:description """Gerard Moreno Balagueró (born 7 April 1992) is a Spanish professional footballer who plays as a striker for La Liga club Villarreal and the Spain national team.\r
+\r
+In his career, he has played for Villarreal, Mallorca and Espanyol, winning the 2021 Europa League and two Zarra Trophies with the first club.\r
+\r
+Moreno made his full debut for Spain in 2019, being part of the squad at UEFA Euro 2020.\r
+\r
+Moreno was never capped for Spain at any youth level. He made his senior debut on 15 October 2019, playing the entire 1–1 draw in Sweden for the UEFA Euro 2020 qualifiers. One month later, for the same competition and also as a starter, he scored his first goal in a 7–0 rout of Malta in Cádiz for the already qualified hosts. On 18 November, he added a brace in the 5–0 victory over Romania, being included in Luis Enrique's 24-man squad for the finals on 24 May 2021."""@en ;
+    schema:height "180 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ydl82a1546540674.jpg"^^xsd:anyURI ;
+    schema:memberOf "Villarreal"^^xsd:string ;
+    schema:name "Gerard Moreno"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

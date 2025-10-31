@@ -1,0 +1,52 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Urko_Gonzalez_de_Zarate a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q99514820> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ks2n5m1632752997.png"^^xsd:anyURI ;
+    foaf:name "Urko González de Zárate"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 71 ;
+    stats:blocks 27 ;
+    stats:carries 306 ;
+    stats:clearances 39 ;
+    stats:dispossessed 12 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.7 ;
+    stats:expectedGoals 0.5 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 10 ;
+    stats:matches90s 15.3 ;
+    stats:matchesPlayed 17 ;
+    stats:matchesStarted 16 ;
+    stats:minutesPlayed 1374 ;
+    stats:miscontrols 18 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 18 ;
+    stats:progressivePasses 62 ;
+    stats:progressivePassesReceived 8 ;
+    stats:rank 1039 ;
+    stats:redCards 0 ;
+    stats:tackles 46 ;
+    stats:tacklesWon 28 ;
+    stats:touches 610 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2001-03-20"^^xsd:date ;
+    schema:description "Urko González de Zárate Quirós (born 20 March 2001) is a Spanish professional footballer who plays as either a centre-back or a defensive midfielder for La Liga club Espanyol on loan from Real Sociedad."@en ;
+    schema:height "1.89 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/rf9n2l1632752936.jpg"^^xsd:anyURI ;
+    schema:memberOf "Espanyol"^^xsd:string ;
+    schema:name "Urko González de Zárate"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string .
+

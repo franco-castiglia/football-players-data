@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Patrick_Dorgu a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q121903982> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/l47uzh1752342384.png"^^xsd:anyURI ;
+    foaf:name "Patrick Dorgu"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 99 ;
+    stats:blocks 24 ;
+    stats:carries 557 ;
+    stats:clearances 42 ;
+    stats:dispossessed 37 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 1.5 ;
+    stats:expectedGoals 3.3 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 18 ;
+    stats:keyPasses 19 ;
+    stats:matches90s 20.4 ;
+    stats:matchesPlayed 21 ;
+    stats:matchesStarted 21 ;
+    stats:minutesPlayed 1840 ;
+    stats:miscontrols 37 ;
+    stats:passesIntoPenaltyArea 21 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:progressiveCarries 68 ;
+    stats:progressivePasses 54 ;
+    stats:progressivePassesReceived 117 ;
+    stats:rank 768 ;
+    stats:redCards 1 ;
+    stats:tackles 45 ;
+    stats:tacklesWon 27 ;
+    stats:touches 1011 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2004-10-26"^^xsd:date ;
+    schema:description """Patrick Chinazaekpere Dorgu (born 26 October 2004) is a Danish professional football player who plays either as a left-back or wing-back for Premier League club Manchester United and the Denmark national team.\r
+\r
+Dorgu began his professional career at Lecce in 2023, where he played in two Serie A seasons, before moving to Manchester United in 2025.\r
+\r
+Dorgu made his senior international debut for Denmark in 2024 in the Nations League."""@en ;
+    schema:height "1.87 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/wk0t7s1738527913.jpg"^^xsd:anyURI ;
+    schema:memberOf "Manchester United"^^xsd:string ;
+    schema:name "Patrick Dorgu"^^xsd:string ;
+    schema:nationality "Denmark"^^xsd:string ;
+    schema:weight "68 kg (150 lb)"^^xsd:string .
+

@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Christian_Kabasele a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2057994> ;
+    foaf:account "twitter.com/chriskabasele27"^^xsd:anyURI,
+        "www.facebook.com/christiankabasele27/"^^xsd:anyURI,
+        "www.instagram.com/christiankabasele27/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/qjg6zs1577825672.png"^^xsd:anyURI ;
+    foaf:name "Christian Kabasele"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 33 ;
+    stats:blocks 14 ;
+    stats:carries 393 ;
+    stats:clearances 75 ;
+    stats:dispossessed 3 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.4 ;
+    stats:expectedGoals 1.5 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 14 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 12.9 ;
+    stats:matchesPlayed 16 ;
+    stats:matchesStarted 12 ;
+    stats:minutesPlayed 1161 ;
+    stats:miscontrols 9 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 2 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 9 ;
+    stats:progressivePasses 44 ;
+    stats:progressivePassesReceived 7 ;
+    stats:rank 1299 ;
+    stats:redCards 0 ;
+    stats:tackles 17 ;
+    stats:tacklesWon 9 ;
+    stats:touches 715 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1991-02-24"^^xsd:date ;
+    schema:description """Christian Kabasele (born 24 February 1991) is a professional footballer who currently plays as a centre-back for Serie A club Udinese.\r
+\r
+Born in the Democratic Republic of the Congo, Kabasele played for the Belgium national team between 2016 and 2017."""@en ;
+    schema:height "1.87 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/rhfw1q1509375216.jpg"^^xsd:anyURI ;
+    schema:memberOf "Udinese"^^xsd:string ;
+    schema:name "Christian Kabasele"^^xsd:string ;
+    schema:nationality "Belgium"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Miguel_Gutierrez a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3857297> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/xiug3q1662204730.png"^^xsd:anyURI ;
+    foaf:name "Miguel Gutiérrez"^^xsd:string ;
+    stats:assists 5 ;
+    stats:ballRecoveries 144 ;
+    stats:blocks 17 ;
+    stats:carries 989 ;
+    stats:clearances 34 ;
+    stats:dispossessed 25 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 4.1 ;
+    stats:expectedGoals 1.6 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 16 ;
+    stats:keyPasses 41 ;
+    stats:matches90s 27.3 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 29 ;
+    stats:minutesPlayed 2458 ;
+    stats:miscontrols 37 ;
+    stats:passesIntoPenaltyArea 51 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 63 ;
+    stats:progressivePasses 103 ;
+    stats:progressivePassesReceived 199 ;
+    stats:rank 1105 ;
+    stats:redCards 0 ;
+    stats:tackles 37 ;
+    stats:tacklesWon 24 ;
+    stats:touches 1741 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2001-07-27"^^xsd:date ;
+    schema:description "Miguel Gutiérrez Ortega (born 27 July 2001) is a Spanish professional footballer who mainly plays as a left-back for La Liga club Girona."@en ;
+    schema:height "1.80 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/n8z1tk1684604627.jpg"^^xsd:anyURI ;
+    schema:memberOf "Napoli"^^xsd:string ;
+    schema:name "Miguel Gutiérrez"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

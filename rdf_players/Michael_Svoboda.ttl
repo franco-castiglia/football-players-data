@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Michael_Svoboda a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q55813157> ;
+    foaf:account "www.instagram.com/michisvoboda/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/sw0w2q1633104637.png"^^xsd:anyURI ;
+    foaf:name "Michael Svoboda"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 71 ;
+    stats:blocks 19 ;
+    stats:carries 509 ;
+    stats:clearances 66 ;
+    stats:dispossessed 11 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.6 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 22 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 14.6 ;
+    stats:matchesPlayed 16 ;
+    stats:matchesStarted 15 ;
+    stats:minutesPlayed 1314 ;
+    stats:miscontrols 12 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 13 ;
+    stats:progressivePasses 43 ;
+    stats:progressivePassesReceived 5 ;
+    stats:rank 2532 ;
+    stats:redCards 0 ;
+    stats:tackles 26 ;
+    stats:tacklesWon 14 ;
+    stats:touches 984 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1998-10-15"^^xsd:date ;
+    schema:description "Michael Svoboda (born 15 October 1998) is an Austrian professional footballer who plays as a defender for Serie A club Venezia."@en ;
+    schema:height "1.95 m (6 ft 4 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/idenc71633104631.jpg"^^xsd:anyURI ;
+    schema:memberOf "Venezia"^^xsd:string ;
+    schema:name "Michael Svoboda"^^xsd:string ;
+    schema:nationality "Austria"^^xsd:string ;
+    schema:weight "190 lbs"^^xsd:string .
+

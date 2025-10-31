@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Lucien_Agoume a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q58494963> ;
+    foaf:account "http://www.instagram.com/lucienagoume/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/eqklo71723878497.png"^^xsd:anyURI ;
+    foaf:name "Lucien Agoumé"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 136 ;
+    stats:blocks 30 ;
+    stats:carries 689 ;
+    stats:clearances 42 ;
+    stats:dispossessed 13 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.5 ;
+    stats:expectedGoals 0.9 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 41 ;
+    stats:keyPasses 27 ;
+    stats:matches90s 23.5 ;
+    stats:matchesPlayed 35 ;
+    stats:matchesStarted 24 ;
+    stats:minutesPlayed 2114 ;
+    stats:miscontrols 26 ;
+    stats:passesIntoPenaltyArea 19 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:progressiveCarries 29 ;
+    stats:progressivePasses 135 ;
+    stats:progressivePassesReceived 23 ;
+    stats:rank 44 ;
+    stats:redCards 1 ;
+    stats:tackles 70 ;
+    stats:tacklesWon 32 ;
+    stats:touches 1481 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "2002-02-02"^^xsd:date ;
+    schema:description """Lucien Jefferson Agoumé (born 9 February 2002) is a French professional footballer who plays as a midfielder for  Sevilla.\r
+\r
+Agoumé is a supporter of Marseille."""@en ;
+    schema:height "185 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/5t6ili1601070156.jpg"^^xsd:anyURI ;
+    schema:memberOf "Sevilla"^^xsd:string ;
+    schema:name "Lucien Agoumé"^^xsd:string ;
+    schema:nationality "France"^^xsd:string .
+

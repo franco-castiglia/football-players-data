@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Marko_Ivezic a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q111356863> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/9s97au1741705556.png"^^xsd:anyURI ;
+    foaf:name "Marko Ivezić"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 71 ;
+    stats:blocks 25 ;
+    stats:carries 596 ;
+    stats:clearances 103 ;
+    stats:dispossessed 7 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.6 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 27 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 18.4 ;
+    stats:matchesPlayed 23 ;
+    stats:matchesStarted 18 ;
+    stats:minutesPlayed 1657 ;
+    stats:miscontrols 17 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 3 ;
+    stats:progressivePasses 40 ;
+    stats:progressivePassesReceived 9 ;
+    stats:rank 1230 ;
+    stats:redCards 0 ;
+    stats:tackles 29 ;
+    stats:tacklesWon 19 ;
+    stats:touches 1176 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "2001-12-02"^^xsd:date ;
+    schema:description "Marko Ivezić (born 2 December 2001) is a Serbian professional footballer who plays as a defensive midfielder for German Bundesliga club Holstein Kiel."@en ;
+    schema:height "191 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/p9p9f61741705548.jpg"^^xsd:anyURI ;
+    schema:memberOf "Holstein Kiel"^^xsd:string ;
+    schema:name "Marko Ivezić"^^xsd:string ;
+    schema:nationality "Serbia"^^xsd:string ;
+    schema:weight "179 lbs"^^xsd:string .
+

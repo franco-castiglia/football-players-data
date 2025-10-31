@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Tijjani_Reijnders a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q39500352> ;
+    foaf:account "www.instagram.com/tijjanir/?hl=nl"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/3ov7ww1757098793.png"^^xsd:anyURI ;
+    foaf:name "Tijjani Reijnders"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 125 ;
+    stats:blocks 22 ;
+    stats:carries 1214 ;
+    stats:clearances 28 ;
+    stats:dispossessed 32 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 3.5 ;
+    stats:expectedGoals 7.5 ;
+    stats:goals 10 ;
+    stats:goalsNonPenalty 10 ;
+    stats:interceptions 38 ;
+    stats:keyPasses 47 ;
+    stats:matches90s 34.8 ;
+    stats:matchesPlayed 37 ;
+    stats:matchesStarted 36 ;
+    stats:minutesPlayed 3128 ;
+    stats:miscontrols 36 ;
+    stats:passesIntoPenaltyArea 56 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 111 ;
+    stats:progressivePasses 230 ;
+    stats:progressivePassesReceived 121 ;
+    stats:rank 2193 ;
+    stats:redCards 1 ;
+    stats:tackles 26 ;
+    stats:tacklesWon 13 ;
+    stats:touches 1863 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1998-07-26"^^xsd:date ;
+    schema:description """Tijjani Martinus Jan Reijnders (; born 29 July 1998) is a Dutch professional footballer who plays as a midfielder for Premier League club Manchester City and the Netherlands national team. \r
+\r
+After representing various Dutch junior teams, Reijnders began his career with his hometown club, PEC Zwolle, before moving to fellow Dutch club AZ Alkmaar in the 2017−18 season. He was then loaned to RKC Waalwijk until the conclusion of the 2019−20 campaign, returning to AZ as a mainstay. He signed for AC Milan in the summer of 2023 and won the 2024–25 Supercoppa Italiana.\r
+\r
+Reijnders is a Dutch international, having progressed from the under-20 level onwards. He made his senior international debut for the country in September 2023."""@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/kiacxt1679158182.jpg"^^xsd:anyURI ;
+    schema:memberOf "Manchester City"^^xsd:string ;
+    schema:name "Tijjani Reijnders"^^xsd:string ;
+    schema:nationality "The Netherlands"^^xsd:string ;
+    schema:weight "73 kg (161 lb)"^^xsd:string .
+

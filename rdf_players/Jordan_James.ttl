@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jordan_James a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q109638024> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/eo4gq61694549905.png"^^xsd:anyURI ;
+    foaf:name "Jordan James"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 54 ;
+    stats:blocks 14 ;
+    stats:carries 336 ;
+    stats:clearances 17 ;
+    stats:dispossessed 11 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.9 ;
+    stats:expectedGoals 0.9 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 14 ;
+    stats:keyPasses 24 ;
+    stats:matches90s 13.1 ;
+    stats:matchesPlayed 23 ;
+    stats:matchesStarted 14 ;
+    stats:minutesPlayed 1178 ;
+    stats:miscontrols 13 ;
+    stats:passesIntoPenaltyArea 12 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 21 ;
+    stats:progressivePasses 67 ;
+    stats:progressivePassesReceived 15 ;
+    stats:rank 1241 ;
+    stats:redCards 0 ;
+    stats:tackles 30 ;
+    stats:tacklesWon 19 ;
+    stats:touches 704 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2004-07-02"^^xsd:date ;
+    schema:description """Jordan Anthony James is a professional footballer who plays as a midfielder for EFL Championship club Leicester City, on loan from Ligue 1 club Rennes and the Wales national team. \r
+ He made his senior debut as a 17-year-old on 2 November 2021. Born in England to a Welsh father, James has represented both Wales and England at youth levels."""@en ;
+    schema:height "190 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/dniimq1656793397.jpg"^^xsd:anyURI ;
+    schema:memberOf "Leicester City"^^xsd:string ;
+    schema:name "Jordan James"^^xsd:string ;
+    schema:nationality "Wales"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

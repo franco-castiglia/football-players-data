@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Julien_Cardinal a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ckw1kg1702291444.png"^^xsd:anyURI ;
+    foaf:name "Julien Cardinal"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 48 ;
+    stats:blocks 18 ;
+    stats:carries 539 ;
+    stats:clearances 75 ;
+    stats:dispossessed 6 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 33 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 15.3 ;
+    stats:matchesPlayed 16 ;
+    stats:matchesStarted 15 ;
+    stats:minutesPlayed 1378 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 7 ;
+    stats:progressivePasses 39 ;
+    stats:progressivePassesReceived 1 ;
+    stats:rank 1458 ;
+    stats:redCards 0 ;
+    stats:tackles 27 ;
+    stats:tacklesWon 15 ;
+    stats:touches 994 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1997-08-03"^^xsd:date ;
+    schema:description """Julien Le Cardinal (born 3 August 1997) is a French professional footballer who plays as a centre-back for Ligue 1 club Lens.\r
+\r
+Career\r
+On 15 November 2022, Le Cardinal signed for Ligue 1 club Lens on a contract until 2025. The transfer fee paid to Paris FC was reportedly of €2.3 million, with an additional €300,000 in bonuses. He was given the number 25 jersey."""@en ;
+    schema:height "182 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/124lqj1702291378.jpg"^^xsd:anyURI ;
+    schema:memberOf "Brest"^^xsd:string ;
+    schema:name "Julien Cardinal"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "73 kg"^^xsd:string .
+

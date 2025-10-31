@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Carlos_Benavidez a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q24258613> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/fdlejd1706335838.png"^^xsd:anyURI ;
+    foaf:name "Carlos Benavídez"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 32 ;
+    stats:blocks 5 ;
+    stats:carries 147 ;
+    stats:clearances 14 ;
+    stats:dispossessed 0 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.6 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 5.4 ;
+    stats:matchesPlayed 18 ;
+    stats:matchesStarted 6 ;
+    stats:minutesPlayed 487 ;
+    stats:miscontrols 5 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 4 ;
+    stats:progressivePasses 26 ;
+    stats:progressivePassesReceived 5 ;
+    stats:rank 295 ;
+    stats:redCards 0 ;
+    stats:tackles 19 ;
+    stats:tacklesWon 14 ;
+    stats:touches 292 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1998-03-30"^^xsd:date ;
+    schema:description "Carlos Nahuel Benavídez Protesoni (born 30 March 1998) is a Uruguayan professional footballer who plays as central midfielder for La Liga club Deportivo Alavés."@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/8f66to1706335728.jpg"^^xsd:anyURI ;
+    schema:memberOf "Alaves"^^xsd:string ;
+    schema:name "Carlos Benavídez"^^xsd:string ;
+    schema:nationality "Uruguay"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

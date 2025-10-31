@@ -1,0 +1,51 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Coba_da_Costa a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q129167815> ;
+    foaf:name "Coba da Costa"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 35 ;
+    stats:blocks 24 ;
+    stats:carries 261 ;
+    stats:clearances 10 ;
+    stats:dispossessed 23 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.4 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 9 ;
+    stats:matches90s 11.2 ;
+    stats:matchesPlayed 19 ;
+    stats:matchesStarted 12 ;
+    stats:minutesPlayed 1006 ;
+    stats:miscontrols 26 ;
+    stats:passesIntoPenaltyArea 10 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacker"^^xsd:string ;
+    stats:progressiveCarries 46 ;
+    stats:progressivePasses 16 ;
+    stats:progressivePassesReceived 83 ;
+    stats:rank 608 ;
+    stats:redCards 0 ;
+    stats:tackles 29 ;
+    stats:tacklesWon 13 ;
+    stats:touches 504 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2002-07-26"^^xsd:date ;
+    schema:description "Coba Gomes da Costa (born 26 July 2002), sometimes known as just Coba, is a Spanish professional footballer who plays as a left winger for Getafe CF B."@en ;
+    schema:height "182 cm"^^xsd:string ;
+    schema:memberOf "Getafe B"^^xsd:string ;
+    schema:name "Coba da Costa"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "73 kg"^^xsd:string .
+

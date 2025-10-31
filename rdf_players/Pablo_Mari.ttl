@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Pablo_Mari a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7121685> ;
+    foaf:account "twitter.com/pablomv5"^^xsd:anyURI,
+        "www.instagram.com/pablomv5/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/hprs2a1758891930.png"^^xsd:anyURI ;
+    foaf:name "Pablo Marí"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 59 ;
+    stats:blocks 24 ;
+    stats:carries 765 ;
+    stats:clearances 85 ;
+    stats:dispossessed 5 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 37 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 18.1 ;
+    stats:matchesPlayed 19 ;
+    stats:matchesStarted 19 ;
+    stats:minutesPlayed 1628 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 5 ;
+    stats:progressivePasses 58 ;
+    stats:progressivePassesReceived 1 ;
+    stats:rank 1619 ;
+    stats:redCards 1 ;
+    stats:tackles 26 ;
+    stats:tacklesWon 15 ;
+    stats:touches 1296 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1993-08-31"^^xsd:date ;
+    schema:description """Pablo Marí Villar (born 31 August 1993) is a Spanish professional footballer who plays as a centre-back for Serie A club Fiorentina.\r
+\r
+Marí graduated from Mallorca's youth academy and played for various clubs throughout his career, in Spain, the Netherlands, Brazil, England and Italy. He won the Copa Libertadores and Série A in 2019 with Flamengo, and was included in the Série A Team of the Year that year."""@en ;
+    schema:height "1.91 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/tz32g51592468957.jpg"^^xsd:anyURI ;
+    schema:memberOf "Fiorentina"^^xsd:string ;
+    schema:name "Pablo Marí"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "192 lbs"^^xsd:string .
+

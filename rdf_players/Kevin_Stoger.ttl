@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Kevin_Stoger a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q86523> ;
+    foaf:account "twitter.com/kstoger"^^xsd:anyURI,
+        "www.instagram.com/kevinstoeger22/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/d6wr8o1756313686.png"^^xsd:anyURI ;
+    foaf:name "Kevin Stöger"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 75 ;
+    stats:blocks 24 ;
+    stats:carries 699 ;
+    stats:clearances 26 ;
+    stats:dispossessed 25 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 5.3 ;
+    stats:expectedGoals 3.9 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 16 ;
+    stats:keyPasses 54 ;
+    stats:matches90s 17.2 ;
+    stats:matchesPlayed 31 ;
+    stats:matchesStarted 16 ;
+    stats:minutesPlayed 1551 ;
+    stats:miscontrols 29 ;
+    stats:passesIntoPenaltyArea 39 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 40 ;
+    stats:progressivePasses 121 ;
+    stats:progressivePassesReceived 95 ;
+    stats:rank 2508 ;
+    stats:redCards 0 ;
+    stats:tackles 37 ;
+    stats:tacklesWon 21 ;
+    stats:touches 1318 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1993-08-27"^^xsd:date ;
+    schema:description "Kevin Stöger (born 27 August 1993) is an Austrian professional footballer who plays as a midfielder for Bundesliga club Borussia Mönchengladbach and the Austria national team. He is the younger brother of fellow footballer Pascal Stöger."@en ;
+    schema:height "1.75 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/vsmvp21578086466.jpg"^^xsd:anyURI ;
+    schema:memberOf "Borussia Mönchengladbach"^^xsd:string ;
+    schema:name "Kevin Stöger"^^xsd:string ;
+    schema:nationality "Austria"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

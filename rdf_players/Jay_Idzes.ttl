@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jay_Idzes a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q52348645> ;
+    foaf:name "Jay Idzes"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 113 ;
+    stats:blocks 52 ;
+    stats:carries 1051 ;
+    stats:clearances 156 ;
+    stats:dispossessed 7 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.7 ;
+    stats:expectedGoals 1.8 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 32 ;
+    stats:keyPasses 8 ;
+    stats:matches90s 34.7 ;
+    stats:matchesPlayed 35 ;
+    stats:matchesStarted 35 ;
+    stats:minutesPlayed 3127 ;
+    stats:miscontrols 31 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 3 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 15 ;
+    stats:progressivePasses 84 ;
+    stats:progressivePassesReceived 15 ;
+    stats:rank 1203 ;
+    stats:redCards 0 ;
+    stats:tackles 45 ;
+    stats:tacklesWon 29 ;
+    stats:touches 2078 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "2000-06-02"^^xsd:date ;
+    schema:description "Jay Noah Idzes (born 2 June 2000) is a professional footballer who plays as a centre-back for Serie A club Venezia. Born in the Netherlands, he plays for and captains the Indonesia national team."@en ;
+    schema:height "184 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/yxy4zc1741949665.jpg"^^xsd:anyURI ;
+    schema:memberOf "Venezia"^^xsd:string ;
+    schema:name "Jay Idzes"^^xsd:string ;
+    schema:nationality "Indonesia"^^xsd:string ;
+    schema:weight "181 lbs"^^xsd:string .
+

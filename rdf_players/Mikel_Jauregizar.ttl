@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mikel_Jauregizar a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q123698330> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/guluu71712489466.png"^^xsd:anyURI ;
+    foaf:name "Mikel Jauregizar"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 144 ;
+    stats:blocks 24 ;
+    stats:carries 706 ;
+    stats:clearances 36 ;
+    stats:dispossessed 23 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 1.4 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 29 ;
+    stats:keyPasses 23 ;
+    stats:matches90s 24.9 ;
+    stats:matchesPlayed 34 ;
+    stats:matchesStarted 25 ;
+    stats:minutesPlayed 2244 ;
+    stats:miscontrols 35 ;
+    stats:passesIntoPenaltyArea 11 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 14 ;
+    stats:progressivePasses 118 ;
+    stats:progressivePassesReceived 31 ;
+    stats:rank 1248 ;
+    stats:redCards 1 ;
+    stats:tackles 84 ;
+    stats:tacklesWon 48 ;
+    stats:touches 1418 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2003-11-13"^^xsd:date ;
+    schema:description "Mikel Jauregizar Alboniga (born 13 November 2003) is a Spanish professional footballer who plays as a midfielder for Athletic Bilbao."@en ;
+    schema:height "177 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/n28mz81712489376.jpg"^^xsd:anyURI ;
+    schema:memberOf "Athletic Bilbao"^^xsd:string ;
+    schema:name "Mikel Jauregizar"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

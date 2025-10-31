@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Dan_Burn a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5213217> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/pha77b1693822764.png"^^xsd:anyURI ;
+    foaf:name "Dan Burn"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 103 ;
+    stats:blocks 36 ;
+    stats:carries 1346 ;
+    stats:clearances 197 ;
+    stats:dispossessed 3 ;
+    stats:errors 4 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 2.0 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 27 ;
+    stats:keyPasses 9 ;
+    stats:matches90s 37.0 ;
+    stats:matchesPlayed 37 ;
+    stats:matchesStarted 37 ;
+    stats:minutesPlayed 3330 ;
+    stats:miscontrols 24 ;
+    stats:passesIntoPenaltyArea 9 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:progressiveCarries 12 ;
+    stats:progressivePasses 75 ;
+    stats:progressivePassesReceived 14 ;
+    stats:rank 418 ;
+    stats:redCards 0 ;
+    stats:tackles 39 ;
+    stats:tacklesWon 24 ;
+    stats:touches 2386 ;
+    stats:yellowCards 11 ;
+    schema:birthDate "1992-05-09"^^xsd:date ;
+    schema:description """Daniel Johnson Burn (born 9 May 1992) is an English professional footballer who plays as a defender for Premier League club Newcastle United.\r
+ He plays as a defender. Burn made his debut in the Football League for Darlington in 2009 and joined Fulham at the end of the 2010–11 season, having made 19 appearances for Darlington. He spent the 2012–13 season on loan to Yeovil Town, for whom he made 41 appearances, and spent part of the following season on loan to Birmingham City. He joined Wigan when his contract with Fulham expired at the end of the 2015–16 season."""@en ;
+    schema:height "6 ft 7 in (2.01 m)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/wqg2jt1512924006.jpg"^^xsd:anyURI ;
+    schema:memberOf "Newcastle"^^xsd:string ;
+    schema:name "Dan Burn"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "192 lbs"^^xsd:string .
+

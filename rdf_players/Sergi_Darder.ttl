@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Sergi_Darder a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6125267> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/h25abj1725044726.png"^^xsd:anyURI ;
+    foaf:name "Sergi Darder"^^xsd:string ;
+    stats:assists 6 ;
+    stats:ballRecoveries 122 ;
+    stats:blocks 19 ;
+    stats:carries 911 ;
+    stats:clearances 23 ;
+    stats:dispossessed 30 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 3.7 ;
+    stats:expectedGoals 2.1 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 16 ;
+    stats:keyPasses 54 ;
+    stats:matches90s 30.5 ;
+    stats:matchesPlayed 38 ;
+    stats:matchesStarted 34 ;
+    stats:minutesPlayed 2744 ;
+    stats:miscontrols 36 ;
+    stats:passesIntoPenaltyArea 33 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 37 ;
+    stats:progressivePasses 142 ;
+    stats:progressivePassesReceived 83 ;
+    stats:rank 667 ;
+    stats:redCards 0 ;
+    stats:tackles 40 ;
+    stats:tacklesWon 26 ;
+    stats:touches 1558 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1993-12-22"^^xsd:date ;
+    schema:description "Sergi Darder Moll (born 22 December 1993) is a Spanish professional footballer who plays as a central midfielder for La Liga club Mallorca."@en ;
+    schema:height "1.80 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/8qfer51701096826.jpg"^^xsd:anyURI ;
+    schema:memberOf "Mallorca"^^xsd:string ;
+    schema:name "Sergi Darder"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "71 kg (157 lb)"^^xsd:string .
+

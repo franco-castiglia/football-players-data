@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Unai_Lopez a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q17627796> ;
+    foaf:account "twitter.com/unai10lopez"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/px4wvy1679054906.png"^^xsd:anyURI ;
+    foaf:name "Unai Lopez"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 117 ;
+    stats:blocks 18 ;
+    stats:carries 828 ;
+    stats:clearances 20 ;
+    stats:dispossessed 19 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.0 ;
+    stats:expectedGoals 1.6 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 21 ;
+    stats:keyPasses 19 ;
+    stats:matches90s 19.0 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 23 ;
+    stats:minutesPlayed 1707 ;
+    stats:miscontrols 24 ;
+    stats:passesIntoPenaltyArea 11 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 22 ;
+    stats:progressivePasses 112 ;
+    stats:progressivePassesReceived 40 ;
+    stats:rank 1524 ;
+    stats:redCards 1 ;
+    stats:tackles 31 ;
+    stats:tacklesWon 21 ;
+    stats:touches 1410 ;
+    stats:yellowCards 9 ;
+    schema:birthDate "1995-10-30"^^xsd:date ;
+    schema:description "Unai López Cabrera (Basque: ; Spanish: ; born 30 October 1995) is a Spanish professional footballer who plays for Rayo Vallecano as a central midfielder."@en ;
+    schema:height "1.69 m (5 ft 7 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/18vduc1503250281.jpg"^^xsd:anyURI ;
+    schema:memberOf "Vallecano"^^xsd:string ;
+    schema:name "Unai Lopez"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

@@ -1,0 +1,66 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Azor_Matusiwa a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q27908084> ;
+    foaf:account "www.instagram.com/azormatusiwa/?hl=nl"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/t1l39n1674743593.png"^^xsd:anyURI ;
+    foaf:name "Azor Matusiwa"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 134 ;
+    stats:blocks 29 ;
+    stats:carries 619 ;
+    stats:clearances 52 ;
+    stats:dispossessed 17 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.8 ;
+    stats:expectedGoals 1.2 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 34 ;
+    stats:keyPasses 17 ;
+    stats:matches90s 23.1 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 23 ;
+    stats:minutesPlayed 2078 ;
+    stats:miscontrols 22 ;
+    stats:passesIntoPenaltyArea 18 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:progressiveCarries 19 ;
+    stats:progressivePasses 134 ;
+    stats:progressivePassesReceived 26 ;
+    stats:rank 1677 ;
+    stats:redCards 0 ;
+    stats:tackles 64 ;
+    stats:tacklesWon 39 ;
+    stats:touches 1358 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1998-04-28"^^xsd:date ;
+    schema:description """Azor Matusiwa (born 28 April 1998) is a Dutch professional footballer who plays as a defensive midfielder for Championship club Ipswich Town. \r
+\r
+Club career\r
+Ajax\r
+Matusiwa made his professional debut in the Eerste Divisie for Jong Ajax on 21 November 2016 in a game against Jong FC Utrecht.\r
+\r
+On 6 May 2018, Matusiwa made his debut in the first team of Ajax, on the final matchday of the Eredivisie against Excelsior.\r
+\r
+Stade de Reims\r
+Matusiwa signed for Stade de Reims on August 31, 2021.\r
+\r
+Personal life\r
+He is the brother of Diangi Matusiwa."""@en ;
+    schema:height "1.73 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/m3joov1631625587.jpg"^^xsd:anyURI ;
+    schema:memberOf "Ipswich Town"^^xsd:string ;
+    schema:name "Azor Matusiwa"^^xsd:string ;
+    schema:nationality "The Netherlands"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

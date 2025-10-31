@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Hamza_Choudhury a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q23771218> ;
+    foaf:account "www.instagram.com/hamzachoudhury11/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/iggs621695137318.png"^^xsd:anyURI ;
+    foaf:name "Hamza Choudhury"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 2 ;
+    stats:blocks 4 ;
+    stats:carries 63 ;
+    stats:clearances 2 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.4 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 1.5 ;
+    stats:matchesPlayed 4 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 131 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 4 ;
+    stats:progressivePasses 3 ;
+    stats:progressivePassesReceived 6 ;
+    stats:rank 554 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 1 ;
+    stats:touches 100 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1997-10-01"^^xsd:date ;
+    schema:description """Hamza Dewan Choudhury (Bengali: হামজা দেওয়ান চৌধুরী; born 1 October 1997) is a professional footballer who plays as a defensive midfielder or right-back for EFL Championship club Leicester City. Born in England, he plays for the Bangladesh national team.\r
+\r
+Choudhury is a product of Leicester City Academy, he joined the club at the age of seven. After gaining professional experience with two loan spells at Burton Albion, he has made over 100 senior appearances for Leicester since 2017. With Leicester, Choudhury won the FA Cup in 2021.\r
+\r
+Choudhury has represented England at under-21 level and, after receiving his Bangladeshi passport in late 2024, made the decision to play for the Bangladesh national team."""@en ;
+    schema:height "1.78 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/yuihf71510062623.jpg"^^xsd:anyURI ;
+    schema:memberOf "Leicester City"^^xsd:string ;
+    schema:name "Hamza Choudhury"^^xsd:string ;
+    schema:nationality "Bangladesh"^^xsd:string ;
+    schema:weight "139 lbs"^^xsd:string .
+

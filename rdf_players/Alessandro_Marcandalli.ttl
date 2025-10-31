@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Alessandro_Marcandalli a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q125925137> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/wx8p5c1758989259.png"^^xsd:anyURI ;
+    foaf:name "Alessandro Marcandalli"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 16 ;
+    stats:blocks 6 ;
+    stats:carries 89 ;
+    stats:clearances 26 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 3.9 ;
+    stats:matchesPlayed 8 ;
+    stats:matchesStarted 5 ;
+    stats:minutesPlayed 354 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 10 ;
+    stats:progressivePassesReceived 1 ;
+    stats:rank 1613 ;
+    stats:redCards 0 ;
+    stats:tackles 8 ;
+    stats:tacklesWon 6 ;
+    stats:touches 200 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2002-10-25"^^xsd:date ;
+    schema:description "Alessandro Marcandalli (born 25 October 2002) is an Italian footballer who plays as a centre-back for Serie A club Venezia on loan from Genoa."@en ;
+    schema:height "1.95 m (6 ft 5 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ygl7p31741950296.jpg"^^xsd:anyURI ;
+    schema:memberOf "Genoa"^^xsd:string ;
+    schema:name "Alessandro Marcandalli"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

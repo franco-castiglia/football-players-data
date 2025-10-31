@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Breel_Embolo a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q15956282> ;
+    foaf:account "http://www.facebook.com/BreelEmbolo97/?fref=ts"^^xsd:anyURI,
+        "http://www.instagram.com/breelembolo97/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/m9qlpy1674737385.png"^^xsd:anyURI ;
+    foaf:name "Breel Embolo"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 58 ;
+    stats:blocks 11 ;
+    stats:carries 397 ;
+    stats:clearances 10 ;
+    stats:dispossessed 53 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 5.6 ;
+    stats:expectedGoals 10.8 ;
+    stats:goals 6 ;
+    stats:goalsNonPenalty 6 ;
+    stats:interceptions 3 ;
+    stats:keyPasses 32 ;
+    stats:matches90s 20.5 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 19 ;
+    stats:minutesPlayed 1841 ;
+    stats:miscontrols 64 ;
+    stats:passesIntoPenaltyArea 23 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 2 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 22 ;
+    stats:progressivePasses 55 ;
+    stats:progressivePassesReceived 140 ;
+    stats:rank 839 ;
+    stats:redCards 0 ;
+    stats:tackles 22 ;
+    stats:tacklesWon 17 ;
+    stats:touches 668 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1997-02-14"^^xsd:date ;
+    schema:description """Breel Donald Embolo (born 14 February 1997) is a professional footballer who plays as a forward for Ligue 1 club AS Monaco. Born in Cameroon, he represents the Switzerland national team.\r
+\r
+Born in Cameroon, Embolo moved with his family to France before finally settling in Switzerland. After working his way through their junior teams, Embolo made his professional debut for Basel in March 2014, and won the Swiss Super League in all three of his first seasons before moving to Schalke 04 for an initial €20 million. Shortly after moving to the Bundesliga, he suffered an ankle injury that ruled him out for nearly a year.\r
+\r
+Embolo made his senior international debut in March 2015 and represented Switzerland at UEFA Euro 2016, the 2018 FIFA World Cup, and UEFA Euro 2020."""@en ;
+    schema:height "1.84 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/oy06lq1578119132.jpg"^^xsd:anyURI ;
+    schema:memberOf "Monaco"^^xsd:string ;
+    schema:name "Breel Embolo"^^xsd:string ;
+    schema:nationality "Switzerland"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

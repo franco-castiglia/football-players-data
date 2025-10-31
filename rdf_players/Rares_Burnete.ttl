@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Rares_Burnete a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q112624634> ;
+    foaf:account "www.instagram.com/raresburnete_/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/jdy1cd1698395883.png"^^xsd:anyURI ;
+    foaf:name "Rares Burnete"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 3 ;
+    stats:blocks 0 ;
+    stats:carries 12 ;
+    stats:clearances 0 ;
+    stats:dispossessed 4 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.3 ;
+    stats:matchesPlayed 4 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 28 ;
+    stats:miscontrols 6 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 4 ;
+    stats:rank 419 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 22 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2004-01-31"^^xsd:date ;
+    schema:description "Rares Burnete is a romanian football player, forward for Lecce."@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/k4k9aj1698395870.jpg"^^xsd:anyURI ;
+    schema:memberOf "Juve Stabia"^^xsd:string ;
+    schema:name "Rares Burnete"^^xsd:string ;
+    schema:nationality "Romania"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

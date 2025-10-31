@@ -1,0 +1,81 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Granit_Xhaka a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q514427> ;
+    foaf:account "twitter.com/xhakagranit34"^^xsd:anyURI,
+        "www.facebook.com/GranitXhaka/"^^xsd:anyURI,
+        "www.instagram.com/granitxhaka"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/2xa5dp1756903726.png"^^xsd:anyURI ;
+    foaf:name "Granit Xhaka"^^xsd:string ;
+    stats:assists 7 ;
+    stats:ballRecoveries 179 ;
+    stats:blocks 30 ;
+    stats:carries 1611 ;
+    stats:clearances 52 ;
+    stats:dispossessed 14 ;
+    stats:errors 6 ;
+    stats:expectedAssistedGoals 4.4 ;
+    stats:expectedGoals 0.9 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 12 ;
+    stats:keyPasses 50 ;
+    stats:matches90s 32.1 ;
+    stats:matchesPlayed 33 ;
+    stats:matchesStarted 33 ;
+    stats:minutesPlayed 2888 ;
+    stats:miscontrols 18 ;
+    stats:passesIntoPenaltyArea 40 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 42 ;
+    stats:progressivePasses 318 ;
+    stats:progressivePassesReceived 72 ;
+    stats:rank 2792 ;
+    stats:redCards 0 ;
+    stats:tackles 48 ;
+    stats:tacklesWon 26 ;
+    stats:touches 3052 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1992-09-27"^^xsd:date ;
+    schema:description """Granit Xhaka is a Swiss professional footballer who plays as a midfielder for Premier League club Sunderland and captains the Switzerland national team.\r
+\r
+Xhaka began his career at hometown club Basel, winning the Swiss Super League in each of his first two seasons. He then moved to Bundesliga team Borussia Mönchengladbach in 2012, developing a reputation as a technically gifted player and natural leader alongside criticism for his temperament. He was made captain of Borussia Mönchengladbach in 2015 at the age of 22, leading the team to UEFA Champions' League qualification for a second successive season. He completed a high-profile transfer to Arsenal in May 2016 for a fee in the region of £30 million.\r
+\r
+Xhaka was part of the Swiss team that won the 2009 FIFA U-17 World Cup. He made his senior debut in 2011 and has won over 100 caps, representing the nation at the FIFA World Cup in 2014 and 2018, and the UEFA European Championship in 2016 and 2020.\r
+\r
+Granit Xhaka was born on 27 September 1992 in the city of Basel, Switzerland, into an ethnic Albanian family from Podujevo, Kosovo, then part of the FR Yugoslavia. The family moved from Podujevo to Basel, Switzerland that year where Granit and his older brother Taulant Xhaka were born.\r
+\r
+Before making his international debut for Switzerland, Xhaka was still undecided whether to play for his birth country or Albania, and he complained to the Albanian sports media that FSHF was ignoring him while the Swiss Football Association was showing much more interest.\r
+\r
+Xhaka debuted for Switzerland at Wembley Stadium against England in a 2–2 UEFA Euro 2012 qualification draw on 4 June 2011. On 15 November 2011, during his sixth international appearance, he scored his first international goal in the 1–0 away win against Luxembourg at the Stade Josy Barthel.\r
+\r
+Switzerland also tried to select Xhaka to participate in the 2012 Olympic Football tournament, but he opted to stay at his new club for pre-season training. He participated in all ten of Switzerland's 2014 FIFA World Cup qualification campaign matches, scoring both goals in a 2–0 defeat of Slovenia. On 2 June 2014, Xhaka was named in Switzerland's 2014 World Cup squad by national coach Ottmar Hitzfeld. In the team's second match, Xhaka scored in a 5–2 loss to France.\r
+\r
+Xhaka was selected for Euro 2016, where Switzerland's campaign opened against Albania in Lens. Xhaka, whose team won 1–0, was playing against his brother Taulant. He was voted the man of the match. Xhaka played every minute of Switzerland's campaign, which ended in the round of 16 with a loss to Poland at the Stade Geoffroy-Guichard; after a 1–1 draw he was the only player to not score in the penalty shootout, shooting wide.\r
+\r
+Ahead of the 2018 World Cup qualifiers, there was speculation that Xhaka could switch his allegiance to represent Kosovo, which had been accepted as a full member of FIFA and were allowed to play competitive matches for the first time. Xhaka, however, published an open letter stating that his participation in Euro 2016 had disqualified him from changing his allegiance, and he was thus tied to Switzerland.\r
+\r
+Xhaka was named in manager Vladimir Petković's 23-man Swiss squad for the 2018 FIFA World Cup in Russia. On 22 June, he equalised with a long-range strike as the Swiss came from behind to defeat Serbia 2–1 in their second game. He and fellow goalscorer Xherdan Shaqiri, who is also of Kosovan descent, celebrated their goals by making an eagle gesture resembling the double headed eagle of the Albanian flag. FIFA fined each player 10,000 Swiss francs "for unsporting behaviour contrary to the principles of fair-play".\r
+\r
+Xhaka was appointed as a temporary captain by Vladimir Petković in the absence of Stephan Lichtsteiner, which caused him to be criticised by former Swiss international Stéphane Henchoz, who claimed that Xhaka could not properly represent Switzerland due to his Albanian heritage, instead suggesting that Lichtsteiner, Yann Sommer, or Fabian Schär serve as captain. In September 2019, Xhaka offered his captaincy to Xherdan Shaqiri in an effort to get him to return to the national side.\r
+\r
+Xhaka's older brother, Taulant, is also a professional footballer and plays for Basel and formerly the Albania national team.\r
+\r
+In July 2017, Xhaka married his long-term partner, Leonita Lekaj. His wife gave birth to their daughter, Ayana, on 7 October 2019. They welcomed their second daughter, Laneya, on 24 April 2021."""@en ;
+    schema:height "186 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/xhgqbw1678275167.jpg"^^xsd:anyURI ;
+    schema:memberOf "Sunderland"^^xsd:string ;
+    schema:name "Granit Xhaka"^^xsd:string ;
+    schema:nationality "Switzerland"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ismael_Doukoure a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q100736961> ;
+    foaf:account "mobile.twitter.com/ismadoukoure"^^xsd:anyURI,
+        "www.instagram.com/ismael_doukoure20/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/qel1v61674744459.png"^^xsd:anyURI ;
+    foaf:name "Ismaël Doukouré"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 103 ;
+    stats:blocks 31 ;
+    stats:carries 1149 ;
+    stats:clearances 102 ;
+    stats:dispossessed 18 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 1.1 ;
+    stats:expectedGoals 0.6 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 25 ;
+    stats:keyPasses 11 ;
+    stats:matches90s 29.3 ;
+    stats:matchesPlayed 31 ;
+    stats:matchesStarted 31 ;
+    stats:minutesPlayed 2639 ;
+    stats:miscontrols 21 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 20 ;
+    stats:progressivePasses 116 ;
+    stats:progressivePassesReceived 9 ;
+    stats:rank 779 ;
+    stats:redCards 0 ;
+    stats:tackles 40 ;
+    stats:tacklesWon 22 ;
+    stats:touches 1944 ;
+    stats:yellowCards 7 ;
+    schema:birthDate "2003-07-24"^^xsd:date ;
+    schema:description "Ismaël Landry Doukouré (born 24 July 2003) is a French professional footballer who plays as a centre-back or a defensive midfielder for Ligue 1 club Strasbourg."@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/hj7p3u1674744432.jpg"^^xsd:anyURI ;
+    schema:memberOf "Strasbourg"^^xsd:string ;
+    schema:name "Ismaël Doukouré"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jakub_Moder a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q52044004> ;
+    foaf:account "www.facebook.com/kuba.moder"^^xsd:anyURI,
+        "www.instagram.com/kubamoder/?hl=pl"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/v9fk7c1758187336.png"^^xsd:anyURI ;
+    foaf:name "Jakub Moder"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 2 ;
+    stats:blocks 0 ;
+    stats:carries 13 ;
+    stats:clearances 3 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 0.1 ;
+    stats:matchesPlayed 4 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 11 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 4 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1767 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 0 ;
+    stats:touches 27 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1999-04-07"^^xsd:date ;
+    schema:description "Jakub Piotr Moder is a Polish professional footballer who plays as a midfielder for Eredivisie club Feyenoord and the Poland national team."@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/6ii1ej1616276437.jpg"^^xsd:anyURI ;
+    schema:memberOf "Feyenoord"^^xsd:string ;
+    schema:name "Jakub Moder"^^xsd:string ;
+    schema:nationality "Poland"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

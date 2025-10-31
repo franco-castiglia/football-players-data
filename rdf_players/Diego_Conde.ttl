@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Diego_Conde a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q99508995> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/87k7de1678794953.png"^^xsd:anyURI ;
+    foaf:name "Diego Conde"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 30 ;
+    stats:blocks 0 ;
+    stats:carries 393 ;
+    stats:clearances 9 ;
+    stats:dispossessed 0 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 21.8 ;
+    stats:matchesPlayed 22 ;
+    stats:matchesStarted 22 ;
+    stats:minutesPlayed 1962 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 591 ;
+    stats:redCards 0 ;
+    stats:tackles 2 ;
+    stats:tacklesWon 2 ;
+    stats:touches 696 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1998-10-28"^^xsd:date ;
+    schema:description "Diego José Conde Alcolado (born 28 October 1998) is a Spanish professional footballer who plays as a goalkeeper for Villarreal CF."@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/dtq91e1723628718.jpg"^^xsd:anyURI ;
+    schema:memberOf "Villarreal"^^xsd:string ;
+    schema:name "Diego Conde"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

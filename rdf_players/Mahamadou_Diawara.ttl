@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mahamadou_Diawara a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1163284> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/t9wuad1702911381.png"^^xsd:anyURI ;
+    foaf:name "Mahamadou Diawara"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 40 ;
+    stats:blocks 13 ;
+    stats:carries 180 ;
+    stats:clearances 11 ;
+    stats:dispossessed 7 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.4 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 13 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 6.5 ;
+    stats:matchesPlayed 15 ;
+    stats:matchesStarted 6 ;
+    stats:minutesPlayed 582 ;
+    stats:miscontrols 8 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 9 ;
+    stats:progressivePasses 16 ;
+    stats:progressivePassesReceived 6 ;
+    stats:rank 720 ;
+    stats:redCards 0 ;
+    stats:tackles 20 ;
+    stats:tacklesWon 12 ;
+    stats:touches 321 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2005-02-17"^^xsd:date ;
+    schema:description "Mahamadou Diawara (born 17 February 2005) is a French professional footballer who plays as a midfielder for Ligue 1 club Le Havre on loan from Lyon."@en ;
+    schema:height "1.87 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/xbdh451702911369.jpg"^^xsd:anyURI ;
+    schema:memberOf "Le Havre"^^xsd:string ;
+    schema:name "Mahamadou Diawara"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

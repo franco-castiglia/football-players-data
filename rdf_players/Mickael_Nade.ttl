@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mickael_Nade a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q30014707> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/9odxwo1748685059.png"^^xsd:anyURI ;
+    foaf:name "Mickaël Nade"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 113 ;
+    stats:blocks 37 ;
+    stats:carries 825 ;
+    stats:clearances 132 ;
+    stats:dispossessed 5 ;
+    stats:errors 8 ;
+    stats:expectedAssistedGoals 0.6 ;
+    stats:expectedGoals 0.7 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 33 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 25.6 ;
+    stats:matchesPlayed 26 ;
+    stats:matchesStarted 25 ;
+    stats:minutesPlayed 2306 ;
+    stats:miscontrols 16 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 17 ;
+    stats:progressivePasses 72 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 1851 ;
+    stats:redCards 0 ;
+    stats:tackles 59 ;
+    stats:tacklesWon 43 ;
+    stats:touches 1665 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1999-03-04"^^xsd:date ;
+    schema:description """Mickaël Nadé (born 4 March 1999) is a French professional footballer who plays as defender for Ligue 1 club AS Saint-Étienne.\r
+\r
+Club career\r
+Nadé is a youth exponent of AAS Sarcelles. In July 2014, he joined the youth side of Saint-Étienne. He made his Ligue 1 debut on 20 May 2017 against Nancy.\r
+\r
+In July 2020, Nadé joined Quevilly-Rouen on a season-long loan.\r
+\r
+Personal life\r
+Born in France, Nadé is of Ivorian descent."""@en ;
+    schema:height "186 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/v6oqre1628890370.jpg"^^xsd:anyURI ;
+    schema:memberOf "St Etienne"^^xsd:string ;
+    schema:name "Mickaël Nade"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "179 lbs"^^xsd:string .
+

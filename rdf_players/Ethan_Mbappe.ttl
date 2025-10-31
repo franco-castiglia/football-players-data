@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ethan_Mbappe a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q110995393> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/1bbk0v1709235505.png"^^xsd:anyURI ;
+    foaf:name "Ethan Mbappé"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 8 ;
+    stats:blocks 6 ;
+    stats:carries 107 ;
+    stats:clearances 0 ;
+    stats:dispossessed 5 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.5 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 2.5 ;
+    stats:matchesPlayed 10 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 222 ;
+    stats:miscontrols 9 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 6 ;
+    stats:progressivePasses 8 ;
+    stats:progressivePassesReceived 32 ;
+    stats:rank 1691 ;
+    stats:redCards 0 ;
+    stats:tackles 6 ;
+    stats:tacklesWon 2 ;
+    stats:touches 177 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2006-12-29"^^xsd:date ;
+    schema:description "Ethan Mbappé Lottin (born 29 December 2006) is a French professional footballer who plays as a midfielder for Ligue 1 club Lille."@en ;
+    schema:height "1.76 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/iayg1i1716144083.jpg"^^xsd:anyURI ;
+    schema:memberOf "Lille"^^xsd:string ;
+    schema:name "Ethan Mbappé"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

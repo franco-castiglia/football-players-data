@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Reinildo_Mandava a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q24451748> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/5wryzn1757072739.png"^^xsd:anyURI ;
+    foaf:name "Reinildo Mandava"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 52 ;
+    stats:blocks 11 ;
+    stats:carries 421 ;
+    stats:clearances 35 ;
+    stats:dispossessed 4 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 16 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 10.5 ;
+    stats:matchesPlayed 19 ;
+    stats:matchesStarted 10 ;
+    stats:minutesPlayed 941 ;
+    stats:miscontrols 8 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:progressiveCarries 14 ;
+    stats:progressivePasses 34 ;
+    stats:progressivePassesReceived 15 ;
+    stats:rank 1601 ;
+    stats:redCards 0 ;
+    stats:tackles 18 ;
+    stats:tacklesWon 11 ;
+    stats:touches 717 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1994-01-21"^^xsd:date ;
+    schema:description "Reinildo Isnard Mandava (born 21 January 1994), also known mononymously as Reinildo, is a Mozambican professional footballer who plays as a left back for Premier League club Sunderland and the Mozambique national team."@en ;
+    schema:height "1.80 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ux1ja01706956852.jpg"^^xsd:anyURI ;
+    schema:memberOf "Sunderland"^^xsd:string ;
+    schema:name "Reinildo Mandava"^^xsd:string ;
+    schema:nationality "Mozambique"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

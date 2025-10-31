@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mads_Roerslev a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q29319616> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/v4yoos1761322721.png"^^xsd:anyURI ;
+    foaf:name "Mads Roerslev"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 39 ;
+    stats:blocks 12 ;
+    stats:carries 352 ;
+    stats:clearances 35 ;
+    stats:dispossessed 6 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 3.0 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 14 ;
+    stats:matches90s 12.2 ;
+    stats:matchesPlayed 19 ;
+    stats:matchesStarted 11 ;
+    stats:minutesPlayed 1101 ;
+    stats:miscontrols 9 ;
+    stats:passesIntoPenaltyArea 11 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 17 ;
+    stats:progressivePasses 51 ;
+    stats:progressivePassesReceived 54 ;
+    stats:rank 2244 ;
+    stats:redCards 0 ;
+    stats:tackles 18 ;
+    stats:tacklesWon 8 ;
+    stats:touches 645 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1999-06-24"^^xsd:date ;
+    schema:description """Mads Roerslev Rasmussen is a Danish professional footballer who plays as a right-back or right wing-back for EFL Championship club Southampton. He represents the Denmark national team at international level.\r
+\r
+Roerslev is a product of the FC Copenhagen academy. A fringe player after signing a professional contract, he transferred to English club Brentford in 2019 and was a part of the squad which was promoted to the Premier League in 2021. Roerslev was capped by Denmark at youth level and made his senior debut in 2024."""@en ;
+    schema:height "1.84 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/zku8e31628886992.jpg"^^xsd:anyURI ;
+    schema:memberOf "Southampton"^^xsd:string ;
+    schema:name "Mads Roerslev"^^xsd:string ;
+    schema:nationality "Denmark"^^xsd:string .
+

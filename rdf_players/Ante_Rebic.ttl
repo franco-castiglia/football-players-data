@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ante_Rebic a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3209607> ;
+    foaf:account "www.instagram.com/anterebic/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/69k8df1675285538.png"^^xsd:anyURI ;
+    foaf:name "Ante Rebic"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 33 ;
+    stats:blocks 7 ;
+    stats:carries 223 ;
+    stats:clearances 4 ;
+    stats:dispossessed 14 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 2.1 ;
+    stats:expectedGoals 2.1 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 18 ;
+    stats:matches90s 8.8 ;
+    stats:matchesPlayed 27 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 788 ;
+    stats:miscontrols 39 ;
+    stats:passesIntoPenaltyArea 11 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:progressiveCarries 17 ;
+    stats:progressivePasses 36 ;
+    stats:progressivePassesReceived 63 ;
+    stats:rank 2189 ;
+    stats:redCards 2 ;
+    stats:tackles 12 ;
+    stats:tacklesWon 9 ;
+    stats:touches 429 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1993-09-21"^^xsd:date ;
+    schema:description """Ante Rebić (born 21 September 1993) is a Croatian professional footballer who plays as a left winger for Serie A club Lecce. Mainly a winger, he can be deployed at any forward position.\r
+\r
+Rebić began his senior career at RNK Split, and in 2013 signed for Serie A club Fiorentina for an undisclosed fee. He spent most of his time there out on loan to RB Leipzig, Hellas Verona, and Eintracht Frankfurt, before joining the latter permanently in July 2018. In September 2019, he returned to Italian football, joining AC Milan, initially on a two-year loan, before joining permanently a year later.\r
+\r
+Rebić made his senior international debut for Croatia in 2013. That same year, he was voted Croatian Football Hope of the Year. He represented them at the FIFA World Cup in 2014 and 2018, reaching the final of the latter, as well as at the UEFA Euro 2020."""@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/lmsch11551798876.jpg"^^xsd:anyURI ;
+    schema:memberOf "Hajduk Split"^^xsd:string ;
+    schema:name "Ante Rebic"^^xsd:string ;
+    schema:nationality "Croatia"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

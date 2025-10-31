@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jon_Guridi a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q28966437> ;
+    foaf:account "www.instagram.com/guridi14/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ahchut1724491908.png"^^xsd:anyURI ;
+    foaf:name "Jon Guridi"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 86 ;
+    stats:blocks 19 ;
+    stats:carries 471 ;
+    stats:clearances 16 ;
+    stats:dispossessed 17 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.2 ;
+    stats:expectedGoals 4.2 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 14 ;
+    stats:keyPasses 17 ;
+    stats:matches90s 23.1 ;
+    stats:matchesPlayed 33 ;
+    stats:matchesStarted 27 ;
+    stats:minutesPlayed 2080 ;
+    stats:miscontrols 38 ;
+    stats:passesIntoPenaltyArea 11 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 27 ;
+    stats:progressivePasses 79 ;
+    stats:progressivePassesReceived 90 ;
+    stats:rank 1102 ;
+    stats:redCards 0 ;
+    stats:tackles 40 ;
+    stats:tacklesWon 22 ;
+    stats:touches 940 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "1995-02-28"^^xsd:date ;
+    schema:description "Jon Guridi Aldalur (born 28 February 1995) is a Spanish professional footballer who plays for La Liga club Alavés. Often deployed as a midfielder, he can also play as a right-back or right wing-back."@en ;
+    schema:height "1.79 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/1umhcl1504714521.jpg"^^xsd:anyURI ;
+    schema:memberOf "Alaves"^^xsd:string ;
+    schema:name "Jon Guridi"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "139 lbs"^^xsd:string .
+

@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Robin_Zentner a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18027449> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/t0c2yc1680007828.png"^^xsd:anyURI ;
+    foaf:name "Robin Zentner"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 56 ;
+    stats:blocks 0 ;
+    stats:carries 751 ;
+    stats:clearances 31 ;
+    stats:dispossessed 0 ;
+    stats:errors 4 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 32.0 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 32 ;
+    stats:minutesPlayed 2880 ;
+    stats:miscontrols 2 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 2 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 2829 ;
+    stats:redCards 0 ;
+    stats:tackles 2 ;
+    stats:tacklesWon 1 ;
+    stats:touches 1287 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1994-10-28"^^xsd:date ;
+    schema:description """Robin Zentner (born 28 October 1994) is a German footballer who plays as a goalkeeper for Bundesliga side Mainz 05 and theirs reserve team Mainz 05 II.\r
+\r
+On 4 November 2017, Zentner went viral for an "air kick" after mistaking the penalty spot for the ball following a back-pass, which nearly resulted in a goal."""@en ;
+    schema:height "1.94 m (6 ft 4 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/i0hjdb1578227472.jpg"^^xsd:anyURI ;
+    schema:memberOf "Mainz"^^xsd:string ;
+    schema:name "Robin Zentner"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "212 lbs"^^xsd:string .
+

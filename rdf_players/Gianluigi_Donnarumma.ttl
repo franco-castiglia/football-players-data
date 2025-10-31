@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Gianluigi_Donnarumma a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q20830808> ;
+    foaf:account "twitter.com/gigiodonna1"^^xsd:anyURI,
+        "www.facebook.com/GigioDonnarumma/"^^xsd:anyURI,
+        "www.instagram.com/gigiodonna99/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/xhqbpe1757099517.png"^^xsd:anyURI ;
+    foaf:name "Gianluigi Donnarumma"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 40 ;
+    stats:blocks 0 ;
+    stats:carries 349 ;
+    stats:clearances 14 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 23.2 ;
+    stats:matchesPlayed 24 ;
+    stats:matchesStarted 24 ;
+    stats:minutesPlayed 2091 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 766 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 1 ;
+    stats:touches 677 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1999-02-25"^^xsd:date ;
+    schema:description """Gianluigi Donnarumma Cavaliere OMRI is an Italian professional footballer who plays as a goalkeeper for Premier League club Manchester City and captains the Italy national team. He is widely regarded as one of the best goalkeepers in the world.\r
+\r
+Coming through the team's youth system, Donnarumma began his career with AC Milan in 2015, becoming the second-youngest goalkeeper ever to debut in Serie A, aged 16 years and 242 days; he immediately broke into the starting line-up, earning a reputation as arguably the most promising young goalkeeper in the world at the time. In 2021, Donnarumma helped Milan secure a second-place finish in the 2020–21 Serie A and qualification for the 2021–22 UEFA Champions League after an eight-year absence. He was also named Serie A's Best Goalkeeper of the Year, IFFHS World's Best Goalkeeper and also won the Yashin Trophy. After six years with Milan, Donnarumma moved to Ligue 1 side Paris Saint-Germain in June 2021 on a free transfer.\r
+\r
+Internationally, Donnarumma broke the record as the youngest Italian to ever play for the U21 team, aged 17 years and 28 days in March 2016. Six months later, he made his senior international debut, becoming the youngest goalkeeper ever to appear for Italy, aged 17 years and 189 days. Donnarumma represented Italy at UEFA Euro 2020, helping the team win the tournament and winning the Player of the Tournament award."""@en ;
+    schema:height "196cm / 6'5\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/7kahd81704447713.jpg"^^xsd:anyURI ;
+    schema:memberOf "Manchester City"^^xsd:string ;
+    schema:name "Gianluigi Donnarumma"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "196 lbs"^^xsd:string .
+

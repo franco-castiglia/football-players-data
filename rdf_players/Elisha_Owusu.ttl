@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Elisha_Owusu a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q55934972> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/k8z0z51680971172.png"^^xsd:anyURI ;
+    foaf:name "Elisha Owusu"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 154 ;
+    stats:blocks 33 ;
+    stats:carries 521 ;
+    stats:clearances 35 ;
+    stats:dispossessed 24 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.0 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 42 ;
+    stats:keyPasses 14 ;
+    stats:matches90s 26.0 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 28 ;
+    stats:minutesPlayed 2344 ;
+    stats:miscontrols 26 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 8 ;
+    stats:progressivePasses 78 ;
+    stats:progressivePassesReceived 33 ;
+    stats:rank 2012 ;
+    stats:redCards 0 ;
+    stats:tackles 73 ;
+    stats:tacklesWon 41 ;
+    stats:touches 1097 ;
+    stats:yellowCards 7 ;
+    schema:birthDate "1997-11-07"^^xsd:date ;
+    schema:description "Elisha Owusu (born 7 November 1997) is a professional footballer who plays as a midfielder for Ligue 1 club Auxerre. Born in France, he plays for the Ghana national team."@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/j7heas1668455801.jpg"^^xsd:anyURI ;
+    schema:memberOf "Auxerre"^^xsd:string ;
+    schema:name "Elisha Owusu"^^xsd:string ;
+    schema:nationality "Ghana"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

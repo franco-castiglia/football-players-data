@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Rui_Patricio a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q294980> ;
+    foaf:account "www.facebook.com/rpatricioofficial/"^^xsd:anyURI,
+        "www.instagram.com/rpatricio1/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ekricq1679567053.png"^^xsd:anyURI ;
+    foaf:name "Rui Patrício"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 7 ;
+    stats:blocks 0 ;
+    stats:carries 68 ;
+    stats:clearances 3 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 3.0 ;
+    stats:matchesPlayed 3 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 270 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 2049 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 107 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1988-02-15"^^xsd:date ;
+    schema:description """Rui Pedro dos Santos Patrício ComM (Portuguese pronunciation: ; born 15 February 1988) is a Portuguese professional footballer who plays as a goalkeeper for UAE Pro League side Al Ain. He is often nicknamed "São Patrício" (St. Patrick).\r
+\r
+A product of Sporting CP's youth academy, Patrício made his first team debut at the age of 18, and went on to appear in 467 official games. He won five trophies during his twelve years with the club, including two Portuguese Cups, before moving to England to join Wolverhampton Wanderers in 2018. In 2021, he signed for Roma, where he won the Europa Conference League in his first season.\r
+\r
+Patrício earned his first cap for Portugal national team in 2010, after Paulo Bento's appointment as head coach, and his 100th in 2021. He represented the nation in three World Cups and four European Championships, winning the 2016 edition of the latter tournament as well as the 2019 Nations League."""@en ;
+    schema:height "1.90 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/dtns5o1708025894.jpg"^^xsd:anyURI ;
+    schema:memberOf "Al Ain"^^xsd:string ;
+    schema:name "Rui Patrício"^^xsd:string ;
+    schema:nationality "Portugal"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

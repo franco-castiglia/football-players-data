@@ -1,0 +1,50 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Raul_Chasco a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q114221151> ;
+    foaf:name "Raúl Chasco"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 2 ;
+    stats:blocks 1 ;
+    stats:carries 28 ;
+    stats:clearances 2 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 1.4 ;
+    stats:matchesPlayed 2 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 130 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 3 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 532 ;
+    stats:redCards 0 ;
+    stats:tackles 4 ;
+    stats:tacklesWon 1 ;
+    stats:touches 74 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2003-09-13"^^xsd:date ;
+    schema:height "1.79 m (5 ft 10 in)"^^xsd:string ;
+    schema:memberOf "Valladolid Promesas"^^xsd:string ;
+    schema:name "Raúl Chasco"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

@@ -1,0 +1,49 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Tobias_Collyer a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/adecrg1761164547.png"^^xsd:anyURI ;
+    foaf:name "Tobias Collyer"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 17 ;
+    stats:blocks 2 ;
+    stats:carries 68 ;
+    stats:clearances 3 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 2.0 ;
+    stats:matchesPlayed 6 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 179 ;
+    stats:miscontrols 11 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 5 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 581 ;
+    stats:redCards 0 ;
+    stats:tackles 12 ;
+    stats:tacklesWon 9 ;
+    stats:touches 129 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2004-01-03"^^xsd:date ;
+    schema:description "Tobias Christopher Collyer (born 3 January 2004) is an English professional footballer who plays as a defensive midfielder for EFL Championship club West Bromwich Albion, on loan from Premier League club Manchester United."@en ;
+    schema:image "https://www.thesportsdb.com/images/media/player/thumb/sg136o1761158856.jpg"^^xsd:anyURI ;
+    schema:memberOf "West Bromwich Albion"^^xsd:string ;
+    schema:name "Tobias Collyer"^^xsd:string ;
+    schema:nationality "England"^^xsd:string .
+

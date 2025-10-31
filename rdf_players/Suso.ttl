@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Suso a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q247708> ;
+    foaf:account "twitter.com/suso30oficial"^^xsd:anyURI,
+        "www.instagram.com/suso/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/w4xr3u1658436036.png"^^xsd:anyURI ;
+    foaf:name "Suso"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 31 ;
+    stats:blocks 4 ;
+    stats:carries 280 ;
+    stats:clearances 2 ;
+    stats:dispossessed 15 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.6 ;
+    stats:expectedGoals 0.7 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 22 ;
+    stats:matches90s 6.7 ;
+    stats:matchesPlayed 16 ;
+    stats:matchesStarted 4 ;
+    stats:minutesPlayed 606 ;
+    stats:miscontrols 9 ;
+    stats:passesIntoPenaltyArea 13 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 20 ;
+    stats:progressivePasses 43 ;
+    stats:progressivePassesReceived 74 ;
+    stats:rank 2526 ;
+    stats:redCards 0 ;
+    stats:tackles 10 ;
+    stats:tacklesWon 7 ;
+    stats:touches 463 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1993-11-19"^^xsd:date ;
+    schema:description """Jesús Joaquín Fernández Sáenz de la Torre (Spanish pronunciation: ; born 19 November 1993), known as Suso (), is a Spanish professional footballer who plays as an attacking midfielder or right winger for La Liga club Sevilla.\r
+\r
+Scouted by English club Liverpool as a teenager, Suso made his professional debut there in 2012, playing sparingly and spending a season on loan at Almería before joining AC Milan in January 2015. He was loaned to fellow Serie A club Genoa in January 2016. In January 2020, Suso was loaned to La Liga club Sevilla, before joining the club permanently in July of that year.\r
+\r
+Suso represented Spain at various youth levels up to under-21, winning the 2012 UEFA European Under-19 Championship."""@en ;
+    schema:height "1.77 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ppdng01724791929.jpg"^^xsd:anyURI ;
+    schema:memberOf "Sevilla"^^xsd:string ;
+    schema:name "Suso"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

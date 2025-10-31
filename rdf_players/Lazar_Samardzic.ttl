@@ -1,0 +1,71 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Lazar_Samardzic a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q94723966> ;
+    foaf:account "http://www.instagram.com/lakisamar10/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/bdbgtn1731838015.png"^^xsd:anyURI ;
+    foaf:name "Lazar Samardžić"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 50 ;
+    stats:blocks 9 ;
+    stats:carries 573 ;
+    stats:clearances 6 ;
+    stats:dispossessed 19 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.9 ;
+    stats:expectedGoals 2.0 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 35 ;
+    stats:matches90s 13.0 ;
+    stats:matchesPlayed 31 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 1169 ;
+    stats:miscontrols 36 ;
+    stats:passesIntoPenaltyArea 30 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 54 ;
+    stats:progressivePasses 92 ;
+    stats:progressivePassesReceived 99 ;
+    stats:rank 2315 ;
+    stats:redCards 0 ;
+    stats:tackles 21 ;
+    stats:tacklesWon 15 ;
+    stats:touches 867 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2002-02-24"^^xsd:date ;
+    schema:description """Lazar Samardžić (Serbian Cyrillic: Лазар Самарџић, pronounced ; born 24 February 2002) is a German football player who plays as a midfielder for Atalanta on loan from Udinese. Although a central midfielder, he can also play as a left winger.\r
+\r
+Early career\r
+Samardžić played for BSV Grün-Weiss Neukölln 1950 e.V. from 2008 to 2009 and joined Hertha BSC from October 9, 2009. Samardžić played for the U17 and U19 teams of Hertha BSC in the Under 17 and Under 19 Bundesliga, scoring 16 and 14 goals respectively. Samardžić won the bronze award of the Fritz Walter Medal in the U17 group.\r
+\r
+Senior career\r
+Samardžić was announced to have signed a professional contract, and first appeared as an unused substitute for the professional team in a 3–3 away draw against Fortuna Düsseldorf on 28 February 2020.\r
+\r
+Samardžić made his debut for Hertha BSC in the Bundesliga on 22 May 2020, coming on as a substitute for Per Ciljan Skjelbred in the 81st minute of the Berlin derby against Union Berlin, which finished as a 4–0 win. Samardzic is considered one of Germany's most talented prospects and he had attracted serious interest from elite clubs around the world, such as Chelsea, Barcelona and Juventus.\r
+\r
+On 8 September 2020, Samardžić joined fellow Bundesliga side RB Leipzig on a five-year deal. He made his RB Leipzig debut on 3 October, coming off the bench in a 4-0 win against FC Schalke 04.\r
+\r
+International career\r
+Samardžić played for Berlin at the Under-15 level and Germany at the Under-17 and Under-19 levels. He first appeared internationally and played 2 matches in the 2019 UEFA European Under-17 Championship qualification against Belarus and Slovenia. He then played in all three matches of the group stage of the tournament, scoring once, but the team failed to progress to the knockout stage. For the U-19 level, he played in the 2020 UEFA European Under-19 Championship qualification, scoring twice.\r
+\r
+Personal life\r
+Samardžić was born in Berlin, and is of Bosnian Serb descent. His father hails from Živinice."""@en ;
+    schema:height "184cm / 6'0\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/lwr4bu1610108290.jpg"^^xsd:anyURI ;
+    schema:memberOf "Atalanta"^^xsd:string ;
+    schema:name "Lazar Samardžić"^^xsd:string ;
+    schema:nationality "Serbia"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

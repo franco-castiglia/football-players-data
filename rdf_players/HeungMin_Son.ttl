@@ -1,0 +1,63 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:HeungMin_Son a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q439722> ;
+    foaf:account "www.facebook.com/HeungMinSonOfficial"^^xsd:anyURI,
+        "www.instagram.com/hm_son7"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/kzmq7s1759500823.png"^^xsd:anyURI ;
+    foaf:name "Heung-Min Son"^^xsd:string ;
+    stats:assists 9 ;
+    stats:ballRecoveries 85 ;
+    stats:blocks 11 ;
+    stats:carries 761 ;
+    stats:clearances 17 ;
+    stats:dispossessed 32 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 8.2 ;
+    stats:expectedGoals 7.2 ;
+    stats:goals 7 ;
+    stats:goalsNonPenalty 6 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 50 ;
+    stats:matches90s 23.4 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 24 ;
+    stats:minutesPlayed 2110 ;
+    stats:miscontrols 25 ;
+    stats:passesIntoPenaltyArea 51 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:preferredFoot "Both"^^xsd:string ;
+    stats:progressiveCarries 96 ;
+    stats:progressivePasses 111 ;
+    stats:progressivePassesReceived 265 ;
+    stats:rank 1160 ;
+    stats:redCards 0 ;
+    stats:tackles 17 ;
+    stats:tacklesWon 9 ;
+    stats:touches 1134 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1992-07-08"^^xsd:date ;
+    schema:description """Son Heung-min is a South Korean professional footballer who plays as a forward for Major League Soccer club Los Angeles FC and captains the South Korea national team.\r
+Considered one of the best wingers in the world, he is known for his speed, finishing, two-footedness, and ability to link play.\r
+\r
+Born in Chuncheon, South Korea, Son relocated to Germany to join Hamburger SV at 16, making his debut in the Bundesliga in 2010. In 2013, he moved to Bayer Leverkusen for a club record €10 million before signing for Tottenham for £22 million two years later, becoming the most expensive Asian player in history. While at Tottenham, Son became the top Asian goalscorer in both Premier League and Champions League history, and surpassed Cha Bum-kun's record for most goals scored by a Korean player in European competition. In 2019, he became the second Asian in history to reach and start a UEFA Champions League final after compatriot Park Ji-sung. In the 2021–22 season, alongside Mohamed Salah, he won the Premier League Golden Boot award with 23 goals, becoming the first Asian player to win it. In April 2023, he became the first Asian player to score 100 Premier League goals. He is also the club's fifth-highest goalscorer and all-time leader in assists. Son is the third Tottenham player to make 300 Premier League appearances for the club, after Hugo Lloris and Harry Kane.\r
+\r
+A full international since 2010, Son has represented South Korea at the 2014, 2018, and 2022 FIFA World Cups and is his country's joint top scorer at World Cups, tied with Park Ji-sung and Ahn Jung-hwan on three goals. Son has also represented South Korea at the 2018 Asian Games, where the team won gold, and the 2011, 2015, 2019, and 2023 editions of the AFC Asian Cup; Korea was the runner-up in 2015.\r
+\r
+Outside of football, Son is viewed as a symbol of national pride in South Korea for his achievements, and has been listed in Forbes Korea Power Celebrity 40 since 2019, where he ranked second in 2023. In June 2022, Son received the Cheongnyong Medal, the highest order of merit for achievement in sports given to a South Korean citizen, for his achievements in football. Son has been credited for having raised the profile of Tottenham Hotspur among South Koreans, with the club's marketing and social media strategy catering extensively to Korean supporters."""@en ;
+    schema:height "1.84 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/12yrco1610289677.jpg"^^xsd:anyURI ;
+    schema:memberOf "Los Angeles FC"^^xsd:string ;
+    schema:name "Heung-Min Son"^^xsd:string ;
+    schema:nationality "South Korea"^^xsd:string ;
+    schema:weight "77 kg (170 lb)"^^xsd:string .
+

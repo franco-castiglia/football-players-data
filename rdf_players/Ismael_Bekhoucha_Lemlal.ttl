@@ -1,0 +1,46 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ismael_Bekhoucha_Lemlal a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    foaf:name "Ismael Bekhoucha Lemlal"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 6 ;
+    stats:blocks 2 ;
+    stats:carries 16 ;
+    stats:clearances 2 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.8 ;
+    stats:matchesPlayed 5 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 69 ;
+    stats:miscontrols 2 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 1 ;
+    stats:progressivePassesReceived 1 ;
+    stats:rank 278 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 1 ;
+    stats:touches 35 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2004-11-20"^^xsd:date ;
+    schema:memberOf "SS Reyes"^^xsd:string ;
+    schema:name "Ismael Bekhoucha Lemlal"^^xsd:string ;
+    schema:nationality "Morocco"^^xsd:string .
+

@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Sergi_Roberto a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q703269> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/6xwdke1657473239.png"^^xsd:anyURI ;
+    foaf:name "Sergi Roberto"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 48 ;
+    stats:blocks 7 ;
+    stats:carries 340 ;
+    stats:clearances 14 ;
+    stats:dispossessed 5 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.7 ;
+    stats:expectedGoals 0.7 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 9 ;
+    stats:keyPasses 15 ;
+    stats:matches90s 7.7 ;
+    stats:matchesPlayed 13 ;
+    stats:matchesStarted 8 ;
+    stats:minutesPlayed 696 ;
+    stats:miscontrols 14 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 2 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 10 ;
+    stats:progressivePasses 36 ;
+    stats:progressivePassesReceived 19 ;
+    stats:rank 2222 ;
+    stats:redCards 0 ;
+    stats:tackles 14 ;
+    stats:tacklesWon 8 ;
+    stats:touches 582 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1992-02-07"^^xsd:date ;
+    schema:description """Sergi Roberto Carnicer (born 7 February 1992) is a Spanish professional footballer who plays for Serie A club Como. Mainly a central midfielder, he can also operate as a defensive midfielder, full-back or winger.\r
+\r
+He spent most of his career with Barcelona after making his first-team debut at the age of 18, going on to win several accolades with the club including seven La Liga championships and two Champions Leagues.\r
+\r
+Roberto made his first full appearance for Spain in 2016."""@en ;
+    schema:height "1.78 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/tzy2631516994074.jpg"^^xsd:anyURI ;
+    schema:memberOf "Como"^^xsd:string ;
+    schema:name "Sergi Roberto"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

@@ -1,0 +1,51 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Matias_Moreno a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q123735549> ;
+    foaf:name "Matías Moreno"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 5 ;
+    stats:blocks 5 ;
+    stats:carries 55 ;
+    stats:clearances 9 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 1.6 ;
+    stats:matchesPlayed 4 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 144 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 6 ;
+    stats:progressivePassesReceived 1 ;
+    stats:rank 1789 ;
+    stats:redCards 0 ;
+    stats:tackles 8 ;
+    stats:tacklesWon 8 ;
+    stats:touches 98 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2003-09-24"^^xsd:date ;
+    schema:description "Matías Agustín Moreno (born 24 September 2003) is an Argentine professional footballer who plays as a centre-back for Levante on loan from Serie A club Fiorentina. He started his career at Belgrano, making his first-team debut for them in the Argentine Primera División on 10 July 2023. He played 75 minutes in a 0–0 draw with Colón. He was signed by Fiorentina for €5 million on 30 August 2024, after the club sold Serbian central defender Nikola Milenković to Premier League club Nottingham Forest."@en ;
+    schema:height "6 ft 4 in (1.93 m)"^^xsd:string ;
+    schema:memberOf "Levante"^^xsd:string ;
+    schema:name "Matías Moreno"^^xsd:string ;
+    schema:nationality "Argentina"^^xsd:string ;
+    schema:weight "179 lbs"^^xsd:string .
+

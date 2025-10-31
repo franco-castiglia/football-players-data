@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mads_Hermansen a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q65229910> ;
+    foaf:account "www.instagram.com/madshermansen/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/5la1li1755779202.png"^^xsd:anyURI ;
+    foaf:name "Mads Hermansen"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 17 ;
+    stats:blocks 1 ;
+    stats:carries 734 ;
+    stats:clearances 13 ;
+    stats:dispossessed 0 ;
+    stats:errors 4 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 26.5 ;
+    stats:matchesPlayed 27 ;
+    stats:matchesStarted 27 ;
+    stats:minutesPlayed 2385 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 1 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1147 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 1 ;
+    stats:touches 1147 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2000-07-11"^^xsd:date ;
+    schema:description """Mads Hermansen is a Danish professional footballer who plays as a goalkeeper for Premier League club West Ham United. \r
+Hermansen began his youth career at Næsby Boldklub, and transitioned into the goalkeeping role at age 10 where he suffered from achilles tendinitis.\r
+In September 2015, Hermansen moved to Brøndby IF. He was promoted to the first team prior to the 2019–20 season.\r
+On 5 November 2020, Hermansen made his professional debut in a Danish Cup match against Ledøje-Smørum Fodbold, which ended in a 1–0 win for Brøndby."""@en ;
+    schema:height "6 ft 1 in"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/lxjta11654112729.jpg"^^xsd:anyURI ;
+    schema:memberOf "West Ham United"^^xsd:string ;
+    schema:name "Mads Hermansen"^^xsd:string ;
+    schema:nationality "Denmark"^^xsd:string ;
+    schema:weight "179 lbs"^^xsd:string .
+

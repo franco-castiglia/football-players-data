@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ibrahim_Sulemana a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2784464> ;
+    foaf:account "mobile.twitter.com/ibrahsulemana"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/e4sjm51758897476.png"^^xsd:anyURI ;
+    foaf:name "Ibrahim Sulemana"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 13 ;
+    stats:blocks 2 ;
+    stats:carries 135 ;
+    stats:clearances 1 ;
+    stats:dispossessed 3 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.6 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 3.1 ;
+    stats:matchesPlayed 9 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 283 ;
+    stats:miscontrols 7 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 12 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 2522 ;
+    stats:redCards 0 ;
+    stats:tackles 9 ;
+    stats:tacklesWon 4 ;
+    stats:touches 209 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2003-05-22"^^xsd:date ;
+    schema:description """Ibrahim Sulemana Kakari (born 22 May 2003) is a Ghanaian footballer who plays as a midfielder for Cagliari.\r
+\r
+Early life\r
+Hailing from Brong Ahafo in southwestern Ghana, Ibrahim Sulemana started football in his home town of Sunyani. It is also in this city that he was spotted by the Ghanaian player agent, Oliver Artur, who came to organize a day of detection in the region. Selected among several other players, he was invited to a test stay in Italy in the summer of 2019. Enough to catch the eye of Atalanta recruiters, who included him in their U17 group. Sulemana stayed there for two years, the time to participate in several national tournaments, before injuring his face following a bad blow received in a match. Not retained by Atalanta, he finally signed with Hellas Verona in the summer of 2021. The club covered his medical expenses, including his facial surgery, and also allowed him to start with the Primavera. He signed his first professional contract at Hellas on July 1, 2022."""@en ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/dralsv1679667689.jpg"^^xsd:anyURI ;
+    schema:memberOf "Bologna"^^xsd:string ;
+    schema:name "Ibrahim Sulemana"^^xsd:string ;
+    schema:nationality "Ghana"^^xsd:string ;
+    schema:weight "78kg / 172lbs"^^xsd:string .
+

@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Oliver_Burke a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18125392> ;
+    foaf:account "twitter.com/oliverburke55"^^xsd:anyURI,
+        "www.instagram.com/oliverjburke/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ru285k1742136489.png"^^xsd:anyURI ;
+    foaf:name "Oliver Burke"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 26 ;
+    stats:blocks 20 ;
+    stats:carries 246 ;
+    stats:clearances 6 ;
+    stats:dispossessed 13 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.7 ;
+    stats:expectedGoals 4.1 ;
+    stats:goals 5 ;
+    stats:goalsNonPenalty 5 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 14 ;
+    stats:matches90s 10.1 ;
+    stats:matchesPlayed 25 ;
+    stats:matchesStarted 9 ;
+    stats:minutesPlayed 908 ;
+    stats:miscontrols 38 ;
+    stats:passesIntoPenaltyArea 7 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 22 ;
+    stats:progressivePasses 15 ;
+    stats:progressivePassesReceived 88 ;
+    stats:rank 417 ;
+    stats:redCards 0 ;
+    stats:tackles 11 ;
+    stats:tacklesWon 4 ;
+    stats:touches 440 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1997-04-07"^^xsd:date ;
+    schema:description """Oliver Jasen Burke (born 7 April 1997) is a Scottish professional footballer who plays as a right winger or forward for German Bundesliga club Werder Bremen. \r
+He came through the academy at Nottingham Forest, signing a professional contract in September 2014 and making his debut the following February. In August 2016, Burke signed for Bundesliga club RB Leipzig for a reported fee of £13 million, a record fee for a Scottish player. A year later, having helped Leipzig to runners-up position in the league, he returned to England by signing for West Bromwich Albion for a fee of £15 million. Following an unsuccessful few years at West Bromwich Albion, in September 2020, Burke joined Sheffield United in a swap deal involving Callum Robinson."""@en ;
+    schema:height "188 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/lflg4r1712515071.jpg"^^xsd:anyURI ;
+    schema:memberOf "Werder Bremen"^^xsd:string ;
+    schema:name "Oliver Burke"^^xsd:string ;
+    schema:nationality "Scotland"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

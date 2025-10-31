@@ -1,0 +1,64 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Daichi_Kamada a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q20039495> ;
+    foaf:account "www.instagram.com/kamadadaichi/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/xajscx1761492482.png"^^xsd:anyURI ;
+    foaf:name "Daichi Kamada"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 89 ;
+    stats:blocks 22 ;
+    stats:carries 485 ;
+    stats:clearances 14 ;
+    stats:dispossessed 20 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.9 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 18 ;
+    stats:keyPasses 20 ;
+    stats:matches90s 17.4 ;
+    stats:matchesPlayed 34 ;
+    stats:matchesStarted 15 ;
+    stats:minutesPlayed 1564 ;
+    stats:miscontrols 16 ;
+    stats:passesIntoPenaltyArea 14 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 25 ;
+    stats:progressivePasses 89 ;
+    stats:progressivePassesReceived 56 ;
+    stats:rank 1308 ;
+    stats:redCards 1 ;
+    stats:tackles 47 ;
+    stats:tacklesWon 29 ;
+    stats:touches 937 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1996-08-05"^^xsd:date ;
+    schema:description """Daichi Kamada (Kamada Daichi, born 5 August 1996) is a Japanese professional footballer who plays as an attacking midfielder or a forward for Crystal Palace and the Japan national team.\r
+\r
+Having previously called up to the Japan's youth team for the rest of 2015, Yamada was called up to the U21 squad the following year. He went on to make two appearances for the U21 side.\r
+\r
+In March 2016, Kamada was called up to the Japan U23 squad for the first time. He made his Japan U23 debut, coming on as a 65th-minute substitute, in a 2–1 win against Mexico U23 on 25 March 2016. Kamada made his first starts for the Japan U23 side, and played 64 minutes before being substituted, in a 2–1 win against Guinea U23 on 25 May 2016. Kamada went on to make four appearances for Japan U23, with two other matches he featured were substitute.\r
+\r
+Having previously failed to make a cut to the Samurai Blue squad for the 2019 AFC Asian Cup, it was announced on 15 March 2019 that Kamada was called up to the Japan squad for the first time. He made his debut for the Samurai Blue on 22 March 2019 in a friendly against Colombia, as a 79th-minute substitute for Takumi Minamino. Kamada then scored his first Japan goal, in a 6–0 win against Mongolia on 10 October 2019. Almost a year later, in October 2020, he was called up to the Samurai Blue squad. Kamada then scored three goals in three matches for Japan between 25 March 2021 and 28 May 2021 against South Korea, Mongolia and Myanmar.\r
+\r
+Kamada's father, Fukushige, was once a footballer and worked for the seniors and juniors at Osaka University of Physical Education. Because of his father's guidance, Kamada worked hard and learned how to use his body, enabling him to go back and forth between the attacking third and middle thirds, and his number of pass variations increased. He has a younger brother, Hiromu Kamada, who is also a footballer. In his free time, Kamada has said he is learning German and reads manga. Kamada credited teammate Makoto Hasebe for helping settle down in Germany.\r
+\r
+At one point, Kamada considered going to university, saying: "Going to college may be a necessary path for me, but I still have a feeling that I can't give up. If I become a professional after graduating from college, I'm already 22 years old. However, I thought it would be very late to become a professional at the age of 22. For me, it is ideal that I go to the J League from high school and start from the first year, and I think I should do that. And I'm thinking about the future of the J League. I've always had a dream to go out into the world and play. I don't appreciate it, but I have enough confidence to do it." Growing up, Kamada said he wanted to be a footballer. On 25 May 2017, Kamada announced his marriage, to a woman he had been dating for a long time. A year later in October 2018, he became a first time father when his wife gave birth to a baby boy. Since moving to Eintracht Frankfurt, Kamada resides in the city with his family."""@en ;
+    schema:height "184 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ohn3yf1578087082.jpg"^^xsd:anyURI ;
+    schema:memberOf "Crystal Palace"^^xsd:string ;
+    schema:name "Daichi Kamada"^^xsd:string ;
+    schema:nationality "Japan"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

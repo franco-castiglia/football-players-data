@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Zinedine_Ferhat a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q8072365> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/zwytyq1609107180.png"^^xsd:anyURI ;
+    foaf:name "Zinedine Ferhat"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 47 ;
+    stats:blocks 9 ;
+    stats:carries 292 ;
+    stats:clearances 12 ;
+    stats:dispossessed 15 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.4 ;
+    stats:expectedGoals 1.4 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 10 ;
+    stats:keyPasses 17 ;
+    stats:matches90s 9.4 ;
+    stats:matchesPlayed 24 ;
+    stats:matchesStarted 8 ;
+    stats:minutesPlayed 849 ;
+    stats:miscontrols 21 ;
+    stats:passesIntoPenaltyArea 13 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 16 ;
+    stats:progressivePasses 40 ;
+    stats:progressivePassesReceived 64 ;
+    stats:rank 891 ;
+    stats:redCards 0 ;
+    stats:tackles 9 ;
+    stats:tacklesWon 7 ;
+    stats:touches 550 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1993-03-01"^^xsd:date ;
+    schema:description "Zinedine Ferhat (born 1 March 1993) is an Algerian professional footballer who plays as a midfielder for Süper Lig club Alanyaspor and the Algeria national team."@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/1i9kr81609107158.jpg"^^xsd:anyURI ;
+    schema:memberOf "Angers"^^xsd:string ;
+    schema:name "Zinedine Ferhat"^^xsd:string ;
+    schema:nationality "Algeria"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

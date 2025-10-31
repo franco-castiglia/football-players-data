@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Castello_Lukeba a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q106766554> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/it691a1742069766.png"^^xsd:anyURI ;
+    foaf:name "Castello Lukeba"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 74 ;
+    stats:blocks 29 ;
+    stats:carries 806 ;
+    stats:clearances 74 ;
+    stats:dispossessed 11 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 17 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 17.5 ;
+    stats:matchesPlayed 23 ;
+    stats:matchesStarted 18 ;
+    stats:minutesPlayed 1577 ;
+    stats:miscontrols 20 ;
+    stats:passesIntoPenaltyArea 7 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 18 ;
+    stats:progressivePasses 80 ;
+    stats:progressivePassesReceived 23 ;
+    stats:rank 1539 ;
+    stats:redCards 0 ;
+    stats:tackles 31 ;
+    stats:tacklesWon 17 ;
+    stats:touches 1445 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2002-12-17"^^xsd:date ;
+    schema:description "Castello Junior Lukeba, also known as Castello Jr. (born 17 December 2002) is a French professional footballer who plays as a centre-back for Bundesliga club RB Leipzig and the France national team."@en ;
+    schema:height "1.84 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/u5unqa1628843313.jpg"^^xsd:anyURI ;
+    schema:memberOf "RB Leipzig"^^xsd:string ;
+    schema:name "Castello Lukeba"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

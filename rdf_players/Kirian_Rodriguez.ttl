@@ -1,0 +1,62 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Kirian_Rodriguez a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q64745093> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/3vqvop1701093001.png"^^xsd:anyURI ;
+    foaf:name "Kirian Rodríguez"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 100 ;
+    stats:blocks 22 ;
+    stats:carries 763 ;
+    stats:clearances 21 ;
+    stats:dispossessed 14 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.5 ;
+    stats:expectedGoals 1.6 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 10 ;
+    stats:keyPasses 16 ;
+    stats:matches90s 19.5 ;
+    stats:matchesPlayed 21 ;
+    stats:matchesStarted 21 ;
+    stats:minutesPlayed 1758 ;
+    stats:miscontrols 20 ;
+    stats:passesIntoPenaltyArea 14 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:progressiveCarries 25 ;
+    stats:progressivePasses 128 ;
+    stats:progressivePassesReceived 39 ;
+    stats:rank 2241 ;
+    stats:redCards 0 ;
+    stats:tackles 33 ;
+    stats:tacklesWon 17 ;
+    stats:touches 1357 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1996-03-05"^^xsd:date ;
+    schema:description """Kirian Rodríguez Concepción (born 5 March 1996) is a Spanish footballer who plays for La Liga club Las Palmas as a central midfielder.\r
+\r
+Club career\r
+Rodríguez was born in Candelaria, Santa Cruz de Tenerife, Canary Islands, and joined UD Las Palmas' youth setup in 2014, from CD Ofra. He spent his first senior years playing with the C-team in the regional leagues, before being promoted to the reserves in January 2018, after scoring 13 goals with the C's.\r
+\r
+On 14 September 2018, Rodríguez renewed his contract with the club until 2020. He made his first-team debut the following 2 June, coming on as a second-half substitute for fellow youth graduate Fabio González in a 0–0 home draw against UD Almería in the Segunda División.\r
+\r
+On 17 June 2019, Rodríguez was one of the five players from the B-side who were definitely promoted to the main squad. He scored his first professional goal on 20 July of the following year, netting the opener in a 5–1 home routing of Extremadura UD.\r
+\r
+On 2 August 2022, Kirian announced through a press conference that he was diagnosed with a Hodgkin lymphoma."""@en ;
+    schema:height "1.80 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/3200s41701092996.jpg"^^xsd:anyURI ;
+    schema:memberOf "Las Palmas"^^xsd:string ;
+    schema:name "Kirian Rodríguez"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

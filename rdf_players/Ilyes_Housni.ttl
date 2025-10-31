@@ -1,0 +1,50 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ilyes_Housni a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q114456342> ;
+    foaf:name "Ilyes Housni"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 7 ;
+    stats:blocks 2 ;
+    stats:carries 67 ;
+    stats:clearances 2 ;
+    stats:dispossessed 9 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 2.6 ;
+    stats:matchesPlayed 12 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 230 ;
+    stats:miscontrols 7 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacker"^^xsd:string ;
+    stats:progressiveCarries 8 ;
+    stats:progressivePasses 4 ;
+    stats:progressivePassesReceived 24 ;
+    stats:rank 1184 ;
+    stats:redCards 0 ;
+    stats:tackles 7 ;
+    stats:tacklesWon 5 ;
+    stats:touches 106 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2005-05-14"^^xsd:date ;
+    schema:height "176 cm"^^xsd:string ;
+    schema:memberOf "Paris SG"^^xsd:string ;
+    schema:name "Ilyes Housni"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

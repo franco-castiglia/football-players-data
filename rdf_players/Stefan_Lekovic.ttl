@@ -1,0 +1,51 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Stefan_Lekovic a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q112978315> ;
+    foaf:name "Stefan Leković"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 18 ;
+    stats:blocks 4 ;
+    stats:carries 128 ;
+    stats:clearances 5 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 7 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 4.1 ;
+    stats:matchesPlayed 7 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 367 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 4 ;
+    stats:progressivePasses 15 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 1470 ;
+    stats:redCards 0 ;
+    stats:tackles 9 ;
+    stats:tacklesWon 4 ;
+    stats:touches 225 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2004-01-09"^^xsd:date ;
+    schema:description "Stefan Leković (Serbian Cyrillic: Стефан Лековић; born 9 January 2004) is a Serbian professional footballer who plays as a centre-back for Serie A club Monza on loan from Red Star Belgrade."@en ;
+    schema:height "1.92 m (6 ft 4 in)"^^xsd:string ;
+    schema:memberOf "Monza"^^xsd:string ;
+    schema:name "Stefan Leković"^^xsd:string ;
+    schema:nationality "Serbia"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

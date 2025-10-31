@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Adama_Traore a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q110918343> ;
+    foaf:account "twitter.com/AdamaTrd37"^^xsd:anyURI,
+        "www.instagram.com/adamaTRD37/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/3hng221757071133.png"^^xsd:anyURI ;
+    foaf:name "Adama Traoré"^^xsd:string ;
+    stats:assists 7 ;
+    stats:ballRecoveries 87 ;
+    stats:blocks 7 ;
+    stats:carries 538 ;
+    stats:clearances 6 ;
+    stats:dispossessed 25 ;
+    stats:errors 4 ;
+    stats:expectedAssistedGoals 4.9 ;
+    stats:expectedGoals 4.0 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 42 ;
+    stats:matches90s 19.7 ;
+    stats:matchesPlayed 36 ;
+    stats:matchesStarted 18 ;
+    stats:minutesPlayed 1772 ;
+    stats:miscontrols 37 ;
+    stats:passesIntoPenaltyArea 38 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 100 ;
+    stats:progressivePasses 68 ;
+    stats:progressivePassesReceived 161 ;
+    stats:rank 2624 ;
+    stats:redCards 0 ;
+    stats:tackles 20 ;
+    stats:tacklesWon 13 ;
+    stats:touches 801 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1996-01-25"^^xsd:date ;
+    schema:description """Adama Traoré Diarra (born 25 January 1996), sometimes simply referred to as Adama Traoré, is a Spanish professional footballer who plays as a right winger for Premier League club Fulham and the Spain national team. \r
+\r
+He began his career with Barcelona, appearing mainly for the reserves. In 2015 he signed for Aston Villa and a year later Middlesbrough, before joining Wolverhampton Wanderers in August 2018.\r
+\r
+Traoré represented Spain at under-16, under-17, under-19 and under-21 levels."""@en ;
+    schema:height "1.71 m (5 ft 7 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/a2bxjs1646657677.jpg"^^xsd:anyURI ;
+    schema:memberOf "Fulham"^^xsd:string ;
+    schema:name "Adama Traoré"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "190 lbs"^^xsd:string .
+

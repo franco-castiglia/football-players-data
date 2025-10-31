@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Patrizio_Masini a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q108691113> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/2iyw8c1758989513.png"^^xsd:anyURI ;
+    foaf:name "Patrizio Masini"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 87 ;
+    stats:blocks 26 ;
+    stats:carries 391 ;
+    stats:clearances 37 ;
+    stats:dispossessed 12 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 15 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 17.1 ;
+    stats:matchesPlayed 26 ;
+    stats:matchesStarted 16 ;
+    stats:minutesPlayed 1538 ;
+    stats:miscontrols 25 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 16 ;
+    stats:progressivePasses 44 ;
+    stats:progressivePassesReceived 27 ;
+    stats:rank 1662 ;
+    stats:redCards 0 ;
+    stats:tackles 54 ;
+    stats:tacklesWon 29 ;
+    stats:touches 878 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2001-01-27"^^xsd:date ;
+    schema:description "Patrizio Masini (born 27 January 2001) is an Italian professional footballer who plays as a midfielder for Serie A club Genoa."@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://www.thesportsdb.com/images/media/player/thumb/u1xwma1758989806.jpg"^^xsd:anyURI ;
+    schema:memberOf "Genoa"^^xsd:string ;
+    schema:name "Patrizio Masini"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Alberto_Costa a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q366556> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/q9pfp31750330908.png"^^xsd:anyURI ;
+    foaf:name "Alberto Costa"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 23 ;
+    stats:blocks 5 ;
+    stats:carries 148 ;
+    stats:clearances 14 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.6 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 4.0 ;
+    stats:matchesPlayed 9 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 357 ;
+    stats:miscontrols 9 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 8 ;
+    stats:progressivePasses 8 ;
+    stats:progressivePassesReceived 25 ;
+    stats:rank 607 ;
+    stats:redCards 0 ;
+    stats:tackles 14 ;
+    stats:tacklesWon 10 ;
+    stats:touches 276 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2003-09-29"^^xsd:date ;
+    schema:description "Alberto Oliveira Baio (born 29 September 2003), known as Alberto Costa, is a Portuguese footballer who plays as a right-back for Serie A club Juventus."@en ;
+    schema:height "186cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/k9ccrd1750330877.jpg"^^xsd:anyURI ;
+    schema:memberOf "FC Porto"^^xsd:string ;
+    schema:name "Alberto Costa"^^xsd:string ;
+    schema:nationality "Portugal"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

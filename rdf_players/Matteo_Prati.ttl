@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Matteo_Prati a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q113997693> ;
+    foaf:account "www.instagram.com/matteoprati_/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ledp881697923911.png"^^xsd:anyURI ;
+    foaf:name "Matteo Prati"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 24 ;
+    stats:blocks 5 ;
+    stats:carries 155 ;
+    stats:clearances 10 ;
+    stats:dispossessed 2 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.7 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 7 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 6.3 ;
+    stats:matchesPlayed 12 ;
+    stats:matchesStarted 8 ;
+    stats:minutesPlayed 570 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 23 ;
+    stats:progressivePassesReceived 7 ;
+    stats:rank 2148 ;
+    stats:redCards 0 ;
+    stats:tackles 10 ;
+    stats:tacklesWon 4 ;
+    stats:touches 313 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2003-12-28"^^xsd:date ;
+    schema:description """Matteo Prati (born 28 December 2003) is an Italian professional footballer who plays as a midfielder for Serie A club Cagliari.\r
+\r
+Prati made his senior professional debut for the club he was raised in, Ravenna in Serie C in March 2021. Following Ravenna's relegation to Serie D for the 2021–22 season, he became a regular member of the starting lineup.\r
+\r
+On 27 July 2022, Prati signed a three-year contract (with an option to extend for one more year) with SPAL in Serie B. He made his Serie B debut for SPAL on 3 September 2022 in a game against Bari. He made a good impact, but the team was relegated at the end of the season.\r
+\r
+On 17 August 2023, Prati officially joined Serie A club Cagliari for five million euros (plus two millions in add-ons), signing a five-year contract with the club. In the process, the deal broke the transfer record as the most lucrative sale from any Serie C team. He made his Serie A debut on 17 September 2023, playing as a starter in the match against Udinese."""@en ;
+    schema:height "183 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/3y2de51697448631.jpg"^^xsd:anyURI ;
+    schema:memberOf "Cagliari"^^xsd:string ;
+    schema:name "Matteo Prati"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

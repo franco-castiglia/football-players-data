@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Lukas_Kubler a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q4419904> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/dq7c4x1742060243.png"^^xsd:anyURI ;
+    foaf:name "Lukas Kübler"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 73 ;
+    stats:blocks 32 ;
+    stats:carries 519 ;
+    stats:clearances 61 ;
+    stats:dispossessed 7 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 0.8 ;
+    stats:expectedGoals 2.7 ;
+    stats:goals 5 ;
+    stats:goalsNonPenalty 5 ;
+    stats:interceptions 53 ;
+    stats:keyPasses 11 ;
+    stats:matches90s 20.5 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 22 ;
+    stats:minutesPlayed 1842 ;
+    stats:miscontrols 12 ;
+    stats:passesIntoPenaltyArea 15 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 24 ;
+    stats:progressivePasses 78 ;
+    stats:progressivePassesReceived 49 ;
+    stats:rank 1419 ;
+    stats:redCards 0 ;
+    stats:tackles 40 ;
+    stats:tacklesWon 21 ;
+    stats:touches 1268 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1992-08-30"^^xsd:date ;
+    schema:description "Lukas Kübler is a German professional footballer who plays as a center back for SC Freiburg."@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/llsio51578087958.jpg"^^xsd:anyURI ;
+    schema:memberOf "Freiburg"^^xsd:string ;
+    schema:name "Lukas Kübler"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

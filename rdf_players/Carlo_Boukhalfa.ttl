@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Carlo_Boukhalfa a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q99297018> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/8kvvkz1741627161.png"^^xsd:anyURI ;
+    foaf:name "Carlo Boukhalfa"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 60 ;
+    stats:blocks 22 ;
+    stats:carries 290 ;
+    stats:clearances 25 ;
+    stats:dispossessed 20 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.1 ;
+    stats:expectedGoals 1.5 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 12 ;
+    stats:keyPasses 11 ;
+    stats:matches90s 18.3 ;
+    stats:matchesPlayed 25 ;
+    stats:matchesStarted 19 ;
+    stats:minutesPlayed 1646 ;
+    stats:miscontrols 31 ;
+    stats:passesIntoPenaltyArea 7 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 10 ;
+    stats:progressivePasses 41 ;
+    stats:progressivePassesReceived 44 ;
+    stats:rank 371 ;
+    stats:redCards 0 ;
+    stats:tackles 26 ;
+    stats:tacklesWon 11 ;
+    stats:touches 651 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1999-05-03"^^xsd:date ;
+    schema:description "Carlo Gregor Boukhalfa (born 3 May 1999) is a German professional footballer who plays as a midfielder for Bundesliga club FC St. Pauli."@en ;
+    schema:height "185 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/7mqx0r1741627111.jpg"^^xsd:anyURI ;
+    schema:memberOf "St Pauli"^^xsd:string ;
+    schema:name "Carlo Boukhalfa"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Thomas_Partey a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q118496464> ;
+    foaf:account "twitter.com/Thomaspartey22"^^xsd:anyURI,
+        "www.facebook.com/ThomasPartey5"^^xsd:anyURI,
+        "www.instagram.com/thomaspartey5"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/i7062o1694203796.png"^^xsd:anyURI ;
+    foaf:name "Thomas Partey"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 138 ;
+    stats:blocks 29 ;
+    stats:carries 1256 ;
+    stats:clearances 49 ;
+    stats:dispossessed 17 ;
+    stats:errors 4 ;
+    stats:expectedAssistedGoals 2.1 ;
+    stats:expectedGoals 2.3 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 35 ;
+    stats:keyPasses 20 ;
+    stats:matches90s 31.1 ;
+    stats:matchesPlayed 35 ;
+    stats:matchesStarted 31 ;
+    stats:minutesPlayed 2797 ;
+    stats:miscontrols 24 ;
+    stats:passesIntoPenaltyArea 33 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 36 ;
+    stats:progressivePasses 185 ;
+    stats:progressivePassesReceived 48 ;
+    stats:rank 2044 ;
+    stats:redCards 0 ;
+    stats:tackles 89 ;
+    stats:tacklesWon 53 ;
+    stats:touches 2193 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1993-06-13"^^xsd:date ;
+    schema:description """Thomas Teye Partey (born 13 June 1993) is a Ghanaian professional footballer who plays as a midfielder for Premier League club Arsenal and the Ghana national team.\r
+\r
+Partey began his professional career at Spanish club Atlético Madrid in 2013, going on loan to Mallorca and Almería, and returned to Atlético in 2015, with whom he won the UEFA Europa League and UEFA Super Cup in 2018. In 2020, he joined Arsenal in a transfer worth £45 million (€50 million), becoming the most expensive Ghanaian player of all time.\r
+\r
+A Ghanaian international, Partey represented his nation at two Africa Cup of Nations tournaments. He was named into the CAF Team of the Year in 2018, and won Ghana Player of the Year in 2018 and 2019."""@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/lnsxw11705917605.jpg"^^xsd:anyURI ;
+    schema:memberOf "_Free Agent Soccer"^^xsd:string ;
+    schema:name "Thomas Partey"^^xsd:string ;
+    schema:nationality "Ghana"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

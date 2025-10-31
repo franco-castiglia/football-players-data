@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Manu_Kone a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q64029237> ;
+    foaf:account "www.instagram.com/manu_kne/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/s4wyo21758815461.png"^^xsd:anyURI ;
+    foaf:name "Manu Koné"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 131 ;
+    stats:blocks 27 ;
+    stats:carries 1006 ;
+    stats:clearances 28 ;
+    stats:dispossessed 45 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.7 ;
+    stats:expectedGoals 3.4 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 24 ;
+    stats:keyPasses 19 ;
+    stats:matches90s 28.6 ;
+    stats:matchesPlayed 34 ;
+    stats:matchesStarted 31 ;
+    stats:minutesPlayed 2572 ;
+    stats:miscontrols 54 ;
+    stats:passesIntoPenaltyArea 15 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 70 ;
+    stats:progressivePasses 144 ;
+    stats:progressivePassesReceived 50 ;
+    stats:rank 1391 ;
+    stats:redCards 0 ;
+    stats:tackles 41 ;
+    stats:tacklesWon 26 ;
+    stats:touches 1555 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "2001-05-17"^^xsd:date ;
+    schema:description "Emmanuel \"Manu\" Kouadio Koné (born 17 May 2001) is a French professional footballer who plays as a midfielder for Serie A club Roma on loan from Bundesliga club Borussia Mönchengladbach, and the France national team."@en ;
+    schema:height "1.86 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/p9y0011616162196.jpg"^^xsd:anyURI ;
+    schema:memberOf "Roma"^^xsd:string ;
+    schema:name "Manu Koné"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

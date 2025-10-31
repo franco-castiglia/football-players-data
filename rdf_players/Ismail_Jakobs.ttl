@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ismail_Jakobs a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q74178822> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/q952ej1674737329.png"^^xsd:anyURI ;
+    foaf:name "Ismail Jakobs"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 5 ;
+    stats:blocks 0 ;
+    stats:carries 67 ;
+    stats:clearances 6 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 2.0 ;
+    stats:matchesPlayed 2 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 180 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 9 ;
+    stats:progressivePasses 6 ;
+    stats:progressivePassesReceived 17 ;
+    stats:rank 1240 ;
+    stats:redCards 0 ;
+    stats:tackles 5 ;
+    stats:tacklesWon 5 ;
+    stats:touches 121 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1999-08-17"^^xsd:date ;
+    schema:description "Ismail Joshua Jakobs (born 17 August 1999) is a professional footballer who plays as a left back or left winger for Süper Lig club Galatasaray, on loan from Ligue 1 club Monaco. Born in Germany, he plays for the Senegal national team."@en ;
+    schema:height "1.84 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/hdt64h1609169603.jpg"^^xsd:anyURI ;
+    schema:memberOf "Galatasaray"^^xsd:string ;
+    schema:name "Ismail Jakobs"^^xsd:string ;
+    schema:nationality "Senegal"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

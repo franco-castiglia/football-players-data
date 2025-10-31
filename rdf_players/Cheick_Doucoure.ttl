@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Cheick_Doucoure a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q47490408> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/qlsmct1757013588.png"^^xsd:anyURI ;
+    foaf:name "Cheick Doucouré"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 31 ;
+    stats:blocks 4 ;
+    stats:carries 133 ;
+    stats:clearances 10 ;
+    stats:dispossessed 7 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 11 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 5.0 ;
+    stats:matchesPlayed 13 ;
+    stats:matchesStarted 4 ;
+    stats:minutesPlayed 452 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 19 ;
+    stats:progressivePassesReceived 7 ;
+    stats:rank 774 ;
+    stats:redCards 0 ;
+    stats:tackles 16 ;
+    stats:tacklesWon 8 ;
+    stats:touches 263 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2000-01-08"^^xsd:date ;
+    schema:description "Cheick Oumar Doucouré (born 8 January 2000) is a Malian professional footballer who plays as a midfielder for Premier League club Crystal Palace and the Mali national team."@en ;
+    schema:height "1.80 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/mz52rm1657737163.jpg"^^xsd:anyURI ;
+    schema:memberOf "Crystal Palace"^^xsd:string ;
+    schema:name "Cheick Doucouré"^^xsd:string ;
+    schema:nationality "Mali"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

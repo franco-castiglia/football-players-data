@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Marshall_Nyasha_Munetsi a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q24007041> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/m43af41756975574.png"^^xsd:anyURI ;
+    foaf:name "Marshall Nyasha Munetsi"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 72 ;
+    stats:blocks 27 ;
+    stats:carries 206 ;
+    stats:clearances 35 ;
+    stats:dispossessed 5 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.0 ;
+    stats:expectedGoals 4.0 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 17 ;
+    stats:keyPasses 19 ;
+    stats:matches90s 18.8 ;
+    stats:matchesPlayed 19 ;
+    stats:matchesStarted 19 ;
+    stats:minutesPlayed 1692 ;
+    stats:miscontrols 26 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 8 ;
+    stats:progressivePasses 26 ;
+    stats:progressivePassesReceived 48 ;
+    stats:rank 1820 ;
+    stats:redCards 0 ;
+    stats:tackles 36 ;
+    stats:tacklesWon 18 ;
+    stats:touches 594 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1996-06-22"^^xsd:date ;
+    schema:description "Marshall Nyasha Munetsi (born 22 June 1996) is a Zimbabwean professional footballer who plays as a defensive midfielder for Premier League club Wolverhampton Wanderers and the Zimbabwe national team."@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/gi9bf51608647382.jpg"^^xsd:anyURI ;
+    schema:memberOf "Wolves"^^xsd:string ;
+    schema:name "Marshall Nyasha Munetsi"^^xsd:string ;
+    schema:nationality "Zimbabwe"^^xsd:string ;
+    schema:weight "83 kg"^^xsd:string .
+

@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Kenny_Tete a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q14495103> ;
+    foaf:account "www.instagram.com/kennytete/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/hv7rpd1757070082.png"^^xsd:anyURI ;
+    foaf:name "Kenny Tete"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 74 ;
+    stats:blocks 31 ;
+    stats:carries 611 ;
+    stats:clearances 67 ;
+    stats:dispossessed 10 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 1.4 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 32 ;
+    stats:keyPasses 9 ;
+    stats:matches90s 19.7 ;
+    stats:matchesPlayed 22 ;
+    stats:matchesStarted 21 ;
+    stats:minutesPlayed 1774 ;
+    stats:miscontrols 17 ;
+    stats:passesIntoPenaltyArea 13 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 34 ;
+    stats:progressivePasses 63 ;
+    stats:progressivePassesReceived 54 ;
+    stats:rank 2579 ;
+    stats:redCards 0 ;
+    stats:tackles 56 ;
+    stats:tacklesWon 38 ;
+    stats:touches 1205 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1995-10-09"^^xsd:date ;
+    schema:description "Kenny Joelle Tete (born 9 October 1995) is a Dutch professional footballer who plays as a right-back for Premier League club Fulham and the Netherlands national team."@en ;
+    schema:height "1.80 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/f57zfn1534017899.jpg"^^xsd:anyURI ;
+    schema:memberOf "Fulham"^^xsd:string ;
+    schema:name "Kenny Tete"^^xsd:string ;
+    schema:nationality "The Netherlands"^^xsd:string ;
+    schema:weight "157 lbs"^^xsd:string .
+

@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Filippo_Melegoni a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q28595310> ;
+    foaf:account "www.instagram.com/filippomelegoni/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/8xdlch1608644423.png"^^xsd:anyURI ;
+    foaf:name "Filippo Melegoni"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 2 ;
+    stats:blocks 0 ;
+    stats:carries 13 ;
+    stats:clearances 2 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 1.0 ;
+    stats:matchesPlayed 3 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 89 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 1 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 1716 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 1 ;
+    stats:touches 27 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1999-02-18"^^xsd:date ;
+    schema:description "Filippo Melegoni (born 18 February 1999) is an Italian professional footballer who plays as a midfielder for Serie A club Genoa."@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/xgalk51608644415.jpg"^^xsd:anyURI ;
+    schema:memberOf "Carrarese"^^xsd:string ;
+    schema:name "Filippo Melegoni"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

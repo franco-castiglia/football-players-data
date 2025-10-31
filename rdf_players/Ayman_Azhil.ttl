@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ayman_Azhil a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q96678285> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ua3h641674560723.png"^^xsd:anyURI ;
+    foaf:name "Ayman Azhil"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 2 ;
+    stats:blocks 0 ;
+    stats:carries 4 ;
+    stats:clearances 0 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.3 ;
+    stats:matchesPlayed 1 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 24 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 1 ;
+    stats:progressivePassesReceived 1 ;
+    stats:rank 188 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 1 ;
+    stats:touches 9 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2001-04-10"^^xsd:date ;
+    schema:description "Ayman Azhil (born 10 April 2001) is a German professional footballer who plays as a midfielder for 3. Liga club Borussia Dortmund II."@en ;
+    schema:height "1.70 m (5 ft 6 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/3993d01658761727.jpg"^^xsd:anyURI ;
+    schema:memberOf "Borussia Dortmund II"^^xsd:string ;
+    schema:name "Ayman Azhil"^^xsd:string ;
+    schema:nationality "Morocco"^^xsd:string ;
+    schema:weight "139 lbs"^^xsd:string .
+

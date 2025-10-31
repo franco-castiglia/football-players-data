@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Marquinhos a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q39230> ;
+    foaf:account "instagram.com/marquinhos28"^^xsd:anyURI,
+        "twitter.com/marquinhos_m5"^^xsd:anyURI,
+        "www.facebook.com/m5marquinhos/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/fe3mcs1715359089.png"^^xsd:anyURI ;
+    foaf:name "Marquinhos"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 103 ;
+    stats:blocks 27 ;
+    stats:carries 1335 ;
+    stats:clearances 64 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.8 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 11 ;
+    stats:keyPasses 9 ;
+    stats:matches90s 19.2 ;
+    stats:matchesPlayed 22 ;
+    stats:matchesStarted 19 ;
+    stats:minutesPlayed 1725 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 29 ;
+    stats:progressivePasses 151 ;
+    stats:progressivePassesReceived 4 ;
+    stats:rank 1634 ;
+    stats:redCards 0 ;
+    stats:tackles 30 ;
+    stats:tacklesWon 19 ;
+    stats:touches 1990 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1994-05-14"^^xsd:date ;
+    schema:description """Marcos Aoás Corrêa (born 14 May 1994), commonly known as Marquinhos, is a Brazilian professional footballer who plays as a defender for Paris Saint-Germain and the Brazil national team. Mainly a central defender, he can also play as a right-back or a defensive midfielder.\r
+\r
+He began his career at Corinthians, and after winning the 2012 Copa Libertadores he moved to Roma for an eventual fee of €3 million. Marquinhos was a regular in his only season as Roma reached the Coppa Italia Final. In July 2013, he moved to Paris Saint-Germain for €31.4 million on a five-year contract, one of the highest fees for a player under the age of 20. He won 18 items of silverware at the club, including five Ligue 1 titles. Marquinhos played less frequently after the acquisition of compatriot David Luiz in 2014, returning to an integral role after the latter was sold in 2016.\r
+\r
+Marquinhos made his full international debut for Brazil in 2013, and was part of their Under-21 side which won the 2014 Toulon Tournament. He also represented the nation at the 2015 Copa América and the following year's Copa América Centenario, and won a gold medal at the 2016 Olympics, and took part at the 2018 FIFA World Cup and subsequently the 2019 Copa América, winning the latter title."""@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/2euql61716705757.jpg"^^xsd:anyURI ;
+    schema:memberOf "Paris SG"^^xsd:string ;
+    schema:name "Marquinhos"^^xsd:string ;
+    schema:nationality "Brazil"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

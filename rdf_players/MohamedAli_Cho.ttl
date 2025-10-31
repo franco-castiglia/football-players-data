@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:MohamedAli_Cho a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q98777530> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/jrb0351731084280.png"^^xsd:anyURI ;
+    foaf:name "Mohamed-Ali Cho"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 69 ;
+    stats:blocks 17 ;
+    stats:carries 460 ;
+    stats:clearances 8 ;
+    stats:dispossessed 26 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 4.0 ;
+    stats:expectedGoals 4.0 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 30 ;
+    stats:matches90s 18.0 ;
+    stats:matchesPlayed 27 ;
+    stats:matchesStarted 21 ;
+    stats:minutesPlayed 1621 ;
+    stats:miscontrols 68 ;
+    stats:passesIntoPenaltyArea 36 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 81 ;
+    stats:progressivePasses 59 ;
+    stats:progressivePassesReceived 133 ;
+    stats:rank 86 ;
+    stats:redCards 0 ;
+    stats:tackles 13 ;
+    stats:tacklesWon 9 ;
+    stats:touches 720 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2004-01-19"^^xsd:date ;
+    schema:description "Mohamed-Ali Cho (born 19 January 2004), commonly known as Momo Cho, is a French professional footballer who plays as a forward for Ligue 1 club Nice. Born in France and raised in England, Cho previously represented England as a youth international before switching his allegiance to France."@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/zvgdye1628890005.jpg"^^xsd:anyURI ;
+    schema:memberOf "Nice"^^xsd:string ;
+    schema:name "Mohamed-Ali Cho"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "146 lbs"^^xsd:string .
+

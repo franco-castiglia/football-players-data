@@ -1,0 +1,66 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Giovanni_Simeone a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6439494> ;
+    foaf:account "twitter.com/simeonegiovanni"^^xsd:anyURI,
+        "www.facebook.com/Gio9Simeone/"^^xsd:anyURI,
+        "www.instagram.com/simeonegiovanni/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/vyiclr1758813227.png"^^xsd:anyURI ;
+    foaf:name "Giovanni Simeone"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 25 ;
+    stats:blocks 9 ;
+    stats:carries 110 ;
+    stats:clearances 6 ;
+    stats:dispossessed 14 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.8 ;
+    stats:expectedGoals 2.6 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 8 ;
+    stats:matches90s 4.7 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 419 ;
+    stats:miscontrols 21 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 11 ;
+    stats:progressivePasses 7 ;
+    stats:progressivePassesReceived 30 ;
+    stats:rank 2425 ;
+    stats:redCards 0 ;
+    stats:tackles 2 ;
+    stats:tacklesWon 0 ;
+    stats:touches 194 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1995-07-05"^^xsd:date ;
+    schema:description """Giovanni Pablo Simeone Baldini (Spanish pronunciation: ; born 5 July 1995) is an Argentine professional footballer who plays as a striker for Serie A club Napoli, on loan from Hellas Verona, and the Argentina national team.\r
+\r
+The son of former Argentine international footballer Diego Simeone and Carolina Baldini, Giovanni Simeone was born in Buenos Aires, Argentina, while his father was playing for Atlético Madrid.\r
+\r
+His family moved to Italy in 1997, but later returned to Spain in 2003 following his father's career club changes. Two years later he moved to Argentina, and joined River Plate's youth setup in 2008 when his father was appointed coach of the first team. He has two younger brothers, Gianluca and Giuliano, both footballers.\r
+\r
+Simeone holds both Argentine and Spanish nationality, as well as carrying Italian ancestry, but represents Argentina internationally. Capped for Argentina at under-20 level, Simeone finished as top scorer at the 2015 South American Youth Football Championship, helping Argentina win its fifth title in the competition.\r
+\r
+On 8 September 2018, Simeone scored on his senior international debut, in a 3–0 friendly win over Guatemala in Los Angeles. He was part of a team that won the friendly Adidas Cup against Mexico in November 2018.\r
+\r
+On 1 January 2014, aged 18, Simeone obtained Spanish citizenship. He married Giulia Coppini in 2021."""@en ;
+    schema:height "180 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/0j6dck1546426322.jpg"^^xsd:anyURI ;
+    schema:memberOf "Torino"^^xsd:string ;
+    schema:name "Giovanni Simeone"^^xsd:string ;
+    schema:nationality "Argentina"^^xsd:string ;
+    schema:weight "179 lbs"^^xsd:string .
+

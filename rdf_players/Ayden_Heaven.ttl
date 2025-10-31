@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ayden_Heaven a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q130319703> ;
+    foaf:account "www.instagram.com/aydenheaven/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/lu9len1752342495.png"^^xsd:anyURI ;
+    foaf:name "Ayden Heaven"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 11 ;
+    stats:blocks 2 ;
+    stats:carries 95 ;
+    stats:clearances 9 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 1.9 ;
+    stats:matchesPlayed 4 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 170 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 7 ;
+    stats:progressivePassesReceived 1 ;
+    stats:rank 1136 ;
+    stats:redCards 0 ;
+    stats:tackles 4 ;
+    stats:tacklesWon 3 ;
+    stats:touches 136 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2006-09-22"^^xsd:date ;
+    schema:description "Ayden Edford Heaven (born 22 September 2006) is an English professional footballer who plays as a centre-back for Premier League club Manchester United."@en ;
+    schema:height "6' 2\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/xrtzyr1742156158.jpg"^^xsd:anyURI ;
+    schema:memberOf "Manchester United"^^xsd:string ;
+    schema:name "Ayden Heaven"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

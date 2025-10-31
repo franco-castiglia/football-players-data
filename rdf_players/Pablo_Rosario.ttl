@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Pablo_Rosario a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q20972416> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/4ksqzj1700558601.png"^^xsd:anyURI ;
+    foaf:name "Pablo Rosario"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 60 ;
+    stats:blocks 19 ;
+    stats:carries 473 ;
+    stats:clearances 43 ;
+    stats:dispossessed 15 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.6 ;
+    stats:expectedGoals 3.8 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 31 ;
+    stats:keyPasses 16 ;
+    stats:matches90s 19.7 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 21 ;
+    stats:minutesPlayed 1775 ;
+    stats:miscontrols 20 ;
+    stats:passesIntoPenaltyArea 14 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 17 ;
+    stats:progressivePasses 89 ;
+    stats:progressivePassesReceived 25 ;
+    stats:rank 2258 ;
+    stats:redCards 1 ;
+    stats:tackles 30 ;
+    stats:tacklesWon 20 ;
+    stats:touches 950 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "1997-01-07"^^xsd:date ;
+    schema:description "Cristian Pablo Mañón Paulino (born 7 January 1997), known as Pablo Rosario, is a professional footballer who plays as a midfielder for Ligue 1 club Nice. Rosario made one appearance for the Netherlands national team, before switching to play for the Dominican Republic national team."@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/zg5jbo1544970863.jpg"^^xsd:anyURI ;
+    schema:memberOf "Nice"^^xsd:string ;
+    schema:name "Pablo Rosario"^^xsd:string ;
+    schema:nationality "Dominican Republic"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

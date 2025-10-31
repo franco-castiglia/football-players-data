@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Atakan_Karazor a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q47487632> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/3ncq131742128161.png"^^xsd:anyURI ;
+    foaf:name "Atakan Karazor"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 171 ;
+    stats:blocks 39 ;
+    stats:carries 1112 ;
+    stats:clearances 51 ;
+    stats:dispossessed 16 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 2.6 ;
+    stats:expectedGoals 2.3 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 32 ;
+    stats:keyPasses 15 ;
+    stats:matches90s 29.1 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 31 ;
+    stats:minutesPlayed 2618 ;
+    stats:miscontrols 30 ;
+    stats:passesIntoPenaltyArea 18 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 19 ;
+    stats:progressivePasses 140 ;
+    stats:progressivePassesReceived 33 ;
+    stats:rank 1321 ;
+    stats:redCards 1 ;
+    stats:tackles 59 ;
+    stats:tacklesWon 29 ;
+    stats:touches 2124 ;
+    stats:yellowCards 10 ;
+    schema:birthDate "1996-10-13"^^xsd:date ;
+    schema:description """Atakan Karazor (born 13 October 1996) is a German professional footballer who plays as a midfielder for VfB Stuttgart. Karazor is of Turkish descent.\r
+\r
+In May 2019, it was announced Karazor would move to VfB Stuttgart from Holstein Kiel for the 2019–20 season having agreed a contract until 2023. The transfer fee paid to Kiel was reported as about €1 million or €800,000."""@en ;
+    schema:height "1.90 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/qwr2v61605732848.jpg"^^xsd:anyURI ;
+    schema:memberOf "Stuttgart"^^xsd:string ;
+    schema:name "Atakan Karazor"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

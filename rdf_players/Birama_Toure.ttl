@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Birama_Toure a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q15128117> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/itzwph1674739406.png"^^xsd:anyURI ;
+    foaf:name "Birama Toure"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 14 ;
+    stats:blocks 3 ;
+    stats:carries 86 ;
+    stats:clearances 7 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 3.3 ;
+    stats:matchesPlayed 8 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 300 ;
+    stats:miscontrols 6 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 9 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 2619 ;
+    stats:redCards 0 ;
+    stats:tackles 8 ;
+    stats:tacklesWon 5 ;
+    stats:touches 157 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1992-06-06"^^xsd:date ;
+    schema:description "Birama Touré (born 6 June 1992) is a Malian professional footballer who plays as a defensive midfielder for Ligue 1 club Montpellier."@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/8yrmq51674739401.jpg"^^xsd:anyURI ;
+    schema:memberOf "Montpellier"^^xsd:string ;
+    schema:name "Birama Toure"^^xsd:string ;
+    schema:nationality "Mali"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

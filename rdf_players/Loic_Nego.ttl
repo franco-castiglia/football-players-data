@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Loic_Nego a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2017857> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/6h9dpo1702296613.png"^^xsd:anyURI ;
+    foaf:name "Loïc Négo"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 111 ;
+    stats:blocks 17 ;
+    stats:carries 742 ;
+    stats:clearances 82 ;
+    stats:dispossessed 9 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.7 ;
+    stats:expectedGoals 0.8 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 29 ;
+    stats:keyPasses 13 ;
+    stats:matches90s 27.3 ;
+    stats:matchesPlayed 31 ;
+    stats:matchesStarted 28 ;
+    stats:minutesPlayed 2459 ;
+    stats:miscontrols 19 ;
+    stats:passesIntoPenaltyArea 30 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 64 ;
+    stats:progressivePasses 102 ;
+    stats:progressivePassesReceived 123 ;
+    stats:rank 1876 ;
+    stats:redCards 0 ;
+    stats:tackles 58 ;
+    stats:tacklesWon 35 ;
+    stats:touches 1469 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1991-01-15"^^xsd:date ;
+    schema:description "Loïc Négo (born 15 January 1991) is a professional footballer who plays as a right-back for Le Havre. Born in France, he plays for the Hungary national team."@en ;
+    schema:height "181 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/i5pk971634074922.jpg"^^xsd:anyURI ;
+    schema:memberOf "Le Havre"^^xsd:string ;
+    schema:name "Loïc Négo"^^xsd:string ;
+    schema:nationality "Hungary"^^xsd:string ;
+    schema:weight "157 lbs"^^xsd:string .
+

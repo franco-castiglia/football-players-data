@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Asier_Villalibre a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q20492762> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/dbft461724495762.png"^^xsd:anyURI ;
+    foaf:name "Asier Villalibre"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 7 ;
+    stats:blocks 1 ;
+    stats:carries 55 ;
+    stats:clearances 7 ;
+    stats:dispossessed 5 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.0 ;
+    stats:expectedGoals 1.6 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 3.7 ;
+    stats:matchesPlayed 16 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 333 ;
+    stats:miscontrols 9 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 4 ;
+    stats:progressivePasses 7 ;
+    stats:progressivePassesReceived 18 ;
+    stats:rank 2712 ;
+    stats:redCards 0 ;
+    stats:tackles 2 ;
+    stats:tacklesWon 2 ;
+    stats:touches 116 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1997-09-30"^^xsd:date ;
+    schema:description "Asier Villalibre Molina (born 30 September 1997) is a Spanish professional footballer who plays as a striker for La Liga club Deportivo Alavés."@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/rrlwn81603580035.jpg"^^xsd:anyURI ;
+    schema:memberOf "Alaves"^^xsd:string ;
+    schema:name "Asier Villalibre"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "190 lbs"^^xsd:string .
+

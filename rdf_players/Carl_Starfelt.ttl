@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Carl_Starfelt a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16633442> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/c4lvf91724492100.png"^^xsd:anyURI ;
+    foaf:name "Carl Starfelt"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 77 ;
+    stats:blocks 29 ;
+    stats:carries 1104 ;
+    stats:clearances 129 ;
+    stats:dispossessed 0 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.5 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 31 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 25.2 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 26 ;
+    stats:minutesPlayed 2270 ;
+    stats:miscontrols 9 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 11 ;
+    stats:progressivePasses 66 ;
+    stats:progressivePassesReceived 1 ;
+    stats:rank 2495 ;
+    stats:redCards 0 ;
+    stats:tackles 40 ;
+    stats:tacklesWon 20 ;
+    stats:touches 1901 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1995-06-01"^^xsd:date ;
+    schema:description """Carl Anders Theodor Starfelt (born 1 June 1995) is a Swedish professional footballer who plays as a centre-back for La Liga club Celta Vigo and the Sweden national team.\r
+\r
+After having made two appearances for the Sweden U19 team in 2014, Starfelt was called up to the Sweden national team for the first time on 30 September 2020 ahead of their games against Russia, Croatia, and Portugal in October 2020. He made his full international debut on 8 October 2020 in a friendly game against Russia, playing all 90 minutes alongside Sebastian Holmén at centre-back in a 2–1 win for Sweden."""@en ;
+    schema:height "187 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/zb4ki31723545733.jpg"^^xsd:anyURI ;
+    schema:memberOf "Celta Vigo"^^xsd:string ;
+    schema:name "Carl Starfelt"^^xsd:string ;
+    schema:nationality "Sweden"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

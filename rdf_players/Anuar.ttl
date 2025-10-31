@@ -1,0 +1,51 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Anuar a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/yjs4u81678987468.png"^^xsd:anyURI ;
+    foaf:name "Anuar"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 71 ;
+    stats:blocks 24 ;
+    stats:carries 359 ;
+    stats:clearances 26 ;
+    stats:dispossessed 14 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.2 ;
+    stats:expectedGoals 1.7 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 18 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 19.1 ;
+    stats:matchesPlayed 26 ;
+    stats:matchesStarted 21 ;
+    stats:minutesPlayed 1720 ;
+    stats:miscontrols 25 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 24 ;
+    stats:progressivePasses 30 ;
+    stats:progressivePassesReceived 68 ;
+    stats:rank 139 ;
+    stats:redCards 0 ;
+    stats:tackles 38 ;
+    stats:tacklesWon 27 ;
+    stats:touches 705 ;
+    stats:yellowCards 7 ;
+    schema:birthDate "1995-01-15"^^xsd:date ;
+    schema:description "Anuar Mohamed Tuhami (born 15 January 1995), simply known as Anuar, is a professional footballer who plays as a central midfielder for Spanish club Real Valladolid. Born in Spain, Anuar represents the Morocco national team."@en ;
+    schema:height "5 ft 9 in"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/z6b1j01678987632.jpg"^^xsd:anyURI ;
+    schema:memberOf "Valladolid"^^xsd:string ;
+    schema:name "Anuar"^^xsd:string ;
+    schema:nationality "Morocco"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

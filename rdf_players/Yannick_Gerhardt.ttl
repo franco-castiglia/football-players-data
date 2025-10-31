@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Yannick_Gerhardt a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q14942784> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/m1rtze1742139233.png"^^xsd:anyURI ;
+    foaf:name "Yannick Gerhardt"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 49 ;
+    stats:blocks 32 ;
+    stats:carries 438 ;
+    stats:clearances 47 ;
+    stats:dispossessed 3 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 1.2 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 17 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 16.9 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 15 ;
+    stats:minutesPlayed 1518 ;
+    stats:miscontrols 19 ;
+    stats:passesIntoPenaltyArea 11 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 27 ;
+    stats:progressivePasses 57 ;
+    stats:progressivePassesReceived 63 ;
+    stats:rank 995 ;
+    stats:redCards 1 ;
+    stats:tackles 28 ;
+    stats:tacklesWon 16 ;
+    stats:touches 854 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1994-03-13"^^xsd:date ;
+    schema:description "Yannick Gerhardt (born 13 March 1994) is a German footballer who plays as a midfielder for VfL Wolfsburg."@en ;
+    schema:height "1.84 m (6 ft 1⁄2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/6kardf1578226468.jpg"^^xsd:anyURI ;
+    schema:memberOf "Wolfsburg"^^xsd:string ;
+    schema:name "Yannick Gerhardt"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "179 lbs"^^xsd:string .
+

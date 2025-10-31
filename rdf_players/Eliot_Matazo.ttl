@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Eliot_Matazo a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q98829607> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/pd3tns1610652053.png"^^xsd:anyURI ;
+    foaf:name "Eliot Matazo"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 7 ;
+    stats:blocks 0 ;
+    stats:carries 23 ;
+    stats:clearances 2 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 0.8 ;
+    stats:matchesPlayed 3 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 68 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 7 ;
+    stats:progressivePassesReceived 3 ;
+    stats:rank 1670 ;
+    stats:redCards 0 ;
+    stats:tackles 3 ;
+    stats:tacklesWon 2 ;
+    stats:touches 54 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2002-02-15"^^xsd:date ;
+    schema:description """Eliot Matazo (born 15 February 2002) is a Belgian professional footballer who plays as a midfielder for EFL Championship club Hull City.\r
+Club Career\r
+Matazo made his professional debut for AS Monaco on 27 September 2020 in a Ligue 1 game against RC Strasbourg.\r
+\r
+International career\r
+Born in Belgium, Matazo is of Congolese descent. He is a youth international for Belgium."""@en ;
+    schema:height "1.74 m (5 ft 7 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/jkchcm1609235910.jpg"^^xsd:anyURI ;
+    schema:memberOf "Hull City"^^xsd:string ;
+    schema:name "Eliot Matazo"^^xsd:string ;
+    schema:nationality "Belgium"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

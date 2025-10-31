@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Erhan_Masovic a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q23008168> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/b0y8pg1674562009.png"^^xsd:anyURI ;
+    foaf:name "Erhan Mašović"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 32 ;
+    stats:blocks 17 ;
+    stats:carries 290 ;
+    stats:clearances 55 ;
+    stats:dispossessed 3 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 0.6 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 12 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 10.1 ;
+    stats:matchesPlayed 16 ;
+    stats:matchesStarted 10 ;
+    stats:minutesPlayed 910 ;
+    stats:miscontrols 5 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 35 ;
+    stats:progressivePassesReceived 4 ;
+    stats:rank 1664 ;
+    stats:redCards 0 ;
+    stats:tackles 14 ;
+    stats:tacklesWon 10 ;
+    stats:touches 539 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1998-11-22"^^xsd:date ;
+    schema:description "Erhan Mašović (born 22 November 1998) is a Serbian professional footballer who plays as a centre-back or defensive midfielder for Bundesliga club VfL Bochum."@en ;
+    schema:height "1.87 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/wkphwa1659557562.jpg"^^xsd:anyURI ;
+    schema:memberOf "Bochum"^^xsd:string ;
+    schema:name "Erhan Mašović"^^xsd:string ;
+    schema:nationality "Serbia"^^xsd:string ;
+    schema:weight "181 lbs"^^xsd:string .
+

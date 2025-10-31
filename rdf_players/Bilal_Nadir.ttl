@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Bilal_Nadir a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q122809324> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/86omxm1705664933.png"^^xsd:anyURI ;
+    foaf:name "Bilal Nadir"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 19 ;
+    stats:blocks 6 ;
+    stats:carries 167 ;
+    stats:clearances 7 ;
+    stats:dispossessed 8 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.4 ;
+    stats:expectedGoals 0.6 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 4.3 ;
+    stats:matchesPlayed 15 ;
+    stats:matchesStarted 5 ;
+    stats:minutesPlayed 383 ;
+    stats:miscontrols 7 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 18 ;
+    stats:progressivePasses 18 ;
+    stats:progressivePassesReceived 25 ;
+    stats:rank 1852 ;
+    stats:redCards 0 ;
+    stats:tackles 10 ;
+    stats:tacklesWon 3 ;
+    stats:touches 305 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2003-11-28"^^xsd:date ;
+    schema:description """Bilal Nadir (Arabic: بلال نذير; born 28 November 2003) is a professional footballer who plays as a midfielder for Ligue 1 club Marseille. Born in France, he is a youth international for Morocco.\r
+\r
+Club career\r
+Nadir is a youth product of Nice's youth academy, and made his senior debut with their reserves in 2020. He transferred to Olympique de Marseille on 1 July 2021 signing his first professional contract. He shortly after started playing with Marseille's reserves in the Championnat National 2. He made his professional debut with the senior Marseille team as a late substitute in a 4–0 Ligue 1 loss to Paris Saint-Germain on 24 September 2023.\r
+\r
+International career\r
+Nadir was born in France to a Moroccan father and Algerian mother. He is a youth international for France, having played up to the France U19s. He was called up to the Morocco U23s for a set of friendlies in November 2023, scoring on his debut against the United States U23s on 23 November 2023."""@en ;
+    schema:height "172 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/hpiod71705664531.jpg"^^xsd:anyURI ;
+    schema:memberOf "Marseille"^^xsd:string ;
+    schema:name "Bilal Nadir"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "141 lbs"^^xsd:string .
+

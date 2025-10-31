@@ -1,0 +1,51 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Maximilian_Bauer a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/4koi8p1674559394.png"^^xsd:anyURI ;
+    foaf:name "Maximilian Bauer"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 20 ;
+    stats:blocks 10 ;
+    stats:carries 216 ;
+    stats:clearances 35 ;
+    stats:dispossessed 2 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 7.3 ;
+    stats:matchesPlayed 11 ;
+    stats:matchesStarted 8 ;
+    stats:minutesPlayed 658 ;
+    stats:miscontrols 6 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 4 ;
+    stats:progressivePasses 30 ;
+    stats:progressivePassesReceived 7 ;
+    stats:rank 263 ;
+    stats:redCards 0 ;
+    stats:tackles 14 ;
+    stats:tacklesWon 8 ;
+    stats:touches 422 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2000-02-09"^^xsd:date ;
+    schema:description "Maximilian Bauer (born 9 February 2000) is a German professional footballer who plays as a centre-back or right-back for 2. Bundesliga club 1. FC Kaiserslautern on loan from Augsburg."@en ;
+    schema:height "1.89 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/hkj6bf1659992193.jpg"^^xsd:anyURI ;
+    schema:memberOf "Kaiserslautern"^^xsd:string ;
+    schema:name "Maximilian Bauer"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

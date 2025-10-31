@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jeremy_Sarmiento a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    foaf:account "mobile.twitter.com/jeremysarm7ento"^^xsd:anyURI,
+        "www.facebook.com/jeremysarmientoEC"^^xsd:anyURI,
+        "www.instagram.com/jeremy7official/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/zdq2621758886486.png"^^xsd:anyURI ;
+    foaf:name "Jeremy Sarmiento"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 1 ;
+    stats:blocks 0 ;
+    stats:carries 6 ;
+    stats:clearances 0 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.1 ;
+    stats:matchesPlayed 1 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 9 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 2351 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 8 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2002-06-16"^^xsd:date ;
+    schema:description """Jeremy Leonel Sarmiento Morante is a professional footballer who plays as a winger for Premier League club Brighton & Hove Albion, and the Ecuador national team.\r
+Born in Spain to Ecuadorian parents, he represented England at youth international level before making his senior Ecuador debut in October 2021."""@en ;
+    schema:height "178 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/fawxw71661108952.jpg"^^xsd:anyURI ;
+    schema:memberOf "Cremonese"^^xsd:string ;
+    schema:name "Jeremy Sarmiento"^^xsd:string ;
+    schema:nationality "Ecuador"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

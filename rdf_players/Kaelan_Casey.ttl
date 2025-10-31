@@ -1,0 +1,65 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Kaelan_Casey a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q115048295> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/ujkbqw1761234631.png"^^xsd:anyURI ;
+    foaf:name "Kaelan Casey"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 0 ;
+    stats:blocks 0 ;
+    stats:carries 0 ;
+    stats:clearances 1 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.0 ;
+    stats:matchesPlayed 1 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 1 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 501 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 1 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2004-10-28"^^xsd:date ;
+    schema:description """Kaelan Michael Casey (born 28 October 2004) is an English professional footballer who plays as a defender for Swansea City on loan from Premier League club West Ham United.\r
+\r
+Career\r
+Growing up in Thurrock, Casey joined West Ham's football academy when he was five years-old. In the 2020-21 season, Casey made his debut appearances for the under-18s and played for West Ham in the EFL Trophy. By September 2022, Casey was playing regularly at the under-21 level with West Ham. On 31 May, 2022 Casey had signed a professional contract with the club. Casey made his senior debut for West Ham United on 3 November 2022 in the UEFA Europa Conference League against FCSB, appearing as a second-half substitute for Ben Johnson, in a 3–0 West Ham win. Casey was a member of the team which won the 2023 FA Youth Cup defeating Arsenal 5–1 at the Emirates Stadium in April 2023. He scored West Ham's fourth goal with a header at the back post from an Oliver Scarles corner kick. He signed a new four-year contract with West Ham in August 2023. Casey made his Premier League debut on 11 May 2024, as a late substitute for Angelo Ogbonna in a 3–1 home win against Luton Town.\r
+\r
+International career\r
+On 7 June 2024, Casey made his England U20 debut during a 2–1 win over Sweden at Stadion ŠRC Sesvete.\r
+\r
+Style of play\r
+Casey cites Declan Rice as his role model. His father, Paul, told The Athletic that whilst he has always played as a centre-back he can also contribute in midfield.\r
+\r
+Personal life\r
+Casey attended Shaw Primary Academy in South Ockendon in the borough of Thurrock in Essex. He is a West Ham United supporter and former season ticket holder."""@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/u9u3m01716847281.jpg"^^xsd:anyURI ;
+    schema:memberOf "Swansea City"^^xsd:string ;
+    schema:name "Kaelan Casey"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

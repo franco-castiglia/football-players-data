@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Marco_Asensio a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16148978> ;
+    foaf:account "twitter.com/marcoasensio10"^^xsd:anyURI,
+        "www.facebook.com/marcoasensio10/"^^xsd:anyURI,
+        "www.instagram.com/marcoasensio10"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/0aheo21743871299.png"^^xsd:anyURI ;
+    foaf:name "Marco Asensio"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 28 ;
+    stats:blocks 7 ;
+    stats:carries 242 ;
+    stats:clearances 3 ;
+    stats:dispossessed 8 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.0 ;
+    stats:expectedGoals 4.4 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 16 ;
+    stats:matches90s 8.3 ;
+    stats:matchesPlayed 13 ;
+    stats:matchesStarted 9 ;
+    stats:minutesPlayed 743 ;
+    stats:miscontrols 9 ;
+    stats:passesIntoPenaltyArea 11 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 22 ;
+    stats:progressivePasses 45 ;
+    stats:progressivePassesReceived 38 ;
+    stats:rank 165 ;
+    stats:redCards 0 ;
+    stats:tackles 7 ;
+    stats:tacklesWon 5 ;
+    stats:touches 386 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1996-01-21"^^xsd:date ;
+    schema:description """Marco Asensio Willemsen (born 21 January 1996) is a Spanish professional footballer who plays as a winger or attacking midfielder for Ligue 1 club Paris Saint-Germain and the Spain national team. \r
+After starting his career with Mallorca, Asensio signed for Real Madrid in November 2014, being consecutively loaned to his former club as well as Espanyol. With Real Madrid, he went on to win several honours, including three Champions League and three La Liga trophies. In 2023, he joined French club Paris Saint-Germain.\r
+\r
+Asensio made his senior debut for Spain in 2016, representing them at the 2018 and 2022 FIFA World Cup."""@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/mjv25q1752068963.jpg"^^xsd:anyURI ;
+    schema:memberOf "Paris SG"^^xsd:string ;
+    schema:name "Marco Asensio"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

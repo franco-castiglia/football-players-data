@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Andreas_Skov_Olsen a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q42130419> ;
+    foaf:account "twitter.com/olsenskov?lang=en"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/bgaayy1742139652.png"^^xsd:anyURI ;
+    foaf:name "Andreas Skov Olsen"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 18 ;
+    stats:blocks 4 ;
+    stats:carries 188 ;
+    stats:clearances 12 ;
+    stats:dispossessed 5 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.9 ;
+    stats:expectedGoals 0.8 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 18 ;
+    stats:matches90s 5.9 ;
+    stats:matchesPlayed 12 ;
+    stats:matchesStarted 4 ;
+    stats:minutesPlayed 535 ;
+    stats:miscontrols 7 ;
+    stats:passesIntoPenaltyArea 10 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Winger"^^xsd:string ;
+    stats:progressiveCarries 22 ;
+    stats:progressivePasses 22 ;
+    stats:progressivePassesReceived 48 ;
+    stats:rank 2449 ;
+    stats:redCards 0 ;
+    stats:tackles 8 ;
+    stats:tacklesWon 6 ;
+    stats:touches 329 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1999-12-29"^^xsd:date ;
+    schema:description "Andreas Skov Olsen (born 29 December 1999) is a Danish professional footballer who plays as a winger for Bundesliga club VfL Wolfsburg and the Denmark national team."@en ;
+    schema:height "1.87 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/5qyhb21586286032.jpg"^^xsd:anyURI ;
+    schema:memberOf "Wolfsburg"^^xsd:string ;
+    schema:name "Andreas Skov Olsen"^^xsd:string ;
+    schema:nationality "Denmark"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

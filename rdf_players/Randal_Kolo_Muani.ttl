@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Randal_Kolo_Muani a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q59655998> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/i3fvxr1757016695.png"^^xsd:anyURI ;
+    foaf:name "Randal Kolo Muani"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 33 ;
+    stats:blocks 8 ;
+    stats:carries 213 ;
+    stats:clearances 2 ;
+    stats:dispossessed 23 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.6 ;
+    stats:expectedGoals 4.7 ;
+    stats:goals 8 ;
+    stats:goalsNonPenalty 7 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 17 ;
+    stats:matches90s 12.9 ;
+    stats:matchesPlayed 16 ;
+    stats:matchesStarted 13 ;
+    stats:minutesPlayed 1160 ;
+    stats:miscontrols 41 ;
+    stats:passesIntoPenaltyArea 9 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 21 ;
+    stats:progressivePasses 20 ;
+    stats:progressivePassesReceived 100 ;
+    stats:rank 1380 ;
+    stats:redCards 0 ;
+    stats:tackles 11 ;
+    stats:tacklesWon 7 ;
+    stats:touches 364 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1998-12-05"^^xsd:date ;
+    schema:description """Randal Kolo Muani is a French professional footballer who plays as a forward for Premier League club Tottenham Hotspur, on loan from Ligue 1 club Paris Saint-Germain, and the France national team.. \r
+\r
+Kolo Muani began his professional career at Nantes, where he scored 23 goals in 87 first-team appearances and won the Coupe de France. In 2022, he joined German club Eintracht Frankfurt on a free transfer. He went on to score 26 goals in 50 matches in one year at the club before returning to France with Paris Saint-Germain in a €95 million deal.\r
+\r
+Kolo Muani played youth international football for France at under-21 and Olympic levels. He made his senior international debut in September 2022, and was a member of the France squad that were runners-up at the 2022 FIFA World Cup."""@en ;
+    schema:height "1.87 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/hvqd6z1670754326.jpg"^^xsd:anyURI ;
+    schema:memberOf "Tottenham Hotspur"^^xsd:string ;
+    schema:name "Randal Kolo Muani"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

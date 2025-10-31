@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Lamine_Yamal a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q113704154> ;
+    foaf:account "www.instagram.com/lamineyamal/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/m9n4ja1761512633.png"^^xsd:anyURI ;
+    foaf:name "Lamine Yamal"^^xsd:string ;
+    stats:assists 13 ;
+    stats:ballRecoveries 123 ;
+    stats:blocks 12 ;
+    stats:carries 1486 ;
+    stats:clearances 3 ;
+    stats:dispossessed 49 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 13.9 ;
+    stats:expectedGoals 9.8 ;
+    stats:goals 9 ;
+    stats:goalsNonPenalty 9 ;
+    stats:interceptions 16 ;
+    stats:keyPasses 64 ;
+    stats:matches90s 31.7 ;
+    stats:matchesPlayed 35 ;
+    stats:matchesStarted 31 ;
+    stats:minutesPlayed 2856 ;
+    stats:miscontrols 102 ;
+    stats:passesIntoPenaltyArea 95 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 2 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 181 ;
+    stats:progressivePasses 160 ;
+    stats:progressivePassesReceived 433 ;
+    stats:rank 2793 ;
+    stats:redCards 0 ;
+    stats:tackles 42 ;
+    stats:tacklesWon 28 ;
+    stats:touches 2094 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2007-07-13"^^xsd:date ;
+    schema:description "Lamine Yamal Nasraoui Ebana (born 13 July 2007) is a Spanish professional footballer who plays as a right winger for La Liga club Barcelona and the Spain national team."@en ;
+    schema:height "1.80 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ukerpq1692551634.jpg"^^xsd:anyURI ;
+    schema:memberOf "Barcelona"^^xsd:string ;
+    schema:name "Lamine Yamal"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "72 kg (159 lb)"^^xsd:string .
+

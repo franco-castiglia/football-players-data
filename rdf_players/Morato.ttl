@@ -1,0 +1,64 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Morato a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q85786276> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/9k46481757166360.png"^^xsd:anyURI ;
+    foaf:name "Morato"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 36 ;
+    stats:blocks 14 ;
+    stats:carries 164 ;
+    stats:clearances 78 ;
+    stats:dispossessed 3 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 10 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 10.1 ;
+    stats:matchesPlayed 26 ;
+    stats:matchesStarted 6 ;
+    stats:minutesPlayed 907 ;
+    stats:miscontrols 6 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 19 ;
+    stats:progressivePassesReceived 1 ;
+    stats:rank 1784 ;
+    stats:redCards 0 ;
+    stats:tackles 22 ;
+    stats:tacklesWon 14 ;
+    stats:touches 457 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "2001-06-30"^^xsd:date ;
+    schema:description """Felipe Rodrigues da Silva (born 30 June 2001), commonly known as Morato, is a Brazilian professional footballer who plays as a centre-back or left-back for Premier League club Nottingham Forest. \r
+Club career\r
+Born in Francisco Morato in the state of São Paulo, Morato was 18 when he moved from the youth ranks of São Paulo to Benfica in September 2019, on a contract lasting until 2024. The transfer fee was €6 million and the Brazilian club retained 15% of the rights to his next transfer.\r
+\r
+On 22 September 2019, Morato made his professional debut for Benfica B in the LigaPro, playing the full 90 minutes of a 1–0 loss at Leixões. He made his first-team debut on 21 December in the final game of the Taça da Liga group stage, again featuring for the entirety of a 2–2 draw at Vitória de Setúbal. In the same season, he played 10 games as the under-19 team came runners-up in the UEFA Youth League, scoring in a 3–2 group win at Olympique Lyonnais on 5 November.\r
+\r
+On 27 September 2020, Morato scored his first professional goal to open a 2–1 loss for the reserves at Mafra; on 17 October he was sent off in a 1–0 loss away to Arouca. He made his Primeira Liga debut the following 30 April in a 2–0 win at Tondela, as an added-time substitute for Pizzi. On 23 May, he started in the 2021 Taça de Portugal final, lost 2–0 to Braga in Coimbra; he had days earlier been told that he would be on the bench for that game.\r
+\r
+Morato was given a run in the first team at the start of the 2021–22 season, due to injury to veteran Jan Vertonghen. He scored his first goal for them on 2 November, in the first half of a 5–2 loss at Bayern Munich in the UEFA Champions League group stage. The following season, under new manager Roger Schmidt, Morato earned a place in the starting eleven over Jan Vertoghen, and following a run of four consecutive wins and three clean sheets, he was named the Primeira Liga's Defender of the Month for August.\r
+\r
+International career\r
+Morato was called up in November 2019 to the Brazil national under-20 football team, for games against Peru and Colombia."""@en ;
+    schema:height "190 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/jio6dn1681328172.jpg"^^xsd:anyURI ;
+    schema:memberOf "Nottingham Forest"^^xsd:string ;
+    schema:name "Morato"^^xsd:string ;
+    schema:nationality "Brazil"^^xsd:string ;
+    schema:weight "192 lbs"^^xsd:string .
+

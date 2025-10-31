@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Albert_Sambi_Lokonga a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q46694474> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/1gippj1756023123.png"^^xsd:anyURI ;
+    foaf:name "Albert Sambi Lokonga"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 69 ;
+    stats:blocks 13 ;
+    stats:carries 533 ;
+    stats:clearances 24 ;
+    stats:dispossessed 13 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 1.0 ;
+    stats:expectedGoals 0.9 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 9 ;
+    stats:keyPasses 19 ;
+    stats:matches90s 16.3 ;
+    stats:matchesPlayed 22 ;
+    stats:matchesStarted 16 ;
+    stats:minutesPlayed 1471 ;
+    stats:miscontrols 19 ;
+    stats:passesIntoPenaltyArea 8 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 24 ;
+    stats:progressivePasses 93 ;
+    stats:progressivePassesReceived 20 ;
+    stats:rank 2321 ;
+    stats:redCards 0 ;
+    stats:tackles 22 ;
+    stats:tacklesWon 15 ;
+    stats:touches 1018 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1999-10-22"^^xsd:date ;
+    schema:description "Albert-Mboyo Sambi Lokonga is a Belgian professional footballer who plays as a central midfielder for Bundesliga club Hamburg, and the Belgium national team.  He came through Anderlecht's youth academy and made his senior debut with the club in 2017."@en ;
+    schema:height "1.73 m (5 ft 7 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/3gx4gc1628886661.jpg"^^xsd:anyURI ;
+    schema:memberOf "Hamburg"^^xsd:string ;
+    schema:name "Albert Sambi Lokonga"^^xsd:string ;
+    schema:nationality "Belgium"^^xsd:string ;
+    schema:weight "148 lbs"^^xsd:string .
+

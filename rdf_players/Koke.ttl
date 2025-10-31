@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Koke a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q276091> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/y9uhkp1679064830.png"^^xsd:anyURI ;
+    foaf:name "Koke"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 122 ;
+    stats:blocks 24 ;
+    stats:carries 1138 ;
+    stats:clearances 29 ;
+    stats:dispossessed 8 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 1.4 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 20 ;
+    stats:keyPasses 16 ;
+    stats:matches90s 21.4 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 20 ;
+    stats:minutesPlayed 1926 ;
+    stats:miscontrols 15 ;
+    stats:passesIntoPenaltyArea 22 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 22 ;
+    stats:progressivePasses 132 ;
+    stats:progressivePassesReceived 18 ;
+    stats:rank 1378 ;
+    stats:redCards 0 ;
+    stats:tackles 46 ;
+    stats:tacklesWon 23 ;
+    stats:touches 1829 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1992-01-08"^^xsd:date ;
+    schema:description """Jorge Resurrección Merodio (Spanish pronunciation: ; born 8 January 1992), known as Koke (), is a Spanish professional footballer who plays as a midfielder for Atlético Madrid and the Spain national team.\r
+\r
+He has spent the entirety of his career with Atlético Madrid since making his debut with the first team in 2009, playing over 400 competitive matches and winning the 2013–14 La Liga, two Europa League titles and two UEFA Super Cup trophies, while he was also a Champions League runner-up in 2014 and 2016.\r
+\r
+Koke won the 2013 European Championship with the Spanish under-21 team. He also made his debut for the full side that year, and represented his country at two World Cups and Euro 2016."""@en ;
+    schema:height "1.76 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/tk0sag1526724817.jpg"^^xsd:anyURI ;
+    schema:memberOf "Atletico Madrid"^^xsd:string ;
+    schema:name "Koke"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Joao_Neves a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q113551733> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/uaqh341748682703.png"^^xsd:anyURI ;
+    foaf:name "João Neves"^^xsd:string ;
+    stats:assists 8 ;
+    stats:ballRecoveries 123 ;
+    stats:blocks 29 ;
+    stats:carries 1018 ;
+    stats:clearances 22 ;
+    stats:dispossessed 16 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 4.0 ;
+    stats:expectedGoals 3.0 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 23 ;
+    stats:keyPasses 33 ;
+    stats:matches90s 20.5 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 22 ;
+    stats:minutesPlayed 1844 ;
+    stats:miscontrols 26 ;
+    stats:passesIntoPenaltyArea 22 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:progressiveCarries 35 ;
+    stats:progressivePasses 144 ;
+    stats:progressivePassesReceived 80 ;
+    stats:rank 1888 ;
+    stats:redCards 0 ;
+    stats:tackles 63 ;
+    stats:tacklesWon 31 ;
+    stats:touches 1851 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2004-09-27"^^xsd:date ;
+    schema:description """João Pedro Gonçalves Neves (born 27 September 2004) is a Portuguese professional footballer who plays as a defensive midfielder for Ligue 1 club Paris Saint-Germain and the Portugal national team. \r
+\r
+Coming through Benfica's youth system, Neves impressed during his time with the reserve side, winning the UEFA Youth League in 2021–22, being instrumental part of Benfica's first European trophy in 60 years. He was subsequently promoted to the first-team, making his professional debut at age 18, where he helped Benfica win the league title in his first season with them.\r
+\r
+Neves is a former Portugal youth international, representing his country at various levels. He made his senior international debut in 2023."""@en ;
+    schema:height "1.74 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/upxpbj1724573087.jpg"^^xsd:anyURI ;
+    schema:memberOf "Paris SG"^^xsd:string ;
+    schema:name "João Neves"^^xsd:string ;
+    schema:nationality "Portugal"^^xsd:string ;
+    schema:weight "146 lbs"^^xsd:string .
+

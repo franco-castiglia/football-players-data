@@ -1,0 +1,51 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Alvaro_Rodriguez a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/81dd3z1677352899.png"^^xsd:anyURI ;
+    foaf:name "Álvaro Rodríguez"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 31 ;
+    stats:blocks 23 ;
+    stats:carries 186 ;
+    stats:clearances 12 ;
+    stats:dispossessed 20 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 1.2 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 3 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 9.5 ;
+    stats:matchesPlayed 22 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 852 ;
+    stats:miscontrols 37 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 6 ;
+    stats:progressivePasses 13 ;
+    stats:progressivePassesReceived 50 ;
+    stats:rank 2231 ;
+    stats:redCards 0 ;
+    stats:tackles 10 ;
+    stats:tacklesWon 7 ;
+    stats:touches 415 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "2004-07-14"^^xsd:date ;
+    schema:description "Álvaro Daniel Rodríguez Muñoz (born 14 July 2004) is a professional footballer who plays as a forward for La Liga club Getafe, on loan from Real Madrid. Born in Spain, he represented both Spain and Uruguay at youth international level."@en ;
+    schema:height "1.92 m (6 ft 3+1⁄2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/9e9pcr1677352696.jpg"^^xsd:anyURI ;
+    schema:memberOf "Getafe"^^xsd:string ;
+    schema:name "Álvaro Rodríguez"^^xsd:string ;
+    schema:nationality "Uruguay"^^xsd:string ;
+    schema:weight "179 lbs"^^xsd:string .
+

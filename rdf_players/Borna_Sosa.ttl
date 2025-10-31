@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Borna_Sosa a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q20093885> ;
+    foaf:account "www.instagram.com/superrman007/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/n4l1tg1757013086.png"^^xsd:anyURI ;
+    foaf:name "Borna Sosa"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 53 ;
+    stats:blocks 13 ;
+    stats:carries 417 ;
+    stats:clearances 33 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.7 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 14 ;
+    stats:keyPasses 11 ;
+    stats:matches90s 13.1 ;
+    stats:matchesPlayed 19 ;
+    stats:matchesStarted 14 ;
+    stats:minutesPlayed 1181 ;
+    stats:miscontrols 9 ;
+    stats:passesIntoPenaltyArea 22 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:progressiveCarries 13 ;
+    stats:progressivePasses 51 ;
+    stats:progressivePassesReceived 49 ;
+    stats:rank 2474 ;
+    stats:redCards 0 ;
+    stats:tackles 26 ;
+    stats:tacklesWon 19 ;
+    stats:touches 781 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1998-01-21"^^xsd:date ;
+    schema:description """Borna Sosa (born 21 January 1998) is a Croatian professional footballer who plays as a left-back or left wing-back for Premier League club Crystal Palace and the Croatia national team. \r
+Career\r
+Sosa is a youth exponent from Dinamo Zagreb. He made his Prva HNL debut on 7 March 2015 against NK Zagreb in a 2–0 home win, starting and playing full 90 minutes.\r
+\r
+On 14 May 2018, Borna Sosa signed a five-year-contract with VfB Stuttgart, enabling him to transfer to Stuttgart on 1 July 2018.\r
+\r
+International career\r
+In May 2018 he was named in Croatia’s preliminary 32-man squad for the 2018 World Cup in Russia but did not make the final 23."""@en ;
+    schema:height "187 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/amcg101605734191.jpg"^^xsd:anyURI ;
+    schema:memberOf "Crystal Palace"^^xsd:string ;
+    schema:name "Borna Sosa"^^xsd:string ;
+    schema:nationality "Croatia"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

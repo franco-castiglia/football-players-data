@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Domagoj_Bradaric a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q59660422> ;
+    foaf:account "www.instagram.com/d.bradaric33/?hl=en"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/lanbxr1759162448.png"^^xsd:anyURI ;
+    foaf:name "Domagoj Bradarić"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 80 ;
+    stats:blocks 17 ;
+    stats:carries 426 ;
+    stats:clearances 49 ;
+    stats:dispossessed 11 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 2.2 ;
+    stats:expectedGoals 0.8 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 15 ;
+    stats:keyPasses 25 ;
+    stats:matches90s 21.5 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 24 ;
+    stats:minutesPlayed 1933 ;
+    stats:miscontrols 30 ;
+    stats:passesIntoPenaltyArea 16 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:progressiveCarries 30 ;
+    stats:progressivePasses 46 ;
+    stats:progressivePassesReceived 83 ;
+    stats:rank 378 ;
+    stats:redCards 0 ;
+    stats:tackles 36 ;
+    stats:tacklesWon 28 ;
+    stats:touches 988 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "1999-12-10"^^xsd:date ;
+    schema:description "Domagoj Bradarić (born 10 December 1999) is a Croatian professional footballer who plays for Serie A club Hellas Verona, on loan from Salernitana. He also plays for the Croatia national team as a left-back."@en ;
+    schema:height "1.78 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/j2rvea1608242172.jpg"^^xsd:anyURI ;
+    schema:memberOf "Verona"^^xsd:string ;
+    schema:name "Domagoj Bradarić"^^xsd:string ;
+    schema:nationality "Croatia"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

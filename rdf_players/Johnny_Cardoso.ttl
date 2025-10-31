@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Johnny_Cardoso a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q72219351> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/6mi6na1723791714.png"^^xsd:anyURI ;
+    foaf:name "Johnny Cardoso"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 138 ;
+    stats:blocks 27 ;
+    stats:carries 752 ;
+    stats:clearances 64 ;
+    stats:dispossessed 23 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 2.0 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 48 ;
+    stats:keyPasses 9 ;
+    stats:matches90s 23.8 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 24 ;
+    stats:minutesPlayed 2144 ;
+    stats:miscontrols 36 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:progressiveCarries 19 ;
+    stats:progressivePasses 71 ;
+    stats:progressivePassesReceived 28 ;
+    stats:rank 485 ;
+    stats:redCards 0 ;
+    stats:tackles 55 ;
+    stats:tacklesWon 31 ;
+    stats:touches 1427 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2001-09-20"^^xsd:date ;
+    schema:description "João Lucas \"Johnny\" de Souza Cardoso (born September 20, 2001) is an American professional soccer player who plays as a midfielder for La Liga club Real Betis and the United States national team."@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/b518721723791513.jpg"^^xsd:anyURI ;
+    schema:memberOf "Real Betis"^^xsd:string ;
+    schema:name "Johnny Cardoso"^^xsd:string ;
+    schema:nationality "United States"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

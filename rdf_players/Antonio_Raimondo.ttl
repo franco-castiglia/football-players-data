@@ -1,0 +1,63 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Antonio_Raimondo a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q107999124> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/3zkhvo1678801967.png"^^xsd:anyURI ;
+    foaf:name "Antonio Raimondo"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 4 ;
+    stats:blocks 0 ;
+    stats:carries 21 ;
+    stats:clearances 0 ;
+    stats:dispossessed 3 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 1.0 ;
+    stats:matchesPlayed 9 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 94 ;
+    stats:miscontrols 5 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 2 ;
+    stats:progressivePassesReceived 7 ;
+    stats:rank 2167 ;
+    stats:redCards 0 ;
+    stats:tackles 2 ;
+    stats:tacklesWon 1 ;
+    stats:touches 34 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2004-03-18"^^xsd:date ;
+    schema:description """Antonio Raimondo (born 18 March 2004) is a professional Italian footballer who plays as a centre-forward for Serie B club Frosinone on loan from Bologna. \r
+\r
+Career\r
+Raimondo first started playing football before joining the academy of Cesena, before moving to Bologna in 2018. The striker signed his first professional contract with Bologna in December 2020. He then worked his way up their youth categories, and made his professional debut with Bologna on 17 May 2021, coming on as a late substitute in a 2–2 Serie A tie with Hellas Verona.\r
+\r
+After another season with the under-19 team, Raimondo made his first start on 21 May 2022, playing 75 minutes of the last league game of the season against Genoa, which Bologna won 1–0. During the same days, the club's manager Siniša Mihajlović announced that the forward would be officially promoted to the first team starting from the 2022–23 season, together with Wisdom Amey, Riccardo Stivanello and Kacper Urbański.\r
+\r
+International career\r
+Raimondo is a youth international for Italy, having represented the under-18 national team.\r
+\r
+He was included in the squad that took part in the 2022 Mediterranean Games in Oran, Algeria. Having scored six goals in five matches, the striker played a pivotal role in the Azzurrini's campaign, as Italy eventually won the silver medal after losing 1–0 against France in the final match."""@en ;
+    schema:height "185 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/9ph2tj1678801932.jpg"^^xsd:anyURI ;
+    schema:memberOf "Frosinone"^^xsd:string ;
+    schema:name "Antonio Raimondo"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

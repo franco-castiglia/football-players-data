@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Sergio_Herrera a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2057751> ;
+    foaf:account "twitter.com/sergioherrera"^^xsd:anyURI,
+        "www.instagram.com/sergioherrerapiron1/?hl=en"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/gcvdfg1725091866.png"^^xsd:anyURI ;
+    foaf:name "Sergio Herrera"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 33 ;
+    stats:blocks 1 ;
+    stats:carries 698 ;
+    stats:clearances 29 ;
+    stats:dispossessed 0 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 37.0 ;
+    stats:matchesPlayed 37 ;
+    stats:matchesStarted 37 ;
+    stats:minutesPlayed 3330 ;
+    stats:miscontrols 2 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 2 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1157 ;
+    stats:redCards 0 ;
+    stats:tackles 2 ;
+    stats:tacklesWon 1 ;
+    stats:touches 1358 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1993-06-05"^^xsd:date ;
+    schema:description "Sergio Herrera Pirón (born 5 June 1993) is a Spanish footballer who plays for CA Osasuna as a goalkeeper."@en ;
+    schema:height "1.92 m (6 ft 4 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/yigy401725092209.jpg"^^xsd:anyURI ;
+    schema:memberOf "Osasuna"^^xsd:string ;
+    schema:name "Sergio Herrera"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "181 lbs"^^xsd:string .
+

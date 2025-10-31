@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Christopher_Tea_Operi a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/564pth1702293409.png"^^xsd:anyURI ;
+    foaf:name "Christopher Téa Operi"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 51 ;
+    stats:blocks 20 ;
+    stats:carries 418 ;
+    stats:clearances 30 ;
+    stats:dispossessed 11 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.2 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 14 ;
+    stats:keyPasses 24 ;
+    stats:matches90s 13.0 ;
+    stats:matchesPlayed 13 ;
+    stats:matchesStarted 13 ;
+    stats:minutesPlayed 1169 ;
+    stats:miscontrols 14 ;
+    stats:passesIntoPenaltyArea 20 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 28 ;
+    stats:progressivePasses 52 ;
+    stats:progressivePassesReceived 65 ;
+    stats:rank 1981 ;
+    stats:redCards 1 ;
+    stats:tackles 13 ;
+    stats:tacklesWon 9 ;
+    stats:touches 878 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1997-04-29"^^xsd:date ;
+    schema:description """Christopher Téa Opéri (born 29 April 1997) is an Ivorian professional footballer who plays as a defender for French Ligue 1 club Le Havre.\r
+\r
+Career\r
+After years in the youth academy of Caen, Opéri was transferred to Châteauroux on 24 July 2017. He made his first professional appearance with Châteauroux in a 2–1 Ligue 2 loss to Gazélec Ajaccio on 22 September 2017.\r
+\r
+On 2 June 2021, he signed a two-year contract with Gent in Belgium. On 21 June 2022, Opéri's contract with Gent was terminated by mutual consent.\r
+\r
+On 29 June 2022, Opéri returned to France and signed a two-year contract with Le Havre."""@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/goo0tr1702293376.jpg"^^xsd:anyURI ;
+    schema:memberOf "Le Havre"^^xsd:string ;
+    schema:name "Christopher Téa Operi"^^xsd:string ;
+    schema:nationality "Ivory Coast"^^xsd:string ;
+    schema:weight "73 kg"^^xsd:string .
+

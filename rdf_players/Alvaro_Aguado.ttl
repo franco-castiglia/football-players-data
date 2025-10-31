@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Alvaro_Aguado a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q46354119> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/qqt6281678995456.png"^^xsd:anyURI ;
+    foaf:name "Álvaro Aguado"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 37 ;
+    stats:blocks 7 ;
+    stats:carries 175 ;
+    stats:clearances 5 ;
+    stats:dispossessed 4 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.6 ;
+    stats:expectedGoals 0.6 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 4.9 ;
+    stats:matchesPlayed 16 ;
+    stats:matchesStarted 4 ;
+    stats:minutesPlayed 443 ;
+    stats:miscontrols 9 ;
+    stats:passesIntoPenaltyArea 8 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 15 ;
+    stats:progressivePasses 37 ;
+    stats:progressivePassesReceived 4 ;
+    stats:rank 46 ;
+    stats:redCards 0 ;
+    stats:tackles 5 ;
+    stats:tacklesWon 2 ;
+    stats:touches 303 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1996-05-01"^^xsd:date ;
+    schema:description "Álvaro Aguado Méndez (born 1 May 1996) is a Spanish professional footballer who plays as a central midfielder."@en ;
+    schema:height "1.75 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/n0qig31723570063.jpg"^^xsd:anyURI ;
+    schema:memberOf "Espanyol"^^xsd:string ;
+    schema:name "Álvaro Aguado"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "146 lbs"^^xsd:string .
+

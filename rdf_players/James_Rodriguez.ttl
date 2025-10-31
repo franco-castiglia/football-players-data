@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:James_Rodriguez a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q368441> ;
+    foaf:account "twitter.com/jamesdrodriguez"^^xsd:anyURI,
+        "www.facebook.com/10Jamesrodriguez/"^^xsd:anyURI,
+        "www.instagram.com/jamesrodriguez10"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/gxct0b1669550416.png"^^xsd:anyURI ;
+    foaf:name "James Rodríguez"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 8 ;
+    stats:blocks 2 ;
+    stats:carries 71 ;
+    stats:clearances 0 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 1.6 ;
+    stats:matchesPlayed 6 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 140 ;
+    stats:miscontrols 5 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 3 ;
+    stats:progressivePasses 13 ;
+    stats:progressivePassesReceived 7 ;
+    stats:rank 2238 ;
+    stats:redCards 0 ;
+    stats:tackles 3 ;
+    stats:tacklesWon 2 ;
+    stats:touches 116 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1991-07-12"^^xsd:date ;
+    schema:description """James David Rodríguez Rubio (born 12 July 1991) is a Colombian professional footballer who plays as an attacking midfielder or winger for La Liga club Rayo Vallecano and is also the captain of the Colombia national team. Regarded as one of the best Colombian players of all time, he has been praised for his technique, vision, and playmaking skills. He was often considered the successor to his compatriot Carlos Valderrama.\r
+\r
+Starting his career at Envigado, and then moving to Argentina side Banfield, James became well known in Europe during his time at Porto, winning several trophies and individual awards during his three years at the club. In 2014, James moved from AS Monaco to Real Madrid for a transfer fee of £63 million, beating Radamel Falcao as the most expensive Colombian football player and one of the most expensive players at the time. In his debut season, he was named in the La Liga Team of the Season and won La Liga Best Midfielder. In 2017, he signed for German club Bayern Munich on a two-year loan deal. In the summer of 2020, he signed for Premier League club Everton on a free transfer, staying there for one season before joining Qatar's Al-Rayyan and Greece's Olympiacos in 2021 and 2022, respectively. In 2023, 13 years after leaving South America, he returned to the continent by joining Brazilian club São Paulo.\r
+\r
+James started his international career with the Colombia under-20 team, with which he won the 2011 Toulon Tournament. He then captained the U-20 team during the 2011 FIFA U-20 World Cup. Due to his performance in the tournament, he was regularly called into the senior squad by the age of 20. He played in the 2014 and 2018 FIFA World Cup, winning the Golden Boot in 2014 and being included in the Cup's All Star Team. He also represented his nation at the Copa América in 2015, 2016, 2019 and 2024, winning a third-place medal in 2016 and reaching the final in 2024, the latter in which he received the Golden Ball as the tournament's best player."""@en ;
+    schema:height "1.81 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/yvnyty1565443385.jpg"^^xsd:anyURI ;
+    schema:memberOf "León"^^xsd:string ;
+    schema:name "James Rodríguez"^^xsd:string ;
+    schema:nationality "Colombia"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

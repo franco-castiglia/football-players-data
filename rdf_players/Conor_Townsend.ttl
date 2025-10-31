@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Conor_Townsend a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5162304> ;
+    foaf:account "twitter.com/conortownsend93?lang=en"^^xsd:anyURI,
+        "www.instagram.com/conortownsend22/?hl=en"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/u9sufq1725393250.png"^^xsd:anyURI ;
+    foaf:name "Conor Townsend"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 8 ;
+    stats:blocks 8 ;
+    stats:carries 53 ;
+    stats:clearances 16 ;
+    stats:dispossessed 2 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.7 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 3.7 ;
+    stats:matchesPlayed 6 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 335 ;
+    stats:miscontrols 2 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 8 ;
+    stats:progressivePassesReceived 13 ;
+    stats:rank 2623 ;
+    stats:redCards 0 ;
+    stats:tackles 11 ;
+    stats:tacklesWon 8 ;
+    stats:touches 172 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1993-03-04"^^xsd:date ;
+    schema:description """Conor Stephen Townsend (born 4 March 1993) is an English professional footballer who plays as a left-back for EFL Championship club Ipswich Town. \r
+\r
+He began his career with Hull City, from whom he had loan spells with Grimsby Town, Chesterfield, Carlisle United, Dundee United and Scunthorpe United before joining the latter permanently in 2016.\r
+\r
+At the start of the 2018/19 season Conor Townsend joined West Brom for £756,000"""@en ;
+    schema:height "183 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/kl6hx61567625782.jpg"^^xsd:anyURI ;
+    schema:memberOf "Ipswich Town"^^xsd:string ;
+    schema:name "Conor Townsend"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "137 lbs"^^xsd:string .
+

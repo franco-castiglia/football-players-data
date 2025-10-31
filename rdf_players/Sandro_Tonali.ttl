@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Sandro_Tonali a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q43402334> ;
+    foaf:account "www.instagram.com/sandrotonali/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/1nklt11693823943.png"^^xsd:anyURI ;
+    foaf:name "Sandro Tonali"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 177 ;
+    stats:blocks 34 ;
+    stats:carries 979 ;
+    stats:clearances 33 ;
+    stats:dispossessed 23 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 2.2 ;
+    stats:expectedGoals 4.4 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 34 ;
+    stats:keyPasses 28 ;
+    stats:matches90s 29.2 ;
+    stats:matchesPlayed 36 ;
+    stats:matchesStarted 28 ;
+    stats:minutesPlayed 2630 ;
+    stats:miscontrols 30 ;
+    stats:passesIntoPenaltyArea 30 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:progressiveCarries 37 ;
+    stats:progressivePasses 128 ;
+    stats:progressivePassesReceived 53 ;
+    stats:rank 2609 ;
+    stats:redCards 0 ;
+    stats:tackles 51 ;
+    stats:tacklesWon 32 ;
+    stats:touches 1818 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "2000-05-18"^^xsd:date ;
+    schema:description """Sandro Tonali (born 8 May 2000) is an Italian professional footballer who plays as a defensive midfielder for Premier League club Newcastle United and the Italy national team. \r
+In November 2018, he was called for the first time to the senior national team by manager Roberto Mancini. After appearing for the Italy U21 side in a 0–0 away draw against Ireland on 10 October 2019, in a European qualifier, he was called up to the Italy senior squad once again the following day, for the team's Euro 2020 qualifiers against Greece and Liechtenstein.\r
+\r
+Tonali made his senior international debut on 15 October 2019, coming on as a substitute in the 5–0 away win against Liechtenstein in Vaduz. His first start for Italy came in his following appearance on 15 November, a 3–0 away win over Bosnia and Herzegovina.\r
+\r
+Tonali is a Milan fan since childhood."""@en ;
+    schema:height "181 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/kbfd821586353247.jpg"^^xsd:anyURI ;
+    schema:memberOf "Newcastle"^^xsd:string ;
+    schema:name "Sandro Tonali"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "79 kg"^^xsd:string .
+

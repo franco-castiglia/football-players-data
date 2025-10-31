@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Aissa_Mandi a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2876432> ;
+    foaf:account "www.instagram.com/aissamandi23/?hl=en"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/tvfrg71629536402.png"^^xsd:anyURI ;
+    foaf:name "Aïssa Mandi"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 67 ;
+    stats:blocks 23 ;
+    stats:carries 736 ;
+    stats:clearances 54 ;
+    stats:dispossessed 4 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.4 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 15 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 19.3 ;
+    stats:matchesPlayed 24 ;
+    stats:matchesStarted 20 ;
+    stats:minutesPlayed 1733 ;
+    stats:miscontrols 8 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 12 ;
+    stats:progressivePasses 82 ;
+    stats:progressivePassesReceived 21 ;
+    stats:rank 1602 ;
+    stats:redCards 0 ;
+    stats:tackles 31 ;
+    stats:tacklesWon 17 ;
+    stats:touches 1395 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1991-10-22"^^xsd:date ;
+    schema:description """Aïssa Mandi (Arabic: عيسى ماندي; born 22 October 1991) is a professional footballer who plays for Ligue 1 club Lille. Born in France, he plays for the Algeria national team. Mainly a centre-back, he can also play as a right-back.\r
+\r
+Mandi made his international debut for Algeria in March 2014. He was a member of the Algerian team for the 2014 FIFA World Cup in Brazil, as well as the Africa Cup of Nations in 2015, 2017, 2019, 2021 and 2023, winning the 2019 tournament."""@en ;
+    schema:height "1.84 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/daf6z21503235226.jpg"^^xsd:anyURI ;
+    schema:memberOf "Lille"^^xsd:string ;
+    schema:name "Aïssa Mandi"^^xsd:string ;
+    schema:nationality "Algeria"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

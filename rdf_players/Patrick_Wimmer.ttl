@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Patrick_Wimmer a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q65948837> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/pnp0f31742139856.png"^^xsd:anyURI ;
+    foaf:name "Patrick Wimmer"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 92 ;
+    stats:blocks 31 ;
+    stats:carries 504 ;
+    stats:clearances 15 ;
+    stats:dispossessed 27 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 2.9 ;
+    stats:expectedGoals 3.7 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 32 ;
+    stats:keyPasses 24 ;
+    stats:matches90s 19.7 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 22 ;
+    stats:minutesPlayed 1770 ;
+    stats:miscontrols 43 ;
+    stats:passesIntoPenaltyArea 23 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:progressiveCarries 46 ;
+    stats:progressivePasses 91 ;
+    stats:progressivePassesReceived 75 ;
+    stats:rank 2776 ;
+    stats:redCards 1 ;
+    stats:tackles 47 ;
+    stats:tacklesWon 35 ;
+    stats:touches 920 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "2001-05-30"^^xsd:date ;
+    schema:description "Patrick Wimmer (born 30 May 2001) is an Austrian professional footballer who plays as a midfielder for Bundesliga club VfL Wolfsburg ."@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/1klupn1658324092.jpg"^^xsd:anyURI ;
+    schema:memberOf "Wolfsburg"^^xsd:string ;
+    schema:name "Patrick Wimmer"^^xsd:string ;
+    schema:nationality "Austria"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

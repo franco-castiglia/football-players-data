@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Marco_Grull a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q61869848> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/pgze9c1742136537.png"^^xsd:anyURI ;
+    foaf:name "Marco Grüll"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 43 ;
+    stats:blocks 14 ;
+    stats:carries 317 ;
+    stats:clearances 10 ;
+    stats:dispossessed 39 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.8 ;
+    stats:expectedGoals 4.0 ;
+    stats:goals 6 ;
+    stats:goalsNonPenalty 6 ;
+    stats:interceptions 3 ;
+    stats:keyPasses 11 ;
+    stats:matches90s 13.1 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 13 ;
+    stats:minutesPlayed 1181 ;
+    stats:miscontrols 43 ;
+    stats:passesIntoPenaltyArea 14 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:progressiveCarries 24 ;
+    stats:progressivePasses 38 ;
+    stats:progressivePassesReceived 93 ;
+    stats:rank 1071 ;
+    stats:redCards 0 ;
+    stats:tackles 12 ;
+    stats:tacklesWon 9 ;
+    stats:touches 495 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1998-07-06"^^xsd:date ;
+    schema:description "Marco Grüll (born 6 July 1998) is an Austrian professional footballer who plays as a winger for Bundesliga club Werder Bremen and the Austria national team."@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/5r009b1677592779.jpg"^^xsd:anyURI ;
+    schema:memberOf "Werder Bremen"^^xsd:string ;
+    schema:name "Marco Grüll"^^xsd:string ;
+    schema:nationality "Austria"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

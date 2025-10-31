@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Andrea_Pinamonti a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q27981508> ;
+    foaf:account "www.instagram.com/andreapinamonti/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/6b1z6o1698432703.png"^^xsd:anyURI ;
+    foaf:name "Andrea Pinamonti"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 53 ;
+    stats:blocks 16 ;
+    stats:carries 491 ;
+    stats:clearances 28 ;
+    stats:dispossessed 34 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 1.7 ;
+    stats:expectedGoals 7.7 ;
+    stats:goals 10 ;
+    stats:goalsNonPenalty 10 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 15 ;
+    stats:matches90s 31.7 ;
+    stats:matchesPlayed 36 ;
+    stats:matchesStarted 33 ;
+    stats:minutesPlayed 2850 ;
+    stats:miscontrols 67 ;
+    stats:passesIntoPenaltyArea 9 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 20 ;
+    stats:progressivePasses 46 ;
+    stats:progressivePassesReceived 132 ;
+    stats:rank 2124 ;
+    stats:redCards 0 ;
+    stats:tackles 10 ;
+    stats:tacklesWon 6 ;
+    stats:touches 952 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1999-05-19"^^xsd:date ;
+    schema:description "Andrea Pinamonti (born 19 May 1999) is an Italian footballer who plays as a striker for Genoa on loan from Sassuolo."@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/l52ouu1602960855.jpg"^^xsd:anyURI ;
+    schema:memberOf "Sassuolo"^^xsd:string ;
+    schema:name "Andrea Pinamonti"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

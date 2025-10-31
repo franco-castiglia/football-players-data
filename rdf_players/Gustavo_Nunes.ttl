@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Gustavo_Nunes a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q125179502> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/0vts9y1725366744.png"^^xsd:anyURI ;
+    foaf:name "Gustavo Nunes"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 0 ;
+    stats:blocks 0 ;
+    stats:carries 1 ;
+    stats:clearances 2 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.1 ;
+    stats:matchesPlayed 3 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 12 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacker"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1922 ;
+    stats:redCards 0 ;
+    stats:tackles 3 ;
+    stats:tacklesWon 2 ;
+    stats:touches 7 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2005-11-20"^^xsd:date ;
+    schema:description "Gustavo Nunes Fernandes Gomes (born 20 November 2005), known as Gustavo Nunes, is a Brazilian professional footballer who plays as a forward for Brentford."@en ;
+    schema:height "173 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/810hbv1724961800.jpg"^^xsd:anyURI ;
+    schema:memberOf "Brentford"^^xsd:string ;
+    schema:name "Gustavo Nunes"^^xsd:string ;
+    schema:nationality "Brazil"^^xsd:string ;
+    schema:weight "69 kg"^^xsd:string .
+

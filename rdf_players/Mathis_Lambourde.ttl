@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mathis_Lambourde a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q118747110> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/2vr4o51741898342.png"^^xsd:anyURI ;
+    foaf:name "Mathis Lambourde"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 3 ;
+    stats:blocks 3 ;
+    stats:carries 24 ;
+    stats:clearances 1 ;
+    stats:dispossessed 6 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 1.0 ;
+    stats:matchesPlayed 7 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 89 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacker"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 12 ;
+    stats:rank 1444 ;
+    stats:redCards 0 ;
+    stats:tackles 3 ;
+    stats:tacklesWon 1 ;
+    stats:touches 38 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2006-01-09"^^xsd:date ;
+    schema:description "Mathis Thierry Lambourde Frontier (born 9 January 2006) is a French professional footballer who plays as a forward for Serie A club Hellas Verona."@en ;
+    schema:height "5' 10\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/6x59kg1741898334.jpg"^^xsd:anyURI ;
+    schema:memberOf "Reggiana"^^xsd:string ;
+    schema:name "Mathis Lambourde"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Adrian_Bernabe a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q56809124> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/1ybrf41759779724.png"^^xsd:anyURI ;
+    foaf:name "Adrián Bernabé"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 72 ;
+    stats:blocks 22 ;
+    stats:carries 738 ;
+    stats:clearances 26 ;
+    stats:dispossessed 14 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.1 ;
+    stats:expectedGoals 1.3 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 7 ;
+    stats:keyPasses 22 ;
+    stats:matches90s 16.1 ;
+    stats:matchesPlayed 21 ;
+    stats:matchesStarted 18 ;
+    stats:minutesPlayed 1453 ;
+    stats:miscontrols 12 ;
+    stats:passesIntoPenaltyArea 17 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 37 ;
+    stats:progressivePasses 115 ;
+    stats:progressivePassesReceived 20 ;
+    stats:rank 314 ;
+    stats:redCards 0 ;
+    stats:tackles 29 ;
+    stats:tacklesWon 18 ;
+    stats:touches 1140 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2001-05-26"^^xsd:date ;
+    schema:description "Adrián Bernabé Garcia (born 26 May 2001) is a Spanish professional footballer who plays as a midfielder for Serie A club Parma."@en ;
+    schema:height "1.70 m (5 ft 7 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/gael291718881213.jpg"^^xsd:anyURI ;
+    schema:memberOf "Parma Calcio 1913"^^xsd:string ;
+    schema:name "Adrián Bernabé"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "146 lbs"^^xsd:string .
+

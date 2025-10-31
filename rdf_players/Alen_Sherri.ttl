@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Alen_Sherri a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q20641475> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/2g36le1721292730.png"^^xsd:anyURI ;
+    foaf:name "Alen Sherri"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 15 ;
+    stats:blocks 0 ;
+    stats:carries 137 ;
+    stats:clearances 1 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 6.9 ;
+    stats:matchesPlayed 7 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 621 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 2405 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 0 ;
+    stats:touches 244 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1997-12-15"^^xsd:date ;
+    schema:description """Alen Sherri (born 15 December 1997) is an Albanian professional footballer who plays as a goalkeeper for Italian Serie A club Cagliari and the Albania national team.\r
+\r
+Sherri received his first call up to the Albania under-21 national team by the head coach Skënder Gega on 8 June 2015 for the Friendly matches against Kazakhstan & Sweden on 12 & 16 June 2015. He was called up for the second time at Albania U21 by a new appointed coach Redi Jupi to participate in the Antalya Cup developed in Antalya, Turkey against Saudi Arabia U23 on 22 January 2016, Bahrain U23 on 24 January, Azerbaijan U21 on 26 January, Kosovo U21 on 28 January and Ukraine U21 on 30 January.\r
+\r
+Sherri was called by coach Redi Jupi to participate with Albania U21 in the 2017 UEFA European Under-21 Championship qualification Group 4 matches against Greece U21 and Hungary U21 on 24 & 28 March 2016 respectively.\r
+\r
+Sherri was called up to the Albania national team by head coach Edy Reja on 26 May 2021 for the June friendlies."""@en ;
+    schema:height "197 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/x4y9a71721292535.jpg"^^xsd:anyURI ;
+    schema:memberOf "Frosinone"^^xsd:string ;
+    schema:name "Alen Sherri"^^xsd:string ;
+    schema:nationality "Albania"^^xsd:string ;
+    schema:weight "203 lbs"^^xsd:string .
+

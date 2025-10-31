@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Kelechi_Iheanacho a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q15506789> ;
+    foaf:account "twitter.com/67kelechi"^^xsd:anyURI,
+        "www.instagram.com/kelechi72/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ujzvpd1724789354.png"^^xsd:anyURI ;
+    foaf:name "Kelechi Iheanacho"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 7 ;
+    stats:blocks 0 ;
+    stats:carries 60 ;
+    stats:clearances 1 ;
+    stats:dispossessed 4 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 1.5 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 4.4 ;
+    stats:matchesPlayed 9 ;
+    stats:matchesStarted 5 ;
+    stats:minutesPlayed 400 ;
+    stats:miscontrols 10 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 6 ;
+    stats:progressivePasses 5 ;
+    stats:progressivePassesReceived 17 ;
+    stats:rank 1207 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 0 ;
+    stats:touches 108 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1996-10-03"^^xsd:date ;
+    schema:description """Kelechi Promise Iheanacho MON is a Nigerian professional footballer who plays as a forward for Scottish Premiership club Celtic and the Nigeria national team. \r
+\r
+Iheanacho began his senior career at Manchester City during the 2015–16 season, winning the Football League Cup. He moved to Leicester City in 2017 for a reported £25 million fee, the largest ever transfer amount for a Nigerian player at the time and the second-largest for an African player after Egyptian Mohamed Salah. Iheanacho was instrumental in Leicester City's 2020–21 FA Cup success, scoring a joint-high four goals across the edition as the club won the trophy for the first time. He also scored the match's sole goal from the penalty spot as Leicester lifted the 2021 FA Community Shield.\r
+\r
+At international level, Iheanacho represented Nigeria's under-17 team at the 2013 FIFA U-17 World Cup, being named the tournament's best player and finishing as the second-highest goalscorer as he led the side to their record fourth title. He would then be included in Nigeria's under-20 team for the 2015 FIFA U-20 World Cup, before making his senior international debut later the same year. Since then, he has represented the country at the 2018 FIFA World Cup, as well as the 2021 and 2023 Africa Cup of Nations, finishing as runner-up in the latter tournament. Iheanacho was voted the Most Promising African Talent twice in 2013 and 2016 and named as a substitute for the 2016 CAF Team of the Year."""@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/bu3pft1510064180.jpg"^^xsd:anyURI ;
+    schema:memberOf "Celtic"^^xsd:string ;
+    schema:name "Kelechi Iheanacho"^^xsd:string ;
+    schema:nationality "Nigeria"^^xsd:string ;
+    schema:weight "181 lbs"^^xsd:string .
+

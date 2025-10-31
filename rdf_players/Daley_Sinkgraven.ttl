@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Daley_Sinkgraven a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16014629> ;
+    foaf:account "twitter.com/Daleysinkgraven"^^xsd:anyURI,
+        "www.instagram.com/daleysinkgraven/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/6c1kg01701093957.png"^^xsd:anyURI ;
+    foaf:name "Daley Sinkgraven"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 6 ;
+    stats:blocks 1 ;
+    stats:carries 46 ;
+    stats:clearances 2 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 1.0 ;
+    stats:matchesPlayed 2 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 91 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 3 ;
+    stats:progressivePassesReceived 7 ;
+    stats:rank 2435 ;
+    stats:redCards 0 ;
+    stats:tackles 5 ;
+    stats:tacklesWon 1 ;
+    stats:touches 77 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1995-07-04"^^xsd:date ;
+    schema:description "Daley Sinkgraven (born 4 July 1995) is a Dutch professional footballer who plays as a left-back for Eredivisie club Fortuna Sittard."@en ;
+    schema:height "1.79 m (5 ft 10 1⁄2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/t3vy3z1724171024.jpg"^^xsd:anyURI ;
+    schema:memberOf "Fortuna Sittard"^^xsd:string ;
+    schema:name "Daley Sinkgraven"^^xsd:string ;
+    schema:nationality "The Netherlands"^^xsd:string ;
+    schema:weight "148 lbs"^^xsd:string .
+

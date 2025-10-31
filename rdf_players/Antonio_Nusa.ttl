@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Antonio_Nusa a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q107357509> ;
+    foaf:account "www.instagram.com/nusaantonio/?hl=en"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/6sgnpy1731102594.png"^^xsd:anyURI ;
+    foaf:name "Antonio Nusa"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 78 ;
+    stats:blocks 22 ;
+    stats:carries 480 ;
+    stats:clearances 11 ;
+    stats:dispossessed 31 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.8 ;
+    stats:expectedGoals 1.6 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 20 ;
+    stats:matches90s 17.3 ;
+    stats:matchesPlayed 25 ;
+    stats:matchesStarted 16 ;
+    stats:minutesPlayed 1558 ;
+    stats:miscontrols 38 ;
+    stats:passesIntoPenaltyArea 20 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 57 ;
+    stats:progressivePasses 52 ;
+    stats:progressivePassesReceived 123 ;
+    stats:rank 1926 ;
+    stats:redCards 0 ;
+    stats:tackles 30 ;
+    stats:tacklesWon 17 ;
+    stats:touches 802 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2005-04-07"^^xsd:date ;
+    schema:description "Antonio Eromonsele Nordby Nusa (born 17 April 2005) is a Norwegian professional footballer who plays for German Bundesliga club RB Leipzig and the Norway national team."@en ;
+    schema:height "180cm / 5'11\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/orowpm1731102557.jpg"^^xsd:anyURI ;
+    schema:memberOf "RB Leipzig"^^xsd:string ;
+    schema:name "Antonio Nusa"^^xsd:string ;
+    schema:nationality "Norway"^^xsd:string ;
+    schema:weight "73kg / 161lbs"^^xsd:string .
+

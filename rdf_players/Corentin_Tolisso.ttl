@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Corentin_Tolisso a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q15406583> ;
+    foaf:account "fr-fr.facebook.com/TolissoCorentin"^^xsd:anyURI,
+        "twitter.com/CorentinTolisso"^^xsd:anyURI,
+        "www.instagram.com/corentintolisso/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/a2p2xd1702910346.png"^^xsd:anyURI ;
+    foaf:name "Corentin Tolisso"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 128 ;
+    stats:blocks 52 ;
+    stats:carries 1073 ;
+    stats:clearances 41 ;
+    stats:dispossessed 20 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 4.9 ;
+    stats:expectedGoals 5.3 ;
+    stats:goals 7 ;
+    stats:goalsNonPenalty 7 ;
+    stats:interceptions 22 ;
+    stats:keyPasses 31 ;
+    stats:matches90s 25.9 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 27 ;
+    stats:minutesPlayed 2329 ;
+    stats:miscontrols 31 ;
+    stats:passesIntoPenaltyArea 35 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 31 ;
+    stats:progressivePasses 166 ;
+    stats:progressivePassesReceived 133 ;
+    stats:rank 2602 ;
+    stats:redCards 0 ;
+    stats:tackles 57 ;
+    stats:tacklesWon 25 ;
+    stats:touches 1917 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1994-08-03"^^xsd:date ;
+    schema:description """Corentin Tolisso (born 3 August 1994) is a French professional footballer who plays as a central midfielder for Ligue 1 club Lyon and the France national team.\r
+\r
+A graduate of the Lyon academy, he made his professional debut for the club in 2013 and played 160 matches and scored 29 goals. He joined Bayern Munich for €41.5 million in the summer of 2017, a record for a transfer to a German club.\r
+\r
+Tolisso represented France at various youth levels before making his senior debut in 2017. He was part of their squad that won the 2018 FIFA World Cup."""@en ;
+    schema:height "1.80 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/k7jf3h1660764735.jpg"^^xsd:anyURI ;
+    schema:memberOf "Lyon"^^xsd:string ;
+    schema:name "Corentin Tolisso"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "179 lbs"^^xsd:string .
+

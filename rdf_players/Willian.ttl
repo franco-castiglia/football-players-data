@@ -1,0 +1,83 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Willian a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q73480> ;
+    foaf:account "twitter.com/willianborges88"^^xsd:anyURI,
+        "www.facebook.com/willianborges88"^^xsd:anyURI,
+        "www.instagram.com/willianborges88"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/kbbliu1693942746.png"^^xsd:anyURI ;
+    foaf:name "Willian"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 14 ;
+    stats:blocks 0 ;
+    stats:carries 148 ;
+    stats:clearances 1 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 2.9 ;
+    stats:matchesPlayed 10 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 257 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 10 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 11 ;
+    stats:progressivePasses 40 ;
+    stats:progressivePassesReceived 33 ;
+    stats:rank 2772 ;
+    stats:redCards 0 ;
+    stats:tackles 4 ;
+    stats:tacklesWon 2 ;
+    stats:touches 231 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1988-08-09"^^xsd:date ;
+    schema:description """Willian Borges da Silva (born 9 August 1988), known mononymously as Willian, is a Brazilian professional footballer who plays as a winger or wide midfielder. He is currently a free agent. \r
+\r
+Willian started his career at Corinthians, before joining Shakhtar Donetsk in August 2007 for a fee of €14million. In his six years at the club, he won honours including four Ukrainian Premier League titles and the UEFA Cup in 2009. In 2013, he briefly signed for Anzhi Makhachkala before joining Chelsea for £30million, winning the Premier League and League Cup in his second season in England.\r
+\r
+Willian made his debut for Brazil in 2011 and has since represented his country at the 2014 and 2018 FIFA World Cups, as well as the 2015 Copa América, the Copa América Centenario, and the 2019 Copa América, a tournament Brazil won on home soil.\r
+\r
+As a member of the under-20 Brazil team, Willian made his debut in the 2007 South American Youth Championship against Chile on 7 January 2007, which Brazil went on to win. In 2007, he was also selected for the FIFA U-20 World Cup, but Brazil were eliminated in the quarterfinals by Spain.\r
+\r
+On 10 November 2011, Willian made his senior debut for Brazil in a friendly match against Gabon. On 16 November 2013, he scored his first international goal in a 5–0 win over Honduras in Miami, Florida.\r
+\r
+On 7 May 2014, Willian was selected as part of the 23-man squad for the 2014 FIFA World Cup. He came on at half-time in extra time of the round of 16 match against Chile in Belo Horizonte for his Chelsea teammate Oscar, and took a penalty in the shootout which he put wide of the goal, although Brazil nonetheless advanced.\r
+\r
+At the 2015 Copa América, Willian assisted Roberto Firmino's decisive goal in the 2–1 win over Venezuela in Santiago, a result which sent Brazil into the quarterfinals as group winners.\r
+\r
+On 5 May 2016, he was named by Brazil manager Dunga among the 23-man list for the Copa América Centenario to be held in the United States.\r
+\r
+In May 2018 he was named in Tite's final 23-man squad for the 2018 FIFA World Cup in Russia.\r
+\r
+On 7 June 2019, he received a late call-up for the 2019 Copa América to replace the injured Neymar.\r
+\r
+Willian is Afro-Brazilian and is married to Vanessa Martins. They have twin daughters, Valentina and Manuella. Like many Brazilian footballers, Willian is a devout Christian.\r
+\r
+In April 2016, Willian was named in the Panama Papers.\r
+\r
+On 13 October 2016, Willian's mother, Dona Zezé, died at the age of 57. During the game against the Premier League champions, Leicester City, his teammates Diego Costa and Eden Hazard dedicated their goals to Willian and his mother. Along with his teammates, his manager, Antonio Conte, also dedicated their victory to Willian and his family.\r
+\r
+In 2018, Willian and his teammate David Luiz acquired Babbo, an Italian restaurant located in Mayfair, London."""@en ;
+    schema:height "175 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/tbfzvr1544035409.jpg"^^xsd:anyURI ;
+    schema:memberOf "_Free Agent Soccer"^^xsd:string ;
+    schema:name "Willian"^^xsd:string ;
+    schema:nationality "Brazil"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

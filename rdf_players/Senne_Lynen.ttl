@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Senne_Lynen a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q48291946> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/gwlu2y1742136628.png"^^xsd:anyURI ;
+    foaf:name "Senne Lynen"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 191 ;
+    stats:blocks 56 ;
+    stats:carries 849 ;
+    stats:clearances 75 ;
+    stats:dispossessed 15 ;
+    stats:errors 5 ;
+    stats:expectedAssistedGoals 0.6 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 65 ;
+    stats:keyPasses 8 ;
+    stats:matches90s 30.4 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 32 ;
+    stats:minutesPlayed 2733 ;
+    stats:miscontrols 35 ;
+    stats:passesIntoPenaltyArea 15 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:progressiveCarries 9 ;
+    stats:progressivePasses 91 ;
+    stats:progressivePassesReceived 28 ;
+    stats:rank 1550 ;
+    stats:redCards 0 ;
+    stats:tackles 72 ;
+    stats:tacklesWon 39 ;
+    stats:touches 1717 ;
+    stats:yellowCards 9 ;
+    schema:birthDate "1999-02-19"^^xsd:date ;
+    schema:description """Senne Lynen (born 19 February 1999) is a Belgian professional footballer who plays as a defensive midfielder for German Bundesliga club Werder Bremen.\r
+\r
+Lynne spent his early career with Borsbeek Sport, Royal Antwerp, Westerlo, Lierse and Club Brugge.\r
+\r
+Having spent the second half of the 2017–18 season at Eerste Divisie club Telstar on loan from Club Brugge, Lynen made a permanent move to Telstar in 2018, signing a two-year contract.\r
+\r
+On 8 August 2023, Lynen signed with Bundesliga club Werder Bremen from Belgian Pro League side Union SG. The transfer fee paid to Union SG was reported as €2 million.\r
+\r
+Lynen was a Belgian youth international."""@en ;
+    schema:height "185 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/lm2hxy1695039348.jpg"^^xsd:anyURI ;
+    schema:memberOf "Werder Bremen"^^xsd:string ;
+    schema:name "Senne Lynen"^^xsd:string ;
+    schema:nationality "Belgium"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

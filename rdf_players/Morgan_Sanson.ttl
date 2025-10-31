@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Morgan_Sanson a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6911830> ;
+    foaf:account "twitter.com/msanson20"^^xsd:anyURI,
+        "www.facebook.com/morgansanson8/"^^xsd:anyURI,
+        "www.instagram.com/morgansanson/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/niusry1700557985.png"^^xsd:anyURI ;
+    foaf:name "Morgan Sanson"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 10 ;
+    stats:blocks 3 ;
+    stats:carries 89 ;
+    stats:clearances 2 ;
+    stats:dispossessed 2 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 1.5 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 2.6 ;
+    stats:matchesPlayed 6 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 235 ;
+    stats:miscontrols 8 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 5 ;
+    stats:progressivePasses 13 ;
+    stats:progressivePassesReceived 17 ;
+    stats:rank 2342 ;
+    stats:redCards 0 ;
+    stats:tackles 6 ;
+    stats:tacklesWon 3 ;
+    stats:touches 145 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1994-08-18"^^xsd:date ;
+    schema:description "Morgan Stéphane Sanson (born 18 August 1994) is a French professional footballer who plays as a midfielder for Ligue 1 club Nice, on loan from Premier League club Aston Villa."@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/hmxktg1551711688.jpg"^^xsd:anyURI ;
+    schema:memberOf "Nice"^^xsd:string ;
+    schema:name "Morgan Sanson"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "73 kg"^^xsd:string .
+

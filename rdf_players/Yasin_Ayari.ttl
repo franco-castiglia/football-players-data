@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Yasin_Ayari a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q103979811> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/xah7d91756994132.png"^^xsd:anyURI ;
+    foaf:name "Yasin Ayari"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 118 ;
+    stats:blocks 24 ;
+    stats:carries 655 ;
+    stats:clearances 26 ;
+    stats:dispossessed 22 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.3 ;
+    stats:expectedGoals 2.4 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 20 ;
+    stats:keyPasses 30 ;
+    stats:matches90s 21.8 ;
+    stats:matchesPlayed 34 ;
+    stats:matchesStarted 22 ;
+    stats:minutesPlayed 1965 ;
+    stats:miscontrols 38 ;
+    stats:passesIntoPenaltyArea 18 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 30 ;
+    stats:progressivePasses 75 ;
+    stats:progressivePassesReceived 61 ;
+    stats:rank 182 ;
+    stats:redCards 0 ;
+    stats:tackles 59 ;
+    stats:tacklesWon 32 ;
+    stats:touches 1233 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2003-10-06"^^xsd:date ;
+    schema:description "Yasin Abbas Ayari is a Swedish professional footballer who plays as a midfielder for  Premier League club Brighton & Hove Albion, and the Sweden national team."@en ;
+    schema:height "172 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/dzdn5k1678183016.jpg"^^xsd:anyURI ;
+    schema:memberOf "Brighton and Hove Albion"^^xsd:string ;
+    schema:name "Yasin Ayari"^^xsd:string ;
+    schema:nationality "Sweden"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

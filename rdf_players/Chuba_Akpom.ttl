@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Chuba_Akpom a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q13467456> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/dkpie31722880753.png"^^xsd:anyURI ;
+    foaf:name "Chuba Akpom"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 11 ;
+    stats:blocks 9 ;
+    stats:carries 80 ;
+    stats:clearances 3 ;
+    stats:dispossessed 5 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 5.0 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 7.1 ;
+    stats:matchesPlayed 14 ;
+    stats:matchesStarted 6 ;
+    stats:minutesPlayed 639 ;
+    stats:miscontrols 12 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 6 ;
+    stats:progressivePasses 7 ;
+    stats:progressivePassesReceived 38 ;
+    stats:rank 73 ;
+    stats:redCards 0 ;
+    stats:tackles 8 ;
+    stats:tacklesWon 5 ;
+    stats:touches 165 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1995-10-09"^^xsd:date ;
+    schema:description """Chuba Amechi Akpom is an English professional footballer who plays as a forward for EFL Championship club Ipswich Town, on loan from Eredivisie club Ajax. \r
+\r
+Akpom began his career at Arsenal, making his senior debut in 2013. Whilst at Arsenal, he had loan periods with English clubs Brentford, Coventry City, Nottingham Forest, Hull City, Brighton and Belgian club Sint-Truiden. In 2018, he signed for Greek club PAOK for an undisclosed fee. After a successful spell at PAOK, he moved to Middlesbrough in 2020. In 2021, he returned to PAOK on loan.\r
+\r
+Born in London to Nigerian parents, Akpom is a dual citizen of the United Kingdom and Nigeria. He has represented England at youth and under-21 international levels and in 2019, he announced he switched his international allegiance to represent Nigeria for future games."""@en ;
+    schema:height "186 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/9iep2l1510851949.jpg"^^xsd:anyURI ;
+    schema:memberOf "Ipswich Town"^^xsd:string ;
+    schema:name "Chuba Akpom"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

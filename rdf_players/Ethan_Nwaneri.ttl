@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ethan_Nwaneri a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q114027518> ;
+    foaf:account "twitter.com/ethannwaneri10"^^xsd:anyURI,
+        "www.instagram.com/ethan_nwaneri/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/duej621756983689.png"^^xsd:anyURI ;
+    foaf:name "Ethan Nwaneri"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 34 ;
+    stats:blocks 8 ;
+    stats:carries 365 ;
+    stats:clearances 4 ;
+    stats:dispossessed 17 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.2 ;
+    stats:expectedGoals 1.2 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 16 ;
+    stats:matches90s 9.9 ;
+    stats:matchesPlayed 26 ;
+    stats:matchesStarted 11 ;
+    stats:minutesPlayed 895 ;
+    stats:miscontrols 23 ;
+    stats:passesIntoPenaltyArea 16 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 46 ;
+    stats:progressivePasses 33 ;
+    stats:progressivePassesReceived 113 ;
+    stats:rank 1927 ;
+    stats:redCards 0 ;
+    stats:tackles 11 ;
+    stats:tacklesWon 7 ;
+    stats:touches 544 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2007-03-21"^^xsd:date ;
+    schema:description """Ethan Chidiebere Nwaneri (born 21 March 2007) is an English professional footballer who plays as a right winger or attacking midfielder for Premier League club Arsenal. Known for his long-range shots, dribbling, finishing and creativity, he is regarded as one of the best young football players in the world.\r
+\r
+Born in North London, Nwaneri joined through the Arsenal Academy at a young age. He made his Premier League debut against Brentford on September 18th 2022, becoming the youngest ever Arsenal player, and the youngest player to appear in the top flight of English football aged just 15 years and 181 days old."""@en ;
+    schema:height "5 ft 9 in (1.76 m)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/hxtiaj1674646269.jpg"^^xsd:anyURI ;
+    schema:memberOf "Arsenal"^^xsd:string ;
+    schema:name "Ethan Nwaneri"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

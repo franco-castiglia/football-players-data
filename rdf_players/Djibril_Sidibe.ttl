@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Djibril_Sidibe a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q66737676> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/pif4rg1608500668.png"^^xsd:anyURI ;
+    foaf:name "Djibril Sidibe"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 99 ;
+    stats:blocks 11 ;
+    stats:carries 817 ;
+    stats:clearances 64 ;
+    stats:dispossessed 9 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 2.9 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 20 ;
+    stats:keyPasses 18 ;
+    stats:matches90s 23.3 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 24 ;
+    stats:minutesPlayed 2101 ;
+    stats:miscontrols 24 ;
+    stats:passesIntoPenaltyArea 30 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 16 ;
+    stats:progressivePasses 121 ;
+    stats:progressivePassesReceived 50 ;
+    stats:rank 2407 ;
+    stats:redCards 0 ;
+    stats:tackles 65 ;
+    stats:tacklesWon 36 ;
+    stats:touches 1475 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1992-07-29"^^xsd:date ;
+    schema:description "Djibril Sidibé (born 29 July 1992) is a French professional footballer who plays as a defender for Greek Super League club AEK Athens."@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/hwj2oe1518282878.jpg"^^xsd:anyURI ;
+    schema:memberOf "Toulouse"^^xsd:string ;
+    schema:name "Djibril Sidibe"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "157 lbs"^^xsd:string .
+

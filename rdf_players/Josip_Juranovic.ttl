@@ -1,0 +1,66 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Josip_Juranovic a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q19968645> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/hcbt5i1742134701.png"^^xsd:anyURI ;
+    foaf:name "Josip Juranović"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 62 ;
+    stats:blocks 13 ;
+    stats:carries 307 ;
+    stats:clearances 42 ;
+    stats:dispossessed 3 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 1.8 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 7 ;
+    stats:keyPasses 27 ;
+    stats:matches90s 12.9 ;
+    stats:matchesPlayed 17 ;
+    stats:matchesStarted 13 ;
+    stats:minutesPlayed 1159 ;
+    stats:miscontrols 12 ;
+    stats:passesIntoPenaltyArea 22 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 19 ;
+    stats:progressivePasses 52 ;
+    stats:progressivePassesReceived 45 ;
+    stats:rank 1291 ;
+    stats:redCards 0 ;
+    stats:tackles 21 ;
+    stats:tacklesWon 13 ;
+    stats:touches 709 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1995-08-16"^^xsd:date ;
+    schema:description """Josip Juranović (Croatian pronunciation: ; born 16 August 1995) is a Croatian professional footballer who plays as a right-back for Scottish Premiership club Celtic and the Croatia national team.\r
+\r
+Club career\r
+Born in Zagreb, Croatia, Juranović went through the ranks of the third-tier NK Dubrava, apart from a two-month stint at the nearby NK Croatia Sesvete academy. Making his third-level senior debut in the 2012–13 season, he first drew attention to himself by winning the Croatian leg of the Nike Chance competition for amateur players in early 2014, earning the right to vie for a spot in the Nike Academy team. Not making the 5-person cut, however, he returned to his club. His club performances remained strong, and, touted by some media as the best player of the autumn leg of the 2014/2015 Treća HNL Zapad, he drew the attention of HNK Hajduk Split.\r
+\r
+After signing a three and a half-year long contract with Hajduk in early 2015, he initially joined their third-tier B team, but was moved to the first team in April 2015 by the new manager Goran Vučević, and he made his Prva HNL debut in a 1–2 home loss against HNK Rijeka.\r
+\r
+In June 2018, Juranović was selected in the Prva HNL team of the season for his performances in 2017-18.\r
+\r
+International career\r
+On 6 September 2019, Zlatko Dalić activated Juranović's standby call-up for Croatia's Euro 2020 qualifying matches against Slovakia and Azerbaijan, following Tin Jedvaj's injury.\r
+\r
+Personal life\r
+Juranović comes from the Dubrava quarter of Zagreb. Both his brothers, Dragan and Mihael, are also football players."""@en ;
+    schema:height "1.75 m (5 ft 7 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/fsopfd1622024451.jpg"^^xsd:anyURI ;
+    schema:memberOf "Union Berlin"^^xsd:string ;
+    schema:name "Josip Juranović"^^xsd:string ;
+    schema:nationality "Croatia"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

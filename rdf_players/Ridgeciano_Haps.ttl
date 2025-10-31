@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ridgeciano_Haps a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q14964792> ;
+    foaf:account "www.facebook.com/ridgeciano.haps"^^xsd:anyURI,
+        "www.instagram.com/r.haps/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ldxg2k1697975905.png"^^xsd:anyURI ;
+    foaf:name "Ridgeciano Haps"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 54 ;
+    stats:blocks 18 ;
+    stats:carries 365 ;
+    stats:clearances 48 ;
+    stats:dispossessed 6 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.7 ;
+    stats:expectedGoals 1.2 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 7 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 15.2 ;
+    stats:matchesPlayed 25 ;
+    stats:matchesStarted 14 ;
+    stats:minutesPlayed 1369 ;
+    stats:miscontrols 13 ;
+    stats:passesIntoPenaltyArea 12 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 26 ;
+    stats:progressivePasses 52 ;
+    stats:progressivePassesReceived 47 ;
+    stats:rank 1126 ;
+    stats:redCards 0 ;
+    stats:tackles 30 ;
+    stats:tacklesWon 16 ;
+    stats:touches 738 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1993-06-12"^^xsd:date ;
+    schema:description "Ridgeciano Delano Leandro Haps (born 12 June 1993) is a professional footballer who plays as a left-back for Serie A club Venezia. Born in the Netherlands, he plays for the Suriname national team."@en ;
+    schema:height "1.75 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/oa95jv1633199994.jpg"^^xsd:anyURI ;
+    schema:memberOf "Venezia"^^xsd:string ;
+    schema:name "Ridgeciano Haps"^^xsd:string ;
+    schema:nationality "Suriname"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

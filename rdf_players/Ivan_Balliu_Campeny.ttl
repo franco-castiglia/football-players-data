@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ivan_Balliu_Campeny a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q972933> ;
+    foaf:account "twitter.com/ivan_balliu"^^xsd:anyURI ;
+    foaf:name "Ivan Balliu Campeny"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 39 ;
+    stats:blocks 16 ;
+    stats:carries 326 ;
+    stats:clearances 39 ;
+    stats:dispossessed 2 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 13 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 13.3 ;
+    stats:matchesPlayed 25 ;
+    stats:matchesStarted 12 ;
+    stats:minutesPlayed 1200 ;
+    stats:miscontrols 12 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 8 ;
+    stats:progressivePasses 46 ;
+    stats:progressivePassesReceived 21 ;
+    stats:rank 220 ;
+    stats:redCards 0 ;
+    stats:tackles 17 ;
+    stats:tacklesWon 14 ;
+    stats:touches 762 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1992-01-01"^^xsd:date ;
+    schema:description """Iván Balliu Campeny (born 1 January 1992) is a professional footballer who plays as a right-back for La Liga club Rayo Vallecano. \r
+\r
+Club career\r
+Born in Girona, Catalonia, Balliu joined FC Barcelona's youth system in 2005, aged 13. He made his senior debuts in the 2010–11 season, playing in two Segunda División games with the B-team and starting against Girona FC for a 2–0 away win. In that year, he was also captain of the treble-winning Juvenil A team.\r
+\r
+On 30 May 2013, Balliu's contract expired and he was told by the Blaugrana that he would be released. One month later he signed with F.C. Arouca in Portugal for two seasons, making his Primeira Liga debut on 1 September in a 1–0 home win against Rio Ave FC (90 minutes played)."""@en ;
+    schema:height "5 ft 8 in"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/txuwuw1421404649.jpg"^^xsd:anyURI ;
+    schema:memberOf "Vallecano"^^xsd:string ;
+    schema:name "Ivan Balliu Campeny"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string .
+

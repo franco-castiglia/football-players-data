@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Martin_Dubravka a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q510401> ;
+    foaf:account "twitter.com/HecoDubravka"^^xsd:anyURI,
+        "www.instagram.com/martindubravka/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/frmd101757174406.png"^^xsd:anyURI ;
+    foaf:name "Martin Dubravka"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 18 ;
+    stats:blocks 0 ;
+    stats:carries 202 ;
+    stats:clearances 3 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 10.0 ;
+    stats:matchesPlayed 10 ;
+    stats:matchesStarted 10 ;
+    stats:minutesPlayed 900 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 792 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 350 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1989-01-15"^^xsd:date ;
+    schema:description """Martin Dúbravka is a Slovak professional footballer who plays as a goalkeeper for Premier League club Burnley and the Slovakia national team.\r
+\r
+After playing in the top flights of Slovak, Danish and Czech football, Dúbravka joined English club Newcastle United in January 2018, initially on loan. He won the club's Player of the Year award in the 2019–20 season. He spent part of the 2022–23 season on loan at Manchester United.\r
+\r
+Dúbravka represented Slovakia at under-21 level, before making his senior international debut in May 2014. He started all three of Slovakia's games at UEFA Euro 2020."""@en ;
+    schema:height "1.90 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/qmtpr21569839002.jpg"^^xsd:anyURI ;
+    schema:memberOf "Burnley"^^xsd:string ;
+    schema:name "Martin Dubravka"^^xsd:string ;
+    schema:nationality "Slovakia"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

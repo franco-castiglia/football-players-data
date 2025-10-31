@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Fabien_Centonze a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q23800021> ;
+    foaf:account "www.instagram.com/fabiencentonze18/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/0b9pfq1674746474.png"^^xsd:anyURI ;
+    foaf:name "Fabien Centonze"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 8 ;
+    stats:blocks 4 ;
+    stats:carries 90 ;
+    stats:clearances 17 ;
+    stats:dispossessed 2 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 2.9 ;
+    stats:matchesPlayed 7 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 265 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 7 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 10 ;
+    stats:progressivePasses 15 ;
+    stats:progressivePassesReceived 31 ;
+    stats:rank 520 ;
+    stats:redCards 0 ;
+    stats:tackles 8 ;
+    stats:tacklesWon 4 ;
+    stats:touches 184 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1996-01-16"^^xsd:date ;
+    schema:description "Fabien Centonze (born 16 January 1996) is a French professional footballer who plays as a right-back for  Verona on loan from Ligue 1 club Nantes. He formerly played for Evian Thonon Gaillard, Clermont Foot, Lens, and Metz."@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/0rx7c01608498344.jpg"^^xsd:anyURI ;
+    schema:memberOf "Nantes"^^xsd:string ;
+    schema:name "Fabien Centonze"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

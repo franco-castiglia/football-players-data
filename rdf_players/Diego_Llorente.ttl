@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Diego_Llorente a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q13382434> ;
+    foaf:account "twitter.com/diego_2llorente"^^xsd:anyURI,
+        "www.instagram.com/diego_2llorente/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/of9rs11723745040.png"^^xsd:anyURI ;
+    foaf:name "Diego Llorente"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 93 ;
+    stats:blocks 29 ;
+    stats:carries 1127 ;
+    stats:clearances 154 ;
+    stats:dispossessed 4 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 1.5 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 43 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 28.0 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 29 ;
+    stats:minutesPlayed 2519 ;
+    stats:miscontrols 11 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 7 ;
+    stats:progressivePasses 81 ;
+    stats:progressivePassesReceived 3 ;
+    stats:rank 1503 ;
+    stats:redCards 0 ;
+    stats:tackles 36 ;
+    stats:tacklesWon 20 ;
+    stats:touches 1915 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1993-08-16"^^xsd:date ;
+    schema:description """Diego Javier Llorente Ríos (born 16 August 1993) is a Spanish professional footballer who plays as a centre-back for La Liga club Real Betis and the Spain national team.\r
+\r
+Having been developed at Real Madrid, who also loaned him twice to clubs in La Liga, he signed with Real Sociedad in June 2017. Three years later, he joined Leeds United.\r
+\r
+Llorente made his full debut for Spain in 2016. He was part of the squad at Euro 2020."""@en ;
+    schema:height "1.86 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/vq0i0c1498906482.jpg"^^xsd:anyURI ;
+    schema:memberOf "Real Betis"^^xsd:string ;
+    schema:name "Diego Llorente"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

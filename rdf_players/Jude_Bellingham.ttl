@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jude_Bellingham a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q66241169> ;
+    foaf:account "www.instagram.com/judebellingham/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/trk5271750271712.png"^^xsd:anyURI ;
+    foaf:name "Jude Bellingham"^^xsd:string ;
+    stats:assists 8 ;
+    stats:ballRecoveries 97 ;
+    stats:blocks 37 ;
+    stats:carries 1229 ;
+    stats:clearances 23 ;
+    stats:dispossessed 43 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 3.9 ;
+    stats:expectedGoals 11.4 ;
+    stats:goals 9 ;
+    stats:goalsNonPenalty 8 ;
+    stats:interceptions 28 ;
+    stats:keyPasses 42 ;
+    stats:matches90s 27.6 ;
+    stats:matchesPlayed 31 ;
+    stats:matchesStarted 29 ;
+    stats:minutesPlayed 2488 ;
+    stats:miscontrols 54 ;
+    stats:passesIntoPenaltyArea 31 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 74 ;
+    stats:progressivePasses 199 ;
+    stats:progressivePassesReceived 143 ;
+    stats:rank 289 ;
+    stats:redCards 1 ;
+    stats:tackles 61 ;
+    stats:tacklesWon 33 ;
+    stats:touches 1881 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "2003-06-29"^^xsd:date ;
+    schema:description """Jude Victor William Bellingham (born 29 June 2003) is an English footballer who plays as a midfielder for La Liga club Real Madrid.\r
+\r
+Bellingham joined Birmingham City as an under-8, became the club's youngest ever first-team player when he made his senior debut in August 2019, at the age of 16 years, 38 days, and played regularly during the 2019–20 season. He joined Borussia Dortmund in July 2020. He has represented England at under-15, under-16 and under-17 levels."""@en ;
+    schema:height "1.86 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/kmynp71693427691.jpg"^^xsd:anyURI ;
+    schema:memberOf "Real Madrid"^^xsd:string ;
+    schema:name "Jude Bellingham"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

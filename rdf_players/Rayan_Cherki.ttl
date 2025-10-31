@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Rayan_Cherki a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q64736321> ;
+    foaf:account "www.instagram.com/rayan_cherki/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/qt6j5h1757097922.png"^^xsd:anyURI ;
+    foaf:name "Rayan Cherki"^^xsd:string ;
+    stats:assists 11 ;
+    stats:ballRecoveries 83 ;
+    stats:blocks 6 ;
+    stats:carries 1021 ;
+    stats:clearances 6 ;
+    stats:dispossessed 43 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 11.1 ;
+    stats:expectedGoals 5.0 ;
+    stats:goals 8 ;
+    stats:goalsNonPenalty 8 ;
+    stats:interceptions 7 ;
+    stats:keyPasses 75 ;
+    stats:matches90s 22.7 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 22 ;
+    stats:minutesPlayed 2041 ;
+    stats:miscontrols 48 ;
+    stats:passesIntoPenaltyArea 77 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:progressiveCarries 106 ;
+    stats:progressivePasses 206 ;
+    stats:progressivePassesReceived 184 ;
+    stats:rank 542 ;
+    stats:redCards 0 ;
+    stats:tackles 15 ;
+    stats:tacklesWon 12 ;
+    stats:touches 1573 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2003-08-17"^^xsd:date ;
+    schema:description "Mathis Rayan Cherki (born 17 August 2003) is a French professional footballer who plays as an attacking midfielder or winger for Premier League club Manchester City and the France national team."@en ;
+    schema:height "177 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/2q7f901608129152.jpg"^^xsd:anyURI ;
+    schema:memberOf "Manchester City"^^xsd:string ;
+    schema:name "Rayan Cherki"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "157 lbs"^^xsd:string .
+

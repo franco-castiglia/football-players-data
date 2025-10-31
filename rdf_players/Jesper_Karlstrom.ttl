@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jesper_Karlstrom a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16633144> ;
+    foaf:account "www.instagram.com/jesperkarlstrom/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/kxytbl1696670086.png"^^xsd:anyURI ;
+    foaf:name "Jesper Karlström"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 146 ;
+    stats:blocks 28 ;
+    stats:carries 1002 ;
+    stats:clearances 82 ;
+    stats:dispossessed 18 ;
+    stats:errors 5 ;
+    stats:expectedAssistedGoals 1.1 ;
+    stats:expectedGoals 0.7 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 35 ;
+    stats:keyPasses 21 ;
+    stats:matches90s 35.4 ;
+    stats:matchesPlayed 37 ;
+    stats:matchesStarted 36 ;
+    stats:minutesPlayed 3186 ;
+    stats:miscontrols 34 ;
+    stats:passesIntoPenaltyArea 21 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:progressiveCarries 23 ;
+    stats:progressivePasses 135 ;
+    stats:progressivePassesReceived 46 ;
+    stats:rank 1324 ;
+    stats:redCards 0 ;
+    stats:tackles 61 ;
+    stats:tacklesWon 34 ;
+    stats:touches 1882 ;
+    stats:yellowCards 9 ;
+    schema:birthDate "1995-06-21"^^xsd:date ;
+    schema:description """Jesper Kewe Karlström (born 21 June 1995) is a Swedish professional footballer who plays as a midfielder for Serie A club Udinese and the Sweden national team.\r
+\r
+Karlström has represented Sweden at the U17, U19 and U21 levels. In November 2014 he made his debut for the Sweden national under-21 football team against Austria.\r
+\r
+He made his full international debut for the Sweden national team on 11 January 2018 in a friendly 1–0 win against Denmark, playing for 66 minutes before being replaced by Kristoffer Olsson."""@en ;
+    schema:height "185 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/5zowmu1648636205.jpg"^^xsd:anyURI ;
+    schema:memberOf "Udinese"^^xsd:string ;
+    schema:name "Jesper Karlström"^^xsd:string ;
+    schema:nationality "Sweden"^^xsd:string ;
+    schema:weight "179 lbs"^^xsd:string .
+

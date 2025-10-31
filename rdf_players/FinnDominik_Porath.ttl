@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:FinnDominik_Porath a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q26212027> ;
+    foaf:account "www.facebook.com/Finn-Porath-1130045507139978/"^^xsd:anyURI,
+        "www.instagram.com/finnprth/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/iorvmr1741707215.png"^^xsd:anyURI ;
+    foaf:name "Finn-Dominik Porath"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 79 ;
+    stats:blocks 27 ;
+    stats:carries 418 ;
+    stats:clearances 67 ;
+    stats:dispossessed 15 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.0 ;
+    stats:expectedGoals 1.9 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 21 ;
+    stats:keyPasses 22 ;
+    stats:matches90s 21.9 ;
+    stats:matchesPlayed 31 ;
+    stats:matchesStarted 20 ;
+    stats:minutesPlayed 1970 ;
+    stats:miscontrols 15 ;
+    stats:passesIntoPenaltyArea 22 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 42 ;
+    stats:progressivePasses 58 ;
+    stats:progressivePassesReceived 69 ;
+    stats:rank 2139 ;
+    stats:redCards 0 ;
+    stats:tackles 45 ;
+    stats:tacklesWon 26 ;
+    stats:touches 999 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1997-02-23"^^xsd:date ;
+    schema:description "Finn-Dominik Porath (born 23 February 1997) is a German professional footballer who plays as a left midfielder for Holstein Kiel."@en ;
+    schema:height "1.79 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/f0x5ng1741707207.jpg"^^xsd:anyURI ;
+    schema:memberOf "Holstein Kiel"^^xsd:string ;
+    schema:name "Finn-Dominik Porath"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "68 kg (150 lb)"^^xsd:string .
+

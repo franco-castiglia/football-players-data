@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ben_Old a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q106939313> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/u99llb1727952719.png"^^xsd:anyURI ;
+    foaf:name "Ben Old"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 24 ;
+    stats:blocks 8 ;
+    stats:carries 134 ;
+    stats:clearances 2 ;
+    stats:dispossessed 6 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.8 ;
+    stats:expectedGoals 1.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 9 ;
+    stats:matches90s 5.9 ;
+    stats:matchesPlayed 13 ;
+    stats:matchesStarted 4 ;
+    stats:minutesPlayed 528 ;
+    stats:miscontrols 19 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 16 ;
+    stats:progressivePasses 14 ;
+    stats:progressivePassesReceived 48 ;
+    stats:rank 1959 ;
+    stats:redCards 0 ;
+    stats:tackles 7 ;
+    stats:tacklesWon 5 ;
+    stats:touches 218 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2002-08-13"^^xsd:date ;
+    schema:description "Benjamin Craig Old (born 13 August 2002) is a New Zealand professional footballer who plays as a attacking midfielder for Ligue 1 club Saint-Étienne and the New Zealand national team."@en ;
+    schema:height "1.73 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/063m4u1727952630.jpg"^^xsd:anyURI ;
+    schema:memberOf "St Etienne"^^xsd:string ;
+    schema:name "Ben Old"^^xsd:string ;
+    schema:nationality "New Zealand"^^xsd:string ;
+    schema:weight "66 kg"^^xsd:string .
+

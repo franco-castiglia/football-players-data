@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ramon_Terrats a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q101156112> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/w7vn041701165792.png"^^xsd:anyURI ;
+    foaf:name "Ramon Terrats"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 53 ;
+    stats:blocks 9 ;
+    stats:carries 256 ;
+    stats:clearances 16 ;
+    stats:dispossessed 12 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.5 ;
+    stats:expectedGoals 2.2 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 16 ;
+    stats:matches90s 13.5 ;
+    stats:matchesPlayed 15 ;
+    stats:matchesStarted 15 ;
+    stats:minutesPlayed 1219 ;
+    stats:miscontrols 33 ;
+    stats:passesIntoPenaltyArea 9 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 8 ;
+    stats:progressivePasses 36 ;
+    stats:progressivePassesReceived 37 ;
+    stats:rank 2576 ;
+    stats:redCards 0 ;
+    stats:tackles 20 ;
+    stats:tacklesWon 10 ;
+    stats:touches 493 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2000-10-18"^^xsd:date ;
+    schema:description "Ramon Terrats Espacio (born 18 October 2000) is a Spanish professional footballer who plays as a central midfielder for La Liga club Getafe, on loan from Villarreal."@en ;
+    schema:height "1.81 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/yp3vf31658690878.jpg"^^xsd:anyURI ;
+    schema:memberOf "Getafe"^^xsd:string ;
+    schema:name "Ramon Terrats"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "157 lbs"^^xsd:string .
+

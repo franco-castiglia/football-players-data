@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Gabriel_Vidovic a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q110611871> ;
+    foaf:account "twitter.com/gabrielvidovic1"^^xsd:anyURI,
+        "www.instagram.com/vidovic_gabriel/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/d8qdq01741449778.png"^^xsd:anyURI ;
+    foaf:name "Gabriel Vidović"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 1 ;
+    stats:blocks 2 ;
+    stats:carries 11 ;
+    stats:clearances 0 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.3 ;
+    stats:matchesPlayed 4 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 24 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 3 ;
+    stats:rank 2708 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 14 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2003-12-01"^^xsd:date ;
+    schema:description "Gabriel Vidović (born 1 December 2003) is a professional footballer who plays as an attacking midfielder or forward for Bundesliga club Bayern Munich. Born in Germany, he represents Croatia at youth level internationally."@en ;
+    schema:height "1.80 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/xocmpe1741449708.jpg"^^xsd:anyURI ;
+    schema:memberOf "Dinamo Zagreb"^^xsd:string ;
+    schema:name "Gabriel Vidović"^^xsd:string ;
+    schema:nationality "Croatia"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

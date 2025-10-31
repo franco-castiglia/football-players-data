@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Alexander_Isak a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q23759917> ;
+    foaf:account "http://www.instagram.com/alex_isak"^^xsd:anyURI,
+        "twitter.com/alex_isak"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/3qj7z41757088281.png"^^xsd:anyURI ;
+    foaf:name "Alexander Isak"^^xsd:string ;
+    stats:assists 6 ;
+    stats:ballRecoveries 55 ;
+    stats:blocks 18 ;
+    stats:carries 615 ;
+    stats:clearances 17 ;
+    stats:dispossessed 55 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 4.3 ;
+    stats:expectedGoals 20.3 ;
+    stats:goals 23 ;
+    stats:goalsNonPenalty 19 ;
+    stats:interceptions 3 ;
+    stats:keyPasses 41 ;
+    stats:matches90s 30.6 ;
+    stats:matchesPlayed 34 ;
+    stats:matchesStarted 34 ;
+    stats:minutesPlayed 2756 ;
+    stats:miscontrols 66 ;
+    stats:passesIntoPenaltyArea 31 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 83 ;
+    stats:progressivePasses 88 ;
+    stats:progressivePassesReceived 217 ;
+    stats:rank 1220 ;
+    stats:redCards 0 ;
+    stats:tackles 12 ;
+    stats:tacklesWon 5 ;
+    stats:touches 1025 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1999-09-21"^^xsd:date ;
+    schema:description """Alexander Isak is a Swedish professional footballer who plays as a striker for Premier League club Liverpool and the Sweden national team. Known for his clinical finishing, pace, and technical ability, he is often considered one of the best strikers in the world.\r
+\r
+Born and raised in Solna, Sweden, Isak started his professional career with boyhood club AIK in 2016 and then represented Borussia Dortmund and Willem II before signing with Real Sociedad in 2019. In 2022, he signed with Newcastle United for a club record fee.\r
+\r
+A full Swedish international since 2017, Isak has won 50 caps for his national team, and represented the side at UEFA Euro 2020. He is the youngest-ever goalscorer for both AIK and the Swedish national team."""@en ;
+    schema:height "192 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/b3kj061532275016.jpg"^^xsd:anyURI ;
+    schema:memberOf "Liverpool"^^xsd:string ;
+    schema:name "Alexander Isak"^^xsd:string ;
+    schema:nationality "Sweden"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

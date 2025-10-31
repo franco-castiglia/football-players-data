@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Luca_Ranieri a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q58010154> ;
+    foaf:account "www.instagram.com/lucaranieri3/?hl=it"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/78emts1758892112.png"^^xsd:anyURI ;
+    foaf:name "Luca Ranieri"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 95 ;
+    stats:blocks 47 ;
+    stats:carries 1234 ;
+    stats:clearances 154 ;
+    stats:dispossessed 3 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.7 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 27 ;
+    stats:keyPasses 16 ;
+    stats:matches90s 33.1 ;
+    stats:matchesPlayed 35 ;
+    stats:matchesStarted 34 ;
+    stats:minutesPlayed 2981 ;
+    stats:miscontrols 10 ;
+    stats:passesIntoPenaltyArea 11 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 25 ;
+    stats:progressivePasses 80 ;
+    stats:progressivePassesReceived 11 ;
+    stats:rank 2175 ;
+    stats:redCards 0 ;
+    stats:tackles 42 ;
+    stats:tacklesWon 24 ;
+    stats:touches 2124 ;
+    stats:yellowCards 7 ;
+    schema:birthDate "1999-04-23"^^xsd:date ;
+    schema:description "Luca Ranieri (born 23 April 1999) is an Italian professional footballer who plays as a defender for Serie A club Fiorentina."@en ;
+    schema:height "1.87 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/a1aqwk1601156207.jpg"^^xsd:anyURI ;
+    schema:memberOf "Fiorentina"^^xsd:string ;
+    schema:name "Luca Ranieri"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

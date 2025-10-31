@@ -1,0 +1,62 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Vasilije_Adzic a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q116194607> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/bjgbrx1759225187.png"^^xsd:anyURI ;
+    foaf:name "Vasilije Adžić"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 3 ;
+    stats:blocks 0 ;
+    stats:carries 14 ;
+    stats:clearances 0 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.5 ;
+    stats:matchesPlayed 6 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 42 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 1 ;
+    stats:progressivePassesReceived 3 ;
+    stats:rank 36 ;
+    stats:redCards 0 ;
+    stats:tackles 2 ;
+    stats:tacklesWon 2 ;
+    stats:touches 24 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2006-05-12"^^xsd:date ;
+    schema:description """Vasilije Adžić (born 12 May 2006) is a Montenegrin professional footballer who currently plays as a midfielder for Serie A club Juventus and their affiliated Serie C Group C club Juventus Next Gen, and the Montenegro national team.\r
+\r
+Club career\r
+Budućnost\r
+Adžić signed a scholarship contract with Budućnost Podgorica in April 2022. He made his debut in August of the same year, scoring a long-range chip against Arsenal Tivat in a 4–0 victory. In doing so, he became the youngest goal-scorer in Budućnost's history, and the second-youngest in Montenegrin top-tier league, behind Ilija Vukotić.\r
+\r
+On 11 October 2023, he was named by English newspaper The Guardian as one of the talented footballers born in 2006 worldwide.\r
+\r
+Juventus\r
+On 11 July 2024, Juventus announced the signing of Adžić on a three-year contract. He was initially slated to join the to Serie C club Juventus Next Gen before being promoted to the first team. Eventually, Adžić's rapid progress managed to impress manager Thiago Motta and his staff during pre-season, earning himself an immediate spot with Juventus first team for 2024–25 season, missing the first three matches of the season due an injury and rejoining team during the international break in September 2024."""@en ;
+    schema:height "6' 1\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/wnsadd1750331314.jpg"^^xsd:anyURI ;
+    schema:memberOf "Juventus"^^xsd:string ;
+    schema:name "Vasilije Adžić"^^xsd:string ;
+    schema:nationality "Serbia"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

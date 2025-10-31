@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Andrew_Robertson a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q15915040> ;
+    foaf:account "twitter.com/andrewrobertso5"^^xsd:anyURI,
+        "www.instagram.com/andyrobertson94/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/t0yil51757088652.png"^^xsd:anyURI ;
+    foaf:name "Andrew Robertson"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 105 ;
+    stats:blocks 10 ;
+    stats:carries 1107 ;
+    stats:clearances 54 ;
+    stats:dispossessed 13 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 4.6 ;
+    stats:expectedGoals 1.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 21 ;
+    stats:keyPasses 40 ;
+    stats:matches90s 27.6 ;
+    stats:matchesPlayed 33 ;
+    stats:matchesStarted 29 ;
+    stats:minutesPlayed 2482 ;
+    stats:miscontrols 25 ;
+    stats:passesIntoPenaltyArea 31 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 64 ;
+    stats:progressivePasses 176 ;
+    stats:progressivePassesReceived 108 ;
+    stats:rank 2223 ;
+    stats:redCards 1 ;
+    stats:tackles 39 ;
+    stats:tacklesWon 22 ;
+    stats:touches 2084 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1994-03-11"^^xsd:date ;
+    schema:description """Andrew Henry Robertson (born 11 March 1994) is a Scottish professional footballer who plays as a left back for Premier League club Liverpool and captains the Scotland national team.\r
+\r
+Robertson began his senior career with Queen's Park in 2012 before joining Dundee United a year later. His form in his first season as a professional led to him being named SPFA Young Player of the Year and also making his international debut. He joined Hull City in July 2014 for a fee of £2.85 million, before joining Liverpool in July 2017 for an undisclosed fee, believed to be an initial £8 million. He appeared in successive UEFA Champions League finals in his first two seasons, winning the second in 2019. For his performances in the 2018–19 Premier League season, he was named in the PFA Team of the Year.\r
+\r
+Robertson made his full international debut for Scotland in May 2014, and he was appointed Scotland captain in September 2018."""@en ;
+    schema:height "5 ft 10 in (1.78 m)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/mvmpbc1710165540.jpg"^^xsd:anyURI ;
+    schema:memberOf "Liverpool"^^xsd:string ;
+    schema:name "Andrew Robertson"^^xsd:string ;
+    schema:nationality "Scotland"^^xsd:string ;
+    schema:weight "139 lbs"^^xsd:string .
+

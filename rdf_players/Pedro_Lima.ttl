@@ -1,0 +1,51 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Pedro_Lima a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/7jsbox1725565656.png"^^xsd:anyURI ;
+    foaf:name "Pedro Lima"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 3 ;
+    stats:blocks 0 ;
+    stats:carries 22 ;
+    stats:clearances 5 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 0.8 ;
+    stats:matchesPlayed 3 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 70 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 4 ;
+    stats:progressivePasses 4 ;
+    stats:progressivePassesReceived 11 ;
+    stats:rank 1493 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 0 ;
+    stats:touches 48 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2006-07-01"^^xsd:date ;
+    schema:description "Pedro Henrique Cardoso de Lima (born 1 July 2006), known as Pedro Lima, is a Brazilian professional footballer who plays as a right-back for Primeira Liga club Porto, on loan from Premier League club Wolverhampton Wanderers."@en ;
+    schema:height "1.78 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/3kcqmg1725564096.jpg"^^xsd:anyURI ;
+    schema:memberOf "FC Porto"^^xsd:string ;
+    schema:name "Pedro Lima"^^xsd:string ;
+    schema:nationality "Brazil"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

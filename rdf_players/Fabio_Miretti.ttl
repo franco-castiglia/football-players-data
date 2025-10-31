@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Fabio_Miretti a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q105477844> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/cjhsf71759225300.png"^^xsd:anyURI ;
+    foaf:name "Fabio Miretti"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 85 ;
+    stats:blocks 20 ;
+    stats:carries 461 ;
+    stats:clearances 13 ;
+    stats:dispossessed 36 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 2.0 ;
+    stats:expectedGoals 3.1 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 7 ;
+    stats:keyPasses 22 ;
+    stats:matches90s 18.6 ;
+    stats:matchesPlayed 25 ;
+    stats:matchesStarted 22 ;
+    stats:minutesPlayed 1677 ;
+    stats:miscontrols 63 ;
+    stats:passesIntoPenaltyArea 13 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 33 ;
+    stats:progressivePasses 54 ;
+    stats:progressivePassesReceived 100 ;
+    stats:rank 1761 ;
+    stats:redCards 0 ;
+    stats:tackles 28 ;
+    stats:tacklesWon 15 ;
+    stats:touches 847 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2003-08-03"^^xsd:date ;
+    schema:description """Fabio Miretti (born 3 August 2003) is an Italian professional footballer who plays as a midfielder for Serie A club Genoa on loan from  Juventus.\r
+\r
+Miretti joined Auxilium Saluzzo's youth setup in 2007 and moved on to Cuneo's the following year. In 2011, Miretti was bought by Juventus with which he played across its youth levels. In February 2021, he made his professional debut with the U23 team, aged 17. The following season, he became a Juventus U23 regular, and he made his Serie A and UEFA Champions League debuts with the first team and helped the U19 team reach the UEFA Youth League semi-finals. In the 2022–23 season, he was permanently promoted to the first team.\r
+\r
+Miretti has also represented Italy at youth levels since 2018. He has since scored nine goals in 37 appearances across Italy's levels."""@en ;
+    schema:height "1.80 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/8mdf8y1679483557.jpg"^^xsd:anyURI ;
+    schema:memberOf "Juventus"^^xsd:string ;
+    schema:name "Fabio Miretti"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

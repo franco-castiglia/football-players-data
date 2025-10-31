@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Harrison_Reed a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q15054978> ;
+    foaf:account "twitter.com/harrisonreed"^^xsd:anyURI,
+        "www.facebook.com/HarrisonReedOfficial/"^^xsd:anyURI,
+        "www.instagram.com/harrisonreed/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/jwlhlx1757070600.png"^^xsd:anyURI ;
+    foaf:name "Harrison Reed"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 10 ;
+    stats:blocks 1 ;
+    stats:carries 31 ;
+    stats:clearances 3 ;
+    stats:dispossessed 2 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 1.2 ;
+    stats:matchesPlayed 12 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 108 ;
+    stats:miscontrols 2 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 4 ;
+    stats:progressivePassesReceived 7 ;
+    stats:rank 2190 ;
+    stats:redCards 0 ;
+    stats:tackles 6 ;
+    stats:tacklesWon 3 ;
+    stats:touches 78 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1995-01-27"^^xsd:date ;
+    schema:description "Harrison James Reed (born 27 January 1995) is an English professional footballer who currently plays as a defensive midfielder for Premier League club Fulham."@en ;
+    schema:height "1.76 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/du0elz1507892822.jpg"^^xsd:anyURI ;
+    schema:memberOf "Fulham"^^xsd:string ;
+    schema:name "Harrison Reed"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

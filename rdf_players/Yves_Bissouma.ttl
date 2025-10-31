@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Yves_Bissouma a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q22683033> ;
+    foaf:account "twitter.com/yves_bissouma"^^xsd:anyURI,
+        "www.facebook.com/YvesBissoumaOfficiel/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/cr5c3b1757016090.png"^^xsd:anyURI ;
+    foaf:name "Yves Bissouma"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 85 ;
+    stats:blocks 11 ;
+    stats:carries 610 ;
+    stats:clearances 40 ;
+    stats:dispossessed 15 ;
+    stats:errors 4 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 0.6 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 18 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 15.6 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 16 ;
+    stats:minutesPlayed 1408 ;
+    stats:miscontrols 25 ;
+    stats:passesIntoPenaltyArea 10 ;
+    stats:penaltiesConceded 2 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 15 ;
+    stats:progressivePasses 75 ;
+    stats:progressivePassesReceived 3 ;
+    stats:rank 340 ;
+    stats:redCards 0 ;
+    stats:tackles 49 ;
+    stats:tacklesWon 31 ;
+    stats:touches 1039 ;
+    stats:yellowCards 7 ;
+    schema:birthDate "1996-08-30"^^xsd:date ;
+    schema:description "Yves Bissouma (born 30 August 1996) is a professional footballer who plays as a midfielder for Premier League club Tottenham Hotspur and the Mali national team."@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/6ngiqn1585754641.jpg"^^xsd:anyURI ;
+    schema:memberOf "Tottenham"^^xsd:string ;
+    schema:name "Yves Bissouma"^^xsd:string ;
+    schema:nationality "Mali"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

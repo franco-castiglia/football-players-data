@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Raphael_Guerreiro a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q4241680> ;
+    foaf:account "http://www.instagram.com/raphaelguerreiro14"^^xsd:anyURI,
+        "twitter.com/raphguerreiro"^^xsd:anyURI,
+        "www.facebook.com/Raph.Guerreiro?fref=ts"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/4mfv9u1756408917.png"^^xsd:anyURI ;
+    foaf:name "Raphael Guerreiro"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 94 ;
+    stats:blocks 9 ;
+    stats:carries 820 ;
+    stats:clearances 19 ;
+    stats:dispossessed 15 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 2.9 ;
+    stats:expectedGoals 2.9 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 10 ;
+    stats:keyPasses 27 ;
+    stats:matches90s 17.5 ;
+    stats:matchesPlayed 23 ;
+    stats:matchesStarted 19 ;
+    stats:minutesPlayed 1572 ;
+    stats:miscontrols 16 ;
+    stats:passesIntoPenaltyArea 25 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 39 ;
+    stats:progressivePasses 85 ;
+    stats:progressivePassesReceived 126 ;
+    stats:rank 1083 ;
+    stats:redCards 0 ;
+    stats:tackles 19 ;
+    stats:tacklesWon 12 ;
+    stats:touches 1487 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1993-12-22"^^xsd:date ;
+    schema:description """Raphaël Adelino José Guerreiro ComM (European Portuguese: ; born 22 December 1993) is a professional footballer who plays as a left-back or midfielder for Bundesliga club Bayern Munich and the Portugal national team. \r
+Born in France, he began his career at Caen, signing in 2013 with Lorient where he made his Ligue 1 debut. In June 2016, he joined Borussia Dortmund.\r
+\r
+Guerreiro represented Portugal at under-21 and senior level, first appearing for the latter in 2014. He was part of their squad at the 2018 World Cup and Euro 2016, winning the latter tournament."""@en ;
+    schema:height "1.70 m (5 ft 7 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/e82l3s1578085287.jpg"^^xsd:anyURI ;
+    schema:memberOf "Bayern Munich"^^xsd:string ;
+    schema:name "Raphael Guerreiro"^^xsd:string ;
+    schema:nationality "Portugal"^^xsd:string ;
+    schema:weight "157 lbs"^^xsd:string .
+

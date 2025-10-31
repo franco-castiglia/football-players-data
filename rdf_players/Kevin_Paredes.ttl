@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Kevin_Paredes a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q68710011> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/0g0gau1742139672.png"^^xsd:anyURI ;
+    foaf:name "Kevin Paredes"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 7 ;
+    stats:blocks 2 ;
+    stats:carries 39 ;
+    stats:clearances 0 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 1.4 ;
+    stats:matchesPlayed 2 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 123 ;
+    stats:miscontrols 2 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 7 ;
+    stats:progressivePassesReceived 12 ;
+    stats:rank 2039 ;
+    stats:redCards 0 ;
+    stats:tackles 3 ;
+    stats:tacklesWon 1 ;
+    stats:touches 64 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2003-05-07"^^xsd:date ;
+    schema:description "Kevin Alexander Paredes (born May 7, 2003) is an American professional soccer player who plays as a left-back for Bundesliga club VfL Wolfsburg."@en ;
+    schema:height "168 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/lr1o2j1641760034.jpg"^^xsd:anyURI ;
+    schema:memberOf "Wolfsburg"^^xsd:string ;
+    schema:name "Kevin Paredes"^^xsd:string ;
+    schema:nationality "United States"^^xsd:string ;
+    schema:weight "132 lbs"^^xsd:string .
+

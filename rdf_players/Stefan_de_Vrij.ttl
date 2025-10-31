@@ -1,0 +1,68 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Stefan_de_Vrij a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q195953> ;
+    foaf:account "twitter.com/stefandevrij"^^xsd:anyURI,
+        "www.facebook.com/stefan.devrij/"^^xsd:anyURI,
+        "www.instagram.com/stefandevrij/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/oe7gv21759409004.png"^^xsd:anyURI ;
+    foaf:name "Stefan de Vrij"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 66 ;
+    stats:blocks 19 ;
+    stats:carries 988 ;
+    stats:clearances 89 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 22 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 18.2 ;
+    stats:matchesPlayed 25 ;
+    stats:matchesStarted 17 ;
+    stats:minutesPlayed 1636 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 11 ;
+    stats:progressivePasses 76 ;
+    stats:progressivePassesReceived 5 ;
+    stats:rank 2732 ;
+    stats:redCards 0 ;
+    stats:tackles 18 ;
+    stats:tacklesWon 11 ;
+    stats:touches 1613 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1992-02-05"^^xsd:date ;
+    schema:description """Stefan de Vrij (born 5 February 1992) is a Dutch professional footballer who plays as a centre back for Serie A club Inter Milan and the Netherlands national team.\r
+\r
+He began his career at his local club VV Spirit, and debuted as a professional for Feyenoord aged 17. He spent five seasons at the Eredivisie club, serving briefly as captain, before joining Lazio in July 2014.\r
+\r
+A full international since 2012, De Vrij has earned over 50 caps for the Netherlands. He was part of the Dutch team that finished third at the 2014 FIFA World Cup, and was selected for the Castrol Performance Index Team of the Tournament. He also played at UEFA Euro 2020.\r
+\r
+De Vrij grew up in Ouderkerk aan den IJssel. He is the youngest son of Jan de Vrij, who played for local club VV Spirit, where Stefan de Vrij started his career. His older brothers Niels and Eric played football in their youth and continued to different career paths.\r
+\r
+On 7 May 2012, De Vrij was named in the provisional list of 36 players for the UEFA Euro 2012 tournament, one of nine uncapped players to be chosen by Netherlands manager Bert van Marwijk as part of the preliminary squad. He did not make the final cut. On 15 August 2012, De Vrij made his debut under new manager Louis van Gaal in the 4–2 loss against Belgium in a friendly match.\r
+\r
+He was one of four Feyenoord defenders named in Louis van Gaal's squad for the 2014 FIFA World Cup. In the Netherlands' first game of the tournament, against Spain on 13 June, the referee gave a questionable penalty kick after 26 minutes after Diego Costa stood on De Vrij's foot and fell. Xabi Alonso converted this penalty to put Spain 1–0 up. The Dutch fought back, and De Vrij scored their third goal, the first of his international career, as they eventually won 5–1. De Vrij played in all of the Netherlands' matches as they eventually finished in third place. He and Arjen Robben were the two Dutch players selected to the Team of the Tournament.\r
+\r
+In the Netherlands' first game of UEFA Euro 2016 qualification away to the Czech Republic on 9 September 2014, De Vrij equalised with a header from Daley Blind's cross but the Dutch lost 2–1. He headed the team into the lead after 13 minutes in an eventual 2–0 win over Spain in a friendly at the Amsterdam ArenA on 31 March 2015, also wearing the captain's armband after Wesley Sneijder's substitution."""@en ;
+    schema:height "1.89 m (6 ft 2+1⁄2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/pic6id1546190283.jpg"^^xsd:anyURI ;
+    schema:memberOf "Inter Milan"^^xsd:string ;
+    schema:name "Stefan de Vrij"^^xsd:string ;
+    schema:nationality "The Netherlands"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

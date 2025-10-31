@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Tom_King a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/hwo8gm1756976295.png"^^xsd:anyURI ;
+    foaf:name "Tom King"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 0 ;
+    stats:blocks 0 ;
+    stats:carries 1 ;
+    stats:clearances 0 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.0 ;
+    stats:matchesPlayed 1 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 1 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1361 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 1 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1995-03-09"^^xsd:date ;
+    schema:description """Thomas Lloyd King (born 9 March 1995) is a professional footballer who plays as a goalkeeper for Premier League club Everton and the Wales national team.\r
+\r
+Club career\r
+Millwall\r
+King signed a one-year contract with Millwall in August 2014, having left the Crystal Palace youth team earlier in the season.\r
+\r
+He joined National League club Welling United on an initial one-month youth loan on 24 July 2015. He went on to make 20 appearances for the "Wings", before he was recalled by Millwall on 21 December.\r
+\r
+King returned to the National League on 19 February 2016, joining Braintree Town for an initial 28-day emergency loan. In his second appearance for the club, against Guiseley at Nethermoor Park, King became involved in a controversial incident during an 1–1 draw. He conceded the equalising goal after Oliver Norburn broke a fair play protocol and lobbed him from 30-yards out rather than passing the ball to him, after Braintree had kicked the ball into touch to allow an injured Braintree player to receive treatment; a five-minute fracas followed but the goal was allowed to stand after security staff separated the players and management, and Guiseley manager Mark Bower refused to allow Braintree to walk through and score. Bower went on to say: "Their keeper stood there with his arms in the air and allowed the ball to into the net. It put us in a really difficult position whether we should allow them to score or not but we decided no. I think their keeper was trying to be clever and had simply let the ball go in." King said he was "bewildered" by Bower's statement, and speaking on the incident itself said that: "It is one of those things that will be remembered for a long time, I'll be remembered for a long time and it will carry on forever". The incident was described as "one of the biggest on-field controversies seen in non-league football", and Braintree manager Danny Cowley said that: "it's the worst thing I've seen on a football pitch and it was disgraceful unsporting behaviour on their part". The following week, Guiseley chairman Phil Rogerson released a statement recognising the fair-play convention had not been followed: "... myself, Mark  and the club find the situation most regrettable and not in line with the general ethos of Guiseley AFC. Fair play is and always has been at the heart of the club. The decision to continue playing as normal after the goal was taken on the spur of the moment and under extreme pressure, not helped at all by the heated atmosphere." King went on to extend his loan at Cressing Road until the end of the 2015–16 season, and Braintree qualified for the play-offs, losing out to Grimsby Town at the semi-final stage following a 2–1 aggregate defeat."""@en ;
+    schema:height "6 ft 4 in"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/hbxydr1507729568.jpg"^^xsd:anyURI ;
+    schema:memberOf "Everton"^^xsd:string ;
+    schema:name "Tom King"^^xsd:string ;
+    schema:nationality "Wales"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

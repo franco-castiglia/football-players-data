@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Darko_Lazovic a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q63687> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/1tfiup1679669831.png"^^xsd:anyURI ;
+    foaf:name "Darko Lazović"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 59 ;
+    stats:blocks 19 ;
+    stats:carries 318 ;
+    stats:clearances 39 ;
+    stats:dispossessed 10 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 3.4 ;
+    stats:expectedGoals 2.5 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 11 ;
+    stats:keyPasses 18 ;
+    stats:matches90s 16.2 ;
+    stats:matchesPlayed 27 ;
+    stats:matchesStarted 17 ;
+    stats:minutesPlayed 1459 ;
+    stats:miscontrols 13 ;
+    stats:passesIntoPenaltyArea 15 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Left Midfield"^^xsd:string ;
+    stats:progressiveCarries 22 ;
+    stats:progressivePasses 40 ;
+    stats:progressivePassesReceived 88 ;
+    stats:rank 1456 ;
+    stats:redCards 0 ;
+    stats:tackles 21 ;
+    stats:tacklesWon 10 ;
+    stats:touches 659 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1990-09-15"^^xsd:date ;
+    schema:description """Darko Lazović (Serbian Cyrillic: Дарко Лазовић, pronounced ; born 15 September 1990) is a Serbian professional footballer who plays as a left winger for and captains Serie A club Hellas Verona and the Serbia national team.\r
+\r
+At the age of 21, Lazović was recognized as the best young player of the Serbian Superliga in 2011."""@en ;
+    schema:height "1.81 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/xm80lo1724520010.jpg"^^xsd:anyURI ;
+    schema:memberOf "_Free Agent Soccer"^^xsd:string ;
+    schema:name "Darko Lazović"^^xsd:string ;
+    schema:nationality "Serbia"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Marko_Arnautovic a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q313575> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/gnkzom1697979946.png"^^xsd:anyURI ;
+    foaf:name "Marko Arnautovic"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 10 ;
+    stats:blocks 3 ;
+    stats:carries 99 ;
+    stats:clearances 1 ;
+    stats:dispossessed 3 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.2 ;
+    stats:expectedGoals 3.3 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 5.9 ;
+    stats:matchesPlayed 17 ;
+    stats:matchesStarted 5 ;
+    stats:minutesPlayed 527 ;
+    stats:miscontrols 13 ;
+    stats:passesIntoPenaltyArea 8 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 4 ;
+    stats:progressivePasses 16 ;
+    stats:progressivePassesReceived 61 ;
+    stats:rank 157 ;
+    stats:redCards 0 ;
+    stats:tackles 7 ;
+    stats:tacklesWon 5 ;
+    stats:touches 198 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1989-04-19"^^xsd:date ;
+    schema:description """Marko Arnautović (born 19 April 1989) is an Austrian professional footballer who plays as a forward for Craven Zvezda.\r
+\r
+Arnautović began his career in his native Austria playing in the youth teams for a number of clubs in the Vienna area before he signed a contract with Dutch club Twente in 2006. He impressed at De Grolsch Veste and after a fine 2008–09 season he joined Italian giants Internazionale on loan, where he made only three appearances due to injury. He joined German side Werder Bremen in June 2010 and became a regular member of the first team. In September 2013 Arnautović joined English Premier League side Stoke City.\r
+\r
+A full international for Austria since 2008, he helped the nation to qualify for UEFA Euro 2016."""@en ;
+    schema:height "1.88"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/uqczgv1622121230.jpg"^^xsd:anyURI ;
+    schema:memberOf "Crvena Zvezda"^^xsd:string ;
+    schema:name "Marko Arnautovic"^^xsd:string ;
+    schema:nationality "Austria"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

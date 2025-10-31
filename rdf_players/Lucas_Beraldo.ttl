@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Lucas_Beraldo a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q112604843> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/m1i06o1748682976.png"^^xsd:anyURI ;
+    foaf:name "Lucas Beraldo"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 115 ;
+    stats:blocks 16 ;
+    stats:carries 1395 ;
+    stats:clearances 63 ;
+    stats:dispossessed 2 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 0.4 ;
+    stats:expectedGoals 0.9 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 21 ;
+    stats:keyPasses 8 ;
+    stats:matches90s 22.3 ;
+    stats:matchesPlayed 25 ;
+    stats:matchesStarted 22 ;
+    stats:minutesPlayed 2011 ;
+    stats:miscontrols 10 ;
+    stats:passesIntoPenaltyArea 13 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 9 ;
+    stats:progressivePasses 131 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 306 ;
+    stats:redCards 0 ;
+    stats:tackles 38 ;
+    stats:tacklesWon 31 ;
+    stats:touches 2314 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "2003-11-24"^^xsd:date ;
+    schema:description "Lucas Lopes Beraldo (born 24 November 2003) is a Brazilian professional footballer who plays as a centre-back for Ligue 1 club Paris Saint-Germain."@en ;
+    schema:height "182cm / 6'0\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/jm9h511704446700.jpg"^^xsd:anyURI ;
+    schema:memberOf "Paris SG"^^xsd:string ;
+    schema:name "Lucas Beraldo"^^xsd:string ;
+    schema:nationality "Brazil"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

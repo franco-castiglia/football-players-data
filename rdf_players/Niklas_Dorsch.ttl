@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Niklas_Dorsch a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q24449743> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/bvx2wr1742057303.png"^^xsd:anyURI ;
+    foaf:name "Niklas Dorsch"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 74 ;
+    stats:blocks 14 ;
+    stats:carries 459 ;
+    stats:clearances 17 ;
+    stats:dispossessed 13 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 1.1 ;
+    stats:expectedGoals 1.0 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 17 ;
+    stats:keyPasses 13 ;
+    stats:matches90s 14.8 ;
+    stats:matchesPlayed 22 ;
+    stats:matchesStarted 19 ;
+    stats:minutesPlayed 1335 ;
+    stats:miscontrols 16 ;
+    stats:passesIntoPenaltyArea 16 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 13 ;
+    stats:progressivePasses 57 ;
+    stats:progressivePassesReceived 21 ;
+    stats:rank 771 ;
+    stats:redCards 1 ;
+    stats:tackles 27 ;
+    stats:tacklesWon 16 ;
+    stats:touches 798 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1998-01-15"^^xsd:date ;
+    schema:description "Niklas Bernd Dorsch (born 15 January 1998) is a German professional footballer who plays as a defensive midfielder for Bundesliga club 1. FC Heidenheim."@en ;
+    schema:height "1.78 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/mq2tv11631543681.jpg"^^xsd:anyURI ;
+    schema:memberOf "FC Heidenheim"^^xsd:string ;
+    schema:name "Niklas Dorsch"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

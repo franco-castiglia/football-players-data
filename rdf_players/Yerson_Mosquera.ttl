@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Yerson_Mosquera a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q104834787> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/heac4r1725565715.png"^^xsd:anyURI ;
+    foaf:name "Yerson Mosquera"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 24 ;
+    stats:blocks 13 ;
+    stats:carries 168 ;
+    stats:clearances 14 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 10 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 4.9 ;
+    stats:matchesPlayed 5 ;
+    stats:matchesStarted 5 ;
+    stats:minutesPlayed 441 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 7 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1801 ;
+    stats:redCards 0 ;
+    stats:tackles 11 ;
+    stats:tacklesWon 7 ;
+    stats:touches 294 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2001-05-02"^^xsd:date ;
+    schema:description """Yerson Mosquera Valdelamar (born 2 May 2001) is a Colombian professional footballer who plays as a centre-back for Premier League club Wolverhampton Wanderers and the Colombia national team.\r
+\r
+Mosquera made his breakthrough at Atlético Nacional, where he marked his professional debut against River Plate in the Copa Sudamericana in October 2020."""@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/vtrc3y1677880967.jpg"^^xsd:anyURI ;
+    schema:memberOf "Wolverhampton Wanderers"^^xsd:string ;
+    schema:name "Yerson Mosquera"^^xsd:string ;
+    schema:nationality "Colombia"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

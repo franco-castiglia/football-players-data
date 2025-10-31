@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ben_Brereton_Diaz a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q28606351> ;
+    foaf:account "twitter.com/benbreo?lang=gl"^^xsd:anyURI,
+        "www.instagram.com/ben.brereton/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ioj3mp1725548617.png"^^xsd:anyURI ;
+    foaf:name "Ben Brereton Díaz"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 16 ;
+    stats:blocks 2 ;
+    stats:carries 136 ;
+    stats:clearances 4 ;
+    stats:dispossessed 4 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.9 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 5.0 ;
+    stats:matchesPlayed 10 ;
+    stats:matchesStarted 4 ;
+    stats:minutesPlayed 449 ;
+    stats:miscontrols 9 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:progressiveCarries 12 ;
+    stats:progressivePasses 9 ;
+    stats:progressivePassesReceived 42 ;
+    stats:rank 392 ;
+    stats:redCards 0 ;
+    stats:tackles 3 ;
+    stats:tacklesWon 2 ;
+    stats:touches 206 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1999-04-18"^^xsd:date ;
+    schema:description """Benjamin Anthony Brereton, also known as Ben Brereton Díaz, is a professional footballer who plays as a forward or winger for EFL Championship club Derby County, on loan from EFL Championship club Southampton, and the Chile national team.\r
+Brereton Díaz began his club career with Nottingham Forest, making his senior debut in 2017. He moved to Blackburn Rovers in 2018, initially on loan before joining them on a permanent transfer in 2019.\r
+\r
+Born in England, Brereton Díaz represented his birth country at the under-19 and under-20 levels, before being named in the Chile squad for the 2021 Copa América in Brazil, having qualified for the latter through his mother.\r
+\r
+Early life\r
+Brereton Díaz was born in Stoke-on-Trent, Staffordshire and attended Blythe Bridge High School. He was born to Martin Brereton, an English policeman and former amateur football player in Stoke-on-Trent area and District Sunday League, and Andrea Brereton (née Díaz), born in Concepción, Chile, who worked at Churchill China."""@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/tfrzxi1715623324.jpg"^^xsd:anyURI ;
+    schema:memberOf "Derby County"^^xsd:string ;
+    schema:name "Ben Brereton Díaz"^^xsd:string ;
+    schema:nationality "Chile"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

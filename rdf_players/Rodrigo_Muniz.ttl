@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Rodrigo_Muniz a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q97097982> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/wswdye1757071073.png"^^xsd:anyURI ;
+    foaf:name "Rodrigo Muniz"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 14 ;
+    stats:blocks 9 ;
+    stats:carries 157 ;
+    stats:clearances 14 ;
+    stats:dispossessed 24 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.7 ;
+    stats:expectedGoals 5.8 ;
+    stats:goals 8 ;
+    stats:goalsNonPenalty 8 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 10.7 ;
+    stats:matchesPlayed 31 ;
+    stats:matchesStarted 8 ;
+    stats:minutesPlayed 964 ;
+    stats:miscontrols 47 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 6 ;
+    stats:progressivePasses 27 ;
+    stats:progressivePassesReceived 31 ;
+    stats:rank 1821 ;
+    stats:redCards 0 ;
+    stats:tackles 10 ;
+    stats:tacklesWon 5 ;
+    stats:touches 311 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2001-05-04"^^xsd:date ;
+    schema:description "Rodrigo Muniz Carvalho (born 4 May 2001) is a Brazilian footballer who plays as a forward for Premier League club Fulham."@en ;
+    schema:height "183 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/28w1391661085518.jpg"^^xsd:anyURI ;
+    schema:memberOf "Fulham"^^xsd:string ;
+    schema:name "Rodrigo Muniz"^^xsd:string ;
+    schema:nationality "Brazil"^^xsd:string ;
+    schema:weight "148 lbs"^^xsd:string .
+

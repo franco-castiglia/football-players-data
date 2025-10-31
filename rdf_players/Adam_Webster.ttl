@@ -1,0 +1,82 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Adam_Webster a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q4679961> ;
+    foaf:account "www.instagram.com/adamwebster04/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/43m3ws1756999620.png"^^xsd:anyURI ;
+    foaf:name "Adam Webster"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 35 ;
+    stats:blocks 16 ;
+    stats:carries 476 ;
+    stats:clearances 41 ;
+    stats:dispossessed 1 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 20 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 9.9 ;
+    stats:matchesPlayed 14 ;
+    stats:matchesStarted 11 ;
+    stats:minutesPlayed 887 ;
+    stats:miscontrols 5 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 8 ;
+    stats:progressivePasses 63 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 2753 ;
+    stats:redCards 0 ;
+    stats:tackles 10 ;
+    stats:tacklesWon 6 ;
+    stats:touches 824 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1995-01-04"^^xsd:date ;
+    schema:description """Adam Harry Webster (born 4 January 1995) is an English professional footballer who plays for Brighton & Hove Albion. He is a centre back.\r
+\r
+Club career\r
+Portsmouth\r
+Webster joined Portsmouth at the age of 12, following rejections from Southampton, Chelsea and even Portsmouth from the age of ten. He signed academy scholarship with the club in the summer of 2011. He was first called up to the participate with the first team by Steve Cotterill in a friendly against FC Rostov. He came on in the 72nd minute for trialist Fernando Vega.\r
+\r
+Under the management of Michael Appleton, Webster was given more first team opportunities. Following an unused substitute appearance against Chelsea in the FA Cup, he made his debut at the age of 17 the following weekend in a Football League Championship match against West Ham United. He came on at right back in place of Greg Halford on the 75th minute.\r
+\r
+In the following season, Webster received the #22 jersey, and had more opportunities in first team, making his breakthrough as a full back. When recalled from Aldershot Town, he was put into the starting line up against Hartlepool United. Webster scored the only goal of the game, and his first senior goal, handing Portsmouth a 1–0 victory.\r
+\r
+Aldershot Town (loan)\r
+On 6 August 2013, Webster joined Aldershot Town on loan, until January 2014. He made his Shots debut four days later, in a 1–1 away draw against Grimsby. He returned to "Pompey" on 4 January, after making 21 appearances, and on the 21st he rejoined the "Shots" on loan until the end of the season.\r
+\r
+Ipswich Town\r
+On 6 June 2016, Webster moved to Football League Championship club Ipswich Town for an undisclosed fee. He scored his first goal for Ipswich against Birmingham City on 13 December 2016.\r
+\r
+Bristol City\r
+On 28 June 2018, Webster transferred to fellow Football League Championship club Bristol City for an initial fee of £3.5 million rising up to £8 million.\r
+\r
+Brighton & Hove Albion\r
+On 2 August 2019, Brighton & Hove Albion agreed a fee of £20m rising up to £22m for Webster, subject to medical. On 3 August, Brighton completed the signing of Webster, signing him on a four-year deal.\r
+\r
+International career\r
+The same week he made his debut for Portsmouth, Webster was called up to the England U17's for a friendly tournament in Portugal.\r
+\r
+In October 2012, Webster was called up to the England U19, but his manager Michael Appleton blocked the requests from FA due to player shortage in Portsmouth. Later in the month, he was called up to England U18's.\r
+\r
+On 24 October 2012, Webster made his national team debut at under-18 level in a 2–0 win against Italy. On 13 November 2012 Webster made his England Under 19's debut in a 1–0 win over Finland, coming as a second-half substitute for Jack Stephens. On 24 May 2013, Webster made his 3rd appearance for the U19's coming on as a substitute in a match against Georgia."""@en ;
+    schema:height "6 ft 3 in (1.91 m)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/70hmua1507039176.jpg"^^xsd:anyURI ;
+    schema:memberOf "Brighton and Hove Albion"^^xsd:string ;
+    schema:name "Adam Webster"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

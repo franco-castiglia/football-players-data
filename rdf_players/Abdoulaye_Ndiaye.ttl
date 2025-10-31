@@ -1,0 +1,52 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Abdoulaye_Ndiaye a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q113559374> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/93nc831759780692.png"^^xsd:anyURI ;
+    foaf:name "Abdoulaye Ndiaye"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 72 ;
+    stats:blocks 29 ;
+    stats:carries 598 ;
+    stats:clearances 144 ;
+    stats:dispossessed 5 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 1.0 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 11 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 19.0 ;
+    stats:matchesPlayed 22 ;
+    stats:matchesStarted 19 ;
+    stats:minutesPlayed 1707 ;
+    stats:miscontrols 15 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 2 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 5 ;
+    stats:progressivePasses 39 ;
+    stats:progressivePassesReceived 4 ;
+    stats:rank 1895 ;
+    stats:redCards 1 ;
+    stats:tackles 49 ;
+    stats:tacklesWon 33 ;
+    stats:touches 1203 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2002-04-10"^^xsd:date ;
+    schema:description "Abdoulaye Niakhaté Ndiaye (born 10 April 2002) is a Senegalese professional footballer who plays as a centre-back for Ligue 1 club Brest, on loan from Ligue 2 club Troyes, and the Senegal national team."@en ;
+    schema:height "185 cm"^^xsd:string ;
+    schema:memberOf "Parma"^^xsd:string ;
+    schema:name "Abdoulaye Ndiaye"^^xsd:string ;
+    schema:nationality "Senegal"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

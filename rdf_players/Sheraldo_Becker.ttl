@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Sheraldo_Becker a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16069260> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/j1ukbx1714205748.png"^^xsd:anyURI ;
+    foaf:name "Sheraldo Becker"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 30 ;
+    stats:blocks 4 ;
+    stats:carries 242 ;
+    stats:clearances 10 ;
+    stats:dispossessed 4 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.0 ;
+    stats:expectedGoals 2.0 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 8 ;
+    stats:matches90s 11.1 ;
+    stats:matchesPlayed 22 ;
+    stats:matchesStarted 11 ;
+    stats:minutesPlayed 995 ;
+    stats:miscontrols 17 ;
+    stats:passesIntoPenaltyArea 17 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 51 ;
+    stats:progressivePasses 23 ;
+    stats:progressivePassesReceived 110 ;
+    stats:rank 270 ;
+    stats:redCards 1 ;
+    stats:tackles 3 ;
+    stats:tacklesWon 2 ;
+    stats:touches 384 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1995-02-09"^^xsd:date ;
+    schema:description "Sheraldo Becker (born 9 February 1995) is a professional footballer who plays as a forward for La Liga club Real Sociedad. Born in the Netherlands, he plays for the Suriname national team."@en ;
+    schema:height "1.80 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/v38e4f1714205796.jpg"^^xsd:anyURI ;
+    schema:memberOf "Real Sociedad"^^xsd:string ;
+    schema:name "Sheraldo Becker"^^xsd:string ;
+    schema:nationality "Suriname"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:AllanRomeo_Nyom a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2705713> ;
+    foaf:account "twitter.com/allannyom"^^xsd:anyURI,
+        "www.instagram.com/allannyom/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/iav0o61603111701.png"^^xsd:anyURI ;
+    foaf:name "Allan-Romeo Nyom"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 32 ;
+    stats:blocks 4 ;
+    stats:carries 206 ;
+    stats:clearances 23 ;
+    stats:dispossessed 4 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 0.5 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 9.9 ;
+    stats:matchesPlayed 20 ;
+    stats:matchesStarted 10 ;
+    stats:minutesPlayed 887 ;
+    stats:miscontrols 16 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 5 ;
+    stats:progressivePasses 22 ;
+    stats:progressivePassesReceived 21 ;
+    stats:rank 1929 ;
+    stats:redCards 0 ;
+    stats:tackles 18 ;
+    stats:tacklesWon 11 ;
+    stats:touches 443 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1988-05-10"^^xsd:date ;
+    schema:description """Allan-Roméo Nyom (born 10 May 1988) is a professional footballer who plays as a right back for La Liga club Getafe.\r
+\r
+He spent most of his career with Granada, appearing in 220 competitive games during six seasons, four in La Liga. He also played professionally in England, with Watford and West Bromwich Albion.\r
+\r
+Born in France, Nyom has been a Cameroonian international since 2011. He represented the nation at the 2014 World Cup."""@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/18s8sc1509041814.jpg"^^xsd:anyURI ;
+    schema:memberOf "Getafe"^^xsd:string ;
+    schema:name "Allan-Romeo Nyom"^^xsd:string ;
+    schema:nationality "Cameroon"^^xsd:string ;
+    schema:weight "78 kg (172 lb)"^^xsd:string .
+

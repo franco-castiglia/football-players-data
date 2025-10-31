@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Alexander_Srloth a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q13784739> ;
+    foaf:account "twitter.com/asorloth"^^xsd:anyURI,
+        "www.instagram.com/asorloth/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/o27ovv1724311587.png"^^xsd:anyURI ;
+    foaf:name "Alexander Sørloth"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 41 ;
+    stats:blocks 6 ;
+    stats:carries 323 ;
+    stats:clearances 28 ;
+    stats:dispossessed 32 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.6 ;
+    stats:expectedGoals 16.8 ;
+    stats:goals 20 ;
+    stats:goalsNonPenalty 19 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 13 ;
+    stats:matches90s 17.4 ;
+    stats:matchesPlayed 35 ;
+    stats:matchesStarted 15 ;
+    stats:minutesPlayed 1566 ;
+    stats:miscontrols 63 ;
+    stats:passesIntoPenaltyArea 10 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 32 ;
+    stats:progressivePasses 31 ;
+    stats:progressivePassesReceived 81 ;
+    stats:rank 2540 ;
+    stats:redCards 0 ;
+    stats:tackles 9 ;
+    stats:tacklesWon 5 ;
+    stats:touches 602 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1995-12-05"^^xsd:date ;
+    schema:description "Alexander Sørloth (born 5 December 1995) is a Norwegian professional footballer who plays as a striker for La Liga club Atlético Madrid and the Norway national team."@en ;
+    schema:height "1.94 m (6 ft 4 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/slx8ts1724311500.jpg"^^xsd:anyURI ;
+    schema:memberOf "Atletico Madrid"^^xsd:string ;
+    schema:name "Alexander Sørloth"^^xsd:string ;
+    schema:nationality "Norway"^^xsd:string ;
+    schema:weight "196 lbs"^^xsd:string .
+

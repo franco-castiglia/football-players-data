@@ -1,0 +1,78 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Marcus_Tavernier a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q37996874> ;
+    foaf:account "twitter.com/_marcustavv"^^xsd:anyURI,
+        "www.instagram.com/_tavv/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/6bxpw41757018787.png"^^xsd:anyURI ;
+    foaf:name "Marcus Tavernier"^^xsd:string ;
+    stats:assists 5 ;
+    stats:ballRecoveries 119 ;
+    stats:blocks 16 ;
+    stats:carries 705 ;
+    stats:clearances 11 ;
+    stats:dispossessed 47 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 4.0 ;
+    stats:expectedGoals 5.5 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 43 ;
+    stats:matches90s 21.5 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 20 ;
+    stats:minutesPlayed 1939 ;
+    stats:miscontrols 46 ;
+    stats:passesIntoPenaltyArea 40 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Midfield"^^xsd:string ;
+    stats:progressiveCarries 53 ;
+    stats:progressivePasses 128 ;
+    stats:progressivePassesReceived 129 ;
+    stats:rank 2557 ;
+    stats:redCards 0 ;
+    stats:tackles 43 ;
+    stats:tacklesWon 24 ;
+    stats:touches 1196 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "1999-03-22"^^xsd:date ;
+    schema:description """Marcus Joseph Tavernier (born 22 March 1999) is an English professional footballer who plays as a midfielder for Premier League club Bournemouth.\r
+\r
+Tavernier has also represented England at U19 and U20 level.\r
+\r
+Club career\r
+Middlesbrough\r
+Tavernier was born in Leeds. Having previously played for Newcastle United, he joined the academy of Middlesbrough at under-14 level and became a regular for the side in the Premier League 2. He also played in two games for his club in the 2015–16 UEFA Youth League.\r
+\r
+Tavernier made his professional debut for the club in the second round of the EFL Cup, starting in a 3–0 win against Scunthorpe United at the Riverside Stadium on 22 August 2017. He scored his first goal for the club on 24 October in the EFL Cup, during a 3–1 loss to Bournemouth at Dean Court, and his first league goal in the Championship in a 1–0 win over rivals Sunderland at the Riverside Stadium on 5 November.\r
+\r
+On 17 January 2018, Tavernier joined relegation-threatened EFL League One side Milton Keynes Dons on loan until the end of the 2017–18 season. He made his debut for the club three days later in a 2–1 defeat to relegation rivals Northampton Town. The club were subsequently relegated to the fourth tier of English football at the end of their unsuccessful campaign, with Tavernier failing to score in any of his eight total appearances.\r
+\r
+In December 2017, Tavernier signed a new contract for 31⁄2 years. In January 2020, this was extended until summer 2023.\r
+\r
+AFC Bournemouth\r
+On 29 July 2022, Middlesbrough manager Chris Wilder confirmed that the club had accepted a bid for Tavernier from an unnamed Premier League club. On 1 August 2022, Tavernier joined Bournemouth on a five-year deal. Tavernier made his debut for the club on 6 August in a 2–0 home win over Aston Villa in the Premier League. He was praised by manager Scott Parker for his performance in the match.\r
+\r
+International career\r
+Tavernier made his international debut at U19 level, starting in a 2–2 draw against Slovakia U19s at the NTC Senec stadium on 9 October 2017. In July 2018, he was included in the squad for the 2018 UEFA European Under-19 Championship. He scored in a group stage draw against Ukraine.\r
+\r
+In May 2019, he was included in the England U20 squad for the 2019 Toulon Tournament.\r
+\r
+Personal life\r
+Tavernier was born in Leeds, West Yorkshire. His older brother, James Tavernier, is a footballer who plays for and is captain of Rangers."""@en ;
+    schema:height "5 ft 10 in (1.77 m)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/xc9i3l1609614621.jpg"^^xsd:anyURI ;
+    schema:memberOf "Bournemouth"^^xsd:string ;
+    schema:name "Marcus Tavernier"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

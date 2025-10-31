@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Dominik_Javorcek a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q100773311> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/eqclrs1741709142.png"^^xsd:anyURI ;
+    foaf:name "Dominik Javorček"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 7 ;
+    stats:blocks 7 ;
+    stats:carries 91 ;
+    stats:clearances 26 ;
+    stats:dispossessed 1 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 4.3 ;
+    stats:matchesPlayed 13 ;
+    stats:matchesStarted 4 ;
+    stats:minutesPlayed 386 ;
+    stats:miscontrols 5 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:progressiveCarries 7 ;
+    stats:progressivePasses 4 ;
+    stats:progressivePassesReceived 23 ;
+    stats:rank 1249 ;
+    stats:redCards 0 ;
+    stats:tackles 3 ;
+    stats:tacklesWon 0 ;
+    stats:touches 221 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2002-11-02"^^xsd:date ;
+    schema:description "Dominik Javorček (born 2 November 2002) is a Slovak professional footballer who plays as a left-back for German Bundesliga club Holstein Kiel on loan from Žilina."@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/kkz3n71741709132.jpg"^^xsd:anyURI ;
+    schema:memberOf "Holstein Kiel"^^xsd:string ;
+    schema:name "Dominik Javorček"^^xsd:string ;
+    schema:nationality "Slovakia"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

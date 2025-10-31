@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Kasey_McAteer a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q110086287> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/i9aa4p1695137588.png"^^xsd:anyURI ;
+    foaf:name "Kasey McAteer"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 45 ;
+    stats:blocks 18 ;
+    stats:carries 224 ;
+    stats:clearances 15 ;
+    stats:dispossessed 16 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.7 ;
+    stats:expectedGoals 1.0 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 9 ;
+    stats:matches90s 9.5 ;
+    stats:matchesPlayed 18 ;
+    stats:matchesStarted 9 ;
+    stats:minutesPlayed 852 ;
+    stats:miscontrols 20 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 19 ;
+    stats:progressivePasses 14 ;
+    stats:progressivePassesReceived 71 ;
+    stats:rank 1696 ;
+    stats:redCards 0 ;
+    stats:tackles 23 ;
+    stats:tacklesWon 16 ;
+    stats:touches 379 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2001-11-22"^^xsd:date ;
+    schema:description """Kasey Ian McAteer is an Irish professional footballer who plays as an attacking midfielder or right winger for EFL Championship club Ipswich Town. \r
+\r
+Club career\r
+McAteer joined the Leicester City Academy at the age of 8. He made his Premier League debut as an 88th minute substitute for James Maddison during a 4–0 win against Newcastle United on 12 December 2021.\r
+\r
+On 28 January 2022, McAteer joined League Two leaders Forest Green Rovers on loan until the end of the 2021–22 season. He made his debut for the club in a 1–1 draw against Port Vale on 1 February 2022.\r
+\r
+On 31 January, 2023 McAteer joined AFC Wimbledon on a six-month loan deal."""@en ;
+    schema:height "177 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/84r6tm1677852848.jpg"^^xsd:anyURI ;
+    schema:memberOf "Ipswich Town"^^xsd:string ;
+    schema:name "Kasey McAteer"^^xsd:string ;
+    schema:nationality "Ireland"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

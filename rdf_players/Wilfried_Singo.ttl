@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Wilfried_Singo a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q78255759> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/juhc021748684453.png"^^xsd:anyURI ;
+    foaf:name "Wilfried Singo"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 138 ;
+    stats:blocks 17 ;
+    stats:carries 951 ;
+    stats:clearances 110 ;
+    stats:dispossessed 7 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 1.5 ;
+    stats:expectedGoals 1.9 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 43 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 23.3 ;
+    stats:matchesPlayed 27 ;
+    stats:matchesStarted 23 ;
+    stats:minutesPlayed 2096 ;
+    stats:miscontrols 11 ;
+    stats:passesIntoPenaltyArea 11 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 35 ;
+    stats:progressivePasses 118 ;
+    stats:progressivePassesReceived 27 ;
+    stats:rank 2433 ;
+    stats:redCards 0 ;
+    stats:tackles 37 ;
+    stats:tacklesWon 23 ;
+    stats:touches 1703 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2000-12-25"^^xsd:date ;
+    schema:description "Wilfried Stephane Singo (born 25 December 2000) is an Ivorian professional footballer who plays as a defender for Ligue 1 club Monaco and the Ivory Coast national team."@en ;
+    schema:height "1.90 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/pel8471726820382.jpg"^^xsd:anyURI ;
+    schema:memberOf "Monaco"^^xsd:string ;
+    schema:name "Wilfried Singo"^^xsd:string ;
+    schema:nationality "Ivory Coast"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

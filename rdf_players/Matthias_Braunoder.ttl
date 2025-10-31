@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Matthias_Braunoder a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q65552954> ;
+    foaf:name "Matthias Braunöder"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 8 ;
+    stats:blocks 3 ;
+    stats:carries 88 ;
+    stats:clearances 4 ;
+    stats:dispossessed 2 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 3.0 ;
+    stats:matchesPlayed 8 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 268 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 18 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 386 ;
+    stats:redCards 1 ;
+    stats:tackles 10 ;
+    stats:tacklesWon 4 ;
+    stats:touches 175 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2002-03-27"^^xsd:date ;
+    schema:description """Matthias Braunöder (born 27 March 2002) is an Austrian professional footballer who plays as a midfielder for Austria Wien.\r
+\r
+Braunöder is a youth product of SV Sigleß, before joining Austria Wien's youth academy in 2011. In 2019, he started training with Austria Wien's reserves. He signed a professional contract with the club on 3 June 2019. He made his professional debut with Austria Wien in a 4–0 Austrian Football Bundesliga win over Admira Wacker on 26 January 2021. He was named the inaugural winner for the "Newcomer of the Season" award for the 2021–22 Austrian Football Bundesliga season.\r
+\r
+Braunöder is a youth international for Austria, having represented them at various levels from U15 to U21. He captained the Austria U17s at the 2019 UEFA European Under-17 Championship.\r
+\r
+Braunöder's father, Markus, was also a professional footballer in Austria."""@en ;
+    schema:height "174 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/s7u7fy1678112630.jpg"^^xsd:anyURI ;
+    schema:memberOf "Bari"^^xsd:string ;
+    schema:name "Matthias Braunöder"^^xsd:string ;
+    schema:nationality "Austria"^^xsd:string ;
+    schema:weight "148 lbs"^^xsd:string .
+

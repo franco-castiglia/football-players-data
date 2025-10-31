@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Inigo_Lekue a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q20492322> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/5uqrqr1629191047.png"^^xsd:anyURI ;
+    foaf:name "Iñigo Lekue"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 39 ;
+    stats:blocks 7 ;
+    stats:carries 245 ;
+    stats:clearances 29 ;
+    stats:dispossessed 5 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 9 ;
+    stats:keyPasses 8 ;
+    stats:matches90s 8.6 ;
+    stats:matchesPlayed 16 ;
+    stats:matchesStarted 8 ;
+    stats:minutesPlayed 773 ;
+    stats:miscontrols 5 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 13 ;
+    stats:progressivePasses 35 ;
+    stats:progressivePassesReceived 21 ;
+    stats:rank 1471 ;
+    stats:redCards 0 ;
+    stats:tackles 15 ;
+    stats:tacklesWon 12 ;
+    stats:touches 521 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1993-05-04"^^xsd:date ;
+    schema:description "Iñigo Lekue Martínez (Basque: ; Spanish: ; born 4 May 1993) is a Spanish professional footballer who plays for Athletic Bilbao mainly as a right-back."@en ;
+    schema:height "1.80 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/g4ds6l1629190977.jpg"^^xsd:anyURI ;
+    schema:memberOf "Athletic Bilbao"^^xsd:string ;
+    schema:name "Iñigo Lekue"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

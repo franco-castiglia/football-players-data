@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Yan_Couto a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q75057147> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/hadu641756326239.png"^^xsd:anyURI ;
+    foaf:name "Yan Couto"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 55 ;
+    stats:blocks 12 ;
+    stats:carries 483 ;
+    stats:clearances 32 ;
+    stats:dispossessed 7 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 10 ;
+    stats:keyPasses 12 ;
+    stats:matches90s 9.9 ;
+    stats:matchesPlayed 21 ;
+    stats:matchesStarted 8 ;
+    stats:minutesPlayed 895 ;
+    stats:miscontrols 14 ;
+    stats:passesIntoPenaltyArea 26 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 46 ;
+    stats:progressivePasses 68 ;
+    stats:progressivePassesReceived 83 ;
+    stats:rank 625 ;
+    stats:redCards 0 ;
+    stats:tackles 24 ;
+    stats:tacklesWon 16 ;
+    stats:touches 849 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "2002-06-03"^^xsd:date ;
+    schema:description "Yan Bueno Couto (born 3 June 2002) is a Brazilian professional footballer who plays as a right-back, right wing-back or right winger for Bundesliga club Borussia Dortmund, on loan from Premier League club Manchester City. He also plays for the Brazil national team."@en ;
+    schema:height "1.68 m (5 ft 6 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/fg52xa1716706821.jpg"^^xsd:anyURI ;
+    schema:memberOf "Borussia Dortmund"^^xsd:string ;
+    schema:name "Yan Couto"^^xsd:string ;
+    schema:nationality "Brazil"^^xsd:string ;
+    schema:weight "130 lbs"^^xsd:string .
+

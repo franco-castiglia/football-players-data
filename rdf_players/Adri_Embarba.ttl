@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Adri_Embarba a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q15222370> ;
+    foaf:account "twitter.com/adriembarba11"^^xsd:anyURI,
+        "www.instagram.com/adriembarba11/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/8njbhx1724006184.png"^^xsd:anyURI ;
+    foaf:name "Adri Embarba"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 67 ;
+    stats:blocks 18 ;
+    stats:carries 467 ;
+    stats:clearances 14 ;
+    stats:dispossessed 24 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 2.7 ;
+    stats:expectedGoals 2.1 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 13 ;
+    stats:keyPasses 20 ;
+    stats:matches90s 17.9 ;
+    stats:matchesPlayed 35 ;
+    stats:matchesStarted 18 ;
+    stats:minutesPlayed 1607 ;
+    stats:miscontrols 61 ;
+    stats:passesIntoPenaltyArea 17 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:progressiveCarries 47 ;
+    stats:progressivePasses 45 ;
+    stats:progressivePassesReceived 114 ;
+    stats:rank 838 ;
+    stats:redCards 0 ;
+    stats:tackles 41 ;
+    stats:tacklesWon 20 ;
+    stats:touches 847 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1992-05-07"^^xsd:date ;
+    schema:description "Adrián \"Adri\" Embarba Blázquez (born 7 May 1992) is a Spanish professional footballer who plays for UD Almería as a right winger."@en ;
+    schema:height "1.73 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/edu60f1626383763.jpg"^^xsd:anyURI ;
+    schema:memberOf "Vallecano"^^xsd:string ;
+    schema:name "Adri Embarba"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "146 lbs"^^xsd:string .
+

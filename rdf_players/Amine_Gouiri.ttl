@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Amine_Gouiri a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q30045780> ;
+    foaf:account "www.instagram.com/amine_gouiri/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/3amw5c1748683298.png"^^xsd:anyURI ;
+    foaf:name "Amine Gouiri"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 24 ;
+    stats:blocks 9 ;
+    stats:carries 248 ;
+    stats:clearances 1 ;
+    stats:dispossessed 15 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 3.6 ;
+    stats:expectedGoals 8.4 ;
+    stats:goals 10 ;
+    stats:goalsNonPenalty 10 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 26 ;
+    stats:matches90s 11.6 ;
+    stats:matchesPlayed 14 ;
+    stats:matchesStarted 12 ;
+    stats:minutesPlayed 1048 ;
+    stats:miscontrols 22 ;
+    stats:passesIntoPenaltyArea 8 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 17 ;
+    stats:progressivePasses 20 ;
+    stats:progressivePassesReceived 97 ;
+    stats:rank 1048 ;
+    stats:redCards 0 ;
+    stats:tackles 5 ;
+    stats:tacklesWon 5 ;
+    stats:touches 472 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2000-02-16"^^xsd:date ;
+    schema:description "Amine Ferid Gouiri (Arabic: أمين فريد غويري; born 16 February 2000) is a professional footballer who plays as a striker or left winger for Ligue 1 club Marseille. Born in France, he plays for the Algeria national team."@en ;
+    schema:height "1.80 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/xl6as41534013643.jpg"^^xsd:anyURI ;
+    schema:memberOf "Marseille"^^xsd:string ;
+    schema:name "Amine Gouiri"^^xsd:string ;
+    schema:nationality "Algeria"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

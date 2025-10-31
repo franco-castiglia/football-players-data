@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Nick_Woltemade a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q84158344> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/spc2ye1757104648.png"^^xsd:anyURI ;
+    foaf:name "Nick Woltemade"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 53 ;
+    stats:blocks 23 ;
+    stats:carries 470 ;
+    stats:clearances 15 ;
+    stats:dispossessed 50 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 4.6 ;
+    stats:expectedGoals 10.2 ;
+    stats:goals 12 ;
+    stats:goalsNonPenalty 10 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 37 ;
+    stats:matches90s 18.0 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 17 ;
+    stats:minutesPlayed 1622 ;
+    stats:miscontrols 84 ;
+    stats:passesIntoPenaltyArea 23 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 31 ;
+    stats:progressivePasses 52 ;
+    stats:progressivePassesReceived 141 ;
+    stats:rank 2786 ;
+    stats:redCards 1 ;
+    stats:tackles 10 ;
+    stats:tacklesWon 7 ;
+    stats:touches 788 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "2002-02-14"^^xsd:date ;
+    schema:description "Nick Woltemade is a German professional footballer who plays as a forward or attacking midfielder for Premier League club Newcastle United and the Germany national team.  He has represented Germany internationally at youth levels."@en ;
+    schema:height "1.98 m (6 ft 6 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/6bbmsw1585494137.jpg"^^xsd:anyURI ;
+    schema:memberOf "Newcastle United"^^xsd:string ;
+    schema:name "Nick Woltemade"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "196 lbs"^^xsd:string .
+

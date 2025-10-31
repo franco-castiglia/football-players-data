@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Konstantinos_Mavropanos a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q47015833> ;
+    foaf:account "www.instagram.com/dinos_mavropanos/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/qxf0gm1756984486.png"^^xsd:anyURI ;
+    foaf:name "Konstantinos Mavropanos"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 77 ;
+    stats:blocks 25 ;
+    stats:carries 864 ;
+    stats:clearances 126 ;
+    stats:dispossessed 0 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 1.5 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 40 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 22.7 ;
+    stats:matchesPlayed 33 ;
+    stats:matchesStarted 21 ;
+    stats:minutesPlayed 2045 ;
+    stats:miscontrols 12 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 17 ;
+    stats:progressivePasses 61 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 1681 ;
+    stats:redCards 1 ;
+    stats:tackles 35 ;
+    stats:tacklesWon 24 ;
+    stats:touches 1532 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "1997-12-11"^^xsd:date ;
+    schema:description "Konstantinos Mavropanos (born 11 December 1997) is a Greek professional footballer who plays as a defender for Premier League club West Ham United and the Greece national team. Mainly played as a centre-back, he can also play as a right-back."@en ;
+    schema:height "1.92 m (6 ft 3 1⁄2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/zpjufq1716901886.jpg"^^xsd:anyURI ;
+    schema:memberOf "West Ham"^^xsd:string ;
+    schema:name "Konstantinos Mavropanos"^^xsd:string ;
+    schema:nationality "Greece"^^xsd:string ;
+    schema:weight "205 lbs"^^xsd:string .
+

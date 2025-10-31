@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jarrad_Branthwaite a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q70780349> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/281uh81756976529.png"^^xsd:anyURI ;
+    foaf:name "Jarrad Branthwaite"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 93 ;
+    stats:blocks 31 ;
+    stats:carries 747 ;
+    stats:clearances 191 ;
+    stats:dispossessed 4 ;
+    stats:errors 4 ;
+    stats:expectedAssistedGoals 0.7 ;
+    stats:expectedGoals 1.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 27 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 27.9 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 28 ;
+    stats:minutesPlayed 2511 ;
+    stats:miscontrols 8 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 10 ;
+    stats:progressivePasses 66 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 382 ;
+    stats:redCards 0 ;
+    stats:tackles 36 ;
+    stats:tacklesWon 20 ;
+    stats:touches 1520 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2002-06-27"^^xsd:date ;
+    schema:description """Jarrad Paul Branthwaite (born 27 June 2002) is an English professional footballer who plays as a centre-back for Premier League club Everton and the England under-21 national team.\r
+\r
+In November 2020, Branthwaite earned his first youth international call-up, being selected for the England U19 squad.\r
+\r
+In August 2021, Branthwaite received another international call-up, this time for the England U20 squad. On 6 September, Branthwaite made his debut for the U20s during a 6-1 victory over Romania U20s at St. George's Park.\r
+\r
+On 17 March 2023, Branthwaite received his first call up to the England U21s. On 14 June 2023, Branthwaite was included in the England squad for the 2023 UEFA European Under-21 Championship; a tournament the Young Lions ultimately went on to win."""@en ;
+    schema:height "195 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/mtxax11658176106.jpg"^^xsd:anyURI ;
+    schema:memberOf "Everton"^^xsd:string ;
+    schema:name "Jarrad Branthwaite"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "192 lbs"^^xsd:string .
+

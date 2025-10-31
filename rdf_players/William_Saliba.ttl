@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:William_Saliba a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q56868118> ;
+    foaf:account "www.instagram.com/w.saliba4/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/s2i55n1694203736.png"^^xsd:anyURI ;
+    foaf:name "William Saliba"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 154 ;
+    stats:blocks 25 ;
+    stats:carries 1756 ;
+    stats:clearances 119 ;
+    stats:dispossessed 8 ;
+    stats:errors 7 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 2.3 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 21 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 33.8 ;
+    stats:matchesPlayed 35 ;
+    stats:matchesStarted 35 ;
+    stats:minutesPlayed 3039 ;
+    stats:miscontrols 19 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 16 ;
+    stats:progressivePasses 138 ;
+    stats:progressivePassesReceived 6 ;
+    stats:rank 2311 ;
+    stats:redCards 1 ;
+    stats:tackles 62 ;
+    stats:tacklesWon 37 ;
+    stats:touches 2824 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2001-03-24"^^xsd:date ;
+    schema:description "William Alain André Gabriel Saliba (born 24 March 2001) is a French professional footballer who plays as a defender for English club Arsenal."@en ;
+    schema:height "1.92 m (6 ft 4 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/av91bd1724688954.jpg"^^xsd:anyURI ;
+    schema:memberOf "Arsenal"^^xsd:string ;
+    schema:name "William Saliba"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "203 lbs"^^xsd:string .
+

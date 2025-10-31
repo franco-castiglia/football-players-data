@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Conor_Chaplin a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18637246> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/5lqs6z1694893865.png"^^xsd:anyURI ;
+    foaf:name "Conor Chaplin"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 27 ;
+    stats:blocks 8 ;
+    stats:carries 179 ;
+    stats:clearances 3 ;
+    stats:dispossessed 5 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.7 ;
+    stats:expectedGoals 1.5 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 8 ;
+    stats:matches90s 9.5 ;
+    stats:matchesPlayed 22 ;
+    stats:matchesStarted 10 ;
+    stats:minutesPlayed 857 ;
+    stats:miscontrols 12 ;
+    stats:passesIntoPenaltyArea 7 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 13 ;
+    stats:progressivePasses 29 ;
+    stats:progressivePassesReceived 23 ;
+    stats:rank 529 ;
+    stats:redCards 0 ;
+    stats:tackles 15 ;
+    stats:tacklesWon 5 ;
+    stats:touches 390 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1997-02-16"^^xsd:date ;
+    schema:description """Conor Mark Chaplin is an English professional footballer who plays for EFL Championship club Portsmouth, On loan from Ipswich Town. \r
+Born in Worthing, Chaplin progressed through Portsmouth's youth categories after joining the club at the age of six. He was offered a two-year scholarship contract on 3 July 2013.\r
+Chaplin signed a two-year professional deal with Pompey on 20 October 2014, after scoring 11 goals in 11 appearances for the under-18's. He made his League Two debut on 13 December,"""@en ;
+    schema:height "1.68 m"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/4q15381512563764.jpg"^^xsd:anyURI ;
+    schema:memberOf "Portsmouth"^^xsd:string ;
+    schema:name "Conor Chaplin"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

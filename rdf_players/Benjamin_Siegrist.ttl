@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Benjamin_Siegrist a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q327649> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/nfibnh1758997678.png"^^xsd:anyURI ;
+    foaf:name "Benjamin Siegrist"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 2 ;
+    stats:blocks 0 ;
+    stats:carries 56 ;
+    stats:clearances 1 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 1.7 ;
+    stats:matchesPlayed 2 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 152 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 2409 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 79 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1992-01-31"^^xsd:date ;
+    schema:description """Benjamin Kevin Siegrist (born 31 January 1992) is a Swiss professional footballer who plays for FC Rapid București as a goalkeeper. \r
+ He was a member of the Switzerland squad at the 2012 Olympic Games in London and went on to represent the Swiss Under-21s. In 2009, Siegrist was part of his nation's FIFA U-17 World Cup winning side, during which he also received the competition's inaugural Golden Glove award for best goalkeeper. During seven years in the Aston Villa Academy Siegrist undertook a series of short-term loans to English Football League and Conference sides. After a spell in the Swiss Super League with Vaduz, Siegrist signed for Scottish club Dundee United in 2018.\r
+\r
+Siegrist has been part of Switzerland squads at U17, U18, U19, and U21 level. Siegrist won the 2009 FIFA U-17 World Cup in Nigeria with his nation: the goalkeeper was an integral part of the side that beat the hosts in the final and won the tournament's first Golden Glove award as a result. He was chosen as a backup goalkeeper for Switzerland's U21 squad at the 2011 UEFA European Under-21 Football Championship, but remained an unused substitute throughout the tournament as Switzerland lost 2–0 in the final to Spain. In 2012, Siegrist was chosen as a backup goalkeeper to Diego Benaglio for Pierluigi Tami's 18-man squad to represent Switzerland at the 2012 London Olympic Games."""@en ;
+    schema:height "1.94 m (6 ft 4 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/rqc77q1608386078.jpg"^^xsd:anyURI ;
+    schema:memberOf "Genoa"^^xsd:string ;
+    schema:name "Benjamin Siegrist"^^xsd:string ;
+    schema:nationality "Switzerland"^^xsd:string ;
+    schema:weight "185 lbs"^^xsd:string .
+

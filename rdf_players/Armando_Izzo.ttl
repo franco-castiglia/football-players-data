@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Armando_Izzo a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16234654> ;
+    foaf:account "twitter.com/armandoizzo1"^^xsd:anyURI,
+        "www.facebook.com/ArmandoIzzoreal/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/lim84c1679579567.png"^^xsd:anyURI ;
+    foaf:name "Armando Izzo"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 90 ;
+    stats:blocks 38 ;
+    stats:carries 1009 ;
+    stats:clearances 101 ;
+    stats:dispossessed 6 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.8 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 45 ;
+    stats:keyPasses 11 ;
+    stats:matches90s 27.1 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 28 ;
+    stats:minutesPlayed 2435 ;
+    stats:miscontrols 21 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 12 ;
+    stats:progressivePasses 72 ;
+    stats:progressivePassesReceived 12 ;
+    stats:rank 1232 ;
+    stats:redCards 0 ;
+    stats:tackles 40 ;
+    stats:tacklesWon 15 ;
+    stats:touches 1768 ;
+    stats:yellowCards 12 ;
+    schema:birthDate "1992-03-02"^^xsd:date ;
+    schema:description "Armando Izzo (born 2 March 1992) is an Italian professional footballer who plays as a centre-back for Monza, on loan from Serie A club Torino."@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/r0xr001546356802.jpg"^^xsd:anyURI ;
+    schema:memberOf "Monza"^^xsd:string ;
+    schema:name "Armando Izzo"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

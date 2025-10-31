@@ -1,0 +1,63 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Kylian_Mbappe a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q21621995> ;
+    foaf:account "twitter.com/KMbappe"^^xsd:anyURI,
+        "www.facebook.com/kylianmbappeofficiel"^^xsd:anyURI,
+        "www.instagram.com/k.mbappe/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/h9u9vz1733653583.png"^^xsd:anyURI ;
+    foaf:name "Kylian Mbappé"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 36 ;
+    stats:blocks 3 ;
+    stats:carries 1065 ;
+    stats:clearances 1 ;
+    stats:dispossessed 49 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 7.7 ;
+    stats:expectedGoals 25.9 ;
+    stats:goals 31 ;
+    stats:goalsNonPenalty 24 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 51 ;
+    stats:matches90s 32.3 ;
+    stats:matchesPlayed 34 ;
+    stats:matchesStarted 34 ;
+    stats:minutesPlayed 2907 ;
+    stats:miscontrols 84 ;
+    stats:passesIntoPenaltyArea 52 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 3 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 150 ;
+    stats:progressivePasses 140 ;
+    stats:progressivePassesReceived 386 ;
+    stats:rank 1692 ;
+    stats:redCards 1 ;
+    stats:tackles 8 ;
+    stats:tacklesWon 5 ;
+    stats:touches 1572 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1998-12-20"^^xsd:date ;
+    schema:description """Kylian Mbappé Lottin (born 20 December 1998) is a French professional footballer who plays as a forward for La Liga club Real Madrid and captains the France national team. Regarded as one of the best players in the world and of his generation, he is known for his dribbling, finishing, and speed.\r
+\r
+Born in Paris and raised in nearby Bondy, Mbappé began his senior club career in 2015 with Monaco, where he won the Ligue 1 title in the 2016–17 season. In 2017, aged 18, Mbappé signed for Paris Saint-Germain on an eventual permanent transfer worth €180 million, making him the second-most-expensive player and most expensive teenage player of all time. With PSG, he won six Ligue 1 titles and four Coupes de France, including a domestic quadruple in the 2019–20 season, while also leading the club to its first ever UEFA Champions League final in 2020. He is the club's all-time top goalscorer, ranks third in assists, and is the seventh-highest goalscorer in Ligue 1 history. In 2024, after several years of speculation, Mbappé joined Real Madrid on a free transfer. He won the UEFA Super Cup and the FIFA Intercontinental Cup in the first half of his debut season, scoring in both finals.\r
+\r
+At international level, Mbappé made his senior debut for France in 2017, at age of 18. At the 2018 FIFA World Cup, Mbappé became the youngest French player to score at a World Cup, as well as the second teenager, after Pelé, to score in a World Cup final. He finished as the joint second-highest goalscorer as France won the tournament; he went on to win the FIFA World Cup Best Young Player and French Player of the Year awards for his performances. He also helped France to victory in the UEFA Nations League in 2021, receiving the top scorer award in the finals. At the 2022 FIFA World Cup, France reached the final again; Mbappé won the Golden Boot and Silver Ball and set the record for the most goals scored in World Cup final matches by scoring a hat-trick. Mbappé is one of only two players to have scored in two consecutive World Cup finals (the other being Brazil's Vavá in 1958 and 1962).\r
+\r
+Mbappé finished in third place for the 2023 Ballon d'Or and was runner-up for the 2022 The Best FIFA Men's Player award. He was named to the FIFA FIFPro World11 in 2018, 2019, 2022 and 2023, the UEFA Team of the Year in 2018 and the UEFA Champions League Squad of the Season in 2016–17, 2019–20, 2020–21 and 2021–22. He was awarded the Golden Boy in 2017, the Kopa Trophy in 2018, and was shortlisted for the Laureus World Sportsman of the Year in 2019 and 2023. Mbappé has been named Ligue 1 Player of the Year a record five times, and has finished as the Ligue 1 top scorer for a record six seasons; in the 2021–22 season, he became the first player to finish as both Ligue 1 top scorer and top assist provider. In 2023, he was named as one of the Time's 100 most influential people in the world, and was ranked third on the Forbes list of the world's highest-paid athletes."""@en ;
+    schema:height "1.78 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/buf4j51723707431.jpg"^^xsd:anyURI ;
+    schema:memberOf "Real Madrid"^^xsd:string ;
+    schema:name "Kylian Mbappé"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "163 lb (74 kg)"^^xsd:string .
+

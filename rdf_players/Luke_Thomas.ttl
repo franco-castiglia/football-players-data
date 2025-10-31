@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Luke_Thomas a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/xc24ue1725451983.png"^^xsd:anyURI ;
+    foaf:name "Luke Thomas"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 42 ;
+    stats:blocks 15 ;
+    stats:carries 371 ;
+    stats:clearances 49 ;
+    stats:dispossessed 4 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 21 ;
+    stats:keyPasses 9 ;
+    stats:matches90s 12.3 ;
+    stats:matchesPlayed 14 ;
+    stats:matchesStarted 13 ;
+    stats:minutesPlayed 1110 ;
+    stats:miscontrols 12 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:progressiveCarries 5 ;
+    stats:progressivePasses 37 ;
+    stats:progressivePassesReceived 16 ;
+    stats:rank 2588 ;
+    stats:redCards 0 ;
+    stats:tackles 31 ;
+    stats:tacklesWon 25 ;
+    stats:touches 775 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2001-06-10"^^xsd:date ;
+    schema:description """Luke Jonathan Thomas (born 10 June 2001) is an English professional footballer who plays as a left-back or left wing-back for Premier League club Leicester City. \r
+\r
+Club career\r
+Thomas was born in Syston, Leicestershire and joined the Leicester City Academy in 2008 from local club Riverside FC. He made his professional debut in a 2–0 Premier League win against Sheffield United on 16 July 2020. He came on as a result of an injury to first team left back Ben Chilwell, providing an assist for the first goal, which was scored by Ayoze Pérez. On the 25th August, it was announced that he had signed a new long term deal with the club. On 29 October, Thomas made his European debut in the UEFA Europa League during a 2–1 win over AEK Athens replacing Christian Fuchs in 46th minute. On 26 November, Thomas scored his first Leicester goal in a 3–3 away draw against Braga in the group stage of the Europa League. On 11 May 2021, he scored his first Premier League goal for Leicester City in a 2–1 away victory over Manchester United, to be their first win at Old Trafford since 1998.\r
+\r
+International career\r
+Having represented England at U18 and U19 level, Thomas made his England U20 debut during a 2–0 victory over Wales at St. George's Park on 13 October 2020."""@en ;
+    schema:height "181 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/549ih51629228339.jpg"^^xsd:anyURI ;
+    schema:memberOf "Leicester"^^xsd:string ;
+    schema:name "Luke Thomas"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "157 lbs"^^xsd:string .
+

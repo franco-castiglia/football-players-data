@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Sergio_Carreira a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q100529585> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/n22ijk1724495042.png"^^xsd:anyURI ;
+    foaf:name "Sergio Carreira"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 66 ;
+    stats:blocks 20 ;
+    stats:carries 571 ;
+    stats:clearances 37 ;
+    stats:dispossessed 14 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 3.1 ;
+    stats:expectedGoals 0.6 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 17 ;
+    stats:keyPasses 16 ;
+    stats:matches90s 18.4 ;
+    stats:matchesPlayed 23 ;
+    stats:matchesStarted 19 ;
+    stats:minutesPlayed 1656 ;
+    stats:miscontrols 16 ;
+    stats:passesIntoPenaltyArea 24 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 39 ;
+    stats:progressivePasses 53 ;
+    stats:progressivePassesReceived 140 ;
+    stats:rank 492 ;
+    stats:redCards 0 ;
+    stats:tackles 28 ;
+    stats:tacklesWon 16 ;
+    stats:touches 1057 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2000-10-13"^^xsd:date ;
+    schema:description "Sergio Carreira Vilariño (born 13 October 2000) is a Spanish footballer who plays as a right-back for Celta de Vigo."@en ;
+    schema:height "1.70 m (5 ft 7 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/p7hl8y1603553273.jpg"^^xsd:anyURI ;
+    schema:memberOf "Celta Vigo"^^xsd:string ;
+    schema:name "Sergio Carreira"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

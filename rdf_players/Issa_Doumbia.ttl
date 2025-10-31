@@ -1,0 +1,52 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Issa_Doumbia a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q129243520> ;
+    foaf:name "Issa Doumbia"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 45 ;
+    stats:blocks 17 ;
+    stats:carries 219 ;
+    stats:clearances 14 ;
+    stats:dispossessed 18 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 1.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 9 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 10.4 ;
+    stats:matchesPlayed 24 ;
+    stats:matchesStarted 10 ;
+    stats:minutesPlayed 939 ;
+    stats:miscontrols 25 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 12 ;
+    stats:progressivePasses 22 ;
+    stats:progressivePassesReceived 29 ;
+    stats:rank 780 ;
+    stats:redCards 0 ;
+    stats:tackles 14 ;
+    stats:tacklesWon 8 ;
+    stats:touches 401 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2003-10-16"^^xsd:date ;
+    schema:description "Issa Doumbia (born 16 October 2003) is an Italian footballer who plays as a midfielder for Serie A club Venezia."@en ;
+    schema:height "6' 2\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/2xp31t1741955337.jpg"^^xsd:anyURI ;
+    schema:memberOf "Venezia"^^xsd:string ;
+    schema:name "Issa Doumbia"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

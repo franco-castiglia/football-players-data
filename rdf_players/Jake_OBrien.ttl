@@ -1,0 +1,65 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jake_OBrien a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q110565461> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/kmms951756976459.png"^^xsd:anyURI ;
+    foaf:name "Jake O'Brien"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 52 ;
+    stats:blocks 17 ;
+    stats:carries 391 ;
+    stats:clearances 93 ;
+    stats:dispossessed 5 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.6 ;
+    stats:expectedGoals 0.8 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 17.5 ;
+    stats:matchesPlayed 20 ;
+    stats:matchesStarted 17 ;
+    stats:minutesPlayed 1571 ;
+    stats:miscontrols 5 ;
+    stats:passesIntoPenaltyArea 8 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 7 ;
+    stats:progressivePasses 50 ;
+    stats:progressivePassesReceived 25 ;
+    stats:rank 1934 ;
+    stats:redCards 0 ;
+    stats:tackles 26 ;
+    stats:tacklesWon 17 ;
+    stats:touches 900 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "2001-05-15"^^xsd:date ;
+    schema:description """Jake O'Brien (born 15 May 2001) is an Irish professional footballer who plays as a centre-back for Premier League club Everton and the Republic of Ireland national team. \r
+Early life\r
+Born in County Cork, O'Brien grew up in Youghal, and in his youth also boxed and played hurling, winning national championships in both at Under-14s level.\r
+\r
+Club career\r
+O'Brien played for Cork City before moving on loan to English club Crystal Palace in February 2021, with the move made permanent in August 2021. He appeared for the Under-23 team at Palace, including in the EFL Trophy. He moved on loan to Swindon Town in January 2022, playing a total of 21 games.\r
+\r
+In August 2022, O'Brien was loaned to Belgian club RWD Molenbeek, along with teammate Luke Plange, for the 2022–23 season. RWD Molenbeek qualified for the 2022-23 Challenger Pro League promotion play-offs in his first season with the club, holding a one-point lead over Beveren with two games remaining. O'Brien won the first trophy of his career as Molenbeek clinched the division.\r
+\r
+In August 2023 he signed for French club Lyon, making his Ligue 1 debut on 1 October 2023. In doing so he became the first Irishman to play in Ligue 1 since 2000.\r
+\r
+International career\r
+He has represented Ireland at under-21 level, making 11 appearances between 2021 and 2022."""@en ;
+    schema:height "197 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/4mqduq1702910086.jpg"^^xsd:anyURI ;
+    schema:memberOf "Everton"^^xsd:string ;
+    schema:name "Jake O'Brien"^^xsd:string ;
+    schema:nationality "Ireland"^^xsd:string ;
+    schema:weight "203 lbs"^^xsd:string .
+

@@ -1,0 +1,50 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Giovanni_Leoni a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q126361834> ;
+    foaf:name "Giovanni Leoni"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 34 ;
+    stats:blocks 20 ;
+    stats:carries 449 ;
+    stats:clearances 63 ;
+    stats:dispossessed 2 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 15 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 13.3 ;
+    stats:matchesPlayed 17 ;
+    stats:matchesStarted 14 ;
+    stats:minutesPlayed 1199 ;
+    stats:miscontrols 6 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 21 ;
+    stats:progressivePassesReceived 5 ;
+    stats:rank 1479 ;
+    stats:redCards 1 ;
+    stats:tackles 14 ;
+    stats:tacklesWon 6 ;
+    stats:touches 774 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2006-12-21"^^xsd:date ;
+    schema:height "189 cm"^^xsd:string ;
+    schema:memberOf "Liverpool"^^xsd:string ;
+    schema:name "Giovanni Leoni"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

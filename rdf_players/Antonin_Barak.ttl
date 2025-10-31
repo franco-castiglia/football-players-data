@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Antonin_Barak a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q21293144> ;
+    foaf:account "www.instagram.com/antoninbarak/?hl=en"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/a8lumc1697893812.png"^^xsd:anyURI ;
+    foaf:name "Antonin Barak"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 2 ;
+    stats:blocks 1 ;
+    stats:carries 20 ;
+    stats:clearances 0 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 0.6 ;
+    stats:matchesPlayed 1 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 54 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 2 ;
+    stats:progressivePassesReceived 5 ;
+    stats:rank 235 ;
+    stats:redCards 0 ;
+    stats:tackles 2 ;
+    stats:tacklesWon 0 ;
+    stats:touches 25 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1994-12-03"^^xsd:date ;
+    schema:description "Antonín Barák (born 3 December 1994) is a professional Czech football midfielder who plays for Serie A side Fiorentina on loan from Verona and the Czech Republic national team."@en ;
+    schema:height "1.90 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/57gkrn1546517192.jpg"^^xsd:anyURI ;
+    schema:memberOf "Sampdoria"^^xsd:string ;
+    schema:name "Antonin Barak"^^xsd:string ;
+    schema:nationality "Czechia"^^xsd:string ;
+    schema:weight "190 lbs"^^xsd:string .
+

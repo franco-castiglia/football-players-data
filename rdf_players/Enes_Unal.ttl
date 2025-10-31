@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Enes_Unal a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q14637461> ;
+    foaf:account "twitter.com/enesunal16"^^xsd:anyURI,
+        "www.facebook.com/EnesUnal16"^^xsd:anyURI,
+        "www.instagram.com/enesunal16"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/wfcb6f1757018832.png"^^xsd:anyURI ;
+    foaf:name "Enes Unal"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 16 ;
+    stats:blocks 1 ;
+    stats:carries 91 ;
+    stats:clearances 6 ;
+    stats:dispossessed 13 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.4 ;
+    stats:expectedGoals 2.7 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 3.8 ;
+    stats:matchesPlayed 17 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 345 ;
+    stats:miscontrols 17 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 4 ;
+    stats:progressivePasses 12 ;
+    stats:progressivePassesReceived 22 ;
+    stats:rank 2649 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 0 ;
+    stats:touches 172 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1997-05-10"^^xsd:date ;
+    schema:description """Enes Ünal (born 10 May 1997) is a Turkish professional footballer who plays as a forward for Premier League club Bournemouth, on loan from La Liga club Getafe, and the Turkey national team. \r
+ He scored on his Süper Lig debut on 25 August 2013 for Bursaspor against Galatasaray, making him the youngest player to net in Turkey's top division. An international at several youth levels, he earned his first senior cap on 31 March 2015 in a friendly against Luxembourg."""@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/xxrxxu1469438415.jpg"^^xsd:anyURI ;
+    schema:memberOf "Bournemouth"^^xsd:string ;
+    schema:name "Enes Unal"^^xsd:string ;
+    schema:nationality "Turkey"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

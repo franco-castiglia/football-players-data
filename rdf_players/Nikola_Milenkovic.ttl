@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Nikola_Milenkovic a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q23887939> ;
+    foaf:account "www.instagram.com/milenkovicn_4/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/5vd1n81757163144.png"^^xsd:anyURI ;
+    foaf:name "Nikola Milenković"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 85 ;
+    stats:blocks 41 ;
+    stats:carries 547 ;
+    stats:clearances 209 ;
+    stats:dispossessed 2 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.1 ;
+    stats:expectedGoals 4.0 ;
+    stats:goals 5 ;
+    stats:goalsNonPenalty 5 ;
+    stats:interceptions 27 ;
+    stats:keyPasses 9 ;
+    stats:matches90s 37.0 ;
+    stats:matchesPlayed 37 ;
+    stats:matchesStarted 37 ;
+    stats:minutesPlayed 3330 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 3 ;
+    stats:progressivePasses 51 ;
+    stats:progressivePassesReceived 6 ;
+    stats:rank 1742 ;
+    stats:redCards 0 ;
+    stats:tackles 51 ;
+    stats:tacklesWon 29 ;
+    stats:touches 1412 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1997-10-12"^^xsd:date ;
+    schema:description "Nikola Milenković (Serbian Cyrillic: Никола Миленковић, bborn 12 October 1997) is a Serbian professional footballer who plays as a centre-back for Premier League club Nottingham Forest and the Serbia national team."@en ;
+    schema:height "1.95 m (6 ft 5 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/0gm3aj1716962930.jpg"^^xsd:anyURI ;
+    schema:memberOf "Nottingham Forest"^^xsd:string ;
+    schema:name "Nikola Milenković"^^xsd:string ;
+    schema:nationality "Serbia"^^xsd:string ;
+    schema:weight "196 lbs"^^xsd:string .
+

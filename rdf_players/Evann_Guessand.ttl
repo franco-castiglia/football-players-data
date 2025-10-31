@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Evann_Guessand a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q98593672> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ylikcz1756901500.png"^^xsd:anyURI ;
+    foaf:name "Evann Guessand"^^xsd:string ;
+    stats:assists 8 ;
+    stats:ballRecoveries 98 ;
+    stats:blocks 27 ;
+    stats:carries 581 ;
+    stats:clearances 16 ;
+    stats:dispossessed 71 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 5.4 ;
+    stats:expectedGoals 9.2 ;
+    stats:goals 12 ;
+    stats:goalsNonPenalty 12 ;
+    stats:interceptions 15 ;
+    stats:keyPasses 32 ;
+    stats:matches90s 28.5 ;
+    stats:matchesPlayed 33 ;
+    stats:matchesStarted 30 ;
+    stats:minutesPlayed 2565 ;
+    stats:miscontrols 75 ;
+    stats:passesIntoPenaltyArea 27 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 87 ;
+    stats:progressivePasses 79 ;
+    stats:progressivePassesReceived 162 ;
+    stats:rank 1084 ;
+    stats:redCards 0 ;
+    stats:tackles 44 ;
+    stats:tacklesWon 29 ;
+    stats:touches 926 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2001-07-01"^^xsd:date ;
+    schema:description """Evann Ludovic Vidjannagni Guessand is a professional footballer who plays as a forward for Premier League club Aston Villa. \r
+\r
+Guessand made his professional debut for Nice in a 2–0 Coupe de France win over Fréjus Saint-Raphaël on 5 January 2020.\r
+\r
+On 12 July 2022, Guessand joined Ligue 1 club Nantes on a season-long loan. He scored his first goal for the club in a 3–1 league win over Toulouse on 28 August. On 8 September, on his UEFA Europa League debut, Guessand scored the winning goal for Nantes in the final minutes of a 2–1 home victory over Olympiacos."""@en ;
+    schema:height "185 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/g1s4fu1674741996.jpg"^^xsd:anyURI ;
+    schema:memberOf "Aston Villa"^^xsd:string ;
+    schema:name "Evann Guessand"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

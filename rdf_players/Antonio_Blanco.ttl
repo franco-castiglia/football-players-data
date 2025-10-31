@@ -1,0 +1,51 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Antonio_Blanco a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/im9nd21724491858.png"^^xsd:anyURI ;
+    foaf:name "Antonio Blanco"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 164 ;
+    stats:blocks 30 ;
+    stats:carries 762 ;
+    stats:clearances 48 ;
+    stats:dispossessed 26 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.6 ;
+    stats:expectedGoals 0.8 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 42 ;
+    stats:keyPasses 15 ;
+    stats:matches90s 30.3 ;
+    stats:matchesPlayed 35 ;
+    stats:matchesStarted 32 ;
+    stats:minutesPlayed 2727 ;
+    stats:miscontrols 29 ;
+    stats:passesIntoPenaltyArea 19 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:progressiveCarries 13 ;
+    stats:progressivePasses 146 ;
+    stats:progressivePassesReceived 19 ;
+    stats:rank 345 ;
+    stats:redCards 1 ;
+    stats:tackles 67 ;
+    stats:tacklesWon 40 ;
+    stats:touches 1543 ;
+    stats:yellowCards 11 ;
+    schema:birthDate "2000-07-23"^^xsd:date ;
+    schema:description "Abdelkabir \"Abdel\" Abqar (born 10 March 1999) is a Moroccan footballer who plays for La Liga club Deportivo Alavés as a centre-back."@en ;
+    schema:height "1.76 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/me7xhi1619945141.jpg"^^xsd:anyURI ;
+    schema:memberOf "Alaves"^^xsd:string ;
+    schema:name "Antonio Blanco"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

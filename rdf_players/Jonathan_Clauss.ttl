@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jonathan_Clauss a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q41932444> ;
+    foaf:account "www.instagram.com/djoninho25/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/08q8c51731084351.png"^^xsd:anyURI ;
+    foaf:name "Jonathan Clauss"^^xsd:string ;
+    stats:assists 8 ;
+    stats:ballRecoveries 114 ;
+    stats:blocks 25 ;
+    stats:carries 747 ;
+    stats:clearances 68 ;
+    stats:dispossessed 8 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 7.7 ;
+    stats:expectedGoals 2.2 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 48 ;
+    stats:keyPasses 55 ;
+    stats:matches90s 25.6 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 27 ;
+    stats:minutesPlayed 2303 ;
+    stats:miscontrols 36 ;
+    stats:passesIntoPenaltyArea 47 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 53 ;
+    stats:progressivePasses 105 ;
+    stats:progressivePassesReceived 160 ;
+    stats:rank 572 ;
+    stats:redCards 0 ;
+    stats:tackles 52 ;
+    stats:tacklesWon 35 ;
+    stats:touches 1675 ;
+    stats:yellowCards 7 ;
+    schema:birthDate "1992-09-25"^^xsd:date ;
+    schema:description "Jonathan Clauss (born 25 September 1992) is a French professional footballer who plays as a right-back for Ligue 1 club Marseille and the France national team."@en ;
+    schema:height "1.78 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/kh6hty1608328774.jpg"^^xsd:anyURI ;
+    schema:memberOf "Nice"^^xsd:string ;
+    schema:name "Jonathan Clauss"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

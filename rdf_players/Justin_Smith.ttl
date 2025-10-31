@@ -1,0 +1,46 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Justin_Smith a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    foaf:name "Justin Smith"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 8 ;
+    stats:blocks 5 ;
+    stats:carries 41 ;
+    stats:clearances 3 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 2.3 ;
+    stats:matchesPlayed 5 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 209 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 4 ;
+    stats:progressivePasses 6 ;
+    stats:progressivePassesReceived 7 ;
+    stats:rank 2457 ;
+    stats:redCards 0 ;
+    stats:tackles 9 ;
+    stats:tacklesWon 3 ;
+    stats:touches 95 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2003-04-11"^^xsd:date ;
+    schema:memberOf "_Free Agent Soccer"^^xsd:string ;
+    schema:name "Justin Smith"^^xsd:string ;
+    schema:nationality "British Virgin Islands"^^xsd:string .
+

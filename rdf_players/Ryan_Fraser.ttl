@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ryan_Fraser a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q44527> ;
+    foaf:account "twitter.com/RyanFraser94"^^xsd:anyURI,
+        "www.instagram.com/Ryanfraser94"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/jmlild1725550374.png"^^xsd:anyURI ;
+    foaf:name "Ryan Fraser"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 10 ;
+    stats:blocks 1 ;
+    stats:carries 74 ;
+    stats:clearances 9 ;
+    stats:dispossessed 2 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 3.4 ;
+    stats:matchesPlayed 8 ;
+    stats:matchesStarted 4 ;
+    stats:minutesPlayed 306 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:progressiveCarries 10 ;
+    stats:progressivePasses 8 ;
+    stats:progressivePassesReceived 18 ;
+    stats:rank 933 ;
+    stats:redCards 1 ;
+    stats:tackles 6 ;
+    stats:tacklesWon 2 ;
+    stats:touches 131 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1994-02-24"^^xsd:date ;
+    schema:description """Ryan Fraser (born 24 February 1994) is a Scottish professional footballer who plays as a left winger for EFL Championship club Southampton and the Scotland national team. \r
+He has previously played for Aberdeen, AFC Bournemouth and Ipswich Town. He represented the Scotland under-19 and under-21 team, and made his full international debut in June 2017."""@en ;
+    schema:height "5 ft 4 in (1.63 m)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/utrvyt1469484300.jpg"^^xsd:anyURI ;
+    schema:memberOf "Southampton"^^xsd:string ;
+    schema:name "Ryan Fraser"^^xsd:string ;
+    schema:nationality "Scotland"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Exequiel_Palacios a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q19345715> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/oby41y1756316369.png"^^xsd:anyURI ;
+    foaf:name "Exequiel Palacios"^^xsd:string ;
+    stats:assists 6 ;
+    stats:ballRecoveries 76 ;
+    stats:blocks 14 ;
+    stats:carries 660 ;
+    stats:clearances 15 ;
+    stats:dispossessed 20 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 2.3 ;
+    stats:expectedGoals 1.5 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 13 ;
+    stats:keyPasses 28 ;
+    stats:matches90s 12.8 ;
+    stats:matchesPlayed 24 ;
+    stats:matchesStarted 11 ;
+    stats:minutesPlayed 1155 ;
+    stats:miscontrols 17 ;
+    stats:passesIntoPenaltyArea 19 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 15 ;
+    stats:progressivePasses 97 ;
+    stats:progressivePassesReceived 40 ;
+    stats:rank 2024 ;
+    stats:redCards 0 ;
+    stats:tackles 22 ;
+    stats:tacklesWon 15 ;
+    stats:touches 1144 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1998-10-05"^^xsd:date ;
+    schema:description "Exequiel Alejandro Palacios (5 October 1998) is an Argentine footballer who plays as a midfielder for Bayer Leverkusen and the Argentina national team."@en ;
+    schema:height "1.77 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/7950t21585495385.jpg"^^xsd:anyURI ;
+    schema:memberOf "Bayer Leverkusen"^^xsd:string ;
+    schema:name "Exequiel Palacios"^^xsd:string ;
+    schema:nationality "Argentina"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

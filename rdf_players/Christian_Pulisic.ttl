@@ -1,0 +1,63 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Christian_Pulisic a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q22279773> ;
+    foaf:account "http://twitter.com/cpulisic_10"^^xsd:anyURI,
+        "http://www.facebook.com/cmpulisic/"^^xsd:anyURI,
+        "http://www.instagram.com/cmpulisic"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/qwii9r1758893548.png"^^xsd:anyURI ;
+    foaf:name "Christian Pulisic"^^xsd:string ;
+    stats:assists 9 ;
+    stats:ballRecoveries 94 ;
+    stats:blocks 24 ;
+    stats:carries 859 ;
+    stats:clearances 13 ;
+    stats:dispossessed 40 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 6.4 ;
+    stats:expectedGoals 12.0 ;
+    stats:goals 11 ;
+    stats:goalsNonPenalty 8 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 69 ;
+    stats:matches90s 27.5 ;
+    stats:matchesPlayed 34 ;
+    stats:matchesStarted 29 ;
+    stats:minutesPlayed 2478 ;
+    stats:miscontrols 57 ;
+    stats:passesIntoPenaltyArea 35 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 121 ;
+    stats:progressivePasses 105 ;
+    stats:progressivePassesReceived 191 ;
+    stats:rank 2157 ;
+    stats:redCards 0 ;
+    stats:tackles 43 ;
+    stats:tacklesWon 29 ;
+    stats:touches 1367 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1998-09-18"^^xsd:date ;
+    schema:description """Christian Mate Pulisic (/ˈmɑːteɪ pəˈlɪsɪk, ˈpʊlɪʃɪtʃ/; Croatian: Pulišić, pronounced ; born September 18, 1998) is an American professional soccer player who plays as a winger or an attacking midfielder for Italian Serie A club Milan and the United States national team. Due to his high level of play along with his nationality, he has been given the nickname "Captain America" by fans and other players.\r
+\r
+Pulisic began his professional career at German club Borussia Dortmund, where, after fast progression through the team's youth academy, in which he featured in only 15 youth games, he was promoted to the senior team in 2016, at age 17. He featured sparingly in his first season at the club, but his involvement increased dramatically in the following campaign, where he was a mainstay in the Dortmund team that won the 2016–17 DFB-Pokal. In 2018, he finished second in the inaugural Kopa Trophy, given to the best player under age 21.\r
+\r
+In January 2019, Pulisic moved to Chelsea in a transfer worth $73 million (£57.6 million), making him the most expensive North American player of all time, and began playing for the club in the 2019–20 season.\r
+\r
+Pulisic has scored 16 goals in 38 games as a United States international player. He has appeared and scored at every youth level and made his senior team debut in March 2016 at age 17. He is the youngest player ever to captain the United States national team in the modern era. He helped the U.S. to the final of the 2019 CONCACAF Gold Cup, and has won a U.S. Soccer Young Male Athlete of the Year award, two U.S. Soccer Male Athlete of the Year awards, and a UEFA Champions League winners medal."""@en ;
+    schema:height "178cm / 5'10\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/40pxda1669799830.jpg"^^xsd:anyURI ;
+    schema:memberOf "AC Milan"^^xsd:string ;
+    schema:name "Christian Pulisic"^^xsd:string ;
+    schema:nationality "United States"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

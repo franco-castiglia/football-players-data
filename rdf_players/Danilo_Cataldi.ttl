@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Danilo_Cataldi a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q15951287> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/6gaeg81698231313.png"^^xsd:anyURI ;
+    foaf:name "Danilo Cataldi"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 114 ;
+    stats:blocks 17 ;
+    stats:carries 657 ;
+    stats:clearances 35 ;
+    stats:dispossessed 7 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.8 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 22 ;
+    stats:keyPasses 15 ;
+    stats:matches90s 19.0 ;
+    stats:matchesPlayed 24 ;
+    stats:matchesStarted 22 ;
+    stats:minutesPlayed 1712 ;
+    stats:miscontrols 13 ;
+    stats:passesIntoPenaltyArea 10 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 18 ;
+    stats:progressivePasses 90 ;
+    stats:progressivePassesReceived 16 ;
+    stats:rank 513 ;
+    stats:redCards 0 ;
+    stats:tackles 25 ;
+    stats:tacklesWon 16 ;
+    stats:touches 1147 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1994-08-06"^^xsd:date ;
+    schema:description "Danilo Cataldi (born 6 August 1994) is an Italian professional footballer who plays as a central midfielder for Serie A club Fiorentina, on loan from Lazio."@en ;
+    schema:height "1.80 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/z09t6e1546545279.jpg"^^xsd:anyURI ;
+    schema:memberOf "Lazio"^^xsd:string ;
+    schema:name "Danilo Cataldi"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

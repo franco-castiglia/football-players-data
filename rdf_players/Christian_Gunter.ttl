@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Christian_Gunter a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2668870> ;
+    foaf:account "www.instagram.com/cg30/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/zammgp1742060170.png"^^xsd:anyURI ;
+    foaf:name "Christian Gunter"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 61 ;
+    stats:blocks 24 ;
+    stats:carries 559 ;
+    stats:clearances 50 ;
+    stats:dispossessed 4 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 2.5 ;
+    stats:expectedGoals 0.8 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 28 ;
+    stats:matches90s 25.7 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 27 ;
+    stats:minutesPlayed 2314 ;
+    stats:miscontrols 15 ;
+    stats:passesIntoPenaltyArea 30 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:progressiveCarries 19 ;
+    stats:progressivePasses 52 ;
+    stats:progressivePassesReceived 109 ;
+    stats:rank 1101 ;
+    stats:redCards 0 ;
+    stats:tackles 23 ;
+    stats:tacklesWon 21 ;
+    stats:touches 1304 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1993-02-28"^^xsd:date ;
+    schema:description "Christian Günter (born 28 February 1993) is a German footballer who plays as a left-back for SC Freiburg."@en ;
+    schema:height "1.84 m (6 ft 1⁄2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/a4eyti1578087810.jpg"^^xsd:anyURI ;
+    schema:memberOf "Freiburg"^^xsd:string ;
+    schema:name "Christian Gunter"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

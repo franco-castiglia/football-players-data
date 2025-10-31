@@ -1,0 +1,63 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Leandro_Trossard a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6509762> ;
+    foaf:account "www.instagram.com/leandrotrossard/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/acjcp01694204201.png"^^xsd:anyURI ;
+    foaf:name "Leandro Trossard"^^xsd:string ;
+    stats:assists 7 ;
+    stats:ballRecoveries 104 ;
+    stats:blocks 32 ;
+    stats:carries 828 ;
+    stats:clearances 18 ;
+    stats:dispossessed 52 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 6.1 ;
+    stats:expectedGoals 7.2 ;
+    stats:goals 8 ;
+    stats:goalsNonPenalty 8 ;
+    stats:interceptions 9 ;
+    stats:keyPasses 41 ;
+    stats:matches90s 28.3 ;
+    stats:matchesPlayed 38 ;
+    stats:matchesStarted 28 ;
+    stats:minutesPlayed 2546 ;
+    stats:miscontrols 66 ;
+    stats:passesIntoPenaltyArea 48 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 80 ;
+    stats:progressivePasses 101 ;
+    stats:progressivePassesReceived 226 ;
+    stats:rank 2635 ;
+    stats:redCards 1 ;
+    stats:tackles 31 ;
+    stats:tacklesWon 20 ;
+    stats:touches 1278 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1994-12-04"^^xsd:date ;
+    schema:description """Leandro Trossard (born 4 December 1994) is a Belgian professional footballer who plays for Premier League club Arsenal and the Belgium national team. Trossard is a Genk youth academy product.\r
+\r
+Trossard has been called up to the Belgium national football team on multiple occasions. Roberto Martinez first named him in the Belgium squad in September 2018, again one month later when Trossard had to withdraw through injury, Trossard remained on the bench again in March 2019. He made his debut on 5 September 2020 in a Nations League game against Denmark, he substituted Dries Mertens in the 80th minute of the 2–0 away victory. On his first international start, Trossard scored his first goal for his country also adding a second in an 8–0 crushing of Belarus in a 2022 World Cup qualifier on 30 March 2021.\r
+\r
+Trossard was named in Belgium's 26-man squad for Euro 2020 on 17 May 2021, with the tournament taken place in the summer of 2021 due to the previous year's postponement as a result of Coronavirus. He made his first appearance of the tournament in Belgium's final group match against Finland on 21 June with Belgium already through to the knockouts. Trossard started the match later being replaced by Thomas Meunier in the 75th minute of the 2–0 victory at the Krestovsky Stadium in Saint Petersburg that secured the Belgian's top spot of Group B. This turned out to be his only game as Belgium were knocked out by Italy in the quarter-final after a 2–1 defeat at the Allianz Arena in Munich on 2 July.\r
+\r
+In October 2021, Trossard was a part of Belgium's squad for the UEFA Nations League Finals in Italy. He made two substitute appearances where Belgium lost to France in the semi-final and losing again to Italy in the third-place match to come fourth.\r
+\r
+In an international friendly at home against Burkina Faso on 29 March 2022, Trossard scored his third goal for his country, where he also assisted Hans Vanaken's and Christian Benteke's goals in the 3–0 Belgium win. On 8 June, he scored his second international brace in the 6–1 home thrashing over Poland in the UEFA Nations League."""@en ;
+    schema:height "172 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/2ledb81705918706.jpg"^^xsd:anyURI ;
+    schema:memberOf "Arsenal"^^xsd:string ;
+    schema:name "Leandro Trossard"^^xsd:string ;
+    schema:nationality "Belgium"^^xsd:string ;
+    schema:weight "132 lbs"^^xsd:string .
+

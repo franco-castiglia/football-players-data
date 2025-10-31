@@ -1,0 +1,63 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Frenkie_de_Jong a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q19898898> ;
+    foaf:account "twitter.com/DeJongFrenkie21"^^xsd:anyURI,
+        "www.facebook.com/DeJongFrenkie21"^^xsd:anyURI,
+        "www.instagram.com/frenkiedejong/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/b8k6611726510284.png"^^xsd:anyURI ;
+    foaf:name "Frenkie de Jong"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 57 ;
+    stats:blocks 9 ;
+    stats:carries 815 ;
+    stats:clearances 7 ;
+    stats:dispossessed 7 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 2.0 ;
+    stats:expectedGoals 0.7 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 12 ;
+    stats:keyPasses 21 ;
+    stats:matches90s 12.7 ;
+    stats:matchesPlayed 26 ;
+    stats:matchesStarted 9 ;
+    stats:minutesPlayed 1143 ;
+    stats:miscontrols 5 ;
+    stats:passesIntoPenaltyArea 12 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 36 ;
+    stats:progressivePasses 120 ;
+    stats:progressivePassesReceived 24 ;
+    stats:rank 1275 ;
+    stats:redCards 0 ;
+    stats:tackles 19 ;
+    stats:tacklesWon 11 ;
+    stats:touches 1226 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1997-05-12"^^xsd:date ;
+    schema:description """Frenkie de Jong (born 12 May 1997) is a Dutch professional footballer who plays as a midfielder for La Liga club Barcelona and the Netherlands national team. A versatile midfielder, he is known for his vision, passing, dribbling, technique, along with strong defensive abilities and attacking prowess. De Jong has frequently been ranked among the best midfielders in world football.\r
+\r
+De Jong began his professional career at Willem II in 2015. He transferred to Ajax for a fee worth €1 a year later. The fee was symbolic and offset by a sell-on clause. At Ajax he established himself as one of the best young midfielders in Europe, after winning a domestic double and reaching the Champions League semi-finals. De Jong won the Eredivisie and KNVB Cup, was Eredivisie player of the season, and was an instrumental part of Ajax's first UEFA Champions League semi-final appearance in 22 years, in a breakthrough 2018–19 season.\r
+\r
+During his breakthrough season, De Jong agreed to sign for Barcelona in January 2019, leading him to be signed for the club in July, for a fee worth €75 million. De Jong was selected to the 2019 FIFA FIFPro World11 and was one of three Dutch players to feature in it for the first time in five years.\r
+\r
+De Jong made his senior international debut for the Netherlands in September 2018. He became a starter in the inaugural UEFA Nations League, in which Netherlands finished runners-up. He also represented the side at UEFA Euro 2020 and the 2022 FIFA World Cup."""@en ;
+    schema:height "1.81 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/80jnuf1562354213.jpg"^^xsd:anyURI ;
+    schema:memberOf "Barcelona"^^xsd:string ;
+    schema:name "Frenkie de Jong"^^xsd:string ;
+    schema:nationality "The Netherlands"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

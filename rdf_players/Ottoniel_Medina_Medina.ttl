@@ -1,0 +1,48 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ottoniel_Medina_Medina a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    foaf:name "Ottoniel Medina Medina"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 165 ;
+    stats:blocks 30 ;
+    stats:carries 1328 ;
+    stats:clearances 70 ;
+    stats:dispossessed 14 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.0 ;
+    stats:expectedGoals 1.8 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 32 ;
+    stats:keyPasses 24 ;
+    stats:matches90s 28.3 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 29 ;
+    stats:minutesPlayed 2543 ;
+    stats:miscontrols 27 ;
+    stats:passesIntoPenaltyArea 30 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 46 ;
+    stats:progressivePasses 174 ;
+    stats:progressivePassesReceived 42 ;
+    stats:rank 1707 ;
+    stats:redCards 1 ;
+    stats:tackles 44 ;
+    stats:tacklesWon 29 ;
+    stats:touches 2176 ;
+    stats:yellowCards 15 ;
+    schema:birthDate "1999-08-30"^^xsd:date ;
+    schema:height "176 cm"^^xsd:string ;
+    schema:memberOf "Yaracuyanos"^^xsd:string ;
+    schema:name "Ottoniel Medina Medina"^^xsd:string ;
+    schema:nationality "Venezuela"^^xsd:string ;
+    schema:weight "70 kg"^^xsd:string .
+

@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Zuriko_Davitashvili a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q55102261> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/5gtak31727952845.png"^^xsd:anyURI ;
+    foaf:name "Zuriko Davitashvili"^^xsd:string ;
+    stats:assists 8 ;
+    stats:ballRecoveries 117 ;
+    stats:blocks 20 ;
+    stats:carries 764 ;
+    stats:clearances 14 ;
+    stats:dispossessed 57 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 4.7 ;
+    stats:expectedGoals 8.1 ;
+    stats:goals 9 ;
+    stats:goalsNonPenalty 7 ;
+    stats:interceptions 14 ;
+    stats:keyPasses 50 ;
+    stats:matches90s 30.9 ;
+    stats:matchesPlayed 33 ;
+    stats:matchesStarted 32 ;
+    stats:minutesPlayed 2778 ;
+    stats:miscontrols 74 ;
+    stats:passesIntoPenaltyArea 23 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 2 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:progressiveCarries 95 ;
+    stats:progressivePasses 73 ;
+    stats:progressivePassesReceived 224 ;
+    stats:rank 676 ;
+    stats:redCards 0 ;
+    stats:tackles 22 ;
+    stats:tacklesWon 14 ;
+    stats:touches 1298 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2001-02-15"^^xsd:date ;
+    schema:description "Zuriko \"Zuka\" Davitashvili (Order of Honor) (Georgian: ზურიკო დავითაშვილი, romanized: zurik'o davitashvili; born 15 February 2001) is a Georgian professional footballer who plays as a left winger for Ligue 1 club Saint-Étienne and the Georgia national team. He also plays as an attacking midfielder."@en ;
+    schema:height "1.75 m (5 ft 7 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/3x7wcj1716620389.jpg"^^xsd:anyURI ;
+    schema:memberOf "St Etienne"^^xsd:string ;
+    schema:name "Zuriko Davitashvili"^^xsd:string ;
+    schema:nationality "Georgia"^^xsd:string ;
+    schema:weight "139 lbs"^^xsd:string .
+

@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Victor_Kristiansen a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q104773462> ;
+    foaf:account "www.instagram.com/victorkristiansen34/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/670tk71725451734.png"^^xsd:anyURI ;
+    foaf:name "Victor Kristiansen"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 99 ;
+    stats:blocks 38 ;
+    stats:carries 816 ;
+    stats:clearances 75 ;
+    stats:dispossessed 13 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 1.4 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 42 ;
+    stats:keyPasses 18 ;
+    stats:matches90s 27.6 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 29 ;
+    stats:minutesPlayed 2482 ;
+    stats:miscontrols 15 ;
+    stats:passesIntoPenaltyArea 23 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:progressiveCarries 40 ;
+    stats:progressivePasses 70 ;
+    stats:progressivePassesReceived 78 ;
+    stats:rank 322 ;
+    stats:redCards 0 ;
+    stats:tackles 87 ;
+    stats:tacklesWon 51 ;
+    stats:touches 1614 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2002-12-16"^^xsd:date ;
+    schema:description """Victor Bernth Flesner Kristiansen (born 16 December 2002) is a Danish professional footballer who plays as a left-back for Premier League club Leicester City and the Denmark national team.[\r
+A youth academy graduate of Copenhagen, Kristiansen made his senior team debut on 4 November 2020 in a 2–1 cup win against Avarta. He made his professional debut on 29 November 2020 in a 3–1 league win against SønderjyskE.\r
+On 20 December 2020, four days after turning 18, Kristiansen signed a contract extension with Copenhagen which would run until December 2023."""@en ;
+    schema:height "5' 11\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/762pdx1654261519.jpg"^^xsd:anyURI ;
+    schema:memberOf "Leicester"^^xsd:string ;
+    schema:name "Victor Kristiansen"^^xsd:string ;
+    schema:nationality "Denmark"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

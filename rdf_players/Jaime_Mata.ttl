@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jaime_Mata a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q17000055> ;
+    foaf:account "twitter.com/mata_jaime9"^^xsd:anyURI,
+        "www.instagram.com/mata_jaime9/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/3g8r9t1723878361.png"^^xsd:anyURI ;
+    foaf:name "Jaime Mata"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 18 ;
+    stats:blocks 5 ;
+    stats:carries 118 ;
+    stats:clearances 11 ;
+    stats:dispossessed 3 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 2.6 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 3 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 7.3 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 4 ;
+    stats:minutesPlayed 656 ;
+    stats:miscontrols 17 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 6 ;
+    stats:progressivePasses 10 ;
+    stats:progressivePassesReceived 48 ;
+    stats:rank 1667 ;
+    stats:redCards 0 ;
+    stats:tackles 8 ;
+    stats:tacklesWon 2 ;
+    stats:touches 270 ;
+    stats:yellowCards 9 ;
+    schema:birthDate "1988-10-24"^^xsd:date ;
+    schema:description "Jaime Mata Arnaiz (born 24 October 1988) is a Spanish professional footballer who plays as a striker or a winger for La Liga club Las Palmas."@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/yt2m0k1723633683.jpg"^^xsd:anyURI ;
+    schema:memberOf "Las Palmas"^^xsd:string ;
+    schema:name "Jaime Mata"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

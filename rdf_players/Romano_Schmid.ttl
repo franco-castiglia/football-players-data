@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Romano_Schmid a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q30080273> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/fqpay41742136720.png"^^xsd:anyURI ;
+    foaf:name "Romano Schmid"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 167 ;
+    stats:blocks 42 ;
+    stats:carries 1315 ;
+    stats:clearances 9 ;
+    stats:dispossessed 55 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 6.2 ;
+    stats:expectedGoals 4.3 ;
+    stats:goals 5 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 11 ;
+    stats:keyPasses 68 ;
+    stats:matches90s 31.5 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 32 ;
+    stats:minutesPlayed 2834 ;
+    stats:miscontrols 75 ;
+    stats:passesIntoPenaltyArea 90 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:progressiveCarries 107 ;
+    stats:progressivePasses 279 ;
+    stats:progressivePassesReceived 201 ;
+    stats:rank 2377 ;
+    stats:redCards 0 ;
+    stats:tackles 43 ;
+    stats:tacklesWon 25 ;
+    stats:touches 1988 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2000-01-27"^^xsd:date ;
+    schema:description """Romano Christian Schmid (born 27 January 2000) is an Austrian professional footballer who plays as an attacking midfielder for Bundesliga club Werder Bremen and the Austria national team.\r
+\r
+While under contract with Red Bull Salzburg Schmid played for its feeder club FC Liefering.\r
+\r
+In January 2019, Schmid joined Bundesliga side Werder Bremen. One month later, on 5 February 2019, he was loaned out to Wolfsberger AC for the rest of the season. In April 2022, he agreed a contract extension with Werder Bremen."""@en ;
+    schema:height "168 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/2uxmwf1609170446.jpg"^^xsd:anyURI ;
+    schema:memberOf "Werder Bremen"^^xsd:string ;
+    schema:name "Romano Schmid"^^xsd:string ;
+    schema:nationality "Austria"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

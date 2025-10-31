@@ -1,0 +1,63 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:James_Milner a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q191136> ;
+    foaf:account "twitter.com/jamesmilner"^^xsd:anyURI,
+        "www.instagram.com/jamesmilnerofficial/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/47rg1m1756998650.png"^^xsd:anyURI ;
+    foaf:name "James Milner"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 2 ;
+    stats:blocks 4 ;
+    stats:carries 47 ;
+    stats:clearances 2 ;
+    stats:dispossessed 0 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 1.9 ;
+    stats:matchesPlayed 4 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 170 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 10 ;
+    stats:progressivePassesReceived 10 ;
+    stats:rank 1749 ;
+    stats:redCards 0 ;
+    stats:tackles 5 ;
+    stats:tacklesWon 2 ;
+    stats:touches 93 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1986-01-04"^^xsd:date ;
+    schema:description """James Philip Milner MBE (born 4 January 1986) is an English professional footballer who plays as a midfielder for Premier League club Brighton & Hove Albion .\r
+ A versatile player, he has been used in many different positions such as on the wing, in midfield and at full-back. Milner is Liverpool's vice-captain.\r
+\r
+Milner's talent in football, cricket, and long-distance running was recognised at a very young age. He represented his school in these sports and played football for amateur teams from Rawdon and Horsforth. He supported Leeds United from a young age and was a season ticket holder at the club. In 1996, he joined the Leeds United youth academy. He made his debut for the first team in 2002 aged only 16 and gained prominence as the youngest player to score in the Premier League.\r
+\r
+While at Leeds United, he spent time on loan at Swindon Town to gain experience as a first-team player. Following his move to Newcastle United, he was loaned to Aston Villa for a season. He went on to make over 100 appearances for Newcastle, before returning to Aston Villa on a permanent transfer in 2008. After playing an influential role in Aston Villa's run to the 2010 League Cup Final and being named 2009–10 PFA Young Player of the Year, Milner joined Manchester City for a reported £26m transfer fee in 2010, going on to win the 2011–12 and 2013–14 Premier League titles, 2010–11 FA Cup and 2013–14 League Cup. In 2015, Milner signed for Liverpool on a free transfer, with whom he won the UEFA Champions League in 2019 after making an appearance as a substitute in the final against Tottenham. The following season saw Milner win his 3rd Premier League title, as well as picking up winners medals in the UEFA Super Cup and the Club World Cup.\r
+\r
+Milner made a record 46 appearances for the England national under-21 football team, playing at the 2007 and 2009 UEFA European Under-21 Championships. He also played 61 appearances for the full national team, scoring once against Moldova. He was selected for the 2010 and 2014 FIFA World Cup squads, as well as the 2012 and 2016 UEFA European Championships. Milner retired from international football in 2016."""@en ;
+    schema:height "175 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/93873m1510004019.jpg"^^xsd:anyURI ;
+    schema:memberOf "Brighton and Hove Albion"^^xsd:string ;
+    schema:name "James Milner"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

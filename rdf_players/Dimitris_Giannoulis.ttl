@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Dimitris_Giannoulis a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18978014> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ozrjh01742055591.png"^^xsd:anyURI ;
+    foaf:name "Dimitris Giannoulis"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 136 ;
+    stats:blocks 49 ;
+    stats:carries 845 ;
+    stats:clearances 75 ;
+    stats:dispossessed 13 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 4.2 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 47 ;
+    stats:keyPasses 42 ;
+    stats:matches90s 29.4 ;
+    stats:matchesPlayed 31 ;
+    stats:matchesStarted 31 ;
+    stats:minutesPlayed 2650 ;
+    stats:miscontrols 49 ;
+    stats:passesIntoPenaltyArea 55 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:progressiveCarries 60 ;
+    stats:progressivePasses 104 ;
+    stats:progressivePassesReceived 164 ;
+    stats:rank 999 ;
+    stats:redCards 0 ;
+    stats:tackles 47 ;
+    stats:tacklesWon 32 ;
+    stats:touches 1802 ;
+    stats:yellowCards 8 ;
+    schema:birthDate "1995-10-17"^^xsd:date ;
+    schema:description "Dimitrios Christos \"Dimitris\" Giannoulis (Greek: Δημήτριος Χρήστος \"Δημήτρης\" Γιαννούλης; born 17 October 1995) is a Greek professional footballer who plays as a left-back for German Bundesliga club FC Augsburg and the Greece national team. Giannoulis began his senior career with Vataniakos and joined Norwich City in 2021, while having loan spell from PAOK."@en ;
+    schema:height "178 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/0q4vdp1629228509.jpg"^^xsd:anyURI ;
+    schema:memberOf "FC Augsburg"^^xsd:string ;
+    schema:name "Dimitris Giannoulis"^^xsd:string ;
+    schema:nationality "Greece"^^xsd:string ;
+    schema:weight "137 lbs"^^xsd:string .
+

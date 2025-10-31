@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mats_Hummels a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q110053> ;
+    foaf:account "www.instagram.com/aussenrist15/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/qdecrt1674558770.png"^^xsd:anyURI ;
+    foaf:name "Mats Hummels"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 41 ;
+    stats:blocks 12 ;
+    stats:carries 279 ;
+    stats:clearances 43 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.5 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 26 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 10.2 ;
+    stats:matchesPlayed 14 ;
+    stats:matchesStarted 11 ;
+    stats:minutesPlayed 915 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 4 ;
+    stats:progressivePasses 26 ;
+    stats:progressivePassesReceived 1 ;
+    stats:rank 1191 ;
+    stats:redCards 0 ;
+    stats:tackles 30 ;
+    stats:tacklesWon 15 ;
+    stats:touches 560 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1988-12-16"^^xsd:date ;
+    schema:description """Mats Julian Hummels (born 16 December 1988) is a German former professional footballer who played as a centre-back. Known for his well-timed tackles, accurate long passes from the back, aerial ability and strength, he is regarded as one of the best defenders of his generation.\r
+\r
+Hummels came through the Bayern Munich youth academy before joining Borussia Dortmund on loan in January 2008, and officially signing for Dortmund in February 2009 for €4 million. He rejoined Bayern in 2016 for an undisclosed fee, and was sold back to Dortmund three years later, having won the Bundesliga in all his seasons in Munich. Hummels made over 500 total appearances for Dortmund, winning the Bundesliga and the DFB-Pokal twice, as well as finishing runner-up in the UEFA Champions League in 2013 and 2024. After a season in Italy with Roma, Hummels announced his retirement from the sport in 2025.\r
+\r
+Hummels was part of the Germany national team from 2010 to 2023, earning over 70 caps. He represented the nation at the FIFA World Cup in 2014 and 2018, winning the former edition, and at the UEFA European Championship in 2012, 2016 and 2020."""@en ;
+    schema:height "1.91 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/tvbryp1717423189.jpg"^^xsd:anyURI ;
+    schema:memberOf "_Retired Soccer"^^xsd:string ;
+    schema:name "Mats Hummels"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "205 lbs"^^xsd:string .
+

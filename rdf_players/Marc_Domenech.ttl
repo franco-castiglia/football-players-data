@@ -1,0 +1,51 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Marc_Domenech a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q130214634> ;
+    foaf:name "Marc Domenech"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 8 ;
+    stats:blocks 2 ;
+    stats:carries 42 ;
+    stats:clearances 2 ;
+    stats:dispossessed 3 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.7 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 3.4 ;
+    stats:matchesPlayed 10 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 303 ;
+    stats:miscontrols 11 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 4 ;
+    stats:progressivePassesReceived 21 ;
+    stats:rank 759 ;
+    stats:redCards 0 ;
+    stats:tackles 4 ;
+    stats:tacklesWon 4 ;
+    stats:touches 84 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2006-12-01"^^xsd:date ;
+    schema:description "Marc Hidalgo Domènech (born 1 December 2006) is a Spanish professional footballer who plays as a forward for RCD Mallorca B."@en ;
+    schema:height "6' 0\""^^xsd:string ;
+    schema:memberOf "Mallorca B"^^xsd:string ;
+    schema:name "Marc Domenech"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

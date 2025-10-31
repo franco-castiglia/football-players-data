@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Samuel_Chukwueze a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q57017297> ;
+    foaf:account "twitter.com/chukwueze_8"^^xsd:anyURI,
+        "www.facebook.com/chukwuezesamuel8/"^^xsd:anyURI,
+        "www.instagram.com/chukwuezesamuel8/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/8t0gxa1757069795.png"^^xsd:anyURI ;
+    foaf:name "Samuel Chukwueze"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 38 ;
+    stats:blocks 3 ;
+    stats:carries 369 ;
+    stats:clearances 9 ;
+    stats:dispossessed 11 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 3.0 ;
+    stats:expectedGoals 2.7 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 27 ;
+    stats:matches90s 10.3 ;
+    stats:matchesPlayed 26 ;
+    stats:matchesStarted 9 ;
+    stats:minutesPlayed 925 ;
+    stats:miscontrols 23 ;
+    stats:passesIntoPenaltyArea 21 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 48 ;
+    stats:progressivePasses 36 ;
+    stats:progressivePassesReceived 116 ;
+    stats:rank 558 ;
+    stats:redCards 0 ;
+    stats:tackles 17 ;
+    stats:tacklesWon 11 ;
+    stats:touches 556 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1999-05-22"^^xsd:date ;
+    schema:description "Samuel Chimerenka Chukwueze (born 22 May 1999) is a Nigerian professional footballer who plays as a right winger for Premier League club Fulham, on loan from Serie A club AC Milan, and the Nigeria national team."@en ;
+    schema:height "1.72 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/tc8syk1603550592.jpg"^^xsd:anyURI ;
+    schema:memberOf "Fulham"^^xsd:string ;
+    schema:name "Samuel Chukwueze"^^xsd:string ;
+    schema:nationality "Nigeria"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

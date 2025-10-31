@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Noussair_Mazraoui a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q26266244> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/k4k7ml1735600576.png"^^xsd:anyURI ;
+    foaf:name "Noussair Mazraoui"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 149 ;
+    stats:blocks 36 ;
+    stats:carries 1172 ;
+    stats:clearances 95 ;
+    stats:dispossessed 17 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.5 ;
+    stats:expectedGoals 0.7 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 34 ;
+    stats:keyPasses 20 ;
+    stats:matches90s 31.5 ;
+    stats:matchesPlayed 37 ;
+    stats:matchesStarted 34 ;
+    stats:minutesPlayed 2838 ;
+    stats:miscontrols 25 ;
+    stats:passesIntoPenaltyArea 20 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 42 ;
+    stats:progressivePasses 115 ;
+    stats:progressivePassesReceived 58 ;
+    stats:rank 1686 ;
+    stats:redCards 0 ;
+    stats:tackles 115 ;
+    stats:tacklesWon 68 ;
+    stats:touches 2139 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1997-11-14"^^xsd:date ;
+    schema:description "Noussair Mazraoui (born 14 November 1997) is a professional footballer who plays as a full-back for Premier League club Manchester United and the Morocco national team. He has previously played for Bayern Munich, Jong Ajax and Ajax."@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/yezq9u1558202973.jpg"^^xsd:anyURI ;
+    schema:memberOf "Manchester United"^^xsd:string ;
+    schema:name "Noussair Mazraoui"^^xsd:string ;
+    schema:nationality "Morocco"^^xsd:string ;
+    schema:weight "139 lbs"^^xsd:string .
+

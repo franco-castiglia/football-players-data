@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Daniel_Carvajal a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q127452> ;
+    foaf:account "http://www.instagram.com/dani.carvajal.2"^^xsd:anyURI,
+        "twitter.com/DaniCarvajal92"^^xsd:anyURI,
+        "www.facebook.com/danicarvajaloficial/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/k510z81733653425.png"^^xsd:anyURI ;
+    foaf:name "Daniel Carvajal"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 21 ;
+    stats:blocks 8 ;
+    stats:carries 278 ;
+    stats:clearances 19 ;
+    stats:dispossessed 6 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 1.3 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 10 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 6.8 ;
+    stats:matchesPlayed 8 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 609 ;
+    stats:miscontrols 8 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 13 ;
+    stats:progressivePasses 27 ;
+    stats:progressivePassesReceived 48 ;
+    stats:rank 493 ;
+    stats:redCards 0 ;
+    stats:tackles 12 ;
+    stats:tacklesWon 8 ;
+    stats:touches 532 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1992-01-11"^^xsd:date ;
+    schema:description """Daniel Carvajal Ramos (born 11 January 1992) is a Spanish professional footballer who plays as a right back for Real Madrid and the Spanish national team.\r
+\r
+Having risen through the Real Madrid youth ranks, he spent a season with Bayer Leverkusen before breaking into the first team in 2013, going on to win various domestic and international honours including four Champions League trophies.\r
+\r
+At youth international level, Carvajal won the 2011 European Championship with the under-19 team and the 2013 edition with the under-21 side. He made his senior debut in 2014, representing the nation at the 2018 FIFA World Cup."""@en ;
+    schema:height "1.73 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/8kkue01513512124.jpg"^^xsd:anyURI ;
+    schema:memberOf "Real Madrid"^^xsd:string ;
+    schema:name "Daniel Carvajal"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "73 kg"^^xsd:string .
+

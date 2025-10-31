@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ludovic_Blas a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q22003400> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/x31wnp1681388222.png"^^xsd:anyURI ;
+    foaf:name "Ludovic Blas"^^xsd:string ;
+    stats:assists 8 ;
+    stats:ballRecoveries 88 ;
+    stats:blocks 16 ;
+    stats:carries 781 ;
+    stats:clearances 11 ;
+    stats:dispossessed 46 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 4.6 ;
+    stats:expectedGoals 5.0 ;
+    stats:goals 6 ;
+    stats:goalsNonPenalty 6 ;
+    stats:interceptions 13 ;
+    stats:keyPasses 47 ;
+    stats:matches90s 25.5 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 26 ;
+    stats:minutesPlayed 2293 ;
+    stats:miscontrols 71 ;
+    stats:passesIntoPenaltyArea 33 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 83 ;
+    stats:progressivePasses 116 ;
+    stats:progressivePassesReceived 184 ;
+    stats:rank 346 ;
+    stats:redCards 0 ;
+    stats:tackles 38 ;
+    stats:tacklesWon 25 ;
+    stats:touches 1262 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "1997-12-31"^^xsd:date ;
+    schema:description "Ludovic Régis Arsène Blas (born 31 December 1997) is a French professional footballer who plays as a midfielder for Ligue 1 club Rennes."@en ;
+    schema:height "1.80 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/bw3k7a1549742356.jpg"^^xsd:anyURI ;
+    schema:memberOf "Rennes"^^xsd:string ;
+    schema:name "Ludovic Blas"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

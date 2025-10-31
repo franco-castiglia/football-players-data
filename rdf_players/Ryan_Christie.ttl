@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ryan_Christie a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16236700> ;
+    foaf:account "www.instagram.com/ryanchristie2/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/r142w81757018147.png"^^xsd:anyURI ;
+    foaf:name "Ryan Christie"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 182 ;
+    stats:blocks 44 ;
+    stats:carries 726 ;
+    stats:clearances 51 ;
+    stats:dispossessed 25 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 3.5 ;
+    stats:expectedGoals 1.8 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 30 ;
+    stats:keyPasses 41 ;
+    stats:matches90s 23.5 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 27 ;
+    stats:minutesPlayed 2117 ;
+    stats:miscontrols 44 ;
+    stats:passesIntoPenaltyArea 33 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:progressiveCarries 34 ;
+    stats:progressivePasses 137 ;
+    stats:progressivePassesReceived 44 ;
+    stats:rank 556 ;
+    stats:redCards 0 ;
+    stats:tackles 54 ;
+    stats:tacklesWon 33 ;
+    stats:touches 1376 ;
+    stats:yellowCards 9 ;
+    schema:birthDate "1995-04-28"^^xsd:date ;
+    schema:description "Ryan Christie (born 22 February 1995) is a Scottish footballer who plays for AFC Bournemouth and the Scotland national team. He began his career with Inverness Caledonian Thistle before joining Celtic in 2015, and had two spells on loan at Aberdeen. He has also represented the Scotland under-21 and full national teams."@en ;
+    schema:height "1.78 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/4ldaja1605736185.jpg"^^xsd:anyURI ;
+    schema:memberOf "Bournemouth"^^xsd:string ;
+    schema:name "Ryan Christie"^^xsd:string ;
+    schema:nationality "Scotland"^^xsd:string ;
+    schema:weight "79 kg (174 lb)"^^xsd:string .
+

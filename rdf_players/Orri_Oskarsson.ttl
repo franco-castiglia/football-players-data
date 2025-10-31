@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Orri_Oskarsson a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q111488644> ;
+    foaf:account "www.instagram.com/orrioskarsson/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/fccct41701984524.png"^^xsd:anyURI ;
+    foaf:name "Orri Óskarsson"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 15 ;
+    stats:blocks 10 ;
+    stats:carries 122 ;
+    stats:clearances 11 ;
+    stats:dispossessed 11 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 5.2 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 10.5 ;
+    stats:matchesPlayed 23 ;
+    stats:matchesStarted 9 ;
+    stats:minutesPlayed 944 ;
+    stats:miscontrols 17 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 6 ;
+    stats:progressivePasses 9 ;
+    stats:progressivePassesReceived 50 ;
+    stats:rank 2499 ;
+    stats:redCards 0 ;
+    stats:tackles 6 ;
+    stats:tacklesWon 6 ;
+    stats:touches 285 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2004-08-09"^^xsd:date ;
+    schema:description "Orri Steinn Óskarsson (born 29 August 2004) is an Icelandic professional footballer who plays as a forward for La Liga side Real Sociedad and the Iceland national team."@en ;
+    schema:height "1.86 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ovmayu1701980504.jpg"^^xsd:anyURI ;
+    schema:memberOf "Real Sociedad"^^xsd:string ;
+    schema:name "Orri Óskarsson"^^xsd:string ;
+    schema:nationality "Iceland"^^xsd:string .
+

@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Deniz_Undav a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q55955918> ;
+    foaf:account "www.instagram.com/deniz_un/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/exbcqe1731838295.png"^^xsd:anyURI ;
+    foaf:name "Deniz Undav"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 48 ;
+    stats:blocks 15 ;
+    stats:carries 469 ;
+    stats:clearances 10 ;
+    stats:dispossessed 28 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 3.6 ;
+    stats:expectedGoals 11.7 ;
+    stats:goals 9 ;
+    stats:goalsNonPenalty 9 ;
+    stats:interceptions 3 ;
+    stats:keyPasses 26 ;
+    stats:matches90s 19.2 ;
+    stats:matchesPlayed 27 ;
+    stats:matchesStarted 20 ;
+    stats:minutesPlayed 1726 ;
+    stats:miscontrols 51 ;
+    stats:passesIntoPenaltyArea 27 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 31 ;
+    stats:progressivePasses 70 ;
+    stats:progressivePassesReceived 141 ;
+    stats:rank 2650 ;
+    stats:redCards 0 ;
+    stats:tackles 11 ;
+    stats:tacklesWon 10 ;
+    stats:touches 797 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1996-07-19"^^xsd:date ;
+    schema:description "Deniz Undav (born 19 July 1996) is a German professional footballer who plays as a forward for VfB Stuttgart of the Bundesliga, on loan from Premier League club Brighton & Hove Albion."@en ;
+    schema:height "179 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/kljjxi1661083660.jpg"^^xsd:anyURI ;
+    schema:memberOf "Stuttgart"^^xsd:string ;
+    schema:name "Deniz Undav"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "190 lbs"^^xsd:string .
+

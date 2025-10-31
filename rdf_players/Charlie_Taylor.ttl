@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Charlie_Taylor a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q96095727> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/m1rfwy1761164893.png"^^xsd:anyURI ;
+    foaf:name "Charlie Taylor"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 10 ;
+    stats:blocks 8 ;
+    stats:carries 116 ;
+    stats:clearances 31 ;
+    stats:dispossessed 1 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 4.0 ;
+    stats:matchesPlayed 8 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 356 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:progressiveCarries 3 ;
+    stats:progressivePasses 9 ;
+    stats:progressivePassesReceived 7 ;
+    stats:rank 2558 ;
+    stats:redCards 0 ;
+    stats:tackles 7 ;
+    stats:tacklesWon 5 ;
+    stats:touches 279 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1993-09-18"^^xsd:date ;
+    schema:description """Charles James Taylor (born 18 September 1993) is an English professional footballer who plays as a left-back for EFL Championship club West Bromwich Albion, on loan from EFL Championship club Southampton. He is a former England U19 international.  He is a former England U19 international. \r
+At 17 years of age, Taylor made his first-team debut for Leeds as a second half substitute against local rivals Bradford City in the League Cup on 9 August 2011. \r
+On 6 July 2017, Taylor signed a four-year contract with Premier League club Burnley."""@en ;
+    schema:height "5 ft 9 in (1.76 m)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ob4qim1504903241.jpg"^^xsd:anyURI ;
+    schema:memberOf "West Bromwich Albion"^^xsd:string ;
+    schema:name "Charlie Taylor"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

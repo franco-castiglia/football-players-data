@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Harry_Clarke a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q10446367> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/j3uaw61694895991.png"^^xsd:anyURI ;
+    foaf:name "Harry Clarke"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 17 ;
+    stats:blocks 5 ;
+    stats:carries 118 ;
+    stats:clearances 14 ;
+    stats:dispossessed 2 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 4.2 ;
+    stats:matchesPlayed 7 ;
+    stats:matchesStarted 4 ;
+    stats:minutesPlayed 379 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 5 ;
+    stats:progressivePasses 14 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 569 ;
+    stats:redCards 1 ;
+    stats:tackles 5 ;
+    stats:tacklesWon 3 ;
+    stats:touches 268 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2001-03-02"^^xsd:date ;
+    schema:description "Harrison Thomas Clarke (born 2 March 2001) is an English professional footballer who plays as a right-back for EFL Championship club Ipswich Town."@en ;
+    schema:height "1.80 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/tzuz2j1674731240.jpg"^^xsd:anyURI ;
+    schema:memberOf "Ipswich Town"^^xsd:string ;
+    schema:name "Harry Clarke"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "71 kg"^^xsd:string .
+

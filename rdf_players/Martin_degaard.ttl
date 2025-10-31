@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Martin_degaard a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16902219> ;
+    foaf:account "twitter.com/martinio98"^^xsd:anyURI,
+        "www.facebook.com/official.martin.odegaard"^^xsd:anyURI,
+        "www.instagram.com/odegaard.98/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/57dwdb1694203905.png"^^xsd:anyURI ;
+    foaf:name "Martin Ødegaard"^^xsd:string ;
+    stats:assists 8 ;
+    stats:ballRecoveries 97 ;
+    stats:blocks 5 ;
+    stats:carries 1174 ;
+    stats:clearances 6 ;
+    stats:dispossessed 40 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 5.4 ;
+    stats:expectedGoals 4.8 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 63 ;
+    stats:matches90s 25.8 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 26 ;
+    stats:minutesPlayed 2325 ;
+    stats:miscontrols 38 ;
+    stats:passesIntoPenaltyArea 86 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 92 ;
+    stats:progressivePasses 258 ;
+    stats:progressivePassesReceived 154 ;
+    stats:rank 2852 ;
+    stats:redCards 0 ;
+    stats:tackles 19 ;
+    stats:tacklesWon 11 ;
+    stats:touches 1694 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1998-12-17"^^xsd:date ;
+    schema:description """Martin Ødegaard (born 17 December 1998) is a Norwegian professional footballer who plays as an attacking midfielder for Premier League club Arsenal and captains the Norway national team.\r
+\r
+Ødegaard made his debut for Strømsgodset Toppfotball in April 2014, nearly becoming the youngest player to feature in Tippeligaen, and became its youngest goalscorer in May. After being a regular part of the team in his first season and training with several foreign clubs, Ødegaard was signed by Real Madrid in January 2015. He was registered for their reserve team, Real Madrid Castilla, but trained mainly with the first team. In May 2015, he became the youngest player to represent Real Madrid. In January 2017, he was loaned to SC Heerenveen for 18 months, then to Vitesse and Real Sociedad for a season each. After a return to Real Madrid at the beginning of the 2020–21 season where he was frequently sidelined with a recurring knee injury and unable to secure a starting position, Ødegaard was loaned to Arsenal during the winter transfer window until the end of the season.\r
+\r
+Ødegaard made his international debut against the United Arab Emirates in August 2014, becoming the youngest debutant for the senior team at the age of 15 years and 253 days. In October 2014, he became the youngest player to feature in a qualifying match for the UEFA European Championship."""@en ;
+    schema:height "178cm / 5'10\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ttlff21727415365.jpg"^^xsd:anyURI ;
+    schema:memberOf "Arsenal"^^xsd:string ;
+    schema:name "Martin Ødegaard"^^xsd:string ;
+    schema:nationality "Norway"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

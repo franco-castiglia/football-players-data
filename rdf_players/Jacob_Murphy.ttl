@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jacob_Murphy a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q15622117> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/iem47q1693823683.png"^^xsd:anyURI ;
+    foaf:name "Jacob Murphy"^^xsd:string ;
+    stats:assists 12 ;
+    stats:ballRecoveries 98 ;
+    stats:blocks 31 ;
+    stats:carries 733 ;
+    stats:clearances 35 ;
+    stats:dispossessed 37 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 8.9 ;
+    stats:expectedGoals 5.7 ;
+    stats:goals 8 ;
+    stats:goalsNonPenalty 8 ;
+    stats:interceptions 13 ;
+    stats:keyPasses 42 ;
+    stats:matches90s 26.2 ;
+    stats:matchesPlayed 35 ;
+    stats:matchesStarted 31 ;
+    stats:minutesPlayed 2360 ;
+    stats:miscontrols 32 ;
+    stats:passesIntoPenaltyArea 41 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:progressiveCarries 79 ;
+    stats:progressivePasses 83 ;
+    stats:progressivePassesReceived 231 ;
+    stats:rank 1831 ;
+    stats:redCards 0 ;
+    stats:tackles 28 ;
+    stats:tacklesWon 19 ;
+    stats:touches 1271 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1995-02-24"^^xsd:date ;
+    schema:description """Jacob Kai Murphy (born 24 February 1995) is an English professional footballer who plays as a right winger for Premier League club Newcastle United. \r
+\r
+Murphy made his first-team debut for Norwich City in an FA Cup match against Fulham in January 2014. He has also played on loan for Swindon Town and Southend United. He is the twin brother of professional footballer Josh Murphy.\r
+\r
+Murphy was born in Wembley, London. Along with his twin brother, Josh, he first played football together from the age of seven, and eventually they both joined Norwich City as under-12s in 2006. It was announced on 31 March 2011 that the duo were to join the club's academy ahead of a new season.\r
+\r
+Murphy was a part of the Norwich City youth team which won the 2012–13 FA Youth Cup. He signed his first professional contract for Norwich City on 4 January 2013. In December 2013, he signed a three-year contract with the club.\r
+\r
+Murphy made his professional début in a FA Cup match against Fulham on 4 January 2014. Murphy made his first Norwich City appearance in the 2014–15 season, where he provided an assist for his twin brother, Josh, to score in a 3–1 win over Crawley Town in the second round of the League Cup."""@en ;
+    schema:height "1.73"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/5ugdis1509807366.jpg"^^xsd:anyURI ;
+    schema:memberOf "Newcastle"^^xsd:string ;
+    schema:name "Jacob Murphy"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

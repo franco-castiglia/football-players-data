@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Stefan_Bajcetic a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q113433814> ;
+    foaf:account "www.instagram.com/stefanbajcetic/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/yf8zmo1735799860.png"^^xsd:anyURI ;
+    foaf:name "Stefan Bajčetić"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 61 ;
+    stats:blocks 25 ;
+    stats:carries 238 ;
+    stats:clearances 26 ;
+    stats:dispossessed 6 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 15 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 10.8 ;
+    stats:matchesPlayed 14 ;
+    stats:matchesStarted 12 ;
+    stats:minutesPlayed 969 ;
+    stats:miscontrols 21 ;
+    stats:passesIntoPenaltyArea 8 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:progressiveCarries 8 ;
+    stats:progressivePasses 39 ;
+    stats:progressivePassesReceived 9 ;
+    stats:rank 207 ;
+    stats:redCards 0 ;
+    stats:tackles 29 ;
+    stats:tacklesWon 14 ;
+    stats:touches 570 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2004-10-22"^^xsd:date ;
+    schema:description "Stefan Bajcetic Maquieira (Serbian: Стефан Бајчетић, Stefan Bajčetić; born 22 October 2004) is a Spanish professional footballer who plays as a defensive midfielder or centre-back for La Liga club Las Palmas, on loan from Premier League club Liverpool."@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/0e9mlk1675083817.jpg"^^xsd:anyURI ;
+    schema:memberOf "Las Palmas"^^xsd:string ;
+    schema:name "Stefan Bajčetić"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

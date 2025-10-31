@@ -1,0 +1,68 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Morten_Wetche_Frendrup a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q52158000> ;
+    foaf:account "http://www.instagram.com/mortenfrendrup/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/nmzwe81758989202.png"^^xsd:anyURI ;
+    foaf:name "Morten Wetche Frendrup"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 184 ;
+    stats:blocks 62 ;
+    stats:carries 737 ;
+    stats:clearances 57 ;
+    stats:dispossessed 24 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 1.6 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 47 ;
+    stats:keyPasses 14 ;
+    stats:matches90s 34.5 ;
+    stats:matchesPlayed 35 ;
+    stats:matchesStarted 35 ;
+    stats:minutesPlayed 3103 ;
+    stats:miscontrols 41 ;
+    stats:passesIntoPenaltyArea 11 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 24 ;
+    stats:progressivePasses 106 ;
+    stats:progressivePassesReceived 29 ;
+    stats:rank 936 ;
+    stats:redCards 0 ;
+    stats:tackles 102 ;
+    stats:tacklesWon 61 ;
+    stats:touches 1647 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "2001-04-07"^^xsd:date ;
+    schema:description """Morten Wetche Frendrup (Danish pronunciation: ; born 7 April 2001) is a Danish professional footballer who plays as a midfielder for Genoa.\r
+\r
+Club career\r
+Early career\r
+Born in Tuse outside Holbæk, Frendrup started playing for local team Tuse IF, before moving to Holbæk B&I. He was only at Holbæk for one year, because he had joined the Brøndby IF academy at under-14 level, which meant that he played for two clubs for a short period. During this time, he commuted several times a week between his home in Tuse and Brøndby, a distance of approximately 60 kilometres. When Frendrup finished primary education, he began attending Brøndby Idrætsefterskole, a five minute walk from the Brøndby IF training ground.\r
+\r
+He won the Danish under-15 Cup on 11 May 2016 in a 1–0 win over FC Nordsjælland. At under-17 level, he captained the team to a second-place finish in the league behind winners AGF.\r
+\r
+Brøndby\r
+In the summer of 2017, aged 16, Frendrup was included in the first-team training camp in Austria together with fellow academy players Christian Enemark and Andreas Bruus. In December 2017, he signed a new deal with Brøndby, keeping him in the club until the summer of 2020.\r
+\r
+On 11 February 2018, Frendrup made his senior debut, aged 16, in a 3–1 win over Lyngby Boldklub in the Danish Superliga. He was brought on as a substitute in the 85th minute, becoming the youngest player to appear for Brøndby, 37 days younger than second on the list, Magnus Warming. On 15 March 2018, Frendrup signed his first professional contract, keeping him at the club until 2021.\r
+\r
+During the 2019–20 season, Frendrup started playing more regularly in the fall due to long-term injuries to starters Lasse Vigen, Simon Tibbling and Josip Radošević. His performances during these games were praised, and he subsequently won the Brøndby Player of the Month award for November. On 12 January 2020, Frendrup signed a new three-and-a-half-year contract with Brøndby, running until 2023. He continued his strong performances in the second half of the season and was named Superliga Talent of the Month for June 2020, as well as Brøndby Player of the Month for June and July."""@en ;
+    schema:height "1.78 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/lcmssc1610626477.jpg"^^xsd:anyURI ;
+    schema:memberOf "Genoa"^^xsd:string ;
+    schema:name "Morten Wetche Frendrup"^^xsd:string ;
+    schema:nationality "Denmark"^^xsd:string ;
+    schema:weight "63 kg"^^xsd:string .
+

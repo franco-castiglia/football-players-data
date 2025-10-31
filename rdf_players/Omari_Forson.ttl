@@ -1,0 +1,62 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Omari_Forson a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q121032001> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ugtobo1705920943.png"^^xsd:anyURI ;
+    foaf:name "Omari Forson"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 11 ;
+    stats:blocks 3 ;
+    stats:carries 103 ;
+    stats:clearances 1 ;
+    stats:dispossessed 6 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 8 ;
+    stats:matches90s 2.5 ;
+    stats:matchesPlayed 9 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 223 ;
+    stats:miscontrols 8 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 14 ;
+    stats:progressivePasses 10 ;
+    stats:progressivePassesReceived 18 ;
+    stats:rank 923 ;
+    stats:redCards 0 ;
+    stats:tackles 3 ;
+    stats:tacklesWon 3 ;
+    stats:touches 140 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2004-07-20"^^xsd:date ;
+    schema:description """Omari Nathan Forson (born 20 July 2004) is an English professional footballer who plays as a midfielder for Premier League club Manchester United.\r
+\r
+Early life\r
+Forson was born in Hammersmith, London to Ghanaian parents.\r
+\r
+Club career\r
+Having begun his career in the academies of West Ham United and Tottenham Hotspur, Forson joined Manchester United in January 2019. Following interest from Arsenal, Forson decided to remain with Manchester United, signing a scholarship deal in 2020. The same year, he was promoted to the under-18 side at the age of sixteen, and in August 2021, he signed his first professional deal with the club.\r
+\r
+Ahead of the 2023–24 season, Forson was included in Manchester United's senior squad for pre-season, travelling to Oslo, Norway, where he featured in a 2–0 friendly win against Leeds United. Playing the entire first half at left-wing, Forson was noted for his ability to take on players, and was labelled a "constant threat". He was included in Manchester United's tour of the United States, and having been named in the starting line-up for the friendly game against German side Borussia Dortmund, he was taken off by manager Erik ten Hag after only thirty-seven minutes, following a confrontation with Dortmund winger, Karim Adeyemi, for which both received yellow cards. Following the game, ten Hag explained that if the game had featured VAR, Forson may have been sent off, and that he had spent time explaining his decision to the player following the substitution. He made his first team debut in a 2–0 away win against Wigan in the 2023–24 FA Cup."""@en ;
+    schema:height "1.78 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/l0rg1n1705920906.jpg"^^xsd:anyURI ;
+    schema:memberOf "Monza"^^xsd:string ;
+    schema:name "Omari Forson"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

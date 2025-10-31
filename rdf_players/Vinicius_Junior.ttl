@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Vinicius_Junior a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q28973866> ;
+    foaf:account "www.facebook.com/viniiciusjunior11/"^^xsd:anyURI,
+        "www.instagram.com/viniciusjunior/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ejuxsh1750271859.png"^^xsd:anyURI ;
+    foaf:name "Vinícius Júnior"^^xsd:string ;
+    stats:assists 8 ;
+    stats:ballRecoveries 71 ;
+    stats:blocks 9 ;
+    stats:carries 952 ;
+    stats:clearances 1 ;
+    stats:dispossessed 49 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 8.0 ;
+    stats:expectedGoals 10.4 ;
+    stats:goals 11 ;
+    stats:goalsNonPenalty 9 ;
+    stats:interceptions 3 ;
+    stats:keyPasses 58 ;
+    stats:matches90s 25.0 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 24 ;
+    stats:minutesPlayed 2253 ;
+    stats:miscontrols 72 ;
+    stats:passesIntoPenaltyArea 36 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 2 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 169 ;
+    stats:progressivePasses 85 ;
+    stats:progressivePassesReceived 256 ;
+    stats:rank 1290 ;
+    stats:redCards 1 ;
+    stats:tackles 21 ;
+    stats:tacklesWon 10 ;
+    stats:touches 1264 ;
+    stats:yellowCards 8 ;
+    schema:birthDate "2000-07-12"^^xsd:date ;
+    schema:description """Vinícius José Paixão de Oliveira Júnior (born 12 July 2000), commonly known as Vinícius Júnior or Vini Jr. (Brazilian Portuguese: ), is a Brazilian professional footballer who plays as a winger for Spanish club Real Madrid and the Brazil national team. Considered one of the best players in the world, he is known for his dribbling skills, high pace, strength, and shooting.\r
+\r
+Born in São Gonçalo, Vinícius began his professional career at Flamengo, where he made his senior debut in 2017, at age 16. A few weeks later, Vinícius was the subject of a transfer to La Liga club Real Madrid, for whom he signed for in a £38 million deal, which was a national record for an U-18 player. The transfer was made effective after his 18th birthday, with Vinícius debuting for the club in 2018–19. By his fourth season, Vinícius established himself as a prominent member in Real Madrid's squad, helping the club win the 2021–22 La Liga title and scoring the winning goal in Real Madrid's 2022 UEFA Champions League Final win."""@en ;
+    schema:height "176cm / 5'9\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/acdiyv1715427254.jpg"^^xsd:anyURI ;
+    schema:memberOf "Real Madrid"^^xsd:string ;
+    schema:name "Vinícius Júnior"^^xsd:string ;
+    schema:nationality "Brazil"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

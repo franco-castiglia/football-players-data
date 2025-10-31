@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Lee_Kangin a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16174734> ;
+    foaf:account "www.instagram.com/kanginleeoficial/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/4ijnyl1748682870.png"^^xsd:anyURI ;
+    foaf:name "Lee Kang-in"^^xsd:string ;
+    stats:assists 6 ;
+    stats:ballRecoveries 73 ;
+    stats:blocks 11 ;
+    stats:carries 938 ;
+    stats:clearances 3 ;
+    stats:dispossessed 26 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 5.6 ;
+    stats:expectedGoals 3.5 ;
+    stats:goals 6 ;
+    stats:goalsNonPenalty 6 ;
+    stats:interceptions 3 ;
+    stats:keyPasses 56 ;
+    stats:matches90s 18.5 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 19 ;
+    stats:minutesPlayed 1663 ;
+    stats:miscontrols 22 ;
+    stats:passesIntoPenaltyArea 43 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:progressiveCarries 50 ;
+    stats:progressivePasses 143 ;
+    stats:progressivePassesReceived 138 ;
+    stats:rank 1319 ;
+    stats:redCards 0 ;
+    stats:tackles 25 ;
+    stats:tacklesWon 17 ;
+    stats:touches 1432 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2001-02-19"^^xsd:date ;
+    schema:description """Lee Kang-in (Korean: 이강인; born 19 February 2001) is a South Korean professional footballer who plays as an attacking midfielder or left winger for Ligue 1 club Paris Saint-Germain and the South Korea national team.\r
+\r
+A product of Valencia's youth academy, Lee made his professional debut for the club at the age of 17 in 2018, becoming the youngest South Korean footballer to debut professionally in Europe. In his debut season, he won the Copa del Rey, before making his UEFA Champions League debut in his second professional season. Lee joined Mallorca in 2021, where he established himself as one of Europe's top dribblers, before leaving Spain for French club Paris Saint-Germain in 2023.\r
+\r
+In 2019, Lee won the Asian Young Footballer of the Year, the same year that he won the 2019 FIFA U-20 World Cup's Golden Ball award. Lee's team finished runner-up during the event. He later made his senior debut for South Korea in September 2019, representing his nation's squad for the 2022 FIFA World Cup and 2023 AFC Asian Cup."""@en ;
+    schema:height "1.73 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/75l2hd1704449235.jpg"^^xsd:anyURI ;
+    schema:memberOf "Paris SG"^^xsd:string ;
+    schema:name "Lee Kang-in"^^xsd:string ;
+    schema:nationality "South Korea"^^xsd:string ;
+    schema:weight "146 lbs"^^xsd:string .
+

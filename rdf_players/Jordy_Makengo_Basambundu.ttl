@@ -1,0 +1,51 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jordy_Makengo_Basambundu a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/2zcp5s1742060024.png"^^xsd:anyURI ;
+    foaf:name "Jordy Makengo Basambundu"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 26 ;
+    stats:blocks 8 ;
+    stats:carries 203 ;
+    stats:clearances 29 ;
+    stats:dispossessed 5 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 7 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 8.3 ;
+    stats:matchesPlayed 19 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 745 ;
+    stats:miscontrols 11 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 9 ;
+    stats:progressivePasses 15 ;
+    stats:progressivePassesReceived 35 ;
+    stats:rank 1580 ;
+    stats:redCards 0 ;
+    stats:tackles 16 ;
+    stats:tacklesWon 9 ;
+    stats:touches 393 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2001-08-03"^^xsd:date ;
+    schema:description "Jordy Makengo Basambundu (born 3 August 2001) is a French professional footballer who plays as a centre-back for SC Freiburg II."@en ;
+    schema:height "191 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/l1zt7i1702892323.jpg"^^xsd:anyURI ;
+    schema:memberOf "Freiburg"^^xsd:string ;
+    schema:name "Jordy Makengo Basambundu"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "78 kg"^^xsd:string .
+

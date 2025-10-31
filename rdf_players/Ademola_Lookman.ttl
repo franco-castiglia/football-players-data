@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ademola_Lookman a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q21484766> ;
+    foaf:account "twitter.com/alookman_"^^xsd:anyURI,
+        "www.facebook.com/Ademolalookman31/"^^xsd:anyURI,
+        "www.instagram.com/alookman_/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/7jmt2l1695157315.png"^^xsd:anyURI ;
+    foaf:name "Ademola Lookman"^^xsd:string ;
+    stats:assists 5 ;
+    stats:ballRecoveries 69 ;
+    stats:blocks 19 ;
+    stats:carries 827 ;
+    stats:clearances 5 ;
+    stats:dispossessed 51 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 7.1 ;
+    stats:expectedGoals 10.3 ;
+    stats:goals 15 ;
+    stats:goalsNonPenalty 14 ;
+    stats:interceptions 3 ;
+    stats:keyPasses 61 ;
+    stats:matches90s 25.0 ;
+    stats:matchesPlayed 31 ;
+    stats:matchesStarted 28 ;
+    stats:minutesPlayed 2247 ;
+    stats:miscontrols 72 ;
+    stats:passesIntoPenaltyArea 43 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 142 ;
+    stats:progressivePasses 73 ;
+    stats:progressivePassesReceived 316 ;
+    stats:rank 1514 ;
+    stats:redCards 0 ;
+    stats:tackles 32 ;
+    stats:tacklesWon 15 ;
+    stats:touches 1274 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1997-10-20"^^xsd:date ;
+    schema:description """Ademola Lookman Olajade Alade Aylola Lookman (born 20 October 1997) is a professional footballer who plays as a winger for Serie A club Atalanta.\r
+\r
+Lookman made his senior debut in 2015, playing as a forward for Charlton Athletic of the Championship, and in January 2017 signed for Everton, who used him mainly as a winger. He has represented England from under-19 to under-21 levels."""@en ;
+    schema:height "174cm / 5'9\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/y5wkl71740779922.jpg"^^xsd:anyURI ;
+    schema:memberOf "Atalanta"^^xsd:string ;
+    schema:name "Ademola Lookman"^^xsd:string ;
+    schema:nationality "Nigeria"^^xsd:string ;
+    schema:weight "157 lbs"^^xsd:string .
+

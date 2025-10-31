@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Arthur_Vermeeren a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q113499581> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/vylslu1759498609.png"^^xsd:anyURI ;
+    foaf:name "Arthur Vermeeren"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 94 ;
+    stats:blocks 34 ;
+    stats:carries 536 ;
+    stats:clearances 25 ;
+    stats:dispossessed 12 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 23 ;
+    stats:keyPasses 12 ;
+    stats:matches90s 17.5 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 18 ;
+    stats:minutesPlayed 1572 ;
+    stats:miscontrols 19 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 14 ;
+    stats:progressivePasses 77 ;
+    stats:progressivePassesReceived 20 ;
+    stats:rank 2698 ;
+    stats:redCards 0 ;
+    stats:tackles 32 ;
+    stats:tacklesWon 19 ;
+    stats:touches 1109 ;
+    stats:yellowCards 7 ;
+    schema:birthDate "2005-02-07"^^xsd:date ;
+    schema:description "Arthur Denis Vermeeren (born 7 February 2005) is a Belgian professional footballer who plays as a midfielder for Bundesliga club RB Leipzig, on loan from La Liga club Atlético Madrid, and the Belgium national team."@en ;
+    schema:height "1.80 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/q3qdf91702561367.jpg"^^xsd:anyURI ;
+    schema:memberOf "Marseille"^^xsd:string ;
+    schema:name "Arthur Vermeeren"^^xsd:string ;
+    schema:nationality "Belgium"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

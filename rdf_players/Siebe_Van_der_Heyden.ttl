@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Siebe_Van_der_Heyden a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q56193635> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/gbwr8l1742071172.png"^^xsd:anyURI ;
+    foaf:name "Siebe Van der Heyden"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 32 ;
+    stats:blocks 8 ;
+    stats:carries 265 ;
+    stats:clearances 43 ;
+    stats:dispossessed 4 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 1.7 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 17 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 9.7 ;
+    stats:matchesPlayed 13 ;
+    stats:matchesStarted 11 ;
+    stats:minutesPlayed 872 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 2 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 10 ;
+    stats:progressivePasses 28 ;
+    stats:progressivePassesReceived 26 ;
+    stats:rank 2670 ;
+    stats:redCards 1 ;
+    stats:tackles 17 ;
+    stats:tacklesWon 10 ;
+    stats:touches 602 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1998-05-30"^^xsd:date ;
+    schema:description "Siebe Van der Heyden (born 30 May 1998) is a Belgian professional footballer who plays as a centre back for German Bundesliga club St. Pauli on loan from the Spanish side Mallorca, and the Belgium national team."@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/b6d0ky1724407635.jpg"^^xsd:anyURI ;
+    schema:memberOf "Gent"^^xsd:string ;
+    schema:name "Siebe Van der Heyden"^^xsd:string ;
+    schema:nationality "Belgium"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Will_Smallbone a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q80952616> ;
+    foaf:account "twitter.com/wsmallbone"^^xsd:anyURI,
+        "www.instagram.com/wsmallbone/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/5uq9zm1725549281.png"^^xsd:anyURI ;
+    foaf:name "Will Smallbone"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 23 ;
+    stats:blocks 8 ;
+    stats:carries 193 ;
+    stats:clearances 14 ;
+    stats:dispossessed 6 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.7 ;
+    stats:expectedGoals 0.6 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 10 ;
+    stats:matches90s 7.7 ;
+    stats:matchesPlayed 18 ;
+    stats:matchesStarted 6 ;
+    stats:minutesPlayed 690 ;
+    stats:miscontrols 12 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 5 ;
+    stats:progressivePasses 27 ;
+    stats:progressivePassesReceived 25 ;
+    stats:rank 2454 ;
+    stats:redCards 0 ;
+    stats:tackles 20 ;
+    stats:tacklesWon 13 ;
+    stats:touches 431 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2000-02-21"^^xsd:date ;
+    schema:description "William Anthony Patrick Smallbone is a professional footballer who plays as a central midfielder for EFL Championship club Millwall, on loan from EFL Championship club Southampton."@en ;
+    schema:height "183 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/7e9dsn1584908102.jpg"^^xsd:anyURI ;
+    schema:memberOf "Millwall"^^xsd:string ;
+    schema:name "Will Smallbone"^^xsd:string ;
+    schema:nationality "Ireland"^^xsd:string .
+

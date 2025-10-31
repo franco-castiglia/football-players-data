@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Rodrigo_de_Paul a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6110670> ;
+    foaf:account "twitter.com/rodridepaul"^^xsd:anyURI,
+        "www.facebook.com/rodrigodepaul/"^^xsd:anyURI,
+        "www.instagram.com/rodridepaul/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/d6fxhj1758037358.png"^^xsd:anyURI ;
+    foaf:name "Rodrigo de Paul"^^xsd:string ;
+    stats:assists 5 ;
+    stats:ballRecoveries 128 ;
+    stats:blocks 25 ;
+    stats:carries 1373 ;
+    stats:clearances 15 ;
+    stats:dispossessed 24 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 5.6 ;
+    stats:expectedGoals 1.3 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 42 ;
+    stats:matches90s 23.4 ;
+    stats:matchesPlayed 34 ;
+    stats:matchesStarted 23 ;
+    stats:minutesPlayed 2106 ;
+    stats:miscontrols 33 ;
+    stats:passesIntoPenaltyArea 58 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 85 ;
+    stats:progressivePasses 231 ;
+    stats:progressivePassesReceived 64 ;
+    stats:rank 682 ;
+    stats:redCards 0 ;
+    stats:tackles 33 ;
+    stats:tacklesWon 26 ;
+    stats:touches 1950 ;
+    stats:yellowCards 7 ;
+    schema:birthDate "1994-05-24"^^xsd:date ;
+    schema:description "Rodrigo Javier De Paul (Spanish pronunciation: ; born 24 May 1994) is an Argentine professional football player who plays as a central midfielder or right midfielder for Major League Soccer club Inter Miami, on loan from La Liga club Atlético Madrid, and the Argentina national team."@en ;
+    schema:height "1.78 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/kbsgxz1546517979.jpg"^^xsd:anyURI ;
+    schema:memberOf "Inter Miami"^^xsd:string ;
+    schema:name "Rodrigo de Paul"^^xsd:string ;
+    schema:nationality "Argentina"^^xsd:string ;
+    schema:weight "69 kg (152 lb)"^^xsd:string .
+

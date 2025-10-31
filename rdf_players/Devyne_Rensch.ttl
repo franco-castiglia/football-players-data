@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Devyne_Rensch a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q63966349> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/eioup51758816339.png"^^xsd:anyURI ;
+    foaf:name "Devyne Rensch"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 13 ;
+    stats:blocks 5 ;
+    stats:carries 161 ;
+    stats:clearances 12 ;
+    stats:dispossessed 2 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.8 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 7 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 5.2 ;
+    stats:matchesPlayed 14 ;
+    stats:matchesStarted 5 ;
+    stats:minutesPlayed 469 ;
+    stats:miscontrols 5 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 14 ;
+    stats:progressivePassesReceived 25 ;
+    stats:rank 2199 ;
+    stats:redCards 0 ;
+    stats:tackles 17 ;
+    stats:tacklesWon 13 ;
+    stats:touches 319 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2003-01-18"^^xsd:date ;
+    schema:description "Devyne Fabian Jairo Rensch (born 18 January 2003) is a Dutch professional footballer who plays as a right-back for Italian Serie A club Roma and the Netherlands national team."@en ;
+    schema:height "1.79 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/hkayou1610639546.jpg"^^xsd:anyURI ;
+    schema:memberOf "Roma"^^xsd:string ;
+    schema:name "Devyne Rensch"^^xsd:string ;
+    schema:nationality "The Netherlands"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

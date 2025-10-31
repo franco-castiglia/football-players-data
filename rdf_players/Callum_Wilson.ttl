@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Callum_Wilson a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5022998> ;
+    foaf:account "http://www.instagram.com/callumwilson"^^xsd:anyURI,
+        "twitter.com/callumwilson"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/h0wtkg1756984728.png"^^xsd:anyURI ;
+    foaf:name "Callum Wilson"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 11 ;
+    stats:blocks 2 ;
+    stats:carries 47 ;
+    stats:clearances 1 ;
+    stats:dispossessed 12 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 4.1 ;
+    stats:matchesPlayed 18 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 370 ;
+    stats:miscontrols 16 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 5 ;
+    stats:progressivePasses 4 ;
+    stats:progressivePassesReceived 17 ;
+    stats:rank 2774 ;
+    stats:redCards 0 ;
+    stats:tackles 2 ;
+    stats:tacklesWon 2 ;
+    stats:touches 95 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1992-02-27"^^xsd:date ;
+    schema:description "Callum Eddie Graham Wilson is an English professional footballer who plays as a striker for Premier League club West Ham United."@en ;
+    schema:height "5 ft 11 in (1.80 m)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/vhk6161510841450.jpg"^^xsd:anyURI ;
+    schema:memberOf "West Ham United"^^xsd:string ;
+    schema:name "Callum Wilson"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "146 lbs"^^xsd:string .
+

@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Filippo_Terracciano a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q110137666> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/47i6wv1758886528.png"^^xsd:anyURI ;
+    foaf:name "Filippo Terracciano"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 21 ;
+    stats:blocks 1 ;
+    stats:carries 162 ;
+    stats:clearances 11 ;
+    stats:dispossessed 5 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 6.0 ;
+    stats:matchesPlayed 13 ;
+    stats:matchesStarted 6 ;
+    stats:minutesPlayed 539 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 5 ;
+    stats:progressivePasses 14 ;
+    stats:progressivePassesReceived 9 ;
+    stats:rank 2573 ;
+    stats:redCards 0 ;
+    stats:tackles 9 ;
+    stats:tacklesWon 6 ;
+    stats:touches 303 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2003-02-08"^^xsd:date ;
+    schema:description """Filippo Terracciano (born 8 February 2003) is an Italian professional footballer who plays as a full-back and midfielder for Serie A club AC Milan.\r
+\r
+Known for his tactical versatility and near ambidexterity, Terracciano can play in many positions of most common modern formations, such as a full-back or a wing-back on either side of the pitch, a central or box-to-box midflider, and occasionally a winger."""@en ;
+    schema:height "1.86 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/cgs71a1679667524.jpg"^^xsd:anyURI ;
+    schema:memberOf "Cremonese"^^xsd:string ;
+    schema:name "Filippo Terracciano"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

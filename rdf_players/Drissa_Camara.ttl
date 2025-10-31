@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Drissa_Camara a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q59914505> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/zubg331718882175.png"^^xsd:anyURI ;
+    foaf:name "Drissa Camara"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 29 ;
+    stats:blocks 8 ;
+    stats:carries 174 ;
+    stats:clearances 1 ;
+    stats:dispossessed 3 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.8 ;
+    stats:expectedGoals 1.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 3 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 5.0 ;
+    stats:matchesPlayed 21 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 447 ;
+    stats:miscontrols 14 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 18 ;
+    stats:progressivePasses 27 ;
+    stats:progressivePassesReceived 35 ;
+    stats:rank 446 ;
+    stats:redCards 0 ;
+    stats:tackles 9 ;
+    stats:tacklesWon 7 ;
+    stats:touches 251 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2002-02-18"^^xsd:date ;
+    schema:description """Drissa Camara (born 18 February 2002) is an Ivorian professional football player who plays as a midfielder for Serie B club Parma.\r
+\r
+Born in Ivory Coast, Camara was sent in Italy through the illegal immigration system built by an Italian talent scout who was later condemned to one year and ten months in prison.\r
+\r
+He still became part of the Parma academy, the club having not been found guilty of any charge in this matter.\r
+\r
+Camara first came to light in the 2019 Torneo di Viareggio, scoring 4 goals in the final stages, including a double in the quarter-final victory against Fiorentina, putting his team in a 3–1 lead.\r
+\r
+Drissa Camara made his professional debut for Parma Calcio on the 25 November 2020, in a Coppa Italia game against Cosenza Calcio, won 2-1 by the Parmigiani."""@en ;
+    schema:height "179 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/evyfiu1718882139.jpg"^^xsd:anyURI ;
+    schema:memberOf "Gaziantep"^^xsd:string ;
+    schema:name "Drissa Camara"^^xsd:string ;
+    schema:nationality "Ivory Coast"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

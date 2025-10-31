@@ -1,0 +1,52 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Pedro_Pereira a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    foaf:account "www.instagram.com/iampedropereira_/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/d4n9ft1718361883.png"^^xsd:anyURI ;
+    foaf:name "Pedro Pereira"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 88 ;
+    stats:blocks 26 ;
+    stats:carries 798 ;
+    stats:clearances 85 ;
+    stats:dispossessed 18 ;
+    stats:errors 5 ;
+    stats:expectedAssistedGoals 1.6 ;
+    stats:expectedGoals 1.2 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 21 ;
+    stats:keyPasses 14 ;
+    stats:matches90s 29.6 ;
+    stats:matchesPlayed 35 ;
+    stats:matchesStarted 32 ;
+    stats:minutesPlayed 2665 ;
+    stats:miscontrols 25 ;
+    stats:passesIntoPenaltyArea 15 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 52 ;
+    stats:progressivePasses 66 ;
+    stats:progressivePassesReceived 107 ;
+    stats:rank 2085 ;
+    stats:redCards 0 ;
+    stats:tackles 53 ;
+    stats:tacklesWon 32 ;
+    stats:touches 1409 ;
+    stats:yellowCards 10 ;
+    schema:birthDate "1998-01-22"^^xsd:date ;
+    schema:description "Pedro Miguel Almeida Lopes Pereira (born 22 January 1998) is a Portuguese professional footballer who plays as a right-back for Serie A club Monza."@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/p21ngk1546111164.jpg"^^xsd:anyURI ;
+    schema:memberOf "Monza"^^xsd:string ;
+    schema:name "Pedro Pereira"^^xsd:string ;
+    schema:nationality "Portugal"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

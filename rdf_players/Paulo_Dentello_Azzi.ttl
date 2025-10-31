@@ -1,0 +1,64 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Paulo_Dentello_Azzi a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    foaf:account "www.instagram.com/pauloazzi/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/uxk2se1697923610.png"^^xsd:anyURI ;
+    foaf:name "Paulo Dentello Azzi"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 24 ;
+    stats:blocks 5 ;
+    stats:carries 119 ;
+    stats:clearances 11 ;
+    stats:dispossessed 4 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 0.5 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 4.7 ;
+    stats:matchesPlayed 6 ;
+    stats:matchesStarted 5 ;
+    stats:minutesPlayed 426 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 15 ;
+    stats:progressivePasses 13 ;
+    stats:progressivePassesReceived 26 ;
+    stats:rank 192 ;
+    stats:redCards 0 ;
+    stats:tackles 11 ;
+    stats:tacklesWon 9 ;
+    stats:touches 242 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1994-07-15"^^xsd:date ;
+    schema:description """Paulo Daniel Dentello Azzi (born 15 July 1994) is a Brazilian professional footballer who plays as a left-back or a winger for Italian Serie A club Cagliari.\r
+\r
+Born in Bragança Paulista, Azzi joined Paulista's youth setup in 2008, aged 13. In July 2013 he was promoted to the first-team ahead of that year's Copa Paulista. He also appeared three times in the competition, all from the bench.\r
+\r
+On 31 January 2014, Azzi joined Italian Serie B side A.S. Cittadella. On 15 March he made his professional debut, starting and assisting Juan Surraco in the winner against Carpi at Pier Cesare Tombolato; seven days later he scored his first professional goal, netting his side's second of a 4–0 routing at Padova.\r
+\r
+On 11 July 2020, he moved to Serie D club Seregno.\r
+\r
+On 1 February 2021, he returned to Serie C and signed with Lecco.\r
+\r
+On 3 July 2021, Azzi signed a two-year contract with fellow Serie C side Modena. He made his debut on 6 September in a 1–1 league draw against Reggiana as a late substitute for Alessandro Marotta. On 31 October, he scored his first goal for the club in the injury time of a 2–0 home win over Carrarese. The Brazilian eventually contributed to Modena's direct promotion to Serie B after six years.\r
+\r
+After spending the first half of the 2022–23 season as a regular starter at Modena, on 12 January 2023 Azzi officially joined fellow Serie B club Cagliari for an undisclosed fee, signing a contract until June 2025, with an option for another year. He subsequently made his debut two days later, starting and scoring a goal in a 2–0 league win against Como.["""@en ;
+    schema:height "188 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ml15jh1697450055.jpg"^^xsd:anyURI ;
+    schema:memberOf "Monza"^^xsd:string ;
+    schema:name "Paulo Dentello Azzi"^^xsd:string ;
+    schema:nationality "Brazil"^^xsd:string ;
+    schema:weight "80 kg"^^xsd:string .
+

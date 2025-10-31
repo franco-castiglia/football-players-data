@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jack_Grealish a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16056053> ;
+    foaf:account "twitter.com/JackGrealish"^^xsd:anyURI,
+        "www.facebook.com/JackGrealishOfficial"^^xsd:anyURI,
+        "www.instagram.com/jackgrealish"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/7ckk5a1756976762.png"^^xsd:anyURI ;
+    foaf:name "Jack Grealish"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 26 ;
+    stats:blocks 12 ;
+    stats:carries 376 ;
+    stats:clearances 6 ;
+    stats:dispossessed 16 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.8 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 24 ;
+    stats:matches90s 8.0 ;
+    stats:matchesPlayed 20 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 721 ;
+    stats:miscontrols 10 ;
+    stats:passesIntoPenaltyArea 16 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 69 ;
+    stats:progressivePasses 52 ;
+    stats:progressivePassesReceived 118 ;
+    stats:rank 1059 ;
+    stats:redCards 0 ;
+    stats:tackles 9 ;
+    stats:tacklesWon 5 ;
+    stats:touches 521 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1995-09-10"^^xsd:date ;
+    schema:description """Jack Peter Grealish (born 10 September 1995) is an English professional footballer who plays as a winger or attacking midfielder for Premier League club Everton, on loan from Manchester City, and the England national team.\r
+\r
+Grealish joined Aston Villa at the age of six, and made his debut for the club in May 2014, following a loan at Notts County, becoming club captain in 2019. In 2021, Grealish was signed by Manchester City in a transfer deal worth £100 million, making him at the time, the most expensive British player ever. In his first season with the club, he won a Premier League title, before securing a continental treble in his second campaign.\r
+\r
+Born in England and having Irish ancestry, Grealish was eligible to represent either England or the Republic of Ireland internationally. He was capped by the Republic of Ireland up to under-21 level before confirming his decision to play for England in April 2016. Grealish played for the England under-21s for the first time in May 2016, winning the 2016 Toulon Tournament. He represented the senior side at UEFA Euro 2020 and the 2022 FIFA World Cup, he is the second football player to play for both Ireland and England after Declan Rice."""@en ;
+    schema:height "5 ft 9 in (1.75 m)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/zq9cdm1684398657.jpg"^^xsd:anyURI ;
+    schema:memberOf "Everton"^^xsd:string ;
+    schema:name "Jack Grealish"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

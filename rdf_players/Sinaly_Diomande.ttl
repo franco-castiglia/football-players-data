@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Sinaly_Diomande a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q98829626> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/cgeo6s1702911918.png"^^xsd:anyURI ;
+    foaf:name "Sinaly Diomandé"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 86 ;
+    stats:blocks 37 ;
+    stats:carries 698 ;
+    stats:clearances 100 ;
+    stats:dispossessed 6 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.6 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 30 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 21.6 ;
+    stats:matchesPlayed 23 ;
+    stats:matchesStarted 22 ;
+    stats:minutesPlayed 1945 ;
+    stats:miscontrols 12 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 8 ;
+    stats:progressivePasses 72 ;
+    stats:progressivePassesReceived 8 ;
+    stats:rank 737 ;
+    stats:redCards 0 ;
+    stats:tackles 39 ;
+    stats:tacklesWon 19 ;
+    stats:touches 1223 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "2001-04-09"^^xsd:date ;
+    schema:description "Sinaly Diomandé (born 9 April 2001) is an Ivorian professional footballer who plays as a center-back or right-back for Ligue 1 side Auxerre and the Ivory Coast national team."@en ;
+    schema:height "1.84 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/xu1ltc1608129435.jpg"^^xsd:anyURI ;
+    schema:memberOf "Auxerre"^^xsd:string ;
+    schema:name "Sinaly Diomandé"^^xsd:string ;
+    schema:nationality "Ivory Coast"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

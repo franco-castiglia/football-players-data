@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Hugo_Duro a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q42332208> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/nep5ek1701180110.png"^^xsd:anyURI ;
+    foaf:name "Hugo Duro"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 46 ;
+    stats:blocks 11 ;
+    stats:carries 297 ;
+    stats:clearances 11 ;
+    stats:dispossessed 32 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.3 ;
+    stats:expectedGoals 9.4 ;
+    stats:goals 11 ;
+    stats:goalsNonPenalty 10 ;
+    stats:interceptions 10 ;
+    stats:keyPasses 14 ;
+    stats:matches90s 24.1 ;
+    stats:matchesPlayed 31 ;
+    stats:matchesStarted 25 ;
+    stats:minutesPlayed 2166 ;
+    stats:miscontrols 58 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 2 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 13 ;
+    stats:progressivePasses 28 ;
+    stats:progressivePassesReceived 88 ;
+    stats:rank 802 ;
+    stats:redCards 0 ;
+    stats:tackles 13 ;
+    stats:tacklesWon 8 ;
+    stats:touches 634 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1999-11-10"^^xsd:date ;
+    schema:description "Hugo Duro Perales (born 10 November 1999) is a Spanish professional footballer who plays as a striker for La Liga club Valencia."@en ;
+    schema:height "1.77 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/mlw0zm1628871634.jpg"^^xsd:anyURI ;
+    schema:memberOf "Valencia"^^xsd:string ;
+    schema:name "Hugo Duro"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

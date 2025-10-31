@@ -1,0 +1,67 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Yunus_Musah a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q99304192> ;
+    foaf:account "twitter.com/yunusmusah8"^^xsd:anyURI,
+        "www.instagram.com/yunus.musah8/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/8yqjlf1691175273.png"^^xsd:anyURI ;
+    foaf:name "Yunus Musah"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 60 ;
+    stats:blocks 9 ;
+    stats:carries 581 ;
+    stats:clearances 9 ;
+    stats:dispossessed 13 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 1.8 ;
+    stats:expectedGoals 1.9 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 7 ;
+    stats:keyPasses 23 ;
+    stats:matches90s 17.5 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 19 ;
+    stats:minutesPlayed 1571 ;
+    stats:miscontrols 46 ;
+    stats:passesIntoPenaltyArea 17 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 51 ;
+    stats:progressivePasses 84 ;
+    stats:progressivePassesReceived 74 ;
+    stats:rank 1833 ;
+    stats:redCards 0 ;
+    stats:tackles 27 ;
+    stats:tacklesWon 19 ;
+    stats:touches 888 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "2002-11-29"^^xsd:date ;
+    schema:description """Yunus Dimoara Musah (born 29 November 2002) is an English footballer who plays for Atalanta on loan from Milan as a central midfielder.\r
+\r
+Club career\r
+Early career\r
+Born in New York City with Ghanaian descent, Musah moved to Italy with months of age, living in Castelfranco Veneto and starting his career at Giorgione Calcio 2000. In 2012, he moved to London and joined Arsenal's Academy.\r
+\r
+Valencia\r
+In the 2019 summer, Musah joined Valencia CF and was assigned to the reserves in Segunda División B. He made his senior debut with the B-team at the age of 16 on 15 September 2019, starting in a 0–0 home draw against CF La Nucía. He scored his first senior goal the following 1 March, netting his team's only goal in a 1–2 loss at Gimnàstic de Tarragona.\r
+\r
+After the arrival of new manager Javi Gracia in Valencia's first team, Musah spent the 2020 pre-season with the main squad. He made his first team – and La Liga – debut on 13 September of that year, starting in a 4–2 home win against Levante UD; at the age of 17 years and eight months, he became the first Englishman to debut for the club.\r
+\r
+International career\r
+Musah is eligible to play for the United States, Ghana, Italy (after living for ten years in the country) and England. He made his debut with the latter's under-15s in 2016."""@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ofx11d1603374505.jpg"^^xsd:anyURI ;
+    schema:memberOf "Atalanta"^^xsd:string ;
+    schema:name "Yunus Musah"^^xsd:string ;
+    schema:nationality "United States"^^xsd:string ;
+    schema:weight "157 lbs"^^xsd:string .
+

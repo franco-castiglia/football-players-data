@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Wylan_Cyprien a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    foaf:account "twitter.com/wylancyprien"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/o455021718881942.png"^^xsd:anyURI ;
+    foaf:name "Wylan Cyprien"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 6 ;
+    stats:blocks 1 ;
+    stats:carries 11 ;
+    stats:clearances 0 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.3 ;
+    stats:matchesPlayed 2 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 28 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 2 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 641 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 28 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1995-01-28"^^xsd:date ;
+    schema:description """Wylan Jean-Claude Cyprien (born 28 January 1995) is a French professional footballer who plays as a midfielder for Parma.\r
+\r
+Born in Les Abymes, Guadeloupe, France on 28 January 1995, Cyprien moved to metropolitan France at a young age.\r
+\r
+Cyprien is a former France youth international, having been capped at U16, U18, U19 and U21 levels."""@en ;
+    schema:height "184 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/erl3vz1610449644.jpg"^^xsd:anyURI ;
+    schema:memberOf "Changchun Yatai"^^xsd:string ;
+    schema:name "Wylan Cyprien"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

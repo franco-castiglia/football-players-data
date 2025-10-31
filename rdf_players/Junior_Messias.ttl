@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Junior_Messias a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q69691627> ;
+    foaf:account "http://www.instagram.com/messias_w_jr30/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/f1e1p91758989854.png"^^xsd:anyURI ;
+    foaf:name "Junior Messias"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 39 ;
+    stats:blocks 8 ;
+    stats:carries 226 ;
+    stats:clearances 20 ;
+    stats:dispossessed 5 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.7 ;
+    stats:expectedGoals 2.4 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 8 ;
+    stats:matches90s 9.4 ;
+    stats:matchesPlayed 17 ;
+    stats:matchesStarted 8 ;
+    stats:minutesPlayed 847 ;
+    stats:miscontrols 34 ;
+    stats:passesIntoPenaltyArea 8 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 32 ;
+    stats:progressivePasses 32 ;
+    stats:progressivePassesReceived 49 ;
+    stats:rank 1730 ;
+    stats:redCards 0 ;
+    stats:tackles 13 ;
+    stats:tacklesWon 7 ;
+    stats:touches 397 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1991-05-13"^^xsd:date ;
+    schema:description "Junior Walter Messias (born 13 May 1991) is a Brazilian football player. He plays in Italy for Milan."@en ;
+    schema:height "1.74 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/awp7091608193597.jpg"^^xsd:anyURI ;
+    schema:memberOf "Genoa"^^xsd:string ;
+    schema:name "Junior Messias"^^xsd:string ;
+    schema:nationality "Brazil"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

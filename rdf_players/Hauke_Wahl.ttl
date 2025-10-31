@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Hauke_Wahl a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q14880760> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/cbwvwq1756310686.png"^^xsd:anyURI ;
+    foaf:name "Hauke Wahl"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 129 ;
+    stats:blocks 44 ;
+    stats:carries 1040 ;
+    stats:clearances 170 ;
+    stats:dispossessed 9 ;
+    stats:errors 4 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 0.9 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 31 ;
+    stats:keyPasses 9 ;
+    stats:matches90s 33.0 ;
+    stats:matchesPlayed 33 ;
+    stats:matchesStarted 33 ;
+    stats:minutesPlayed 2970 ;
+    stats:miscontrols 10 ;
+    stats:passesIntoPenaltyArea 8 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 30 ;
+    stats:progressivePasses 142 ;
+    stats:progressivePassesReceived 10 ;
+    stats:rank 2737 ;
+    stats:redCards 0 ;
+    stats:tackles 36 ;
+    stats:tacklesWon 27 ;
+    stats:touches 2096 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1994-04-15"^^xsd:date ;
+    schema:description "Hauke Wahl (born 15 April 1994) is a German professional footballer who plays as a centre-back for Bundesliga club FC St. Pauli."@en ;
+    schema:height "1.89 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ejehgv1741634415.jpg"^^xsd:anyURI ;
+    schema:memberOf "St Pauli"^^xsd:string ;
+    schema:name "Hauke Wahl"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "185 lbs"^^xsd:string .
+

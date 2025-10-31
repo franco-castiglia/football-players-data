@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Georges_Mikautadze a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q78541955> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/zs0uca1705662132.png"^^xsd:anyURI ;
+    foaf:name "Georges Mikautadze"^^xsd:string ;
+    stats:assists 6 ;
+    stats:ballRecoveries 44 ;
+    stats:blocks 11 ;
+    stats:carries 402 ;
+    stats:clearances 6 ;
+    stats:dispossessed 20 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 4.3 ;
+    stats:expectedGoals 10.3 ;
+    stats:goals 11 ;
+    stats:goalsNonPenalty 8 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 21 ;
+    stats:matches90s 16.1 ;
+    stats:matchesPlayed 34 ;
+    stats:matchesStarted 13 ;
+    stats:minutesPlayed 1449 ;
+    stats:miscontrols 49 ;
+    stats:passesIntoPenaltyArea 14 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 2 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 37 ;
+    stats:progressivePasses 54 ;
+    stats:progressivePassesReceived 140 ;
+    stats:rank 1740 ;
+    stats:redCards 0 ;
+    stats:tackles 7 ;
+    stats:tacklesWon 6 ;
+    stats:touches 653 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2000-10-31"^^xsd:date ;
+    schema:description "Georges Mikautadze (Order of Honor) (Georgian: გიორგი მიქაუტაძე Giorgi Mikaut'adze; born 31 October 2000) is a Georgian professional footballer who plays as a forward for Ligue 1 club Lyon and the Georgia national team."@en ;
+    schema:height "1.76 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/0b6lsq1716622054.jpg"^^xsd:anyURI ;
+    schema:memberOf "Lyon"^^xsd:string ;
+    schema:name "Georges Mikautadze"^^xsd:string ;
+    schema:nationality "Georgia"^^xsd:string ;
+    schema:weight "157 lbs"^^xsd:string .
+

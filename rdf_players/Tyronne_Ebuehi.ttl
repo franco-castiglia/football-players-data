@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Tyronne_Ebuehi a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q17496848> ;
+    foaf:account "www.facebook.com/tyronne.ebuehi"^^xsd:anyURI,
+        "www.instagram.com/tyronneebuehi_/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/4uiq741697890191.png"^^xsd:anyURI ;
+    foaf:name "Tyronne Ebuehi"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 6 ;
+    stats:blocks 1 ;
+    stats:carries 20 ;
+    stats:clearances 0 ;
+    stats:dispossessed 2 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.8 ;
+    stats:matchesPlayed 4 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 74 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 3 ;
+    stats:progressivePasses 4 ;
+    stats:progressivePassesReceived 3 ;
+    stats:rank 809 ;
+    stats:redCards 0 ;
+    stats:tackles 3 ;
+    stats:tacklesWon 2 ;
+    stats:touches 59 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1995-12-16"^^xsd:date ;
+    schema:description "Tyronne Efe Ebuehi (born 16 December 1995) is a Nigerian professional footballer who plays as a right back for Italian Serie A club Empoli. Born in the Netherlands, he represents the Nigeria national team."@en ;
+    schema:height "1.87 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/s4sfxi1633093003.jpg"^^xsd:anyURI ;
+    schema:memberOf "Empoli"^^xsd:string ;
+    schema:name "Tyronne Ebuehi"^^xsd:string ;
+    schema:nationality "Nigeria"^^xsd:string ;
+    schema:weight "72 kg"^^xsd:string .
+

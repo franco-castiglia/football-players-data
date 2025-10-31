@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Nuno_Mendes a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q96396963> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/k842hz1748682806.png"^^xsd:anyURI ;
+    foaf:name "Nuno Mendes"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 108 ;
+    stats:blocks 25 ;
+    stats:carries 990 ;
+    stats:clearances 37 ;
+    stats:dispossessed 22 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 5.0 ;
+    stats:expectedGoals 2.2 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 18 ;
+    stats:keyPasses 30 ;
+    stats:matches90s 18.6 ;
+    stats:matchesPlayed 24 ;
+    stats:matchesStarted 19 ;
+    stats:minutesPlayed 1676 ;
+    stats:miscontrols 28 ;
+    stats:passesIntoPenaltyArea 34 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:progressiveCarries 58 ;
+    stats:progressivePasses 127 ;
+    stats:progressivePassesReceived 108 ;
+    stats:rank 1718 ;
+    stats:redCards 0 ;
+    stats:tackles 30 ;
+    stats:tacklesWon 19 ;
+    stats:touches 1701 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2002-06-19"^^xsd:date ;
+    schema:description """Nuno Alexandre Tavares Mendes (Portuguese pronunciation: ; born 19 June 2002) is a Portuguese professional footballer who plays as a left-back for Ligue 1 club Paris Saint-Germain and the Portugal national team.\r
+\r
+Coming through Sporting CP's youth academy, he made his first-team debut in 2020, and in the following year, he won a double of the Primeira Liga and Taça da Liga, while being named in the Primeira Liga Team of the Year. In August 2021, he moved to Paris Saint-Germain on a one-year loan deal, winning the Ligue 1 title and joining the club permanently for €38 million.\r
+\r
+Mendes is a former Portugal youth international, representing his country at various levels. He made his full debut in 2021, and was chosen in the squad for Euro 2020."""@en ;
+    schema:height "1.76 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/10cjxn1659776663.jpg"^^xsd:anyURI ;
+    schema:memberOf "Paris SG"^^xsd:string ;
+    schema:name "Nuno Mendes"^^xsd:string ;
+    schema:nationality "Portugal"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

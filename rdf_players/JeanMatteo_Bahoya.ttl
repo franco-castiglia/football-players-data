@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:JeanMatteo_Bahoya a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q116052667> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/290n111742042861.png"^^xsd:anyURI ;
+    foaf:name "Jean-Mattéo Bahoya"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 51 ;
+    stats:blocks 14 ;
+    stats:carries 267 ;
+    stats:clearances 10 ;
+    stats:dispossessed 17 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.7 ;
+    stats:expectedGoals 1.9 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 18 ;
+    stats:matches90s 10.2 ;
+    stats:matchesPlayed 24 ;
+    stats:matchesStarted 10 ;
+    stats:minutesPlayed 921 ;
+    stats:miscontrols 19 ;
+    stats:passesIntoPenaltyArea 11 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:progressiveCarries 24 ;
+    stats:progressivePasses 28 ;
+    stats:progressivePassesReceived 93 ;
+    stats:rank 1675 ;
+    stats:redCards 0 ;
+    stats:tackles 29 ;
+    stats:tacklesWon 18 ;
+    stats:touches 475 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2005-05-07"^^xsd:date ;
+    schema:description "Jean-Mattéo Bahoya Négoce (born 7 May 2005) is a French professional footballer who plays as an attacking midfielder for Bundesliga club Eintracht Frankfurt."@en ;
+    schema:height "1.80 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/r3nycn1680872627.jpg"^^xsd:anyURI ;
+    schema:memberOf "Eintracht Frankfurt"^^xsd:string ;
+    schema:name "Jean-Mattéo Bahoya"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

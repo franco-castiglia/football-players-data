@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Antony a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    foaf:account "twitter.com/antony00"^^xsd:anyURI,
+        "www.facebook.com/antonysantos00/"^^xsd:anyURI,
+        "www.instagram.com/antony00/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/vmgket1761255257.png"^^xsd:anyURI ;
+    foaf:name "Antony"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 73 ;
+    stats:blocks 12 ;
+    stats:carries 663 ;
+    stats:clearances 9 ;
+    stats:dispossessed 20 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 3.5 ;
+    stats:expectedGoals 2.9 ;
+    stats:goals 5 ;
+    stats:goalsNonPenalty 5 ;
+    stats:interceptions 10 ;
+    stats:keyPasses 36 ;
+    stats:matches90s 15.1 ;
+    stats:matchesPlayed 17 ;
+    stats:matchesStarted 15 ;
+    stats:minutesPlayed 1362 ;
+    stats:miscontrols 53 ;
+    stats:passesIntoPenaltyArea 43 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 94 ;
+    stats:progressivePasses 67 ;
+    stats:progressivePassesReceived 157 ;
+    stats:rank 138 ;
+    stats:redCards 1 ;
+    stats:tackles 25 ;
+    stats:tacklesWon 11 ;
+    stats:touches 982 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2000-02-24"^^xsd:date ;
+    schema:description """Antony Matheus dos Santos, known mononymously as Antony, is a Brazilian professional footballer who plays as a right winger for La Liga club Real Betis and the Brazil national team. \r
+\r
+Antony graduated from the São Paulo academy and made his senior debut for the club in 2018. He moved abroad to Ajax in the summer of 2020, where he won two Eredivisie titles and one KNVB Cup during his two seasons. Antony's performances in the Netherlands led to a transfer worth €95 million (£82 million) to Manchester United, the highest sum paid for an Eredivisie player.\r
+\r
+Antony won a gold medal with the Brazil under-23 team at the 2020 Summer Olympics. He then made his senior international debut and scored against Venezuela in October 2021, going on to represent Brazil at the 2022 FIFA World Cup."""@en ;
+    schema:height "1.74 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/dk787l1706525447.jpg"^^xsd:anyURI ;
+    schema:memberOf "Real Betis"^^xsd:string ;
+    schema:name "Antony"^^xsd:string ;
+    schema:nationality "Brazil"^^xsd:string ;
+    schema:weight "139 lbs"^^xsd:string .
+

@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Gaetan_Perrin a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q23762797> ;
+    foaf:account "mobile.twitter.com/gaetanperrin07"^^xsd:anyURI,
+        "www.instagram.com/gaetanperrin10/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/s7vogj1674744902.png"^^xsd:anyURI ;
+    foaf:name "Gaetan Perrin"^^xsd:string ;
+    stats:assists 11 ;
+    stats:ballRecoveries 124 ;
+    stats:blocks 10 ;
+    stats:carries 798 ;
+    stats:clearances 4 ;
+    stats:dispossessed 63 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 7.8 ;
+    stats:expectedGoals 6.1 ;
+    stats:goals 10 ;
+    stats:goalsNonPenalty 10 ;
+    stats:interceptions 12 ;
+    stats:keyPasses 73 ;
+    stats:matches90s 29.9 ;
+    stats:matchesPlayed 34 ;
+    stats:matchesStarted 31 ;
+    stats:minutesPlayed 2691 ;
+    stats:miscontrols 46 ;
+    stats:passesIntoPenaltyArea 34 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 83 ;
+    stats:progressivePasses 142 ;
+    stats:progressivePassesReceived 125 ;
+    stats:rank 2100 ;
+    stats:redCards 0 ;
+    stats:tackles 49 ;
+    stats:tacklesWon 26 ;
+    stats:touches 1327 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1996-06-07"^^xsd:date ;
+    schema:description "Gaëtan Perrin (born 7 June 1996) is a French professional footballer who plays as a midfielder and striker for Ligue 1 club Auxerre."@en ;
+    schema:height "1.69 m (5 ft 6 1⁄2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/iliq6p1674744873.jpg"^^xsd:anyURI ;
+    schema:memberOf "Auxerre"^^xsd:string ;
+    schema:name "Gaetan Perrin"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "139 lbs"^^xsd:string .
+

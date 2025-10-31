@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Takumi_Minamino a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q776878> ;
+    foaf:account "twitter.com/takumina0116"^^xsd:anyURI,
+        "www.instagram.com/takumi18minamino_official"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/nju5dw1748684397.png"^^xsd:anyURI ;
+    foaf:name "Takumi Minamino"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 88 ;
+    stats:blocks 26 ;
+    stats:carries 567 ;
+    stats:clearances 20 ;
+    stats:dispossessed 23 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 6.6 ;
+    stats:expectedGoals 8.9 ;
+    stats:goals 6 ;
+    stats:goalsNonPenalty 6 ;
+    stats:interceptions 10 ;
+    stats:keyPasses 40 ;
+    stats:matches90s 24.8 ;
+    stats:matchesPlayed 31 ;
+    stats:matchesStarted 27 ;
+    stats:minutesPlayed 2231 ;
+    stats:miscontrols 56 ;
+    stats:passesIntoPenaltyArea 33 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:progressiveCarries 51 ;
+    stats:progressivePasses 114 ;
+    stats:progressivePassesReceived 193 ;
+    stats:rank 1752 ;
+    stats:redCards 0 ;
+    stats:tackles 33 ;
+    stats:tacklesWon 19 ;
+    stats:touches 1016 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1995-01-16"^^xsd:date ;
+    schema:description """Takumi Minamino (born 16 January 1995) is a Japanese professional footballer who plays as an attacking midfielder or winger for Ligue 1 side Monaco. \r
+\r
+Minamino began his club career at J.League Division 1 club Cerezo Osaka in 2012 and in his first season he was named J.League Rookie of the Year. In 2014 he moved to Austrian club Red Bull Salzburg with whom he spent four successful seasons. Following impressive displays for the club he joined Liverpool on 1 January 2020, winning the Premier League in his inaugural season.\r
+\r
+Making his senior international debut for Japan in 2015, Minamino starred in the team that reached the final of the 2019 AFC Asian Cup."""@en ;
+    schema:height "5 ft 9 in (1.74 m)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/qt6elx1578067918.jpg"^^xsd:anyURI ;
+    schema:memberOf "Monaco"^^xsd:string ;
+    schema:name "Takumi Minamino"^^xsd:string ;
+    schema:nationality "Japan"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

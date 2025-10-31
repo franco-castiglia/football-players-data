@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Simon_Adingra a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q107742783> ;
+    foaf:account "www.facebook.com/nguessan.adingra"^^xsd:anyURI,
+        "www.instagram.com/simon.adingra17/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/i3il5r1757073390.png"^^xsd:anyURI ;
+    foaf:name "Simon Adingra"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 47 ;
+    stats:blocks 12 ;
+    stats:carries 366 ;
+    stats:clearances 6 ;
+    stats:dispossessed 12 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 2.5 ;
+    stats:expectedGoals 2.5 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 16 ;
+    stats:matches90s 12.2 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 12 ;
+    stats:minutesPlayed 1097 ;
+    stats:miscontrols 39 ;
+    stats:passesIntoPenaltyArea 17 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:progressiveCarries 50 ;
+    stats:progressivePasses 18 ;
+    stats:progressivePassesReceived 136 ;
+    stats:rank 31 ;
+    stats:redCards 0 ;
+    stats:tackles 23 ;
+    stats:tacklesWon 14 ;
+    stats:touches 548 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2002-01-01"^^xsd:date ;
+    schema:description """Simon Kofi Adingra (born 1 January 2002) is an Ivorian professional footballer who plays as a winger for Premier League club Sunderland and the Ivory Coast national team.\r
+\r
+A former player of Right to Dream Academy, Adingra joined Danish club Nordsjælland in January 2020. He made his professional debut on 18 April 2021 in a 2–2 league draw against Copenhagen. He replaced Ivan Mesík at the 68th minute of the game and went on to score his team's second goal.\r
+\r
+On 24 June 2022, Adingra transferred to Premier League club Brighton & Hove Albion, signing a four-year contract."""@en ;
+    schema:height "1.75 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ps0isw1752176102.jpg"^^xsd:anyURI ;
+    schema:memberOf "Sunderland"^^xsd:string ;
+    schema:name "Simon Adingra"^^xsd:string ;
+    schema:nationality "Ivory Coast"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

@@ -1,0 +1,74 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Andrea_Colpani a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q64031831> ;
+    foaf:account "www.instagram.com/andrea.colpani/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/kyjmlj1679664099.png"^^xsd:anyURI ;
+    foaf:name "Andrea Colpani"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 46 ;
+    stats:blocks 7 ;
+    stats:carries 395 ;
+    stats:clearances 10 ;
+    stats:dispossessed 22 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.3 ;
+    stats:expectedGoals 2.7 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 17 ;
+    stats:matches90s 15.9 ;
+    stats:matchesPlayed 24 ;
+    stats:matchesStarted 17 ;
+    stats:minutesPlayed 1432 ;
+    stats:miscontrols 26 ;
+    stats:passesIntoPenaltyArea 15 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 37 ;
+    stats:progressivePasses 57 ;
+    stats:progressivePassesReceived 129 ;
+    stats:rank 583 ;
+    stats:redCards 0 ;
+    stats:tackles 15 ;
+    stats:tacklesWon 9 ;
+    stats:touches 609 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1999-05-11"^^xsd:date ;
+    schema:description """Andrea Colpani (born 11 May 1999) is an Italian professional footballer who plays as a midfielder for Serie A club Fiorentina on loan from Monza.\r
+\r
+Club career\r
+Atalanta\r
+Colpani is a product of the Atalanta Youth Sector, and started playing for their under-19 squad in the 2016–17 season.\r
+\r
+In the 2017–18 and 2018–19, he was called up to the senior squad on several occasions, including the 2019 Coppa Italia Final, but did not make any appearances.\r
+\r
+Loan to Trapani\r
+On 17 July 2019, Colpani was loaned to newly-promoted Serie B club Trapani on a season-long loan. He made his professional Serie B debut for Trapani, on 24 August 2019, against Ascoli. He started the game and played the first 63 minutes. Colpani played 34 league games for Trapani, as well as two games in Coppa Italia.\r
+\r
+Monza\r
+On 22 August 2020, Colpani was sent on a two-year loan to newly-promoted Serie B side Monza, with an option and conditional obligation to purchase. He scored his first goal on 16 March 2021, as a substitute in a 2–0 home win over Reggiana. On 1 November 2021, Colpani scored his first goal of the 2021–22 season, helping Monza beat Alessandria 1–0. Following Monza's Serie A promotion on 29 May 2022, Colpani's obligation for purchase clause was triggered.\r
+\r
+Colpani made his Serie A debut during the 2022–23 season on 21 August, coming on as a substitute in a 4–0 defeat away to Napoli in the second matchday. He scored his first Serie A goal on 26 August, in a 2–1 home defeat to Udinese.\r
+\r
+International career\r
+Colpani was selected for Italy's 2019 FIFA U-20 World Cup squad, and made four appearances at the tournament—three as substitute—as Italy finished in fourth place. Colpani played 16 games between 2018 and 2019 for the under-20 team. On 3 September 2020, Colpani scored a free kick for Italy U21 on his debut, in a friendly against Slovenia.\r
+\r
+Style of play\r
+Due to his similarities with Javier Pastore, Colpani is sometimes nicknamed "El Flaco"."""@en ;
+    schema:height "1.84 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ueoy1v1679664047.jpg"^^xsd:anyURI ;
+    schema:memberOf "Monza"^^xsd:string ;
+    schema:name "Andrea Colpani"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

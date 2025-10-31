@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jailson a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6168520> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/mmzwa61724492439.png"^^xsd:anyURI ;
+    foaf:name "Jaílson"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 32 ;
+    stats:blocks 6 ;
+    stats:carries 369 ;
+    stats:clearances 28 ;
+    stats:dispossessed 5 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 9 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 6.8 ;
+    stats:matchesPlayed 13 ;
+    stats:matchesStarted 6 ;
+    stats:minutesPlayed 614 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:progressiveCarries 10 ;
+    stats:progressivePasses 43 ;
+    stats:progressivePassesReceived 3 ;
+    stats:rank 2437 ;
+    stats:redCards 0 ;
+    stats:tackles 13 ;
+    stats:tacklesWon 11 ;
+    stats:touches 551 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1995-09-07"^^xsd:date ;
+    schema:description "Jailson Marques Siqueira (born 7 September 1995), simply known as Jailson, is a Brazilian professional footballer who plays as a defensive midfielder for MLS club Los Angeles FC."@en ;
+    schema:height "1.87 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/247adr1723544372.jpg"^^xsd:anyURI ;
+    schema:memberOf "Los Angeles FC"^^xsd:string ;
+    schema:name "Jaílson"^^xsd:string ;
+    schema:nationality "Brazil"^^xsd:string ;
+    schema:weight "75 kg (165 lb)"^^xsd:string .
+

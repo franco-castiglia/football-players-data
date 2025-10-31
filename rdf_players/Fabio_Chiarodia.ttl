@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Fabio_Chiarodia a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q110043588> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/go464j1756313405.png"^^xsd:anyURI ;
+    foaf:name "Fabio Chiarodia"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 9 ;
+    stats:blocks 8 ;
+    stats:carries 130 ;
+    stats:clearances 53 ;
+    stats:dispossessed 0 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.4 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 9 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 4.2 ;
+    stats:matchesPlayed 16 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 379 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 10 ;
+    stats:progressivePassesReceived 1 ;
+    stats:rank 545 ;
+    stats:redCards 0 ;
+    stats:tackles 10 ;
+    stats:tacklesWon 4 ;
+    stats:touches 298 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2005-06-05"^^xsd:date ;
+    schema:description "Fabio Cristian Chiarodia (born 5 June 2005) is a professional footballer, who plays as a centre-back or a defensive midfielder for Bundesliga club Borussia Mönchengladbach. Born in Germany, Chiarodia represents Italy at youth international level."@en ;
+    schema:height "186 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/6ce3ny1679665711.jpg"^^xsd:anyURI ;
+    schema:memberOf "Borussia Mönchengladbach"^^xsd:string ;
+    schema:name "Fabio Chiarodia"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

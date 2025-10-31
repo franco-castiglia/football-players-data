@@ -1,0 +1,68 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Guido_Rodriguez a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18224850> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/7tlzno1725553314.png"^^xsd:anyURI ;
+    foaf:name "Guido Rodríguez"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 53 ;
+    stats:blocks 23 ;
+    stats:carries 327 ;
+    stats:clearances 35 ;
+    stats:dispossessed 7 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 13 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 12.8 ;
+    stats:matchesPlayed 23 ;
+    stats:matchesStarted 16 ;
+    stats:minutesPlayed 1149 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 4 ;
+    stats:progressivePasses 33 ;
+    stats:progressivePassesReceived 7 ;
+    stats:rank 2237 ;
+    stats:redCards 0 ;
+    stats:tackles 36 ;
+    stats:tacklesWon 19 ;
+    stats:touches 709 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "1994-04-12"^^xsd:date ;
+    schema:description """Guido Rodríguez (born 12 April 1994) is an Argentine professional footballer who plays as a defensive midfielder for West Ham United and the Argentina national team.\r
+\r
+Rodríguez began his career with River Plate, whom he debuted for in 2014. He stayed with the club until 2016. He struggled for playing time, only managing to appear in sixteen league matches and twice in the Copa Argentina. Rodríguez also spent time on loan with Defensa y Justicia in 2016, managing fifteen league appearances.\r
+\r
+In the summer of 2016, Rodríguez joined Mexican side Club Tijuana. He made 39 league appearances and scored five goals.\r
+\r
+On 7 July 2017, Rodríguez joined Club América in a reported $7 million deal, reuniting with former Tijuana manager Miguel Herrera.\r
+\r
+On 9 June 2017, Rodríguez earned his first call-up with the Argentina national team for the friendly match against Brazil in Melbourne. He came on as a substitute for Paulo Dybala in Argentina’s 1–0 win.\r
+\r
+In May 2019, Rodríguez was included in Argentina's 23-man squad for the 2019 Copa América.\r
+\r
+He scored his first international goal in Argentina's second group match of the 2021 Copa América on 18 June 2021, the only goal in a 1–0 victory against Uruguay.\r
+\r
+On August 6, 2024 he joined West Ham on a free transfer."""@en ;
+    schema:height "185 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/i6wrws1722960980.jpg"^^xsd:anyURI ;
+    schema:memberOf "West Ham"^^xsd:string ;
+    schema:name "Guido Rodríguez"^^xsd:string ;
+    schema:nationality "Argentina"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

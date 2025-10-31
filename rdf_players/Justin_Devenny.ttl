@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Justin_Devenny a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q122089959> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/pky1oi1757013801.png"^^xsd:anyURI ;
+    foaf:name "Justin Devenny"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 27 ;
+    stats:blocks 6 ;
+    stats:carries 134 ;
+    stats:clearances 11 ;
+    stats:dispossessed 3 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.6 ;
+    stats:expectedGoals 0.8 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 5.6 ;
+    stats:matchesPlayed 23 ;
+    stats:matchesStarted 4 ;
+    stats:minutesPlayed 507 ;
+    stats:miscontrols 17 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 5 ;
+    stats:progressivePasses 21 ;
+    stats:progressivePassesReceived 13 ;
+    stats:rank 703 ;
+    stats:redCards 0 ;
+    stats:tackles 17 ;
+    stats:tacklesWon 12 ;
+    stats:touches 279 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2003-10-11"^^xsd:date ;
+    schema:description "Justin Devenny (born 11 October 2003) is a professional footballer who plays as a midfielder for Premier League club Crystal Palace. Born in Scotland, he plays for the Northern Ireland national team."@en ;
+    schema:height "5' 10\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/525jz91739641445.jpg"^^xsd:anyURI ;
+    schema:memberOf "Crystal Palace"^^xsd:string ;
+    schema:name "Justin Devenny"^^xsd:string ;
+    schema:nationality "Northern Ireland"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

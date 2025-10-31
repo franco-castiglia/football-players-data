@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Nemanja_Gudelj a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q644989> ;
+    foaf:account "twitter.com/nemanjagudelj"^^xsd:anyURI,
+        "www.instagram.com/nemanjagudelj/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/u2azm61724792107.png"^^xsd:anyURI ;
+    foaf:name "Nemanja Gudelj"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 74 ;
+    stats:blocks 27 ;
+    stats:carries 736 ;
+    stats:clearances 94 ;
+    stats:dispossessed 3 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.6 ;
+    stats:expectedGoals 1.6 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 27 ;
+    stats:keyPasses 14 ;
+    stats:matches90s 27.7 ;
+    stats:matchesPlayed 31 ;
+    stats:matchesStarted 27 ;
+    stats:minutesPlayed 2493 ;
+    stats:miscontrols 19 ;
+    stats:passesIntoPenaltyArea 7 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 14 ;
+    stats:progressivePasses 64 ;
+    stats:progressivePassesReceived 5 ;
+    stats:rank 1076 ;
+    stats:redCards 0 ;
+    stats:tackles 42 ;
+    stats:tacklesWon 24 ;
+    stats:touches 1635 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "1991-11-16"^^xsd:date ;
+    schema:description "Nemanja \"Neno\" Gudelj (Serbian Cyrillic: Немања Гудељ; born 16 November 1991) is a Serbian footballer who plays as a central midfielder for La Liga side Sevilla and the Serbian national team. He is the son of former NAC player Nebojša Gudelj and the older brother of Dragiša Gudelj. He holds both Serbian and Dutch citizenship."@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/4l61ec1716961913.jpg"^^xsd:anyURI ;
+    schema:memberOf "Sevilla"^^xsd:string ;
+    schema:name "Nemanja Gudelj"^^xsd:string ;
+    schema:nationality "Serbia"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

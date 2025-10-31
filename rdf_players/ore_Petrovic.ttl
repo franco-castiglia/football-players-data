@@ -1,0 +1,62 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:ore_Petrovic a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q98431212> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/rxlixn1694086661.png"^^xsd:anyURI ;
+    foaf:name "Đorđe Petrović"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 58 ;
+    stats:blocks 0 ;
+    stats:carries 1094 ;
+    stats:clearances 24 ;
+    stats:dispossessed 0 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 31.0 ;
+    stats:matchesPlayed 31 ;
+    stats:matchesStarted 31 ;
+    stats:minutesPlayed 2790 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 1 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 2107 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 1 ;
+    stats:touches 1647 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1999-10-08"^^xsd:date ;
+    schema:description """Đorđe Petrović (born 8 October 1999) is a Serbian professional footballer who plays as a goalkeeper for Ligue 1 club Strasbourg, on loan from Premier League side Chelsea and the Serbia national team.\r
+Club career\r
+FK Čukarički\r
+Petrović was part of the FK Čukarički academy from 2014, going on to break in to the Serbian SuperLiga club's first team in 2019, following a loan to Serbian League club FK IMT for the 2018–19 season. Petrović made 78 league appearances for Čukarički, as well as four Serbian Cup appearances, and four UEFA Europa Conference League appearances.\r
+\r
+New England Revolution\r
+On 6 April 2022, Petrović signed with Major League Soccer club New England Revolution on a three-year deal for an undisclosed fee.\r
+\r
+International career\r
+Petrović was called up to the Serbia U21 side in 2020, making a single appearance against Poland. He made his senior debut for the Serbia national football team on 25 January 2021, starting in a 0–0 draw with the Dominican Republic."""@en ;
+    schema:height "194 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/kcsku41716960010.jpg"^^xsd:anyURI ;
+    schema:memberOf "Bournemouth"^^xsd:string ;
+    schema:name "Đorđe Petrović"^^xsd:string ;
+    schema:nationality "Serbia"^^xsd:string ;
+    schema:weight "89 kg"^^xsd:string .
+

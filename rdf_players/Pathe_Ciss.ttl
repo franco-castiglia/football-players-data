@@ -1,0 +1,62 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Pathe_Ciss a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q67089591> ;
+    foaf:account "www.instagram.com/papite8/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/8956qo1679053920.png"^^xsd:anyURI ;
+    foaf:name "Pathé Ciss"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 148 ;
+    stats:blocks 31 ;
+    stats:carries 749 ;
+    stats:clearances 61 ;
+    stats:dispossessed 20 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 1.1 ;
+    stats:expectedGoals 1.8 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 40 ;
+    stats:keyPasses 16 ;
+    stats:matches90s 23.8 ;
+    stats:matchesPlayed 33 ;
+    stats:matchesStarted 25 ;
+    stats:minutesPlayed 2140 ;
+    stats:miscontrols 16 ;
+    stats:passesIntoPenaltyArea 8 ;
+    stats:penaltiesConceded 2 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 19 ;
+    stats:progressivePasses 128 ;
+    stats:progressivePassesReceived 12 ;
+    stats:rank 563 ;
+    stats:redCards 0 ;
+    stats:tackles 49 ;
+    stats:tacklesWon 24 ;
+    stats:touches 1449 ;
+    stats:yellowCards 12 ;
+    schema:birthDate "1994-03-16"^^xsd:date ;
+    schema:description """Pathé Ismaël Ciss (born 16 March 1994) is a Senegalese professional footballer who plays as a central midfielder for Spanish club Rayo Vallecano. \r
+\r
+Ciss was born in Dakar, and represented GNK Dinamo Zagreb as a youth. He started his career at Diambars FC in his home country, before joining LigaPro side C.F. União on 31 July 2017.\r
+\r
+Ciss made his professional debut on 13 August 2017, coming on as a late substitute for Gonçalo Abreu in a 2–0 home win against Real S.C.. He scored his first goal abroad on 29 October, netting the game's only in a home defeat of U.D. Oliveirense.\r
+\r
+On 30 August 2018, after União suffered relegation, Ciss moved to F.C. Famalicão on a one-year loan deal, still in the second division. He contributed with four goals during the campaign, as his side returned to Primeira Liga after 25 years.\r
+\r
+On 2 September 2019, Ciss was loaned to Spanish Segunda División side CF Fuenlabrada, for one year. The following 13 July, he signed a permanent contract until 2023 with the club."""@en ;
+    schema:height "1.78 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/kc2uoj1631540627.jpg"^^xsd:anyURI ;
+    schema:memberOf "Vallecano"^^xsd:string ;
+    schema:name "Pathé Ciss"^^xsd:string ;
+    schema:nationality "Senegal"^^xsd:string ;
+    schema:weight "157 lbs"^^xsd:string .
+

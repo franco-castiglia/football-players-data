@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mergim_Berisha a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18629149> ;
+    foaf:account "www.facebook.com/MergimBerishaOfficial/"^^xsd:anyURI,
+        "www.instagram.com/mergimberisha37/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/oz6ddu1742055516.png"^^xsd:anyURI ;
+    foaf:name "Mergim Berisha"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 10 ;
+    stats:blocks 2 ;
+    stats:carries 60 ;
+    stats:clearances 3 ;
+    stats:dispossessed 3 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.0 ;
+    stats:expectedGoals 1.0 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 3.7 ;
+    stats:matchesPlayed 11 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 333 ;
+    stats:miscontrols 6 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 7 ;
+    stats:progressivePassesReceived 18 ;
+    stats:rank 312 ;
+    stats:redCards 0 ;
+    stats:tackles 3 ;
+    stats:tacklesWon 3 ;
+    stats:touches 93 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1998-05-11"^^xsd:date ;
+    schema:description "Mërgim Berisha (born 11 May 1998) is a German professional footballer who plays as a forward for Bundesliga club FC Augsburg, on loan from TSG Hoffenheim, and the Germany national team."@en ;
+    schema:height "1.86 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/9pwyez1610921087.jpg"^^xsd:anyURI ;
+    schema:memberOf "FC Augsburg"^^xsd:string ;
+    schema:name "Mergim Berisha"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "179 lbs"^^xsd:string .
+

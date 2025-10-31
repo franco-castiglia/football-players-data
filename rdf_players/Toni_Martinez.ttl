@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Toni_Martinez a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7822898> ;
+    foaf:account "twitter.com/antoniomtnez_29"^^xsd:anyURI,
+        "www.instagram.com/antoniomtnez_29/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ugs0j41741383772.png"^^xsd:anyURI ;
+    foaf:name "Toni Martínez"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 30 ;
+    stats:blocks 8 ;
+    stats:carries 162 ;
+    stats:clearances 15 ;
+    stats:dispossessed 11 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.6 ;
+    stats:expectedGoals 3.6 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 11 ;
+    stats:matches90s 11.2 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 9 ;
+    stats:minutesPlayed 1012 ;
+    stats:miscontrols 41 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 13 ;
+    stats:progressivePasses 11 ;
+    stats:progressivePassesReceived 57 ;
+    stats:rank 1655 ;
+    stats:redCards 0 ;
+    stats:tackles 12 ;
+    stats:tacklesWon 7 ;
+    stats:touches 401 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1997-06-30"^^xsd:date ;
+    schema:description """Antonio "Toni" Martínez López (born 30 June 1997) is a Spanish professional footballer who plays as a forward for La Liga club Deportivo Alavés. He has represented Spain internationally at youth level.\r
+\r
+Martínez began his senior career at Valencia Mestalla, before joining West Ham United in 2016. He was loaned to several English and Spanish clubs, then signed for Famalicão in 2019. The following year, he joined Porto."""@en ;
+    schema:height "1.80 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/fbe6sa1615298794.jpg"^^xsd:anyURI ;
+    schema:memberOf "Alaves"^^xsd:string ;
+    schema:name "Toni Martínez"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

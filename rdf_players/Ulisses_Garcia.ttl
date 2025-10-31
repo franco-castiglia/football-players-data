@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ulisses_Garcia a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q17579981> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/j2wori1748683525.png"^^xsd:anyURI ;
+    foaf:name "Ulisses Garcia"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 48 ;
+    stats:blocks 5 ;
+    stats:carries 386 ;
+    stats:clearances 18 ;
+    stats:dispossessed 11 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.4 ;
+    stats:expectedGoals 1.5 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 8 ;
+    stats:matches90s 10.3 ;
+    stats:matchesPlayed 20 ;
+    stats:matchesStarted 10 ;
+    stats:minutesPlayed 930 ;
+    stats:miscontrols 15 ;
+    stats:passesIntoPenaltyArea 10 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:progressiveCarries 23 ;
+    stats:progressivePasses 53 ;
+    stats:progressivePassesReceived 87 ;
+    stats:rank 976 ;
+    stats:redCards 0 ;
+    stats:tackles 14 ;
+    stats:tacklesWon 11 ;
+    stats:touches 712 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1996-01-11"^^xsd:date ;
+    schema:description "Ulisses Alexandre Garcia Lopes (born 11 January 1996) is a professional footballer who plays as a left-back for Ligue 1 club Marseille. Born in Portugal, he plays for the Switzerland national team."@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/f5vwr51543348841.jpg"^^xsd:anyURI ;
+    schema:memberOf "Marseille"^^xsd:string ;
+    schema:name "Ulisses Garcia"^^xsd:string ;
+    schema:nationality "Switzerland"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

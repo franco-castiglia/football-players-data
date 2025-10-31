@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Niclas_Fullkrug a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q326159> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/rgunsx1756984741.png"^^xsd:anyURI ;
+    foaf:name "Niclas Fullkrug"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 18 ;
+    stats:blocks 1 ;
+    stats:carries 123 ;
+    stats:clearances 16 ;
+    stats:dispossessed 7 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.9 ;
+    stats:expectedGoals 2.2 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 14 ;
+    stats:matches90s 8.8 ;
+    stats:matchesPlayed 18 ;
+    stats:matchesStarted 6 ;
+    stats:minutesPlayed 790 ;
+    stats:miscontrols 18 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 7 ;
+    stats:progressivePasses 14 ;
+    stats:progressivePassesReceived 31 ;
+    stats:rank 947 ;
+    stats:redCards 0 ;
+    stats:tackles 4 ;
+    stats:tacklesWon 3 ;
+    stats:touches 277 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1993-02-09"^^xsd:date ;
+    schema:description """Niclas Füllkrug (born 9 February 1993) is a German professional footballer who plays as a forward.\r
+\r
+A Werder Bremen youth star, Füllkrug started his senior career with the club's reserves. Following appearances with the first team in the Bundesliga and a loan to 2. Bundesliga side Greuther Fürth in the 2013–14 season, he moved to 1. FC Nürnberg. His performances at Nürnberg earned him a move to Hannover 96 in 2016. In April 2019, Füllkrug's return to Werder Bremen for the 2019–20 season was announced. In 2022, he was selected for the German squad at the 2022 FIFA World Cup.\r
+\r
+On August 5, 2024 he signed with West Ham United for an undisclosed fee."""@en ;
+    schema:height "188cm / 6'2\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/5uc4371722878196.jpg"^^xsd:anyURI ;
+    schema:memberOf "West Ham"^^xsd:string ;
+    schema:name "Niclas Fullkrug"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

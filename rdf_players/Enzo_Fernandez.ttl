@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Enzo_Fernandez a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q96105248> ;
+    foaf:account "www.instagram.com/enzojfernandez/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/b71vun1757003115.png"^^xsd:anyURI ;
+    foaf:name "Enzo Fernández"^^xsd:string ;
+    stats:assists 7 ;
+    stats:ballRecoveries 156 ;
+    stats:blocks 43 ;
+    stats:carries 1211 ;
+    stats:clearances 23 ;
+    stats:dispossessed 28 ;
+    stats:errors 4 ;
+    stats:expectedAssistedGoals 6.8 ;
+    stats:expectedGoals 6.1 ;
+    stats:goals 6 ;
+    stats:goalsNonPenalty 6 ;
+    stats:interceptions 13 ;
+    stats:keyPasses 77 ;
+    stats:matches90s 32.7 ;
+    stats:matchesPlayed 36 ;
+    stats:matchesStarted 32 ;
+    stats:minutesPlayed 2947 ;
+    stats:miscontrols 29 ;
+    stats:passesIntoPenaltyArea 41 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 60 ;
+    stats:progressivePasses 212 ;
+    stats:progressivePassesReceived 126 ;
+    stats:rank 897 ;
+    stats:redCards 0 ;
+    stats:tackles 65 ;
+    stats:tacklesWon 33 ;
+    stats:touches 2210 ;
+    stats:yellowCards 8 ;
+    schema:birthDate "2001-01-17"^^xsd:date ;
+    schema:description "Enzo Jeremías Fernández (born 17 January 2001) is an Argentine professional footballer who plays as a central midfielder for Premier League club Chelsea."@en ;
+    schema:height "1.78 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/njdsa21719033226.jpg"^^xsd:anyURI ;
+    schema:memberOf "Chelsea"^^xsd:string ;
+    schema:name "Enzo Fernández"^^xsd:string ;
+    schema:nationality "Argentina"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

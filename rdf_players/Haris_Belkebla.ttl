@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Haris_Belkebla a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q17579882> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/3b94f01607792055.png"^^xsd:anyURI ;
+    foaf:name "Haris Belkebla"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 90 ;
+    stats:blocks 30 ;
+    stats:carries 558 ;
+    stats:clearances 46 ;
+    stats:dispossessed 10 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 35 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 19.9 ;
+    stats:matchesPlayed 22 ;
+    stats:matchesStarted 21 ;
+    stats:minutesPlayed 1792 ;
+    stats:miscontrols 27 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 8 ;
+    stats:progressivePasses 69 ;
+    stats:progressivePassesReceived 15 ;
+    stats:rank 281 ;
+    stats:redCards 0 ;
+    stats:tackles 56 ;
+    stats:tacklesWon 38 ;
+    stats:touches 1064 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1994-01-28"^^xsd:date ;
+    schema:description "Haris Belkebla (Arabic: حارس بلقبلة; born 28 January 1994) is a professional footballer who plays as a midfielder for Ligue 1 club Angers. Born in France, he has played for the Algeria national team."@en ;
+    schema:height "5 ft 10 in"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/uj700t1570043485.jpg"^^xsd:anyURI ;
+    schema:memberOf "Angers"^^xsd:string ;
+    schema:name "Haris Belkebla"^^xsd:string ;
+    schema:nationality "Algeria"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

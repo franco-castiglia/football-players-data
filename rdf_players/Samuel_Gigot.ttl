@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Samuel_Gigot a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18043942> ;
+    foaf:account "www.instagram.com/mum84/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/trf3d21750073888.png"^^xsd:anyURI ;
+    foaf:name "Samuel Gigot"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 15 ;
+    stats:blocks 8 ;
+    stats:carries 205 ;
+    stats:clearances 36 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 1.3 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 13 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 7.6 ;
+    stats:matchesPlayed 15 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 683 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 7 ;
+    stats:progressivePasses 12 ;
+    stats:progressivePassesReceived 5 ;
+    stats:rank 1001 ;
+    stats:redCards 0 ;
+    stats:tackles 4 ;
+    stats:tacklesWon 3 ;
+    stats:touches 391 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1993-10-12"^^xsd:date ;
+    schema:description "Samuel Florent Thomas Gigot (born 12 October 1993) is a French professional footballer who plays as a centre-back of full-back for Serie A club Lazio."@en ;
+    schema:height "1.87 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/g5dfkk1622158980.jpg"^^xsd:anyURI ;
+    schema:memberOf "Lazio"^^xsd:string ;
+    schema:name "Samuel Gigot"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

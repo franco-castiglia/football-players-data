@@ -1,0 +1,63 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Diogo_Jota a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q19518278> ;
+    foaf:account "twitter.com/diogojota18"^^xsd:anyURI,
+        "www.facebook.com/diogojota10/"^^xsd:anyURI,
+        "www.instagram.com/diogoj_18/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/9mty4l1693941467.png"^^xsd:anyURI ;
+    foaf:name "Diogo Jota"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 41 ;
+    stats:blocks 9 ;
+    stats:carries 263 ;
+    stats:clearances 6 ;
+    stats:dispossessed 22 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.8 ;
+    stats:expectedGoals 7.9 ;
+    stats:goals 6 ;
+    stats:goalsNonPenalty 6 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 11 ;
+    stats:matches90s 13.3 ;
+    stats:matchesPlayed 26 ;
+    stats:matchesStarted 14 ;
+    stats:minutesPlayed 1196 ;
+    stats:miscontrols 40 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 37 ;
+    stats:progressivePasses 34 ;
+    stats:progressivePassesReceived 88 ;
+    stats:rank 1280 ;
+    stats:redCards 0 ;
+    stats:tackles 14 ;
+    stats:tacklesWon 8 ;
+    stats:touches 485 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1996-12-04"^^xsd:date ;
+    schema:description """Diogo José Teixeira da Silva (4 December 1996 – 3 July 2025), known as Diogo Jota, was a Portuguese professional footballer who played as a forward or left winger. Jota was known for his clinical finishing, explosive pace, and dribbling ability.\r
+\r
+Jota started his career with Paços de Ferreira, before signing for La Liga club Atlético Madrid in 2016 with his cousin Ronaldo. After two seasons in the Primeira Liga, he was consecutively loaned to Primeira Liga club FC Porto in 2016 and EFL Championship club Wolverhampton Wanderers in 2017. Having helped them gain promotion to the Premier League, he joined the club in 2017 for a reported €14 million and went on to make 131 appearances for them, scoring 44 goals. In 2020, he signed for Liverpool for a fee reported to be £41million.\r
+\r
+Jota was a former Portugal youth international, representing his country at under-19, under-21 and under-23 levels. He made his senior international debut in November 2019 and was chosen in the squads for the 2022 World Cup and two European Championships (2020 and 2024). He also won the UEFA Nations League in 2019 and 2025.\r
+\r
+Jota died in a car crash with his brother André Silva, also footballer, in Palacios de Sanabria, Spain, on 3 July 2025, during the final days of their holidays."""@en ;
+    schema:height "1.78 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/30nujq1751541243.jpg"^^xsd:anyURI ;
+    schema:memberOf "_Deceased Soccer"^^xsd:string ;
+    schema:name "Diogo Jota"^^xsd:string ;
+    schema:nationality "Portugal"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

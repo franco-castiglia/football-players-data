@@ -1,0 +1,68 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Nnamdi_Collins a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q106367360> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/1ykh171741808050.png"^^xsd:anyURI ;
+    foaf:name "Nnamdi Collins"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 78 ;
+    stats:blocks 22 ;
+    stats:carries 623 ;
+    stats:clearances 74 ;
+    stats:dispossessed 11 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 1.0 ;
+    stats:expectedGoals 0.8 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 16 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 16.5 ;
+    stats:matchesPlayed 24 ;
+    stats:matchesStarted 15 ;
+    stats:minutesPlayed 1489 ;
+    stats:miscontrols 17 ;
+    stats:passesIntoPenaltyArea 12 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 30 ;
+    stats:progressivePasses 63 ;
+    stats:progressivePassesReceived 42 ;
+    stats:rank 580 ;
+    stats:redCards 0 ;
+    stats:tackles 33 ;
+    stats:tacklesWon 24 ;
+    stats:touches 1107 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2004-01-10"^^xsd:date ;
+    schema:description """Pharrell Nnamdi Collins (born 10 January 2004) is a German footballer who plays as a defender for Bundesliga club Eintracht Frankfurt.\r
+\r
+Early life\r
+Born in Düsseldorf, Germany, Collins spent time in the academy of Fortuna Düsseldorf.\r
+\r
+Club career\r
+Borussia Dortmund\r
+Collins joined Borussia Dortmund in 2016, and rose quickly through the youth ranks, linking up with the U19 squad at the age of 16. Following these good performances, he was reportedly subject of a £2 million bid from English club Chelsea. However, he signed a new contract in May 2020, and was invited to train with the first team in March 2021.\r
+\r
+Having been called up to the first team for pre-season friendlies, Collins featured in a 3–1 loss to fellow Bundesliga side VfL Bochum, however he went off injured after suffering a dislocated kneecap.\r
+\r
+Eintracht Frankfurt\r
+On 8 August 2023, Collins joined Eintracht Frankfurt by signing a five-year contract. On 5 April 2024, he made his senior debut against Werder Bremen and played for 65 minutes in a 1–1 draw.\r
+\r
+International career\r
+Collins has represented Germany at youth international level. He is also eligible to represent Nigeria and the Republic of Ireland through family."""@en ;
+    schema:height "6 ft 2 in (1.88 m)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/dhiuu01741808041.jpg"^^xsd:anyURI ;
+    schema:memberOf "Eintracht Frankfurt"^^xsd:string ;
+    schema:name "Nnamdi Collins"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "82 kg"^^xsd:string .
+

@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Cole_Palmer a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q99760796> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/fn0pzc1757010119.png"^^xsd:anyURI ;
+    foaf:name "Cole Palmer"^^xsd:string ;
+    stats:assists 8 ;
+    stats:ballRecoveries 106 ;
+    stats:blocks 16 ;
+    stats:carries 1173 ;
+    stats:clearances 20 ;
+    stats:dispossessed 37 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 10.9 ;
+    stats:expectedGoals 17.3 ;
+    stats:goals 15 ;
+    stats:goalsNonPenalty 11 ;
+    stats:interceptions 11 ;
+    stats:keyPasses 87 ;
+    stats:matches90s 35.5 ;
+    stats:matchesPlayed 37 ;
+    stats:matchesStarted 36 ;
+    stats:minutesPlayed 3191 ;
+    stats:miscontrols 71 ;
+    stats:passesIntoPenaltyArea 64 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 120 ;
+    stats:progressivePasses 214 ;
+    stats:progressivePassesReceived 187 ;
+    stats:rank 2034 ;
+    stats:redCards 0 ;
+    stats:tackles 34 ;
+    stats:tacklesWon 20 ;
+    stats:touches 1851 ;
+    stats:yellowCards 7 ;
+    schema:birthDate "2002-05-06"^^xsd:date ;
+    schema:description """Cole Jermaine Palmer (born 6 May 2002) is an English professional footballer who plays as an attacking midfielder or winger for Premier League club Chelsea and the England national team. Considered as one of the best young players in the world, he is known for his agility, dribbling and positioning.\r
+Palmer was an academy graduate of Manchester City before making his debut for the club in 2020. He was part of their squad that won a continental treble of the Premier League, FA Cup and UEFA Champions League during the 2022–2023 season, before moving to Chelsea on a seven-year contract, with the option of a further year. He has also represented England across various youth levels, including winning the 2023 UEFA European Under-21 Championship, before making his senior debut in the same year."""@en ;
+    schema:height "189cm / 6'2\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/4bmx4r1730025350.jpg"^^xsd:anyURI ;
+    schema:memberOf "Chelsea"^^xsd:string ;
+    schema:name "Cole Palmer"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

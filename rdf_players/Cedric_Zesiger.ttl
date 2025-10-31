@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Cedric_Zesiger a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q27662789> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/i9bnh51742055895.png"^^xsd:anyURI ;
+    foaf:name "Cédric Zesiger"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 57 ;
+    stats:blocks 17 ;
+    stats:carries 398 ;
+    stats:clearances 96 ;
+    stats:dispossessed 3 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.3 ;
+    stats:expectedGoals 1.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 21 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 13.6 ;
+    stats:matchesPlayed 15 ;
+    stats:matchesStarted 15 ;
+    stats:minutesPlayed 1221 ;
+    stats:miscontrols 8 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 4 ;
+    stats:progressivePasses 40 ;
+    stats:progressivePassesReceived 7 ;
+    stats:rank 2834 ;
+    stats:redCards 1 ;
+    stats:tackles 13 ;
+    stats:tacklesWon 7 ;
+    stats:touches 771 ;
+    stats:yellowCards 7 ;
+    schema:birthDate "1998-06-24"^^xsd:date ;
+    schema:description "Cédric Adrian Zesiger (born 24 June 1998) is a Swiss professional footballer who plays as a centre back for German Bundesliga club Augsburg on loan from VfL Wolfsburg, and the Switzerland national team. He has also played for the Switzerland U21, U20, U19 and U18 teams."@en ;
+    schema:height "1.94 m (6 ft 4 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/msi7po1629921234.jpg"^^xsd:anyURI ;
+    schema:memberOf "FC Augsburg"^^xsd:string ;
+    schema:name "Cédric Zesiger"^^xsd:string ;
+    schema:nationality "Switzerland"^^xsd:string ;
+    schema:weight "203 lbs"^^xsd:string .
+

@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mykhailo_Mudryk a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q58494476> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/uj7jgy1757003774.png"^^xsd:anyURI ;
+    foaf:name "Mykhailo Mudryk"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 9 ;
+    stats:blocks 3 ;
+    stats:carries 39 ;
+    stats:clearances 1 ;
+    stats:dispossessed 7 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.0 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 1.7 ;
+    stats:matchesPlayed 7 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 151 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:progressiveCarries 7 ;
+    stats:progressivePasses 5 ;
+    stats:progressivePassesReceived 12 ;
+    stats:rank 1811 ;
+    stats:redCards 0 ;
+    stats:tackles 2 ;
+    stats:tacklesWon 2 ;
+    stats:touches 62 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2001-01-05"^^xsd:date ;
+    schema:description """Mykhailo Petrovych Mudryk (born 5 January 2001) is an Ukrainian professional footballer who plays as a winger for Premier League club Chelsea and the Ukraine national team.\r
+\r
+Mudryk began his career in the academies of Metalist Kharkiv and Dnipro Dnipropetrovsk, before moving to Shakhtar Donetsk in 2016. He made his professional debut two years later, followed by loans to Arsenal Kyiv and Desna Chernihiv. In 2023, he moved to English side Chelsea for an initial fee of £62 million.\r
+\r
+Mudryk made his full debut for Ukraine in 2022, having previously represented the country at several youth levels."""@en ;
+    schema:height "1.75 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/jh6y781715902574.jpg"^^xsd:anyURI ;
+    schema:memberOf "Chelsea"^^xsd:string ;
+    schema:name "Mykhailo Mudryk"^^xsd:string ;
+    schema:nationality "Ukraine"^^xsd:string ;
+    schema:weight "132 lbs"^^xsd:string .
+

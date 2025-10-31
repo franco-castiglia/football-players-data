@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Nicolo_Savona a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q115751484> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/wpvj5s1757165034.png"^^xsd:anyURI ;
+    foaf:name "Nicolò Savona"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 72 ;
+    stats:blocks 12 ;
+    stats:carries 778 ;
+    stats:clearances 38 ;
+    stats:dispossessed 4 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.2 ;
+    stats:expectedGoals 0.5 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 11 ;
+    stats:keyPasses 16 ;
+    stats:matches90s 19.2 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 19 ;
+    stats:minutesPlayed 1724 ;
+    stats:miscontrols 9 ;
+    stats:passesIntoPenaltyArea 12 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 35 ;
+    stats:progressivePasses 59 ;
+    stats:progressivePassesReceived 44 ;
+    stats:rank 2360 ;
+    stats:redCards 0 ;
+    stats:tackles 29 ;
+    stats:tacklesWon 13 ;
+    stats:touches 1227 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "2003-03-19"^^xsd:date ;
+    schema:description "Nicolò Savona (born 19 March 2003) is an Italian footballer who plays as a right-back for Serie A club Juventus."@en ;
+    schema:height "1.87 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/zh249q1750331032.jpg"^^xsd:anyURI ;
+    schema:memberOf "Nottingham Forest"^^xsd:string ;
+    schema:name "Nicolò Savona"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

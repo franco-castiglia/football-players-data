@@ -1,0 +1,65 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Yordan_Osorio a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q29052531> ;
+    foaf:account "http://www.instagram.com/yordanosorio1005/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ln860s1718878227.png"^^xsd:anyURI ;
+    foaf:name "Yordan Osorio"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 6 ;
+    stats:blocks 3 ;
+    stats:carries 88 ;
+    stats:clearances 6 ;
+    stats:dispossessed 0 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 1.9 ;
+    stats:matchesPlayed 3 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 172 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 3 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1997 ;
+    stats:redCards 0 ;
+    stats:tackles 5 ;
+    stats:tacklesWon 3 ;
+    stats:touches 141 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1994-05-10"^^xsd:date ;
+    schema:description """Yordan Hernando Osorio Paredes (Spanish pronunciation: ; born 10 May 1994) is a Venezuelan professional footballer who plays as a centre-back for Serie B club Parma and the Venezuela national team.\r
+\r
+Formed at Zamora FC, he spent most of his career in Europe, representing Tondela, Porto and Vitória de Guimarães in the Portuguese Primeira Liga, Zenit in the Russian Premier League and Parma in Serie A in Italy. He won a league and cup double on loan at Zenit in 2020.\r
+\r
+A full international for Venezuela from 2017, Osorio represented the nation at the 2019 Copa América.\r
+\r
+Osorio was first called up for Venezuela in May 2017, for friendlies against the United States and Ecuador. He made his debut on 4 June in a 1–1 draw with the Americans at the Rio Tinto Stadium in Utah, replacing José Manuel Velázquez after 56 minutes.\r
+\r
+Manager Rafael Dudamel called up Osorio to his 23-man squad for the 2019 Copa América in Brazil. He played one of their four matches as they reached the quarter-finals, a goalless draw with the hosts in the second group match on 18 June.\r
+\r
+Osorio was one of several Venezuelan players to miss the 2021 Copa América through injury."""@en ;
+    schema:height "189 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/9qbnvs1602319283.jpg"^^xsd:anyURI ;
+    schema:memberOf "Deportivo La Guaira"^^xsd:string ;
+    schema:name "Yordan Osorio"^^xsd:string ;
+    schema:nationality "Venezuela"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

@@ -1,0 +1,62 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jamie_Vardy a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6147586> ;
+    foaf:account "twitter.com/vardy7"^^xsd:anyURI,
+        "www.instagram.com/vardy7/?hl=it"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/oownds1758886571.png"^^xsd:anyURI ;
+    foaf:name "Jamie Vardy"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 39 ;
+    stats:blocks 8 ;
+    stats:carries 285 ;
+    stats:clearances 24 ;
+    stats:dispossessed 14 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 3.0 ;
+    stats:expectedGoals 11.2 ;
+    stats:goals 9 ;
+    stats:goalsNonPenalty 8 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 19 ;
+    stats:matches90s 31.4 ;
+    stats:matchesPlayed 35 ;
+    stats:matchesStarted 35 ;
+    stats:minutesPlayed 2823 ;
+    stats:miscontrols 34 ;
+    stats:passesIntoPenaltyArea 10 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 2 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 29 ;
+    stats:progressivePasses 22 ;
+    stats:progressivePassesReceived 120 ;
+    stats:rank 2674 ;
+    stats:redCards 0 ;
+    stats:tackles 19 ;
+    stats:tacklesWon 13 ;
+    stats:touches 586 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1987-01-11"^^xsd:date ;
+    schema:description """Jamie Richard Vardy (né Gill; born 11 January 1987) is an English professional footballer who plays as a striker for Premier League club Leicester City which he also captains. Vardy is known for his prolific goalscoring aided by his pace, intelligent positioning, timing and clinical finishing ability.\r
+\r
+After being released by Sheffield Wednesday at the age of sixteen, Vardy began his senior career with Stocksbridge Park Steels, breaking into the first team in 2007 and spending three seasons there before joining Northern Premier League club FC Halifax Town in 2010. Scoring 25 goals in his debut season, he won the club's "Player's Player of the Year" award and then moved to Conference Premier club Fleetwood Town in August 2011 for an undisclosed fee. He scored 31 league goals in his first season at his new team, winning the team's "Player of the Year" award as they won the division.\r
+\r
+In May 2012, Vardy signed for Leicester City in the Championship for a non-League record transfer fee of £1 million and helped the team win the Championship in 2014. In the 2015–16 Premier League season, he scored in eleven consecutive Premier League matches, breaking Ruud van Nistelrooy's record, and was voted the Premier League Player of the Season and FWA Footballer of the Year as outsiders Leicester won the title. He won the Premier League Golden Boot for the 2019–20 season, becoming the oldest player to win the award.\r
+\r
+Vardy made his international debut in June 2015 and was selected for UEFA Euro 2016 and the 2018 FIFA World Cup."""@en ;
+    schema:height "179 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/j9neny1596059888.jpg"^^xsd:anyURI ;
+    schema:memberOf "Cremonese"^^xsd:string ;
+    schema:name "Jamie Vardy"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

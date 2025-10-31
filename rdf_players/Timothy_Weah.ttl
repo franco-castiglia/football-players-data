@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Timothy_Weah a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q31871265> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/ywi8241759498453.png"^^xsd:anyURI ;
+    foaf:name "Timothy Weah"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 60 ;
+    stats:blocks 25 ;
+    stats:carries 565 ;
+    stats:clearances 27 ;
+    stats:dispossessed 15 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 1.6 ;
+    stats:expectedGoals 3.4 ;
+    stats:goals 5 ;
+    stats:goalsNonPenalty 5 ;
+    stats:interceptions 14 ;
+    stats:keyPasses 19 ;
+    stats:matches90s 18.2 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 18 ;
+    stats:minutesPlayed 1638 ;
+    stats:miscontrols 26 ;
+    stats:passesIntoPenaltyArea 13 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 45 ;
+    stats:progressivePasses 56 ;
+    stats:progressivePassesReceived 120 ;
+    stats:rank 2752 ;
+    stats:redCards 0 ;
+    stats:tackles 36 ;
+    stats:tacklesWon 19 ;
+    stats:touches 977 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2000-02-22"^^xsd:date ;
+    schema:description """Timothy Tarpeh Weah (born February 22, 2000) is an American professional soccer player who plays as a winger or right-back for Ligue 1 club Marseille, on loan from Serie A club Juventus, and the United States national team.\r
+\r
+Weah made his professional debut for Ligue 1 club Paris Saint-Germain in 2018, winning Ligue 1 twice and the Trophée des Champions once. He won a Scottish Premiership and Scottish Cup double on loan at Celtic in 2019. He then joined Lille, winning another Ligue 1 title and Trophée des Champions in 2021. In July 2023 he joined Serie A club Juventus and won the 2023–24 Coppa Italia.\r
+\r
+In March 2018, Weah earned his first senior international cap for the United States. He was part of the squad that won the CONCACAF Nations League in 2021, 2023, and 2024.\r
+\r
+Weah is the son of George Weah, the former President of Liberia, who was previously also a professional soccer player, having won the Ballon d'Or in 1995."""@en ;
+    schema:height "1.83"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/jol9jt1533466615.jpg"^^xsd:anyURI ;
+    schema:memberOf "Marseille"^^xsd:string ;
+    schema:name "Timothy Weah"^^xsd:string ;
+    schema:nationality "United States"^^xsd:string ;
+    schema:weight "146 lbs"^^xsd:string .
+

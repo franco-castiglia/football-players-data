@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Pavel_Kaderabek a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3898288> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/lny9nw1578089058.png"^^xsd:anyURI ;
+    foaf:name "Pavel Kadeřábek"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 25 ;
+    stats:blocks 13 ;
+    stats:carries 456 ;
+    stats:clearances 54 ;
+    stats:dispossessed 3 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 2.0 ;
+    stats:expectedGoals 0.8 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 20 ;
+    stats:keyPasses 21 ;
+    stats:matches90s 17.5 ;
+    stats:matchesPlayed 24 ;
+    stats:matchesStarted 18 ;
+    stats:minutesPlayed 1576 ;
+    stats:miscontrols 6 ;
+    stats:passesIntoPenaltyArea 16 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 15 ;
+    stats:progressivePasses 47 ;
+    stats:progressivePassesReceived 86 ;
+    stats:rank 1302 ;
+    stats:redCards 0 ;
+    stats:tackles 25 ;
+    stats:tacklesWon 14 ;
+    stats:touches 1016 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "1992-04-25"^^xsd:date ;
+    schema:description "Pavel Kadeřábek (born 25 April 1992) is a Czech football player who currently plays for 1899 Hoffenheim and the Czech Republic. He previously represented his country at under-19 level and was in the Czech squad for the 2011 UEFA European Under-19 Championship, where he played all five of his country's matches."@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/sk1ulf1578089058.jpg"^^xsd:anyURI ;
+    schema:memberOf "Sparta Prague"^^xsd:string ;
+    schema:name "Pavel Kadeřábek"^^xsd:string ;
+    schema:nationality "Czechia"^^xsd:string ;
+    schema:weight "179 lbs"^^xsd:string .
+

@@ -1,0 +1,54 @@
+@prefix ex: <https://franciscocarbajal.github.io/la-floresta/resource/player/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franciscocarbajal.github.io/la-floresta/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Abdon_Prats a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q4666349> ;
+    foaf:account "twitter.com/pratsabdon"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/n9a4p71701170906.png"^^xsd:anyURI ;
+    foaf:name "Abdón Prats"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 13 ;
+    stats:blocks 2 ;
+    stats:carries 77 ;
+    stats:clearances 5 ;
+    stats:dispossessed 12 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 2.2 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 5.1 ;
+    stats:matchesPlayed 24 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 456 ;
+    stats:miscontrols 17 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 7 ;
+    stats:progressivePassesReceived 14 ;
+    stats:rank 2149 ;
+    stats:redCards 0 ;
+    stats:tackles 2 ;
+    stats:tacklesWon 1 ;
+    stats:touches 146 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1992-12-17"^^xsd:date ;
+    schema:description "Abdón Prats Bastidas (born 7 December 1992), known simply as Abdón, is a Spanish professional footballer who plays for La Liga club Mallorca as a forward."@en ;
+    schema:height "1.81 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/tifhos1724408922.jpg"^^xsd:anyURI ;
+    schema:memberOf "Mallorca"^^xsd:string ;
+    schema:name "Abdón Prats"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "81 kg (179 lb)"^^xsd:string .
+

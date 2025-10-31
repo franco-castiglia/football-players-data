@@ -1,0 +1,53 @@
+@prefix ex: <https://franciscocarbajal.github.io/la-floresta/resource/player/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franciscocarbajal.github.io/la-floresta/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Abdel_Abqar a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q56600183> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/blf0fv1724491828.png"^^xsd:anyURI ;
+    foaf:name "Abdel Abqar"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 87 ;
+    stats:blocks 28 ;
+    stats:carries 632 ;
+    stats:clearances 146 ;
+    stats:dispossessed 3 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 0.9 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 39 ;
+    stats:keyPasses 8 ;
+    stats:matches90s 27.4 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 29 ;
+    stats:minutesPlayed 2463 ;
+    stats:miscontrols 18 ;
+    stats:passesIntoPenaltyArea 10 ;
+    stats:penaltiesConceded 2 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 16 ;
+    stats:progressivePasses 79 ;
+    stats:progressivePassesReceived 4 ;
+    stats:rank 17 ;
+    stats:redCards 0 ;
+    stats:tackles 36 ;
+    stats:tacklesWon 23 ;
+    stats:touches 1251 ;
+    stats:yellowCards 13 ;
+    schema:birthDate "1999-03-10"^^xsd:date ;
+    schema:description "Abdelkabir \"Abdel\" Abqar (born 10 March 1999) is a Moroccan footballer who plays for La Liga club Deportivo Alavés as a centre-back."@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/xgpz171701097458.jpg"^^xsd:anyURI ;
+    schema:memberOf "Alaves"^^xsd:string ;
+    schema:name "Abdel Abqar"^^xsd:string ;
+    schema:nationality "Morocco"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

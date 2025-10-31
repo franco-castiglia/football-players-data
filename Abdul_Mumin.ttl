@@ -1,0 +1,55 @@
+@prefix ex: <https://franciscocarbajal.github.io/la-floresta/resource/player/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franciscocarbajal.github.io/la-floresta/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Abdul_Mumin a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q27064119> ;
+    foaf:account "http://twitter.com/abdul_mumin30"^^xsd:anyURI,
+        "http://www.instagram.com/abdulmumin.suleman/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/al7u271679055321.png"^^xsd:anyURI ;
+    foaf:name "Abdul Mumin"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 93 ;
+    stats:blocks 40 ;
+    stats:carries 725 ;
+    stats:clearances 125 ;
+    stats:dispossessed 5 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.6 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 23 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 22.4 ;
+    stats:matchesPlayed 24 ;
+    stats:matchesStarted 24 ;
+    stats:minutesPlayed 2017 ;
+    stats:miscontrols 16 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 12 ;
+    stats:progressivePasses 40 ;
+    stats:progressivePassesReceived 6 ;
+    stats:rank 1818 ;
+    stats:redCards 1 ;
+    stats:tackles 37 ;
+    stats:tacklesWon 25 ;
+    stats:touches 1351 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "1998-06-06"^^xsd:date ;
+    schema:description "Khalid Abdul Mumin Suleman (born 6 June 1998), commonly known as Abdul Mumin, is a Ghanaian professional footballer who plays as a centre-back for La Liga club Rayo Vallecano."@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/b4bk1g1679052538.jpg"^^xsd:anyURI ;
+    schema:memberOf "Vallecano"^^xsd:string ;
+    schema:name "Abdul Mumin"^^xsd:string ;
+    schema:nationality "Ghana"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

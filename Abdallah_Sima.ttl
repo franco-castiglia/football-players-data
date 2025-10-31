@@ -1,0 +1,53 @@
+@prefix ex: <https://franciscocarbajal.github.io/la-floresta/resource/player/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franciscocarbajal.github.io/la-floresta/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Abdallah_Sima a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q100999415> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/5ncxwk1727880161.png"^^xsd:anyURI ;
+    foaf:name "Abdallah Sima"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 61 ;
+    stats:blocks 9 ;
+    stats:carries 299 ;
+    stats:clearances 9 ;
+    stats:dispossessed 22 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.0 ;
+    stats:expectedGoals 5.9 ;
+    stats:goals 7 ;
+    stats:goalsNonPenalty 7 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 13 ;
+    stats:matches90s 13.8 ;
+    stats:matchesPlayed 27 ;
+    stats:matchesStarted 14 ;
+    stats:minutesPlayed 1238 ;
+    stats:miscontrols 53 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 36 ;
+    stats:progressivePasses 24 ;
+    stats:progressivePassesReceived 92 ;
+    stats:rank 2423 ;
+    stats:redCards 0 ;
+    stats:tackles 15 ;
+    stats:tacklesWon 11 ;
+    stats:touches 510 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2001-06-17"^^xsd:date ;
+    schema:description "Abdallah Dipo Sima is a Senegalese professional footballer who plays as a forward for Ligue 1 club Lens, and the Senegal national team."@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/yurb9q1630438603.jpg"^^xsd:anyURI ;
+    schema:memberOf "Lens"^^xsd:string ;
+    schema:name "Abdallah Sima"^^xsd:string ;
+    schema:nationality "Senegal"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

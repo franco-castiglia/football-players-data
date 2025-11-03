@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Tijjani_Noslin a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q108783669> ;
+    foaf:account "www.instagram.com/tijjaninoslin_/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/5jh8ab1759646531.png"^^xsd:anyURI ;
+    foaf:name "Tijjani Noslin"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 22 ;
+    stats:blocks 15 ;
+    stats:carries 194 ;
+    stats:clearances 7 ;
+    stats:dispossessed 13 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.6 ;
+    stats:expectedGoals 2.0 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 12 ;
+    stats:matches90s 9.6 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 8 ;
+    stats:minutesPlayed 861 ;
+    stats:miscontrols 24 ;
+    stats:passesIntoPenaltyArea 11 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 13 ;
+    stats:progressivePasses 16 ;
+    stats:progressivePassesReceived 56 ;
+    stats:rank 1916 ;
+    stats:redCards 0 ;
+    stats:tackles 6 ;
+    stats:tacklesWon 5 ;
+    stats:touches 347 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1999-07-07"^^xsd:date ;
+    schema:description """Tijjani Noslin (born 7 July 1999) is a Dutch professional footballer who plays as a forward for Lazio.\r
+Club career\r
+Early years\r
+Born in Amsterdam, Noslin played for several clubs in his hometown, including ASV Arsenal, Buitenveldert and Swift, before moving to 's-Hertogenbosch at age 14 to join FC Den Bosch's academy. He was, however, released and he returned to Amsterdam a year later, continuing to play for youth teams of lower league clubs including OJC Rosmalen and RODA '23. He later joined FC Twente's academy, but was released as an 18-year-old, with the club citing his lack of height."""@en ;
+    schema:height "5 ft 11 in"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/0g3nqa1700771271.jpg"^^xsd:anyURI ;
+    schema:memberOf "Lazio"^^xsd:string ;
+    schema:name "Tijjani Noslin"^^xsd:string ;
+    schema:nationality "The Netherlands"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

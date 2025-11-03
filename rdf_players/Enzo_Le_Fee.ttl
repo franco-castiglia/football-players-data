@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Enzo_Le_Fee a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q64009974> ;
+    foaf:account "www.instagram.com/enzo_lefee/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/3bpjrq1756903751.png"^^xsd:anyURI ;
+    foaf:name "Enzo Le Fée"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 22 ;
+    stats:blocks 9 ;
+    stats:carries 204 ;
+    stats:clearances 2 ;
+    stats:dispossessed 4 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 3.5 ;
+    stats:matchesPlayed 6 ;
+    stats:matchesStarted 4 ;
+    stats:minutesPlayed 318 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 15 ;
+    stats:progressivePasses 28 ;
+    stats:progressivePassesReceived 3 ;
+    stats:rank 1460 ;
+    stats:redCards 0 ;
+    stats:tackles 7 ;
+    stats:tacklesWon 4 ;
+    stats:touches 297 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2000-02-03"^^xsd:date ;
+    schema:description """Enzo Jérémy Le Fée (born 3 February 2000) is a French professional footballer who plays as a midfielder for Premier League club Sunderland.\r
+Le Fée began his football career in the youth academy of Kéryado, before moving to the youth academy of FC Lorient at the age of 8. On 13 November 2018, he signed his first professional contract with Lorient. He made his professional debut for Lorient in a 0–0 Ligue 2 tie with FC Sochaux-Montbéliard on 10 May 2019."""@en ;
+    schema:height "1.70 m (5 ft 6 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/kgckb61608387954.jpg"^^xsd:anyURI ;
+    schema:memberOf "Sunderland"^^xsd:string ;
+    schema:name "Enzo Le Fée"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "139 lbs"^^xsd:string .
+

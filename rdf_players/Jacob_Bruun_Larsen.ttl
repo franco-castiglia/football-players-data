@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jacob_Bruun_Larsen a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q26221634> ;
+    foaf:account "http://twitter.com/jacobruunlarsen"^^xsd:anyURI,
+        "http://www.instagram.com/jacobbruunlarsen"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/61mpa91757174573.png"^^xsd:anyURI ;
+    foaf:name "Jacob Bruun Larsen"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 11 ;
+    stats:blocks 7 ;
+    stats:carries 127 ;
+    stats:clearances 4 ;
+    stats:dispossessed 3 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.2 ;
+    stats:expectedGoals 0.6 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 11 ;
+    stats:matches90s 4.6 ;
+    stats:matchesPlayed 15 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 414 ;
+    stats:miscontrols 11 ;
+    stats:passesIntoPenaltyArea 17 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 19 ;
+    stats:progressivePasses 19 ;
+    stats:progressivePassesReceived 40 ;
+    stats:rank 403 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 1 ;
+    stats:touches 215 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1998-09-19"^^xsd:date ;
+    schema:description """Jacob Bruun Larsen (born 19 September 1998) is a Danish professional footballer who plays as a winger for English Premier League club Burnley and the Denmark national team. \r
+Bruun Larsen represented Denmark at UEFA Euro 2024. He also competed at the 2016 Summer Olympics."""@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/1uo6p41585495003.jpg"^^xsd:anyURI ;
+    schema:memberOf "Burnley"^^xsd:string ;
+    schema:name "Jacob Bruun Larsen"^^xsd:string ;
+    schema:nationality "Denmark"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

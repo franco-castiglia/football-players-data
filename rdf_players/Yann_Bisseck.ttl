@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Yann_Bisseck a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q43769705> ;
+    foaf:account "www.instagram.com/aurel.yk/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/4unlga1759408810.png"^^xsd:anyURI ;
+    foaf:name "Yann Bisseck"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 66 ;
+    stats:blocks 23 ;
+    stats:carries 998 ;
+    stats:clearances 64 ;
+    stats:dispossessed 7 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 2.6 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 17 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 17.3 ;
+    stats:matchesPlayed 26 ;
+    stats:matchesStarted 16 ;
+    stats:minutesPlayed 1553 ;
+    stats:miscontrols 16 ;
+    stats:passesIntoPenaltyArea 7 ;
+    stats:penaltiesConceded 2 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 32 ;
+    stats:progressivePasses 93 ;
+    stats:progressivePassesReceived 44 ;
+    stats:rank 178 ;
+    stats:redCards 0 ;
+    stats:tackles 17 ;
+    stats:tacklesWon 11 ;
+    stats:touches 1465 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2000-11-29"^^xsd:date ;
+    schema:description """Yann Aurel Ludger Bisseck (born 29 November 2000) is a German professional footballer who plays as a centre-back for Italian Serie A club Inter. \r
+Bisseck made his debut for 1. FC Köln against Hertha BSC on 26 November 2017 at the age of 16, making him the youngest player in Köln's history and the youngest ever German player to appear in the Bundesliga. Bisseck's appearance also made him the second youngest player in league history, only behind Nuri Şahin."""@en ;
+    schema:height "194 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/xz8ecw1654098002.jpg"^^xsd:anyURI ;
+    schema:memberOf "Inter Milan"^^xsd:string ;
+    schema:name "Yann Bisseck"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

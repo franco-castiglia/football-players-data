@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Nahuel_Tenaglia a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q37777275> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/s94yxx1724491725.png"^^xsd:anyURI ;
+    foaf:name "Nahuel Tenaglia"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 117 ;
+    stats:blocks 33 ;
+    stats:carries 757 ;
+    stats:clearances 123 ;
+    stats:dispossessed 15 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 1.6 ;
+    stats:expectedGoals 2.2 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 47 ;
+    stats:keyPasses 19 ;
+    stats:matches90s 32.5 ;
+    stats:matchesPlayed 34 ;
+    stats:matchesStarted 33 ;
+    stats:minutesPlayed 2922 ;
+    stats:miscontrols 36 ;
+    stats:passesIntoPenaltyArea 19 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 3 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 42 ;
+    stats:progressivePasses 103 ;
+    stats:progressivePassesReceived 98 ;
+    stats:rank 2569 ;
+    stats:redCards 0 ;
+    stats:tackles 96 ;
+    stats:tacklesWon 61 ;
+    stats:touches 1835 ;
+    stats:yellowCards 11 ;
+    schema:birthDate "1996-02-21"^^xsd:date ;
+    schema:description "Facundo Nahuel Tenaglia (born 21 February 1996) is an Argentine professional footballer who plays for Spanish club Deportivo Alavés. Mainly a right-back, he can also play as a centre-back."@en ;
+    schema:height "1.81 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/cr4qsf1653308101.jpg"^^xsd:anyURI ;
+    schema:memberOf "Alaves"^^xsd:string ;
+    schema:name "Nahuel Tenaglia"^^xsd:string ;
+    schema:nationality "Argentina"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

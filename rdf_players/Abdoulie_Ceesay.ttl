@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Abdoulie_Ceesay a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q130487168> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/yygx2p1756311146.png"^^xsd:anyURI ;
+    foaf:name "Abdoulie Ceesay"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 4 ;
+    stats:blocks 2 ;
+    stats:carries 12 ;
+    stats:clearances 1 ;
+    stats:dispossessed 3 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 0.7 ;
+    stats:matchesPlayed 7 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 60 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacker"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 8 ;
+    stats:rank 518 ;
+    stats:redCards 0 ;
+    stats:tackles 3 ;
+    stats:tacklesWon 3 ;
+    stats:touches 26 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2004-01-05"^^xsd:date ;
+    schema:description "Abdoulie Ceesay (born 5 January 2004) is a Gambian footballer who plays as a forward for FC St. Pauli."@en ;
+    schema:height "6' 1\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/dzmdor1741634915.jpg"^^xsd:anyURI ;
+    schema:memberOf "St Pauli"^^xsd:string ;
+    schema:name "Abdoulie Ceesay"^^xsd:string ;
+    schema:nationality "Gambia"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

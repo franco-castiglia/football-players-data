@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Dominic_Solanke a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18336397> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/e4lpxy1757016341.png"^^xsd:anyURI ;
+    foaf:name "Dominic Solanke"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 38 ;
+    stats:blocks 20 ;
+    stats:carries 385 ;
+    stats:clearances 23 ;
+    stats:dispossessed 51 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.9 ;
+    stats:expectedGoals 10.9 ;
+    stats:goals 9 ;
+    stats:goalsNonPenalty 8 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 14 ;
+    stats:matches90s 24.5 ;
+    stats:matchesPlayed 27 ;
+    stats:matchesStarted 25 ;
+    stats:minutesPlayed 2201 ;
+    stats:miscontrols 69 ;
+    stats:passesIntoPenaltyArea 9 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 31 ;
+    stats:progressivePasses 47 ;
+    stats:progressivePassesReceived 88 ;
+    stats:rank 2464 ;
+    stats:redCards 0 ;
+    stats:tackles 18 ;
+    stats:tacklesWon 11 ;
+    stats:touches 655 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1997-09-14"^^xsd:date ;
+    schema:description """Dominic Ayodele Solanke-Mitchell (born 14 September 1997) is an English professional footballer who plays as a striker for Premier League club Tottenham Hotspur. \r
+\r
+Solanke started his career with Chelsea, making his first-team debut in October 2014. He spent the 2015–16 season on loan with Vitesse in the Eredivisie. He signed for Liverpool in July 2017.\r
+\r
+Solanke has represented England at all youth, under-21 and senior levels. He has won the 2014 UEFA European Under-17 Championship and the 2017 FIFA U-20 World Cup with his country and received the Golden Ball award for best player in the latter tournament."""@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/1mlqqg1724177239.jpg"^^xsd:anyURI ;
+    schema:memberOf "Tottenham"^^xsd:string ;
+    schema:name "Dominic Solanke"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jeremie_Boga a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q20925240> ;
+    foaf:account "twitter.com/bogajeremie"^^xsd:anyURI,
+        "www.instagram.com/jeremieboga/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/z41pbp1700557937.png"^^xsd:anyURI ;
+    foaf:name "Jeremie Boga"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 44 ;
+    stats:blocks 13 ;
+    stats:carries 338 ;
+    stats:clearances 2 ;
+    stats:dispossessed 17 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 2.8 ;
+    stats:expectedGoals 2.3 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 3 ;
+    stats:keyPasses 24 ;
+    stats:matches90s 11.7 ;
+    stats:matchesPlayed 21 ;
+    stats:matchesStarted 12 ;
+    stats:minutesPlayed 1054 ;
+    stats:miscontrols 18 ;
+    stats:passesIntoPenaltyArea 18 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 64 ;
+    stats:progressivePasses 39 ;
+    stats:progressivePassesReceived 75 ;
+    stats:rank 353 ;
+    stats:redCards 0 ;
+    stats:tackles 10 ;
+    stats:tacklesWon 5 ;
+    stats:touches 529 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1997-01-03"^^xsd:date ;
+    schema:description """Jérémie Boga (born 3 January 1997) is a professional footballer who plays as a attacking midfielder or winger for Ligue 1 club Nice. Born in France, he plays for the Ivory Coast national team.\r
+\r
+Coming through Chelsea's youth system, Boga spent the 2015–16 season on loan to Rennes and the 2016–17 season with Granada, also on loan, before making his first-team debut for Chelsea in August 2017. He then joined EFL Championship club Birmingham City on loan for the remainder of the season. In 2018, he moved to Italian club Sassuolo on a permanent deal.\r
+\r
+Internationally, Boga represented his native France up to under-19 level, but then chose to play for his parents' country, Ivory Coast, at senior level. He was also eligible to represent England."""@en ;
+    schema:height "1.72 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/xyrvyq1431625747.jpg"^^xsd:anyURI ;
+    schema:memberOf "Nice"^^xsd:string ;
+    schema:name "Jeremie Boga"^^xsd:string ;
+    schema:nationality "Ivory Coast"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

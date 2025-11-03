@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Omar_Traore a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3887436> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/v1pb3a1742057502.png"^^xsd:anyURI ;
+    foaf:name "Omar Traoré"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 136 ;
+    stats:blocks 35 ;
+    stats:carries 922 ;
+    stats:clearances 66 ;
+    stats:dispossessed 22 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.6 ;
+    stats:expectedGoals 0.5 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 21 ;
+    stats:keyPasses 20 ;
+    stats:matches90s 29.1 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 30 ;
+    stats:minutesPlayed 2616 ;
+    stats:miscontrols 40 ;
+    stats:passesIntoPenaltyArea 36 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 103 ;
+    stats:progressivePasses 117 ;
+    stats:progressivePassesReceived 115 ;
+    stats:rank 2627 ;
+    stats:redCards 0 ;
+    stats:tackles 50 ;
+    stats:tacklesWon 26 ;
+    stats:touches 1712 ;
+    stats:yellowCards 7 ;
+    schema:birthDate "1998-02-04"^^xsd:date ;
+    schema:description """Omar Haktab Traoré (born 4 February 1998) is a German professional footballer who plays as a right-back for Heidenheim in the Bundesliga.\r
+\r
+Career\r
+Traoré signed for KFC Uerdingen 05 on a three-year contract in summer 2020.\r
+\r
+He signed for VfL Osnabrück on a two-year contract in summer 2021.\r
+\r
+Personal life\r
+Born in Germany, Traoré is of Togolese descent. He is the older brother of VfL Osnabrück player Hakim Traoré."""@en ;
+    schema:height "187 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/8m8h4d1710253128.jpg"^^xsd:anyURI ;
+    schema:memberOf "FC Heidenheim"^^xsd:string ;
+    schema:name "Omar Traoré"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "77 kg"^^xsd:string .
+

@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Woyo_Coulibaly a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q66093660> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/nbsxba1739304413.png"^^xsd:anyURI ;
+    foaf:name "Woyo Coulibaly"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 60 ;
+    stats:blocks 19 ;
+    stats:carries 404 ;
+    stats:clearances 25 ;
+    stats:dispossessed 11 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 8 ;
+    stats:matches90s 12.0 ;
+    stats:matchesPlayed 14 ;
+    stats:matchesStarted 12 ;
+    stats:minutesPlayed 1084 ;
+    stats:miscontrols 19 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:preferredFoot "Both"^^xsd:string ;
+    stats:progressiveCarries 36 ;
+    stats:progressivePasses 41 ;
+    stats:progressivePassesReceived 23 ;
+    stats:rank 622 ;
+    stats:redCards 1 ;
+    stats:tackles 13 ;
+    stats:tacklesWon 10 ;
+    stats:touches 706 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1999-05-26"^^xsd:date ;
+    schema:description """Woyo Coulibaly (born 26 May 1999) is a Malian professional footballer who plays as a full back for Premier League club Leicester City.\r
+\r
+On 19 June 2019, Coulibaly signed his first professional contract with Le Havre AC. Coulibaly made his professional debut for Le Havre in a 1-1 Ligue 1 tie with Chamois Niortais on 2 August 2019.\r
+\r
+On 30 August 2021, he joined Parma.\r
+\r
+Coulibaly was born in Gonnesse, France. He holds French and Malian nationalities."""@en ;
+    schema:height "188 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/95pvhp1702298697.jpg"^^xsd:anyURI ;
+    schema:memberOf "Leicester City"^^xsd:string ;
+    schema:name "Woyo Coulibaly"^^xsd:string ;
+    schema:nationality "Mali"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

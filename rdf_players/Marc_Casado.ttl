@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Marc_Casado a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q114085673> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/mvivp61726509915.png"^^xsd:anyURI ;
+    foaf:name "Marc Casadó"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 90 ;
+    stats:blocks 20 ;
+    stats:carries 870 ;
+    stats:clearances 22 ;
+    stats:dispossessed 9 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.4 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 22 ;
+    stats:keyPasses 9 ;
+    stats:matches90s 17.9 ;
+    stats:matchesPlayed 23 ;
+    stats:matchesStarted 20 ;
+    stats:minutesPlayed 1611 ;
+    stats:miscontrols 17 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 12 ;
+    stats:progressivePasses 107 ;
+    stats:progressivePassesReceived 24 ;
+    stats:rank 497 ;
+    stats:redCards 1 ;
+    stats:tackles 44 ;
+    stats:tacklesWon 25 ;
+    stats:touches 1536 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2003-09-14"^^xsd:date ;
+    schema:description "Marc Casadó Torras (born 14 September 2003) is a Spanish professional footballer who plays as a defensive midfielder for Barcelona."@en ;
+    schema:height "1.72 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/to6vyj1700510675.jpg"^^xsd:anyURI ;
+    schema:memberOf "Barcelona"^^xsd:string ;
+    schema:name "Marc Casadó"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "66 kg (145 lb)"^^xsd:string .
+

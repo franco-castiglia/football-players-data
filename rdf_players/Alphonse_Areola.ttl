@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Alphonse_Areola a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2839693> ;
+    foaf:account "instagram.com/areolaofficiel"^^xsd:anyURI,
+        "twitter.com/areolaofficiel"^^xsd:anyURI,
+        "www.facebook.com/pages/Alphonse-Areola/764242163625590"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/istdrx1756985080.png"^^xsd:anyURI ;
+    foaf:name "Alphonse Areola"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 29 ;
+    stats:blocks 0 ;
+    stats:carries 601 ;
+    stats:clearances 15 ;
+    stats:dispossessed 0 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 25.1 ;
+    stats:matchesPlayed 26 ;
+    stats:matchesStarted 25 ;
+    stats:minutesPlayed 2260 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 1 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 148 ;
+    stats:redCards 0 ;
+    stats:tackles 2 ;
+    stats:tacklesWon 2 ;
+    stats:touches 1049 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1993-02-27"^^xsd:date ;
+    schema:description """Alphonse Francis Areola (born 27 February 1993) is a French professional footballer who plays as a goalkeeper for Premier League club West Ham United.\r
+\r
+An academy graduate of PSG, he spent the early parts of his career on loan, enjoying spells with Lens, Bastia and Villarreal. During his stint with the latter, Areola broke the club record for the longest period of play without conceding a goal, remaining unbeaten for a period of 620 minutes. He returned to PSG in 2016 where he has since made over 100 appearances for the club. In 2019, Areola joined Real Madrid.\r
+\r
+He also represented France at every youth level and was part of the squads that won the 2013 FIFA U-20 World Cup and the 2018 FIFA World Cup."""@en ;
+    schema:height "1.95 m (6 ft 5 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/dazsjl1716900961.jpg"^^xsd:anyURI ;
+    schema:memberOf "West Ham"^^xsd:string ;
+    schema:name "Alphonse Areola"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "205 lbs"^^xsd:string .
+

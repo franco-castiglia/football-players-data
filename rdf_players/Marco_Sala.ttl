@@ -1,0 +1,50 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Marco_Sala a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q259648> ;
+    foaf:name "Marco Sala"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 11 ;
+    stats:blocks 2 ;
+    stats:carries 113 ;
+    stats:clearances 9 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 2.9 ;
+    stats:matchesPlayed 8 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 261 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 10 ;
+    stats:progressivePasses 16 ;
+    stats:progressivePassesReceived 16 ;
+    stats:rank 2302 ;
+    stats:redCards 0 ;
+    stats:tackles 9 ;
+    stats:tacklesWon 6 ;
+    stats:touches 173 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1999-06-04"^^xsd:date ;
+    schema:height "1.77 m (5 ft 8 in)"^^xsd:string ;
+    schema:memberOf "Como"^^xsd:string ;
+    schema:name "Marco Sala"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

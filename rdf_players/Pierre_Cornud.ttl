@@ -1,0 +1,51 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Pierre_Cornud a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q66382808> ;
+    foaf:name "Pierre Cornud"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 33 ;
+    stats:blocks 9 ;
+    stats:carries 190 ;
+    stats:clearances 28 ;
+    stats:dispossessed 2 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 9 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 6.4 ;
+    stats:matchesPlayed 11 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 576 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 11 ;
+    stats:progressivePasses 19 ;
+    stats:progressivePassesReceived 17 ;
+    stats:rank 603 ;
+    stats:redCards 0 ;
+    stats:tackles 12 ;
+    stats:tacklesWon 10 ;
+    stats:touches 397 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1996-12-12"^^xsd:date ;
+    schema:description "Pierre Cornud (born 12 December 1996) is a French professional footballer who plays as a left-back for Ligue 1 club Saint-Étienne."@en ;
+    schema:height "1.77 m (5 ft 8 in)"^^xsd:string ;
+    schema:memberOf "St Etienne"^^xsd:string ;
+    schema:name "Pierre Cornud"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "130 lbs"^^xsd:string .
+

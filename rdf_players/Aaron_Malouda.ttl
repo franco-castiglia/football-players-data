@@ -1,0 +1,62 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Aaron_Malouda a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q122926221> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/b18afu1702308680.png"^^xsd:anyURI ;
+    foaf:name "Aaron Malouda"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 0 ;
+    stats:blocks 0 ;
+    stats:carries 1 ;
+    stats:clearances 0 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.0 ;
+    stats:matchesPlayed 1 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 2 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Winger"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1594 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 0 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2005-11-30"^^xsd:date ;
+    schema:description """Aaron Malouda (born 30 November 2005) is a French professional footballer who plays as a winger for Ligue 1 club Lille.\r
+\r
+Club career\r
+Malouda is a product of the youth academies of Lyon and FC Lyon, before moving to Rennes' youth academy on 19 December 2019. He began his senior career with the reserves of Rennes in the Championnat National 3 in 2021. On 1 July 2023, he transferred to Lille on a professional contract until 2023. He made his professional debut with the senior Lille team as a late substitute in a 2–0 Ligue 1 win over Le Havre on 1 October 2023.\r
+\r
+International career\r
+Malouda was born in France, and is of French Guianian descent. He is a youth international for France, having played for the France U19s in 2023.\r
+\r
+Personal life\r
+Malouda is the son of the France and French Guiana international footballer Florent Malouda, and nephew the French Guiana footballer Lesly Malouda."""@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/s7nh3s1702308693.jpg"^^xsd:anyURI ;
+    schema:memberOf "Lille"^^xsd:string ;
+    schema:name "Aaron Malouda"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

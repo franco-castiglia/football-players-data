@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Gabriel_Misehouy a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q110991987> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/9eucut1723827794.png"^^xsd:anyURI ;
+    foaf:name "Gabriel Misehouy"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 11 ;
+    stats:blocks 0 ;
+    stats:carries 100 ;
+    stats:clearances 0 ;
+    stats:dispossessed 7 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 0.9 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 2.9 ;
+    stats:matchesPlayed 9 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 257 ;
+    stats:miscontrols 7 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:progressiveCarries 5 ;
+    stats:progressivePasses 15 ;
+    stats:progressivePassesReceived 22 ;
+    stats:rank 1995 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 1 ;
+    stats:touches 128 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2005-07-18"^^xsd:date ;
+    schema:description "Gabriel Osei Misehouy (born 18 July 2005) is a Dutch footballer who plays as an attacking midfielder for La Liga club Girona."@en ;
+    schema:height "1.73 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/q37t181723659981.jpg"^^xsd:anyURI ;
+    schema:memberOf "Girona"^^xsd:string ;
+    schema:name "Gabriel Misehouy"^^xsd:string ;
+    schema:nationality "The Netherlands"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

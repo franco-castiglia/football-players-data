@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Luis_Rioja a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q56223387> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/jskcll1701097774.png"^^xsd:anyURI ;
+    foaf:name "Luis Rioja"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 111 ;
+    stats:blocks 30 ;
+    stats:carries 816 ;
+    stats:clearances 44 ;
+    stats:dispossessed 40 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 4.5 ;
+    stats:expectedGoals 3.3 ;
+    stats:goals 5 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 22 ;
+    stats:keyPasses 35 ;
+    stats:matches90s 31.5 ;
+    stats:matchesPlayed 36 ;
+    stats:matchesStarted 33 ;
+    stats:minutesPlayed 2831 ;
+    stats:miscontrols 42 ;
+    stats:passesIntoPenaltyArea 60 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 93 ;
+    stats:progressivePasses 103 ;
+    stats:progressivePassesReceived 228 ;
+    stats:rank 2216 ;
+    stats:redCards 0 ;
+    stats:tackles 33 ;
+    stats:tacklesWon 21 ;
+    stats:touches 1505 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "1993-10-16"^^xsd:date ;
+    schema:description "Luis Jesús Rioja González (born 16 October 1993) is a Spanish footballer who plays for Deportivo Alavés as a left winger."@en ;
+    schema:height "1.73 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/752ctu1562180222.jpg"^^xsd:anyURI ;
+    schema:memberOf "Valencia"^^xsd:string ;
+    schema:name "Luis Rioja"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

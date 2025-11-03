@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Nikola_Vlasic a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q17501875> ;
+    foaf:account "www.instagram.com/niksivlasic_/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/tmii4q1758814229.png"^^xsd:anyURI ;
+    foaf:name "Nikola Vlašić"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 93 ;
+    stats:blocks 15 ;
+    stats:carries 607 ;
+    stats:clearances 15 ;
+    stats:dispossessed 42 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.4 ;
+    stats:expectedGoals 3.4 ;
+    stats:goals 5 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 9 ;
+    stats:keyPasses 32 ;
+    stats:matches90s 23.5 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 23 ;
+    stats:minutesPlayed 2117 ;
+    stats:miscontrols 44 ;
+    stats:passesIntoPenaltyArea 24 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:progressiveCarries 53 ;
+    stats:progressivePasses 94 ;
+    stats:progressivePassesReceived 110 ;
+    stats:rank 2724 ;
+    stats:redCards 0 ;
+    stats:tackles 37 ;
+    stats:tacklesWon 19 ;
+    stats:touches 983 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1997-10-04"^^xsd:date ;
+    schema:description """Nikola Vlašić (born 4 October 1997) is a Croatian professional footballer who plays as an attacking midfielder for Serie A club Torino on loan from Premier League club West Ham United, and the Croatia national team.\r
+\r
+Born in the famous Croatian sports family Vlašić, Nikola is a youth product of Hajduk Split academy. He made his senior debut in summer 2014, making The Guardian's Next Generation list later that year. In 2017, his performances earned him a move to Everton; however, after an unsuccessful season, he was loaned out to CSKA Moscow who made the move permanent upon the end of the season.\r
+\r
+Vlašić made his international debut in 2017, before becoming a regular international after Croatia's 2018 World Cup campaign, also featuring at UEFA Euro 2020."""@en ;
+    schema:height "1.78 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/on2oja1622020774.jpg"^^xsd:anyURI ;
+    schema:memberOf "Torino"^^xsd:string ;
+    schema:name "Nikola Vlašić"^^xsd:string ;
+    schema:nationality "Croatia"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Johan_Vasquez a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q9012371> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/7q4sks1758997735.png"^^xsd:anyURI ;
+    foaf:name "Johan Vasquez"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 122 ;
+    stats:blocks 59 ;
+    stats:carries 1202 ;
+    stats:clearances 150 ;
+    stats:dispossessed 5 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 2.4 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 50 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 33.8 ;
+    stats:matchesPlayed 36 ;
+    stats:matchesStarted 34 ;
+    stats:minutesPlayed 3041 ;
+    stats:miscontrols 24 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 37 ;
+    stats:progressivePasses 96 ;
+    stats:progressivePassesReceived 12 ;
+    stats:rank 2679 ;
+    stats:redCards 0 ;
+    stats:tackles 56 ;
+    stats:tacklesWon 31 ;
+    stats:touches 2190 ;
+    stats:yellowCards 9 ;
+    schema:birthDate "1998-10-22"^^xsd:date ;
+    schema:description "Johan Felipe Vásquez Ibarra (born 22 October 1998) is a Mexican professional footballer who plays as a centre-back for Serie A club Genoa and the Mexico national team."@en ;
+    schema:height "1.84 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/a4jnkm1718257169.jpg"^^xsd:anyURI ;
+    schema:memberOf "Genoa"^^xsd:string ;
+    schema:name "Johan Vasquez"^^xsd:string ;
+    schema:nationality "Mexico"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

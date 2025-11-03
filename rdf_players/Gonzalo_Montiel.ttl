@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Gonzalo_Montiel a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q26255087> ;
+    foaf:account "instagram.com/gonzalo_montiel29/"^^xsd:anyURI,
+        "twitter.com/gonza_river5"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/perteu1750270994.png"^^xsd:anyURI ;
+    foaf:name "Gonzalo Montiel"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 4 ;
+    stats:blocks 0 ;
+    stats:carries 37 ;
+    stats:clearances 11 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 1.3 ;
+    stats:matchesPlayed 6 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 113 ;
+    stats:miscontrols 2 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 3 ;
+    stats:progressivePasses 2 ;
+    stats:progressivePassesReceived 3 ;
+    stats:rank 1780 ;
+    stats:redCards 0 ;
+    stats:tackles 4 ;
+    stats:tacklesWon 2 ;
+    stats:touches 99 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1997-01-01"^^xsd:date ;
+    schema:description """Gonzalo Ariel Montiel (born 1 January 1997) is an Argentine professional footballer who plays as right-back for the Argentine Primera División club River Plate and the Argentina national team.\r
+\r
+Montiel began his professional career with River Plate in 2016, playing 140 games and winning honours including the Argentine Primera División in 2021 and the Copa Libertadores in 2018. In 2021, he signed for Sevilla for €11 million but was loaned to Nottingham Forest in England for the 2023/24 season before returning to Seville for another year. Then, four years after his departure from Argentina, he returned in January 2025 to River Plate.\r
+\r
+Montiel made his senior international debut for Argentina in 2019. He was a part of the squads that won the Copa América in 2021 and 2024 and the FIFA World Cup in 2022, scoring the winning penalty in the shoot-out of the latter final."""@en ;
+    schema:height "1.76 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/0f1okp1724793509.jpg"^^xsd:anyURI ;
+    schema:memberOf "River Plate"^^xsd:string ;
+    schema:name "Gonzalo Montiel"^^xsd:string ;
+    schema:nationality "Argentina"^^xsd:string ;
+    schema:weight "68 kg (150 lb)"^^xsd:string .
+

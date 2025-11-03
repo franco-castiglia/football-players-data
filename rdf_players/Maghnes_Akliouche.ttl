@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Maghnes_Akliouche a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q108910786> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/26cl5z1748684565.png"^^xsd:anyURI ;
+    foaf:name "Maghnes Akliouche"^^xsd:string ;
+    stats:assists 10 ;
+    stats:ballRecoveries 131 ;
+    stats:blocks 21 ;
+    stats:carries 999 ;
+    stats:clearances 13 ;
+    stats:dispossessed 47 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 7.3 ;
+    stats:expectedGoals 9.2 ;
+    stats:goals 5 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 15 ;
+    stats:keyPasses 49 ;
+    stats:matches90s 26.7 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 27 ;
+    stats:minutesPlayed 2406 ;
+    stats:miscontrols 78 ;
+    stats:passesIntoPenaltyArea 64 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 127 ;
+    stats:progressivePasses 173 ;
+    stats:progressivePassesReceived 226 ;
+    stats:rank 67 ;
+    stats:redCards 0 ;
+    stats:tackles 51 ;
+    stats:tacklesWon 31 ;
+    stats:touches 1566 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2002-02-25"^^xsd:date ;
+    schema:description """Maghnes Akliouche (born 25 February 2002) is a French professional footballer who plays as an attacking midfielder for Monaco.\r
+\r
+Club career\r
+Maghnes Akliouche made his professional debut for AS Monaco on the 16 October 2021, coming on as a substitute in the 2-0 away Ligue 1 loss against Lyon.\r
+\r
+International career\r
+Born in France, Akliouche is of Algerian descent."""@en ;
+    schema:height "6' 0\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/gcre751674745133.jpg"^^xsd:anyURI ;
+    schema:memberOf "Monaco"^^xsd:string ;
+    schema:name "Maghnes Akliouche"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

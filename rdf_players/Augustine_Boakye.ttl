@@ -1,0 +1,51 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Augustine_Boakye a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q90307470> ;
+    foaf:name "Augustine Boakye"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 27 ;
+    stats:blocks 5 ;
+    stats:carries 194 ;
+    stats:clearances 4 ;
+    stats:dispossessed 25 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 1.8 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 13 ;
+    stats:matches90s 8.1 ;
+    stats:matchesPlayed 17 ;
+    stats:matchesStarted 8 ;
+    stats:minutesPlayed 733 ;
+    stats:miscontrols 18 ;
+    stats:passesIntoPenaltyArea 11 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 25 ;
+    stats:progressivePasses 35 ;
+    stats:progressivePassesReceived 60 ;
+    stats:rank 349 ;
+    stats:redCards 0 ;
+    stats:tackles 7 ;
+    stats:tacklesWon 3 ;
+    stats:touches 349 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "2000-11-03"^^xsd:date ;
+    schema:description "Augustine Boakye (born 3 November 2000) is a Ghanaian professional footballer who plays as a midfielder for club Saint-Étienne."@en ;
+    schema:height "178 cm"^^xsd:string ;
+    schema:memberOf "St Etienne"^^xsd:string ;
+    schema:name "Augustine Boakye"^^xsd:string ;
+    schema:nationality "Ghana"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

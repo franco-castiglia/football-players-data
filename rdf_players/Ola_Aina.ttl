@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ola_Aina a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q20730338> ;
+    foaf:account "twitter.com/aina2ola"^^xsd:anyURI,
+        "www.facebook.com/Ola2aina/"^^xsd:anyURI,
+        "www.instagram.com/olaaina/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/3rasdy1757162843.png"^^xsd:anyURI ;
+    foaf:name "Ola Aina"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 190 ;
+    stats:blocks 34 ;
+    stats:carries 749 ;
+    stats:clearances 115 ;
+    stats:dispossessed 22 ;
+    stats:errors 4 ;
+    stats:expectedAssistedGoals 1.4 ;
+    stats:expectedGoals 0.6 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 33 ;
+    stats:keyPasses 16 ;
+    stats:matches90s 33.3 ;
+    stats:matchesPlayed 35 ;
+    stats:matchesStarted 35 ;
+    stats:minutesPlayed 2995 ;
+    stats:miscontrols 44 ;
+    stats:passesIntoPenaltyArea 23 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 67 ;
+    stats:progressivePasses 107 ;
+    stats:progressivePassesReceived 67 ;
+    stats:rank 57 ;
+    stats:redCards 0 ;
+    stats:tackles 55 ;
+    stats:tacklesWon 42 ;
+    stats:touches 1708 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1996-10-08"^^xsd:date ;
+    schema:description "Temitayo Olufisayo Olaoluwa Aina (born 8 October 1996) is a professional footballer who plays as a wing-back or right back for Premier League club Nottingham Forest and the Nigeria national team."@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/wb690m1546357554.jpg"^^xsd:anyURI ;
+    schema:memberOf "Nottingham Forest"^^xsd:string ;
+    schema:name "Ola Aina"^^xsd:string ;
+    schema:nationality "Nigeria"^^xsd:string ;
+    schema:weight "181 lbs"^^xsd:string .
+

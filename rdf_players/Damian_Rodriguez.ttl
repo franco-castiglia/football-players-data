@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Damian_Rodriguez a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5212636> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/my0qcd1724177785.png"^^xsd:anyURI ;
+    foaf:name "Damián Rodríguez"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 49 ;
+    stats:blocks 6 ;
+    stats:carries 529 ;
+    stats:clearances 13 ;
+    stats:dispossessed 6 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.8 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 7 ;
+    stats:keyPasses 17 ;
+    stats:matches90s 10.3 ;
+    stats:matchesPlayed 17 ;
+    stats:matchesStarted 10 ;
+    stats:minutesPlayed 927 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 8 ;
+    stats:progressivePasses 71 ;
+    stats:progressivePassesReceived 12 ;
+    stats:rank 2234 ;
+    stats:redCards 0 ;
+    stats:tackles 14 ;
+    stats:tacklesWon 9 ;
+    stats:touches 876 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2003-03-17"^^xsd:date ;
+    schema:description "Damián Rodríguez Sousa (born 17 March 2003) is a Spanish professional footballer who plays as a central midfielder for RC Celta de Vigo."@en ;
+    schema:height "1.80 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/3tqcmb1724492676.jpg"^^xsd:anyURI ;
+    schema:memberOf "Celta Vigo"^^xsd:string ;
+    schema:name "Damián Rodríguez"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Stoichkov a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q55640530> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/gl6c5x1726865316.png"^^xsd:anyURI ;
+    foaf:name "Stoichkov"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 44 ;
+    stats:blocks 2 ;
+    stats:carries 179 ;
+    stats:clearances 7 ;
+    stats:dispossessed 7 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.2 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 7.8 ;
+    stats:matchesPlayed 16 ;
+    stats:matchesStarted 6 ;
+    stats:minutesPlayed 699 ;
+    stats:miscontrols 20 ;
+    stats:passesIntoPenaltyArea 10 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 9 ;
+    stats:progressivePasses 26 ;
+    stats:progressivePassesReceived 41 ;
+    stats:rank 2509 ;
+    stats:redCards 0 ;
+    stats:tackles 14 ;
+    stats:tacklesWon 9 ;
+    stats:touches 304 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1993-11-05"^^xsd:date ;
+    schema:description """Juan Diego Molina Martínez (born 5 November 1993), commonly known as Stoichkov, is a Spanish professional footballer who plays for Segunda División club Granada CF. Mainly an attacking midfielder, he can also play as a winger or a forward. \r
+\r
+He made over 170 Segunda División appearances and scored over 60 goals for Mallorca, Alcorcón, Sabadell and Eibar, having played at lower levels until nearly aged 25."""@en ;
+    schema:height "1.78 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/wto9be1723531078.jpg"^^xsd:anyURI ;
+    schema:memberOf "Granada"^^xsd:string ;
+    schema:name "Stoichkov"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "157 lbs"^^xsd:string .
+

@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Aihen_Munoz a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q60466652> ;
+    foaf:account "twitter.com/aihen11?lang=fa"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ucqh0h1659961589.png"^^xsd:anyURI ;
+    foaf:name "Aihen Muñoz"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 43 ;
+    stats:blocks 11 ;
+    stats:carries 356 ;
+    stats:clearances 47 ;
+    stats:dispossessed 3 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 14 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 12.2 ;
+    stats:matchesPlayed 21 ;
+    stats:matchesStarted 13 ;
+    stats:minutesPlayed 1098 ;
+    stats:miscontrols 10 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:progressiveCarries 26 ;
+    stats:progressivePasses 38 ;
+    stats:progressivePassesReceived 28 ;
+    stats:rank 1822 ;
+    stats:redCards 0 ;
+    stats:tackles 24 ;
+    stats:tacklesWon 12 ;
+    stats:touches 763 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1997-08-16"^^xsd:date ;
+    schema:description "Aihen Muñoz Capellán (born 16 August 1997) is a Spanish professional footballer who plays for Real Sociedad. Mainly a left back, he can also play as a winger."@en ;
+    schema:height "1.75 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/d085zo1603376586.jpg"^^xsd:anyURI ;
+    schema:memberOf "Real Sociedad"^^xsd:string ;
+    schema:name "Aihen Muñoz"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

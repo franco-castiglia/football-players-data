@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:John_Tolkin a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q69390724> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/y58cuq1741710108.png"^^xsd:anyURI ;
+    foaf:name "John Tolkin"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 21 ;
+    stats:blocks 10 ;
+    stats:carries 174 ;
+    stats:clearances 54 ;
+    stats:dispossessed 6 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.7 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 11 ;
+    stats:matches90s 8.2 ;
+    stats:matchesPlayed 11 ;
+    stats:matchesStarted 9 ;
+    stats:minutesPlayed 737 ;
+    stats:miscontrols 5 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 6 ;
+    stats:progressivePasses 17 ;
+    stats:progressivePassesReceived 12 ;
+    stats:rank 2603 ;
+    stats:redCards 0 ;
+    stats:tackles 18 ;
+    stats:tacklesWon 11 ;
+    stats:touches 479 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2002-07-31"^^xsd:date ;
+    schema:description "John Michael Tolkin (born July 31, 2002), nicknamed \"JMi\", is an American professional soccer player who plays as a left-back for Bundesliga club Holstein Kiel and the United States national team."@en ;
+    schema:height "5 ft 7 in (170 cm)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/yoqaml1623335832.jpg"^^xsd:anyURI ;
+    schema:memberOf "Holstein Kiel"^^xsd:string ;
+    schema:name "John Tolkin"^^xsd:string ;
+    schema:nationality "United States"^^xsd:string ;
+    schema:weight "132 lbs"^^xsd:string .
+

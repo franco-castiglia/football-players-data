@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Raul_Moro a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q97573236> ;
+    foaf:account "www.instagram.com/raulmoro7/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/9o2nyu1759697482.png"^^xsd:anyURI ;
+    foaf:name "Raul Moro"^^xsd:string ;
+    stats:assists 5 ;
+    stats:ballRecoveries 85 ;
+    stats:blocks 8 ;
+    stats:carries 607 ;
+    stats:clearances 20 ;
+    stats:dispossessed 11 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 5.7 ;
+    stats:expectedGoals 4.1 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 10 ;
+    stats:keyPasses 44 ;
+    stats:matches90s 26.0 ;
+    stats:matchesPlayed 33 ;
+    stats:matchesStarted 26 ;
+    stats:minutesPlayed 2341 ;
+    stats:miscontrols 47 ;
+    stats:passesIntoPenaltyArea 38 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 112 ;
+    stats:progressivePasses 81 ;
+    stats:progressivePassesReceived 190 ;
+    stats:rank 1796 ;
+    stats:redCards 0 ;
+    stats:tackles 22 ;
+    stats:tacklesWon 13 ;
+    stats:touches 1050 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2002-12-05"^^xsd:date ;
+    schema:description "Raúl Moro Prescoli (born 5 December 2002) is a Spanish professional footballer who plays as a winger for Eredivisie club Ajax."@en ;
+    schema:height "5' 7\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/drx64e1633531379.jpg"^^xsd:anyURI ;
+    schema:memberOf "Ajax"^^xsd:string ;
+    schema:name "Raul Moro"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

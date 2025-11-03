@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Rui_Modesto a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q104903364> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/bgs8iw1717528164.png"^^xsd:anyURI ;
+    foaf:name "Rui Modesto"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 26 ;
+    stats:blocks 10 ;
+    stats:carries 166 ;
+    stats:clearances 13 ;
+    stats:dispossessed 3 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.8 ;
+    stats:expectedGoals 0.5 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 14 ;
+    stats:matches90s 6.8 ;
+    stats:matchesPlayed 20 ;
+    stats:matchesStarted 4 ;
+    stats:minutesPlayed 608 ;
+    stats:miscontrols 9 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right Midfield"^^xsd:string ;
+    stats:progressiveCarries 16 ;
+    stats:progressivePasses 22 ;
+    stats:progressivePassesReceived 43 ;
+    stats:rank 1768 ;
+    stats:redCards 0 ;
+    stats:tackles 16 ;
+    stats:tacklesWon 12 ;
+    stats:touches 388 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1999-10-07"^^xsd:date ;
+    schema:description "Rui Manuel Muati Modesto (born 7 October 1999) is a footballer who plays as a winger for Italian Serie A club Udinese. Born in Portugal, he represents the Angola national team. Initially a defender in his native Portugal, Modesto moved to a more attacking role after moving to Finland."@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/36vy1o1717509570.jpg"^^xsd:anyURI ;
+    schema:memberOf "Udinese"^^xsd:string ;
+    schema:name "Rui Modesto"^^xsd:string ;
+    schema:nationality "Angola"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

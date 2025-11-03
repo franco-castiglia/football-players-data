@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Sergi_Dominguez a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q116866394> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/sxfo1c1727027801.png"^^xsd:anyURI ;
+    foaf:name "Sergi Domínguez"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 8 ;
+    stats:blocks 0 ;
+    stats:carries 127 ;
+    stats:clearances 7 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 3 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 1.9 ;
+    stats:matchesPlayed 3 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 172 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 13 ;
+    stats:progressivePassesReceived 1 ;
+    stats:rank 765 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 1 ;
+    stats:touches 191 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2005-04-01"^^xsd:date ;
+    schema:description "Sergi Domínguez Viloria (born 1 April 2005) is a Spanish footballer who plays as a centre-back for Barcelona Atlètic."@en ;
+    schema:height "1.91 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/r39n121723647971.jpg"^^xsd:anyURI ;
+    schema:memberOf "Barcelona Atlètic"^^xsd:string ;
+    schema:name "Sergi Domínguez"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

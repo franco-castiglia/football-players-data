@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Karl_Hein a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q98918607> ;    
+    foaf:account "www.instagram.com/karljakobhein/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/df5yq61694204417.png"^^xsd:anyURI ;
+    foaf:name "Karl Hein"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 43 ;
+    stats:blocks 0 ;
+    stats:carries 643 ;
+    stats:clearances 19 ;
+    stats:dispossessed 0 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 31.0 ;
+    stats:matchesPlayed 31 ;
+    stats:matchesStarted 31 ;
+    stats:minutesPlayed 2790 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1239 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 1254 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2002-04-13"^^xsd:date ;
+    schema:description "Karl Jakob Hein (born 13 April 2002) is an Estonian professional footballer who plays as a goalkeeper for La Liga club Real Valladolid, on loan from Premier League club Arsenal, and the Estonia national team."@en ;
+    schema:height "1.93 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/fjih0a1725731388.jpg"^^xsd:anyURI ;
+    schema:memberOf "Valladolid"^^xsd:string ;
+    schema:name "Karl Hein"^^xsd:string ;
+    schema:nationality "Estonia"^^xsd:string ;
+    schema:weight "190 lbs"^^xsd:string .
+

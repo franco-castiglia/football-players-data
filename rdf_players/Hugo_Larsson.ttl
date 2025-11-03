@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Hugo_Larsson a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q111586862> ;
+    foaf:account "mobile.twitter.com/hlarsson8"^^xsd:anyURI,
+        "www.instagram.com/larssonhugo/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/s6b8lb1742045051.png"^^xsd:anyURI ;
+    foaf:name "Hugo Larsson"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 121 ;
+    stats:blocks 42 ;
+    stats:carries 803 ;
+    stats:clearances 35 ;
+    stats:dispossessed 11 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 2.1 ;
+    stats:expectedGoals 3.1 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 30 ;
+    stats:keyPasses 21 ;
+    stats:matches90s 26.6 ;
+    stats:matchesPlayed 33 ;
+    stats:matchesStarted 28 ;
+    stats:minutesPlayed 2393 ;
+    stats:miscontrols 23 ;
+    stats:passesIntoPenaltyArea 19 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 16 ;
+    stats:progressivePasses 121 ;
+    stats:progressivePassesReceived 33 ;
+    stats:rank 1451 ;
+    stats:redCards 0 ;
+    stats:tackles 47 ;
+    stats:tacklesWon 27 ;
+    stats:touches 1478 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2004-06-27"^^xsd:date ;
+    schema:description "Hugo Emanuel Larsson (born 27 June 2004) is a Swedish professional footballer who plays as a midfielder for Bundesliga club Eintracht Frankfurt and the Sweden national team."@en ;
+    schema:height "1.87 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/2md36y1703768377.jpg"^^xsd:anyURI ;
+    schema:memberOf "Eintracht Frankfurt"^^xsd:string ;
+    schema:name "Hugo Larsson"^^xsd:string ;
+    schema:nationality "Sweden"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

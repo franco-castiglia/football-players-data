@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Joao_Gomes a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q103312425> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/u8mcha1756975493.png"^^xsd:anyURI ;
+    foaf:name "João Gomes"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 200 ;
+    stats:blocks 42 ;
+    stats:carries 1059 ;
+    stats:clearances 33 ;
+    stats:dispossessed 51 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.2 ;
+    stats:expectedGoals 2.9 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 25 ;
+    stats:keyPasses 23 ;
+    stats:matches90s 33.0 ;
+    stats:matchesPlayed 36 ;
+    stats:matchesStarted 35 ;
+    stats:minutesPlayed 2974 ;
+    stats:miscontrols 43 ;
+    stats:passesIntoPenaltyArea 24 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:progressiveCarries 59 ;
+    stats:progressivePasses 165 ;
+    stats:progressivePassesReceived 76 ;
+    stats:rank 1023 ;
+    stats:redCards 1 ;
+    stats:tackles 116 ;
+    stats:tacklesWon 71 ;
+    stats:touches 1998 ;
+    stats:yellowCards 11 ;
+    schema:birthDate "2001-02-12"^^xsd:date ;
+    schema:description """João Victor Gomes da Silva (born 12 February 2001) is a Brazilian professional footballer who plays as a midfielder for Premier League club Wolverhampton Wanderers.\r
+\r
+Career\r
+Flamengo\r
+After figuring on the bench on the 16 October 2020, João Gomes made his debut on the 1 November 2020, starting for Flamengo in the Série A 4–1 home defeat against São Paulo.\r
+\r
+Wolverhampton Wanderers\r
+On 30 January 2023, João Gomes signed for Wolverhampton Wanderers in the Premier League for €18.7m, after a drawn out battle between Wolves and Ligue 1 club Olympique Lyonnais for his signature.\r
+\r
+Gomes scored the winning goal in a 2–1 comeback victory for Wolves at Southampton in the Premier League on his debut appearance for the club (as a second-half substitute) on 11 February 2023 — this despite Wolves being reduced to ten men after a Mario Lemina red card in the first half.[5"""@en ;
+    schema:height "1.76 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/1nl7t11678184160.jpg"^^xsd:anyURI ;
+    schema:memberOf "Wolves"^^xsd:string ;
+    schema:name "João Gomes"^^xsd:string ;
+    schema:nationality "Brazil"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

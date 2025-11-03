@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Danilho_Doekhi a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q23817858> ;
+    foaf:account "www.instagram.com/danilhord/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/aldt9k1742134632.png"^^xsd:anyURI ;
+    foaf:name "Danilho Doekhi"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 97 ;
+    stats:blocks 35 ;
+    stats:carries 883 ;
+    stats:clearances 169 ;
+    stats:dispossessed 6 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.4 ;
+    stats:expectedGoals 2.6 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 44 ;
+    stats:keyPasses 13 ;
+    stats:matches90s 34.0 ;
+    stats:matchesPlayed 34 ;
+    stats:matchesStarted 34 ;
+    stats:minutesPlayed 3060 ;
+    stats:miscontrols 13 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 13 ;
+    stats:progressivePasses 96 ;
+    stats:progressivePassesReceived 14 ;
+    stats:rank 756 ;
+    stats:redCards 0 ;
+    stats:tackles 37 ;
+    stats:tacklesWon 24 ;
+    stats:touches 1654 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1998-06-30"^^xsd:date ;
+    schema:description "Danilho Raimundo Doekhi (born 30 June 1998) is a Dutch professional footballer who plays for German club Union Berlin as a centre back."@en ;
+    schema:height "1.90 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ek3otf1548163138.jpg"^^xsd:anyURI ;
+    schema:memberOf "Union Berlin"^^xsd:string ;
+    schema:name "Danilho Doekhi"^^xsd:string ;
+    schema:nationality "The Netherlands"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

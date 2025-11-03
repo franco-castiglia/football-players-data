@@ -1,0 +1,51 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Rafik_Messali a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q132126910> ;
+    foaf:name "Rafik Messali"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 28 ;
+    stats:blocks 9 ;
+    stats:carries 155 ;
+    stats:clearances 12 ;
+    stats:dispossessed 12 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.0 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 10 ;
+    stats:keyPasses 11 ;
+    stats:matches90s 5.1 ;
+    stats:matchesPlayed 13 ;
+    stats:matchesStarted 5 ;
+    stats:minutesPlayed 456 ;
+    stats:miscontrols 16 ;
+    stats:passesIntoPenaltyArea 8 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 13 ;
+    stats:progressivePasses 21 ;
+    stats:progressivePassesReceived 29 ;
+    stats:rank 1729 ;
+    stats:redCards 0 ;
+    stats:tackles 15 ;
+    stats:tacklesWon 8 ;
+    stats:touches 298 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2003-04-28"^^xsd:date ;
+    schema:description "Rafik Messali (born 28 April 2003) is a professional footballer who plays for Toulouse as a right-back. Born in France, he is a youth international for Algeria."@en ;
+    schema:height "1.77 m (5 ft 10 in)"^^xsd:string ;
+    schema:memberOf "Toulouse"^^xsd:string ;
+    schema:name "Rafik Messali"^^xsd:string ;
+    schema:nationality "Algeria"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

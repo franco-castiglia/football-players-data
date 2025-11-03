@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Enzo_Barrenechea a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q102045930> ;
+    foaf:account "www.instagram.com/enzo_barrenechea8/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/vg6w3v1758216092.png"^^xsd:anyURI ;
+    foaf:name "Enzo Barrenechea"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 117 ;
+    stats:blocks 30 ;
+    stats:carries 762 ;
+    stats:clearances 48 ;
+    stats:dispossessed 18 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 1.3 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 28 ;
+    stats:keyPasses 15 ;
+    stats:matches90s 24.3 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 26 ;
+    stats:minutesPlayed 2191 ;
+    stats:miscontrols 23 ;
+    stats:passesIntoPenaltyArea 7 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:progressiveCarries 21 ;
+    stats:progressivePasses 126 ;
+    stats:progressivePassesReceived 16 ;
+    stats:rank 249 ;
+    stats:redCards 0 ;
+    stats:tackles 57 ;
+    stats:tacklesWon 30 ;
+    stats:touches 1601 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "2001-05-11"^^xsd:date ;
+    schema:description "Enzo Alan Tomás Barrenechea (born 22 May 2001) is an Argentine professional footballer who plays as a central or defensive midfielder for La Liga club Valencia, on loan from Premier League club Aston Villa."@en ;
+    schema:height "1.86 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/qjx4qh1679484651.jpg"^^xsd:anyURI ;
+    schema:memberOf "Benfica"^^xsd:string ;
+    schema:name "Enzo Barrenechea"^^xsd:string ;
+    schema:nationality "Argentina"^^xsd:string .
+

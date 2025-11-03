@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Wout_Faes a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q30014588> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/zeslhg1695136726.png"^^xsd:anyURI ;
+    foaf:name "Wout Faes"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 90 ;
+    stats:blocks 48 ;
+    stats:carries 1107 ;
+    stats:clearances 185 ;
+    stats:dispossessed 6 ;
+    stats:errors 4 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 1.5 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 26 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 31.3 ;
+    stats:matchesPlayed 34 ;
+    stats:matchesStarted 30 ;
+    stats:minutesPlayed 2815 ;
+    stats:miscontrols 17 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 12 ;
+    stats:progressivePasses 86 ;
+    stats:progressivePassesReceived 1 ;
+    stats:rank 871 ;
+    stats:redCards 0 ;
+    stats:tackles 42 ;
+    stats:tacklesWon 26 ;
+    stats:touches 1906 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1998-04-03"^^xsd:date ;
+    schema:description """Wout Felix Lina Faes (born 3 April 1998) is a Belgian professional footballer who plays as centre back for Premier League club Leicester City and the Belgium national team.\r
+\r
+A promising talent from the Anderlecht academy, Faes gained attention as captain of Belgian national youth teams. He made his senior debut on loan with Heerenveen in the Eredivisie, but never experienced his breakthrough with Anderlecht. As a result, he moved to Oostende, where he was able to grow into a solid starter. In January 2020, Faes was signed by Ligue 1 club Reims."""@en ;
+    schema:height "187 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ygxj7u1608641208.jpg"^^xsd:anyURI ;
+    schema:memberOf "Leicester"^^xsd:string ;
+    schema:name "Wout Faes"^^xsd:string ;
+    schema:nationality "Belgium"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

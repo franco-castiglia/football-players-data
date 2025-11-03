@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Fabian_Schar a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q673691> ;
+    foaf:account "twitter.com/fabianschaer"^^xsd:anyURI,
+        "www.facebook.com/fabianschaer1/"^^xsd:anyURI,
+        "www.instagram.com/fabianschaer_official/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/pjhzb61693823084.png"^^xsd:anyURI ;
+    foaf:name "Fabian Schär"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 134 ;
+    stats:blocks 38 ;
+    stats:carries 1438 ;
+    stats:clearances 138 ;
+    stats:dispossessed 6 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 0.4 ;
+    stats:expectedGoals 3.7 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 45 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 32.6 ;
+    stats:matchesPlayed 34 ;
+    stats:matchesStarted 33 ;
+    stats:minutesPlayed 2934 ;
+    stats:miscontrols 12 ;
+    stats:passesIntoPenaltyArea 13 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 18 ;
+    stats:progressivePasses 118 ;
+    stats:progressivePassesReceived 22 ;
+    stats:rank 2369 ;
+    stats:redCards 1 ;
+    stats:tackles 36 ;
+    stats:tacklesWon 21 ;
+    stats:touches 2319 ;
+    stats:yellowCards 9 ;
+    schema:birthDate "1991-12-20"^^xsd:date ;
+    schema:description """Fabian Lukas Schär (born 20 December 1991) is a Swiss footballer who plays as a centre-back for Premier League club Newcastle United.\r
+\r
+Formed at Wil, he transferred to Basel in 2012, winning the Swiss Super League in all three of his seasons before his move to Hoffenheim.\r
+\r
+After playing at the 2012 Olympics, he made his senior debut for Switzerland in 2013. Schär represented the nation at the 2014 and 2018 FIFA World Cup, and UEFA Euro 2016."""@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/pu598j1542020936.jpg"^^xsd:anyURI ;
+    schema:memberOf "Newcastle"^^xsd:string ;
+    schema:name "Fabian Schär"^^xsd:string ;
+    schema:nationality "Switzerland"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

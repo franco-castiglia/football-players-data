@@ -1,0 +1,66 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Luka_Sucic a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q67999144> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/d73a7h1634810486.png"^^xsd:anyURI ;
+    foaf:name "Luka Sučić"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 109 ;
+    stats:blocks 30 ;
+    stats:carries 666 ;
+    stats:clearances 16 ;
+    stats:dispossessed 16 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 2.6 ;
+    stats:expectedGoals 3.3 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 15 ;
+    stats:keyPasses 25 ;
+    stats:matches90s 19.9 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 21 ;
+    stats:minutesPlayed 1792 ;
+    stats:miscontrols 33 ;
+    stats:passesIntoPenaltyArea 13 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 30 ;
+    stats:progressivePasses 79 ;
+    stats:progressivePassesReceived 56 ;
+    stats:rank 2519 ;
+    stats:redCards 0 ;
+    stats:tackles 25 ;
+    stats:tacklesWon 18 ;
+    stats:touches 1094 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2002-09-08"^^xsd:date ;
+    schema:description """Luka Sučić (Croatian pronunciation: ; born 8 September 2002) is a Croatian professional footballer who plays as a midfielder for Austrian Bundesliga club Red Bull Salzburg and the Croatia national team.\r
+\r
+Career\r
+On 15 July 2020, Sučić signed a new contract with Red Bull Salzburg, until the summer of 2024.\r
+\r
+He made his Bundesliga debut for Salzburg on 13 September 2020 in a game against Wolfsberg. On 25 November 2020, he made his Champions League debut, replacing Dominik Szoboszlai in 71st minute and providing Rasmus Kristensen with a pre-assist for Mërgim Berisha's goal, as Salzburg lost 3–1 to Bayern Munich. On 10 February 2021, Sučić scored his debut Bundesliga goal in a 3–1 victory over Austria Wien, coming off the bench to replace Berisha.\r
+\r
+By the beginning of the 2021–22 season, Sučić already established himself in Salzburg's squad, most notably scoring an impressive goal against Barcelona in a friendly 2–1 victory on 4 August 2021. On 14 September, he scored his first Champions League goal in a 1–1 draw with Sevilla.\r
+\r
+International career\r
+Eligible for Austria, Bosnia and Herzegovina and Croatia, Sučić explicitly opted for Croatia, despite interest from Austrian Football Association. On 9 March 2021, he was named in Igor Bišćan's 23-man squad for the group stage of UEFA Under-21 Euro 2021; however, he was ruled out on 21 March due to an injury and replaced by Matej Vuk. On 17 May, he was named in Bišćan's 23-man squad for the knockout stage of the tournament; however, the same occurred and he was replaced by Neven Đurasek on 25 May. During UEFA Under-21 Euro 2023 qualifiers in September and October 2021, Sučić scored three goals and assisted once in three games, prompting Zlatko Dalić to call him up to the senior team on 9 October, two days ahead of a World Cup qualifier against Slovakia, due to Mateo Kovačić's suspension. He made his senior debut in the said qualifier, which ended as a 2–2 draw.\r
+\r
+Personal life\r
+Sučić was born in Linz to Bosnian Croat parents Željko and Branislava from Bugojno who fled from the Bosnian War. Despite being born in Linz, Sučić does not hold Austrian citizenship. He declared himself a fan of Barcelona and Hajduk Split; however, he named Luka Modrić his football idol."""@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/kdhx3f1634810422.jpg"^^xsd:anyURI ;
+    schema:memberOf "Real Sociedad"^^xsd:string ;
+    schema:name "Luka Sučić"^^xsd:string ;
+    schema:nationality "Croatia"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

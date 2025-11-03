@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Philipp_Hofmann a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q89371> ;
+    foaf:account "twitter.com/philipphof"^^xsd:anyURI,
+        "www.facebook.com/philipp.hofmann.7524"^^xsd:anyURI,
+        "www.instagram.com/phil.hof/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/7vys381674561854.png"^^xsd:anyURI ;
+    foaf:name "Philipp Hofmann"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 52 ;
+    stats:blocks 14 ;
+    stats:carries 486 ;
+    stats:clearances 33 ;
+    stats:dispossessed 32 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 3.3 ;
+    stats:expectedGoals 5.5 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 26 ;
+    stats:matches90s 25.3 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 27 ;
+    stats:minutesPlayed 2277 ;
+    stats:miscontrols 55 ;
+    stats:passesIntoPenaltyArea 9 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 8 ;
+    stats:progressivePasses 53 ;
+    stats:progressivePassesReceived 112 ;
+    stats:rank 1172 ;
+    stats:redCards 0 ;
+    stats:tackles 17 ;
+    stats:tacklesWon 12 ;
+    stats:touches 938 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1993-09-30"^^xsd:date ;
+    schema:description """Philipp Hofmann (born 30 March 1993) is a German professional footballer who plays for VfL Bochum as a forward.\r
+\r
+Hofmann is a product of the Schalke 04 academy and made his professional breakthrough away from the club on loan, before transferring to 1. FC Kaiserslautern in 2014. Following two years in England with Brentford between 2015 and 2017, he returned to Germany and forged a career in the 2. Bundesliga with Greuther Fürth, Eintracht Braunschweig and Karlsruher SC. An average of a goal every other game during three seasons with Karlsruher SC led to a transfer to the Bundesliga with VfL Bochum in 2022. Hofmann scored 18 goals in 36 caps for Germany between U18 and U21 level."""@en ;
+    schema:height "1.95 m (6 ft 5 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/74hb3w1674561843.jpg"^^xsd:anyURI ;
+    schema:memberOf "Bochum"^^xsd:string ;
+    schema:name "Philipp Hofmann"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "89 kg"^^xsd:string .
+

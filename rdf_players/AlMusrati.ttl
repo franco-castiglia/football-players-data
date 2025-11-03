@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:AlMusrati a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16727312> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/axwghv1759161508.png"^^xsd:anyURI ;
+    foaf:name "Al-Musrati"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 19 ;
+    stats:blocks 3 ;
+    stats:carries 195 ;
+    stats:clearances 9 ;
+    stats:dispossessed 2 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.4 ;
+    stats:expectedGoals 0.5 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 4.3 ;
+    stats:matchesPlayed 10 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 386 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 41 ;
+    stats:progressivePassesReceived 5 ;
+    stats:rank 1836 ;
+    stats:redCards 0 ;
+    stats:tackles 14 ;
+    stats:tacklesWon 11 ;
+    stats:touches 339 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1996-04-06"^^xsd:date ;
+    schema:description "Almoatasembellah Ali Mohamed Al-Musrati (Arabic: الْمُعْتَصِم بِالله عَلِيّ مُحَمَّد الْمِصْرَاتِيّ; born 6 April 1996), known simply as Al-Musrati, is a Libyan professional footballer who plays as a defensive midfielder for Ligue 1 club Monaco, on loan from Beşiktaş."@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/of4up51725046915.jpg"^^xsd:anyURI ;
+    schema:memberOf "Hellas Verona"^^xsd:string ;
+    schema:name "Al-Musrati"^^xsd:string ;
+    schema:nationality "Libya"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

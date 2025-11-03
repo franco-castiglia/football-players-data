@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Djylian_NGuessan a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q131638263> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/yczqu01748684871.png"^^xsd:anyURI ;
+    foaf:name "Djylian N'Guessan"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 4 ;
+    stats:blocks 1 ;
+    stats:carries 49 ;
+    stats:clearances 1 ;
+    stats:dispossessed 4 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 2.0 ;
+    stats:matchesPlayed 8 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 181 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 9 ;
+    stats:progressivePassesReceived 16 ;
+    stats:rank 1849 ;
+    stats:redCards 0 ;
+    stats:tackles 6 ;
+    stats:tacklesWon 4 ;
+    stats:touches 80 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2008-08-30"^^xsd:date ;
+    schema:description """Djylian N'Guessan (born 30 August 2008) is a French footballer who plays as a winger for Ligue 1 club AS Saint-Étienne.\r
+\r
+Club career\r
+A product of the AS Saint-Étienne academy, he played for their U17 side during the 2022–23 season at the age of 14. He signed his first professional contract with Saint-Etienne in November 2024. He made his professional debut at the age of 16, coming on as a substitute for Saint-Étienne in a 3–1 Ligue 1 win against Stade de Reims on 4 January 2025. Following a second substitute appearance the subsequent week against PSG, he made his first start for Saint-Étienne against FC Nantes on 19 January 2025.\r
+\r
+International career\r
+N'Guessan was born in France to an Ivorian father and French mother. He is a France youth international, having represented his country up to the under-17 level."""@en ;
+    schema:height "None"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ynk6281748684822.jpg"^^xsd:anyURI ;
+    schema:memberOf "St Etienne"^^xsd:string ;
+    schema:name "Djylian N'Guessan"^^xsd:string ;
+    schema:nationality "France"^^xsd:string .
+

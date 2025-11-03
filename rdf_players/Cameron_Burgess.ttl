@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Cameron_Burgess a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q17496350> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/maa37o1761234599.png"^^xsd:anyURI ;
+    foaf:name "Cameron Burgess"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 44 ;
+    stats:blocks 20 ;
+    stats:carries 430 ;
+    stats:clearances 128 ;
+    stats:dispossessed 0 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 14 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 17.1 ;
+    stats:matchesPlayed 18 ;
+    stats:matchesStarted 16 ;
+    stats:minutesPlayed 1541 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 42 ;
+    stats:progressivePassesReceived 4 ;
+    stats:rank 415 ;
+    stats:redCards 0 ;
+    stats:tackles 17 ;
+    stats:tacklesWon 12 ;
+    stats:touches 982 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1995-10-21"^^xsd:date ;
+    schema:description "Cameron Robert Burgess (born 21 October 1995) is an Australian professional footballer who plays as a central or left defender for Swansea City ."@en ;
+    schema:height "1.94 m (6 ft 4 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/xxnwwr1535728771.jpg"^^xsd:anyURI ;
+    schema:memberOf "Swansea City"^^xsd:string ;
+    schema:name "Cameron Burgess"^^xsd:string ;
+    schema:nationality "Australia"^^xsd:string ;
+    schema:weight "203 lbs"^^xsd:string .
+

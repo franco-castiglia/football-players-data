@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Arthur_Chaves a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q110943061> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/7dsgbe1741722228.png"^^xsd:anyURI ;
+    foaf:name "Arthur Chaves"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 93 ;
+    stats:blocks 47 ;
+    stats:carries 740 ;
+    stats:clearances 136 ;
+    stats:dispossessed 11 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.8 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 37 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 24.3 ;
+    stats:matchesPlayed 26 ;
+    stats:matchesStarted 24 ;
+    stats:minutesPlayed 2185 ;
+    stats:miscontrols 11 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 10 ;
+    stats:progressivePasses 57 ;
+    stats:progressivePassesReceived 13 ;
+    stats:rank 535 ;
+    stats:redCards 0 ;
+    stats:tackles 51 ;
+    stats:tacklesWon 36 ;
+    stats:touches 1513 ;
+    stats:yellowCards 8 ;
+    schema:birthDate "2001-01-29"^^xsd:date ;
+    schema:description "Arthur Largura Chaves (born 29 January 2001) is a Brazilian professional footballer who plays as a centre-back for German Bundesliga club TSG Hoffenheim."@en ;
+    schema:height "1.87 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/bo9n7f1741722219.jpg"^^xsd:anyURI ;
+    schema:memberOf "Hoffenheim"^^xsd:string ;
+    schema:name "Arthur Chaves"^^xsd:string ;
+    schema:nationality "Brazil"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

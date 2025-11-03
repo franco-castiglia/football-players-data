@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Alessandro_Bastoni a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q28561068> ;
+    foaf:account "www.facebook.com/AlessandroBastoniOfficial/"^^xsd:anyURI,
+        "www.instagram.com/alessandrobastonii/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/hwixpa1759408795.png"^^xsd:anyURI ;
+    foaf:name "Alessandro Bastoni"^^xsd:string ;
+    stats:assists 5 ;
+    stats:ballRecoveries 96 ;
+    stats:blocks 25 ;
+    stats:carries 1633 ;
+    stats:clearances 52 ;
+    stats:dispossessed 5 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 2.3 ;
+    stats:expectedGoals 0.8 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 21 ;
+    stats:keyPasses 27 ;
+    stats:matches90s 25.9 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 30 ;
+    stats:minutesPlayed 2333 ;
+    stats:miscontrols 26 ;
+    stats:passesIntoPenaltyArea 49 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 62 ;
+    stats:progressivePasses 162 ;
+    stats:progressivePassesReceived 83 ;
+    stats:rank 259 ;
+    stats:redCards 1 ;
+    stats:tackles 46 ;
+    stats:tacklesWon 23 ;
+    stats:touches 2446 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "1999-04-13"^^xsd:date ;
+    schema:description "Alessandro Bastoni (born 13 April 1999) is an Italian professional footballer who plays as a defender for Serie A club Inter Milan."@en ;
+    schema:height "1.91 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/kgodvf1602959273.jpg"^^xsd:anyURI ;
+    schema:memberOf "Inter Milan"^^xsd:string ;
+    schema:name "Alessandro Bastoni"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

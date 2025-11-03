@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Aurelien_Tchouameni a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q46951844> ;
+    foaf:account "twitter.com/atchouameni"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/4o417k1733653668.png"^^xsd:anyURI ;
+    foaf:name "Aurelien Tchouameni"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 143 ;
+    stats:blocks 34 ;
+    stats:carries 1440 ;
+    stats:clearances 92 ;
+    stats:dispossessed 8 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.6 ;
+    stats:expectedGoals 1.7 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 46 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 29.9 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 31 ;
+    stats:minutesPlayed 2689 ;
+    stats:miscontrols 23 ;
+    stats:passesIntoPenaltyArea 9 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:progressiveCarries 19 ;
+    stats:progressivePasses 154 ;
+    stats:progressivePassesReceived 13 ;
+    stats:rank 2563 ;
+    stats:redCards 0 ;
+    stats:tackles 47 ;
+    stats:tacklesWon 23 ;
+    stats:touches 2324 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "2000-01-27"^^xsd:date ;
+    schema:description "Aurélien Djani Tchouaméni (born 27 January 2000) is a French professional footballer who plays as a defensive midfielder for Ligue 1 club Monaco and the France national team. He will join La Liga club Real Madrid on 1 July 2022."@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/2zujql1658770395.jpg"^^xsd:anyURI ;
+    schema:memberOf "Real Madrid"^^xsd:string ;
+    schema:name "Aurelien Tchouameni"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "179 lbs"^^xsd:string .
+

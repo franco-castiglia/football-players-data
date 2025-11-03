@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Gabriele_Zappa a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q69994764> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/gcbd631697924029.png"^^xsd:anyURI ;
+    foaf:name "Gabriele Zappa"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 123 ;
+    stats:blocks 42 ;
+    stats:carries 1100 ;
+    stats:clearances 93 ;
+    stats:dispossessed 7 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 3.6 ;
+    stats:expectedGoals 0.9 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 23 ;
+    stats:keyPasses 28 ;
+    stats:matches90s 34.0 ;
+    stats:matchesPlayed 37 ;
+    stats:matchesStarted 35 ;
+    stats:minutesPlayed 3060 ;
+    stats:miscontrols 31 ;
+    stats:passesIntoPenaltyArea 24 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 57 ;
+    stats:progressivePasses 146 ;
+    stats:progressivePassesReceived 82 ;
+    stats:rank 2822 ;
+    stats:redCards 0 ;
+    stats:tackles 40 ;
+    stats:tacklesWon 23 ;
+    stats:touches 2017 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1999-12-22"^^xsd:date ;
+    schema:description "Gabriele Zappa (born 22 December 1999) is an Italian football player. He plays for Serie A club Cagliari, on loan from Pescara."@en ;
+    schema:height "5' 11\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/qwuyby1607352571.jpg"^^xsd:anyURI ;
+    schema:memberOf "Cagliari"^^xsd:string ;
+    schema:name "Gabriele Zappa"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Andy_Delort a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2070917> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/29pefc1681388337.png"^^xsd:anyURI ;
+    foaf:name "Andy Delort"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 9 ;
+    stats:blocks 3 ;
+    stats:carries 90 ;
+    stats:clearances 3 ;
+    stats:dispossessed 8 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 1.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 6.7 ;
+    stats:matchesPlayed 9 ;
+    stats:matchesStarted 8 ;
+    stats:minutesPlayed 607 ;
+    stats:miscontrols 16 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 4 ;
+    stats:progressivePasses 6 ;
+    stats:progressivePassesReceived 20 ;
+    stats:rank 695 ;
+    stats:redCards 0 ;
+    stats:tackles 4 ;
+    stats:tacklesWon 3 ;
+    stats:touches 171 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1991-10-09"^^xsd:date ;
+    schema:description """Andy Delort (Arabic: أندي ديلور; born 9 October 1991) is a professional footballer who plays as a striker for French Ligue 1 club Montpellier on loan from MC Alger, and Algeria national team.\r
+\r
+Born in France, Delort was a France under-20 youth international before representing Algeria at senior level. He has also played for the France beach soccer team."""@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/la5dno1608590657.jpg"^^xsd:anyURI ;
+    schema:memberOf "Montpellier"^^xsd:string ;
+    schema:name "Andy Delort"^^xsd:string ;
+    schema:nationality "Algeria"^^xsd:string ;
+    schema:weight "82 kg"^^xsd:string .
+

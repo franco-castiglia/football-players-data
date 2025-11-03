@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ruben_Dias a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q21621168> ;
+    foaf:account "www.facebook.com/RubenDias66/"^^xsd:anyURI,
+        "www.instagram.com/rubendias/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/u3p3671757097988.png"^^xsd:anyURI ;
+    foaf:name "Ruben Dias"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 78 ;
+    stats:blocks 23 ;
+    stats:carries 1775 ;
+    stats:clearances 71 ;
+    stats:dispossessed 1 ;
+    stats:errors 4 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 1.5 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 20 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 25.2 ;
+    stats:matchesPlayed 27 ;
+    stats:matchesStarted 25 ;
+    stats:minutesPlayed 2271 ;
+    stats:miscontrols 8 ;
+    stats:passesIntoPenaltyArea 12 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 43 ;
+    stats:progressivePasses 160 ;
+    stats:progressivePassesReceived 8 ;
+    stats:rank 717 ;
+    stats:redCards 0 ;
+    stats:tackles 17 ;
+    stats:tacklesWon 11 ;
+    stats:touches 2499 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1997-05-14"^^xsd:date ;
+    schema:description """Rúben dos Santos Gato Alves Dias (born 14 May 1997), known as Rúben Dias is a Portuguese professional footballer who plays for Manchester City and the Portugal national team as a defender.\r
+\r
+Born in Amadora, Dias came through Benfica's youth academy. He began playing for Benfica B in 2015 and was promoted to the first-team in 2017, and was named the Primeira Liga's Young Player of the Year. The following season, Dias' solid performances helped Benfica win the league title in the 2018–19 season and later the Supertaça Cândido de Oliveira during the 2019–20 season, while also being named in the Primeira Liga's Team of the Year.\r
+\r
+Dias is a former Portugal youth international, representing his country at under-16, under-17, under-18, under-19, under-20 and under-21 levels. He made his senior international debut in 2018, being chosen in Portugal's squads for the 2018 World Cup and 2019 UEFA Nations League Finals on home soil, winning the latter tournament, while also being named as the man of the match in the final."""@en ;
+    schema:height "1.86 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/9kws2w1684833492.jpg"^^xsd:anyURI ;
+    schema:memberOf "Manchester City"^^xsd:string ;
+    schema:name "Ruben Dias"^^xsd:string ;
+    schema:nationality "Portugal"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Anthony_Rouault a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q69949474> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/qwfpb01710253861.png"^^xsd:anyURI ;
+    foaf:name "Anthony Rouault"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 63 ;
+    stats:blocks 18 ;
+    stats:carries 573 ;
+    stats:clearances 63 ;
+    stats:dispossessed 4 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 0.5 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 19 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 13.5 ;
+    stats:matchesPlayed 18 ;
+    stats:matchesStarted 14 ;
+    stats:minutesPlayed 1212 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 6 ;
+    stats:progressivePasses 52 ;
+    stats:progressivePassesReceived 4 ;
+    stats:rank 2264 ;
+    stats:redCards 0 ;
+    stats:tackles 15 ;
+    stats:tacklesWon 11 ;
+    stats:touches 1014 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2001-05-29"^^xsd:date ;
+    schema:description "Anthony Rouault (born 29 May 2001) is a French professional footballer who plays as a centre-back for Ligue 1 club Rennes."@en ;
+    schema:height "1.86 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/x65o1u1659969256.jpg"^^xsd:anyURI ;
+    schema:memberOf "Rennes"^^xsd:string ;
+    schema:name "Anthony Rouault"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

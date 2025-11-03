@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Carlos_Forbs_Borges a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q114652561> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/69ins81725566509.png"^^xsd:anyURI ;
+    foaf:name "Carlos Forbs Borges"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 11 ;
+    stats:blocks 3 ;
+    stats:carries 75 ;
+    stats:clearances 2 ;
+    stats:dispossessed 4 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 2.7 ;
+    stats:matchesPlayed 10 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 239 ;
+    stats:miscontrols 7 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:progressiveCarries 10 ;
+    stats:progressivePasses 8 ;
+    stats:progressivePassesReceived 28 ;
+    stats:rank 921 ;
+    stats:redCards 0 ;
+    stats:tackles 8 ;
+    stats:tacklesWon 5 ;
+    stats:touches 121 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2004-03-19"^^xsd:date ;
+    schema:description """Carlos Roberto Forbs Borges (born 19 March 2004) is a Portuguese professional footballer who plays as a winger for Belgian club Club Brugge. \r
+Born in Portugal, Forbs is of Bissau-Guinean descent. He is a youth international for Portugal. By 2022, he became a regular starter with the Portuguese under-19s.\r
+\r
+On 8 September 2023, Forbs made his debut for Portugal's under-21s, coming on as a second-half substitute in a 3–0 home win over Andorra, in a qualifier for the 2025 UEFA European Under-21 Championship.\r
+\r
+Formerly known as Carlos Borges, the player has opted to play using his mother's surname as Carlos Forbs since he joined Ajax in August 2023."""@en ;
+    schema:height "169 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/x171s81696929807.jpg"^^xsd:anyURI ;
+    schema:memberOf "Club Brugge"^^xsd:string ;
+    schema:name "Carlos Forbs Borges"^^xsd:string ;
+    schema:nationality "Portugal"^^xsd:string .
+

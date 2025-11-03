@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Marnon_Busch a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q17593128> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/6925et1742057283.png"^^xsd:anyURI ;
+    foaf:name "Marnon Busch"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 62 ;
+    stats:blocks 23 ;
+    stats:carries 495 ;
+    stats:clearances 65 ;
+    stats:dispossessed 1 ;
+    stats:errors 5 ;
+    stats:expectedAssistedGoals 1.1 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 13 ;
+    stats:keyPasses 12 ;
+    stats:matches90s 15.5 ;
+    stats:matchesPlayed 23 ;
+    stats:matchesStarted 15 ;
+    stats:minutesPlayed 1396 ;
+    stats:miscontrols 13 ;
+    stats:passesIntoPenaltyArea 17 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 22 ;
+    stats:progressivePasses 63 ;
+    stats:progressivePassesReceived 43 ;
+    stats:rank 421 ;
+    stats:redCards 0 ;
+    stats:tackles 26 ;
+    stats:tacklesWon 17 ;
+    stats:touches 1030 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1994-12-08"^^xsd:date ;
+    schema:description "Marnon-Thomas Busch (born 8 December 1994) is a German footballer who plays as a right-back for 1. FC Heidenheim in the 2. Bundesliga."@en ;
+    schema:height "182 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/5edkk81512763104.jpg"^^xsd:anyURI ;
+    schema:memberOf "FC Heidenheim"^^xsd:string ;
+    schema:name "Marnon Busch"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

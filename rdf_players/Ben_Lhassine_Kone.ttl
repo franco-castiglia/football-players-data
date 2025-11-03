@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ben_Lhassine_Kone a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q59914746> ;
+    foaf:account "http://www.instagram.com/kone_ben_lhassine_10/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/f6xfw01631907097.png"^^xsd:anyURI ;
+    foaf:name "Ben Lhassine Kone"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 7 ;
+    stats:blocks 0 ;
+    stats:carries 25 ;
+    stats:clearances 1 ;
+    stats:dispossessed 5 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.6 ;
+    stats:matchesPlayed 4 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 51 ;
+    stats:miscontrols 5 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 3 ;
+    stats:progressivePassesReceived 1 ;
+    stats:rank 1489 ;
+    stats:redCards 0 ;
+    stats:tackles 2 ;
+    stats:tacklesWon 2 ;
+    stats:touches 35 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2000-03-14"^^xsd:date ;
+    schema:description """Ben Lhassine Kone (born 14 March 2000) is an Ivorian football player. He plays in Italy for Crotone on loan from  Torino.\r
+He started playing for Torino's Under-19 squad in the 2017–18 season.\r
+\r
+He also received occasional call-ups to the senior squad during the 2017–18 Serie A and 2018–19 Serie A seasons, but did not make any appearances."""@en ;
+    schema:height "1.72 m (5 ft 7 1⁄2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/jlcvvj1715848216.jpg"^^xsd:anyURI ;
+    schema:memberOf "Frosinone"^^xsd:string ;
+    schema:name "Ben Lhassine Kone"^^xsd:string ;
+    schema:nationality "Ivory Coast"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

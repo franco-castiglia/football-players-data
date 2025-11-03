@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Sergi_Altimira a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q113675439> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/46ros71701176381.png"^^xsd:anyURI ;
+    foaf:name "Sergi Altimira"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 117 ;
+    stats:blocks 28 ;
+    stats:carries 908 ;
+    stats:clearances 43 ;
+    stats:dispossessed 21 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 1.7 ;
+    stats:expectedGoals 1.7 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 24 ;
+    stats:keyPasses 22 ;
+    stats:matches90s 21.9 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 22 ;
+    stats:minutesPlayed 1972 ;
+    stats:miscontrols 27 ;
+    stats:passesIntoPenaltyArea 13 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:progressiveCarries 25 ;
+    stats:progressivePasses 99 ;
+    stats:progressivePassesReceived 30 ;
+    stats:rank 100 ;
+    stats:redCards 0 ;
+    stats:tackles 61 ;
+    stats:tacklesWon 37 ;
+    stats:touches 1521 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2001-08-25"^^xsd:date ;
+    schema:description "Sergi Altimira Clavell (born 25 August 2001) is a Spanish professional footballer who plays as a defensive midfielder for Real Betis."@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/u396sv1723794099.jpg"^^xsd:anyURI ;
+    schema:memberOf "Real Betis"^^xsd:string ;
+    schema:name "Sergi Altimira"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

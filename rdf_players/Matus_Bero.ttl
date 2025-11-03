@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Matus_Bero a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16212911> ;
+    foaf:account "www.instagram.com/matusbero21/?hl=en"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/i8ehj21705773981.png"^^xsd:anyURI ;
+    foaf:name "Matúš Bero"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 164 ;
+    stats:blocks 37 ;
+    stats:carries 736 ;
+    stats:clearances 35 ;
+    stats:dispossessed 23 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 3.7 ;
+    stats:expectedGoals 4.0 ;
+    stats:goals 5 ;
+    stats:goalsNonPenalty 5 ;
+    stats:interceptions 17 ;
+    stats:keyPasses 54 ;
+    stats:matches90s 28.5 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 29 ;
+    stats:minutesPlayed 2565 ;
+    stats:miscontrols 46 ;
+    stats:passesIntoPenaltyArea 35 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 29 ;
+    stats:progressivePasses 143 ;
+    stats:progressivePassesReceived 111 ;
+    stats:rank 323 ;
+    stats:redCards 0 ;
+    stats:tackles 65 ;
+    stats:tacklesWon 35 ;
+    stats:touches 1619 ;
+    stats:yellowCards 11 ;
+    schema:birthDate "1995-09-06"^^xsd:date ;
+    schema:description "Matúš Bero (born 6 September 1995) is a Slovak professional footballer who plays as a midfielder for German Bundesliga club VfL Bochum and the Slovakia national team."@en ;
+    schema:height "1.81 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/o1ig311548162540.jpg"^^xsd:anyURI ;
+    schema:memberOf "Bochum"^^xsd:string ;
+    schema:name "Matúš Bero"^^xsd:string ;
+    schema:nationality "Slovakia"^^xsd:string ;
+    schema:weight "179 lbs"^^xsd:string .
+

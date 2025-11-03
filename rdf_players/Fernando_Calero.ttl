@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Fernando_Calero a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q38681499> ;
+    foaf:account "www.instagram.com/fcalero5/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/z3mgqz1678736646.png"^^xsd:anyURI ;
+    foaf:name "Fernando Calero"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 26 ;
+    stats:blocks 16 ;
+    stats:carries 236 ;
+    stats:clearances 50 ;
+    stats:dispossessed 0 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 16 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 7.9 ;
+    stats:matchesPlayed 21 ;
+    stats:matchesStarted 6 ;
+    stats:minutesPlayed 715 ;
+    stats:miscontrols 6 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 17 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 442 ;
+    stats:redCards 0 ;
+    stats:tackles 18 ;
+    stats:tacklesWon 10 ;
+    stats:touches 498 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1995-09-14"^^xsd:date ;
+    schema:description "Fernando Calero Villa (born 14 September 1995) is a Spanish professional footballer who plays for RCD Espanyol as a central defender."@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/a3b9aj1626379584.jpg"^^xsd:anyURI ;
+    schema:memberOf "Espanyol"^^xsd:string ;
+    schema:name "Fernando Calero"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "157 lbs"^^xsd:string .
+

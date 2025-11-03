@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jonathan_Burkardt a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q56635612> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/nod01s1759567628.png"^^xsd:anyURI ;
+    foaf:name "Jonathan Burkardt"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 73 ;
+    stats:blocks 11 ;
+    stats:carries 447 ;
+    stats:clearances 14 ;
+    stats:dispossessed 33 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 3.1 ;
+    stats:expectedGoals 14.8 ;
+    stats:goals 18 ;
+    stats:goalsNonPenalty 16 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 20 ;
+    stats:matches90s 23.4 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 28 ;
+    stats:minutesPlayed 2109 ;
+    stats:miscontrols 76 ;
+    stats:passesIntoPenaltyArea 16 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 32 ;
+    stats:progressivePasses 42 ;
+    stats:progressivePassesReceived 157 ;
+    stats:rank 416 ;
+    stats:redCards 0 ;
+    stats:tackles 15 ;
+    stats:tacklesWon 8 ;
+    stats:touches 788 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2000-07-11"^^xsd:date ;
+    schema:description "Jonathan Michael \"Jonny\" Burkardt (born 11 July 2000) is a German footballer who plays as a forward for Bundesliga club Eintracht Frankfurt and the Germany national team."@en ;
+    schema:height "1.81 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://www.thesportsdb.com/images/media/player/thumb/6lgcz41759567686.jpg"^^xsd:anyURI ;
+    schema:memberOf "Eintracht Frankfurt"^^xsd:string ;
+    schema:name "Jonathan Burkardt"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "79 kg (174 lb)"^^xsd:string .
+

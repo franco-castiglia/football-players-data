@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Matteo_Darmian a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q44788> ;
+    foaf:account "twitter.com/DarmianOfficial"^^xsd:anyURI,
+        "www.facebook.com/Matteo.Darmian/?fref=ts"^^xsd:anyURI,
+        "www.instagram.com/matteodarmian36"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/d26b701759408834.png"^^xsd:anyURI ;
+    foaf:name "Matteo Darmian"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 39 ;
+    stats:blocks 14 ;
+    stats:carries 593 ;
+    stats:clearances 39 ;
+    stats:dispossessed 6 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.5 ;
+    stats:expectedGoals 1.9 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 10 ;
+    stats:keyPasses 15 ;
+    stats:matches90s 19.8 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 20 ;
+    stats:minutesPlayed 1781 ;
+    stats:miscontrols 15 ;
+    stats:passesIntoPenaltyArea 15 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 14 ;
+    stats:progressivePasses 45 ;
+    stats:progressivePassesReceived 102 ;
+    stats:rank 668 ;
+    stats:redCards 0 ;
+    stats:tackles 28 ;
+    stats:tacklesWon 17 ;
+    stats:touches 1144 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1989-12-02"^^xsd:date ;
+    schema:description """Matteo Darmian (born 2 December 1989) is an Italian professional footballer who plays as a full-back for Italian club Inter on loan from Parma and the Italy national team.\r
+\r
+He began his career at Milan, making his senior debut in 2006 at the age of 16 and Serie A debut in 2007 at the age of 17. In 2009, he joined Padova on loan, whom he helped avoid relegation from Serie B in his only season there. He then signed for Palermo in 2010, and one year later joined Torino, where he played for four seasons. He moved to Manchester United in July 2015, and in four years there, won the FA Cup and UEFA Europa League, before joining Parma in 2019.\r
+\r
+Darmian made his senior debut for the Italy national team in May 2014, and represented his nation at the 2014 FIFA World Cup and UEFA Euro 2016."""@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/gd95gs1510319685.jpg"^^xsd:anyURI ;
+    schema:memberOf "Inter Milan"^^xsd:string ;
+    schema:name "Matteo Darmian"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Christos_Mandas a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q47088449> ;
+    foaf:account "www.instagram.com/mandaschristos/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/89dyk11698231459.png"^^xsd:anyURI ;
+    foaf:name "Christos Mandas"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 18 ;
+    stats:blocks 0 ;
+    stats:carries 237 ;
+    stats:clearances 4 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 9.0 ;
+    stats:matchesPlayed 9 ;
+    stats:matchesStarted 9 ;
+    stats:minutesPlayed 810 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 3 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1600 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 351 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2001-09-17"^^xsd:date ;
+    schema:description """Christos Mandas (Greek: Χρήστος Μανδάς; born 17 September 2001) is a Greek professional footballer who plays as a goalkeeper for Serie A club Lazio.\r
+\r
+On 28 November 2017, Mandas made his professional debut in Greek Cup against Sparta. On 30 September 2019, he signed a contract extension until the summer of 2022, with a buy-out clause of €2,000,000."""@en ;
+    schema:height "6' 2\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/q1ik991698227933.jpg"^^xsd:anyURI ;
+    schema:memberOf "Lazio"^^xsd:string ;
+    schema:name "Christos Mandas"^^xsd:string ;
+    schema:nationality "Greece"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

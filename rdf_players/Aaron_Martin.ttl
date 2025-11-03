@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Aaron_Martin a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q27107030> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/89003715.png"^^xsd:anyURI ;
+    foaf:name "Aaron Martin"^^xsd:string ;
+    stats:assists 8 ;
+    stats:ballRecoveries 146 ;
+    stats:blocks 33 ;
+    stats:carries 878 ;
+    stats:clearances 73 ;
+    stats:dispossessed 17 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 5.5 ;
+    stats:expectedGoals 0.9 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 19 ;
+    stats:keyPasses 65 ;
+    stats:matches90s 34.3 ;
+    stats:matchesPlayed 36 ;
+    stats:matchesStarted 35 ;
+    stats:minutesPlayed 3085 ;
+    stats:miscontrols 22 ;
+    stats:passesIntoPenaltyArea 30 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 50 ;
+    stats:progressivePasses 90 ;
+    stats:progressivePassesReceived 108 ;
+    stats:rank 1637 ;
+    stats:redCards 0 ;
+    stats:tackles 71 ;
+    stats:tacklesWon 47 ;
+    stats:touches 1951 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1989-09-29"^^xsd:date ;
+    schema:description """Aaron Martin (born 29 September 1989) is an English professional footballer who plays as a centre-back for National League club Eastleigh.\r
+Martin began his career with Conference South (sixth-tier) club Eastleigh before turning professional with Southampton, then playing in League One, in 2009."""@en ;
+    schema:height "191 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/hqjvuu1541453141.jpg"^^xsd:anyURI ;
+    schema:memberOf "_Retired Soccer"^^xsd:string ;
+    schema:name "Aaron Martin"^^xsd:string ;
+    schema:nationality "England"^^xsd:string .
+

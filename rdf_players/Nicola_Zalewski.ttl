@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Nicola_Zalewski a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q64031898> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/x8u0ae1750613412.png"^^xsd:anyURI ;
+    foaf:name "Nicola Zalewski"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 23 ;
+    stats:blocks 7 ;
+    stats:carries 193 ;
+    stats:clearances 8 ;
+    stats:dispossessed 4 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.8 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 10 ;
+    stats:matches90s 5.9 ;
+    stats:matchesPlayed 12 ;
+    stats:matchesStarted 4 ;
+    stats:minutesPlayed 533 ;
+    stats:miscontrols 8 ;
+    stats:passesIntoPenaltyArea 14 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Midfield"^^xsd:string ;
+    stats:progressiveCarries 31 ;
+    stats:progressivePasses 17 ;
+    stats:progressivePassesReceived 54 ;
+    stats:rank 2814 ;
+    stats:redCards 0 ;
+    stats:tackles 8 ;
+    stats:tacklesWon 6 ;
+    stats:touches 325 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2002-01-23"^^xsd:date ;
+    schema:description "Nicola Zalewski (born 23 January 2002) is a Polish professional footballer who plays as a full-back or wing-back for Serie A club Inter Milan, on loan from Roma. Born and raised in Italy to Polish parents, he opted to play for the Poland national team at international level."@en ;
+    schema:height "1.75 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/63x2kb1679567541.jpg"^^xsd:anyURI ;
+    schema:memberOf "Atalanta"^^xsd:string ;
+    schema:name "Nicola Zalewski"^^xsd:string ;
+    schema:nationality "Poland"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

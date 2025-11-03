@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Alberto_Grassi a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18637410> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/3k2w8p1758887126.png"^^xsd:anyURI ;
+    foaf:name "Alberto Grassi"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 124 ;
+    stats:blocks 22 ;
+    stats:carries 441 ;
+    stats:clearances 43 ;
+    stats:dispossessed 18 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.8 ;
+    stats:expectedGoals 1.0 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 33 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 24.5 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 27 ;
+    stats:minutesPlayed 2203 ;
+    stats:miscontrols 26 ;
+    stats:passesIntoPenaltyArea 7 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 18 ;
+    stats:progressivePasses 74 ;
+    stats:progressivePassesReceived 24 ;
+    stats:rank 1056 ;
+    stats:redCards 0 ;
+    stats:tackles 39 ;
+    stats:tacklesWon 21 ;
+    stats:touches 1058 ;
+    stats:yellowCards 8 ;
+    schema:birthDate "1995-03-07"^^xsd:date ;
+    schema:description "Alberto Grassi (born 7 March 1995) is an Italian professional footballer who plays for Serie A club Cremonese as a midfielder."@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/oagcyb1546596687.jpg"^^xsd:anyURI ;
+    schema:memberOf "Cremonese"^^xsd:string ;
+    schema:name "Alberto Grassi"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

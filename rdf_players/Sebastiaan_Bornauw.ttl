@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Sebastiaan_Bornauw a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q55806994> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/nc1v5l1757079444.png"^^xsd:anyURI ;
+    foaf:name "Sebastiaan Bornauw"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 28 ;
+    stats:blocks 14 ;
+    stats:carries 206 ;
+    stats:clearances 36 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 1.2 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 12 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 8.8 ;
+    stats:matchesPlayed 15 ;
+    stats:matchesStarted 8 ;
+    stats:minutesPlayed 788 ;
+    stats:miscontrols 2 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 3 ;
+    stats:progressivePasses 21 ;
+    stats:progressivePassesReceived 1 ;
+    stats:rank 364 ;
+    stats:redCards 0 ;
+    stats:tackles 9 ;
+    stats:tacklesWon 6 ;
+    stats:touches 428 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1999-03-22"^^xsd:date ;
+    schema:description "Sebastiaan Bornauw (born 22 March 1999) is a Belgian professional footballer who plays as a centre-back for Premier League club Leeds United."@en ;
+    schema:height "1.91 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/v0ja1k1578225086.jpg"^^xsd:anyURI ;
+    schema:memberOf "Leeds United"^^xsd:string ;
+    schema:name "Sebastiaan Bornauw"^^xsd:string ;
+    schema:nationality "Belgium"^^xsd:string ;
+    schema:weight "179 lbs"^^xsd:string .
+

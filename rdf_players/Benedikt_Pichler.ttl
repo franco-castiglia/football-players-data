@@ -1,0 +1,64 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Benedikt_Pichler a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q55802721> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/1yjzts1741707425.png"^^xsd:anyURI ;
+    foaf:name "Benedikt Pichler"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 15 ;
+    stats:blocks 4 ;
+    stats:carries 152 ;
+    stats:clearances 11 ;
+    stats:dispossessed 12 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.1 ;
+    stats:expectedGoals 2.3 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 12 ;
+    stats:matches90s 8.7 ;
+    stats:matchesPlayed 18 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 785 ;
+    stats:miscontrols 23 ;
+    stats:passesIntoPenaltyArea 7 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 18 ;
+    stats:progressivePasses 19 ;
+    stats:progressivePassesReceived 58 ;
+    stats:rank 2117 ;
+    stats:redCards 0 ;
+    stats:tackles 5 ;
+    stats:tacklesWon 2 ;
+    stats:touches 310 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1997-07-20"^^xsd:date ;
+    schema:description """Benedikt Pichler (born 20 July 1997) is an Austrian professional footballer who plays as a forward for 2. Bundesliga club Holstein Kiel.\r
+\r
+Career\r
+Pichler was born in Salzburg, Austria, and began his youth career with local club USK Gneiss. In 2010, he joined the academy of the USK Anif. Ahead of the 2014–15 season, he moved to the amateurs of Grödig, making his debut in the Salzburger Liga in August 2014, when he was substituted for Marinko Sorda in the 58th minute on the first matchday of that season against his former side USK Anif. In the same month, he scored his first goal in the fourth division in a 4–2 victory against the Salzburger AK 1914.\r
+\r
+In July 2016, he made his debut for Grödig's first team in the Austrian Regionalliga when he came off the bench at half-time for Julian Feiser on the first matchday of the 2016–17 season against FC Kufstein. Pichler scored his first goal in the Regionalliga in September 2016 in a 2–0 win against TSV St. Johann im Pongau.\r
+\r
+For the 2018–19 season, he moved to the 2. Liga club Austria Klagenfurt. He made his competitive debut in July 2018, when he was in the starting eleven on the first matchday of the season against Austria Lustenau.\r
+\r
+For the 2019–20 season, he moved to the Austrian Bundesliga club Austria Wien, where he signed a four-year contract. In two years with the Viennese, he made 43 Bundesliga appearances, in which he scored eleven goals.\r
+\r
+Pichler moved to 2. Bundesliga club Holstein Kiel from in August 2021, having agreed a four-year contract."""@en ;
+    schema:height "1.84 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/sbr7gz1741707415.jpg"^^xsd:anyURI ;
+    schema:memberOf "Holstein Kiel"^^xsd:string ;
+    schema:name "Benedikt Pichler"^^xsd:string ;
+    schema:nationality "Austria"^^xsd:string ;
+    schema:weight "192 lbs"^^xsd:string .
+

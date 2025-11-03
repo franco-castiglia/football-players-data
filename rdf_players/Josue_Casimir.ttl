@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Josue_Casimir a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q100792937> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/sfo3551702292640.png"^^xsd:anyURI ;
+    foaf:name "Josué Casimir"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 83 ;
+    stats:blocks 19 ;
+    stats:carries 465 ;
+    stats:clearances 35 ;
+    stats:dispossessed 30 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 3.4 ;
+    stats:expectedGoals 3.3 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 7 ;
+    stats:keyPasses 26 ;
+    stats:matches90s 22.2 ;
+    stats:matchesPlayed 27 ;
+    stats:matchesStarted 23 ;
+    stats:minutesPlayed 1997 ;
+    stats:miscontrols 47 ;
+    stats:passesIntoPenaltyArea 13 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 3 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 71 ;
+    stats:progressivePasses 41 ;
+    stats:progressivePassesReceived 151 ;
+    stats:rank 504 ;
+    stats:redCards 0 ;
+    stats:tackles 37 ;
+    stats:tacklesWon 26 ;
+    stats:touches 814 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "2001-09-24"^^xsd:date ;
+    schema:description "Josué Casimir (born 24 September 2001) is a Guadeloupean professional footballer who plays as a right-back, right wing-back or striker for French Ligue 1 club Le Havre."@en ;
+    schema:height "178 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/49klkm1702292605.jpg"^^xsd:anyURI ;
+    schema:memberOf "Le Havre"^^xsd:string ;
+    schema:name "Josué Casimir"^^xsd:string ;
+    schema:nationality "Guadeloupe"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mats_Pannewig a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q130249392> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/hi8iqd1741881095.png"^^xsd:anyURI ;
+    foaf:name "Mats Pannewig"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 24 ;
+    stats:blocks 8 ;
+    stats:carries 97 ;
+    stats:clearances 8 ;
+    stats:dispossessed 8 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.8 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 3.0 ;
+    stats:matchesPlayed 14 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 267 ;
+    stats:miscontrols 11 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 3 ;
+    stats:progressivePasses 10 ;
+    stats:progressivePassesReceived 16 ;
+    stats:rank 2036 ;
+    stats:redCards 0 ;
+    stats:tackles 10 ;
+    stats:tacklesWon 6 ;
+    stats:touches 182 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2004-10-28"^^xsd:date ;
+    schema:description "Mats Henry Pannewig (born 28 October 2004) is a German professional footballer who plays as a midfielder for VfL Bochum."@en ;
+    schema:height "195 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/iryugt1741451020.jpg"^^xsd:anyURI ;
+    schema:memberOf "Bochum"^^xsd:string ;
+    schema:name "Mats Pannewig"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "203 lbs"^^xsd:string .
+

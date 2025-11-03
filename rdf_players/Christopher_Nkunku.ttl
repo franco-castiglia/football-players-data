@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Christopher_Nkunku a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q21693199> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/0zhdh61758893135.png"^^xsd:anyURI ;
+    foaf:name "Christopher Nkunku"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 29 ;
+    stats:blocks 9 ;
+    stats:carries 280 ;
+    stats:clearances 10 ;
+    stats:dispossessed 17 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.1 ;
+    stats:expectedGoals 4.8 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 7 ;
+    stats:keyPasses 14 ;
+    stats:matches90s 10.2 ;
+    stats:matchesPlayed 27 ;
+    stats:matchesStarted 9 ;
+    stats:minutesPlayed 921 ;
+    stats:miscontrols 18 ;
+    stats:passesIntoPenaltyArea 7 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 17 ;
+    stats:progressivePasses 25 ;
+    stats:progressivePassesReceived 68 ;
+    stats:rank 1910 ;
+    stats:redCards 0 ;
+    stats:tackles 12 ;
+    stats:tacklesWon 8 ;
+    stats:touches 448 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1997-11-14"^^xsd:date ;
+    schema:description """Christopher Alan Nkunku (born 14 November 1997) is a French professional footballer who plays as a forward or attacking midfielder for Serie A club AC Milan and the France national team.\r
+\r
+Nkunku is a graduate of the Paris Saint-Germain Academy and made his professional debut for the club in December 2015. He made 78 appearances for them and won three Ligue 1 titles, the Coupe de France twice and the Coupe de la Ligue twice. Nkunku joined German side RB Leipzig in July 2019, with whom he scored 70 goals in 172 appearances over four seasons and won the DFB-Pokal twice. He was named the Bundesliga Player of the Season in the 2021–22 campaign and was the league's top scorer the following season. Nkunku was signed by Chelsea in 2023 for £52 million.\r
+\r
+Nkunku represented France at multiple youth international levels, before making his debut for the senior national team in March 2022."""@en ;
+    schema:height "1.75 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ytq6zu1687263442.jpg"^^xsd:anyURI ;
+    schema:memberOf "AC Milan"^^xsd:string ;
+    schema:name "Christopher Nkunku"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "68 kg (150 lb)"^^xsd:string .
+

@@ -1,0 +1,66 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Oscar_Trejo a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q167348> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/1l8a2o1679059440.png"^^xsd:anyURI ;
+    foaf:name "Oscar Trejo"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 25 ;
+    stats:blocks 9 ;
+    stats:carries 227 ;
+    stats:clearances 5 ;
+    stats:dispossessed 26 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.0 ;
+    stats:expectedGoals 0.6 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 9 ;
+    stats:matches90s 5.5 ;
+    stats:matchesPlayed 19 ;
+    stats:matchesStarted 6 ;
+    stats:minutesPlayed 496 ;
+    stats:miscontrols 25 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 15 ;
+    stats:progressivePasses 37 ;
+    stats:progressivePassesReceived 28 ;
+    stats:rank 2630 ;
+    stats:redCards 0 ;
+    stats:tackles 8 ;
+    stats:tacklesWon 5 ;
+    stats:touches 409 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1988-04-26"^^xsd:date ;
+    schema:description """Óscar Guido Trejo (born 26 April 1988) is an Argentine professional footballer who plays for Spanish club Rayo Vallecano as a forward.\r
+\r
+Club career\r
+Trejo was born in Santiago del Estero. A product of Boca Juniors' youth system he only played once for its first team but, in the game against Club Almagro, he scored in a 2–3 away loss after a mere minutes on the pitch – the match was suspended after 63 minutes.\r
+\r
+In late December 2006, Trejo was bought by RCD Mallorca in Spain, still having not signed his first professional contract. Boca sustained otherwise and the case was taken to FIFA, which ultimately decided for the Balearic Islands club. He made his first appearance in La Liga on 8 April 2007, against Getafe CF: having come on as a 90th-minute substitute, he managed to find the net for a final 2–0 home victory.\r
+\r
+Sparingly used in the following seasons, Trejo managed to score in the 2007–08 edition of the Copa del Rey in a 2–1 home win over Real Madrid (3–1 aggregate). After an unassuming 2008–09, he was loaned for the following campaign to second division side Elche CF.\r
+\r
+On 15 August 2010 a similar move ensued, with Trejo joining Rayo Vallecano in the same level. He returned to the top flight in the 2011–12 season, scoring four goals in 33 contests for Sporting de Gijón but suffering team relegation.\r
+\r
+In the summer of 2012, Premier League's West Ham United made an attempt to buy Trejo, but the deal fell apart. One year later he eventually left Spain, going on to spend several years in the French Ligue 1 with Toulouse FC after agreeing to a four-year contract.\r
+\r
+On 21 June 2017, six years after leaving, Trejo returned to Rayo as director of football David Cobeño's first signing."""@en ;
+    schema:height "1.77 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/xwemxm1551709536.jpg"^^xsd:anyURI ;
+    schema:memberOf "Vallecano"^^xsd:string ;
+    schema:name "Oscar Trejo"^^xsd:string ;
+    schema:nationality "Argentina"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

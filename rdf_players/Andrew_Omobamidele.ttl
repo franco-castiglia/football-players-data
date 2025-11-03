@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Andrew_Omobamidele a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q104849454> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/b6xrxr1693757186.png"^^xsd:anyURI ;
+    foaf:name "Andrew Omobamidele"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 25 ;
+    stats:blocks 12 ;
+    stats:carries 258 ;
+    stats:clearances 41 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 6.0 ;
+    stats:matchesPlayed 10 ;
+    stats:matchesStarted 6 ;
+    stats:minutesPlayed 539 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 9 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1970 ;
+    stats:redCards 1 ;
+    stats:tackles 7 ;
+    stats:tacklesWon 4 ;
+    stats:touches 468 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "2002-06-23"^^xsd:date ;
+    schema:description "Andrew Abiola Omobamidele (born 23 June 2002) is an Irish professional footballer who plays as a defender for Ligue 1 club Strasbourg, on loan from Nottingham Forest, and the Republic of Ireland national team."@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/5i13wy1631443066.jpg"^^xsd:anyURI ;
+    schema:memberOf "Strasbourg"^^xsd:string ;
+    schema:name "Andrew Omobamidele"^^xsd:string ;
+    schema:nationality "Ireland"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

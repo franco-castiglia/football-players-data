@@ -1,0 +1,49 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mohamed_Meite a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q131305194> ;
+    foaf:name "Mohamed Meïté"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 5 ;
+    stats:blocks 1 ;
+    stats:carries 100 ;
+    stats:clearances 5 ;
+    stats:dispossessed 17 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.6 ;
+    stats:expectedGoals 2.5 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 6.0 ;
+    stats:matchesPlayed 12 ;
+    stats:matchesStarted 5 ;
+    stats:minutesPlayed 544 ;
+    stats:miscontrols 21 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacker"^^xsd:string ;
+    stats:progressiveCarries 8 ;
+    stats:progressivePasses 6 ;
+    stats:progressivePassesReceived 37 ;
+    stats:rank 1713 ;
+    stats:redCards 0 ;
+    stats:tackles 2 ;
+    stats:tacklesWon 0 ;
+    stats:touches 155 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2007-10-11"^^xsd:date ;
+    schema:height "191 cm"^^xsd:string ;
+    schema:memberOf "Rennes"^^xsd:string ;
+    schema:name "Mohamed Meïté"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "76 kg"^^xsd:string .
+

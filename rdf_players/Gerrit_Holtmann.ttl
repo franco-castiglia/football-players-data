@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Gerrit_Holtmann a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q19842644> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/pazqxp1674562172.png"^^xsd:anyURI ;
+    foaf:name "Gerrit Holtmann"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 49 ;
+    stats:blocks 18 ;
+    stats:carries 336 ;
+    stats:clearances 15 ;
+    stats:dispossessed 10 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.9 ;
+    stats:expectedGoals 2.0 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 16 ;
+    stats:keyPasses 20 ;
+    stats:matches90s 12.6 ;
+    stats:matchesPlayed 23 ;
+    stats:matchesStarted 12 ;
+    stats:minutesPlayed 1136 ;
+    stats:miscontrols 33 ;
+    stats:passesIntoPenaltyArea 25 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 50 ;
+    stats:progressivePasses 33 ;
+    stats:progressivePassesReceived 97 ;
+    stats:rank 1178 ;
+    stats:redCards 0 ;
+    stats:tackles 24 ;
+    stats:tacklesWon 19 ;
+    stats:touches 571 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1995-03-25"^^xsd:date ;
+    schema:description "Gerrit Stephan Barba Holtmann (born 25 March 1995) is a professional footballer who plays as a winger for Bundesliga club VfL Bochum. Born in Germany, he plays for the Philippines national team."@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/w7wuxw1578228769.jpg"^^xsd:anyURI ;
+    schema:memberOf "Bochum"^^xsd:string ;
+    schema:name "Gerrit Holtmann"^^xsd:string ;
+    schema:nationality "Philippines"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

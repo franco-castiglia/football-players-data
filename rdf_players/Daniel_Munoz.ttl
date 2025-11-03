@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Daniel_Munoz a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q56703599> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/qoxqre1761492462.png"^^xsd:anyURI ;
+    foaf:name "Daniel Muñoz"^^xsd:string ;
+    stats:assists 5 ;
+    stats:ballRecoveries 171 ;
+    stats:blocks 40 ;
+    stats:carries 806 ;
+    stats:clearances 108 ;
+    stats:dispossessed 20 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 5.5 ;
+    stats:expectedGoals 4.9 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 44 ;
+    stats:keyPasses 46 ;
+    stats:matches90s 35.9 ;
+    stats:matchesPlayed 37 ;
+    stats:matchesStarted 37 ;
+    stats:minutesPlayed 3228 ;
+    stats:miscontrols 55 ;
+    stats:passesIntoPenaltyArea 35 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 62 ;
+    stats:progressivePasses 97 ;
+    stats:progressivePassesReceived 206 ;
+    stats:rank 1824 ;
+    stats:redCards 0 ;
+    stats:tackles 123 ;
+    stats:tacklesWon 80 ;
+    stats:touches 2010 ;
+    stats:yellowCards 10 ;
+    schema:birthDate "1996-05-25"^^xsd:date ;
+    schema:description "Daniel Muñoz Mejía (born 26 May 1996) is a Colombian professional footballer who plays as a right-back or right wing-back for Premier League club Crystal Palace and the Colombia national team."@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/uj6kg51623859002.jpg"^^xsd:anyURI ;
+    schema:memberOf "Crystal Palace"^^xsd:string ;
+    schema:name "Daniel Muñoz"^^xsd:string ;
+    schema:nationality "Colombia"^^xsd:string ;
+    schema:weight "70 kg"^^xsd:string .
+

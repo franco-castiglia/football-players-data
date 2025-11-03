@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Lloyd_Kelly a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q35851317> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/asto6f1759224942.png"^^xsd:anyURI ;
+    foaf:name "Lloyd Kelly"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 55 ;
+    stats:blocks 11 ;
+    stats:carries 433 ;
+    stats:clearances 56 ;
+    stats:dispossessed 3 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 11.3 ;
+    stats:matchesPlayed 12 ;
+    stats:matchesStarted 11 ;
+    stats:minutesPlayed 1013 ;
+    stats:miscontrols 9 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 10 ;
+    stats:progressivePasses 36 ;
+    stats:progressivePassesReceived 26 ;
+    stats:rank 1342 ;
+    stats:redCards 0 ;
+    stats:tackles 15 ;
+    stats:tacklesWon 11 ;
+    stats:touches 797 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1998-10-01"^^xsd:date ;
+    schema:description "Lloyd Casius Kelly (born 6 October 1998) is an English professional footballer who plays as a defender for Serie A club Juventus. Mainly a centre-back, he can also play as a left-back."@en ;
+    schema:height "6 ft 3 in (1.90 m)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/0sgofp1506430178.jpg"^^xsd:anyURI ;
+    schema:memberOf "Juventus"^^xsd:string ;
+    schema:name "Lloyd Kelly"^^xsd:string ;
+    schema:nationality "England"^^xsd:string .
+

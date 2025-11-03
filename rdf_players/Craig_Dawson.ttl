@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Craig_Dawson a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1705657> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/rl897q1694255933.png"^^xsd:anyURI ;
+    foaf:name "Craig Dawson"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 35 ;
+    stats:blocks 16 ;
+    stats:carries 390 ;
+    stats:clearances 52 ;
+    stats:dispossessed 0 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.5 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 9 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 10.8 ;
+    stats:matchesPlayed 15 ;
+    stats:matchesStarted 10 ;
+    stats:minutesPlayed 971 ;
+    stats:miscontrols 2 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 6 ;
+    stats:progressivePasses 20 ;
+    stats:progressivePassesReceived 5 ;
+    stats:rank 678 ;
+    stats:redCards 0 ;
+    stats:tackles 15 ;
+    stats:tacklesWon 3 ;
+    stats:touches 671 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1990-05-06"^^xsd:date ;
+    schema:description """Craig Dawson (born 6 May 1990) is an English professional footballer who plays as a defender.\r
+ He has previously played for Radcliffe Borough, Bolton Wanderers, Rochdale and West Bromwich Albion.\r
+\r
+Dawson scored two goals on his England under-21 debut against Azerbaijan on 1 September 2011. He played 15 matches for England U21s, scoring six goals.  On 2 July 2012, Dawson was selected by Stuart Pearce for the 2012 Great Britain Olympic football team."""@en ;
+    schema:height "6 ft 2 in (1.88 m)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/1efiw61545244470.jpg"^^xsd:anyURI ;
+    schema:memberOf "_Free Agent Soccer"^^xsd:string ;
+    schema:name "Craig Dawson"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "181 lbs"^^xsd:string .
+

@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Lutsharel_Geertruida a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q42328360> ;
+    foaf:account "twitter.com/l8egeertruida"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/bp271c1731102753.png"^^xsd:anyURI ;
+    foaf:name "Lutsharel Geertruida"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 83 ;
+    stats:blocks 15 ;
+    stats:carries 642 ;
+    stats:clearances 59 ;
+    stats:dispossessed 4 ;
+    stats:errors 4 ;
+    stats:expectedAssistedGoals 1.0 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 16 ;
+    stats:keyPasses 10 ;
+    stats:matches90s 17.3 ;
+    stats:matchesPlayed 24 ;
+    stats:matchesStarted 17 ;
+    stats:minutesPlayed 1557 ;
+    stats:miscontrols 14 ;
+    stats:passesIntoPenaltyArea 17 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 21 ;
+    stats:progressivePasses 93 ;
+    stats:progressivePassesReceived 34 ;
+    stats:rank 989 ;
+    stats:redCards 0 ;
+    stats:tackles 35 ;
+    stats:tacklesWon 24 ;
+    stats:touches 1266 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2000-07-18"^^xsd:date ;
+    schema:description "Lutsharel Emiliano Geertruida is a Dutch professional footballer who plays for Premier League club Sunderland, on loan from Bundesliga club RB Leipzig, and the Netherlands national team."@en ;
+    schema:height "184 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/9vg70h1679242686.jpg"^^xsd:anyURI ;
+    schema:memberOf "Sunderland"^^xsd:string ;
+    schema:name "Lutsharel Geertruida"^^xsd:string ;
+    schema:nationality "The Netherlands"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

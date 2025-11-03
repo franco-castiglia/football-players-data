@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Joshua_King a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q436237> ;
+    foaf:account "twitter.com/joshuakingjr"^^xsd:anyURI,
+        "www.instagram.com/iamjoshuaking/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/z5z0jv1631436354.png"^^xsd:anyURI ;
+    foaf:name "Joshua King"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 60 ;
+    stats:blocks 10 ;
+    stats:carries 307 ;
+    stats:clearances 19 ;
+    stats:dispossessed 33 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.0 ;
+    stats:expectedGoals 6.6 ;
+    stats:goals 6 ;
+    stats:goalsNonPenalty 6 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 17 ;
+    stats:matches90s 18.6 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 21 ;
+    stats:minutesPlayed 1673 ;
+    stats:miscontrols 47 ;
+    stats:passesIntoPenaltyArea 10 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Winger"^^xsd:string ;
+    stats:progressiveCarries 39 ;
+    stats:progressivePasses 29 ;
+    stats:progressivePassesReceived 108 ;
+    stats:rank 1360 ;
+    stats:redCards 0 ;
+    stats:tackles 11 ;
+    stats:tacklesWon 11 ;
+    stats:touches 574 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1992-01-15"^^xsd:date ;
+    schema:description """Joshua Christian Kojo King (born 15 January 1992) is a Norwegian professional footballer who plays as a forward or left winger for Ligue 1 club Toulouse and the Norway national team.\r
+\r
+King was signed by Manchester United from Vålerenga in 2008. After loan spells with Preston North End, Borussia Mönchengladbach, Hull City and Blackburn Rovers, he signed permanently with Blackburn in January 2013, before switching to AFC Bournemouth in May 2015. In February 2021, in a deadline day deal, he returned to the top flight with a move to Everton.\r
+\r
+After representing Norway at under-15, under-16, under-18, under-19 and under-21 levels, King made his senior international debut against Iceland in 2012, and scored his first international goal against Cyprus later that year."""@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/duy6851510839945.jpg"^^xsd:anyURI ;
+    schema:memberOf "Toulouse"^^xsd:string ;
+    schema:name "Joshua King"^^xsd:string ;
+    schema:nationality "Norway"^^xsd:string ;
+    schema:weight "74 kg (163 lb)"^^xsd:string .
+

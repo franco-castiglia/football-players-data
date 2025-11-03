@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Przemysaw_Frankowski a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q15043990> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/g57xid1702306326.png"^^xsd:anyURI ;
+    foaf:name "Przemysław Frankowski"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 61 ;
+    stats:blocks 10 ;
+    stats:carries 637 ;
+    stats:clearances 28 ;
+    stats:dispossessed 8 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.5 ;
+    stats:expectedGoals 2.3 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 19 ;
+    stats:keyPasses 20 ;
+    stats:matches90s 15.4 ;
+    stats:matchesPlayed 18 ;
+    stats:matchesStarted 16 ;
+    stats:minutesPlayed 1387 ;
+    stats:miscontrols 16 ;
+    stats:passesIntoPenaltyArea 36 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right Midfield"^^xsd:string ;
+    stats:progressiveCarries 33 ;
+    stats:progressivePasses 117 ;
+    stats:progressivePassesReceived 95 ;
+    stats:rank 931 ;
+    stats:redCards 0 ;
+    stats:tackles 32 ;
+    stats:tacklesWon 21 ;
+    stats:touches 1230 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1995-04-12"^^xsd:date ;
+    schema:description "Przemysław Adam Frankowski (born 12 April 1995) is a Polish professional footballer who plays as a winger for Ligue 1 club Lens and the Poland national team."@en ;
+    schema:height "1.75 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/61f7eo1702563828.jpg"^^xsd:anyURI ;
+    schema:memberOf "Lens"^^xsd:string ;
+    schema:name "Przemysław Frankowski"^^xsd:string ;
+    schema:nationality "Poland"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

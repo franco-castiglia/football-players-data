@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Florian_Lejeune a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2070240> ;
+    foaf:account "twitter.com/lejeune_florian"^^xsd:anyURI,
+        "www.facebook.com/florianlejeune20/"^^xsd:anyURI,
+        "www.instagram.com/florianlejeune20/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/b62n491679054733.png"^^xsd:anyURI ;
+    foaf:name "Florian Lejeune"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 156 ;
+    stats:blocks 38 ;
+    stats:carries 1469 ;
+    stats:clearances 181 ;
+    stats:dispossessed 4 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.9 ;
+    stats:expectedGoals 3.6 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 41 ;
+    stats:keyPasses 14 ;
+    stats:matches90s 36.9 ;
+    stats:matchesPlayed 37 ;
+    stats:matchesStarted 37 ;
+    stats:minutesPlayed 3325 ;
+    stats:miscontrols 17 ;
+    stats:passesIntoPenaltyArea 7 ;
+    stats:penaltiesConceded 3 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 21 ;
+    stats:progressivePasses 143 ;
+    stats:progressivePassesReceived 5 ;
+    stats:rank 1469 ;
+    stats:redCards 0 ;
+    stats:tackles 46 ;
+    stats:tacklesWon 28 ;
+    stats:touches 2486 ;
+    stats:yellowCards 8 ;
+    schema:birthDate "1991-05-20"^^xsd:date ;
+    schema:description "Florian Grégoire Claude Lejeune (born 20 May 1991) is a French professional footballer who plays as a defender for La Liga club Rayo Vallecano on loan from Segunda División club Deportivo Alavés. He is capable of playing as either a defender or a midfielder, but plays mostly as a centre-back."@en ;
+    schema:height "1.90 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/uzt3y61509806630.jpg"^^xsd:anyURI ;
+    schema:memberOf "Vallecano"^^xsd:string ;
+    schema:name "Florian Lejeune"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "194 lbs"^^xsd:string .
+

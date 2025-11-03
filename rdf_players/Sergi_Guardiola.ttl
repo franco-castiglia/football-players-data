@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Sergi_Guardiola a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q20949568> ;
+    foaf:account "www.instagram.com/sergiguardiola16/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/yo8zqx1678567649.png"^^xsd:anyURI ;
+    foaf:name "Sergi Guardiola"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 7 ;
+    stats:blocks 1 ;
+    stats:carries 81 ;
+    stats:clearances 2 ;
+    stats:dispossessed 5 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 2.4 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 4.0 ;
+    stats:matchesPlayed 16 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 362 ;
+    stats:miscontrols 11 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 3 ;
+    stats:progressivePassesReceived 22 ;
+    stats:rank 1075 ;
+    stats:redCards 0 ;
+    stats:tackles 5 ;
+    stats:tacklesWon 3 ;
+    stats:touches 130 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1991-05-29"^^xsd:date ;
+    schema:description "Sergio \"Sergi\" Guardiola Navarro (born 29 May 1991) is a Spanish professional footballer who plays as a forward for Rayo Vallecano."@en ;
+    schema:height "1.80 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/f265591603376883.jpg"^^xsd:anyURI ;
+    schema:memberOf "Vallecano"^^xsd:string ;
+    schema:name "Sergi Guardiola"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

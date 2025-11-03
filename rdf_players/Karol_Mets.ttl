@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Karol_Mets a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q12366513> ;
+    foaf:account "www.instagram.com/karolmets/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/lkn6891741635236.png"^^xsd:anyURI ;
+    foaf:name "Karol Mets"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 35 ;
+    stats:blocks 9 ;
+    stats:carries 343 ;
+    stats:clearances 60 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 12 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 10.0 ;
+    stats:matchesPlayed 10 ;
+    stats:matchesStarted 10 ;
+    stats:minutesPlayed 900 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 5 ;
+    stats:progressivePasses 54 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 1732 ;
+    stats:redCards 0 ;
+    stats:tackles 13 ;
+    stats:tacklesWon 8 ;
+    stats:touches 736 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1993-05-16"^^xsd:date ;
+    schema:description "Karol Mets (born 16 May 1993) is an Estonian professional footballer who plays as a centre back or defensive midfielder for Swiss club Zürich and the Estonia national team."@en ;
+    schema:height "1.91 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/8nuavj1725731618.jpg"^^xsd:anyURI ;
+    schema:memberOf "St Pauli"^^xsd:string ;
+    schema:name "Karol Mets"^^xsd:string ;
+    schema:nationality "Estonia"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

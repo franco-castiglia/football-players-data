@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Raheem_Sterling a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q312157> ;
+    foaf:account "instagram.com/31sterling"^^xsd:anyURI,
+        "twitter.com/sterling31"^^xsd:anyURI,
+        "www.facebook.com/sterling31official"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/8u9zbt1725293414.png"^^xsd:anyURI ;
+    foaf:name "Raheem Sterling"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 16 ;
+    stats:blocks 3 ;
+    stats:carries 201 ;
+    stats:clearances 4 ;
+    stats:dispossessed 14 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 1.4 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 8 ;
+    stats:matches90s 5.5 ;
+    stats:matchesPlayed 17 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 499 ;
+    stats:miscontrols 13 ;
+    stats:passesIntoPenaltyArea 9 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 27 ;
+    stats:progressivePasses 18 ;
+    stats:progressivePassesReceived 79 ;
+    stats:rank 2503 ;
+    stats:redCards 0 ;
+    stats:tackles 9 ;
+    stats:tacklesWon 4 ;
+    stats:touches 274 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1994-12-08"^^xsd:date ;
+    schema:description """Raheem Shaquille Sterling (born 8 December 1994) is a professional footballer who plays as a winger for Premier League club Chelsea.\r
+\r
+Born in Jamaica to Jamaican parents, Sterling moved to London at the age of five. He began his career at Queens Park Rangers before signing for Liverpool in 2010. He was awarded the Golden Boy award in 2014. In July 2015, following a lengthy dispute over a new contract, he was signed by Manchester City in a transfer potentially worth £49 million, the highest transfer fee ever paid for an English player at the time. He went on to help Manchester City win back-to-back Premier League titles in the 2017–18 and 2018–19 seasons. In the 2018–19 season, he was named to the PFA Premier League Team of the Year and won the PFA Young Player of the Year and FWA Footballer of the Year.\r
+\r
+Sterling made his senior debut for England in November 2012 after previously being capped by England youth teams at under-16, under-17, under-19 and under-21 levels. He was chosen in England's squads for the FIFA World Cup in 2014 and 2018, and the UEFA European Championship in 2016 and 2020."""@en ;
+    schema:height "5 ft 7 in (1.70 m)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/moo8w21725295589.jpg"^^xsd:anyURI ;
+    schema:memberOf "Chelsea"^^xsd:string ;
+    schema:name "Raheem Sterling"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

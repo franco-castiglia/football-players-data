@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mario_Pasalic a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q14625183> ;
+    foaf:account "www.facebook.com/MarioPasalic"^^xsd:anyURI,
+        "www.instagram.com/pasalicmario"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/akmxr91695157400.png"^^xsd:anyURI ;
+    foaf:name "Mario Pasalic"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 112 ;
+    stats:blocks 22 ;
+    stats:carries 1048 ;
+    stats:clearances 28 ;
+    stats:dispossessed 22 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 3.3 ;
+    stats:expectedGoals 6.6 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 12 ;
+    stats:keyPasses 32 ;
+    stats:matches90s 21.9 ;
+    stats:matchesPlayed 34 ;
+    stats:matchesStarted 23 ;
+    stats:minutesPlayed 1967 ;
+    stats:miscontrols 24 ;
+    stats:passesIntoPenaltyArea 24 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 44 ;
+    stats:progressivePasses 149 ;
+    stats:progressivePassesReceived 68 ;
+    stats:rank 2045 ;
+    stats:redCards 0 ;
+    stats:tackles 26 ;
+    stats:tacklesWon 16 ;
+    stats:touches 1580 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1995-02-09"^^xsd:date ;
+    schema:description """Mario Pašalić (born 9 February 1995) is a Croatian professional footballer who plays as a central midfielder for Serie A side Atalanta and the Croatia national team.\r
+\r
+He began his career at Hajduk Split before moving to Chelsea for a reported £3 million in 2014. Chelsea loaned him to Elche, Monaco, Milan, Spartak Moscow and then Atalanta.\r
+\r
+Pašalić made his senior international debut for Croatia in 2014."""@en ;
+    schema:height "1.86 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/u3di9z1546032437.jpg"^^xsd:anyURI ;
+    schema:memberOf "Atalanta"^^xsd:string ;
+    schema:name "Mario Pasalic"^^xsd:string ;
+    schema:nationality "Croatia"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

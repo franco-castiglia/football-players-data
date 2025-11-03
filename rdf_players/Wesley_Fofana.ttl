@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Wesley_Fofana a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3043618> ;
+    foaf:account "mobile.twitter.com/wesley_fofanaa"^^xsd:anyURI,
+        "www.instagram.com/lawestt_/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/i1589n1757003182.png"^^xsd:anyURI ;
+    foaf:name "Wesley Fofana"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 54 ;
+    stats:blocks 14 ;
+    stats:carries 557 ;
+    stats:clearances 55 ;
+    stats:dispossessed 5 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.4 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 14 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 13.0 ;
+    stats:matchesPlayed 14 ;
+    stats:matchesStarted 14 ;
+    stats:minutesPlayed 1172 ;
+    stats:miscontrols 16 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 19 ;
+    stats:progressivePasses 32 ;
+    stats:progressivePassesReceived 4 ;
+    stats:rank 914 ;
+    stats:redCards 0 ;
+    stats:tackles 13 ;
+    stats:tacklesWon 12 ;
+    stats:touches 933 ;
+    stats:yellowCards 7 ;
+    schema:birthDate "2000-12-17"^^xsd:date ;
+    schema:description "Wesley Fofana (born 17 December 2000) is a French professional footballer who plays as a defender for Premier League club Chelsea."@en ;
+    schema:height "1.90 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/914mzh1603656675.jpg"^^xsd:anyURI ;
+    schema:memberOf "Chelsea"^^xsd:string ;
+    schema:name "Wesley Fofana"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

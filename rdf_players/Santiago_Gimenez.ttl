@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Santiago_Gimenez a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q33296979> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/j63fz01758892529.png"^^xsd:anyURI ;
+    foaf:name "Santiago Giménez"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 14 ;
+    stats:blocks 3 ;
+    stats:carries 101 ;
+    stats:clearances 13 ;
+    stats:dispossessed 2 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 4.8 ;
+    stats:goals 5 ;
+    stats:goalsNonPenalty 5 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 7.4 ;
+    stats:matchesPlayed 14 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 669 ;
+    stats:miscontrols 22 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 13 ;
+    stats:progressivePasses 6 ;
+    stats:progressivePassesReceived 38 ;
+    stats:rank 1008 ;
+    stats:redCards 1 ;
+    stats:tackles 5 ;
+    stats:tacklesWon 3 ;
+    stats:touches 189 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2001-04-18"^^xsd:date ;
+    schema:description """Santiago Tomás Giménez (born 18 April 2001) is a professional footballer who plays as a forward for Serie A club AC Milan. Born in Argentina, he plays for the Mexico national team.\r
+\r
+Giménez started his career with Mexican club Cruz Azul for four seasons, before a transfer to Feyenoord in July 2022. His time in the Netherlands saw him win the Eredivisie, the KNVB Cup and Johan Cruyff Shield. He joined AC Milan in 2025 for €37 million.\r
+\r
+Giménez made his full international debut for Mexico in 2021; he represented the country at 2023 CONCACAF Gold Cup, scoring the winning goal in the final. In the CONCACAF Nations League, he finished as runners-up in 2024."""@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/xs0tpx1679242761.jpg"^^xsd:anyURI ;
+    schema:memberOf "AC Milan"^^xsd:string ;
+    schema:name "Santiago Giménez"^^xsd:string ;
+    schema:nationality "Mexico"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

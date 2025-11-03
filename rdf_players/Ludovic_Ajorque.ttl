@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ludovic_Ajorque a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q27671219> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/zv1jpk1678360789.png"^^xsd:anyURI ;
+    foaf:name "Ludovic Ajorque"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 62 ;
+    stats:blocks 20 ;
+    stats:carries 410 ;
+    stats:clearances 26 ;
+    stats:dispossessed 11 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 3.1 ;
+    stats:expectedGoals 10.4 ;
+    stats:goals 13 ;
+    stats:goalsNonPenalty 13 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 35 ;
+    stats:matches90s 27.7 ;
+    stats:matchesPlayed 31 ;
+    stats:matchesStarted 29 ;
+    stats:minutesPlayed 2495 ;
+    stats:miscontrols 60 ;
+    stats:passesIntoPenaltyArea 11 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 2 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 10 ;
+    stats:progressivePasses 41 ;
+    stats:progressivePassesReceived 124 ;
+    stats:rank 61 ;
+    stats:redCards 0 ;
+    stats:tackles 26 ;
+    stats:tacklesWon 19 ;
+    stats:touches 914 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1994-02-25"^^xsd:date ;
+    schema:description """Ludovic Ajorque (born 25 February 1994) is a French professional footballer who plays as a striker for Ligue 1 club Brest, on loan from Bundesliga club Mainz 05.\r
+\r
+Developed at Angers, where he made only one Coupe de la Ligue appearance, he played for two years with Clermont in Ligue 2 before a €1.5 million move to Ligue 1 team Strasbourg in 2018. He played 149 times for Strasbourg, scoring 50 goals and winning the Coupe de la Ligue in 2019."""@en ;
+    schema:height "1.97 m (6 ft 6 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/p42zci1607871058.jpg"^^xsd:anyURI ;
+    schema:memberOf "Brest"^^xsd:string ;
+    schema:name "Ludovic Ajorque"^^xsd:string ;
+    schema:nationality "Reunion"^^xsd:string ;
+    schema:weight "203 lbs"^^xsd:string .
+

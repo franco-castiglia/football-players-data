@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jorge_de_Frutos a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q65159565> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ksu6tn1701095925.png"^^xsd:anyURI ;
+    foaf:name "Jorge de Frutos"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 111 ;
+    stats:blocks 22 ;
+    stats:carries 605 ;
+    stats:clearances 24 ;
+    stats:dispossessed 38 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 3.4 ;
+    stats:expectedGoals 6.3 ;
+    stats:goals 6 ;
+    stats:goalsNonPenalty 6 ;
+    stats:interceptions 19 ;
+    stats:keyPasses 31 ;
+    stats:matches90s 27.7 ;
+    stats:matchesPlayed 36 ;
+    stats:matchesStarted 30 ;
+    stats:minutesPlayed 2495 ;
+    stats:miscontrols 81 ;
+    stats:passesIntoPenaltyArea 28 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:progressiveCarries 77 ;
+    stats:progressivePasses 44 ;
+    stats:progressivePassesReceived 201 ;
+    stats:rank 942 ;
+    stats:redCards 1 ;
+    stats:tackles 37 ;
+    stats:tacklesWon 21 ;
+    stats:touches 1010 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1997-02-20"^^xsd:date ;
+    schema:description "Jorge de Frutos Sebastián (born 20 February 1997) is a Spanish professional footballer who plays as a right winger for La Liga club Rayo Vallecano."@en ;
+    schema:height "1.73 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/eiifj01609280032.jpg"^^xsd:anyURI ;
+    schema:memberOf "Vallecano"^^xsd:string ;
+    schema:name "Jorge de Frutos"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

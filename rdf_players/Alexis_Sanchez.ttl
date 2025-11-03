@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Alexis_Sanchez a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q180553> ;
+    foaf:account "twitter.com/Alexis_Sanchez"^^xsd:anyURI,
+        "www.instagram.com/alexis_officia1"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/038s4u1734804208.png"^^xsd:anyURI ;
+    foaf:name "Alexis Sánchez"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 17 ;
+    stats:blocks 5 ;
+    stats:carries 121 ;
+    stats:clearances 1 ;
+    stats:dispossessed 8 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.8 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 4.9 ;
+    stats:matchesPlayed 13 ;
+    stats:matchesStarted 6 ;
+    stats:minutesPlayed 437 ;
+    stats:miscontrols 17 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 19 ;
+    stats:progressivePassesReceived 19 ;
+    stats:rank 2326 ;
+    stats:redCards 0 ;
+    stats:tackles 3 ;
+    stats:tacklesWon 1 ;
+    stats:touches 211 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1988-12-19"^^xsd:date ;
+    schema:description """Alexis Alejandro Sánchez Sánchez (Spanish pronunciation: ; born 19 December 1988), also known mononymously as Alexis, is a Chilean professional footballer who plays as a forward for Serie A club Udinese and the Chile national team. He is often regarded as the greatest Chilean player of all time alongside Elías Figueroa.\r
+\r
+Dubbed "El Niño Maravilla" (The Wonder Child), Sánchez began his senior club career playing for Cobreloa, aged 15, and signed with Udinese in 2006, aged 18; he won consecutive league titles while on loan to Colo-Colo and River Plate. Sánchez was the subject of a record association football transfer when he signed for Barcelona in 2011 in a transfer worth €37.5 million, becoming the most expensive Chilean player of all time. There, Sánchez won six trophies, including a La Liga title and a Copa del Rey. He then joined Arsenal in 2014 in a transfer worth £31.7 million (€35 million), and won two FA Cups, the 2015 PFA Fans' Player of the Year, and was voted into the 2015 PFA Team of the Year. In 2018, he moved to league rivals Manchester United in a swap deal; he signed for Inter Milan a year later, and won a Serie A title and a Coppa Italia. In August 2022, he signed for Ligue 1 club Marseille. Having played only one season for the French side, Sánchez returned to Inter Milan in the summer of 2023.\r
+\r
+Sánchez made his senior international debut for Chile in 2006 at age 18, and has since earned 166 caps, appearing in eight major tournaments and becoming both his country's most capped player and all-time top goalscorer. He led Chile to their first victory in a major tournament by winning the 2015 Copa América, scoring the winning penalty in the final; he captained the team to a repeat of this triumph at the Copa América Centenario (2016), winning the Golden Ball for Best Player."""@en ;
+    schema:height "169 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/m05tjc1718343405.jpg"^^xsd:anyURI ;
+    schema:memberOf "Udinese"^^xsd:string ;
+    schema:name "Alexis Sánchez"^^xsd:string ;
+    schema:nationality "Chile"^^xsd:string ;
+    schema:weight "137 lbs"^^xsd:string .
+

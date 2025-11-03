@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ferland_Mendy a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q23884186> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/3kzpr31733653604.png"^^xsd:anyURI ;
+    foaf:name "Ferland Mendy"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 36 ;
+    stats:blocks 11 ;
+    stats:carries 447 ;
+    stats:clearances 8 ;
+    stats:dispossessed 9 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 9 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 11.2 ;
+    stats:matchesPlayed 14 ;
+    stats:matchesStarted 12 ;
+    stats:minutesPlayed 1005 ;
+    stats:miscontrols 10 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 12 ;
+    stats:progressivePasses 36 ;
+    stats:progressivePassesReceived 40 ;
+    stats:rank 1721 ;
+    stats:redCards 1 ;
+    stats:tackles 17 ;
+    stats:tacklesWon 14 ;
+    stats:touches 739 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1995-06-08"^^xsd:date ;
+    schema:description "Ferland Mendy (born 8 June 1995) is a French professional footballer who plays as a left back for Spanish club Real Madrid and the French national team."@en ;
+    schema:height "1.78 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/gsl5qm1562768947.jpg"^^xsd:anyURI ;
+    schema:memberOf "Real Madrid"^^xsd:string ;
+    schema:name "Ferland Mendy"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

@@ -1,0 +1,64 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Santi_Comesana a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q26743343> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/s7hmmw1701165309.png"^^xsd:anyURI ;
+    foaf:name "Santi Comesaña"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 160 ;
+    stats:blocks 56 ;
+    stats:carries 903 ;
+    stats:clearances 56 ;
+    stats:dispossessed 44 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 2.0 ;
+    stats:expectedGoals 4.6 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 19 ;
+    stats:keyPasses 27 ;
+    stats:matches90s 28.4 ;
+    stats:matchesPlayed 35 ;
+    stats:matchesStarted 30 ;
+    stats:minutesPlayed 2560 ;
+    stats:miscontrols 35 ;
+    stats:passesIntoPenaltyArea 30 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 39 ;
+    stats:progressivePasses 154 ;
+    stats:progressivePassesReceived 58 ;
+    stats:rank 588 ;
+    stats:redCards 0 ;
+    stats:tackles 85 ;
+    stats:tacklesWon 49 ;
+    stats:touches 1734 ;
+    stats:yellowCards 7 ;
+    schema:birthDate "1996-10-05"^^xsd:date ;
+    schema:description """Santiago "Santi" Comesaña Veiga (born 5 October 1996) is a Spanish professional footballer who plays for Rayo Vallecano as a central midfielder.\r
+\r
+Club career\r
+Born in Vigo, Galicia, Comesaña was an ED Val Miñor youth graduate. On 9 July 2015, he signed for Segunda División B side Coruxo FC, after impressing on a trial basis.\r
+\r
+On 22 August 2015, Comesaña made his senior debut, starting and scoring his team's second in a 3–2 away win against Atlético Astorga FC. On 6 December, he scored a hat-trick in a 5–1 home routing of SD Compostela.\r
+\r
+On 16 July 2016, after scoring eight goals in 37 matches during the campaign, Comesaña signed a four-year contract with Rayo Vallecano, freshly relegated to Segunda División. He made his professional debut on 28 August, coming on as a second-half substitute for Adri Embarba in a 0–0 home draw against Real Valladolid.\r
+\r
+Comesaña scored his first professional goal on 1 April 2017, netting the first in a 3–1 away win against Girona FC. He contributed with two goals in 33 appearances during the 2017–18 campaign, as his side achieved promotion to La Liga as champions.\r
+\r
+Comesaña made his debut in the main category of Spanish football on 25 August 2018, starting in a 1–0 away loss against Atlético Madrid."""@en ;
+    schema:height "1.84 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/0v92i81630064480.jpg"^^xsd:anyURI ;
+    schema:memberOf "Villarreal"^^xsd:string ;
+    schema:name "Santi Comesaña"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

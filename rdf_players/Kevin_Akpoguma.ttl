@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Kevin_Akpoguma a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q982975> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/fe9er61578088911.png"^^xsd:anyURI ;
+    foaf:name "Kevin Akpoguma"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 107 ;
+    stats:blocks 65 ;
+    stats:carries 892 ;
+    stats:clearances 115 ;
+    stats:dispossessed 9 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 29 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 24.7 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 23 ;
+    stats:minutesPlayed 2220 ;
+    stats:miscontrols 11 ;
+    stats:passesIntoPenaltyArea 10 ;
+    stats:penaltiesConceded 4 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 14 ;
+    stats:progressivePasses 98 ;
+    stats:progressivePassesReceived 16 ;
+    stats:rank 72 ;
+    stats:redCards 0 ;
+    stats:tackles 54 ;
+    stats:tacklesWon 27 ;
+    stats:touches 1692 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1995-04-19"^^xsd:date ;
+    schema:description "Kevin John Ufuoma Akpoguma (born 19 April 1995) is a German footballer who plays as a centre back for 1899 Hoffenheim. Internationally, he has represented Germany at various youth levels."@en ;
+    schema:height "1.92 m (6 ft 3 1⁄2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/6t2pep1578088910.jpg"^^xsd:anyURI ;
+    schema:memberOf "Hoffenheim"^^xsd:string ;
+    schema:name "Kevin Akpoguma"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "185 lbs"^^xsd:string .
+

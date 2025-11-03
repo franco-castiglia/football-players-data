@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ernest_Nuamah a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q111584129> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/d9rsvh1702910186.png"^^xsd:anyURI ;
+    foaf:name "Ernest Nuamah"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 60 ;
+    stats:blocks 9 ;
+    stats:carries 388 ;
+    stats:clearances 8 ;
+    stats:dispossessed 22 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.5 ;
+    stats:expectedGoals 2.2 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 18 ;
+    stats:matches90s 11.7 ;
+    stats:matchesPlayed 23 ;
+    stats:matchesStarted 13 ;
+    stats:minutesPlayed 1052 ;
+    stats:miscontrols 31 ;
+    stats:passesIntoPenaltyArea 17 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:progressiveCarries 44 ;
+    stats:progressivePasses 33 ;
+    stats:progressivePassesReceived 131 ;
+    stats:rank 1920 ;
+    stats:redCards 0 ;
+    stats:tackles 21 ;
+    stats:tacklesWon 11 ;
+    stats:touches 597 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2003-11-01"^^xsd:date ;
+    schema:description """Ernest Appiah Nuamah (born 1 November 2003) is a Ghanaian professional footballer who plays as a winger for Ligue 1 club Lyon, on loan from RWD Molenbeek, and the Ghana national team.\r
+\r
+Nuamah started his career with Right to Dream Academy before joining FC Nordsjælland in January 2022. He made his debut on 10 April 2022 when he came on in the 67th minute for Magnus Andersen to score an 84th minute goal in a 2–2 draw to Aarhus GF. He was adjudged as the team's man of the match at the end of the match."""@en ;
+    schema:height "178 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/cxbkxe1702207597.jpg"^^xsd:anyURI ;
+    schema:memberOf "Lyon"^^xsd:string ;
+    schema:name "Ernest Nuamah"^^xsd:string ;
+    schema:nationality "Ghana"^^xsd:string ;
+    schema:weight "157 lbs"^^xsd:string .
+

@@ -1,0 +1,51 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jhoanner_Chavez a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q106638287> ;
+    foaf:name "Jhoanner Chávez"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 25 ;
+    stats:blocks 10 ;
+    stats:carries 179 ;
+    stats:clearances 13 ;
+    stats:dispossessed 8 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.7 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 9 ;
+    stats:matches90s 6.6 ;
+    stats:matchesPlayed 10 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 596 ;
+    stats:miscontrols 11 ;
+    stats:passesIntoPenaltyArea 8 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 14 ;
+    stats:progressivePasses 9 ;
+    stats:progressivePassesReceived 36 ;
+    stats:rank 536 ;
+    stats:redCards 0 ;
+    stats:tackles 9 ;
+    stats:tacklesWon 5 ;
+    stats:touches 373 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2002-04-25"^^xsd:date ;
+    schema:description "Jhoanner Stalin Chávez Quintero (born 25 April 2002) is an Ecuadorian footballer who plays as left back for French club RC Lens and the Ecuador national team."@en ;
+    schema:height "182 cm"^^xsd:string ;
+    schema:memberOf "Lens"^^xsd:string ;
+    schema:name "Jhoanner Chávez"^^xsd:string ;
+    schema:nationality "Ecuador"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

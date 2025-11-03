@@ -1,0 +1,52 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Albert_Grnbk a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q98479427> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/pnhhc71758989216.png"^^xsd:anyURI ;
+    foaf:name "Albert Grønbæk"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 24 ;
+    stats:blocks 9 ;
+    stats:carries 218 ;
+    stats:clearances 6 ;
+    stats:dispossessed 15 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.0 ;
+    stats:expectedGoals 1.5 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 19 ;
+    stats:matches90s 9.0 ;
+    stats:matchesPlayed 16 ;
+    stats:matchesStarted 9 ;
+    stats:minutesPlayed 813 ;
+    stats:miscontrols 33 ;
+    stats:passesIntoPenaltyArea 13 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 23 ;
+    stats:progressivePasses 30 ;
+    stats:progressivePassesReceived 58 ;
+    stats:rank 1073 ;
+    stats:redCards 0 ;
+    stats:tackles 21 ;
+    stats:tacklesWon 11 ;
+    stats:touches 386 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2001-05-23"^^xsd:date ;
+    schema:description "Albert Grønbæk Erlykke (born 23 May 2001) is a Danish professional footballer who plays as a midfielder for Genoa, on loan from Ligue 1 club Rennes, and the Denmark national team. A versatile player, he can be deployed as a central midfielder, attacking midfielder or left winger."@en ;
+    schema:height "1.76 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/3taszz1654089828.jpg"^^xsd:anyURI ;
+    schema:memberOf "Genoa"^^xsd:string ;
+    schema:name "Albert Grønbæk"^^xsd:string ;
+    schema:nationality "Denmark"^^xsd:string .
+

@@ -1,0 +1,69 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Emiliano_Martinez a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3275904> ;
+    foaf:account "twitter.com/emimartinezz1"^^xsd:anyURI,
+        "www.facebook.com/emimartinez26/"^^xsd:anyURI,
+        "www.instagram.com/emi_martinez26/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ffr5xx1756984715.png"^^xsd:anyURI ;
+    foaf:name "Emiliano Martinez"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 34 ;
+    stats:blocks 1 ;
+    stats:carries 889 ;
+    stats:clearances 17 ;
+    stats:dispossessed 0 ;
+    stats:errors 6 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 35.5 ;
+    stats:matchesPlayed 37 ;
+    stats:matchesStarted 37 ;
+    stats:minutesPlayed 3194 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 4 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1647 ;
+    stats:redCards 1 ;
+    stats:tackles 3 ;
+    stats:tacklesWon 3 ;
+    stats:touches 1449 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1992-09-02"^^xsd:date ;
+    schema:description """Damián Emiliano Martínez Romero (born 2 September 1992) is an Argentine professional footballer who plays as a goalkeeper for Premier League club Aston Villa and the Argentina national team.\r
+\r
+Martínez trained at Independiente's youth ranks before moving to Arsenal in 2010. At Arsenal, he served as understudy, being loaned to various English clubs, before breaking into the starting line-up in 2019, helping them win a FA Cup and FA Community Shield. In September 2020, Martínez moved to fellow Premier League club Aston Villa in a transfer worth £20 million. In his first season at the club, he kept a club record 15 clean sheets in the Premier League.\r
+\r
+Martínez is a former Argentina youth international, representing his country at under-17, and under-20 levels. He earned his first cap for the senior national team in 2021, helping his nation win the 2021 Copa América, while winning the Golden Glove for the latter, keeping a clean sheet in the final.\r
+\r
+Martínez was called up to the Argentina senior squad to replace Oscar Ustari to face Nigeria in June 2011. He received his second senior call up against Germany and Ecuador on 9 and 13 October 2019; he was an unused substitute for both friendly matches.\r
+\r
+Martínez made his international debut on 3 June 2021, in a 1–1 draw with Chile in a 2022 FIFA World Cup qualification match. He subsequently made his competitive debut in a major tournament on 14 June, once again in a 1–1 draw against the same opponent in his side's opening match of the 2021 Copa América at the Estádio Olímpico Nilton Santos in Brazil. In the 57th minute, he saved a penalty from Arturo Vidal, but he failed to prevent Eduardo Vargas from scoring on the rebound. On 6 July, Martínez saved three spot kicks in a 3–2 penalty shootout victory for Argentina over Colombia in the semi-final of the tournament. He went on to finish the tournament with a clean sheet in the 1–0 victory over Brazil in the final. Martínez was also awarded the 2021 Copa América's Golden Glove award as the best keeper of the tournament for his performances.\r
+\r
+He is nicknamed "Dibu" (abbreviation of Dibujo, spanish for Drawing), after an animated character in the Argentine television series Mi familia es un dibujo, he was given the nickname while a young player at Club Atlético Independiente when the TV series was highly popular. Martínez signed a sponsorship deal with Puma in 2018.\r
+\r
+Martínez has been married to Portuguese businesswoman Amanda "Mandinha" (née Gama) since 2017. The couple have a son, Santi, and a daughter, Ava."""@en ;
+    schema:height "195 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/elcbjf1719035402.jpg"^^xsd:anyURI ;
+    schema:memberOf "Aston Villa"^^xsd:string ;
+    schema:name "Emiliano Martinez"^^xsd:string ;
+    schema:nationality "Argentina"^^xsd:string ;
+    schema:weight "192 lbs"^^xsd:string .
+

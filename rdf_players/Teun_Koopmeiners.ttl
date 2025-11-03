@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Teun_Koopmeiners a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q39498277> ;
+    foaf:account "www.instagram.com/teunkoopmeiners/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/pvqhh01759225850.png"^^xsd:anyURI ;
+    foaf:name "Teun Koopmeiners"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 51 ;
+    stats:blocks 36 ;
+    stats:carries 591 ;
+    stats:clearances 26 ;
+    stats:dispossessed 16 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 2.9 ;
+    stats:expectedGoals 3.9 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 38 ;
+    stats:matches90s 22.2 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 23 ;
+    stats:minutesPlayed 1994 ;
+    stats:miscontrols 40 ;
+    stats:passesIntoPenaltyArea 18 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 32 ;
+    stats:progressivePasses 89 ;
+    stats:progressivePassesReceived 127 ;
+    stats:rank 1393 ;
+    stats:redCards 0 ;
+    stats:tackles 32 ;
+    stats:tacklesWon 16 ;
+    stats:touches 1170 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1998-02-28"^^xsd:date ;
+    schema:description """Teun Koopmeiners (born 28 February 1998) is a Dutch professional footballer who plays as a midfielder for Serie A club Juventus and the Netherlands national team.\r
+\r
+Having represented the Netherlands at various youth levels, Koopmeiners was called up to the senior team's preliminary UEFA Nations League squad in August 2020. He was later part of their squad for the 2022 FIFA World Cup."""@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/9rlzkj1622152930.jpg"^^xsd:anyURI ;
+    schema:memberOf "Juventus"^^xsd:string ;
+    schema:name "Teun Koopmeiners"^^xsd:string ;
+    schema:nationality "The Netherlands"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jacob_Ramsey a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q63228677> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/4i753l1756648050.png"^^xsd:anyURI ;
+    foaf:name "Jacob Ramsey"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 83 ;
+    stats:blocks 23 ;
+    stats:carries 496 ;
+    stats:clearances 8 ;
+    stats:dispossessed 23 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 2.3 ;
+    stats:expectedGoals 1.6 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 21 ;
+    stats:matches90s 18.0 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 19 ;
+    stats:minutesPlayed 1623 ;
+    stats:miscontrols 42 ;
+    stats:passesIntoPenaltyArea 21 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 61 ;
+    stats:progressivePasses 68 ;
+    stats:progressivePassesReceived 114 ;
+    stats:rank 2174 ;
+    stats:redCards 1 ;
+    stats:tackles 30 ;
+    stats:tacklesWon 15 ;
+    stats:touches 762 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2001-05-28"^^xsd:date ;
+    schema:description "Jacob Matthew Ramsey is an English professional footballer who plays as a midfielder for Premier League club Newcastle United."@en ;
+    schema:height "5' 11\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/32i5vd1609887564.jpg"^^xsd:anyURI ;
+    schema:memberOf "Newcastle United"^^xsd:string ;
+    schema:name "Jacob Ramsey"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

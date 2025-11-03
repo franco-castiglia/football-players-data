@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Matteo_Gabbia a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q37893002> ;
+    foaf:account "www.instagram.com/matteo_gabbia19/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/bxxjy81758892492.png"^^xsd:anyURI ;
+    foaf:name "Matteo Gabbia"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 69 ;
+    stats:blocks 25 ;
+    stats:carries 1023 ;
+    stats:clearances 103 ;
+    stats:dispossessed 1 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 15 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 23.9 ;
+    stats:matchesPlayed 26 ;
+    stats:matchesStarted 24 ;
+    stats:minutesPlayed 2152 ;
+    stats:miscontrols 5 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 13 ;
+    stats:progressivePasses 74 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 950 ;
+    stats:redCards 0 ;
+    stats:tackles 21 ;
+    stats:tacklesWon 15 ;
+    stats:touches 1635 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1999-10-21"^^xsd:date ;
+    schema:description """Matteo Gabbia (Italian pronunciation: ; born 21 October 1999) is an Italian professional footballer who plays as a defender for Serie A club AC Milan.\r
+\r
+Gabbia represented Italy at the 2016 UEFA European Under-17 Championship, they did not advance from the group stage.\r
+\r
+He played in two group-stage games for Italy U19 at the 2018 UEFA European Under-19 Championship, where Italy was the runner-up. Then with the Italy U20, Gabbia took part in the 2019 FIFA U-20 World Cup.\r
+\r
+He made his debut with the Italy U21 on 6 September 2019, in a friendly match won 4–0 against Moldova."""@en ;
+    schema:height "185 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/93q7nu1598646186.jpg"^^xsd:anyURI ;
+    schema:memberOf "AC Milan"^^xsd:string ;
+    schema:name "Matteo Gabbia"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

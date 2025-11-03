@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ricardo_Rodriguez a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q666506> ;
+    foaf:account "www.facebook.com/ricardorodriguez34/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/1sldm61678372534.png"^^xsd:anyURI ;
+    foaf:name "Ricardo Rodriguez"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 55 ;
+    stats:blocks 10 ;
+    stats:carries 434 ;
+    stats:clearances 51 ;
+    stats:dispossessed 3 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.4 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 14.2 ;
+    stats:matchesPlayed 18 ;
+    stats:matchesStarted 15 ;
+    stats:minutesPlayed 1274 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 8 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:progressiveCarries 19 ;
+    stats:progressivePasses 63 ;
+    stats:progressivePassesReceived 32 ;
+    stats:rank 2242 ;
+    stats:redCards 0 ;
+    stats:tackles 28 ;
+    stats:tacklesWon 15 ;
+    stats:touches 866 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1992-08-25"^^xsd:date ;
+    schema:description """Ricardo Iván Rodriguez Araya (born 25 August 1992) is a Swiss professional footballer who plays as a left-back for La Liga club Betis and Switzerland national team.\r
+\r
+Rodriguez began his professional career at local club FC Zürich in 2010, having spent eight years in the youth setup. After breaking through into the first team at Zürich, he was sold to VfL Wolfsburg in January 2012 for £7.5 million. Rodriguez played 184 games across all competitions for Wolfsburg, scoring 22 goals and winning the DFB-Pokal and DFL-Supercup in 2015. In 2017, he signed for AC Milan.\r
+\r
+Rodriguez has earned caps at every level of the Swiss national team setup, winning the FIFA U17 World Cup in 2009. A full international for Switzerland since 2011, Rodriguez has earned 120 caps for the country. He was part of the Swiss team at the 2012 Olympics, and also represented the senior side at the FIFA World Cup in 2014, 2018 and 2022, and the UEFA European Championship in 2016, 2020 and 2024. In 2014, he was voted Swiss Footballer of the Year."""@en ;
+    schema:height "1.80 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/if4gry1723793576.jpg"^^xsd:anyURI ;
+    schema:memberOf "Real Betis"^^xsd:string ;
+    schema:name "Ricardo Rodriguez"^^xsd:string ;
+    schema:nationality "Switzerland"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

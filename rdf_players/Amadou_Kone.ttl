@@ -1,0 +1,47 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Amadou_Kone a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q123598126> ;    
+    foaf:name "Amadou Koné"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 79 ;
+    stats:blocks 18 ;
+    stats:carries 469 ;
+    stats:clearances 38 ;
+    stats:dispossessed 12 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 0.5 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 19 ;
+    stats:keyPasses 8 ;
+    stats:matches90s 14.4 ;
+    stats:matchesPlayed 24 ;
+    stats:matchesStarted 17 ;
+    stats:minutesPlayed 1293 ;
+    stats:miscontrols 19 ;
+    stats:passesIntoPenaltyArea 8 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 19 ;
+    stats:progressivePasses 68 ;
+    stats:progressivePassesReceived 12 ;
+    stats:rank 1388 ;
+    stats:redCards 1 ;
+    stats:tackles 49 ;
+    stats:tacklesWon 32 ;
+    stats:touches 788 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2005-05-14"^^xsd:date ;
+    schema:memberOf "Stade de Reims"^^xsd:string ;
+    schema:name "Amadou Koné"^^xsd:string ;
+    schema:nationality "Mali"^^xsd:string .
+

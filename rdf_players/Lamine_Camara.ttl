@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Lamine_Camara a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q116896436> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/yu20uv1748684003.png"^^xsd:anyURI ;
+    foaf:name "Lamine Camara"^^xsd:string ;
+    stats:assists 7 ;
+    stats:ballRecoveries 153 ;
+    stats:blocks 30 ;
+    stats:carries 967 ;
+    stats:clearances 32 ;
+    stats:dispossessed 23 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 4.4 ;
+    stats:expectedGoals 2.3 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 31 ;
+    stats:keyPasses 44 ;
+    stats:matches90s 22.8 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 25 ;
+    stats:minutesPlayed 2054 ;
+    stats:miscontrols 41 ;
+    stats:passesIntoPenaltyArea 26 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 25 ;
+    stats:progressivePasses 141 ;
+    stats:progressivePassesReceived 46 ;
+    stats:rank 448 ;
+    stats:redCards 1 ;
+    stats:tackles 66 ;
+    stats:tacklesWon 41 ;
+    stats:touches 1743 ;
+    stats:yellowCards 10 ;
+    schema:birthDate "2004-01-01"^^xsd:date ;
+    schema:description "Mamadou Lamine Camara (born 1 January 2004) is a Senegalese professional footballer who plays as an attacking midfielder for Ligue 1 club Monaco and the Senegal national team."@en ;
+    schema:height "1.73 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/vlxxzg1705489304.jpg"^^xsd:anyURI ;
+    schema:memberOf "Monaco"^^xsd:string ;
+    schema:name "Lamine Camara"^^xsd:string ;
+    schema:nationality "Senegal"^^xsd:string ;
+    schema:weight "141 lbs"^^xsd:string .
+

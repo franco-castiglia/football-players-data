@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Baptiste_Santamaria a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q17778052> ;
+    foaf:account "twitter.com/baptsantamaria"^^xsd:anyURI,
+        "www.instagram.com/baptiste_santamaria/?hl=en"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/n24ax41674738047.png"^^xsd:anyURI ;
+    foaf:name "Baptiste Santamaria"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 49 ;
+    stats:blocks 14 ;
+    stats:carries 277 ;
+    stats:clearances 19 ;
+    stats:dispossessed 7 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.0 ;
+    stats:expectedGoals 0.9 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 18 ;
+    stats:keyPasses 9 ;
+    stats:matches90s 10.3 ;
+    stats:matchesPlayed 13 ;
+    stats:matchesStarted 11 ;
+    stats:minutesPlayed 927 ;
+    stats:miscontrols 15 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 10 ;
+    stats:progressivePasses 45 ;
+    stats:progressivePassesReceived 11 ;
+    stats:rank 2344 ;
+    stats:redCards 0 ;
+    stats:tackles 20 ;
+    stats:tacklesWon 10 ;
+    stats:touches 589 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1995-03-09"^^xsd:date ;
+    schema:description "Baptiste Santamaria (born 9 March 1995) is a French professional footballer who plays as a central midfielder for Ligue 1 club Nice, on loan from Rennes."@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/3qkkv81570032487.jpg"^^xsd:anyURI ;
+    schema:memberOf "Nice"^^xsd:string ;
+    schema:name "Baptiste Santamaria"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "179 lbs"^^xsd:string .
+

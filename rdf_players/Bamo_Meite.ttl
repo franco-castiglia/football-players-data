@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Bamo_Meite a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q116838606> ;
+    foaf:account "www.instagram.com/bamomeite_6"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/m06hpz1702899433.png"^^xsd:anyURI ;
+    foaf:name "Bamo Meïté"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 8 ;
+    stats:blocks 3 ;
+    stats:carries 99 ;
+    stats:clearances 14 ;
+    stats:dispossessed 3 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 4.7 ;
+    stats:matchesPlayed 7 ;
+    stats:matchesStarted 6 ;
+    stats:minutesPlayed 424 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 7 ;
+    stats:progressivePassesReceived 1 ;
+    stats:rank 1711 ;
+    stats:redCards 1 ;
+    stats:tackles 5 ;
+    stats:tacklesWon 3 ;
+    stats:touches 210 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2001-06-20"^^xsd:date ;
+    schema:description "Bamo Abdoul Koudouss Meïté (born 3 December 2001) is an Ivorian professional footballer who plays as a centre-back or right-back for French Ligue 1 club Montpellier on loan from Marseille."@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/vdyzs91678359222.jpg"^^xsd:anyURI ;
+    schema:memberOf "Montpellier"^^xsd:string ;
+    schema:name "Bamo Meïté"^^xsd:string ;
+    schema:nationality "Ivory Coast"^^xsd:string .
+

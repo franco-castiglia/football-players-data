@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Haris_Tabakovic a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q15257381> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/rjvats1756313128.png"^^xsd:anyURI ;
+    foaf:name "Haris Tabaković"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 13 ;
+    stats:blocks 4 ;
+    stats:carries 165 ;
+    stats:clearances 16 ;
+    stats:dispossessed 10 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.2 ;
+    stats:expectedGoals 3.3 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 9 ;
+    stats:matches90s 9.1 ;
+    stats:matchesPlayed 22 ;
+    stats:matchesStarted 6 ;
+    stats:minutesPlayed 821 ;
+    stats:miscontrols 25 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 4 ;
+    stats:progressivePasses 7 ;
+    stats:progressivePassesReceived 45 ;
+    stats:rank 2543 ;
+    stats:redCards 0 ;
+    stats:tackles 3 ;
+    stats:tacklesWon 1 ;
+    stats:touches 334 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1994-06-20"^^xsd:date ;
+    schema:description """Haris Tabaković (born 20 June 1994) is a professional footballer who plays as a forward for Bundesliga club TSG Hoffenheim. Born in Switzerland, he plays for the Bosnia and Herzegovina national team.\r
+\r
+Tabaković started his professional career at Young Boys, who loaned him to Wil in 2014. Two years later, he joined Grasshoppers. The following year, he moved to Debrecen. In 2019, he switched to Diósgyőr. Tabaković signed with Austria Lustenau in 2020. In 2022, he joined Austria Wien. A year later, he was transferred to Hertha BSC. The following year, he moved to TSG Hoffenheim.\r
+\r
+A former Swiss youth international, Tabaković made his senior international debut for Bosnia and Herzegovina in 2023."""@en ;
+    schema:height "1.94 m (6 ft 4 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/jchsyu1678199753.jpg"^^xsd:anyURI ;
+    schema:memberOf "Borussia Mönchengladbach"^^xsd:string ;
+    schema:name "Haris Tabaković"^^xsd:string ;
+    schema:nationality "Switzerland"^^xsd:string ;
+    schema:weight "196 lbs"^^xsd:string .
+

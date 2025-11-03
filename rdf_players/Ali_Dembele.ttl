@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ali_Dembele a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q129167404> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/v5synw1758813723.png"^^xsd:anyURI ;
+    foaf:name "Ali Dembélé"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 15 ;
+    stats:blocks 6 ;
+    stats:carries 101 ;
+    stats:clearances 11 ;
+    stats:dispossessed 5 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 4.3 ;
+    stats:matchesPlayed 15 ;
+    stats:matchesStarted 4 ;
+    stats:minutesPlayed 388 ;
+    stats:miscontrols 9 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 8 ;
+    stats:progressivePasses 12 ;
+    stats:progressivePassesReceived 8 ;
+    stats:rank 697 ;
+    stats:redCards 1 ;
+    stats:tackles 9 ;
+    stats:tacklesWon 5 ;
+    stats:touches 222 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2004-01-05"^^xsd:date ;
+    schema:description """Ali Bina Dembélé (born 5 January 2004) is a French professional footballer who plays as a right-back for Serie A club Torino.\r
+\r
+Career\r
+A youth product of FC du Bourget, Dembélé signed a youth contract with Troyes on 15 June 2017, and was promoted to their reserves in 2021. In October 2022, he transferred to Torino where he played in their Primavera side. In the summer of 2023, he was promoted to the Torino senior side and was part of their preseason. On 1 September 2023, he moved to Venezia on a season-long loan. He made his senior and professional debut with Venezia in a 4–3 Serie B win over Parma on 7 October 2023.\r
+\r
+Upon his return from loan, he made his Serie A debut for Torino on 17 August 2024 in an away game against AC Milan. He substituted Raoul Bellanova in the 88th minute with Torino ahead 2–0, AC Milan scored twice in the remaining time to equalize.\r
+\r
+Personal life\r
+Born in France, Dembélé is of Malian descent."""@en ;
+    schema:height "185 cm"^^xsd:string ;
+    schema:image "https://www.thesportsdb.com/images/media/player/thumb/myqndm1758813794.jpg"^^xsd:anyURI ;
+    schema:memberOf "Torino"^^xsd:string ;
+    schema:name "Ali Dembélé"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

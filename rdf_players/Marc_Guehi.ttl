@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Marc_Guehi a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q44737396> ;
+    foaf:account "www.instagram.com/marcguehi/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/vi89xv1761492401.png"^^xsd:anyURI ;
+    foaf:name "Marc Guéhi"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 146 ;
+    stats:blocks 55 ;
+    stats:carries 1142 ;
+    stats:clearances 163 ;
+    stats:dispossessed 18 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 1.8 ;
+    stats:expectedGoals 2.0 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 28 ;
+    stats:keyPasses 16 ;
+    stats:matches90s 34.0 ;
+    stats:matchesPlayed 34 ;
+    stats:matchesStarted 34 ;
+    stats:minutesPlayed 3059 ;
+    stats:miscontrols 16 ;
+    stats:passesIntoPenaltyArea 11 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 22 ;
+    stats:progressivePasses 134 ;
+    stats:progressivePassesReceived 10 ;
+    stats:rank 1080 ;
+    stats:redCards 1 ;
+    stats:tackles 61 ;
+    stats:tacklesWon 34 ;
+    stats:touches 2131 ;
+    stats:yellowCards 9 ;
+    schema:birthDate "2000-07-13"^^xsd:date ;
+    schema:description """Addji Keaninkin Marc-Israel Guéhi, commonly known as Marc Guéhi, (born 13 July 2000) is an Ivorian-born English professional footballer who plays as a centre-back for Premier League club Crystal Palace.\r
+\r
+Guehi came through the youth system at Chelsea before spending two seasons on loan at Swansea City. He joined Crystal Palace in July 2021, becoming the club's third most expensive signing. He has represented England at youth level and was a regular starter in the 2017 FIFA Under-17 World Cup winning squad."""@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/wqgmpl1609183670.jpg"^^xsd:anyURI ;
+    schema:memberOf "Crystal Palace"^^xsd:string ;
+    schema:name "Marc Guéhi"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

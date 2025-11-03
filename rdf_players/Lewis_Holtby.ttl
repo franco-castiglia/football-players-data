@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Lewis_Holtby a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q311246> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/ncgwt81759697379.png"^^xsd:anyURI ;
+    foaf:name "Lewis Holtby"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 72 ;
+    stats:blocks 14 ;
+    stats:carries 372 ;
+    stats:clearances 26 ;
+    stats:dispossessed 8 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 1.5 ;
+    stats:expectedGoals 0.5 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 21 ;
+    stats:keyPasses 21 ;
+    stats:matches90s 13.8 ;
+    stats:matchesPlayed 25 ;
+    stats:matchesStarted 13 ;
+    stats:minutesPlayed 1238 ;
+    stats:miscontrols 15 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 2 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 14 ;
+    stats:progressivePasses 47 ;
+    stats:progressivePassesReceived 34 ;
+    stats:rank 1177 ;
+    stats:redCards 1 ;
+    stats:tackles 34 ;
+    stats:tacklesWon 20 ;
+    stats:touches 847 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1990-09-18"^^xsd:date ;
+    schema:description """Lewis Harry Holtby (born 18 September 1990) is a German professional footballer who plays as a midfielder for Dutch Eredivisie club NAC Breda.\r
+\r
+Holtby began his professional career with Alemannia Aachen before signing for Schalke 04 two years later. He was subsequently loaned to VfL Bochum and Mainz 05 before returning to Gelsenkirchen where he lifted the DFL-Supercup in 2011. He then spent two seasons in England with Premier League sides Tottenham and Fulham between 2013 and 2014 before returning to Germany to sign for Hamburger SV. There, he spent five seasons, including the 2017–18 Bundesliga campaign in which the club was relegated for the first time in history, and made over 100 appearances before joining Blackburn in 2019.\r
+\r
+Holtby also represented Germany at various youth levels from 2008 to 2013 and captained the nation at the 2013 UEFA European Under-21 Championship. He made his senior debut against Sweden in 2010 and has since won 3 caps for the national side."""@en ;
+    schema:height "1.76 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/xpspqu1432700153.jpg"^^xsd:anyURI ;
+    schema:memberOf "NAC Breda"^^xsd:string ;
+    schema:name "Lewis Holtby"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

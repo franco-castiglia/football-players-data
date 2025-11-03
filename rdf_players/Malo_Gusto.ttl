@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Malo_Gusto a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q78752401> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/wzyklc1757003476.png"^^xsd:anyURI ;
+    foaf:name "Malo Gusto"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 119 ;
+    stats:blocks 29 ;
+    stats:carries 882 ;
+    stats:clearances 49 ;
+    stats:dispossessed 17 ;
+    stats:errors 5 ;
+    stats:expectedAssistedGoals 1.4 ;
+    stats:expectedGoals 1.7 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 24 ;
+    stats:keyPasses 22 ;
+    stats:matches90s 20.7 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 19 ;
+    stats:minutesPlayed 1862 ;
+    stats:miscontrols 18 ;
+    stats:passesIntoPenaltyArea 19 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 50 ;
+    stats:progressivePasses 119 ;
+    stats:progressivePassesReceived 85 ;
+    stats:rank 1104 ;
+    stats:redCards 0 ;
+    stats:tackles 45 ;
+    stats:tacklesWon 29 ;
+    stats:touches 1595 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2003-05-19"^^xsd:date ;
+    schema:description "Malo Gusto (born 19 May 2003) is a French professional footballer who plays as a right-back or right wing-back for Premier League club Chelsea."@en ;
+    schema:height "1.78 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/jb0vo01693425428.jpg"^^xsd:anyURI ;
+    schema:memberOf "Chelsea"^^xsd:string ;
+    schema:name "Malo Gusto"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "148 lbs"^^xsd:string .
+

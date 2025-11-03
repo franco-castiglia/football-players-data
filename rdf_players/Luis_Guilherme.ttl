@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Luis_Guilherme a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q114825343> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/5irf2a1756984890.png"^^xsd:anyURI ;
+    foaf:name "Luis Guilherme"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 7 ;
+    stats:blocks 7 ;
+    stats:carries 51 ;
+    stats:clearances 2 ;
+    stats:dispossessed 3 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 3 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 1.7 ;
+    stats:matchesPlayed 12 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 150 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 4 ;
+    stats:progressivePasses 5 ;
+    stats:progressivePassesReceived 16 ;
+    stats:rank 1089 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 0 ;
+    stats:touches 99 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2006-02-09"^^xsd:date ;
+    schema:description """Luis Guilherme Lira dos Santos (born 9 February 2006) is a Brazilian footballer who plays as a midfielder for Premier League club West Ham United.\r
+\r
+Born in Aracaju, Luis Guilherme played in numerous soccer schools in his hometown before joining Palmeiras in 2017. He signed his first professional contract with the club in June 2022. In January 2022, Luis Guilherme was part of the squad that won the 2022 Copa São Paulo de Futebol Júnior for the first time. He renewed his contract in November 2023, with an increased salary and a release clause of €55 million.\r
+\r
+Luis Guilherme made his first team debut on 12 April 2023, coming on as a second-half substitute for José Manuel López in a 4–2 home win over Tombense, for the year's Copa do Brasil. On 24 April 2024, he scored his first goal for Palmeiras, in the 96th minute, securing a 3–2 away win over Independiente del Valle during the 2024 Copa Libertadores group stage.\r
+\r
+In June 2024, he underwent a medical with English Premier League club West Ham United with a view to a transfer. On 13 June 2024, the club announced that they had agreed the signing of Guilherme on a five-year contract, the transfer being finalised the following day when the transfer window opened."""@en ;
+    schema:height "5' 10\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/0bdn4p1718318454.jpg"^^xsd:anyURI ;
+    schema:memberOf "West Ham"^^xsd:string ;
+    schema:name "Luis Guilherme"^^xsd:string ;
+    schema:nationality "Brazil"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

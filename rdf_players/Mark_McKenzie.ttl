@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mark_McKenzie a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q100560610> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/w1jz7z1717947419.png"^^xsd:anyURI ;
+    foaf:name "Mark McKenzie"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 128 ;
+    stats:blocks 31 ;
+    stats:carries 878 ;
+    stats:clearances 141 ;
+    stats:dispossessed 7 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 1.4 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 22 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 27.7 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 29 ;
+    stats:minutesPlayed 2496 ;
+    stats:miscontrols 13 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 10 ;
+    stats:progressivePasses 97 ;
+    stats:progressivePassesReceived 5 ;
+    stats:rank 1702 ;
+    stats:redCards 1 ;
+    stats:tackles 52 ;
+    stats:tacklesWon 31 ;
+    stats:touches 1648 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1999-02-25"^^xsd:date ;
+    schema:description "Mark Alexander McKenzie (born February 25, 1999) is an American professional soccer player who plays as center-back for Ligue 1 club Toulouse and the United States national team."@en ;
+    schema:height "6 ft 0 in (1.84 m)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/rn0lhd1717947263.jpg"^^xsd:anyURI ;
+    schema:memberOf "Toulouse"^^xsd:string ;
+    schema:name "Mark McKenzie"^^xsd:string ;
+    schema:nationality "United States"^^xsd:string ;
+    schema:weight "84 kg"^^xsd:string .
+

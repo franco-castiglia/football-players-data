@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Aitor_Paredes a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q100386793> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/l4n9kz1678568943.png"^^xsd:anyURI ;
+    foaf:name "Aitor Paredes"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 62 ;
+    stats:blocks 26 ;
+    stats:carries 596 ;
+    stats:clearances 114 ;
+    stats:dispossessed 1 ;
+    stats:errors 4 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 2.3 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 22 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 20.1 ;
+    stats:matchesPlayed 23 ;
+    stats:matchesStarted 21 ;
+    stats:minutesPlayed 1812 ;
+    stats:miscontrols 7 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 4 ;
+    stats:progressivePasses 46 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 2038 ;
+    stats:redCards 1 ;
+    stats:tackles 15 ;
+    stats:tacklesWon 13 ;
+    stats:touches 1154 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2000-04-29"^^xsd:date ;
+    schema:description """Aitor Paredes Casamichana (born 29 April 2000) is a Spanish professional footballer who plays for Athletic Bilbao as a central defender. \r
+Born in Bilbao, Biscay, Basque Country, Paredes joined Athletic Bilbao's youth setup in 2010, from Etorkisun Alea GE. He made his senior debut with the farm team during the 2018–19 season, in Tercera División."""@en ;
+    schema:height "1.86 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/3y5ei71678568879.jpg"^^xsd:anyURI ;
+    schema:memberOf "Athletic Bilbao"^^xsd:string ;
+    schema:name "Aitor Paredes"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

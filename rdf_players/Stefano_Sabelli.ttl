@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Stefano_Sabelli a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7606487> ;
+    foaf:account "www.instagram.com/stefanosabelli/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/h55zq61758997662.png"^^xsd:anyURI ;
+    foaf:name "Stefano Sabelli"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 92 ;
+    stats:blocks 28 ;
+    stats:carries 641 ;
+    stats:clearances 65 ;
+    stats:dispossessed 4 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.9 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 22 ;
+    stats:keyPasses 18 ;
+    stats:matches90s 22.9 ;
+    stats:matchesPlayed 34 ;
+    stats:matchesStarted 23 ;
+    stats:minutesPlayed 2058 ;
+    stats:miscontrols 22 ;
+    stats:passesIntoPenaltyArea 31 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 36 ;
+    stats:progressivePasses 88 ;
+    stats:progressivePassesReceived 43 ;
+    stats:rank 2286 ;
+    stats:redCards 0 ;
+    stats:tackles 58 ;
+    stats:tacklesWon 31 ;
+    stats:touches 1428 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1993-01-13"^^xsd:date ;
+    schema:description "Stefano Sabelli (born 13 January 1993) is an Italian footballer who plays for Brescia on loan from Serie A club Genoa."@en ;
+    schema:height "1.80 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/8mtbku1586353187.jpg"^^xsd:anyURI ;
+    schema:memberOf "Genoa"^^xsd:string ;
+    schema:name "Stefano Sabelli"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

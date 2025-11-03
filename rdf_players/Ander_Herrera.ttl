@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ander_Herrera a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1639968> ;
+    foaf:account "twitter.com/AnderHerrera"^^xsd:anyURI,
+        "www.facebook.com/anderherrera/?fref=ts"^^xsd:anyURI,
+        "www.instagram.com/anderherrera"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/lkqlc31750041108.png"^^xsd:anyURI ;
+    foaf:name "Ander Herrera"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 14 ;
+    stats:blocks 1 ;
+    stats:carries 116 ;
+    stats:clearances 10 ;
+    stats:dispossessed 2 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 1.7 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 3.0 ;
+    stats:matchesPlayed 8 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 273 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 16 ;
+    stats:progressivePassesReceived 5 ;
+    stats:rank 1156 ;
+    stats:redCards 0 ;
+    stats:tackles 8 ;
+    stats:tacklesWon 4 ;
+    stats:touches 237 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1989-08-14"^^xsd:date ;
+    schema:description """Ander Herrera Agüera (Spanish pronunciation: ; born 14 August 1989) is a Spanish professional footballer who plays as a midfielder for Argentine Primera División club Boca Juniors.\r
+\r
+Herrera began his career at Zaragoza, before moving to Athletic Bilbao in 2011 and then to Manchester United for €36 million in 2014. With the English club, he won the FA Cup, FA Community Shield, EFL Cup and UEFA Europa League (in which he was named man of the match in the final), and was named as their player of the year for the 2016–17 season. He moved to Paris Saint-Germain (PSG) in 2019, winning the domestic quadruple and starting in the UEFA Champions League final against Bayern Munich in his first season, where PSG lost 1–0. At PSG, Herrera won Ligue 1, the Coupe de France, and the Trophée des Champions all twice, and the Coupe de la Ligue once. In 2022, he returned to Athletic Bilbao, first on loan before a permanent move in January 2023, he was part of the 2023-24 Copa del Rey winning squad with Bilbao.\r
+\r
+Herrera has won tournaments with Spain at under-20 and under-21 level, and represented his nation at the 2012 Summer Olympics. He made his senior international debut for La Roja in November 2016, but would only ever make two appearances, his final one being in March 2017."""@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/m2jx1i1565099327.jpg"^^xsd:anyURI ;
+    schema:memberOf "Boca Juniors"^^xsd:string ;
+    schema:name "Ander Herrera"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "157 lbs"^^xsd:string .
+

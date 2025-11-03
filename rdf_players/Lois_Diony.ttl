@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Lois_Diony a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q19630216> ;
+    foaf:account "www.instagram.com/lois_diony_9/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/oi12621674740398.png"^^xsd:anyURI ;
+    foaf:name "Loïs Diony"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 0 ;
+    stats:blocks 0 ;
+    stats:carries 4 ;
+    stats:clearances 0 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.2 ;
+    stats:matchesPlayed 1 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 21 ;
+    stats:miscontrols 2 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 739 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 6 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1992-12-20"^^xsd:date ;
+    schema:description "Loïs Diony (born 20 December 1992) is a French professional footballer who plays as a striker for Ligue 1 club Angers. Diony is of Martiniquais descent."@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/3wk7pb1608664586.jpg"^^xsd:anyURI ;
+    schema:memberOf "Angers"^^xsd:string ;
+    schema:name "Loïs Diony"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "185 lbs"^^xsd:string .
+

@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Riccardo_Sottil a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q58174760> ;
+    foaf:account "www.instagram.com/riccardosottil/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/0okzbp1759693822.png"^^xsd:anyURI ;
+    foaf:name "Riccardo Sottil"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 44 ;
+    stats:blocks 1 ;
+    stats:carries 272 ;
+    stats:clearances 3 ;
+    stats:dispossessed 8 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 0.9 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 12 ;
+    stats:matches90s 9.3 ;
+    stats:matchesPlayed 18 ;
+    stats:matchesStarted 8 ;
+    stats:minutesPlayed 833 ;
+    stats:miscontrols 21 ;
+    stats:passesIntoPenaltyArea 12 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 71 ;
+    stats:progressivePasses 18 ;
+    stats:progressivePassesReceived 100 ;
+    stats:rank 2478 ;
+    stats:redCards 0 ;
+    stats:tackles 5 ;
+    stats:tacklesWon 4 ;
+    stats:touches 356 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1999-06-03"^^xsd:date ;
+    schema:description "Riccardo Sottil (born 3 June 1999) is an Italian professional footballer who plays as an attacking midfielder or winger for Serie A club AC Milan, on loan from Fiorentina."@en ;
+    schema:height "1.80 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/2io2cm1546426935.jpg"^^xsd:anyURI ;
+    schema:memberOf "Lecce"^^xsd:string ;
+    schema:name "Riccardo Sottil"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

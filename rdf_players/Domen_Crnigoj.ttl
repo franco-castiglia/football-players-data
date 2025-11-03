@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Domen_Crnigoj a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16236715> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/on1vco1679411194.png"^^xsd:anyURI ;
+    foaf:name "Domen Črnigoj"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 8 ;
+    stats:blocks 5 ;
+    stats:carries 36 ;
+    stats:clearances 4 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 1.5 ;
+    stats:matchesPlayed 8 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 136 ;
+    stats:miscontrols 7 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 4 ;
+    stats:progressivePasses 4 ;
+    stats:progressivePassesReceived 6 ;
+    stats:rank 630 ;
+    stats:redCards 0 ;
+    stats:tackles 4 ;
+    stats:tacklesWon 2 ;
+    stats:touches 76 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1995-11-18"^^xsd:date ;
+    schema:description "Domen Črnigoj (born 18 November 1995) is a Slovenian professional footballer who plays as a midfielder for Serie A club Venezia."@en ;
+    schema:height "188 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/tf8o7a1633116664.jpg"^^xsd:anyURI ;
+    schema:memberOf "Venezia"^^xsd:string ;
+    schema:name "Domen Črnigoj"^^xsd:string ;
+    schema:nationality "Slovenia"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

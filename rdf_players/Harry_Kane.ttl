@@ -1,0 +1,64 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Harry_Kane a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q969725> ;
+    foaf:account "twitter.com/hkane"^^xsd:anyURI,
+        "www.facebook.com/harrykaneofficial"^^xsd:anyURI,
+        "www.instagram.com/harrykane"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/j4ouvd1756408895.png"^^xsd:anyURI ;
+    foaf:name "Harry Kane"^^xsd:string ;
+    stats:assists 9 ;
+    stats:ballRecoveries 61 ;
+    stats:blocks 16 ;
+    stats:carries 513 ;
+    stats:clearances 16 ;
+    stats:dispossessed 22 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 5.3 ;
+    stats:expectedGoals 20.3 ;
+    stats:goals 26 ;
+    stats:goalsNonPenalty 17 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 35 ;
+    stats:matches90s 26.5 ;
+    stats:matchesPlayed 31 ;
+    stats:matchesStarted 28 ;
+    stats:minutesPlayed 2381 ;
+    stats:miscontrols 41 ;
+    stats:passesIntoPenaltyArea 36 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 2 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 29 ;
+    stats:progressivePasses 97 ;
+    stats:progressivePassesReceived 143 ;
+    stats:rank 1318 ;
+    stats:redCards 0 ;
+    stats:tackles 13 ;
+    stats:tacklesWon 11 ;
+    stats:touches 917 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1993-07-28"^^xsd:date ;
+    schema:description """Harry Edward Kane MBE (born 28 July 1993) is an English professional footballer who plays as a striker for Bundesliga club Bayern Munich and the England national team.\r
+Regarded as one of the best strikers in the world, Kane is known for his prolific goalscoring record and ability to link play.\r
+\r
+Born and raised in the London borough of Waltham Forest, Kane began his career at Tottenham Hotspur, where, after fast progression through the team's youth academy, he was promoted to the senior team in 2009, at age 16. He did not initially feature for the side, and was loaned out several times to clubs across the English football pyramid, including Leyton Orient, Millwall, Leicester City, and Norwich City. Kane's involvement at Tottenham began to increase following the arrival of Mauricio Pochettino as head coach in 2014. In his first full season at the club, Kane scored 31 goals across all competitions, was the Premier League's second-highest goalscorer, and was named PFA Young Player of the Year.\r
+\r
+For both the 2015–16 and 2016–17 seasons, Kane finished as the league's top goalscorer. In the latter season, he helped Tottenham finish as the competition's runners-up and won the PFA Fans' Player of the Year award. Kane registered his best campaign statistically to date in the 2017–18 season, with 41 goals scored in 48 games across all competitions, and in the following season, he finished as a runner-up in the UEFA Champions League. In November 2019, he became Tottenham's third-highest all-time goalscorer in official competitions.\r
+\r
+Kane has scored 32 goals in 51 games for England. He appeared and scored at every youth level, and made a goalscoring debut with the senior team in March 2015, aged 21. Kane featured and scored during England's successful UEFA Euro 2016 qualifying, and represented the country at the tournament itself. He was made the squad's captain from May 2018, prior to the 2018 FIFA World Cup. In that tournament Kane led England to fourth place, their highest finish since 1990. He also finished as the World Cup's top goalscorer, winning the Golden Boot."""@en ;
+    schema:height "188cm / 6'2\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/xk0gd71699458766.jpg"^^xsd:anyURI ;
+    schema:memberOf "Bayern Munich"^^xsd:string ;
+    schema:name "Harry Kane"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "86kg / 190lbs"^^xsd:string .
+

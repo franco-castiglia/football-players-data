@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:George_Ilenikhena a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q116060328> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/xle2on1748684494.png"^^xsd:anyURI ;
+    foaf:name "George Ilenikhena"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 10 ;
+    stats:blocks 0 ;
+    stats:carries 121 ;
+    stats:clearances 0 ;
+    stats:dispossessed 16 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.4 ;
+    stats:expectedGoals 5.1 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 9 ;
+    stats:matches90s 8.0 ;
+    stats:matchesPlayed 23 ;
+    stats:matchesStarted 6 ;
+    stats:minutesPlayed 717 ;
+    stats:miscontrols 12 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 8 ;
+    stats:progressivePasses 10 ;
+    stats:progressivePassesReceived 58 ;
+    stats:rank 1210 ;
+    stats:redCards 0 ;
+    stats:tackles 4 ;
+    stats:tacklesWon 2 ;
+    stats:touches 189 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2006-08-16"^^xsd:date ;
+    schema:description "George Osrzehmen Ilenikhena (born 16 August 2006) is a Nigerian professional footballer who plays as a forward for Ligue 1 club Monaco."@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/lcxnx31726819973.jpg"^^xsd:anyURI ;
+    schema:memberOf "Monaco"^^xsd:string ;
+    schema:name "George Ilenikhena"^^xsd:string ;
+    schema:nationality "Nigeria"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

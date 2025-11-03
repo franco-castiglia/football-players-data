@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Frank_Magri a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q110739840> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/aly6gi1717011661.png"^^xsd:anyURI ;
+    foaf:name "Frank Magri"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 21 ;
+    stats:blocks 16 ;
+    stats:carries 244 ;
+    stats:clearances 11 ;
+    stats:dispossessed 31 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.5 ;
+    stats:expectedGoals 6.0 ;
+    stats:goals 5 ;
+    stats:goalsNonPenalty 5 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 9 ;
+    stats:matches90s 16.8 ;
+    stats:matchesPlayed 31 ;
+    stats:matchesStarted 17 ;
+    stats:minutesPlayed 1516 ;
+    stats:miscontrols 43 ;
+    stats:passesIntoPenaltyArea 7 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacker"^^xsd:string ;
+    stats:progressiveCarries 17 ;
+    stats:progressivePasses 25 ;
+    stats:progressivePassesReceived 80 ;
+    stats:rank 1569 ;
+    stats:redCards 1 ;
+    stats:tackles 8 ;
+    stats:tacklesWon 2 ;
+    stats:touches 420 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1999-09-04"^^xsd:date ;
+    schema:description "Frank Mario Magri (born 4 September 1999) is a professional footballer who plays as a forward for Ligue 1 club Toulouse. Born in France, he plays for the Cameroon national team."@en ;
+    schema:height "178 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/dj2aeh1717011550.jpg"^^xsd:anyURI ;
+    schema:memberOf "Toulouse"^^xsd:string ;
+    schema:name "Frank Magri"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

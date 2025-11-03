@@ -1,0 +1,68 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Diego_Coppola a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q110607238> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/kv3c0i1756993911.png"^^xsd:anyURI ;
+    foaf:name "Diego Coppola"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 89 ;
+    stats:blocks 44 ;
+    stats:carries 749 ;
+    stats:clearances 194 ;
+    stats:dispossessed 5 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.7 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 72 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 32.5 ;
+    stats:matchesPlayed 34 ;
+    stats:matchesStarted 33 ;
+    stats:minutesPlayed 2927 ;
+    stats:miscontrols 10 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 4 ;
+    stats:progressivePasses 48 ;
+    stats:progressivePassesReceived 3 ;
+    stats:rank 597 ;
+    stats:redCards 0 ;
+    stats:tackles 66 ;
+    stats:tacklesWon 36 ;
+    stats:touches 1576 ;
+    stats:yellowCards 10 ;
+    schema:birthDate "2003-12-28"^^xsd:date ;
+    schema:description """Diego Coppola (born 28 December 2003) is an Italian professional footballer who plays as a centre-back for Premier League club Brighton & Hove Albion and the Italy national team. \r
+\r
+Club career\r
+After coming through the youth ranks of Hellas Verona, Coppola made his professional debut with the first team on 15 December 2021, coming on as a substitute during a 4–3 Coppa Italia loss to Empoli. He subsequently made his Serie A debut on 15 January 2022, replacing Adrien Tameze at the 80th minute of the league game against Sassuolo. On 27 February, the defender made his first start for Verona, playing the entirety of the Serie A game against Venezia.\r
+\r
+On 20 April 2022, Coppola officially extended his contract with the club, signing a new five-year deal.\r
+\r
+International career\r
+Coppola has represented Italy at various youth international levels, having played for the under-18, under-19 and under-20 national teams.\r
+\r
+Both in May and December 2022, he was involved in training camps led by the Italian senior national team's manager, Roberto Mancini, and aimed to the most promising national talents.\r
+\r
+Style of play\r
+A centre-back that can play both in a back three or in a back four, Coppola has showed good athleticism despite his height, as well as a notable tactical intelligence and decent ball-playing skills.\r
+\r
+Positioning, marking and anticipation are his strongest traits in the defensive phase of his game."""@en ;
+    schema:height "6' 4\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/h7q4lb1679667344.jpg"^^xsd:anyURI ;
+    schema:memberOf "Brighton and Hove Albion"^^xsd:string ;
+    schema:name "Diego Coppola"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

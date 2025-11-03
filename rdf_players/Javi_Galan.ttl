@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Javi_Galan a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q27662868> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/yfw8nn1735982205.png"^^xsd:anyURI ;
+    foaf:name "Javi Galán"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 71 ;
+    stats:blocks 13 ;
+    stats:carries 739 ;
+    stats:clearances 47 ;
+    stats:dispossessed 15 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 3.9 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 12 ;
+    stats:keyPasses 15 ;
+    stats:matches90s 19.8 ;
+    stats:matchesPlayed 25 ;
+    stats:matchesStarted 21 ;
+    stats:minutesPlayed 1784 ;
+    stats:miscontrols 22 ;
+    stats:passesIntoPenaltyArea 22 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 52 ;
+    stats:progressivePasses 54 ;
+    stats:progressivePassesReceived 107 ;
+    stats:rank 957 ;
+    stats:redCards 0 ;
+    stats:tackles 51 ;
+    stats:tacklesWon 31 ;
+    stats:touches 1270 ;
+    stats:yellowCards 8 ;
+    schema:birthDate "1994-11-19"^^xsd:date ;
+    schema:description "Javier \"Javi\" Galán Gil (born 19 November 1994) is a Spanish professional footballer who plays a left-back, left wing-back or left winger for La Liga club Atlético Madrid."@en ;
+    schema:height "1.72 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/t7yhla1714206754.jpg"^^xsd:anyURI ;
+    schema:memberOf "Atletico Madrid"^^xsd:string ;
+    schema:name "Javi Galán"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

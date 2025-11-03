@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Pablo_Barrios a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q114924158> ;
+    foaf:account "twitter.com/pablo_barrios7?lang=ar-x-fm"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/0ba7q01677347316.png"^^xsd:anyURI ;
+    foaf:name "Pablo Barrios"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 131 ;
+    stats:blocks 18 ;
+    stats:carries 1119 ;
+    stats:clearances 33 ;
+    stats:dispossessed 23 ;
+    stats:errors 9 ;
+    stats:expectedAssistedGoals 2.4 ;
+    stats:expectedGoals 1.3 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 34 ;
+    stats:keyPasses 26 ;
+    stats:matches90s 25.9 ;
+    stats:matchesPlayed 31 ;
+    stats:matchesStarted 28 ;
+    stats:minutesPlayed 2330 ;
+    stats:miscontrols 49 ;
+    stats:passesIntoPenaltyArea 24 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 29 ;
+    stats:progressivePasses 142 ;
+    stats:progressivePassesReceived 69 ;
+    stats:rank 251 ;
+    stats:redCards 1 ;
+    stats:tackles 46 ;
+    stats:tacklesWon 26 ;
+    stats:touches 1784 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2003-06-15"^^xsd:date ;
+    schema:description "Pablo Barrios Rivas (born 15 June 2003) is a Spanish professional footballer who plays as a midfielder for Atlético Madrid."@en ;
+    schema:height "1.81 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/i1zh161667119969.jpg"^^xsd:anyURI ;
+    schema:memberOf "Atletico Madrid"^^xsd:string ;
+    schema:name "Pablo Barrios"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

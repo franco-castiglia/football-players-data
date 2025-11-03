@@ -1,0 +1,64 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Nathan_Patterson a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q83264648> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/z2kg9n1756976413.png"^^xsd:anyURI ;
+    foaf:name "Nathan Patterson"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 12 ;
+    stats:blocks 2 ;
+    stats:carries 95 ;
+    stats:clearances 7 ;
+    stats:dispossessed 2 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.4 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 3.9 ;
+    stats:matchesPlayed 10 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 347 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 6 ;
+    stats:progressivePasses 13 ;
+    stats:progressivePassesReceived 18 ;
+    stats:rank 2050 ;
+    stats:redCards 0 ;
+    stats:tackles 11 ;
+    stats:tacklesWon 6 ;
+    stats:touches 215 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2001-10-16"^^xsd:date ;
+    schema:description """Nathan Kenneth Patterson (born 16 October 2001) is a Scottish professional footballer who plays as a right-back for Premier League club Everton and the Scotland national team. \r
+\r
+Club career\r
+On 21 December 2019, Patterson signed a new Rangers contract, keeping him at the club until 2022. He made his debut on 17 January 2020, in a Scottish Cup match against Stranraer at Ibrox Stadium. He made his league debut against Kilmarnock on 22 August 2020, coming on as a substitute in the 86th minute in a 2–0 win.\r
+\r
+Patterson made his European debut on 10 December 2020, starting in a 2–0 away win against Polish side Lech Poznań. He scored his first goal for the club on 25 February 2021, in a UEFA Europa League match against Royal Antwerp, scoring 16.6 seconds after coming on as a second half substitute. Patterson played regularly for Rangers during the later part of the 2020–21 season, deputising for the injured James Tavernier, until he was suspended for breaching coronavirus pandemic rules.\r
+\r
+International career\r
+Patterson has represented Scotland at various youth levels up to under-21s. He was added to the full national squad for the first time in May 2021, ahead of the delayed UEFA Euro 2020 tournament. Patterson made his full international debut in a pre-tournament friendly against Luxembourg.\r
+\r
+Personal life\r
+In February 2021, Patterson was one of five Rangers players fined by Scottish police "for attending an illegal gathering of 10 people in a flat" in breach of lockdown rules during the coronavirus pandemic. Patterson and the other players were banned for six games by the SFA for the breach, although part of that sentence was suspended."""@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/l47lr01624096374.jpg"^^xsd:anyURI ;
+    schema:memberOf "Everton"^^xsd:string ;
+    schema:name "Nathan Patterson"^^xsd:string ;
+    schema:nationality "Scotland"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

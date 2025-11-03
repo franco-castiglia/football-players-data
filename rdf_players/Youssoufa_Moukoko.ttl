@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Youssoufa_Moukoko a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q41896054> ;
+    foaf:account "www.instagram.com/youssoufa_10/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/rfbppa1731084033.png"^^xsd:anyURI ;
+    foaf:name "Youssoufa Moukoko"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 14 ;
+    stats:blocks 2 ;
+    stats:carries 43 ;
+    stats:clearances 0 ;
+    stats:dispossessed 4 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.8 ;
+    stats:expectedGoals 2.2 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 2.3 ;
+    stats:matchesPlayed 11 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 204 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 6 ;
+    stats:progressivePassesReceived 12 ;
+    stats:rank 1805 ;
+    stats:redCards 0 ;
+    stats:tackles 3 ;
+    stats:tacklesWon 2 ;
+    stats:touches 75 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2004-11-20"^^xsd:date ;
+    schema:description "Youssoufa Moukoko (born 20 November 2004) is a professional footballer who plays as a striker for Ligue 1 club Nice, on loan from Bundesliga club Borussia Dortmund. Born in Cameroon, he plays for the Germany national team. He is known for his scoring ability at younger age levels."@en ;
+    schema:height "1.79 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/4f9com1609169061.jpg"^^xsd:anyURI ;
+    schema:memberOf "Nice"^^xsd:string ;
+    schema:name "Youssoufa Moukoko"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mohammed_Salisu a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q59915117> ;
+    foaf:account "www.facebook.com/harunamohammed.salisu.1"^^xsd:anyURI,
+        "www.instagram.com/salisu_sarki/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/rczqv81748684333.png"^^xsd:anyURI ;
+    foaf:name "Mohammed Salisu"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 55 ;
+    stats:blocks 10 ;
+    stats:carries 545 ;
+    stats:clearances 54 ;
+    stats:dispossessed 1 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.8 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 16 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 11.4 ;
+    stats:matchesPlayed 15 ;
+    stats:matchesStarted 11 ;
+    stats:minutesPlayed 1023 ;
+    stats:miscontrols 6 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 8 ;
+    stats:progressivePasses 68 ;
+    stats:progressivePassesReceived 3 ;
+    stats:rank 2312 ;
+    stats:redCards 0 ;
+    stats:tackles 28 ;
+    stats:tacklesWon 18 ;
+    stats:touches 905 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1999-04-17"^^xsd:date ;
+    schema:description "Mohammed Salisu Abdul Karim (born 17 April 1999) is a Ghanaian professional footballer who plays as a centre-back for Ligue 1 club Monaco and the Ghana national team."@en ;
+    schema:height "1.91 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/zh2ofu1615403132.jpg"^^xsd:anyURI ;
+    schema:memberOf "Monaco"^^xsd:string ;
+    schema:name "Mohammed Salisu"^^xsd:string ;
+    schema:nationality "Ghana"^^xsd:string ;
+    schema:weight "181 lbs"^^xsd:string .
+

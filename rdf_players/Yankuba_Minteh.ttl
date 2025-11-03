@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Yankuba_Minteh a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q115399505> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/1345u71756998901.png"^^xsd:anyURI ;
+    foaf:name "Yankuba Minteh"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 85 ;
+    stats:blocks 22 ;
+    stats:carries 481 ;
+    stats:clearances 31 ;
+    stats:dispossessed 28 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 5.0 ;
+    stats:expectedGoals 4.1 ;
+    stats:goals 6 ;
+    stats:goalsNonPenalty 6 ;
+    stats:interceptions 11 ;
+    stats:keyPasses 29 ;
+    stats:matches90s 20.4 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 20 ;
+    stats:minutesPlayed 1838 ;
+    stats:miscontrols 53 ;
+    stats:passesIntoPenaltyArea 36 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 90 ;
+    stats:progressivePasses 48 ;
+    stats:progressivePassesReceived 201 ;
+    stats:rank 1757 ;
+    stats:redCards 0 ;
+    stats:tackles 48 ;
+    stats:tacklesWon 35 ;
+    stats:touches 836 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "2004-07-22"^^xsd:date ;
+    schema:description "Yankuba Minteh (born 22 July 2004) is a Gambian professional footballer who plays as a winger for Premier League club Brighton & Hove Albion and the Gambia national team."@en ;
+    schema:height "1.80 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/mf98m61688243545.jpg"^^xsd:anyURI ;
+    schema:memberOf "Brighton and Hove Albion"^^xsd:string ;
+    schema:name "Yankuba Minteh"^^xsd:string ;
+    schema:nationality "Gambia"^^xsd:string ;
+    schema:weight "141 lbs"^^xsd:string .
+

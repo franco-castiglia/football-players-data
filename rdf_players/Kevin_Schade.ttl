@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Kevin_Schade a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q103845834> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/9fsyu51694112810.png"^^xsd:anyURI ;
+    foaf:name "Kevin Schade"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 83 ;
+    stats:blocks 19 ;
+    stats:carries 434 ;
+    stats:clearances 34 ;
+    stats:dispossessed 36 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 3.7 ;
+    stats:expectedGoals 8.2 ;
+    stats:goals 11 ;
+    stats:goalsNonPenalty 11 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 23 ;
+    stats:matches90s 25.5 ;
+    stats:matchesPlayed 38 ;
+    stats:matchesStarted 26 ;
+    stats:minutesPlayed 2293 ;
+    stats:miscontrols 60 ;
+    stats:passesIntoPenaltyArea 11 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:progressiveCarries 61 ;
+    stats:progressivePasses 38 ;
+    stats:progressivePassesReceived 165 ;
+    stats:rank 2367 ;
+    stats:redCards 0 ;
+    stats:tackles 39 ;
+    stats:tacklesWon 25 ;
+    stats:touches 883 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2001-11-27"^^xsd:date ;
+    schema:description """Kevin Schade (born 27 November 2001) is a German professional footballer who plays as a winger for Premier League club Brentford and the Germany national team.\r
+Schade joined the SC Freiburg youth system in 2018 after a five-year stint with Energie Cottbus. He made his debut with the club's reserve side in July 2019 against Bahlinger SC, and scored his first goal the following week in a 2–1 defeat to Kickers Offenbach. In December of that year, Schade signed his first professional contract with the club."""@en ;
+    schema:height "6' 0\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/kibbg91658930750.jpg"^^xsd:anyURI ;
+    schema:memberOf "Brentford"^^xsd:string ;
+    schema:name "Kevin Schade"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

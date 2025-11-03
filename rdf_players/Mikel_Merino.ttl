@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mikel_Merino a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q17612631> ;
+    foaf:account "twitter.com/mikelmerino1"^^xsd:anyURI,
+        "www.instagram.com/mikelmerino/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/grs8va1725292264.png"^^xsd:anyURI ;
+    foaf:name "Mikel Merino"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 86 ;
+    stats:blocks 18 ;
+    stats:carries 388 ;
+    stats:clearances 26 ;
+    stats:dispossessed 27 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 2.0 ;
+    stats:expectedGoals 5.9 ;
+    stats:goals 7 ;
+    stats:goalsNonPenalty 7 ;
+    stats:interceptions 15 ;
+    stats:keyPasses 17 ;
+    stats:matches90s 17.6 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 17 ;
+    stats:minutesPlayed 1586 ;
+    stats:miscontrols 24 ;
+    stats:passesIntoPenaltyArea 24 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 11 ;
+    stats:progressivePasses 69 ;
+    stats:progressivePassesReceived 94 ;
+    stats:rank 1726 ;
+    stats:redCards 1 ;
+    stats:tackles 46 ;
+    stats:tacklesWon 28 ;
+    stats:touches 783 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1996-06-22"^^xsd:date ;
+    schema:description """Mikel Merino Zazón (Spanish pronunciation: ; born 22 June 1996) is a Spanish professional footballer who plays as a midfielder for Premier League club Arsenal and the Spain national team.\r
+\r
+After starting out at Osasuna, he had short spells with Borussia Dortmund and Newcastle United before signing for Real Sociedad in 2018. With the last of those clubs, he won the 2019–20 Copa del Rey and totalled 242 appearances and 27 goals. In August 2024, he joined Arsenal.\r
+\r
+Merino represented Spain in two European Under-21 Championships, winning the 2019 edition. He made his senior debut in 2020, being selected for Euro 2024 and winning the tournament."""@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/gzg7641628706761.jpg"^^xsd:anyURI ;
+    schema:memberOf "Arsenal"^^xsd:string ;
+    schema:name "Mikel Merino"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

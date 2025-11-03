@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Brennan_Johnson a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q66108160> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/0svw261757016417.png"^^xsd:anyURI ;
+    foaf:name "Brennan Johnson"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 63 ;
+    stats:blocks 25 ;
+    stats:carries 544 ;
+    stats:clearances 14 ;
+    stats:dispossessed 17 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.3 ;
+    stats:expectedGoals 10.4 ;
+    stats:goals 11 ;
+    stats:goalsNonPenalty 11 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 19 ;
+    stats:matches90s 24.2 ;
+    stats:matchesPlayed 33 ;
+    stats:matchesStarted 24 ;
+    stats:minutesPlayed 2177 ;
+    stats:miscontrols 26 ;
+    stats:passesIntoPenaltyArea 35 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 2 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:progressiveCarries 60 ;
+    stats:progressivePasses 71 ;
+    stats:progressivePassesReceived 197 ;
+    stats:rank 1270 ;
+    stats:redCards 0 ;
+    stats:tackles 39 ;
+    stats:tacklesWon 26 ;
+    stats:touches 853 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "2001-05-23"^^xsd:date ;
+    schema:description "Brennan Price Johnson (born 23 May 2001) is a professional footballer who plays as a forward or winger for Premier League club Tottenham Hotspur and the Wales national team."@en ;
+    schema:height "1.79 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/im2tpu1628504608.jpg"^^xsd:anyURI ;
+    schema:memberOf "Tottenham"^^xsd:string ;
+    schema:name "Brennan Johnson"^^xsd:string ;
+    schema:nationality "Wales"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Eric_Garcia a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q59938996> ;
+    foaf:account "twitter.com/ericgm3"^^xsd:anyURI,
+        "www.instagram.com/ericgm3/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/agfrk61726510225.png"^^xsd:anyURI ;
+    foaf:name "Eric García"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 54 ;
+    stats:blocks 24 ;
+    stats:carries 852 ;
+    stats:clearances 41 ;
+    stats:dispossessed 5 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.8 ;
+    stats:expectedGoals 2.3 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 14 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 17.4 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 14 ;
+    stats:minutesPlayed 1566 ;
+    stats:miscontrols 17 ;
+    stats:passesIntoPenaltyArea 14 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 18 ;
+    stats:progressivePasses 109 ;
+    stats:progressivePassesReceived 22 ;
+    stats:rank 970 ;
+    stats:redCards 0 ;
+    stats:tackles 38 ;
+    stats:tacklesWon 21 ;
+    stats:touches 1517 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2001-01-09"^^xsd:date ;
+    schema:description """Eric García Martret (born 9 January 2001) is a Spanish professional footballer from Catalonia who plays as a centre-back for La Liga club Barcelona and the Spain national team.\r
+\r
+García moved from Barcelona at the age of 17 to Manchester City. He made his Premier League debut on 21 September 2019. In his final season at the club, he won the league and was runner-up in the UEFA Champions League. In June 2021, Garcia rejoined Barcelona on a free transfer, following the expiration of his contract."""@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/fiwp831659989561.jpg"^^xsd:anyURI ;
+    schema:memberOf "Barcelona"^^xsd:string ;
+    schema:name "Eric García"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

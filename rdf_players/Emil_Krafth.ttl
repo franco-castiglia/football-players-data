@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Emil_Krafth a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5371332> ;
+    foaf:account "www.instagram.com/emilkrafth/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/zl9xpb1693822978.png"^^xsd:anyURI ;
+    foaf:name "Emil Krafth"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 19 ;
+    stats:blocks 5 ;
+    stats:carries 82 ;
+    stats:clearances 16 ;
+    stats:dispossessed 2 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 3.8 ;
+    stats:matchesPlayed 12 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 342 ;
+    stats:miscontrols 2 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 5 ;
+    stats:progressivePasses 8 ;
+    stats:progressivePassesReceived 3 ;
+    stats:rank 1409 ;
+    stats:redCards 0 ;
+    stats:tackles 4 ;
+    stats:tacklesWon 2 ;
+    stats:touches 199 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1994-08-02"^^xsd:date ;
+    schema:description "Emil Henry Kristoffer Krafth (born 2 August 1994) is a Swedish footballer who plays as a right-back for Premier League club Newcastle United and the Sweden national team."@en ;
+    schema:height "1.81 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/mhsl1a1585662737.jpg"^^xsd:anyURI ;
+    schema:memberOf "Newcastle"^^xsd:string ;
+    schema:name "Emil Krafth"^^xsd:string ;
+    schema:nationality "Sweden"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

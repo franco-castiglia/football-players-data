@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Lucas_Vazquez a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5981954> ;
+    foaf:account "twitter.com/lucasvazquez91"^^xsd:anyURI,
+        "www.facebook.com/lucasvazquez1991"^^xsd:anyURI,
+        "www.instagram.com/lucasvazquez91"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/flt2kd1756316819.png"^^xsd:anyURI ;
+    foaf:name "Lucas Vazquez"^^xsd:string ;
+    stats:assists 5 ;
+    stats:ballRecoveries 83 ;
+    stats:blocks 24 ;
+    stats:carries 1031 ;
+    stats:clearances 35 ;
+    stats:dispossessed 13 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 4.7 ;
+    stats:expectedGoals 1.4 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 17 ;
+    stats:keyPasses 33 ;
+    stats:matches90s 24.3 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 25 ;
+    stats:minutesPlayed 2189 ;
+    stats:miscontrols 34 ;
+    stats:passesIntoPenaltyArea 29 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 37 ;
+    stats:progressivePasses 99 ;
+    stats:progressivePassesReceived 194 ;
+    stats:rank 2684 ;
+    stats:redCards 0 ;
+    stats:tackles 58 ;
+    stats:tacklesWon 34 ;
+    stats:touches 1850 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1991-07-01"^^xsd:date ;
+    schema:description """Lucas Vázquez Iglesias (born 1 July 1991) is a Spanish professional footballer who plays as a right-back or winger for Bundesliga club Bayer Leverkusen.\r
+\r
+Starting his career at Real Madrid, Vázquez made his first-team debut in 2015 after a season on loan at Espanyol. He made his La Liga debut with the latter. Since returning to Real Madrid in 2015 he has appeared in more than 400 matches for the club in all competitions and has won 23 major trophies including five Champions Leagues and four La Liga titles. After leaving Real Madrid as a free agent in summer 2025, Vázquez moved to Bundesliga's Bayer Leverkusen.\r
+\r
+Vázquez represented Spain at Euro 2016 and the 2018 World Cup."""@en ;
+    schema:height "1.73 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/fx5wtp1514554004.jpg"^^xsd:anyURI ;
+    schema:memberOf "Bayer Leverkusen"^^xsd:string ;
+    schema:name "Lucas Vazquez"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "69 kg (152 lb)"^^xsd:string .
+

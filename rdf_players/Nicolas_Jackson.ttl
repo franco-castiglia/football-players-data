@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Nicolas_Jackson a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q100144350> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/rj74af1694033793.png"^^xsd:anyURI ;
+    foaf:name "Nicolas Jackson"^^xsd:string ;
+    stats:assists 5 ;
+    stats:ballRecoveries 48 ;
+    stats:blocks 15 ;
+    stats:carries 417 ;
+    stats:clearances 15 ;
+    stats:dispossessed 41 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 4.3 ;
+    stats:expectedGoals 12.3 ;
+    stats:goals 10 ;
+    stats:goalsNonPenalty 10 ;
+    stats:interceptions 3 ;
+    stats:keyPasses 28 ;
+    stats:matches90s 24.7 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 28 ;
+    stats:minutesPlayed 2220 ;
+    stats:miscontrols 71 ;
+    stats:passesIntoPenaltyArea 10 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 47 ;
+    stats:progressivePasses 38 ;
+    stats:progressivePassesReceived 129 ;
+    stats:rank 1234 ;
+    stats:redCards 1 ;
+    stats:tackles 22 ;
+    stats:tacklesWon 13 ;
+    stats:touches 687 ;
+    stats:yellowCards 7 ;
+    schema:birthDate "2001-06-20"^^xsd:date ;
+    schema:description """Nicolas Jackson (born 20 June 2001) is a professional footballer who plays as a striker for Premier League club Chelsea and for the Senegal national team.\r
+\r
+He played for Casa Sports in Senegal before joining Villarreal in 2019. After a loan to Mirandés in the Segunda División, he broke through in the reserve team and made his first-team debut in La Liga in 2021. In 2023, he signed an eight-year deal at Chelsea for a reported fee of £32 million.\r
+\r
+Jackson made his senior international debut for Senegal in 2022. He was chosen for the 2022 FIFA World Cup and the 2023 Africa Cup of Nations."""@en ;
+    schema:height "187 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/x8gq381668426711.jpg"^^xsd:anyURI ;
+    schema:memberOf "Bayern Munich"^^xsd:string ;
+    schema:name "Nicolas Jackson"^^xsd:string ;
+    schema:nationality "Senegal"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

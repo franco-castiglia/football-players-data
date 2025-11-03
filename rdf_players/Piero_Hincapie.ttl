@@ -1,0 +1,65 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Piero_Hincapie a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q101053044> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/an9cq51756983080.png"^^xsd:anyURI ;
+    foaf:name "Piero Hincapié"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 105 ;
+    stats:blocks 40 ;
+    stats:carries 1366 ;
+    stats:clearances 114 ;
+    stats:dispossessed 5 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 3.2 ;
+    stats:expectedGoals 2.9 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 32 ;
+    stats:keyPasses 16 ;
+    stats:matches90s 29.7 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 28 ;
+    stats:minutesPlayed 2670 ;
+    stats:miscontrols 19 ;
+    stats:passesIntoPenaltyArea 16 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 52 ;
+    stats:progressivePasses 152 ;
+    stats:progressivePassesReceived 72 ;
+    stats:rank 1164 ;
+    stats:redCards 0 ;
+    stats:tackles 52 ;
+    stats:tacklesWon 40 ;
+    stats:touches 2456 ;
+    stats:yellowCards 8 ;
+    schema:birthDate "2002-01-09"^^xsd:date ;
+    schema:description """Piero Martín Hincapié Reyna (born 9 January 2002) is an Ecuadorian professional footballer who plays as a centre-back or left-back for Premier League club Arsenal, on loan from Bundesliga club Bayer Leverkusen, and the Ecuador national team.\r
+\r
+Club career\r
+Hincapié began playing football at the age of seven, initially for local clubs Escuela Refinería, Emelec and Barcelona. Aged ten, the defender moved to Guayaquil with Norte América. After a spell with Deportivo Azogues, he joined Independiente del Valle in November 2016. Hincapié was promoted into their first-team in August 2019 for a Serie A match with Mushuc Runa. He was selected to start and played the full duration of a narrow home defeat. In the subsequent 2020 campaign, shortly after winning the U-20 Copa Libertadores, Hincapié made appearances off the bench against Universidad Católica and Macará.\r
+\r
+On 20 August 2020, Hincapié switched Ecuador for Argentina after agreeing a five-year contract with Primera División side Talleres; who paid $1,000,000 for 50% of his pass.\r
+\r
+In August 2021, Hincapié signed for the German Bundesliga club Bayer Leverkusen. He made his debut on 16 August, coming into the Europa League group stage match against Ferencváros as Leverkusen won 2-1. He scored his first goal for the club on 30 September, scoring the opening goal against Celtic in a 4-0 victory in the Europa League.\r
+\r
+International career\r
+Hincapié appeared for the Ecuador U15s in 2017. In 2019, Hincapié represented his country as captain at U17 level. He played seven times at the South American U-17 Championship in Peru, before featuring four times at the subsequent FIFA U-17 World Cup in Brazil.\r
+\r
+He made his debut for Ecuador national football team on 13 June 2021 in a 2021 Copa América game against Colombia. He started and played a full match as Ecuador lost 0–1."""@en ;
+    schema:height "183 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/pggqwh1717139149.jpg"^^xsd:anyURI ;
+    schema:memberOf "Arsenal"^^xsd:string ;
+    schema:name "Piero Hincapié"^^xsd:string ;
+    schema:nationality "Ecuador"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

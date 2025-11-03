@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Lorenzo_Pellegrini a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q19773058> ;
+    foaf:account "twitter.com/lorepelle7"^^xsd:anyURI,
+        "www.instagram.com/lorepelle7/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/wq1jr81758815397.png"^^xsd:anyURI ;
+    foaf:name "Lorenzo Pellegrini"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 61 ;
+    stats:blocks 8 ;
+    stats:carries 463 ;
+    stats:clearances 22 ;
+    stats:dispossessed 16 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.5 ;
+    stats:expectedGoals 4.7 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 27 ;
+    stats:matches90s 18.1 ;
+    stats:matchesPlayed 25 ;
+    stats:matchesStarted 20 ;
+    stats:minutesPlayed 1626 ;
+    stats:miscontrols 26 ;
+    stats:passesIntoPenaltyArea 19 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:progressiveCarries 27 ;
+    stats:progressivePasses 61 ;
+    stats:progressivePassesReceived 82 ;
+    stats:rank 2069 ;
+    stats:redCards 0 ;
+    stats:tackles 24 ;
+    stats:tacklesWon 16 ;
+    stats:touches 825 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1996-06-19"^^xsd:date ;
+    schema:description "Lorenzo Pellegrini (born 19 June 1996) is an Italian professional footballer who plays as a midfielder for Serie A club Roma and the Italy national team. He is an academy graduate of Roma, having joined the club in 2007, and made his senior debut in 2015. He departed for Sassuolo later that year where he made over 50 appearances across all competitions before returning to Roma in July 2017."@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/b7003u1533985895.jpg"^^xsd:anyURI ;
+    schema:memberOf "Roma"^^xsd:string ;
+    schema:name "Lorenzo Pellegrini"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

@@ -1,0 +1,49 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ange_Tia a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q123464182> ;
+    foaf:name "Ange Tia"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 12 ;
+    stats:blocks 3 ;
+    stats:carries 43 ;
+    stats:clearances 4 ;
+    stats:dispossessed 5 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 1.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 1.9 ;
+    stats:matchesPlayed 6 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 171 ;
+    stats:miscontrols 5 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 8 ;
+    stats:progressivePassesReceived 9 ;
+    stats:rank 1636 ;
+    stats:redCards 0 ;
+    stats:tackles 4 ;
+    stats:tacklesWon 3 ;
+    stats:touches 92 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2006-11-20"^^xsd:date ;
+    schema:height "178 cm"^^xsd:string ;
+    schema:memberOf "Stade de Reims"^^xsd:string ;
+    schema:name "Ange Tia"^^xsd:string ;
+    schema:nationality "Mali"^^xsd:string ;
+    schema:weight "71 kg"^^xsd:string .
+

@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Bamba_Dieng a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q105426667> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/zf2z9k1702898964.png"^^xsd:anyURI ;
+    foaf:name "Bamba Dieng"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 5 ;
+    stats:blocks 2 ;
+    stats:carries 96 ;
+    stats:clearances 3 ;
+    stats:dispossessed 10 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 3.1 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 5.9 ;
+    stats:matchesPlayed 18 ;
+    stats:matchesStarted 5 ;
+    stats:minutesPlayed 532 ;
+    stats:miscontrols 11 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 6 ;
+    stats:progressivePasses 7 ;
+    stats:progressivePassesReceived 35 ;
+    stats:rank 729 ;
+    stats:redCards 0 ;
+    stats:tackles 4 ;
+    stats:tacklesWon 1 ;
+    stats:touches 157 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2000-03-23"^^xsd:date ;
+    schema:description "Cheikh Ahmadou Bamba Mbacke Dieng (born 23 March 2000) is a Senegalese professional footballer who plays as a forward for Ligue 1 club Angers, on loan from Ligue 2 club Lorient, and the Senegal national team."@en ;
+    schema:height "1.78 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/01uwh61631624839.jpg"^^xsd:anyURI ;
+    schema:memberOf "Angers"^^xsd:string ;
+    schema:name "Bamba Dieng"^^xsd:string ;
+    schema:nationality "Senegal"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

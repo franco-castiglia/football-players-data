@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Francisco_Conceicao a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q99617367> ;
+    foaf:account "twitter.com/fconceicao7"^^xsd:anyURI,
+        "www.instagram.com/francisco.conceicao7/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/ekqivz1759225498.png"^^xsd:anyURI ;
+    foaf:name "Francisco Conceição"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 55 ;
+    stats:blocks 7 ;
+    stats:carries 548 ;
+    stats:clearances 6 ;
+    stats:dispossessed 22 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 4.3 ;
+    stats:expectedGoals 2.3 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 28 ;
+    stats:matches90s 14.9 ;
+    stats:matchesPlayed 26 ;
+    stats:matchesStarted 12 ;
+    stats:minutesPlayed 1340 ;
+    stats:miscontrols 35 ;
+    stats:passesIntoPenaltyArea 20 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Right Midfield"^^xsd:string ;
+    stats:progressiveCarries 95 ;
+    stats:progressivePasses 35 ;
+    stats:progressivePassesReceived 143 ;
+    stats:rank 590 ;
+    stats:redCards 1 ;
+    stats:tackles 23 ;
+    stats:tacklesWon 14 ;
+    stats:touches 739 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "2002-12-14"^^xsd:date ;
+    schema:description """Francisco Fernandes da Conceição (Portuguese pronunciation: ; born 14 December 2002) is a Portuguese professional footballer who plays as a winger for Serie A club Juventus and the Portugal national team.\r
+\r
+Coming through Porto's youth system, Conceição was promoted to the first-team in 2021, winning a domestic double of the Primeira Liga and Taça de Portugal in 2022. In July 2022, he moved to Eredivise side Ajax, before returning to Porto in September 2023, on an initial one-year loan deal which was made permanent at the end of the season. He joined Juventus in August 2024 on a one-year loan deal and signed permanent contract on July 2025.\r
+\r
+Conceição is a former Portugal youth international, representing his country at various youth levels, being part of under-21 teams that finished as runners-up in the 2021 European Under-21 Championship. He made his senior international debut in 2024."""@en ;
+    schema:height "1.68 m (5 ft 6 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/4z17u11617881496.jpg"^^xsd:anyURI ;
+    schema:memberOf "Juventus"^^xsd:string ;
+    schema:name "Francisco Conceição"^^xsd:string ;
+    schema:nationality "Portugal"^^xsd:string ;
+    schema:weight "61 kg (135 lb)"^^xsd:string .
+

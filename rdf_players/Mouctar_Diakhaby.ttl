@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mouctar_Diakhaby a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q26897360> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/2ico7t1662075695.png"^^xsd:anyURI ;
+    foaf:name "Mouctar Diakhaby"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 23 ;
+    stats:blocks 8 ;
+    stats:carries 222 ;
+    stats:clearances 56 ;
+    stats:dispossessed 2 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 1.5 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 11 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 7.3 ;
+    stats:matchesPlayed 13 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 653 ;
+    stats:miscontrols 5 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 5 ;
+    stats:progressivePasses 14 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 708 ;
+    stats:redCards 0 ;
+    stats:tackles 8 ;
+    stats:tacklesWon 3 ;
+    stats:touches 440 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1996-12-19"^^xsd:date ;
+    schema:description """Mouctar Diakhaby (born 19 December 1996) is a professional footballer who plays as a defender for La Liga club Valencia. Born in France, he plays for the Guinea national team.\r
+\r
+Diakhaby was born in Vendôme, France, to Guinean parents. They were from Touba, Boké Region.\r
+\r
+Diakhaby was born in France, but is of Guinean origin. He is former a youth international for France. In 2022 however he decided to represent the home country of his parents, Guinea and debuted for them against Egypt."""@en ;
+    schema:height "189 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/qy9up11565292511.jpg"^^xsd:anyURI ;
+    schema:memberOf "Valencia"^^xsd:string ;
+    schema:name "Mouctar Diakhaby"^^xsd:string ;
+    schema:nationality "Guinea"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

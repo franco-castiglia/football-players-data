@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Boubakar_Kouyate a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q26704510> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/npf3tv1678358762.png"^^xsd:anyURI ;
+    foaf:name "Boubakar Kouyaté"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 18 ;
+    stats:blocks 17 ;
+    stats:carries 174 ;
+    stats:clearances 54 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.5 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 12 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 8.4 ;
+    stats:matchesPlayed 11 ;
+    stats:matchesStarted 8 ;
+    stats:minutesPlayed 756 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 3 ;
+    stats:progressivePasses 12 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1402 ;
+    stats:redCards 1 ;
+    stats:tackles 22 ;
+    stats:tacklesWon 17 ;
+    stats:touches 375 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "1997-04-15"^^xsd:date ;
+    schema:description "Boubakar \"Kiki\" Kouyaté (born 15 April 1997) is a Malian professional footballer who plays as a centre-back for Ligue 1 club Montpellier and the Mali national team."@en ;
+    schema:height "1.92 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/58cclr1608498240.jpg"^^xsd:anyURI ;
+    schema:memberOf "Montpellier"^^xsd:string ;
+    schema:name "Boubakar Kouyaté"^^xsd:string ;
+    schema:nationality "Mali"^^xsd:string ;
+    schema:weight "78 kg"^^xsd:string .
+

@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mile_Svilar a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q38245742> ;
+    foaf:account "www.instagram.com/svilar_mile/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/5udtco1758815713.png"^^xsd:anyURI ;
+    foaf:name "Mile Svilar"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 53 ;
+    stats:blocks 0 ;
+    stats:carries 944 ;
+    stats:clearances 12 ;
+    stats:dispossessed 1 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 38.0 ;
+    stats:matchesPlayed 38 ;
+    stats:matchesStarted 38 ;
+    stats:minutesPlayed 3420 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 2 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 2531 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 1531 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1999-08-27"^^xsd:date ;
+    schema:description "Mile Svilar (Serbian Cyrillic: Миле Свилар; born 27 August 1999) is a professional footballer who plays for Italian club Roma as a goalkeeper. Born in Belgium, Svilar represents the Serbia national team."@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/qar3ii1522247043.jpg"^^xsd:anyURI ;
+    schema:memberOf "Roma"^^xsd:string ;
+    schema:name "Mile Svilar"^^xsd:string ;
+    schema:nationality "Serbia"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

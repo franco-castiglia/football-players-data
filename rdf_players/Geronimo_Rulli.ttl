@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Geronimo_Rulli a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5879014> ;
+    foaf:account "twitter.com/gerorulli"^^xsd:anyURI,
+        "www.facebook.com/gero.rulli"^^xsd:anyURI,
+        "www.instagram.com/gerorulli"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/j7ui101759498549.png"^^xsd:anyURI ;
+    foaf:name "Geronimo Rulli"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 37 ;
+    stats:blocks 1 ;
+    stats:carries 789 ;
+    stats:clearances 25 ;
+    stats:dispossessed 0 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 34.0 ;
+    stats:matchesPlayed 34 ;
+    stats:matchesStarted 34 ;
+    stats:minutesPlayed 3060 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 2 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 1 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 2277 ;
+    stats:redCards 0 ;
+    stats:tackles 4 ;
+    stats:tacklesWon 3 ;
+    stats:touches 1300 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1992-05-20"^^xsd:date ;
+    schema:description """Gerónimo Rulli (Spanish pronunciation: ; born 20 May 1992) is an Argentine footballer who plays as a goalkeeper for Ligue 1 club Marseille and the Argentina national team.\r
+\r
+Rulli joined Estudiantes's youth team in 2009, making his professional debut for them in 2013. Between 2014 and 2020, he played for Real Sociedad, twice on loan before joining them on a permanent deal in 2017. He played in 170 matches for Sociedad in five seasons. He joined French club Montpellier on loan in 2019. In 2020, he joined Villarreal staying at the club for two-and-a-half seasons, winning the UEFA Europa League in 2020–21.\r
+\r
+Rulli featured for Argentina in the 2016 Olympic tournament in Brazil. In May 2017, he received his first call-up for the Argentina national team. He made his international debut in 2018 against Guatemala in a 3–0 friendly win. Though he did not play any minutes, Rulli was a member of the Argentina squads that won the 2022 FIFA World Cup and the 2024 Copa América."""@en ;
+    schema:height "1.89 m (6 ft 2+1⁄2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/jnahab1723461796.jpg"^^xsd:anyURI ;
+    schema:memberOf "Marseille"^^xsd:string ;
+    schema:name "Geronimo Rulli"^^xsd:string ;
+    schema:nationality "Argentina"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

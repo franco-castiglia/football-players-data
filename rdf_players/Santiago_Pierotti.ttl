@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Santiago_Pierotti a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q63111660> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/srky461759693262.png"^^xsd:anyURI ;
+    foaf:name "Santiago Pierotti"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 111 ;
+    stats:blocks 31 ;
+    stats:carries 353 ;
+    stats:clearances 32 ;
+    stats:dispossessed 33 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.4 ;
+    stats:expectedGoals 3.1 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 14 ;
+    stats:keyPasses 25 ;
+    stats:matches90s 21.5 ;
+    stats:matchesPlayed 36 ;
+    stats:matchesStarted 22 ;
+    stats:minutesPlayed 1937 ;
+    stats:miscontrols 60 ;
+    stats:passesIntoPenaltyArea 9 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacker"^^xsd:string ;
+    stats:progressiveCarries 43 ;
+    stats:progressivePasses 38 ;
+    stats:progressivePassesReceived 85 ;
+    stats:rank 2122 ;
+    stats:redCards 1 ;
+    stats:tackles 46 ;
+    stats:tacklesWon 24 ;
+    stats:touches 730 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "2001-04-03"^^xsd:date ;
+    schema:description "Santiago Daniel Pierotti (born 3 April 2001) is an Argentine professional footballer who plays as a winger or forward for Serie A club Lecce."@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/pidww71731099862.jpg"^^xsd:anyURI ;
+    schema:memberOf "Lecce"^^xsd:string ;
+    schema:name "Santiago Pierotti"^^xsd:string ;
+    schema:nationality "Argentina"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

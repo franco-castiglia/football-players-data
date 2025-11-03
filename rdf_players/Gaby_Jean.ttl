@@ -1,0 +1,51 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Gaby_Jean a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q113389170> ;
+    foaf:name "Gaby Jean"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 55 ;
+    stats:blocks 13 ;
+    stats:carries 500 ;
+    stats:clearances 71 ;
+    stats:dispossessed 5 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 9 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 15.4 ;
+    stats:matchesPlayed 19 ;
+    stats:matchesStarted 16 ;
+    stats:minutesPlayed 1388 ;
+    stats:miscontrols 5 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 8 ;
+    stats:progressivePasses 42 ;
+    stats:progressivePassesReceived 3 ;
+    stats:rank 1250 ;
+    stats:redCards 0 ;
+    stats:tackles 14 ;
+    stats:tacklesWon 7 ;
+    stats:touches 992 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2000-02-19"^^xsd:date ;
+    schema:description "Gaby Jean (born 19 February 2000) is a French professional footballer who plays as a centre-back for Italian Serie A club Lecce."@en ;
+    schema:height "1.91 m (6 ft 3 in)"^^xsd:string ;
+    schema:memberOf "Lecce"^^xsd:string ;
+    schema:name "Gaby Jean"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

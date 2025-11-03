@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Sacha_Boey a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q63699748> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/8dkfuc1756408833.png"^^xsd:anyURI ;
+    foaf:name "Sacha Boey"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 38 ;
+    stats:blocks 6 ;
+    stats:carries 360 ;
+    stats:clearances 14 ;
+    stats:dispossessed 7 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.2 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 6.6 ;
+    stats:matchesPlayed 13 ;
+    stats:matchesStarted 6 ;
+    stats:minutesPlayed 593 ;
+    stats:miscontrols 11 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 18 ;
+    stats:progressivePasses 39 ;
+    stats:progressivePassesReceived 63 ;
+    stats:rank 352 ;
+    stats:redCards 0 ;
+    stats:tackles 20 ;
+    stats:tacklesWon 5 ;
+    stats:touches 580 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2000-09-13"^^xsd:date ;
+    schema:description """Sacha Gaston Boey (born 13 September 2000) is a French professional footballer who plays as a right-back for Bundesliga club Bayern Munich.\r
+\r
+Born in France, Boey is Cameroonian by descent and eligible for both nations. He was a youth international for France in the under-17, under-18 and under-20 age groups.\r
+\r
+Boey was selected in the initial Cameroon squad for the 2021 Africa Cup of Nations, but was omitted from the final squad. In March 2022, Boey was included in the initial squad for Cameroon's 2022 FIFA World Cup qualification match against Algeria, but was once again omitted from the actual squad.\r
+\r
+Cameroon manager Rigobert Song stated in September 2022 that Boey had been contacted, but that the Cameroon national team would not "wait around every day" for the player to make a decision on his international future.\r
+\r
+On 31 May 2023, Boey has been selected for France national under-21 football team squad to play in Euro U-21 championship. On 14 June 2023, he has been removed from the U21 squad and replaced by Valentin Gendrey due to an ankle injury and missed the U21 championship."""@en ;
+    schema:height "178 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ig5u811607948483.jpg"^^xsd:anyURI ;
+    schema:memberOf "Bayern Munich"^^xsd:string ;
+    schema:name "Sacha Boey"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

@@ -1,0 +1,52 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Peio_Canales a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q123825008> ;
+    foaf:name "Peio Canales"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 17 ;
+    stats:blocks 3 ;
+    stats:carries 74 ;
+    stats:clearances 2 ;
+    stats:dispossessed 3 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 2.9 ;
+    stats:matchesPlayed 8 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 259 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 6 ;
+    stats:progressivePasses 6 ;
+    stats:progressivePassesReceived 11 ;
+    stats:rank 461 ;
+    stats:redCards 0 ;
+    stats:tackles 3 ;
+    stats:tacklesWon 2 ;
+    stats:touches 140 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2005-01-17"^^xsd:date ;
+    schema:description "Peio Canales Urtasun (born 17 January 2005) is a Spanish professional footballer who plays as a midfielder for Racing de Santander, on loan from Athletic Bilbao."@en ;
+    schema:height "179 cm"^^xsd:string ;
+    schema:memberOf "Racing de Santander"^^xsd:string ;
+    schema:name "Peio Canales"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "68 kg"^^xsd:string .
+

@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Raul_Albiol a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q4599> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/8s4jks1679062333.png"^^xsd:anyURI ;
+    foaf:name "Raúl Albiol"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 44 ;
+    stats:blocks 10 ;
+    stats:carries 514 ;
+    stats:clearances 69 ;
+    stats:dispossessed 1 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 13.2 ;
+    stats:matchesPlayed 15 ;
+    stats:matchesStarted 14 ;
+    stats:minutesPlayed 1188 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 2 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 3 ;
+    stats:progressivePasses 34 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 77 ;
+    stats:redCards 0 ;
+    stats:tackles 10 ;
+    stats:tacklesWon 9 ;
+    stats:touches 915 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1985-09-04"^^xsd:date ;
+    schema:description """Raúl Albiol Tortajada (born 4 September 1985) is a Spanish professional footballer who plays as a central defender.\r
+\r
+He spent most of his career with Valencia, Real Madrid and Villarreal, winning five major titles between the first two teams and the 2020–21 UEFA Europa League with the third. He amassed La Liga totals of 394 matches and eight goals over 16 seasons, and also played several years in the Italian Serie A with Napoli.\r
+\r
+A Spain international since 2007, Albiol represented the country in two World Cups and as many European Championships, winning three tournaments including the 2010 World Cup."""@en ;
+    schema:height "1.90 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/4pne5k1533747203.jpg"^^xsd:anyURI ;
+    schema:memberOf "_Free Agent Soccer"^^xsd:string ;
+    schema:name "Raúl Albiol"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "181 lbs"^^xsd:string .
+

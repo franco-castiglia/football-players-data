@@ -1,0 +1,66 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Malick_Fofana a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q113133054> ;
+    foaf:name "Malick Fofana"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 63 ;
+    stats:blocks 12 ;
+    stats:carries 587 ;
+    stats:clearances 6 ;
+    stats:dispossessed 18 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 3.7 ;
+    stats:expectedGoals 3.8 ;
+    stats:goals 5 ;
+    stats:goalsNonPenalty 5 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 25 ;
+    stats:matches90s 17.7 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 16 ;
+    stats:minutesPlayed 1589 ;
+    stats:miscontrols 36 ;
+    stats:passesIntoPenaltyArea 32 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Attacker"^^xsd:string ;
+    stats:progressiveCarries 112 ;
+    stats:progressivePasses 45 ;
+    stats:progressivePassesReceived 205 ;
+    stats:rank 911 ;
+    stats:redCards 0 ;
+    stats:tackles 22 ;
+    stats:tacklesWon 11 ;
+    stats:touches 828 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2005-03-31"^^xsd:date ;
+    schema:description """Malick Martin Fofana (born 31 March 2005) is a Belgian professional footballer who plays as a winger for Ligue 1 club Lyon and the Belgium under-21 national team.\r
+\r
+Club career\r
+Fofana started playing football at Eendracht Aalst before joining Gent's youth academy at the age of nine. There, he signed his first professional contract in January 2022.\r
+\r
+After he already participated in the pre-season friendlies, Fofana made his professional debut for Gent on the 30 July 2022, replacing Hugo Cuypers during a 1–1 home Division A draw against Sint-Truiden. Only a week later, he was awarded his first start against Westerlo, leading his team to a 2–1 home win.\r
+\r
+On 10 January 2024, Fofana joined Ligue 1 side Lyon for a fee of €17 million, plus €5 million in add-ons, and a 20% sell-on clause on a future sale in favor of Gent; he signed a contract until June 2028 with the French club. In the process, he became the third Belgian player in the history of Lyon, following Eric Deflandre and Jason Denayer.\r
+\r
+International career\r
+Fofana is a youth international for Belgium, having first established himself as a regular goalscorer with the under-17 national team, with whom he played the 2022 UEFA European Under-17 Championship.\r
+\r
+Fofana made his debut for the Belgium under-21 national in a 1-0 home win over Kazakhstan in September 2023, making further appearances the following month in wins over Malta and Hungary.\r
+\r
+Personal life\r
+Born in Belgium, Fofana is of Guinean and Filipino descent."""@en ;
+    schema:height "169 cm"^^xsd:string ;
+    schema:memberOf "Lyon"^^xsd:string ;
+    schema:name "Malick Fofana"^^xsd:string ;
+    schema:nationality "Belgium"^^xsd:string ;
+    schema:weight "132 lbs"^^xsd:string .
+

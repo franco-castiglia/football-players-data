@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Arthur_Theate a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q97724521> ;
+    foaf:account "http://www.instagram.com/arthurtheate/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/8cv6c31742045159.png"^^xsd:anyURI ;
+    foaf:name "Arthur Theate"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 123 ;
+    stats:blocks 42 ;
+    stats:carries 1321 ;
+    stats:clearances 170 ;
+    stats:dispossessed 7 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 1.0 ;
+    stats:expectedGoals 2.4 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 39 ;
+    stats:keyPasses 13 ;
+    stats:matches90s 30.0 ;
+    stats:matchesPlayed 31 ;
+    stats:matchesStarted 31 ;
+    stats:minutesPlayed 2704 ;
+    stats:miscontrols 21 ;
+    stats:passesIntoPenaltyArea 22 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 50 ;
+    stats:progressivePasses 171 ;
+    stats:progressivePassesReceived 24 ;
+    stats:rank 2583 ;
+    stats:redCards 1 ;
+    stats:tackles 36 ;
+    stats:tacklesWon 25 ;
+    stats:touches 2230 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "2000-05-25"^^xsd:date ;
+    schema:description "Arthur Nicolas Theate (born 25 May 2000) is a Belgian professional footballer who plays as a centre-back or left-back for Bundesliga club Eintracht Frankfurt, on loan from Ligue 1 club Rennes, and the Belgium national team."@en ;
+    schema:height "1.91 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/i3ftd91630160061.jpg"^^xsd:anyURI ;
+    schema:memberOf "Eintracht Frankfurt"^^xsd:string ;
+    schema:name "Arthur Theate"^^xsd:string ;
+    schema:nationality "Belgium"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

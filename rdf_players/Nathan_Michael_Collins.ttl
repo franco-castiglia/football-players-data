@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Nathan_Michael_Collins a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q63067287> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ao8bzl1694111861.png"^^xsd:anyURI ;
+    foaf:name "Nathan Michael Collins"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 162 ;
+    stats:blocks 77 ;
+    stats:carries 1289 ;
+    stats:clearances 226 ;
+    stats:dispossessed 8 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 1.8 ;
+    stats:expectedGoals 2.5 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 34 ;
+    stats:keyPasses 10 ;
+    stats:matches90s 38.0 ;
+    stats:matchesPlayed 38 ;
+    stats:matchesStarted 38 ;
+    stats:minutesPlayed 3420 ;
+    stats:miscontrols 20 ;
+    stats:passesIntoPenaltyArea 7 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 2 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 32 ;
+    stats:progressivePasses 127 ;
+    stats:progressivePassesReceived 18 ;
+    stats:rank 579 ;
+    stats:redCards 0 ;
+    stats:tackles 40 ;
+    stats:tacklesWon 24 ;
+    stats:touches 2435 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "2001-04-30"^^xsd:date ;
+    schema:description """Nathan Michael Collins (born 30 April 2001) is an Irish professional footballer who plays as a centre-back or full-back for Premier League club Brentford and the Republic of Ireland national team.\r
+\r
+Early life\r
+Collins was born in Confey, Leixlip, County Kildare and attended secondary school at Confey College.\r
+\r
+Club career\r
+Stoke City\r
+Collins began his career with youth club Cherry Orchard, where his father David and uncle Eamonn both started their careers. He joined English club Stoke City in January 2016 after being scouted by Tony Bowen, assistant manager Mark Bowen's brother. Collins made his first team debut on 9 April 2019 away at Swansea City. His first start came ten days later when he played the full 90 minutes of Stoke's 1–0 loss away to Middlesbrough at the Riverside Stadium. Collins signed a five-year contract with Stoke City in July 2019.\r
+\r
+Collins started the first few matches of the 2019–20 season and was given the captain's armband by Nathan Jones against Leeds United, becoming Stoke's youngest captain in the process. He was sent off for the first time in his career in an EFL Cup defeat at Crawley Town for a mistimed challenge on Panutche Camará. Collins remained on the fringes of the first team for the rest of the season under the management of Michael O'Neill, making a total of 17 appearances in the 2019–20 season. Collins played 27 times in the 2020–21 season before he suffered a season ending foot injury playing against Norwich City on 13 February 2021."""@en ;
+    schema:height "6 ft 4 in (1.93 m)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/9wl8nl1609962177.jpg"^^xsd:anyURI ;
+    schema:memberOf "Brentford"^^xsd:string ;
+    schema:name "Nathan Michael Collins"^^xsd:string ;
+    schema:nationality "Ireland"^^xsd:string .
+

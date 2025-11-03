@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Phil_Foden a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q30729096> ;
+    foaf:account "www.facebook.com/officialfoden"^^xsd:anyURI,
+        "www.instagram.com/philfoden"^^xsd:anyURI,
+        "x.com/PhilFoden"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/rfor6l1757098123.png"^^xsd:anyURI ;
+    foaf:name "Phil Foden"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 61 ;
+    stats:blocks 13 ;
+    stats:carries 722 ;
+    stats:clearances 7 ;
+    stats:dispossessed 31 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 4.8 ;
+    stats:expectedGoals 5.2 ;
+    stats:goals 7 ;
+    stats:goalsNonPenalty 7 ;
+    stats:interceptions 9 ;
+    stats:keyPasses 43 ;
+    stats:matches90s 19.7 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 20 ;
+    stats:minutesPlayed 1777 ;
+    stats:miscontrols 36 ;
+    stats:passesIntoPenaltyArea 39 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 50 ;
+    stats:progressivePasses 103 ;
+    stats:progressivePassesReceived 128 ;
+    stats:rank 910 ;
+    stats:redCards 0 ;
+    stats:tackles 13 ;
+    stats:tacklesWon 5 ;
+    stats:touches 1139 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2000-05-28"^^xsd:date ;
+    schema:description """Philip Walter Foden (born 28 May 2000) is an English professional footballer who plays as a midfielder for Premier League club Manchester City and the English under-21 national team.\r
+\r
+Foden's breakthrough into professional football came in 2017 when he won the FIFA U-17 World Cup Golden Ball award following England's successful campaign. He made his debut for City during the same year and in December was named BBC Young Sports Personality of the Year.\r
+\r
+Foden has since made over 35 appearances for the club, winning five major honours including becoming the youngest recipient of a Premier League winners' medal. In 2019, he won a second Premier League and became the club's youngest-ever goalscorer in the UEFA Champions League, and is the youngest English player to both start a match and score in the knockout stages of the competition. He is also the first goalscorer in these stages that was born in the 21st century."""@en ;
+    schema:height "5 ft 7 in (1.71 m)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/19o7yc1749157221.jpg"^^xsd:anyURI ;
+    schema:memberOf "Manchester City"^^xsd:string ;
+    schema:name "Phil Foden"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "139 lbs"^^xsd:string .
+

@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Melvin_Bard a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q55865078> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/jp00ws1700558431.png"^^xsd:anyURI ;
+    foaf:name "Melvin Bard"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 124 ;
+    stats:blocks 38 ;
+    stats:carries 778 ;
+    stats:clearances 60 ;
+    stats:dispossessed 15 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 1.9 ;
+    stats:expectedGoals 2.2 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 29 ;
+    stats:keyPasses 15 ;
+    stats:matches90s 21.5 ;
+    stats:matchesPlayed 24 ;
+    stats:matchesStarted 22 ;
+    stats:minutesPlayed 1938 ;
+    stats:miscontrols 28 ;
+    stats:passesIntoPenaltyArea 26 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 53 ;
+    stats:progressivePasses 88 ;
+    stats:progressivePassesReceived 95 ;
+    stats:rank 240 ;
+    stats:redCards 2 ;
+    stats:tackles 53 ;
+    stats:tacklesWon 36 ;
+    stats:touches 1436 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2000-11-06"^^xsd:date ;
+    schema:description "Melvin Michel Maxence Bard (born 6 November 2000) is a French professional footballer who plays as left-back for Nice."@en ;
+    schema:height "1.73 m (5 ft 7 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/sybr7o1608128758.jpg"^^xsd:anyURI ;
+    schema:memberOf "Nice"^^xsd:string ;
+    schema:name "Melvin Bard"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "141 lbs"^^xsd:string .
+

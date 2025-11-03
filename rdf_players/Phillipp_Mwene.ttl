@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Phillipp_Mwene a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q11634138> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/55xp9z1742068717.png"^^xsd:anyURI ;
+    foaf:name "Phillipp Mwene"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 110 ;
+    stats:blocks 27 ;
+    stats:carries 775 ;
+    stats:clearances 51 ;
+    stats:dispossessed 26 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.9 ;
+    stats:expectedGoals 1.5 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 24 ;
+    stats:keyPasses 22 ;
+    stats:matches90s 29.0 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 32 ;
+    stats:minutesPlayed 2607 ;
+    stats:miscontrols 47 ;
+    stats:passesIntoPenaltyArea 38 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 62 ;
+    stats:progressivePasses 106 ;
+    stats:progressivePassesReceived 144 ;
+    stats:rank 1842 ;
+    stats:redCards 0 ;
+    stats:tackles 51 ;
+    stats:tacklesWon 29 ;
+    stats:touches 1555 ;
+    stats:yellowCards 7 ;
+    schema:birthDate "1994-01-29"^^xsd:date ;
+    schema:description "Phillipp Mwene (born 29 January 1994) is an Austrian professional footballer who plays as a right back for Bundesliga club Mainz 05 and the Austria national team."@en ;
+    schema:height "1.70 m (5 ft 7 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/r89zw21578227346.jpg"^^xsd:anyURI ;
+    schema:memberOf "Mainz"^^xsd:string ;
+    schema:name "Phillipp Mwene"^^xsd:string ;
+    schema:nationality "Austria"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

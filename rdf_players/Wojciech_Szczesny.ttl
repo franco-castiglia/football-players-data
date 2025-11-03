@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Wojciech_Szczesny a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q188997> ;
+    foaf:account "instagram.com/wojciechszczesny1"^^xsd:anyURI,
+        "twitter.com/13szczesny13"^^xsd:anyURI,
+        "www.facebook.com/wojciechszczesny1.official"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/9u5ylz1741723321.png"^^xsd:anyURI ;
+    foaf:name "Wojciech Szczesny"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 52 ;
+    stats:blocks 0 ;
+    stats:carries 286 ;
+    stats:clearances 20 ;
+    stats:dispossessed 0 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 15.0 ;
+    stats:matchesPlayed 15 ;
+    stats:matchesStarted 15 ;
+    stats:minutesPlayed 1350 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 2537 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 1 ;
+    stats:touches 492 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1990-04-18"^^xsd:date ;
+    schema:description """Wojciech Tomasz Szczęsny (Polish pronunciation:  ⓘ; born 18 April 1990) is a Polish professional footballer who plays as a goalkeeper for La Liga club Barcelona. Known for his reflexes and shot stopping, Szczęsny is widely regarded as one of the best goalkeepers in the world.\r
+\r
+After starting his club career at Legia Warsaw, Szczęsny signed for Arsenal in January 2006, where he made his professional debut in 2009. After a spell on loan with Brentford the following season, he later became the capital club's first choice goalkeeper, winning two FA Cups and being the joint recipient of the 2013–14 Premier League Golden Glove alongside Petr Čech. He subsequently went on two consecutive season-long loans to Italian club Roma in 2015, where his performances earned him a move to reigning league champions Juventus in 2017. After serving mainly as a back-up to Gianluigi Buffon in his first season, during which he won a domestic double, he inherited the starting spot from the departed Buffon the following season, winning his second Serie A title; his performances also earned him a Yashin Trophy nomination in 2019. He won a third consecutive league title the following season, also winning the Serie A Best Goalkeeper Award. He briefly retired from professional football in 2024, before reversing his decision shortly after to join Barcelona.\r
+\r
+At international level, Szczęsny earned 84 caps for Poland between his debut in 2009 and 2024, and was included in the nation's squad as it co-hosted UEFA Euro 2012; he would later participate in three more editions of the tournament (2016, 2020 and 2024), as well as two FIFA World Cups (2018 and 2022)."""@en ;
+    schema:height "1.96 m (6 ft 5 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/3epoxq1713428540.jpg"^^xsd:anyURI ;
+    schema:memberOf "Barcelona"^^xsd:string ;
+    schema:name "Wojciech Szczesny"^^xsd:string ;
+    schema:nationality "Poland"^^xsd:string ;
+    schema:weight "89 kg (196 lb)"^^xsd:string .
+

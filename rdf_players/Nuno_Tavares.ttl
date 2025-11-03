@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Nuno_Tavares a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q60676459> ;
+    foaf:account "www.instagram.com/nuno_tavares71/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/r6tr7q1759646580.png"^^xsd:anyURI ;
+    foaf:name "Nuno Tavares"^^xsd:string ;
+    stats:assists 8 ;
+    stats:ballRecoveries 104 ;
+    stats:blocks 21 ;
+    stats:carries 736 ;
+    stats:clearances 44 ;
+    stats:dispossessed 32 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 4.8 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 21 ;
+    stats:keyPasses 33 ;
+    stats:matches90s 18.7 ;
+    stats:matchesPlayed 23 ;
+    stats:matchesStarted 22 ;
+    stats:minutesPlayed 1686 ;
+    stats:miscontrols 45 ;
+    stats:passesIntoPenaltyArea 44 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:progressiveCarries 98 ;
+    stats:progressivePasses 111 ;
+    stats:progressivePassesReceived 100 ;
+    stats:rank 2556 ;
+    stats:redCards 1 ;
+    stats:tackles 28 ;
+    stats:tacklesWon 21 ;
+    stats:touches 1302 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2000-01-26"^^xsd:date ;
+    schema:description "Nuno Albertino Varela Tavares (born 26 January 2000) is a Portuguese professional footballer who plays as a full-back for Serie A club Lazio."@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/jx59xl1627416806.jpg"^^xsd:anyURI ;
+    schema:memberOf "Lazio"^^xsd:string ;
+    schema:name "Nuno Tavares"^^xsd:string ;
+    schema:nationality "Portugal"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

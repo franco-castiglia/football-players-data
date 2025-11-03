@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Gabriel_Suazo a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q21044405> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/id4o8s1681642366.png"^^xsd:anyURI ;
+    foaf:name "Gabriel Suazo"^^xsd:string ;
+    stats:assists 6 ;
+    stats:ballRecoveries 125 ;
+    stats:blocks 27 ;
+    stats:carries 782 ;
+    stats:clearances 40 ;
+    stats:dispossessed 14 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 3.8 ;
+    stats:expectedGoals 0.8 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 36 ;
+    stats:keyPasses 40 ;
+    stats:matches90s 24.0 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 23 ;
+    stats:minutesPlayed 2163 ;
+    stats:miscontrols 36 ;
+    stats:passesIntoPenaltyArea 38 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:progressiveCarries 42 ;
+    stats:progressivePasses 109 ;
+    stats:progressivePassesReceived 118 ;
+    stats:rank 2518 ;
+    stats:redCards 0 ;
+    stats:tackles 59 ;
+    stats:tacklesWon 39 ;
+    stats:touches 1484 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1997-08-09"^^xsd:date ;
+    schema:description """Gabriel Alonso Suazo Urbina (born 9 August 1997) is a Chilean professional footballer who plays as a left-back for Ligue 1 club Toulouse. \r
+\r
+International career\r
+Suazo was called up for Chile's pre-Copa América Centenario friendly against Mexico in May 2016."""@en ;
+    schema:height "1.80 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/bdsenz1715642812.jpg"^^xsd:anyURI ;
+    schema:memberOf "Toulouse"^^xsd:string ;
+    schema:name "Gabriel Suazo"^^xsd:string ;
+    schema:nationality "Chile"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

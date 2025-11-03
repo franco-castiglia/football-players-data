@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Arne_Maier a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q29917387> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/4w57kh1742055737.png"^^xsd:anyURI ;
+    foaf:name "Arne Maier"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 72 ;
+    stats:blocks 15 ;
+    stats:carries 390 ;
+    stats:clearances 14 ;
+    stats:dispossessed 9 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.5 ;
+    stats:expectedGoals 1.5 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 25 ;
+    stats:matches90s 10.4 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 938 ;
+    stats:miscontrols 21 ;
+    stats:passesIntoPenaltyArea 10 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 19 ;
+    stats:progressivePasses 44 ;
+    stats:progressivePassesReceived 56 ;
+    stats:rank 1572 ;
+    stats:redCards 1 ;
+    stats:tackles 13 ;
+    stats:tacklesWon 7 ;
+    stats:touches 699 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1999-01-08"^^xsd:date ;
+    schema:description "Arne Carl Maier (born 8 January 1999) is a German professional footballer who plays as a midfielder for Bundesliga club FC Augsburg. He represented the Germany national under-21 team."@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/mlb5rz1578081002.jpg"^^xsd:anyURI ;
+    schema:memberOf "FC Augsburg"^^xsd:string ;
+    schema:name "Arne Maier"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

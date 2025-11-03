@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Dilane_Bakwa a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q99672568> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/b5kuwi1757164573.png"^^xsd:anyURI ;
+    foaf:name "Dilane Bakwa"^^xsd:string ;
+    stats:assists 8 ;
+    stats:ballRecoveries 92 ;
+    stats:blocks 21 ;
+    stats:carries 890 ;
+    stats:clearances 27 ;
+    stats:dispossessed 34 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 6.6 ;
+    stats:expectedGoals 4.7 ;
+    stats:goals 6 ;
+    stats:goalsNonPenalty 6 ;
+    stats:interceptions 15 ;
+    stats:keyPasses 47 ;
+    stats:matches90s 27.7 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 29 ;
+    stats:minutesPlayed 2497 ;
+    stats:miscontrols 60 ;
+    stats:passesIntoPenaltyArea 40 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 107 ;
+    stats:progressivePasses 129 ;
+    stats:progressivePassesReceived 249 ;
+    stats:rank 214 ;
+    stats:redCards 0 ;
+    stats:tackles 26 ;
+    stats:tacklesWon 14 ;
+    stats:touches 1420 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2002-08-26"^^xsd:date ;
+    schema:description "Dilane Bakwa (born 26 August 2002) is a French professional footballer who plays as winger for Premier League club Nottingham Forest."@en ;
+    schema:height "1.79 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/l35z2h1610372861.jpg"^^xsd:anyURI ;
+    schema:memberOf "Nottingham Forest"^^xsd:string ;
+    schema:name "Dilane Bakwa"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

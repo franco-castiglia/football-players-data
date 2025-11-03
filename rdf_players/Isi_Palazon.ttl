@@ -1,0 +1,64 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Isi_Palazon a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q20016464> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/wq4rq31679058177.png"^^xsd:anyURI ;
+    foaf:name "Isi Palazón"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 102 ;
+    stats:blocks 22 ;
+    stats:carries 716 ;
+    stats:clearances 13 ;
+    stats:dispossessed 43 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 4.4 ;
+    stats:expectedGoals 4.7 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 48 ;
+    stats:matches90s 24.0 ;
+    stats:matchesPlayed 35 ;
+    stats:matchesStarted 25 ;
+    stats:minutesPlayed 2162 ;
+    stats:miscontrols 54 ;
+    stats:passesIntoPenaltyArea 19 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:progressiveCarries 30 ;
+    stats:progressivePasses 117 ;
+    stats:progressivePassesReceived 123 ;
+    stats:rank 2027 ;
+    stats:redCards 0 ;
+    stats:tackles 22 ;
+    stats:tacklesWon 17 ;
+    stats:touches 1285 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1994-12-27"^^xsd:date ;
+    schema:description """Isaac "Isi" Palazón Camacho (born 6 January 1994) is a Spanish professional footballer who plays for La Liga club Rayo Vallecano as a left winger.\r
+\r
+Club career\r
+Palazón was born in Cieza, Murcia, and made his senior debut with CD Cieza at the age of just 15, after spending a short period at Real Madrid's La Fábrica. He subsequently moved to Villarreal CF's youth setup, reaching the C-team before being released in 2013; he then returned to his first club Cieza.\r
+\r
+In 2014, Palazón joined Real Murcia and was initially assigned to the reserves in Tercera División. On 18 December of that year, he agreed to a new three-year contract with the club, being definitely promoted to the main squad in Segunda División B the following year.\r
+\r
+On 18 August 2017, Palazón moved to fellow third division side SD Ponferradina, after terminating his contract with Murcia. He contributed with eight goals in 40 appearances during the 2018–19 season, as his side returned to Segunda División after a three-year absence.\r
+\r
+Palazón made his professional debut on 18 August 2019, starting in a 3–1 away loss against Cádiz CF. He scored his first goal in the category on 26 October, netting his team's second in a 3–1 away defeat of Rayo Vallecano\r
+\r
+On 23 January 2020, Palazón signed a three-and-a-half-year contract with fellow second division side Rayo."""@en ;
+    schema:height "1.69 m (5 ft 7 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/gkxsp01630064625.jpg"^^xsd:anyURI ;
+    schema:memberOf "Vallecano"^^xsd:string ;
+    schema:name "Isi Palazón"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "157 lbs"^^xsd:string .
+

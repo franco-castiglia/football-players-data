@@ -1,0 +1,62 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mason_Greenwood a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q61986758> ;
+    foaf:account "twitter.com/masongreenwood"^^xsd:anyURI,
+        "www.instagram.com/masongreenwood/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/4dwq041759498761.png"^^xsd:anyURI ;
+    foaf:name "Mason Greenwood"^^xsd:string ;
+    stats:assists 5 ;
+    stats:ballRecoveries 88 ;
+    stats:blocks 7 ;
+    stats:carries 1214 ;
+    stats:clearances 5 ;
+    stats:dispossessed 44 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 5.7 ;
+    stats:expectedGoals 16.3 ;
+    stats:goals 21 ;
+    stats:goalsNonPenalty 14 ;
+    stats:interceptions 12 ;
+    stats:keyPasses 47 ;
+    stats:matches90s 31.2 ;
+    stats:matchesPlayed 34 ;
+    stats:matchesStarted 32 ;
+    stats:minutesPlayed 2804 ;
+    stats:miscontrols 63 ;
+    stats:passesIntoPenaltyArea 70 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 2 ;
+    stats:position "Right Midfield"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 126 ;
+    stats:progressivePasses 157 ;
+    stats:progressivePassesReceived 295 ;
+    stats:rank 1061 ;
+    stats:redCards 0 ;
+    stats:tackles 35 ;
+    stats:tacklesWon 18 ;
+    stats:touches 1746 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2001-10-01"^^xsd:date ;
+    schema:description """Mason Will John Greenwood (born 1 October 2001) is an English professional footballer who plays as a forward for Ligue 1 club Marseille.\r
+\r
+A graduate of Manchester United's youth system, Greenwood scored in a UEFA Europa League match against Astana in September 2019, to become the club's youngest ever goalscorer in European competition at the age of 17 years, 353 days. His senior international debut for England came in September 2020, in a UEFA Nations League game against Iceland.\r
+\r
+In October 2022, Greenwood was charged with attempted rape, assault occasioning actual bodily harm, and controlling and coercive behaviour. In February 2023, all charges against him were dropped.\r
+\r
+In July 2024, Greenwood left Manchester United on a permanent deal to join French club Marseille."""@en ;
+    schema:height "1.81 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/1v8m0c1584096441.jpg"^^xsd:anyURI ;
+    schema:memberOf "Marseille"^^xsd:string ;
+    schema:name "Mason Greenwood"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

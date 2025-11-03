@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Marc_Cucurella a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q22082505> ;
+    foaf:account "twitter.com/cucurella3"^^xsd:anyURI,
+        "www.instagram.com/cucurella3/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/j7i66q1757002736.png"^^xsd:anyURI ;
+    foaf:name "Marc Cucurella"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 130 ;
+    stats:blocks 49 ;
+    stats:carries 944 ;
+    stats:clearances 95 ;
+    stats:dispossessed 7 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 2.1 ;
+    stats:expectedGoals 2.8 ;
+    stats:goals 5 ;
+    stats:goalsNonPenalty 5 ;
+    stats:interceptions 28 ;
+    stats:keyPasses 19 ;
+    stats:matches90s 33.2 ;
+    stats:matchesPlayed 36 ;
+    stats:matchesStarted 33 ;
+    stats:minutesPlayed 2988 ;
+    stats:miscontrols 28 ;
+    stats:passesIntoPenaltyArea 12 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:progressiveCarries 35 ;
+    stats:progressivePasses 118 ;
+    stats:progressivePassesReceived 117 ;
+    stats:rank 636 ;
+    stats:redCards 1 ;
+    stats:tackles 67 ;
+    stats:tacklesWon 45 ;
+    stats:touches 2244 ;
+    stats:yellowCards 10 ;
+    schema:birthDate "1998-07-22"^^xsd:date ;
+    schema:description """Marc Cucurella (born 22 July 1998) is a Spanish professional footballer who plays as a left-back for Premier League club Chelsea and the Spain national team.\r
+\r
+Formed at Barcelona, Cucurella spent most of his time there in the reserve team, making a sole substitute appearance in the Copa del Rey for the first team. He went on to play over 100 La Liga games for Eibar and Getafe, before joining Brighton in 2021.\r
+\r
+Cucurella earned 49 caps for Spain over every youth level from under-16 to under-23, winning the silver medal with the latter at the 2020 Olympic tournament. He made his debut for the senior team in 2021."""@en ;
+    schema:height "1.72 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/sbcvq51588436650.jpg"^^xsd:anyURI ;
+    schema:memberOf "Chelsea"^^xsd:string ;
+    schema:name "Marc Cucurella"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "146 lbs"^^xsd:string .
+

@@ -1,0 +1,66 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Samuel_Grandsir a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q27671254> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/pzuvqr1702296703.png"^^xsd:anyURI ;
+    foaf:name "Samuel Grandsir"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 9 ;
+    stats:blocks 2 ;
+    stats:carries 24 ;
+    stats:clearances 0 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.6 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 0.9 ;
+    stats:matchesPlayed 6 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 84 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 5 ;
+    stats:progressivePasses 6 ;
+    stats:progressivePassesReceived 5 ;
+    stats:rank 1055 ;
+    stats:redCards 0 ;
+    stats:tackles 5 ;
+    stats:tacklesWon 5 ;
+    stats:touches 42 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1996-08-14"^^xsd:date ;
+    schema:description """Samuel Grandsir (born 14 August 1996) is a French-Senegalese professional footballer who plays as a winger for Ligue 2 club Caen.\r
+\r
+Grandsir started his youth career in his hometown, Évreux. He eventually moved to the youth team of Troyes.\r
+\r
+After spending time with the youth team and reserve team, Grandsir signed with the Troyes senior team in 2016.\r
+\r
+Garnering attention from other clubs after several impressive seasons, he moved to Monaco for €5.250m in 2018.\r
+\r
+He went on loan from Monaco to Strasbourg in January 2019 followed by another loan to Brest for the 2019-2020 season.\r
+\r
+On 11 March 2021, Grandsir signed with MLS side LA Galaxy.\r
+\r
+Born in France, Grandsir is of Senegalese descent. He represented France at the youth international level."""@en ;
+    schema:height "1.70 m (5 ft 7 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/p00srm1652354067.jpg"^^xsd:anyURI ;
+    schema:memberOf "Caen"^^xsd:string ;
+    schema:name "Samuel Grandsir"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "141 lbs"^^xsd:string .
+

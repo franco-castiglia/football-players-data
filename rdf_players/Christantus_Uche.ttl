@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Christantus_Uche a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q125131571> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/cqp2ki1757015439.png"^^xsd:anyURI ;
+    foaf:name "Christantus Uche"^^xsd:string ;
+    stats:assists 6 ;
+    stats:ballRecoveries 110 ;
+    stats:blocks 20 ;
+    stats:carries 553 ;
+    stats:clearances 19 ;
+    stats:dispossessed 67 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.9 ;
+    stats:expectedGoals 3.8 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 10 ;
+    stats:keyPasses 29 ;
+    stats:matches90s 27.6 ;
+    stats:matchesPlayed 33 ;
+    stats:matchesStarted 30 ;
+    stats:minutesPlayed 2486 ;
+    stats:miscontrols 113 ;
+    stats:passesIntoPenaltyArea 16 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:progressiveCarries 43 ;
+    stats:progressivePasses 49 ;
+    stats:progressivePassesReceived 148 ;
+    stats:rank 2643 ;
+    stats:redCards 2 ;
+    stats:tackles 35 ;
+    stats:tacklesWon 21 ;
+    stats:touches 971 ;
+    stats:yellowCards 8 ;
+    schema:birthDate "2003-05-19"^^xsd:date ;
+    schema:description "Christantus Ugonna Uche (born 19 May 2003) is a Nigerian footballer, who plays mainly as an attacking midfielder, but also occasionally as a forward for Premier League club Crystal Palace, on loan from La Liga club Getafe. He plays internationally for the Nigeria national team."@en ;
+    schema:height "190cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/hh2y2g1757011058.jpg"^^xsd:anyURI ;
+    schema:memberOf "Crystal Palace"^^xsd:string ;
+    schema:name "Christantus Uche"^^xsd:string ;
+    schema:nationality "Nigeria"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Naatan_Skytta a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q60676313> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/rb58651717012192.png"^^xsd:anyURI ;
+    foaf:name "Naatan Skyttä"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 1 ;
+    stats:blocks 0 ;
+    stats:carries 4 ;
+    stats:clearances 0 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.1 ;
+    stats:matchesPlayed 1 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 5 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 2453 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 0 ;
+    stats:touches 5 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2002-05-07"^^xsd:date ;
+    schema:description "Naatan Mikael Skyttä (born 7 May 2002) is a Finnish professional footballer who plays as a midfielder for Ligue 1 club Toulouse and the Finland U21 national team."@en ;
+    schema:height "170 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/aqo82d1717011888.jpg"^^xsd:anyURI ;
+    schema:memberOf "Toulouse"^^xsd:string ;
+    schema:name "Naatan Skyttä"^^xsd:string ;
+    schema:nationality "Finland"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Maxence_Lacroix a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q60286976> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/6p7f5w1761492552.png"^^xsd:anyURI ;
+    foaf:name "Maxence Lacroix"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 130 ;
+    stats:blocks 48 ;
+    stats:carries 1030 ;
+    stats:clearances 207 ;
+    stats:dispossessed 6 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 1.0 ;
+    stats:expectedGoals 3.4 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 54 ;
+    stats:keyPasses 8 ;
+    stats:matches90s 34.6 ;
+    stats:matchesPlayed 35 ;
+    stats:matchesStarted 35 ;
+    stats:minutesPlayed 3116 ;
+    stats:miscontrols 21 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 8 ;
+    stats:progressivePasses 65 ;
+    stats:progressivePassesReceived 7 ;
+    stats:rank 1437 ;
+    stats:redCards 0 ;
+    stats:tackles 68 ;
+    stats:tacklesWon 41 ;
+    stats:touches 1934 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "2000-04-06"^^xsd:date ;
+    schema:description """Maxence Guy Lacroix (born 6 April 2000) is a French professional footballer who plays as a centre-back for Premier League club Crystal Palace. \r
+Club career\r
+On 21 August 2017, Lacroix signed his first professional contract with FC Sochaux-Montbéliard. Lacroix made his professional debut with Sochaux in a 1–0 Ligue 2 win over FC Lorient on 22 December 2018.+\r
+\r
+On 25 August 2020, Lacroix joined VfL Wolfsburg on a four-year deal.\r
+\r
+International career\r
+Lacroix is a youth international for France, and represented the France U17s at the 2017 UEFA European Under-17 Championship and 2017 FIFA U-17 World Cup."""@en ;
+    schema:height "1.90 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/4qjk191605453089.jpg"^^xsd:anyURI ;
+    schema:memberOf "Crystal Palace"^^xsd:string ;
+    schema:name "Maxence Lacroix"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "192 lbs"^^xsd:string .
+

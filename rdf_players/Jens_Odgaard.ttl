@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jens_Odgaard a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q26251603> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/ls06i11758896851.png"^^xsd:anyURI ;
+    foaf:name "Jens Odgaard"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 70 ;
+    stats:blocks 19 ;
+    stats:carries 454 ;
+    stats:clearances 12 ;
+    stats:dispossessed 33 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.8 ;
+    stats:expectedGoals 3.6 ;
+    stats:goals 6 ;
+    stats:goalsNonPenalty 6 ;
+    stats:interceptions 9 ;
+    stats:keyPasses 16 ;
+    stats:matches90s 21.7 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 24 ;
+    stats:minutesPlayed 1952 ;
+    stats:miscontrols 56 ;
+    stats:passesIntoPenaltyArea 15 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:progressiveCarries 35 ;
+    stats:progressivePasses 50 ;
+    stats:progressivePassesReceived 99 ;
+    stats:rank 1941 ;
+    stats:redCards 0 ;
+    stats:tackles 20 ;
+    stats:tacklesWon 14 ;
+    stats:touches 759 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1999-03-31"^^xsd:date ;
+    schema:description """Jens Odgaard (born 31 March 1999) is a Danish professional footballer who plays as a striker for Dutch club AZ.\r
+Odgaard got his debut for Lyngby BK on 15 March 2016 at the age of just 16. He started on the bench, but replaced Gustav Therkildsen in the 89th minute in a 1–0 victory against Aalborg in the Danish Cup.\r
+He played his first league game on 17 April 2016, where he came on the pitch in the 65th minute, replacing Jeppe Kjær, in a 2–0 victory against Næstved BK."""@en ;
+    schema:height "188 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/bkznay1679158087.jpg"^^xsd:anyURI ;
+    schema:memberOf "Bologna"^^xsd:string ;
+    schema:name "Jens Odgaard"^^xsd:string ;
+    schema:nationality "Denmark"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

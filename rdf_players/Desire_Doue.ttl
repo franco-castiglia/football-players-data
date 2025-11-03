@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Desire_Doue a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q112170256> ;
+    foaf:account "www.instagram.com/desire.doue/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/kc2xdi1748682470.png"^^xsd:anyURI ;
+    foaf:name "Désiré Doué"^^xsd:string ;
+    stats:assists 6 ;
+    stats:ballRecoveries 93 ;
+    stats:blocks 26 ;
+    stats:carries 899 ;
+    stats:clearances 7 ;
+    stats:dispossessed 37 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 7.8 ;
+    stats:expectedGoals 5.1 ;
+    stats:goals 6 ;
+    stats:goalsNonPenalty 6 ;
+    stats:interceptions 13 ;
+    stats:keyPasses 55 ;
+    stats:matches90s 19.2 ;
+    stats:matchesPlayed 31 ;
+    stats:matchesStarted 18 ;
+    stats:minutesPlayed 1730 ;
+    stats:miscontrols 54 ;
+    stats:passesIntoPenaltyArea 51 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 2 ;
+    stats:position "Left Midfield"^^xsd:string ;
+    stats:progressiveCarries 97 ;
+    stats:progressivePasses 139 ;
+    stats:progressivePassesReceived 232 ;
+    stats:rank 776 ;
+    stats:redCards 0 ;
+    stats:tackles 48 ;
+    stats:tacklesWon 30 ;
+    stats:touches 1461 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2005-06-03"^^xsd:date ;
+    schema:description """Désiré Nonka-Maho Doué (born 3 June 2005) is a French professional footballer who plays as a winger for Ligue 1 club Paris Saint-Germain. He is widely considered to be one of the most talented prospects in European football.\r
+\r
+Doué is a youth international for France, having played for the national team at the under-17, under-19 and under-21 levels, as well as representing the Olympic team in 2024."""@en ;
+    schema:height "1.81 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/bzjumw1748791994.jpg"^^xsd:anyURI ;
+    schema:memberOf "Paris SG"^^xsd:string ;
+    schema:name "Désiré Doué"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "79 kg (174 lb)"^^xsd:string .
+

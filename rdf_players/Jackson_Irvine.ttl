@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jackson_Irvine a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q10544594> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/zho4bl1742071189.png"^^xsd:anyURI ;
+    foaf:name "Jackson Irvine"^^xsd:string ;
+    stats:assists 6 ;
+    stats:ballRecoveries 125 ;
+    stats:blocks 27 ;
+    stats:carries 464 ;
+    stats:clearances 63 ;
+    stats:dispossessed 13 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 3.9 ;
+    stats:expectedGoals 3.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 36 ;
+    stats:keyPasses 32 ;
+    stats:matches90s 29.0 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 29 ;
+    stats:minutesPlayed 2610 ;
+    stats:miscontrols 42 ;
+    stats:passesIntoPenaltyArea 12 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 19 ;
+    stats:progressivePasses 117 ;
+    stats:progressivePassesReceived 58 ;
+    stats:rank 1218 ;
+    stats:redCards 0 ;
+    stats:tackles 56 ;
+    stats:tacklesWon 28 ;
+    stats:touches 1286 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1993-03-07"^^xsd:date ;
+    schema:description """Jackson Alexander Irvine (born 7 March 1993) is an Australian professional soccer player who plays as a central midfielder for Bundesliga club FC St. Pauli, whom he captains, and the Australia national team. \r
+Irvine has represented the Scotland national under-19 football team, but has since made his debut for the Australian national side."""@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/cevso51506504164.jpg"^^xsd:anyURI ;
+    schema:memberOf "St Pauli"^^xsd:string ;
+    schema:name "Jackson Irvine"^^xsd:string ;
+    schema:nationality "Australia"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

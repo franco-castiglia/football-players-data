@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Dani_Rodriguez a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q114834401> ;
+    foaf:account "twitter.com/18danirodriguez"^^xsd:anyURI,
+        "www.instagram.com/danirodriguez88/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/dxadsn1701170841.png"^^xsd:anyURI ;
+    foaf:name "Dani Rodríguez"^^xsd:string ;
+    stats:assists 7 ;
+    stats:ballRecoveries 70 ;
+    stats:blocks 22 ;
+    stats:carries 512 ;
+    stats:clearances 30 ;
+    stats:dispossessed 46 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 3.1 ;
+    stats:expectedGoals 2.8 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 12 ;
+    stats:keyPasses 33 ;
+    stats:matches90s 24.0 ;
+    stats:matchesPlayed 37 ;
+    stats:matchesStarted 26 ;
+    stats:minutesPlayed 2162 ;
+    stats:miscontrols 50 ;
+    stats:passesIntoPenaltyArea 17 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 37 ;
+    stats:progressivePasses 78 ;
+    stats:progressivePassesReceived 108 ;
+    stats:rank 2235 ;
+    stats:redCards 0 ;
+    stats:tackles 49 ;
+    stats:tacklesWon 29 ;
+    stats:touches 971 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1988-06-06"^^xsd:date ;
+    schema:description "Daniel 'Dani' José Rodríguez Vázquez (born 6 June 1988) is a Spanish footballer who plays for RCD Mallorca as a central midfielder."@en ;
+    schema:height "1.77 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/psyrup1630013444.jpg"^^xsd:anyURI ;
+    schema:memberOf "Mallorca"^^xsd:string ;
+    schema:name "Dani Rodríguez"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "157 lbs"^^xsd:string .
+

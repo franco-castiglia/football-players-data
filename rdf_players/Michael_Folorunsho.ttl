@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Michael_Folorunsho a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q65553869> ;
+    foaf:account "www.instagram.com/michael_folorunsho/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ewt27z1718362148.png"^^xsd:anyURI ;
+    foaf:name "Michael Folorunsho"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 29 ;
+    stats:blocks 9 ;
+    stats:carries 190 ;
+    stats:clearances 10 ;
+    stats:dispossessed 9 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.6 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 7.2 ;
+    stats:matchesPlayed 14 ;
+    stats:matchesStarted 6 ;
+    stats:minutesPlayed 650 ;
+    stats:miscontrols 12 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 13 ;
+    stats:progressivePasses 21 ;
+    stats:progressivePassesReceived 33 ;
+    stats:rank 918 ;
+    stats:redCards 0 ;
+    stats:tackles 19 ;
+    stats:tacklesWon 12 ;
+    stats:touches 342 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1998-02-07"^^xsd:date ;
+    schema:description "Michael Ijemuan Folorunsho (born 7 February 1998) is an Italian professional footballer who plays as a midfielder for Serie A club Fiorentina, on loan from Napoli. He also plays for the Italy national team."@en ;
+    schema:height "1.80 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/q3n0vu1692481390.jpg"^^xsd:anyURI ;
+    schema:memberOf "Cagliari"^^xsd:string ;
+    schema:name "Michael Folorunsho"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "203 lbs"^^xsd:string .
+

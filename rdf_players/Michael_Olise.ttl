@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Michael_Olise a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q62050484> ;
+    foaf:account "twitter.com/michaelolise10"^^xsd:anyURI,
+        "www.instagram.com/m.olise/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/r4vx6b1756408807.png"^^xsd:anyURI ;
+    foaf:name "Michael Olise"^^xsd:string ;
+    stats:assists 15 ;
+    stats:ballRecoveries 105 ;
+    stats:blocks 23 ;
+    stats:carries 1305 ;
+    stats:clearances 16 ;
+    stats:dispossessed 29 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 12.0 ;
+    stats:expectedGoals 9.7 ;
+    stats:goals 12 ;
+    stats:goalsNonPenalty 12 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 90 ;
+    stats:matches90s 25.9 ;
+    stats:matchesPlayed 34 ;
+    stats:matchesStarted 28 ;
+    stats:minutesPlayed 2334 ;
+    stats:miscontrols 59 ;
+    stats:passesIntoPenaltyArea 111 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 2 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 119 ;
+    stats:progressivePasses 184 ;
+    stats:progressivePassesReceived 381 ;
+    stats:rank 1961 ;
+    stats:redCards 0 ;
+    stats:tackles 36 ;
+    stats:tacklesWon 23 ;
+    stats:touches 1957 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2001-12-12"^^xsd:date ;
+    schema:description """Michael Akpovie Olise (born 12 December 2001) is a professional footballer who plays as an attacking midfielder and winger for Bundesliga club Bayern Munich.\r
+\r
+The product of various English academies, Olise made his professional debut for Reading in 2019. In 2021, he was signed by Premier League club Crystal Palace, where he spent three seasons before departing for Bayern Munich in 2024.\r
+\r
+Born in England, he represents France at youth level."""@en ;
+    schema:height "1.84 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/buwnvx1603838169.jpg"^^xsd:anyURI ;
+    schema:memberOf "Bayern Munich"^^xsd:string ;
+    schema:name "Michael Olise"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

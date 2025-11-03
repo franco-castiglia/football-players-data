@@ -1,0 +1,73 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Moses_Simon a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q15900645> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/butn2y1681388510.png"^^xsd:anyURI ;
+    foaf:name "Moses Simon"^^xsd:string ;
+    stats:assists 10 ;
+    stats:ballRecoveries 118 ;
+    stats:blocks 11 ;
+    stats:carries 731 ;
+    stats:clearances 13 ;
+    stats:dispossessed 55 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 6.7 ;
+    stats:expectedGoals 5.8 ;
+    stats:goals 8 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 12 ;
+    stats:keyPasses 56 ;
+    stats:matches90s 29.0 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 31 ;
+    stats:minutesPlayed 2609 ;
+    stats:miscontrols 67 ;
+    stats:passesIntoPenaltyArea 41 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 147 ;
+    stats:progressivePasses 59 ;
+    stats:progressivePassesReceived 222 ;
+    stats:rank 2427 ;
+    stats:redCards 0 ;
+    stats:tackles 20 ;
+    stats:tacklesWon 14 ;
+    stats:touches 1131 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1995-07-12"^^xsd:date ;
+    schema:description """Moses Daddy Simon (born 12 July 1995) is a Nigerian professional footballer who plays as a forward for Ligue 1 side FC Nantes and the Nigeria national team, after coming through the Ajax youth academy as a youngster.\r
+\r
+Club career\r
+Early career\r
+Born in Jos, Simon is a product of the famed GBS Academy, the same football academy in Nigeria that produced the likes of Ahmed Musa. He was linked with Nigerian Premier League club Kaduna United, as many professional clubs around the world were also eager to sign him. On 10 May 2013, it was announced that Simon had signed a pre-contractual agreement with Dutch club AFC Ajax to join them in pre-season training, having previously been linked with Liverpool F.C. and Tottenham Hotspur. He made his first appearance for Ajax on 13 July 2013 in pre-season friendly match against De Graafschap, coming on as a substitute player and scoring the third and final goal in the 64th minute of the match, in a 3–0 away win. He made a further appearance on 17 July, playing for the reserves team Jong Ajax in a pre-season friendly match against Voorschoten '97, scoring the second goal in the 5–0 home win. On 25 July 2013, it was announced that Ajax would not sign the young Nigerian, ultimately waiving him from the pre-season roster. After the announcement discussions commenced with AS Trenčín; Ajax partner club in Slovakia, which is owned by former Ajax player Tschen La Ling.\r
+\r
+AS Trenčín\r
+On 13 January 2014, Simon signed three-year contract for Slovak side AS Trenčín. He would join his compatriot Kingsley Madu. He made his league debut in a 1–1 draw against MFK Košice starting on the right wing alongside Gino van Kessel who was on loan from Ajax. He made his International debut during the club's 2014–15 UEFA Europa League campaign, when he was introduced during the second preliminary round of the competition, in the home match against FK Vojvodina Novi Sad from Serbia (played at the stadium in Dubnica, Slovakia). Simon scored a hat trick on his debut in the 4–0 win at home. AS Trenčín would eventually get eliminated in the following round, drawing at home, and falling 2–1 away against Hull City.\r
+\r
+In October 2014 ESPN sports prepared a scouting report on Moses Simon and the report linked the winger with a move to Liverpool, Tottenham Hotspur, Hull City along with a potential return to Ajax. The situation evolved into a bidding war between Dutch club SC Heerenveen and K.A.A. Gent, with the later contractually securing the winger for three years.\r
+\r
+Gent\r
+\r
+Simon with KAA Gent, 2015\r
+On 6 January 2015, it was announced that K.A.A. Gent had signed Moses Simon to a three-year contract. He made his debut for Gent on 17 January 2015 in a 3–1 win against Royal Mouscron-Péruwelz in league play. His second appearance occurred four days later in a 1–0 home win against Sporting Lokeren in the Belgian Cup, in which Simon was sent off 30 seconds after he entered the field. In his third league game, again versus Sporting Lokeren, Simon scored a hat trick after which he was named Belgian league player of the week. He quickly became a key player in coach Hein Vanhaezebrouck's formation and helped Gent win their first ever national Championship title in May 2015. Two months later, Simon assisted Laurent Depoitre's winning goal in the 2015 Belgian Super Cup against cup winners Club Brugge.\r
+\r
+Levante\r
+On 6 August 2018, Simon joined Spanish La Liga side Levante on a five-year contract. In March 2019 he said he was glad to be playing for the team.\r
+\r
+Nantes\r
+On 15 August 2019, Simon was loaned out to Ligue 1 club FC Nantes. At the end of the season, Nantes triggered the option to buy in Simon’s loan. He signed a four-year contract with the club."""@en ;
+    schema:height "168 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/j18tv41608669053.jpg"^^xsd:anyURI ;
+    schema:memberOf "Nantes"^^xsd:string ;
+    schema:name "Moses Simon"^^xsd:string ;
+    schema:nationality "Nigeria"^^xsd:string ;
+    schema:weight "146 lbs"^^xsd:string .
+

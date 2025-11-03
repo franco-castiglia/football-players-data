@@ -1,0 +1,63 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Aimen_Moueffek a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q99438616> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/1isejb1609237307.png"^^xsd:anyURI ;
+    foaf:name "Aimen Moueffek"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 59 ;
+    stats:blocks 20 ;
+    stats:carries 302 ;
+    stats:clearances 26 ;
+    stats:dispossessed 13 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.1 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 10 ;
+    stats:matches90s 11.5 ;
+    stats:matchesPlayed 22 ;
+    stats:matchesStarted 13 ;
+    stats:minutesPlayed 1039 ;
+    stats:miscontrols 34 ;
+    stats:passesIntoPenaltyArea 8 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 20 ;
+    stats:progressivePasses 43 ;
+    stats:progressivePassesReceived 31 ;
+    stats:rank 1804 ;
+    stats:redCards 0 ;
+    stats:tackles 20 ;
+    stats:tacklesWon 12 ;
+    stats:touches 554 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2001-04-09"^^xsd:date ;
+    schema:description """Aïmen Moueffek (born 9 April 2001) is a French professional footballer who plays as a right-back for AS Saint-Étienne.\r
+\r
+Club career\r
+Born in Vienne, Isère, Moueffek first played in the Amicale Laïque de Saint-Maurice-L'Exil, he later joined the Cascol club from Oullins, before arriving in Saint-Étienne during the 2011–12 season.\r
+\r
+After winning the Coupe Gambardella in 2019, he signed his first professional contract in July 2019.\r
+\r
+After some successful performances in the 2020 summer friendlies, Moueffek made his professional debut for AS Saint-Étienne on the 17 September 2020.\r
+\r
+International career\r
+Born in France, Moueffek is of Moroccan descent. He is a youth international for France."""@en ;
+    schema:height "5' 10\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/azu5po1609237286.jpg"^^xsd:anyURI ;
+    schema:memberOf "St Etienne"^^xsd:string ;
+    schema:name "Aimen Moueffek"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "157 lbs"^^xsd:string .
+

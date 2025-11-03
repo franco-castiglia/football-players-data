@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Nathan_Broadhead a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q44963860> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/nwvk1y1761148732.png"^^xsd:anyURI ;
+    foaf:name "Nathan Broadhead"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 32 ;
+    stats:blocks 8 ;
+    stats:carries 174 ;
+    stats:clearances 5 ;
+    stats:dispossessed 15 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.7 ;
+    stats:expectedGoals 1.7 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 7.8 ;
+    stats:matchesPlayed 18 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 702 ;
+    stats:miscontrols 19 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 20 ;
+    stats:progressivePasses 14 ;
+    stats:progressivePassesReceived 33 ;
+    stats:rank 396 ;
+    stats:redCards 0 ;
+    stats:tackles 9 ;
+    stats:tacklesWon 4 ;
+    stats:touches 317 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1998-04-05"^^xsd:date ;
+    schema:description "Nathan Paul Broadhead is a Welsh professional footballer who plays as a forward or left winger for EFL Championship club Wrexham and the Wales national team."@en ;
+    schema:height "1.78 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/y5yv7w1630005092.jpg"^^xsd:anyURI ;
+    schema:memberOf "Wrexham"^^xsd:string ;
+    schema:name "Nathan Broadhead"^^xsd:string ;
+    schema:nationality "Wales"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jean_Onana a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q86300746> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/4k2gex1725047538.png"^^xsd:anyURI ;
+    foaf:name "Jean Onana"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 13 ;
+    stats:blocks 6 ;
+    stats:carries 82 ;
+    stats:clearances 8 ;
+    stats:dispossessed 7 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 3.4 ;
+    stats:matchesPlayed 9 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 304 ;
+    stats:miscontrols 6 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 11 ;
+    stats:progressivePassesReceived 4 ;
+    stats:rank 1974 ;
+    stats:redCards 0 ;
+    stats:tackles 12 ;
+    stats:tacklesWon 6 ;
+    stats:touches 183 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2000-01-08"^^xsd:date ;
+    schema:description "Jean Emile Junior Onana Onana (born 8 January 2000) is a Cameroonian professional footballer who plays as a defensive midfielder for Italian Serie A club Genoa on loan from Süper Lig club Beşiktaş."@en ;
+    schema:height "189 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/pp5pnv1631650622.jpg"^^xsd:anyURI ;
+    schema:memberOf "Genoa"^^xsd:string ;
+    schema:name "Jean Onana"^^xsd:string ;
+    schema:nationality "Cameroon"^^xsd:string ;
+    schema:weight "185 lbs"^^xsd:string .
+

@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Yoram_Zague a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q123512674> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/u5gqic1748682723.png"^^xsd:anyURI ;
+    foaf:name "Yoram Zague"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 5 ;
+    stats:blocks 3 ;
+    stats:carries 148 ;
+    stats:clearances 2 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 2.0 ;
+    stats:matchesPlayed 4 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 183 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 5 ;
+    stats:progressivePasses 10 ;
+    stats:progressivePassesReceived 17 ;
+    stats:rank 2808 ;
+    stats:redCards 0 ;
+    stats:tackles 8 ;
+    stats:tacklesWon 6 ;
+    stats:touches 203 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2006-05-15"^^xsd:date ;
+    schema:description "Yoram Zague (born 15 May 2006) is a French professional footballer who plays as a right-back for Ligue 1 club Paris Saint-Germain."@en ;
+    schema:height "1.68 m (5 ft 6 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/yt5w5b1714335229.jpg"^^xsd:anyURI ;
+    schema:memberOf "Paris SG"^^xsd:string ;
+    schema:name "Yoram Zague"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "128 lbs"^^xsd:string .
+

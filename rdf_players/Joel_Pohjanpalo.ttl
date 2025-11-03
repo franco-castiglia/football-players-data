@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Joel_Pohjanpalo a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q127797> ;
+    foaf:account "twitter.com/jpohjanpalo"^^xsd:anyURI,
+        "www.instagram.com/jpohjanpalo/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/hh5bt01578226030.png"^^xsd:anyURI ;
+    foaf:name "Joel Pohjanpalo"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 20 ;
+    stats:blocks 7 ;
+    stats:carries 249 ;
+    stats:clearances 24 ;
+    stats:dispossessed 11 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.7 ;
+    stats:expectedGoals 7.5 ;
+    stats:goals 6 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 15 ;
+    stats:matches90s 17.8 ;
+    stats:matchesPlayed 20 ;
+    stats:matchesStarted 19 ;
+    stats:minutesPlayed 1603 ;
+    stats:miscontrols 23 ;
+    stats:passesIntoPenaltyArea 7 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 9 ;
+    stats:progressivePasses 29 ;
+    stats:progressivePassesReceived 72 ;
+    stats:rank 2134 ;
+    stats:redCards 0 ;
+    stats:tackles 3 ;
+    stats:tacklesWon 3 ;
+    stats:touches 491 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1994-09-13"^^xsd:date ;
+    schema:description """Joel Julius Ilmari Pohjanpalo (born 13 September 1994) is a Finnish professional footballer who plays as a forward for Serie B club Palermo and the Finland national team.\r
+\r
+Pohjanpalo made his international debut for Finland in November 2012, at the age of 18 and has since had over 30 caps, including appearing in 2018 FIFA World Cup qualification."""@en ;
+    schema:height "1.86 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/6qcfbs1578226029.jpg"^^xsd:anyURI ;
+    schema:memberOf "Palermo"^^xsd:string ;
+    schema:name "Joel Pohjanpalo"^^xsd:string ;
+    schema:nationality "Finland"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

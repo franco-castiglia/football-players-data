@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Saidou_Sow a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q99539412> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/vzzlib1609236360.png"^^xsd:anyURI ;
+    foaf:name "Saidou Sow"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 36 ;
+    stats:blocks 15 ;
+    stats:carries 465 ;
+    stats:clearances 37 ;
+    stats:dispossessed 3 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 15 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 11.3 ;
+    stats:matchesPlayed 12 ;
+    stats:matchesStarted 11 ;
+    stats:minutesPlayed 1018 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 16 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 2485 ;
+    stats:redCards 0 ;
+    stats:tackles 9 ;
+    stats:tacklesWon 5 ;
+    stats:touches 735 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2002-07-04"^^xsd:date ;
+    schema:description "Saïdou Sow (born 4 July 2002) is a Guinean professional footballer who plays as a defender for French Ligue 1 club Nantes on loan from Strasbourg, and the Guinea national team."@en ;
+    schema:height "1.87 m"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/48j16a1609236044.jpg"^^xsd:anyURI ;
+    schema:memberOf "Nantes"^^xsd:string ;
+    schema:name "Saidou Sow"^^xsd:string ;
+    schema:nationality "Guinea"^^xsd:string ;
+    schema:weight "192 lbs"^^xsd:string .
+

@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Gaetan_Laborde a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18001481> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/a5epyx1700558648.png"^^xsd:anyURI ;
+    foaf:name "Gaëtan Laborde"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 49 ;
+    stats:blocks 16 ;
+    stats:carries 362 ;
+    stats:clearances 20 ;
+    stats:dispossessed 18 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 3.5 ;
+    stats:expectedGoals 11.7 ;
+    stats:goals 11 ;
+    stats:goalsNonPenalty 7 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 27 ;
+    stats:matches90s 20.3 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 20 ;
+    stats:minutesPlayed 1829 ;
+    stats:miscontrols 48 ;
+    stats:passesIntoPenaltyArea 12 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 30 ;
+    stats:progressivePasses 40 ;
+    stats:progressivePassesReceived 131 ;
+    stats:rank 1433 ;
+    stats:redCards 0 ;
+    stats:tackles 19 ;
+    stats:tacklesWon 13 ;
+    stats:touches 730 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1994-05-03"^^xsd:date ;
+    schema:description "Gaëtan Laborde (born 3 May 1994) is a French professional footballer who plays as a forward for Ligue 1 club Nice. He represented the France national youth teams up to France U20 level."@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/fxcwrt1608590607.jpg"^^xsd:anyURI ;
+    schema:memberOf "Nice"^^xsd:string ;
+    schema:name "Gaëtan Laborde"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

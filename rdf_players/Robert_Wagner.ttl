@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Robert_Wagner a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q108101413> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/3g37t31742071340.png"^^xsd:anyURI ;
+    foaf:name "Robert Wagner"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 22 ;
+    stats:blocks 8 ;
+    stats:carries 59 ;
+    stats:clearances 12 ;
+    stats:dispossessed 6 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 4.5 ;
+    stats:matchesPlayed 12 ;
+    stats:matchesStarted 5 ;
+    stats:minutesPlayed 407 ;
+    stats:miscontrols 5 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 10 ;
+    stats:progressivePassesReceived 9 ;
+    stats:rank 2734 ;
+    stats:redCards 0 ;
+    stats:tackles 8 ;
+    stats:tacklesWon 3 ;
+    stats:touches 183 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2003-07-14"^^xsd:date ;
+    schema:description "Robert Wagner (born 14 July 2003) is a German professional footballer who plays as a midfielder for FC St. Pauli, on loan from SC Freiburg."@en ;
+    schema:height "1.81 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/itzsa01680092765.jpg"^^xsd:anyURI ;
+    schema:memberOf "St Pauli"^^xsd:string ;
+    schema:name "Robert Wagner"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

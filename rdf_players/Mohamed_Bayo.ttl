@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mohamed_Bayo a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q55819463> ;
+    foaf:account "www.instagram.com/mohamedbayo27/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/izd8mq1702293114.png"^^xsd:anyURI ;
+    foaf:name "Mohamed Bayo"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 5 ;
+    stats:blocks 0 ;
+    stats:carries 59 ;
+    stats:clearances 4 ;
+    stats:dispossessed 5 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 2.2 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 3.4 ;
+    stats:matchesPlayed 12 ;
+    stats:matchesStarted 4 ;
+    stats:minutesPlayed 309 ;
+    stats:miscontrols 13 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 4 ;
+    stats:progressivePasses 4 ;
+    stats:progressivePassesReceived 20 ;
+    stats:rank 1445 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 1 ;
+    stats:touches 98 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1998-06-04"^^xsd:date ;
+    schema:description "Mohamed Bayo (born 4 June 1998) is a professional footballer who plays as a forward for Ligue 1 club  Lille. Born in France, he plays for the Guinea national team."@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ubfka91631704867.jpg"^^xsd:anyURI ;
+    schema:memberOf "Lille"^^xsd:string ;
+    schema:name "Mohamed Bayo"^^xsd:string ;
+    schema:nationality "Guinea"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

@@ -1,0 +1,51 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Pau_Navarro a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q123644021> ;
+    foaf:name "Pau Navarro"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 46 ;
+    stats:blocks 13 ;
+    stats:carries 322 ;
+    stats:clearances 41 ;
+    stats:dispossessed 4 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 10.2 ;
+    stats:matchesPlayed 17 ;
+    stats:matchesStarted 8 ;
+    stats:minutesPlayed 916 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 3 ;
+    stats:progressivePasses 40 ;
+    stats:progressivePassesReceived 7 ;
+    stats:rank 1860 ;
+    stats:redCards 0 ;
+    stats:tackles 23 ;
+    stats:tacklesWon 17 ;
+    stats:touches 668 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2005-04-25"^^xsd:date ;
+    schema:description "Pau Navarro Badenes (born 25 April 2005) is a Spanish footballer who plays for Villarreal CF B. Mainly a centre-back, he can also play as a right-back or a defensive midfielder."@en ;
+    schema:height "185 cm"^^xsd:string ;
+    schema:memberOf "Villarreal B"^^xsd:string ;
+    schema:name "Pau Navarro"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

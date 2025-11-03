@@ -1,0 +1,52 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Omar_El_Hilali a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q106368588> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/rbcpqp1724486632.png"^^xsd:anyURI ;
+    foaf:name "Omar El Hilali"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 132 ;
+    stats:blocks 53 ;
+    stats:carries 888 ;
+    stats:clearances 145 ;
+    stats:dispossessed 7 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.8 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 46 ;
+    stats:keyPasses 8 ;
+    stats:matches90s 35.0 ;
+    stats:matchesPlayed 36 ;
+    stats:matchesStarted 36 ;
+    stats:minutesPlayed 3153 ;
+    stats:miscontrols 21 ;
+    stats:passesIntoPenaltyArea 11 ;
+    stats:penaltiesConceded 2 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 35 ;
+    stats:progressivePasses 84 ;
+    stats:progressivePassesReceived 61 ;
+    stats:rank 1162 ;
+    stats:redCards 0 ;
+    stats:tackles 111 ;
+    stats:tacklesWon 79 ;
+    stats:touches 1992 ;
+    stats:yellowCards 11 ;
+    schema:birthDate "2003-09-03"^^xsd:date ;
+    schema:description "Omar El Hilali (born 12 September 2003) is a Moroccan professional footballer who plays as a right-back for RCD Espanyol B."@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/zq0xbs1723569350.jpg"^^xsd:anyURI ;
+    schema:memberOf "Espanyol"^^xsd:string ;
+    schema:name "Omar El Hilali"^^xsd:string ;
+    schema:nationality "Morocco"^^xsd:string .
+

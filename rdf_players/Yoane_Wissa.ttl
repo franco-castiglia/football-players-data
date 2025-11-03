@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Yoane_Wissa a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q28101965> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/nvioni1757104479.png"^^xsd:anyURI ;
+    foaf:name "Yoane Wissa"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 81 ;
+    stats:blocks 29 ;
+    stats:carries 550 ;
+    stats:clearances 21 ;
+    stats:dispossessed 35 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 2.6 ;
+    stats:expectedGoals 18.5 ;
+    stats:goals 19 ;
+    stats:goalsNonPenalty 19 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 27 ;
+    stats:matches90s 32.4 ;
+    stats:matchesPlayed 35 ;
+    stats:matchesStarted 34 ;
+    stats:minutesPlayed 2919 ;
+    stats:miscontrols 77 ;
+    stats:passesIntoPenaltyArea 13 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:progressiveCarries 60 ;
+    stats:progressivePasses 67 ;
+    stats:progressivePassesReceived 154 ;
+    stats:rank 2781 ;
+    stats:redCards 0 ;
+    stats:tackles 22 ;
+    stats:tacklesWon 12 ;
+    stats:touches 925 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1996-09-03"^^xsd:date ;
+    schema:description """Yoane Wissa is a professional footballer who plays as a forward or left winger for Premier League club Newcastle United. Born in France, he represents the DR Congo national team at international level.\r
+\r
+A product of the Châteauroux academy, Wissa began his senior career with the club in 2015. Following a spell with Angers, he transferred to Lorient in 2018. Wissa was a part of the Lorient team which finished the 2019–20 season as Ligue 2 champions. Following a season in Ligue 1, he joined Brentford in 2021."""@en ;
+    schema:height "1.76 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/9a1jrq1608387385.jpg"^^xsd:anyURI ;
+    schema:memberOf "Newcastle United"^^xsd:string ;
+    schema:name "Yoane Wissa"^^xsd:string ;
+    schema:nationality "DR Congo"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

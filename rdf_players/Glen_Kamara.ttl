@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Glen_Kamara a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q11860513> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/u5yxo41696506343.png"^^xsd:anyURI ;
+    foaf:name "Glen Kamara"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 42 ;
+    stats:blocks 7 ;
+    stats:carries 268 ;
+    stats:clearances 7 ;
+    stats:dispossessed 6 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 7 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 7.4 ;
+    stats:matchesPlayed 13 ;
+    stats:matchesStarted 8 ;
+    stats:minutesPlayed 662 ;
+    stats:miscontrols 7 ;
+    stats:passesIntoPenaltyArea 8 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 5 ;
+    stats:progressivePasses 34 ;
+    stats:progressivePassesReceived 22 ;
+    stats:rank 1311 ;
+    stats:redCards 0 ;
+    stats:tackles 23 ;
+    stats:tacklesWon 11 ;
+    stats:touches 476 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1995-10-28"^^xsd:date ;
+    schema:description """Glen Adjei Kamara (born 28 October 1995) is a Finnish professional footballer who plays as a midfielder for Ligue 1 club Rennes and the Finland national team.\r
+\r
+He began his senior career at Arsenal, where he made one substitute appearance in the Football League Cup and was loaned to Southend United and Colchester United. After 18 months at Dundee, he joined fellow Scottish Premiership side Rangers for £50,000. He made the PFA Scotland Team of the Year when they won the league title in 2020–21. In late August 2023 it was announced that he would be leaving Rangers to join Leeds in the EFL Championship. After a successful season with Leeds, Kamara joined French side Rennes for a €10 million fee.\r
+\r
+Kamara made his senior international debut for Finland in 2017. He was named in their squad for UEFA Euro 2020. In 2022, he was recognized as Finnish Footballer of the Year by the Football Association of Finland."""@en ;
+    schema:height "183 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/cjgre61724177120.jpg"^^xsd:anyURI ;
+    schema:memberOf "Rennes"^^xsd:string ;
+    schema:name "Glen Kamara"^^xsd:string ;
+    schema:nationality "Finland"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

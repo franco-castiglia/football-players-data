@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Evanilson a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q69975567> ;
+    foaf:account "twitter.com/evan_lima11"^^xsd:anyURI,
+        "www.instagram.com/evanilsonlima99/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/cvegel1757018013.png"^^xsd:anyURI ;
+    foaf:name "Evanilson"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 67 ;
+    stats:blocks 11 ;
+    stats:carries 333 ;
+    stats:clearances 21 ;
+    stats:dispossessed 24 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.9 ;
+    stats:expectedGoals 12.5 ;
+    stats:goals 10 ;
+    stats:goalsNonPenalty 10 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 26 ;
+    stats:matches90s 25.8 ;
+    stats:matchesPlayed 31 ;
+    stats:matchesStarted 28 ;
+    stats:minutesPlayed 2319 ;
+    stats:miscontrols 38 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 5 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 29 ;
+    stats:progressivePasses 28 ;
+    stats:progressivePassesReceived 99 ;
+    stats:rank 862 ;
+    stats:redCards 1 ;
+    stats:tackles 16 ;
+    stats:tacklesWon 10 ;
+    stats:touches 558 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1999-10-06"^^xsd:date ;
+    schema:description "Francisco Evanilson de Lima Barbosa (born 6 October 1999), commonly known as Evanilson, is a Brazilian professional footballer who plays as a striker for Premier League club Bournemouth and the Brazil national team."@en ;
+    schema:height "1.81 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/tzf0rh1615296758.jpg"^^xsd:anyURI ;
+    schema:memberOf "Bournemouth"^^xsd:string ;
+    schema:name "Evanilson"^^xsd:string ;
+    schema:nationality "Brazil"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

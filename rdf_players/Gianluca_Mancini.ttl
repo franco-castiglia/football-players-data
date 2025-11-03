@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Gianluca_Mancini a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q28973528> ;
+    foaf:account "www.instagram.com/gianlumancio_23/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/tnamt91758815939.png"^^xsd:anyURI ;
+    foaf:name "Gianluca Mancini"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 99 ;
+    stats:blocks 22 ;
+    stats:carries 1341 ;
+    stats:clearances 103 ;
+    stats:dispossessed 8 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 1.7 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 35 ;
+    stats:keyPasses 14 ;
+    stats:matches90s 34.9 ;
+    stats:matchesPlayed 37 ;
+    stats:matchesStarted 36 ;
+    stats:minutesPlayed 3143 ;
+    stats:miscontrols 10 ;
+    stats:passesIntoPenaltyArea 17 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 45 ;
+    stats:progressivePasses 139 ;
+    stats:progressivePassesReceived 23 ;
+    stats:rank 1598 ;
+    stats:redCards 0 ;
+    stats:tackles 42 ;
+    stats:tacklesWon 26 ;
+    stats:touches 2240 ;
+    stats:yellowCards 8 ;
+    schema:birthDate "1996-04-17"^^xsd:date ;
+    schema:description "Gianluca Mancini (born 17 April 1996) is an Italian footballer who plays as a defender for Serie A club Roma and the Italy national team."@en ;
+    schema:height "1.93 m (6 ft 4 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/9tf0bn1546084688.jpg"^^xsd:anyURI ;
+    schema:memberOf "Roma"^^xsd:string ;
+    schema:name "Gianluca Mancini"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

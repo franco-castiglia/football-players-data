@@ -1,0 +1,68 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Enzo_Loiodice a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q52730245> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/0kvwrk1701093554.png"^^xsd:anyURI ;
+    foaf:name "Enzo Loiodice"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 29 ;
+    stats:blocks 4 ;
+    stats:carries 279 ;
+    stats:clearances 7 ;
+    stats:dispossessed 12 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 10 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 7.6 ;
+    stats:matchesPlayed 17 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 684 ;
+    stats:miscontrols 11 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 3 ;
+    stats:progressivePasses 31 ;
+    stats:progressivePassesReceived 3 ;
+    stats:rank 1512 ;
+    stats:redCards 0 ;
+    stats:tackles 17 ;
+    stats:tacklesWon 7 ;
+    stats:touches 532 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2000-11-27"^^xsd:date ;
+    schema:description """Enzo Lilian Marin Loiodice (born 27 November 2000) is a French professional footballer who plays as a midfielder for La Liga club Las Palmas.\r
+\r
+Club career\r
+Dijon\r
+Loiodice joined the Dijon youth academy in 2015, moving from FC Gobelins. He made his professional debut for Dijon in a 3–1 Ligue 1 loss to Bordeaux on 28 April 2018.\r
+\r
+On 3 July 2018, Loiodice signed his first professional contract with Dijon for three years. On 25 August 2018, Loiodice provided an assist, in an impressive performance against Nice in a 4–0 win. He was named in L'Equipe's team of the week following this performance (Matchday 3).\r
+\r
+Wolverhampton Wanderers (loan)\r
+On 29 January 2020, he moved on loan to Premier League club Wolverhampton Wanderers, with the intention to spend the remainder of the season with their under-23 side with a view to a permanent transfer. However, the COVID-19 pandemic caused the game to be suspended in England, cutting any opportunities for Loiodice to impress and he instead returned to France in early June.\r
+\r
+Las Palmas\r
+On 18 August 2020, Loiodice switched teams and countries again, after agreeing to a three-year contract with Segunda División side UD Las Palmas.\r
+\r
+International career\r
+Loiodice was born in France and is of Italian descent. He is a youth international for France. Loiodice was named in the French squad for the FIFA U-20 World Cup in Poland. Despite being the youngest member of the squad he started for France in their opening two games against Saudi Arabia (2–0 win) and Panama (2–0 win). He was rested for the third game as France had already qualified. Loiodice returned to the starting eleven in the next round against the USA as France lost narrowly 3–2."""@en ;
+    schema:height "1.76 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/z4j8qa1704442975.jpg"^^xsd:anyURI ;
+    schema:memberOf "Las Palmas"^^xsd:string ;
+    schema:name "Enzo Loiodice"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "130 lbs"^^xsd:string .
+

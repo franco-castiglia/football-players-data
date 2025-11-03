@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Harvey_Barnes a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q27974879> ;
+    foaf:account "www.instagram.com/harveybarnes97/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/d4ki3o1693824275.png"^^xsd:anyURI ;
+    foaf:name "Harvey Barnes"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 55 ;
+    stats:blocks 8 ;
+    stats:carries 561 ;
+    stats:clearances 15 ;
+    stats:dispossessed 23 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 4.0 ;
+    stats:expectedGoals 7.2 ;
+    stats:goals 9 ;
+    stats:goalsNonPenalty 9 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 26 ;
+    stats:matches90s 19.5 ;
+    stats:matchesPlayed 33 ;
+    stats:matchesStarted 17 ;
+    stats:minutesPlayed 1755 ;
+    stats:miscontrols 33 ;
+    stats:passesIntoPenaltyArea 41 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 93 ;
+    stats:progressivePasses 83 ;
+    stats:progressivePassesReceived 192 ;
+    stats:rank 248 ;
+    stats:redCards 0 ;
+    stats:tackles 16 ;
+    stats:tacklesWon 9 ;
+    stats:touches 810 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1997-12-09"^^xsd:date ;
+    schema:description """Harvey Lewis Barnes (born 9 December 1997) is an English professional footballer who plays as a winger for Premier League club Newcastle United.\r
+\r
+Barnes joined Leicester City at the age of nine before signing his first professional contract as well as making his first appearance for the club in 2016. He had loan spells with Milton Keynes Dons, Barnsley and West Bromwich Albion. He won the FA Community Shield with Leicester in 2021 before departing for Newcastle United in 2023.\r
+\r
+At international level, Barnes has represented England at youth level, including winning the 2017 Toulon Tournament. He made his debut for the England senior team in 2020."""@en ;
+    schema:height "182 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/qso6vo1545058819.jpg"^^xsd:anyURI ;
+    schema:memberOf "Newcastle"^^xsd:string ;
+    schema:name "Harvey Barnes"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "146 lbs"^^xsd:string .
+

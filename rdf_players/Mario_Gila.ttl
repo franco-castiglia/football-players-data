@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mario_Gila a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q109255453> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/sivafj1698231333.png"^^xsd:anyURI ;
+    foaf:name "Mario Gila"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 153 ;
+    stats:blocks 20 ;
+    stats:carries 1477 ;
+    stats:clearances 115 ;
+    stats:dispossessed 7 ;
+    stats:errors 4 ;
+    stats:expectedAssistedGoals 0.6 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 28 ;
+    stats:keyPasses 15 ;
+    stats:matches90s 30.5 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 31 ;
+    stats:minutesPlayed 2741 ;
+    stats:miscontrols 17 ;
+    stats:passesIntoPenaltyArea 9 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 48 ;
+    stats:progressivePasses 157 ;
+    stats:progressivePassesReceived 12 ;
+    stats:rank 1004 ;
+    stats:redCards 0 ;
+    stats:tackles 55 ;
+    stats:tacklesWon 37 ;
+    stats:touches 2339 ;
+    stats:yellowCards 8 ;
+    schema:birthDate "2000-08-29"^^xsd:date ;
+    schema:description "Mario Gila Fuentes (born 29 August 2000) is a Spanish professional footballer who plays as a centre-back for Serie A club Lazio."@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/vcgo8d1678803342.jpg"^^xsd:anyURI ;
+    schema:memberOf "Lazio"^^xsd:string ;
+    schema:name "Mario Gila"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

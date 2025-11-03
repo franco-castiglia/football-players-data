@@ -1,0 +1,51 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mateo_Flores a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q130569371> ;
+    foaf:name "Mateo Flores"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 12 ;
+    stats:blocks 1 ;
+    stats:carries 47 ;
+    stats:clearances 3 ;
+    stats:dispossessed 3 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 1.7 ;
+    stats:matchesPlayed 6 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 153 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 9 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 909 ;
+    stats:redCards 0 ;
+    stats:tackles 3 ;
+    stats:tacklesWon 1 ;
+    stats:touches 84 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2004-04-07"^^xsd:date ;
+    schema:description "Mateo Flores Lozano (born 7 April 2004) is a Spanish professional footballer who plays as a midfielder for Betis Deportivo Balompié."@en ;
+    schema:height "5' 10\""^^xsd:string ;
+    schema:memberOf "Betis Deportivo"^^xsd:string ;
+    schema:name "Mateo Flores"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

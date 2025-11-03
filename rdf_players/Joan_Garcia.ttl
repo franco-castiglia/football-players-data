@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Joan_Garcia a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q110258306> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/14gqd01724580485.png"^^xsd:anyURI ;
+    foaf:name "Joan García"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 35 ;
+    stats:blocks 1 ;
+    stats:carries 781 ;
+    stats:clearances 18 ;
+    stats:dispossessed 0 ;
+    stats:errors 4 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 38.0 ;
+    stats:matchesPlayed 38 ;
+    stats:matchesStarted 38 ;
+    stats:minutesPlayed 3420 ;
+    stats:miscontrols 2 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 1 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 973 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 1348 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2001-05-04"^^xsd:date ;
+    schema:description """Joan García Pons (born 4 May 2001) is a Spanish professional footballer who plays as a goalkeeper for La Liga club Barcelona.\r
+\r
+A native of Catalonia, García began his football career at CE Sallent before joining RCD Espanyol’s youth system. He broke into the first team and eventually established himself as Espanyol’s starting goalkeeper. In June 2025, he moved to Barcelona after the club activated his release clause."""@en ;
+    schema:height "1.91 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/8ljmq81678742931.jpg"^^xsd:anyURI ;
+    schema:memberOf "Barcelona"^^xsd:string ;
+    schema:name "Joan García"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "78 kg (172 lb)"^^xsd:string .
+

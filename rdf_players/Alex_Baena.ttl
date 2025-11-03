@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Alex_Baena a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q97404267> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ka2eeb1610031514.png"^^xsd:anyURI ;
+    foaf:name "Álex Baena"^^xsd:string ;
+    stats:assists 9 ;
+    stats:ballRecoveries 140 ;
+    stats:blocks 29 ;
+    stats:carries 895 ;
+    stats:clearances 22 ;
+    stats:dispossessed 32 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 11.7 ;
+    stats:expectedGoals 7.1 ;
+    stats:goals 7 ;
+    stats:goalsNonPenalty 7 ;
+    stats:interceptions 22 ;
+    stats:keyPasses 95 ;
+    stats:matches90s 28.8 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 30 ;
+    stats:minutesPlayed 2595 ;
+    stats:miscontrols 42 ;
+    stats:passesIntoPenaltyArea 72 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 91 ;
+    stats:progressivePasses 189 ;
+    stats:progressivePassesReceived 154 ;
+    stats:rank 201 ;
+    stats:redCards 0 ;
+    stats:tackles 28 ;
+    stats:tacklesWon 15 ;
+    stats:touches 1569 ;
+    stats:yellowCards 9 ;
+    schema:birthDate "2001-07-20"^^xsd:date ;
+    schema:description "Alejandro \"Álex\" Baena Rodríguez (born 20 July 2001) is a Spanish footballer who plays for Villarreal CF as a left winger."@en ;
+    schema:height "174cm / 5'9\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ildb381723369697.jpg"^^xsd:anyURI ;
+    schema:memberOf "Villarreal"^^xsd:string ;
+    schema:name "Álex Baena"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

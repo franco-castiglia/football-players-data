@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jeremy_Agbonifo a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q127691491> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/htr0vr1717946886.png"^^xsd:anyURI ;
+    foaf:name "Jeremy Agbonifo"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 9 ;
+    stats:blocks 2 ;
+    stats:carries 84 ;
+    stats:clearances 0 ;
+    stats:dispossessed 6 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.7 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 3.3 ;
+    stats:matchesPlayed 8 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 300 ;
+    stats:miscontrols 11 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 13 ;
+    stats:progressivePasses 6 ;
+    stats:progressivePassesReceived 36 ;
+    stats:rank 42 ;
+    stats:redCards 0 ;
+    stats:tackles 7 ;
+    stats:tacklesWon 6 ;
+    stats:touches 131 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2005-10-24"^^xsd:date ;
+    schema:description "Jeremy Agbonifo (born 624th October 2005) is a Swedish professional footballer who plays for Häcken as a Left Winger."@en ;
+    schema:height "5' 10\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/0wac361717944040.jpg"^^xsd:anyURI ;
+    schema:memberOf "Hacken"^^xsd:string ;
+    schema:name "Jeremy Agbonifo"^^xsd:string ;
+    schema:nationality "Sweden"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

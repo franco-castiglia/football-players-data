@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Giuliano_Simeone a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q111672750> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/0yoz4o1735984317.png"^^xsd:anyURI ;
+    foaf:name "Giuliano Simeone"^^xsd:string ;
+    stats:assists 6 ;
+    stats:ballRecoveries 72 ;
+    stats:blocks 22 ;
+    stats:carries 652 ;
+    stats:clearances 22 ;
+    stats:dispossessed 20 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 5.2 ;
+    stats:expectedGoals 2.2 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 14 ;
+    stats:keyPasses 24 ;
+    stats:matches90s 21.4 ;
+    stats:matchesPlayed 33 ;
+    stats:matchesStarted 26 ;
+    stats:minutesPlayed 1926 ;
+    stats:miscontrols 55 ;
+    stats:passesIntoPenaltyArea 27 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 69 ;
+    stats:progressivePasses 49 ;
+    stats:progressivePassesReceived 189 ;
+    stats:rank 2426 ;
+    stats:redCards 0 ;
+    stats:tackles 27 ;
+    stats:tacklesWon 13 ;
+    stats:touches 1034 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2002-12-18"^^xsd:date ;
+    schema:description "Giuliano Simeone Baldini (born 18 December 2002) is an Argentine professional footballer who plays as a forward for La Liga club Atlético Madrid. Born in Italy, he is a youth international for Argentina."@en ;
+    schema:height "173cm / 5'8\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/4lnyqr1723487273.jpg"^^xsd:anyURI ;
+    schema:memberOf "Atletico Madrid"^^xsd:string ;
+    schema:name "Giuliano Simeone"^^xsd:string ;
+    schema:nationality "Argentina"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Florian_Sotoca a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q23799421> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/velfz11702307255.png"^^xsd:anyURI ;
+    foaf:name "Florian Sotoca"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 79 ;
+    stats:blocks 12 ;
+    stats:carries 679 ;
+    stats:clearances 25 ;
+    stats:dispossessed 22 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.5 ;
+    stats:expectedGoals 4.6 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 14 ;
+    stats:keyPasses 18 ;
+    stats:matches90s 19.9 ;
+    stats:matchesPlayed 31 ;
+    stats:matchesStarted 22 ;
+    stats:minutesPlayed 1794 ;
+    stats:miscontrols 20 ;
+    stats:passesIntoPenaltyArea 29 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Striker"^^xsd:string ;
+    stats:progressiveCarries 44 ;
+    stats:progressivePasses 105 ;
+    stats:progressivePassesReceived 170 ;
+    stats:rank 2477 ;
+    stats:redCards 1 ;
+    stats:tackles 22 ;
+    stats:tacklesWon 13 ;
+    stats:touches 1186 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1990-10-25"^^xsd:date ;
+    schema:description "Florian Sotoca (born 25 October 1990) is a French professional footballer who plays as a striker for Ligue 1 club Lens."@en ;
+    schema:height "1.87 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/nlmi3y1608497614.jpg"^^xsd:anyURI ;
+    schema:memberOf "Lens"^^xsd:string ;
+    schema:name "Florian Sotoca"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

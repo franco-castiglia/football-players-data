@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jacopo_Fazzini a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q110624351> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/5ip5gj1758891710.png"^^xsd:anyURI ;
+    foaf:name "Jacopo Fazzini"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 70 ;
+    stats:blocks 13 ;
+    stats:carries 364 ;
+    stats:clearances 24 ;
+    stats:dispossessed 33 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 3.1 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 12 ;
+    stats:matches90s 15.4 ;
+    stats:matchesPlayed 20 ;
+    stats:matchesStarted 16 ;
+    stats:minutesPlayed 1383 ;
+    stats:miscontrols 39 ;
+    stats:passesIntoPenaltyArea 10 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 34 ;
+    stats:progressivePasses 49 ;
+    stats:progressivePassesReceived 88 ;
+    stats:rank 880 ;
+    stats:redCards 1 ;
+    stats:tackles 32 ;
+    stats:tacklesWon 19 ;
+    stats:touches 639 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2003-03-16"^^xsd:date ;
+    schema:description "Jacopo Fazzini (born 16 March 2003) is an Italian footballer who plays as midfielder for Serie A club Empoli."@en ;
+    schema:height "5' 10\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/sqnhdz1678719152.jpg"^^xsd:anyURI ;
+    schema:memberOf "Fiorentina"^^xsd:string ;
+    schema:name "Jacopo Fazzini"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "137 lbs"^^xsd:string .
+

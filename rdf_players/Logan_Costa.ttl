@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Logan_Costa a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q110184199> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/m5eaas1727027937.png"^^xsd:anyURI ;
+    foaf:name "Logan Costa"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 104 ;
+    stats:blocks 25 ;
+    stats:carries 1037 ;
+    stats:clearances 115 ;
+    stats:dispossessed 0 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.6 ;
+    stats:expectedGoals 0.7 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 21 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 28.7 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 28 ;
+    stats:minutesPlayed 2587 ;
+    stats:miscontrols 7 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 2 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 25 ;
+    stats:progressivePasses 116 ;
+    stats:progressivePassesReceived 10 ;
+    stats:rank 611 ;
+    stats:redCards 0 ;
+    stats:tackles 38 ;
+    stats:tacklesWon 21 ;
+    stats:touches 1785 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2001-04-01"^^xsd:date ;
+    schema:description "Logan Costa (born 1 April 2001) is a professional footballer who plays as a centre-back for Ligue 1 club Toulouse. Born in France, he plays for the Cape Verde national team."@en ;
+    schema:height "1.90 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/pioplk1681644488.jpg"^^xsd:anyURI ;
+    schema:memberOf "Villarreal"^^xsd:string ;
+    schema:name "Logan Costa"^^xsd:string ;
+    schema:nationality "Cape Verde"^^xsd:string ;
+    schema:weight "201 lbs"^^xsd:string .
+

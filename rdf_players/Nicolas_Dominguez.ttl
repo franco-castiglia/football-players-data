@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Nicolas_Dominguez a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q29419531> ;
+    foaf:account "www.instagram.com/nicodominguezz8/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/7ii90r1757162975.png"^^xsd:anyURI ;
+    foaf:name "Nicolás Domínguez"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 114 ;
+    stats:blocks 38 ;
+    stats:carries 471 ;
+    stats:clearances 54 ;
+    stats:dispossessed 12 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.3 ;
+    stats:expectedGoals 1.5 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 29 ;
+    stats:keyPasses 13 ;
+    stats:matches90s 21.8 ;
+    stats:matchesPlayed 34 ;
+    stats:matchesStarted 23 ;
+    stats:minutesPlayed 1963 ;
+    stats:miscontrols 23 ;
+    stats:passesIntoPenaltyArea 11 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 16 ;
+    stats:progressivePasses 83 ;
+    stats:progressivePassesReceived 33 ;
+    stats:rank 764 ;
+    stats:redCards 0 ;
+    stats:tackles 86 ;
+    stats:tacklesWon 45 ;
+    stats:touches 1218 ;
+    stats:yellowCards 9 ;
+    schema:birthDate "1998-06-28"^^xsd:date ;
+    schema:description "Nicolás Martín Domínguez (born 28 June 1998) is an Argentine professional footballer who plays as a central midfielder for Premier League club Nottingham Forest and the Argentina national team."@en ;
+    schema:height "1.79 m (5 ft 10 1⁄2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/j5m28j1586285969.jpg"^^xsd:anyURI ;
+    schema:memberOf "Nottingham Forest"^^xsd:string ;
+    schema:name "Nicolás Domínguez"^^xsd:string ;
+    schema:nationality "Argentina"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

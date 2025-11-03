@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Gabriel_Martinelli a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q61460651> ;
+    foaf:account "twitter.com/gabimartinelli"^^xsd:anyURI,
+        "www.instagram.com/ga_martinelli01/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/lvdvng1694204016.png"^^xsd:anyURI ;
+    foaf:name "Gabriel Martinelli"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 78 ;
+    stats:blocks 15 ;
+    stats:carries 670 ;
+    stats:clearances 19 ;
+    stats:dispossessed 38 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 5.0 ;
+    stats:expectedGoals 7.4 ;
+    stats:goals 8 ;
+    stats:goalsNonPenalty 8 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 40 ;
+    stats:matches90s 25.4 ;
+    stats:matchesPlayed 33 ;
+    stats:matchesStarted 25 ;
+    stats:minutesPlayed 2290 ;
+    stats:miscontrols 50 ;
+    stats:passesIntoPenaltyArea 37 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 124 ;
+    stats:progressivePasses 52 ;
+    stats:progressivePassesReceived 289 ;
+    stats:rank 1645 ;
+    stats:redCards 0 ;
+    stats:tackles 23 ;
+    stats:tacklesWon 15 ;
+    stats:touches 994 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2001-06-18"^^xsd:date ;
+    schema:description """Gabriel Teodoro Martinelli Silva (born 18 June 2001) is a Brazilian professional footballer who plays as a left winger or forward for Premier League club Arsenal and the Brazil national team.\r
+\r
+Martinelli began his senior career playing for Ituano and signed for Arsenal in July 2019, aged 18.\r
+\r
+Martinelli represented Brazil at the 2020 Summer Olympics, winning an Olympic Gold in men's football. He made his senior debut two years later, and participated at the 2022 FIFA World Cup and the 2024 Copa América."""@en ;
+    schema:height "1.76 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/jf2gcn1716705057.jpg"^^xsd:anyURI ;
+    schema:memberOf "Arsenal"^^xsd:string ;
+    schema:name "Gabriel Martinelli"^^xsd:string ;
+    schema:nationality "Brazil"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

@@ -1,0 +1,65 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Dejan_Kulusevski a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q59914139> ;
+    foaf:account "www.instagram.com/dejan.k10/?hl=en"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ffthk41757016393.png"^^xsd:anyURI ;
+    foaf:name "Dejan Kulusevski"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 121 ;
+    stats:blocks 34 ;
+    stats:carries 823 ;
+    stats:clearances 10 ;
+    stats:dispossessed 74 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 6.2 ;
+    stats:expectedGoals 4.2 ;
+    stats:goals 7 ;
+    stats:goalsNonPenalty 7 ;
+    stats:interceptions 13 ;
+    stats:keyPasses 65 ;
+    stats:matches90s 26.5 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 27 ;
+    stats:minutesPlayed 2389 ;
+    stats:miscontrols 77 ;
+    stats:passesIntoPenaltyArea 52 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 120 ;
+    stats:progressivePasses 124 ;
+    stats:progressivePassesReceived 210 ;
+    stats:rank 1422 ;
+    stats:redCards 0 ;
+    stats:tackles 45 ;
+    stats:tacklesWon 23 ;
+    stats:touches 1276 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2000-04-25"^^xsd:date ;
+    schema:description """Dejan Kulusevski (born 25 April 2000) is a Swedish professional footballer who plays as a winger or midfielder for Premier League club Tottenham Hotspur and the Sweden national team. \r
+\r
+Coming through from the youth system, Kulusevski made his senior debut for Atalanta in 2019, before joining Parma on loan at the beginning of the 2019–20 season. He joined Juventus during the winter transfer window for €35 million, and was sent back to Parma on loan for the rest of the season. In January 2022, Kulusevski was sent on loan to Tottenham Hotspur in England.\r
+\r
+Kulusevski was born in Sweden to a Swedish Macedonian father and a Macedonian mother. He represented both Macedonia and Sweden internationally at youth level, before opting to play for his birth country at senior level, making his full debut in 2019.\r
+\r
+Born in Sweden to Macedonian parents from Ohrid, Kulusevski played for all Swedish youth national teams, as well as the Macedonia under-17 national team. He was called up to the Sweden national team for the first time in November 2019 for the UEFA Euro 2020 qualifying games against Romania and the Faroe Islands. For the senior national team, Kulusevski has said that his choice of allegiance was 'an easy one' since it was always his preference to represent Sweden.\r
+\r
+Kulusevski made his senior international debut for Sweden on 18 November 2019, coming on as a substitute for Ken Sema in a 3–0 win against the Faroe Islands in the last game of the Euro 2020 qualifying stage. On 8 September 2020, he made his first start for Sweden, playing for 90 minutes before being substituted for Albin Ekdal in a 0–2 loss to Portugal in the 2020–21 UEFA Nations League. On 14 November 2020, Kulusevski scored his first international goal against Croatia in a 2–1 home win in the Nations League.\r
+\r
+On 8 June 2021, Kulusevski tested positive for COVID-19 amid its pandemic in Sweden, and was ruled out of Sweden's opening UEFA Euro 2020 match against Spain on 14 June."""@en ;
+    schema:height "186cm / 6'1\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/7o48yz1611384073.jpg"^^xsd:anyURI ;
+    schema:memberOf "Tottenham"^^xsd:string ;
+    schema:name "Dejan Kulusevski"^^xsd:string ;
+    schema:nationality "Sweden"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

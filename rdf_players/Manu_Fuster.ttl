@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Manu_Fuster a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q67888419> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/3b0vsp1724170356.png"^^xsd:anyURI ;
+    foaf:name "Manu Fuster"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 63 ;
+    stats:blocks 13 ;
+    stats:carries 410 ;
+    stats:clearances 17 ;
+    stats:dispossessed 16 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.8 ;
+    stats:expectedGoals 0.7 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 28 ;
+    stats:matches90s 11.1 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 8 ;
+    stats:minutesPlayed 1003 ;
+    stats:miscontrols 20 ;
+    stats:passesIntoPenaltyArea 24 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:progressiveCarries 23 ;
+    stats:progressivePasses 71 ;
+    stats:progressivePassesReceived 75 ;
+    stats:rank 949 ;
+    stats:redCards 0 ;
+    stats:tackles 19 ;
+    stats:tacklesWon 11 ;
+    stats:touches 742 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1997-10-22"^^xsd:date ;
+    schema:description "Manuel \"Manu\" Fuster Lázaro (born 22 October 1997) is a Spanish professional footballer who plays as an attacking midfielder for La Liga side Las Palmas."@en ;
+    schema:height "1.69 m (5 ft 7 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/fapsue1724170284.jpg"^^xsd:anyURI ;
+    schema:memberOf "Las Palmas"^^xsd:string ;
+    schema:name "Manu Fuster"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "141 lbs"^^xsd:string .
+

@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mattia_De_Sciglio a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q379805> ;
+    foaf:account "twitter.com/mattia_desci"^^xsd:anyURI,
+        "www.facebook.com/MattiaDeSciglioOfficial/"^^xsd:anyURI,
+        "www.instagram.com/mattiadesciglio2/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/cee02b1698226394.png"^^xsd:anyURI ;
+    foaf:name "Mattia De Sciglio"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 27 ;
+    stats:blocks 10 ;
+    stats:carries 161 ;
+    stats:clearances 35 ;
+    stats:dispossessed 4 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.6 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 8.5 ;
+    stats:matchesPlayed 16 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 769 ;
+    stats:miscontrols 5 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 4 ;
+    stats:progressivePasses 18 ;
+    stats:progressivePassesReceived 7 ;
+    stats:rank 684 ;
+    stats:redCards 0 ;
+    stats:tackles 18 ;
+    stats:tacklesWon 13 ;
+    stats:touches 394 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1992-10-20"^^xsd:date ;
+    schema:description """Mattia De Sciglio (born 20 October 1992) is an Italian professional footballer who plays as a full-back on both the left and the right flanks for Serie A club Empoli on loan from  Juventus.\r
+\r
+He made his professional debut for Milan in 2011, after several seasons in the club's youth system, and subsequently became a regular in the line-up, being able to play as either right or left back, winning two Supercoppa Italiana titles. He joined Juventus in 2017, winning a domestic double in his first season with the club. At international level, De Sciglio made his senior debut in March 2013 and he was selected in the Italian squads for the 2013 FIFA Confederations Cup (where he won a bronze medal), the 2014 FIFA World Cup and UEFA Euro 2016."""@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/2rqo841533468387.jpg"^^xsd:anyURI ;
+    schema:memberOf "Empoli"^^xsd:string ;
+    schema:name "Mattia De Sciglio"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Abdoulaye_Toure a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16236605> ;
+    foaf:account "www.instagram.com/abdoulaye_toure19/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/wzui5u1702296408.png"^^xsd:anyURI ;
+    foaf:name "Abdoulaye Toure"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 160 ;
+    stats:blocks 36 ;
+    stats:carries 714 ;
+    stats:clearances 42 ;
+    stats:dispossessed 30 ;
+    stats:errors 5 ;
+    stats:expectedAssistedGoals 0.4 ;
+    stats:expectedGoals 9.4 ;
+    stats:goals 10 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 34 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 25.8 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 26 ;
+    stats:minutesPlayed 2324 ;
+    stats:miscontrols 29 ;
+    stats:passesIntoPenaltyArea 10 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:progressiveCarries 17 ;
+    stats:progressivePasses 109 ;
+    stats:progressivePassesReceived 28 ;
+    stats:rank 2617 ;
+    stats:redCards 0 ;
+    stats:tackles 61 ;
+    stats:tacklesWon 34 ;
+    stats:touches 1354 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1994-03-03"^^xsd:date ;
+    schema:description """Abdoulaye Touré (born 3 March 1994) is a French professional footballer who plays as a defensive midfielder for Le Havre.\r
+\r
+Club career\r
+Born Nantes, France, Touré made his Ligue 1 debut with hometown club FC Nantes on the opening game of the 2013–14 season on 11 August 2013 against SC Bastia. He replaced Yohann Eudeline after 62 minutes.\r
+\r
+International career\r
+Touré is born in France and is of Guinean descent. He was a youth international for France. However, he pledged his international allegiance to Guinea in March 2018."""@en ;
+    schema:height "1.87 m"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/glx5vo1551626267.jpg"^^xsd:anyURI ;
+    schema:memberOf "Le Havre"^^xsd:string ;
+    schema:name "Abdoulaye Toure"^^xsd:string ;
+    schema:nationality "Guinea"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

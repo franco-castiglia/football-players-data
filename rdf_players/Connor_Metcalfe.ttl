@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Connor_Metcalfe a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q51213832> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/8xb0sq1756311214.png"^^xsd:anyURI ;
+    foaf:name "Connor Metcalfe"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 9 ;
+    stats:blocks 4 ;
+    stats:carries 58 ;
+    stats:clearances 8 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.7 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 3 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 4.0 ;
+    stats:matchesPlayed 10 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 358 ;
+    stats:miscontrols 5 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 6 ;
+    stats:progressivePasses 8 ;
+    stats:progressivePassesReceived 11 ;
+    stats:rank 1731 ;
+    stats:redCards 1 ;
+    stats:tackles 2 ;
+    stats:tacklesWon 0 ;
+    stats:touches 156 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1999-11-05"^^xsd:date ;
+    schema:description "Connor Metcalfe (born 5 November 1999) is an Australian professional footballer who plays as a central midfielder for A-League club Melbourne City."@en ;
+    schema:height "1.78 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/zivr1k1653338269.jpg"^^xsd:anyURI ;
+    schema:memberOf "St Pauli"^^xsd:string ;
+    schema:name "Connor Metcalfe"^^xsd:string ;
+    schema:nationality "Australia"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

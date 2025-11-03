@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Rui_Silva a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16236537> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/74knos1701176989.png"^^xsd:anyURI ;
+    foaf:name "Rui Silva"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 25 ;
+    stats:blocks 1 ;
+    stats:carries 334 ;
+    stats:clearances 7 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 15.0 ;
+    stats:matchesPlayed 15 ;
+    stats:matchesStarted 15 ;
+    stats:minutesPlayed 1350 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 2421 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 553 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1994-02-07"^^xsd:date ;
+    schema:description "Rui Tiago Dantas da Silva (born 7 February 1994) is a Portuguese professional footballer who plays as a goalkeeper for Primeira Liga club Sporting CP, on loan from La Liga club Real Betis."@en ;
+    schema:height "1.89 m (6 ft 2 1⁄2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/2elqkh1723792779.jpg"^^xsd:anyURI ;
+    schema:memberOf "Sporting CP"^^xsd:string ;
+    schema:name "Rui Silva"^^xsd:string ;
+    schema:nationality "Portugal"^^xsd:string ;
+    schema:weight "201 lbs"^^xsd:string .
+

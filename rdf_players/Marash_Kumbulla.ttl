@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Marash_Kumbulla a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q37282560> ;
+    foaf:account "www.facebook.com/marash.kumbulla"^^xsd:anyURI,
+        "www.instagram.com/maxkumbulla/?hl=it"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/8kdsho1679567685.png"^^xsd:anyURI ;
+    foaf:name "Marash Kumbulla"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 74 ;
+    stats:blocks 48 ;
+    stats:carries 998 ;
+    stats:clearances 224 ;
+    stats:dispossessed 1 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 1.8 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 34 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 33.0 ;
+    stats:matchesPlayed 35 ;
+    stats:matchesStarted 34 ;
+    stats:minutesPlayed 2972 ;
+    stats:miscontrols 14 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 11 ;
+    stats:progressivePasses 71 ;
+    stats:progressivePassesReceived 3 ;
+    stats:rank 1424 ;
+    stats:redCards 0 ;
+    stats:tackles 51 ;
+    stats:tacklesWon 26 ;
+    stats:touches 1845 ;
+    stats:yellowCards 9 ;
+    schema:birthDate "2000-02-08"^^xsd:date ;
+    schema:description "Marash Nikolin Kumbulla (born 8 February 2000) is a professional footballer who plays as a centre-back for La Liga club Espanyol, on loan from Serie A club Roma. Born in Italy, he plays for the Albania national team."@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/0ogwqh1601801951.jpg"^^xsd:anyURI ;
+    schema:memberOf "Espanyol"^^xsd:string ;
+    schema:name "Marash Kumbulla"^^xsd:string ;
+    schema:nationality "Albania"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Edmond_Tapsoba a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q56433997> ;
+    foaf:account "www.facebook.com/abless.tapsoba"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/y3bmxs1756316512.png"^^xsd:anyURI ;
+    foaf:name "Edmond Tapsoba"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 124 ;
+    stats:blocks 21 ;
+    stats:carries 1326 ;
+    stats:clearances 89 ;
+    stats:dispossessed 5 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 24 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 27.9 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 29 ;
+    stats:minutesPlayed 2507 ;
+    stats:miscontrols 16 ;
+    stats:passesIntoPenaltyArea 9 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 52 ;
+    stats:progressivePasses 164 ;
+    stats:progressivePassesReceived 17 ;
+    stats:rank 2549 ;
+    stats:redCards 0 ;
+    stats:tackles 39 ;
+    stats:tacklesWon 24 ;
+    stats:touches 2214 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1999-02-02"^^xsd:date ;
+    schema:description "Edmond Fayçal Tapsoba (born 2 February 1999) is a Burkinabé international footballer who plays for Bayer Leverkusen, as a centre back."@en ;
+    schema:height "1.90 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/wrgvu81585495401.jpg"^^xsd:anyURI ;
+    schema:memberOf "Bayer Leverkusen"^^xsd:string ;
+    schema:name "Edmond Tapsoba"^^xsd:string ;
+    schema:nationality "Burkina Faso"^^xsd:string ;
+    schema:weight "185 lbs"^^xsd:string .
+

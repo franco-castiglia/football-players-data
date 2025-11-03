@@ -1,0 +1,63 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Wilfried_Zaha a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q713711> ;
+    foaf:account "twitter.com/wilfriedzaha"^^xsd:anyURI,
+        "www.facebook.com/Wilfriedzaha"^^xsd:anyURI,
+        "www.instagram.com/wilfriedzaha"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/2hkwsr1741868618.png"^^xsd:anyURI ;
+    foaf:name "Wilfried Zaha"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 2 ;
+    stats:blocks 3 ;
+    stats:carries 30 ;
+    stats:clearances 0 ;
+    stats:dispossessed 6 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.8 ;
+    stats:matchesPlayed 4 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 73 ;
+    stats:miscontrols 2 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 1 ;
+    stats:progressivePassesReceived 9 ;
+    stats:rank 2809 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 1 ;
+    stats:touches 49 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1992-11-10"^^xsd:date ;
+    schema:description """Dazet Wilfried Armel Zaha (born 10 November 1992) is a professional footballer who plays as a winger for Major League Soccer club Charlotte FC, on loan from Süper Lig club Galatasaray, and the Ivory Coast national team. \r
+\r
+A product of Crystal Palace's youth academy, Zaha made his senior debut for the Championship side in 2010. He scored 18 goals in 143 appearances in just over three seasons with the club, and was instrumental in their promotion to the Premier League in 2013. He subsequently joined Manchester United for £10 million, becoming Sir Alex Ferguson's last signing for the club, and won the Community Shield on his debut.\r
+\r
+Having made just four appearances in his only season in Manchester and endured a brief loan spell at Cardiff City, Zaha returned to Crystal Palace in 2014. He went on to score 72 goals in 315 appearances for the club over the next nine seasons, becoming the club's tenth-highest all-time goalscorer, and their highest ever goalscorer in the Premier League, helping to establish the club in the top-flight before departing for Galatasaray in 2023.\r
+\r
+Born in the Ivory Coast, Zaha grew up in England. He made his debut for the England national team in 2012, appearing in two non-competitive matches (the latter of which came in 2013). After not playing for England for four years, he switched to play for Ivory Coast in 2016, and represented the nation at the 2017, 2019 and 2021 Africa Cup of Nations."""@en ;
+    schema:height "180 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/s724731699612798.jpg"^^xsd:anyURI ;
+    schema:memberOf "Charlotte FC"^^xsd:string ;
+    schema:name "Wilfried Zaha"^^xsd:string ;
+    schema:nationality "Ivory Coast"^^xsd:string ;
+    schema:weight "146 lbs"^^xsd:string .
+

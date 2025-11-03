@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Keito_Nakamura a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q45819496> ;
+    foaf:account "www.instagram.com/nakamura.keito/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/rvg6ub1678454947.png"^^xsd:anyURI ;
+    foaf:name "Keito Nakamura"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 116 ;
+    stats:blocks 21 ;
+    stats:carries 675 ;
+    stats:clearances 19 ;
+    stats:dispossessed 43 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.9 ;
+    stats:expectedGoals 9.1 ;
+    stats:goals 11 ;
+    stats:goalsNonPenalty 11 ;
+    stats:interceptions 13 ;
+    stats:keyPasses 26 ;
+    stats:matches90s 29.4 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 31 ;
+    stats:minutesPlayed 2649 ;
+    stats:miscontrols 67 ;
+    stats:passesIntoPenaltyArea 24 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:progressiveCarries 90 ;
+    stats:progressivePasses 82 ;
+    stats:progressivePassesReceived 197 ;
+    stats:rank 1854 ;
+    stats:redCards 0 ;
+    stats:tackles 24 ;
+    stats:tacklesWon 16 ;
+    stats:touches 1110 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "2000-07-28"^^xsd:date ;
+    schema:description "Keito Nakamura (中村 敬斗, Nakamura Keito, born 28 July 2000) is a Japanese professional footballer who plays for Ligue 1 club Reims and the Japan national team. He plays either as a winger or a forward."@en ;
+    schema:height "180 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/6blhf21678454876.jpg"^^xsd:anyURI ;
+    schema:memberOf "Stade de Reims"^^xsd:string ;
+    schema:name "Keito Nakamura"^^xsd:string ;
+    schema:nationality "Japan"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

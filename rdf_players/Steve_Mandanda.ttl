@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Steve_Mandanda a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1924> ;
+    foaf:account "twitter.com/stevemandanda"^^xsd:anyURI,
+        "www.facebook.com/mandanda30/"^^xsd:anyURI,
+        "www.instagram.com/stevemandanda1/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/p6ct6i1681417167.png"^^xsd:anyURI ;
+    foaf:name "Steve Mandanda"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 26 ;
+    stats:blocks 0 ;
+    stats:carries 305 ;
+    stats:clearances 6 ;
+    stats:dispossessed 1 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 16.5 ;
+    stats:matchesPlayed 18 ;
+    stats:matchesStarted 17 ;
+    stats:minutesPlayed 1486 ;
+    stats:miscontrols 2 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 1 ;
+    stats:rank 1599 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 523 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1985-03-28"^^xsd:date ;
+    schema:description """Steve Mandanda Mpidi (born 28 March 1985) is a French professional footballer who plays as a goalkeeper for Ligue 1 club Rennes. \r
+\r
+He spent most of his professional career with Marseille, making over 500 appearances across all competitions, and was voted Ligue 1 Goalkeeper of the Year five times.\r
+\r
+Since his debut in 2008, Mandanda has represented France at five international tournaments: three UEFA European Championships (2008, 2012, and 2016) and two FIFA World Cups (2010 and 2018), winning the last of those."""@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/rpptqu1432819251.jpg"^^xsd:anyURI ;
+    schema:memberOf "Rennes"^^xsd:string ;
+    schema:name "Steve Mandanda"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "192 lbs"^^xsd:string .
+

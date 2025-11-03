@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Luca_Kerber a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q104760665> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/zcu34e1741798042.png"^^xsd:anyURI ;
+    foaf:name "Luca Kerber"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 27 ;
+    stats:blocks 14 ;
+    stats:carries 175 ;
+    stats:clearances 25 ;
+    stats:dispossessed 4 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.7 ;
+    stats:expectedGoals 0.6 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 8.7 ;
+    stats:matchesPlayed 23 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 783 ;
+    stats:miscontrols 12 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 16 ;
+    stats:progressivePassesReceived 12 ;
+    stats:rank 1346 ;
+    stats:redCards 0 ;
+    stats:tackles 26 ;
+    stats:tacklesWon 16 ;
+    stats:touches 364 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2002-03-10"^^xsd:date ;
+    schema:description "Luca Kerber (born 10 March 2002) is a German professional footballer who plays as a midfielder for Bundesliga club 1. FC Heidenheim."@en ;
+    schema:height "180 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/coe9bh1741798033.jpg"^^xsd:anyURI ;
+    schema:memberOf "FC Heidenheim"^^xsd:string ;
+    schema:name "Luca Kerber"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

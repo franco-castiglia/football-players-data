@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Altay_Bayndr a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q57415806> ;
+    foaf:account "http://www.instagram.com/altaybyndr_1"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/biub041693852538.png"^^xsd:anyURI ;
+    foaf:name "Altay Bayındır"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 3 ;
+    stats:blocks 0 ;
+    stats:carries 110 ;
+    stats:clearances 9 ;
+    stats:dispossessed 0 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 4.0 ;
+    stats:matchesPlayed 4 ;
+    stats:matchesStarted 4 ;
+    stats:minutesPlayed 360 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 267 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 168 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1998-04-14"^^xsd:date ;
+    schema:description "Altay Bayındır (born 14 April 1998) is a Turkish professional footballer who plays as a goalkeeper for Premier League club Manchester United and the Turkey national team."@en ;
+    schema:height "1.98 m (6 ft 5 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/zjzypj1737352186.jpg"^^xsd:anyURI ;
+    schema:memberOf "Manchester United"^^xsd:string ;
+    schema:name "Altay Bayındır"^^xsd:string ;
+    schema:nationality "Turkey"^^xsd:string ;
+    schema:weight "88 kg"^^xsd:string .
+

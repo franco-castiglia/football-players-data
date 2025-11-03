@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Divin_Mubama a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q115044761> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/g1avfr1761251337.png"^^xsd:anyURI ;
+    foaf:name "Divin Mubama"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 1 ;
+    stats:blocks 0 ;
+    stats:carries 2 ;
+    stats:clearances 0 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.3 ;
+    stats:matchesPlayed 1 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 28 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 1 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1810 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 5 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2004-10-25"^^xsd:date ;
+    schema:description "Divin Saku Mubama (born 25 October 2004) is an English professional footballer who plays as a forward for EFL Championship club Stoke City on loan from Premier League club Manchester City."@en ;
+    schema:height "6' 0\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/wno93o1667639469.jpg"^^xsd:anyURI ;
+    schema:memberOf "Stoke City"^^xsd:string ;
+    schema:name "Divin Mubama"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

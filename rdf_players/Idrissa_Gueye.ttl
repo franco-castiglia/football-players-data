@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Idrissa_Gueye a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q46679> ;
+    foaf:account "twitter.com/iganagueye"^^xsd:anyURI,
+        "www.instagram.com/iganagueye/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ag9fm11756976825.png"^^xsd:anyURI ;
+    foaf:name "Idrissa Gueye"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 194 ;
+    stats:blocks 48 ;
+    stats:carries 861 ;
+    stats:clearances 36 ;
+    stats:dispossessed 38 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.7 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 48 ;
+    stats:keyPasses 19 ;
+    stats:matches90s 34.0 ;
+    stats:matchesPlayed 37 ;
+    stats:matchesStarted 35 ;
+    stats:minutesPlayed 3063 ;
+    stats:miscontrols 32 ;
+    stats:passesIntoPenaltyArea 10 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 27 ;
+    stats:progressivePasses 145 ;
+    stats:progressivePassesReceived 27 ;
+    stats:rank 963 ;
+    stats:redCards 0 ;
+    stats:tackles 133 ;
+    stats:tacklesWon 80 ;
+    stats:touches 1801 ;
+    stats:yellowCards 9 ;
+    schema:birthDate "1989-09-26"^^xsd:date ;
+    schema:description """Idrissa Gana Gueye (born 26 September 1989) is a Senegalese professional footballer who plays as a defensive midfielder for Premier League club Everton and the Senegal national team.\r
+\r
+Starting his career at Diambars in his native Senegal, Gueye joined French club Lille's reserve side in 2008. He would go on to play for the side's first team from 2010 to 2015, winning a Ligue 1 and Coupe de France double in 2011, before moving to England with Aston Villa. A year later, he signed for fellow Premier League club Everton. In 2019, Gueye returned to France by signing for the reigning Ligue 1 champions, Paris Saint-Germain (PSG). He reached the 2020 UEFA Champions League Final with the club, but did not play in the match in which PSG lost.\r
+\r
+Gueye made his debut for Senegal in 21. He was part of the Senegalese squad at the 2012 Summer Olympics, where he played one match. He played for Senegal at the 2018 FIFA World Cup and four Africa Cup of Nations tournaments. After a defeat in the 2019 final, he helped his country win the following competition's final in 2022."""@en ;
+    schema:height "1.74 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/uq6snw1659777290.jpg"^^xsd:anyURI ;
+    schema:memberOf "Everton"^^xsd:string ;
+    schema:name "Idrissa Gueye"^^xsd:string ;
+    schema:nationality "Senegal"^^xsd:string ;
+    schema:weight "146 lbs"^^xsd:string .
+

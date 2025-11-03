@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:rjan_Nyland a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q869214> ;
+    foaf:account "twitter.com/OrjanHNyland1"^^xsd:anyURI,
+        "www.instagram.com/orjanhnyland1/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/h49bbt1706259139.png"^^xsd:anyURI ;
+    foaf:name "Ørjan Nyland"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 28 ;
+    stats:blocks 0 ;
+    stats:carries 591 ;
+    stats:clearances 12 ;
+    stats:dispossessed 0 ;
+    stats:errors 4 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 29.7 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 30 ;
+    stats:minutesPlayed 2673 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 1 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1928 ;
+    stats:redCards 0 ;
+    stats:tackles 3 ;
+    stats:tacklesWon 2 ;
+    stats:touches 1068 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1990-09-10"^^xsd:date ;
+    schema:description """Ørjan Håskjold Nyland (born 10 September 1990) is a Norwegian professional footballer who plays as a goalkeeper for Sevilla and the Norway national team.\r
+\r
+Nyland previously played for Hødd and was the man of the match in the 2012 Norwegian Football Cup Final. He joined the defending Tippeligaen champions Molde ahead of the 2013 season. He signed for Aston Villa in August 2018, and stayed with the club until his contract was terminated in 2020. He then had short stints with Norwich City and Bournemouth, before joining Reading in March 2022. On 9 October 2022, he signed for Bundesliga club RB Leipzig on a nine-month contract deal until June 2023.\r
+\r
+Nyland made his debut for Norway in 2013, and has previously represented Norway at youth level. He was the first-choice goalkeeper for the under-21 team at the 2013 UEFA European Under-21 Championship."""@en ;
+    schema:height "1.92 m (6 ft 4 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/21h7hi1706259019.jpg"^^xsd:anyURI ;
+    schema:memberOf "Sevilla"^^xsd:string ;
+    schema:name "Ørjan Nyland"^^xsd:string ;
+    schema:nationality "Norway"^^xsd:string ;
+    schema:weight "196 lbs"^^xsd:string .
+

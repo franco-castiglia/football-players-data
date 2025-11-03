@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Khvicha_Kvaratskhelia a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q61780902> ;
+    foaf:account "www.instagram.com/kvara7/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/pr43gl1748682557.png"^^xsd:anyURI ;
+    foaf:name "Khvicha Kvaratskhelia"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 45 ;
+    stats:blocks 13 ;
+    stats:carries 405 ;
+    stats:clearances 7 ;
+    stats:dispossessed 21 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 3.7 ;
+    stats:expectedGoals 4.1 ;
+    stats:goals 5 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 28 ;
+    stats:matches90s 13.1 ;
+    stats:matchesPlayed 17 ;
+    stats:matchesStarted 15 ;
+    stats:minutesPlayed 1178 ;
+    stats:miscontrols 25 ;
+    stats:passesIntoPenaltyArea 23 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 74 ;
+    stats:progressivePasses 57 ;
+    stats:progressivePassesReceived 89 ;
+    stats:rank 1427 ;
+    stats:redCards 0 ;
+    stats:tackles 15 ;
+    stats:tacklesWon 9 ;
+    stats:touches 659 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2001-02-12"^^xsd:date ;
+    schema:description """Khvicha Kvaratskhelia(Order of Honor) (Georgian: ხვიჩა კვარაცხელია pronounced ; born 12 February 2001) is a Georgian professional footballer who plays as a winger for Ligue 1 club Paris Saint-Germain and the Georgia national team.\r
+\r
+Kvaratskhelia started his senior career playing for Dinamo Tbilisi at age 16, before departing to Rustavi where he spent half a season. During his combined three-year tenure at Lokomotiv Moscow and Rubin Kazan, Kvaratskhelia won two consecutive Russian Premier League Best Young Player awards. Following a short spell at Dinamo Batumi, Kvaratskhelia signed for Napoli in 2022, and in his debut season helped the club to reach the quarter-finals of the UEFA Champions League for the first time ever, and win a first Serie A title in 33 years, finishing as the league's top assist provider. This saw him named Serie A Most Valuable Player and the Champions League's Young Player of the Season. After two-and-a-half years at Napoli, he joined French side Paris Saint-Germain for €65 million in January 2025, signing a four-and-a-half year contract with French champions.\r
+\r
+Widely regarded as one of the greatest Georgian players of all time, Kvaratskhelia established himself for Georgia in all national youth teams, becoming a key player under different managers. He then became an integral part of the senior team after making his debut in 2019, and helped Georgia qualify for UEFA Euro 2024, the country's first ever major international tournament."""@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/sv9to31701528181.jpg"^^xsd:anyURI ;
+    schema:memberOf "Paris SG"^^xsd:string ;
+    schema:name "Khvicha Kvaratskhelia"^^xsd:string ;
+    schema:nationality "Georgia"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

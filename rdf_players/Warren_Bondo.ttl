@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Warren_Bondo a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q103232786> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/cnlyko1758886035.png"^^xsd:anyURI ;
+    foaf:name "Warren Bondo"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 91 ;
+    stats:blocks 16 ;
+    stats:carries 511 ;
+    stats:clearances 8 ;
+    stats:dispossessed 30 ;
+    stats:errors 4 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 18.0 ;
+    stats:matchesPlayed 20 ;
+    stats:matchesStarted 19 ;
+    stats:minutesPlayed 1618 ;
+    stats:miscontrols 20 ;
+    stats:passesIntoPenaltyArea 7 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 25 ;
+    stats:progressivePasses 39 ;
+    stats:progressivePassesReceived 21 ;
+    stats:rank 359 ;
+    stats:redCards 1 ;
+    stats:tackles 35 ;
+    stats:tacklesWon 24 ;
+    stats:touches 741 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "2003-09-15"^^xsd:date ;
+    schema:description "Warren Pierre Bondo (born 15 September 2003) is a French professional footballer who plays as a central midfielder for Serie A club AC Milan."@en ;
+    schema:height "1.77 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/zcsk1x1679662481.jpg"^^xsd:anyURI ;
+    schema:memberOf "Cremonese"^^xsd:string ;
+    schema:name "Warren Bondo"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "139 lbs"^^xsd:string .
+

@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Alejo_Veliz a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q112877211> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/196wtr1724580438.png"^^xsd:anyURI ;
+    foaf:name "Alejo Véliz"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 20 ;
+    stats:blocks 12 ;
+    stats:carries 123 ;
+    stats:clearances 23 ;
+    stats:dispossessed 12 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.6 ;
+    stats:expectedGoals 2.3 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 12.5 ;
+    stats:matchesPlayed 27 ;
+    stats:matchesStarted 10 ;
+    stats:minutesPlayed 1127 ;
+    stats:miscontrols 34 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 8 ;
+    stats:progressivePassesReceived 27 ;
+    stats:rank 2689 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 1 ;
+    stats:touches 317 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2003-09-19"^^xsd:date ;
+    schema:description "Alejo Véliz (born 19 September 2003) is an Argentine professional footballer who plays as a striker for La Liga club Espanyol, on loan from Premier League club Tottenham Hotspur."@en ;
+    schema:height "1.86 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/w93ufv1693679493.jpg"^^xsd:anyURI ;
+    schema:memberOf "Rosario Central"^^xsd:string ;
+    schema:name "Alejo Véliz"^^xsd:string ;
+    schema:nationality "Argentina"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

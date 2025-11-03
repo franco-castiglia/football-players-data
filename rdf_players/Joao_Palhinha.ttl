@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Joao_Palhinha a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16236952> ;
+    foaf:account "www.facebook.com/jpalhinha"^^xsd:anyURI,
+        "www.instagram.com/joaopalhinha6/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/o0ii6n1757016009.png"^^xsd:anyURI ;
+    foaf:name "Joao Palhinha"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 17 ;
+    stats:blocks 13 ;
+    stats:carries 330 ;
+    stats:clearances 9 ;
+    stats:dispossessed 7 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.7 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 7.5 ;
+    stats:matchesPlayed 17 ;
+    stats:matchesStarted 6 ;
+    stats:minutesPlayed 673 ;
+    stats:miscontrols 6 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:progressiveCarries 3 ;
+    stats:progressivePasses 32 ;
+    stats:progressivePassesReceived 7 ;
+    stats:rank 2030 ;
+    stats:redCards 1 ;
+    stats:tackles 20 ;
+    stats:tacklesWon 14 ;
+    stats:touches 631 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1995-07-09"^^xsd:date ;
+    schema:description """João Maria Lobo Alves Palhares Costa Palhinha Gonçalves is a Portuguese professional footballer who plays as a defensive midfielder for Premier League club Tottenham Hotspur, on loan from Bundesliga club Bayern Munich, and the Portugal national team. \r
+\r
+He came through at Sporting CP, first appearing with the first team in 2017 and also having loans at Moreirense, Belenenses and Braga. After returning in 2020, he became a starter, notably winning the 2020–21 Primeira Liga and back-to-back Taças da Liga in 2021 and 2022. In July 2022, he was signed by Premier League side Fulham for £20 million, spending two seasons with the club and helping them achieve mid-table finishes in both. He joined Bayern Munich in July 2024.\r
+\r
+A former Portugal youth international, finishing second at the 2014 European Under-19 Championship, Palhinha made his full debut in 2021 and was part of the squads at the 2022 World Cup and two European Championships."""@en ;
+    schema:height "1.90 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/hkcdpv1522235411.jpg"^^xsd:anyURI ;
+    schema:memberOf "Tottenham Hotspur"^^xsd:string ;
+    schema:name "Joao Palhinha"^^xsd:string ;
+    schema:nationality "Portugal"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

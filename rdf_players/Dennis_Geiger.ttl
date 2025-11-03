@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Dennis_Geiger a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q36194149> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/yo24d21578089021.png"^^xsd:anyURI ;
+    foaf:name "Dennis Geiger"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 35 ;
+    stats:blocks 15 ;
+    stats:carries 259 ;
+    stats:clearances 6 ;
+    stats:dispossessed 8 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 7 ;
+    stats:keyPasses 11 ;
+    stats:matches90s 8.2 ;
+    stats:matchesPlayed 20 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 734 ;
+    stats:miscontrols 9 ;
+    stats:passesIntoPenaltyArea 9 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 12 ;
+    stats:progressivePasses 37 ;
+    stats:progressivePassesReceived 21 ;
+    stats:rank 990 ;
+    stats:redCards 0 ;
+    stats:tackles 24 ;
+    stats:tacklesWon 11 ;
+    stats:touches 441 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1998-06-10"^^xsd:date ;
+    schema:description "Dennis Geiger (born 10 June 1998) is a German footballer who plays as a midfielder for 1899 Hoffenheim in Bundesliga."@en ;
+    schema:height "1.72 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/mw3fn61578089019.jpg"^^xsd:anyURI ;
+    schema:memberOf "Hoffenheim"^^xsd:string ;
+    schema:name "Dennis Geiger"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "148 lbs"^^xsd:string .
+

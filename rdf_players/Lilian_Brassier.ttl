@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Lilian_Brassier a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q66095792> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/gc0vcv1607793984.png"^^xsd:anyURI ;
+    foaf:name "Lilian Brassier"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 59 ;
+    stats:blocks 17 ;
+    stats:carries 630 ;
+    stats:clearances 62 ;
+    stats:dispossessed 1 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 1.5 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 22 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 13.7 ;
+    stats:matchesPlayed 14 ;
+    stats:matchesStarted 14 ;
+    stats:minutesPlayed 1234 ;
+    stats:miscontrols 6 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 21 ;
+    stats:progressivePasses 75 ;
+    stats:progressivePassesReceived 11 ;
+    stats:rank 385 ;
+    stats:redCards 0 ;
+    stats:tackles 15 ;
+    stats:tacklesWon 12 ;
+    stats:touches 1058 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1999-11-02"^^xsd:date ;
+    schema:description "Lilian Montague Brassier (born 2 November 1999) is a French professional footballer who plays as a centre-back for Ligue 1 club Rennes, on loan from Brest."@en ;
+    schema:height "1.84 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/yid2wj1607793881.jpg"^^xsd:anyURI ;
+    schema:memberOf "Rennes"^^xsd:string ;
+    schema:name "Lilian Brassier"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

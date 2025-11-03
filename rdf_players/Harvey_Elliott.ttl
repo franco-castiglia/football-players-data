@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Harvey_Elliott a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q56752774> ;
+    foaf:account "www.instagram.com/harveyelliott07/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/cqkvsj1756984276.png"^^xsd:anyURI ;
+    foaf:name "Harvey Elliott"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 15 ;
+    stats:blocks 7 ;
+    stats:carries 188 ;
+    stats:clearances 3 ;
+    stats:dispossessed 4 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.1 ;
+    stats:expectedGoals 1.8 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 10 ;
+    stats:matches90s 4.1 ;
+    stats:matchesPlayed 18 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 371 ;
+    stats:miscontrols 5 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 10 ;
+    stats:progressivePasses 44 ;
+    stats:progressivePassesReceived 30 ;
+    stats:rank 833 ;
+    stats:redCards 0 ;
+    stats:tackles 5 ;
+    stats:tacklesWon 3 ;
+    stats:touches 339 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2003-04-04"^^xsd:date ;
+    schema:description """Harvey Daniel James Elliott is an English professional footballer who plays as an attacking midfielder or right winger for Premier League club Aston Villa, on loan from Liverpool.\r
+\r
+Elliott made his first-team debut for Fulham in September 2018, becoming the youngest player to play in the EFL Cup, aged 15 years and 174 days. In May 2019, he became the youngest player to play in the Premier League, aged 16 years and 30 days."""@en ;
+    schema:height "1.70 m (5 ft 7 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/16kie71577017247.jpg"^^xsd:anyURI ;
+    schema:memberOf "Aston Villa"^^xsd:string ;
+    schema:name "Harvey Elliott"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "139 lbs"^^xsd:string .
+

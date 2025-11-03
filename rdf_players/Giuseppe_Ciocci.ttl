@@ -1,0 +1,52 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Giuseppe_Ciocci a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q67195578> ;
+    foaf:name "Giuseppe Ciocci"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 0 ;
+    stats:blocks 0 ;
+    stats:carries 1 ;
+    stats:clearances 0 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.1 ;
+    stats:matchesPlayed 1 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 9 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 561 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 1 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2002-01-24"^^xsd:date ;
+    schema:height "1.93 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://www.thesportsdb.com/images/media/player/thumb/tk2mna1758800826.jpg"^^xsd:anyURI ;
+    schema:memberOf "Cagliari"^^xsd:string ;
+    schema:name "Giuseppe Ciocci"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "196 lbs"^^xsd:string .
+

@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Alberto_Cerri a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q10557299> ;
+    foaf:account "twitter.com/albertocerri9"^^xsd:anyURI,
+        "www.instagram.com/albertocerri27/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/sri47a1607077082.png"^^xsd:anyURI ;
+    foaf:name "Alberto Cerri"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 3 ;
+    stats:blocks 2 ;
+    stats:carries 20 ;
+    stats:clearances 1 ;
+    stats:dispossessed 3 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 1.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 1.0 ;
+    stats:matchesPlayed 5 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 87 ;
+    stats:miscontrols 2 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 11 ;
+    stats:rank 521 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 36 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1996-04-16"^^xsd:date ;
+    schema:description "Alberto Cerri (born 16 April 1996) is an Italian footballer who plays as a striker for Serie B club Como on loan from Cagliari."@en ;
+    schema:height "1.94 m (6 ft 4 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/aobw9e1546614003.jpg"^^xsd:anyURI ;
+    schema:memberOf "Como"^^xsd:string ;
+    schema:name "Alberto Cerri"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "203 lbs"^^xsd:string .
+

@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Alex_Valle a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q116681161> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/t347571731257104.png"^^xsd:anyURI ;
+    foaf:name "Álex Valle"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 51 ;
+    stats:blocks 13 ;
+    stats:carries 425 ;
+    stats:clearances 42 ;
+    stats:dispossessed 8 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.7 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 11 ;
+    stats:matches90s 11.4 ;
+    stats:matchesPlayed 15 ;
+    stats:matchesStarted 12 ;
+    stats:minutesPlayed 1030 ;
+    stats:miscontrols 18 ;
+    stats:passesIntoPenaltyArea 9 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:progressiveCarries 19 ;
+    stats:progressivePasses 44 ;
+    stats:progressivePassesReceived 30 ;
+    stats:rank 2664 ;
+    stats:redCards 0 ;
+    stats:tackles 26 ;
+    stats:tacklesWon 12 ;
+    stats:touches 799 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2004-04-25"^^xsd:date ;
+    schema:description "Álex Valle Gómez (born 25 April 2004) is a Spanish professional footballer who plays as a left-back for Italian Serie A club Como on loan from Barcelona."@en ;
+    schema:height "1.78 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/fu7eq81721887995.jpg"^^xsd:anyURI ;
+    schema:memberOf "Como"^^xsd:string ;
+    schema:name "Álex Valle"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

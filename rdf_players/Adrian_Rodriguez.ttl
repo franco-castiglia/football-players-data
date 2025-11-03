@@ -1,0 +1,51 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Adrian_Rodriguez a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q126361159> ;
+    foaf:name "Adrián Rodríguez"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 0 ;
+    stats:blocks 0 ;
+    stats:carries 19 ;
+    stats:clearances 3 ;
+    stats:dispossessed 0 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 1.4 ;
+    stats:matchesPlayed 2 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 122 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 2229 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 58 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2000-12-12"^^xsd:date ;
+    schema:description "Adrián Rodríguez Giménez (born 12 December 2000) is a professional footballer who plays as a goalkeeper for Spanish club Deportivo Alavés. Born in Spain, he represents Argentina internationally."@en ;
+    schema:height "195cm"^^xsd:string ;
+    schema:memberOf "Alaves"^^xsd:string ;
+    schema:name "Adrián Rodríguez"^^xsd:string ;
+    schema:nationality "Argentina"^^xsd:string ;
+    schema:weight "181 lbs"^^xsd:string .
+

@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Karol_Linetty a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6373051> ;
+    foaf:account "twitter.com/k_linetty"^^xsd:anyURI,
+        "www.facebook.com/linetty23/"^^xsd:anyURI,
+        "www.instagram.com/linetty_7/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/13ba1b1678372716.png"^^xsd:anyURI ;
+    foaf:name "Karol Linetty"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 63 ;
+    stats:blocks 14 ;
+    stats:carries 397 ;
+    stats:clearances 31 ;
+    stats:dispossessed 9 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 12 ;
+    stats:keyPasses 10 ;
+    stats:matches90s 17.1 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 18 ;
+    stats:minutesPlayed 1540 ;
+    stats:miscontrols 17 ;
+    stats:passesIntoPenaltyArea 10 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 18 ;
+    stats:progressivePasses 47 ;
+    stats:progressivePassesReceived 19 ;
+    stats:rank 1496 ;
+    stats:redCards 0 ;
+    stats:tackles 39 ;
+    stats:tacklesWon 23 ;
+    stats:touches 732 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "1995-02-02"^^xsd:date ;
+    schema:description "Karol Linetty (born 2 February 1995) is a Polish professional footballer who plays as a midfielder for Torino  and the Poland national team."@en ;
+    schema:height "1.76 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/pnznvw1546258172.jpg"^^xsd:anyURI ;
+    schema:memberOf "Kocaelispor"^^xsd:string ;
+    schema:name "Karol Linetty"^^xsd:string ;
+    schema:nationality "Poland"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

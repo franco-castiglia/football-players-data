@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:El_Chadaille_Bitshiabu a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q110211916> ;
+    foaf:account "www.instagram.com/el_chadaille/?hl=en"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/gxek201742069674.png"^^xsd:anyURI ;
+    foaf:name "El Chadaille Bitshiabu"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 55 ;
+    stats:blocks 25 ;
+    stats:carries 516 ;
+    stats:clearances 97 ;
+    stats:dispossessed 1 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.4 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 13 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 12.6 ;
+    stats:matchesPlayed 21 ;
+    stats:matchesStarted 13 ;
+    stats:minutesPlayed 1130 ;
+    stats:miscontrols 11 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 4 ;
+    stats:progressivePasses 69 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 524 ;
+    stats:redCards 1 ;
+    stats:tackles 27 ;
+    stats:tacklesWon 18 ;
+    stats:touches 1058 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2005-05-16"^^xsd:date ;
+    schema:description """El Chadaille Bitshiabu (born 16 May 2005) is a French professional footballer who plays as a centre-back for RB Leipzig.\r
+\r
+Bitshiabu is a former youth player of US Saint-Denis and Boulogne-Billancourt. He joined youth academy of Paris Saint-Germain in 2017. He caught attention of the media during a friendly tournament later that year due to his exceptional height at that age.\r
+\r
+On 27 July 2020, Bitshiabu signed a three-year aspiring contract with Paris Saint-Germain. He made his first appearance for the senior team the following week on 5 August, in a 1–0 friendly win over Sochaux. On 29 July 2021, Bitshiabu signed his first professional contract, tying him to the club until June 2024. He made his debut for the club in a 3–0 Coupe de France win over Feignies Aulnoye on 19 December 2021. His debut at the age of 16 years and 213 days made him the youngest player to appear in an official match for the club, a record which was previously held by Kingsley Coman.\r
+\r
+Bitshiabu is a French youth international. He started to receive call-ups to French youth teams in January 2020. In 2021, Bitshiabu was called up to play for the France under-18s for the Tournoi International de Limoges."""@en ;
+    schema:height "1.96 m (6 ft 5 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/9mos1h1651601882.jpg"^^xsd:anyURI ;
+    schema:memberOf "RB Leipzig"^^xsd:string ;
+    schema:name "El Chadaille Bitshiabu"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "207 lbs"^^xsd:string .
+

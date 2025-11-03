@@ -1,0 +1,63 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ibrahim_Sissoko a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q641554> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/qjcurx1717144633.png"^^xsd:anyURI ;
+    foaf:name "Ibrahim Sissoko"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 23 ;
+    stats:blocks 10 ;
+    stats:carries 149 ;
+    stats:clearances 13 ;
+    stats:dispossessed 13 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.6 ;
+    stats:expectedGoals 4.3 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 9.1 ;
+    stats:matchesPlayed 20 ;
+    stats:matchesStarted 8 ;
+    stats:minutesPlayed 819 ;
+    stats:miscontrols 34 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacker"^^xsd:string ;
+    stats:progressiveCarries 14 ;
+    stats:progressivePasses 12 ;
+    stats:progressivePassesReceived 36 ;
+    stats:rank 2439 ;
+    stats:redCards 0 ;
+    stats:tackles 11 ;
+    stats:tacklesWon 9 ;
+    stats:touches 297 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1995-11-27"^^xsd:date ;
+    schema:description """Ibrahim Sissoko (born 27 November 1995) is a Malian professional footballer who plays as a forward for Saint-Étienne. He also holds a French passport.\r
+\r
+Club career\r
+Sissoko joined Béziers in the 2017–18 season and was one of their key players in helping them get promoted into the Ligue 2. He signed with FC Lorient in the summer of 2018, and returned on loan to Béziers, where he made his professional debut in a 2–0 Ligue 2 win over AS Nancy on 27 July 2018. He returned to Lorient in December 2018. Sissoko left Niort at the end of the 2021–22 season, having scored 26 goals in 52 appearances for the club in all competitions.\r
+\r
+On 30 June 2022, Sissoko signed a four-year contract with Sochaux.\r
+\r
+On 6 July 2023, Sissoko joined Saint-Étienne on a three-year contract. \r
+\r
+International career\r
+Sissoko holds French and Malian nationalities. He was called up to the Mali national team for 2022 World Cup qualification matches in March 2022."""@en ;
+    schema:height "1.92 m (6 ft 4 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/1fhvo61717144572.jpg"^^xsd:anyURI ;
+    schema:memberOf "St Etienne"^^xsd:string ;
+    schema:name "Ibrahim Sissoko"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "89 kg"^^xsd:string .
+

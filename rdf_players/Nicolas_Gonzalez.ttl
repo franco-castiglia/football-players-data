@@ -1,0 +1,62 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Nicolas_Gonzalez a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q43381082> ;
+    foaf:account "www.instagram.com/nicoigonzalez/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/e13ubd1750331255.png"^^xsd:anyURI ;
+    foaf:name "Nicolás González"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 69 ;
+    stats:blocks 16 ;
+    stats:carries 458 ;
+    stats:clearances 37 ;
+    stats:dispossessed 15 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 1.1 ;
+    stats:expectedGoals 4.1 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 9 ;
+    stats:keyPasses 19 ;
+    stats:matches90s 19.4 ;
+    stats:matchesPlayed 26 ;
+    stats:matchesStarted 23 ;
+    stats:minutesPlayed 1750 ;
+    stats:miscontrols 38 ;
+    stats:passesIntoPenaltyArea 19 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:progressiveCarries 35 ;
+    stats:progressivePasses 69 ;
+    stats:progressivePassesReceived 123 ;
+    stats:rank 1037 ;
+    stats:redCards 0 ;
+    stats:tackles 24 ;
+    stats:tacklesWon 13 ;
+    stats:touches 883 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1998-04-06"^^xsd:date ;
+    schema:description """Nicolás Iván González (born 6 April 1998) is an Argentine professional footballer who plays as a forward for Serie A club Fiorentina and the Argentina national team.\r
+\r
+After over ten years in the club's youth system, González made his professional debut for Argentinos Juniors in a 2015–16 Copa Argentina defeat to Deportivo Laferrere of Primera C Metropolitana in July 2016. He made his Primera B Nacional debut on 28 August against San Martín prior to scoring the first of his four goals in 2016–17 on 23 April 2017, getting the winner versus Atlético Paraná. In total, González made twenty appearances in 2016–17, a season which ended with Argentinos winning promotion to the Argentine Primera División. He scored on his first top-flight start, scoring the opening goal in a defeat to Belgrano.\r
+\r
+On 10 July 2018, González signed a five-year contract with VfB Stuttgart. He scored twice on his unofficial debut for the club, netting in a friendly victory over FV Illertissen on 18 July. His first competitive goal arrived during a home loss to Schalke 04 on 22 December. They were relegated at the end of 2018–19, with González subsequently scoring the winner on his 2. Bundesliga bow against FC St. Pauli on 17 August 2019. He scored consecutive braces in June 2020 against Sandhausen and Nürnberg; the latter fixture was his 100th league appearance for Stuttgart.\r
+\r
+On 25 November 2020, González extended his contract with VfB Stuttgart until June 2024.\r
+\r
+On 23 June 2021, González signed a five-year contract with Serie A club Fiorentina until 2026."""@en ;
+    schema:height "1.80 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/w7p49i1719033947.jpg"^^xsd:anyURI ;
+    schema:memberOf "Atlético Madrid"^^xsd:string ;
+    schema:name "Nicolás González"^^xsd:string ;
+    schema:nationality "Argentina"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

@@ -1,0 +1,62 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Nikola_Krstovic a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q28099191> ;
+    foaf:account "www.instagram.com/nikolakrstovic9/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/pufaq31758813123.png"^^xsd:anyURI ;
+    foaf:name "Nikola Krstović"^^xsd:string ;
+    stats:assists 5 ;
+    stats:ballRecoveries 72 ;
+    stats:blocks 12 ;
+    stats:carries 571 ;
+    stats:clearances 24 ;
+    stats:dispossessed 40 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.9 ;
+    stats:expectedGoals 12.1 ;
+    stats:goals 11 ;
+    stats:goalsNonPenalty 9 ;
+    stats:interceptions 7 ;
+    stats:keyPasses 30 ;
+    stats:matches90s 34.0 ;
+    stats:matchesPlayed 37 ;
+    stats:matchesStarted 37 ;
+    stats:minutesPlayed 3057 ;
+    stats:miscontrols 86 ;
+    stats:passesIntoPenaltyArea 15 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 42 ;
+    stats:progressivePasses 56 ;
+    stats:progressivePassesReceived 149 ;
+    stats:rank 1418 ;
+    stats:redCards 0 ;
+    stats:tackles 18 ;
+    stats:tacklesWon 9 ;
+    stats:touches 1051 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "2000-04-05"^^xsd:date ;
+    schema:description """Nikola Krstović (Montenegrin Cyrillic: Никола Крстовић; born 5 April 2000) is a Montenegrin professional footballer who plays as a forward for Serie A club Lecce and the Montenegro national team. He is considered to be one of the most promising young talents in Montenegro.\r
+\r
+Club career\r
+FK Zeta\r
+On 23 April 2016, Krstović made his competitive debut for Zeta, being assigned the number 13 jersey. He came on as a second-half substitute for Filip Kukuličić in their 1–1 league draw away against Iskra Danilovgrad, becoming the youngest player ever to appear in a 1. CFL game at the age of 16 years and 18 days old. Until the end of the 2015–16 Montenegrin First League, Krstović would go on to play in three more fixtures (all as a substitute) as the club hovered around the middle of the table.\r
+\r
+On 5 November 2016, Krstović made his first appearance of the 2016–17 season, entering the field during the second half of a 1–0 home league win over Bokelj. He scored his first senior goals in March of the following year, netting a brace in a 3–0 away victory over Jedinstvo Bijelo Polje, making him the first player born in the 2000s to find the back of the net in the top flight of Montenegrin football. In his first full season at Zeta, Krstović played in 19 games (all in the league) and bagged seven goals.\r
+\r
+On 29 June 2017, Krstović appeared as a starter for Zeta wearing the number 9 shirt in a 1–0 away loss to Željezničar Sarajevo in the first leg of the 2017–18 UEFA Europa League first qualifying round. He later scored an equalizer in the return tie a week later at home (the game ended in a 2–2 draw). In October of the same year, Krstović netted his first senior hat-trick and led his team to a 4–2 home win over Kom. He tallied 15 goals in 39 matches across all competitions throughout the season."""@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/s9zucw1692393405.jpg"^^xsd:anyURI ;
+    schema:memberOf "Atalanta"^^xsd:string ;
+    schema:name "Nikola Krstović"^^xsd:string ;
+    schema:nationality "Montenegro"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

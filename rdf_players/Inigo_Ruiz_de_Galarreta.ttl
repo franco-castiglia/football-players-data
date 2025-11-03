@@ -1,0 +1,67 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Inigo_Ruiz_de_Galarreta a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3751255> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/j3b0zj1701165840.png"^^xsd:anyURI ;
+    foaf:name "Iñigo Ruiz de Galarreta"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 120 ;
+    stats:blocks 11 ;
+    stats:carries 524 ;
+    stats:clearances 14 ;
+    stats:dispossessed 16 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 2.9 ;
+    stats:expectedGoals 0.5 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 16 ;
+    stats:keyPasses 28 ;
+    stats:matches90s 16.4 ;
+    stats:matchesPlayed 26 ;
+    stats:matchesStarted 18 ;
+    stats:minutesPlayed 1477 ;
+    stats:miscontrols 17 ;
+    stats:passesIntoPenaltyArea 25 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 27 ;
+    stats:progressivePasses 137 ;
+    stats:progressivePassesReceived 39 ;
+    stats:rank 958 ;
+    stats:redCards 0 ;
+    stats:tackles 36 ;
+    stats:tacklesWon 22 ;
+    stats:touches 978 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1993-08-06"^^xsd:date ;
+    schema:description """Iñigo Ruiz de Galarreta Etxeberria (born 6 August 1993) is a Spanish professional footballer who plays for RCD Mallorca mainly as a central midfielder.\r
+\r
+Club career\r
+Born in San Sebastián, Gipuzkoa, Ruiz de Galarreta joined Athletic Bilbao's youth system in 2003, aged 10. On 14 December 2011, while still considered a youth squad player, he made his debut with the first team, coming on as a substitute for Borja Ekiza in the 88th minute of a 4–2 away loss against Paris Saint-Germain F.C. in that season's UEFA Europa League; during his first year, however, he almost exclusively played with the reserves in Segunda División B.\r
+\r
+Ruiz de Galarreta made his second appearance for the main squad on 2 August 2012, again in the Europa League but now against NK Slaven Belupo (27 minutes played, 3–1 home win). He played his first La Liga game on the 19th of the same month, replacing Gaizka Toquero at half-time of an eventual 3–5 home defeat to Real Betis.\r
+\r
+During a match with the B side against Lleida Esportiu on 21 October 2012, Ruiz de Galarreta ruptured the anterior cruciate ligament on his left knee, being sidelined for the remainder of the campaign. For 2013–14 he was loaned to CD Mirandés of Segunda División, where in a home game against CD Numancia, on 27 October he suffered the same injury.\r
+\r
+The following years, Ruiz de Galarreta played with Real Zaragoza and CD Leganés on loan, helping the latter club achieve a first-ever promotion to the top flight in 2016. He continued to compete in the second division subsequently, representing Numancia, FC Barcelona B and UD Las Palmas.\r
+\r
+On 2 September 2019, Ruiz de Galarreta signed a four-year contract with RCD Mallorca in the top tier, though it was agreed he would remain on loan at Las Palmas for the upcoming season.\r
+\r
+International career\r
+Ruiz de Galarreta started representing Spain at under-17 level, appearing in friendlies against Portugal, Faroe Islands and Romania. He also played for the under-18s and the under-19s."""@en ;
+    schema:height "1.75 m (5 ft 7 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/cy6pge1712487705.jpg"^^xsd:anyURI ;
+    schema:memberOf "Athletic Bilbao"^^xsd:string ;
+    schema:name "Iñigo Ruiz de Galarreta"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

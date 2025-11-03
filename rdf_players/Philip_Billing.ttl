@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Philip_Billing a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16727516> ;
+    foaf:account "twitter.com/BillingPhilip"^^xsd:anyURI,
+        "www.instagram.com/PhilipBilling/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/xxgccl1694187196.png"^^xsd:anyURI ;
+    foaf:name "Philip Billing"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 8 ;
+    stats:blocks 4 ;
+    stats:carries 62 ;
+    stats:clearances 6 ;
+    stats:dispossessed 2 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 1.5 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 2.2 ;
+    stats:matchesPlayed 10 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 197 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 5 ;
+    stats:progressivePassesReceived 8 ;
+    stats:rank 335 ;
+    stats:redCards 0 ;
+    stats:tackles 9 ;
+    stats:tacklesWon 6 ;
+    stats:touches 136 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1996-06-11"^^xsd:date ;
+    schema:description """Philip Anyanwu Billing (born 11 June 1996) is a Danish professional footballer who plays as a midfielder for Danish Superliga club Midtjylland.   After signing for Esbjerg in his native Denmark, Billing joined Huddersfield Town in 2013 on a youth contract. Billing signed a four-year professional contract in October 2013. After performing well for both the under-18's and under-21's, he made his first team debut for the club as a substitute in their 2–0 loss against Leicester City at the John Smith's Stadium on 26 April 2014.\r
+Billing is Denmark youth international having represented the U19 and U21 teams."""@en ;
+    schema:height "1.93 m"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/cfdtcj1510174714.jpg"^^xsd:anyURI ;
+    schema:memberOf "FC Midtjylland"^^xsd:string ;
+    schema:name "Philip Billing"^^xsd:string ;
+    schema:nationality "Denmark"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

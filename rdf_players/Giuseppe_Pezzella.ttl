@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Giuseppe_Pezzella a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q22991777> ;
+    foaf:account "instagram.com/pezzella_giuseppe7?igshid=lutd31i27fls"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/irc2kp1758886454.png"^^xsd:anyURI ;
+    foaf:name "Giuseppe Pezzella"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 88 ;
+    stats:blocks 32 ;
+    stats:carries 673 ;
+    stats:clearances 110 ;
+    stats:dispossessed 32 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 4.6 ;
+    stats:expectedGoals 0.6 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 15 ;
+    stats:keyPasses 36 ;
+    stats:matches90s 32.0 ;
+    stats:matchesPlayed 35 ;
+    stats:matchesStarted 34 ;
+    stats:minutesPlayed 2878 ;
+    stats:miscontrols 46 ;
+    stats:passesIntoPenaltyArea 30 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 77 ;
+    stats:progressivePasses 80 ;
+    stats:progressivePassesReceived 143 ;
+    stats:rank 2108 ;
+    stats:redCards 0 ;
+    stats:tackles 55 ;
+    stats:tacklesWon 31 ;
+    stats:touches 1579 ;
+    stats:yellowCards 7 ;
+    schema:birthDate "1997-11-29"^^xsd:date ;
+    schema:description "Giuseppe Pezzella (born 29 November 1997) is an Italian professional footballer who plays as a left back for Serie A club Cremonese."@en ;
+    schema:height "1.91 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/c35hj71546516223.jpg"^^xsd:anyURI ;
+    schema:memberOf "Cremonese"^^xsd:string ;
+    schema:name "Giuseppe Pezzella"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "179 lbs"^^xsd:string .
+

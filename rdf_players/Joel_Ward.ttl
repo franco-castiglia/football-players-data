@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Joel_Ward a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2621755> ;
+    foaf:account "twitter.com/JoelWard2"^^xsd:anyURI,
+        "www.instagram.com/joelward2/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/9sn98y1694025354.png"^^xsd:anyURI ;
+    foaf:name "Joel Ward"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 7 ;
+    stats:blocks 0 ;
+    stats:carries 15 ;
+    stats:clearances 3 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 0.8 ;
+    stats:matchesPlayed 2 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 71 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 1 ;
+    stats:progressivePassesReceived 1 ;
+    stats:rank 2747 ;
+    stats:redCards 0 ;
+    stats:tackles 2 ;
+    stats:tacklesWon 0 ;
+    stats:touches 32 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1989-10-29"^^xsd:date ;
+    schema:description """Joel Edward Philip Ward (born 29 October 1989) is an English professional footballer who plays as a defender. He is currently a free agent.\r
+\r
+A versatile defender who can play anywhere across the back-line, Ward was an academy graduate of Portsmouth. He made his senior debut in 2009 following a loan to AFC Bournemouth, and made 96 appearances for the club.\r
+\r
+In 2012, Ward was signed by Crystal Palace, and helped the side achieve promotion to the Premier League in his first season. He has since gone on to make the most top-flight appearances of any player in the club's history, as well as serving a season as club captain and winning the FA Cup in 2025."""@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/bvc52j1510410467.jpg"^^xsd:anyURI ;
+    schema:memberOf "_Free Agent Soccer"^^xsd:string ;
+    schema:name "Joel Ward"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

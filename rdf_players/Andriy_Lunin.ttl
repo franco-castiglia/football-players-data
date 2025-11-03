@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Andriy_Lunin a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q27342447> ;
+    foaf:account "www.instagram.com/lunin_andrey/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/1gwc7n1733653560.png"^^xsd:anyURI ;
+    foaf:name "Andriy Lunin"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 14 ;
+    stats:blocks 0 ;
+    stats:carries 116 ;
+    stats:clearances 3 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 7.0 ;
+    stats:matchesPlayed 7 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 630 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1545 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 0 ;
+    stats:touches 209 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1999-02-11"^^xsd:date ;
+    schema:description "Andriy Oleksiyovych Lunin (Ukrainian: Андрій Олексійович Лунін; born 11 February 1999) is a Ukrainian professional footballer who plays as a goalkeeper for Spanish club Real Madrid and the Ukrainian national team."@en ;
+    schema:height "1.92 m (6 ft 4 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/qlxjyq1715427395.jpg"^^xsd:anyURI ;
+    schema:memberOf "Real Madrid"^^xsd:string ;
+    schema:name "Andriy Lunin"^^xsd:string ;
+    schema:nationality "Ukraine"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Yacouba_Djiga a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q108419463> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/4oybhx1739208824.png"^^xsd:anyURI ;
+    foaf:name "Yacouba Djiga"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 2 ;
+    stats:blocks 0 ;
+    stats:carries 32 ;
+    stats:clearances 4 ;
+    stats:dispossessed 2 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.7 ;
+    stats:matchesPlayed 5 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 66 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 3 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 751 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 58 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2002-11-15"^^xsd:date ;
+    schema:description "Yacouba Nasser Djiga is a Burkinabé professional footballer who plays as a centre-back for Scottish Premiership club Rangers, on loan from Premier League club Wolverhampton Wanderers, and the Burkina Faso national team."@en ;
+    schema:height "187 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/aj5baw1739208814.jpg"^^xsd:anyURI ;
+    schema:memberOf "Rangers"^^xsd:string ;
+    schema:name "Yacouba Djiga"^^xsd:string ;
+    schema:nationality "Burkina Faso"^^xsd:string ;
+    schema:weight "80 kg"^^xsd:string .
+

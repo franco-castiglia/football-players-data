@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:David_Zec a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q47088725> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/y1w73e1741708815.png"^^xsd:anyURI ;
+    foaf:name "David Zec"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 76 ;
+    stats:blocks 32 ;
+    stats:carries 527 ;
+    stats:clearances 93 ;
+    stats:dispossessed 5 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 1.2 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 17 ;
+    stats:keyPasses 8 ;
+    stats:matches90s 17.1 ;
+    stats:matchesPlayed 18 ;
+    stats:matchesStarted 18 ;
+    stats:minutesPlayed 1541 ;
+    stats:miscontrols 11 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 3 ;
+    stats:progressivePasses 34 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 2827 ;
+    stats:redCards 0 ;
+    stats:tackles 23 ;
+    stats:tacklesWon 10 ;
+    stats:touches 1049 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "2000-01-05"^^xsd:date ;
+    schema:description "David Zec (born 5 January 2000) is a Slovenian professional footballer who plays as a centre-back for Bundesliga club Holstein Kiel and the Slovenia national team."@en ;
+    schema:height "188 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/pdxd3a1741708806.jpg"^^xsd:anyURI ;
+    schema:memberOf "Holstein Kiel"^^xsd:string ;
+    schema:name "David Zec"^^xsd:string ;
+    schema:nationality "Slovenia"^^xsd:string ;
+    schema:weight "181 lbs"^^xsd:string .
+

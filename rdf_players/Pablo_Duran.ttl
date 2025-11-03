@@ -1,0 +1,52 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Pablo_Duran a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q114906705> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/2xq5001724494061.png"^^xsd:anyURI ;
+    foaf:name "Pablo Durán"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 46 ;
+    stats:blocks 12 ;
+    stats:carries 338 ;
+    stats:clearances 18 ;
+    stats:dispossessed 20 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.8 ;
+    stats:expectedGoals 3.6 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 17 ;
+    stats:matches90s 15.5 ;
+    stats:matchesPlayed 27 ;
+    stats:matchesStarted 15 ;
+    stats:minutesPlayed 1394 ;
+    stats:miscontrols 42 ;
+    stats:passesIntoPenaltyArea 10 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 24 ;
+    stats:progressivePasses 30 ;
+    stats:progressivePassesReceived 124 ;
+    stats:rank 800 ;
+    stats:redCards 0 ;
+    stats:tackles 17 ;
+    stats:tacklesWon 9 ;
+    stats:touches 584 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2001-05-25"^^xsd:date ;
+    schema:description "Pablo Durán Fernández (born 25 May 2001) is a Spanish professional footballer who plays for RC Celta de Vigo. Mainly a forward, he can also play as a winger."@en ;
+    schema:height "1.76 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/qbxrns1724494030.jpg"^^xsd:anyURI ;
+    schema:memberOf "Celta Vigo"^^xsd:string ;
+    schema:name "Pablo Durán"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

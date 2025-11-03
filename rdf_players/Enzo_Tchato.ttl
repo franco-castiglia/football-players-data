@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Enzo_Tchato a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q113469390> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/g7hu2t1674742125.png"^^xsd:anyURI ;
+    foaf:name "Enzo Tchato"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 60 ;
+    stats:blocks 30 ;
+    stats:carries 532 ;
+    stats:clearances 59 ;
+    stats:dispossessed 5 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.5 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 22 ;
+    stats:keyPasses 14 ;
+    stats:matches90s 21.1 ;
+    stats:matchesPlayed 27 ;
+    stats:matchesStarted 21 ;
+    stats:minutesPlayed 1899 ;
+    stats:miscontrols 16 ;
+    stats:passesIntoPenaltyArea 13 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 44 ;
+    stats:progressivePasses 62 ;
+    stats:progressivePassesReceived 95 ;
+    stats:rank 2562 ;
+    stats:redCards 0 ;
+    stats:tackles 48 ;
+    stats:tacklesWon 26 ;
+    stats:touches 1204 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2002-11-23"^^xsd:date ;
+    schema:description "Enzo Gianni Tchato Mbiayi (born 23 November 2002) is a professional footballer who plays as a defender for Ligue 1 club Montpellier. Born in France, he represents Cameroon at youth international level."@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/n58db51674742107.jpg"^^xsd:anyURI ;
+    schema:memberOf "Montpellier"^^xsd:string ;
+    schema:name "Enzo Tchato"^^xsd:string ;
+    schema:nationality "Cameroon"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

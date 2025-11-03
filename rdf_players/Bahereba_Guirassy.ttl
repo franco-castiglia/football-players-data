@@ -1,0 +1,50 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Bahereba_Guirassy a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q129777758> ;
+    foaf:name "Bahereba Guirassy"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 22 ;
+    stats:blocks 10 ;
+    stats:carries 111 ;
+    stats:clearances 4 ;
+    stats:dispossessed 13 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.7 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 3.9 ;
+    stats:matchesPlayed 19 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 348 ;
+    stats:miscontrols 9 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacker"^^xsd:string ;
+    stats:progressiveCarries 15 ;
+    stats:progressivePasses 6 ;
+    stats:progressivePassesReceived 34 ;
+    stats:rank 1093 ;
+    stats:redCards 0 ;
+    stats:tackles 12 ;
+    stats:tacklesWon 8 ;
+    stats:touches 192 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2006-08-29"^^xsd:date ;
+    schema:height "5' 10\""^^xsd:string ;
+    schema:memberOf "Nantes"^^xsd:string ;
+    schema:name "Bahereba Guirassy"^^xsd:string ;
+    schema:nationality "Guinea"^^xsd:string ;
+    schema:weight "146 lbs"^^xsd:string .
+

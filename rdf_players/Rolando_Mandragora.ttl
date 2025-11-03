@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Rolando_Mandragora a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18402294> ;
+    foaf:account "www.facebook.com/officialrolly38/"^^xsd:anyURI,
+        "www.instagram.com/rolly38/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/slgfda1758891918.png"^^xsd:anyURI ;
+    foaf:name "Rolando Mandragora"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 61 ;
+    stats:blocks 22 ;
+    stats:carries 580 ;
+    stats:clearances 54 ;
+    stats:dispossessed 4 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 4.8 ;
+    stats:expectedGoals 2.7 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 15 ;
+    stats:keyPasses 31 ;
+    stats:matches90s 20.6 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 22 ;
+    stats:minutesPlayed 1856 ;
+    stats:miscontrols 11 ;
+    stats:passesIntoPenaltyArea 16 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 11 ;
+    stats:progressivePasses 92 ;
+    stats:progressivePassesReceived 34 ;
+    stats:rank 1603 ;
+    stats:redCards 0 ;
+    stats:tackles 23 ;
+    stats:tacklesWon 13 ;
+    stats:touches 1119 ;
+    stats:yellowCards 7 ;
+    schema:birthDate "1997-06-29"^^xsd:date ;
+    schema:description """Rolando Mandragora (born 29 June 1997) is an Italian professional footballer who plays as a midfielder for Serie A club Fiorentina.\r
+\r
+He began his professional career at Genoa, making five Serie A appearances and playing more frequently on loan at Pescara in Serie B. In 2016 he joined Juventus, where he made a sole appearance and was loaned a year later to Crotone, where he played regularly. He signed for Udinese in 2018. He rejoined Juventus in October 2020 and was immediately loaned back to Udinese.\r
+\r
+Mandragora represented Italy at every age group from under-17 to under-21. He made his senior international debut in June 2018."""@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/0owzgf1546517167.jpg"^^xsd:anyURI ;
+    schema:memberOf "Fiorentina"^^xsd:string ;
+    schema:name "Rolando Mandragora"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

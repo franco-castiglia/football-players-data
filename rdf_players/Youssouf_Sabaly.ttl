@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Youssouf_Sabaly a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q13882431> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/mjc9241701176946.png"^^xsd:anyURI ;
+    foaf:name "Youssouf Sabaly"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 87 ;
+    stats:blocks 21 ;
+    stats:carries 620 ;
+    stats:clearances 40 ;
+    stats:dispossessed 12 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.8 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 13 ;
+    stats:keyPasses 11 ;
+    stats:matches90s 17.6 ;
+    stats:matchesPlayed 22 ;
+    stats:matchesStarted 20 ;
+    stats:minutesPlayed 1581 ;
+    stats:miscontrols 27 ;
+    stats:passesIntoPenaltyArea 7 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 25 ;
+    stats:progressivePasses 62 ;
+    stats:progressivePassesReceived 63 ;
+    stats:rank 2284 ;
+    stats:redCards 0 ;
+    stats:tackles 40 ;
+    stats:tacklesWon 25 ;
+    stats:touches 1170 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1993-03-05"^^xsd:date ;
+    schema:description "Youssouf Sabaly (born 5 March 1993) is a professional footballer who plays as a right-back for Spanish club Real Betis. He can also play as a left-back. Born in France, he represents Senegal at international level."@en ;
+    schema:height "1.74 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/fupqer1629535579.jpg"^^xsd:anyURI ;
+    schema:memberOf "Real Betis"^^xsd:string ;
+    schema:name "Youssouf Sabaly"^^xsd:string ;
+    schema:nationality "Senegal"^^xsd:string ;
+    schema:weight "148 lbs"^^xsd:string .
+

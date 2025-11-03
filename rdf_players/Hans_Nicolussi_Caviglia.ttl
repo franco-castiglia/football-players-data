@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Hans_Nicolussi_Caviglia a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q58303861> ;
+    foaf:account "http://www.instagram.com/hansnicolussi/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/kj0dis1758891650.png"^^xsd:anyURI ;
+    foaf:name "Hans Nicolussi Caviglia"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 147 ;
+    stats:blocks 39 ;
+    stats:carries 901 ;
+    stats:clearances 55 ;
+    stats:dispossessed 37 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 2.1 ;
+    stats:expectedGoals 2.4 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 28 ;
+    stats:keyPasses 29 ;
+    stats:matches90s 31.8 ;
+    stats:matchesPlayed 35 ;
+    stats:matchesStarted 33 ;
+    stats:minutesPlayed 2861 ;
+    stats:miscontrols 40 ;
+    stats:passesIntoPenaltyArea 15 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 20 ;
+    stats:progressivePasses 140 ;
+    stats:progressivePassesReceived 22 ;
+    stats:rank 1900 ;
+    stats:redCards 1 ;
+    stats:tackles 47 ;
+    stats:tacklesWon 28 ;
+    stats:touches 1739 ;
+    stats:yellowCards 7 ;
+    schema:birthDate "2000-06-18"^^xsd:date ;
+    schema:description "Hans Nicolussi Caviglia (born 18 June 2000) is an Italian professional footballer who plays as a midfielder for Venezia on loan from Serie A club Juventus."@en ;
+    schema:height "1.80 m"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/i0l20d1610448906.jpg"^^xsd:anyURI ;
+    schema:memberOf "Fiorentina"^^xsd:string ;
+    schema:name "Hans Nicolussi Caviglia"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

@@ -1,0 +1,64 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ibrahim_Mbaye a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q129088593> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/9m54sj1748682743.png"^^xsd:anyURI ;
+    foaf:name "Ibrahim Mbaye"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 10 ;
+    stats:blocks 2 ;
+    stats:carries 161 ;
+    stats:clearances 2 ;
+    stats:dispossessed 11 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.1 ;
+    stats:expectedGoals 1.8 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 3.8 ;
+    stats:matchesPlayed 9 ;
+    stats:matchesStarted 4 ;
+    stats:minutesPlayed 340 ;
+    stats:miscontrols 10 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:progressiveCarries 15 ;
+    stats:progressivePasses 9 ;
+    stats:progressivePassesReceived 54 ;
+    stats:rank 1693 ;
+    stats:redCards 0 ;
+    stats:tackles 4 ;
+    stats:tacklesWon 2 ;
+    stats:touches 198 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2008-01-24"^^xsd:date ;
+    schema:description """Ibrahim Mbaye (born 24 January 2008) is a French-Moroccan and Senegalese professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain.\r
+\r
+Club career\r
+Mbaye started his youth career in 2013 at ES Guyancourt before joining Versailles in 2015. In 2018, at the age of 10, he joined the Paris Saint-Germain Academy. In the 2023–24 season, while aged 16, Mbaye helped the PSG under-19s achieve victory in the Championnat National U19 play-offs, scoring against Marseille in a 2–0 win in the semi-finals and participating in the 3–1 victory over Auxerre in the final.\r
+\r
+On 14 July 2024, Mbaye was called up for pre-season with Paris Saint-Germain's first team, having impressed head coach Luis Enrique. On 7 August, he made his first appearance and start for the club in a 2–2 friendly draw against Sturm Graz. Nine minutes into the match, he scored PSG's first goal of the season after receiving an assist from Marco Asensio. Following PSG's second pre-season match on 10 August against RB Leipzig, in which Mbaye was a starter, Luis Enrique praised Mbaye's performance, saying he was satisfied with his play. On 16 August, Mbaye made his official debut for PSG, playing the first half of a 4–1 victory away to Le Havre, the first match of the 2024–25 Ligue 1 season. He became the youngest player to start a game for PSG at 16 years, 6 months, and 23 days, surpassing the record of his teammate Warren Zaïre-Emery.\r
+\r
+International career\r
+Mbaye is a youth international for France. At the 2024 Montaigu Tournament, he helped the France under-16s achieve victory while picking up the award for the competition's best player.\r
+\r
+Personal life\r
+Born in France, Mbaye is of Moroccan descent through his mother and Senegalese descent through his father."""@en ;
+    schema:height "1.75 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/7xzg8i1724093973.jpg"^^xsd:anyURI ;
+    schema:memberOf "Paris SG"^^xsd:string ;
+    schema:name "Ibrahim Mbaye"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "64 kg (141 lb)"^^xsd:string .
+

@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mahmoud_Dahoud a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q17659996> ;
+    foaf:account "http://www.facebook.com/MoDahoudOffiziell"^^xsd:anyURI,
+        "http://www.instagram.com/mo8dahoud19"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/fgjuw61742042945.png"^^xsd:anyURI ;
+    foaf:name "Mahmoud Dahoud"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 20 ;
+    stats:blocks 5 ;
+    stats:carries 160 ;
+    stats:clearances 5 ;
+    stats:dispossessed 2 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.7 ;
+    stats:expectedGoals 0.5 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 8 ;
+    stats:matches90s 4.0 ;
+    stats:matchesPlayed 9 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 364 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 17 ;
+    stats:progressivePassesReceived 6 ;
+    stats:rank 647 ;
+    stats:redCards 0 ;
+    stats:tackles 9 ;
+    stats:tacklesWon 4 ;
+    stats:touches 263 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1996-01-01"^^xsd:date ;
+    schema:description """Mahmoud Dahoud (born 1 January 1996) is a professional footballer who plays as a defensive midfielder for Bundesliga club Eintracht Frankfurt.\r
+\r
+Dahoud made his debut for Bundesliga club Borussia Mönchengladbach in 2014, making 86 appearances before signing for Borussia Dortmund three years later.\r
+\r
+Born in Syria, Dahoud has represented Germany internationally at U18, U19, and U21, and senior levels. He was part of the U21 side which won the 2017 UEFA European Under-21 Championship. In March 2024, Dahoud switched allegiance to Syria."""@en ;
+    schema:height "1.77 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/hlkbyx1578085197.jpg"^^xsd:anyURI ;
+    schema:memberOf "Eintracht Frankfurt"^^xsd:string ;
+    schema:name "Mahmoud Dahoud"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

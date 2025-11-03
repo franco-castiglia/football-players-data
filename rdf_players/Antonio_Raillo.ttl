@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Antonio_Raillo a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q21039370> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/3466vx1725044781.png"^^xsd:anyURI ;
+    foaf:name "Antonio Raíllo"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 104 ;
+    stats:blocks 51 ;
+    stats:carries 1108 ;
+    stats:clearances 222 ;
+    stats:dispossessed 6 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.6 ;
+    stats:expectedGoals 2.0 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 29 ;
+    stats:keyPasses 13 ;
+    stats:matches90s 35.6 ;
+    stats:matchesPlayed 36 ;
+    stats:matchesStarted 36 ;
+    stats:minutesPlayed 3207 ;
+    stats:miscontrols 7 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 31 ;
+    stats:progressivePasses 108 ;
+    stats:progressivePassesReceived 20 ;
+    stats:rank 2166 ;
+    stats:redCards 1 ;
+    stats:tackles 31 ;
+    stats:tacklesWon 18 ;
+    stats:touches 2185 ;
+    stats:yellowCards 7 ;
+    schema:birthDate "1991-10-08"^^xsd:date ;
+    schema:description "Antonio José Raíllo Arenas (born 8 October 1991) is a Spanish professional footballer who plays as a centre-back for and captains La Liga club Mallorca."@en ;
+    schema:height "1.87 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/h2es7w1724403797.jpg"^^xsd:anyURI ;
+    schema:memberOf "Mallorca"^^xsd:string ;
+    schema:name "Antonio Raíllo"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Dusan_Vlahovic a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q23762815> ;
+    foaf:account "www.instagram.com/vlahovicdusan/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/rl2w191759225532.png"^^xsd:anyURI ;
+    foaf:name "Dušan Vlahović"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 36 ;
+    stats:blocks 7 ;
+    stats:carries 308 ;
+    stats:clearances 9 ;
+    stats:dispossessed 28 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 1.3 ;
+    stats:expectedGoals 12.3 ;
+    stats:goals 10 ;
+    stats:goalsNonPenalty 6 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 15 ;
+    stats:matches90s 19.8 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 21 ;
+    stats:minutesPlayed 1784 ;
+    stats:miscontrols 51 ;
+    stats:passesIntoPenaltyArea 7 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 27 ;
+    stats:progressivePasses 22 ;
+    stats:progressivePassesReceived 117 ;
+    stats:rank 2722 ;
+    stats:redCards 0 ;
+    stats:tackles 4 ;
+    stats:tacklesWon 2 ;
+    stats:touches 564 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2000-01-28"^^xsd:date ;
+    schema:description """Dušan Vlahović (Serbian Cyrillic: Душан Влаховић; born 28 January 2000) is a Serbian professional footballer who plays as a striker for Serie A club Juventus and the Serbia national team.\r
+\r
+Graduating from Partizan's youth system, Vlahović made his first-team debut in 2016, winning a league title and two Serbian Cups. He moved to Italian club Fiorentina in 2018. With 21 league goals in the 2020–21 Serie A, Vlahović was awarded Serie A Best Young Player. After an impressive goalscoring form in the first half of 2021–22, Italian rivals Juventus signed him in January 2022 for a reported fee of €70 million.\r
+\r
+Vlahović is a former Serbia youth international, representing his country at various youth levels, before making his senior international debut in 2020 during the UEFA Nations League."""@en ;
+    schema:height "1.90 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/m568x71546427386.jpg"^^xsd:anyURI ;
+    schema:memberOf "Juventus"^^xsd:string ;
+    schema:name "Dušan Vlahović"^^xsd:string ;
+    schema:nationality "Serbia"^^xsd:string ;
+    schema:weight "192 lbs"^^xsd:string .
+

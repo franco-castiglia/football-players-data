@@ -1,0 +1,62 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Edoardo_Bove a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q106775510> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/n1bg621679567976.png"^^xsd:anyURI ;
+    foaf:name "Edoardo Bove"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 45 ;
+    stats:blocks 12 ;
+    stats:carries 251 ;
+    stats:clearances 8 ;
+    stats:dispossessed 11 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.5 ;
+    stats:expectedGoals 0.6 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 11 ;
+    stats:matches90s 9.3 ;
+    stats:matchesPlayed 11 ;
+    stats:matchesStarted 10 ;
+    stats:minutesPlayed 836 ;
+    stats:miscontrols 13 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 12 ;
+    stats:progressivePasses 37 ;
+    stats:progressivePassesReceived 24 ;
+    stats:rank 374 ;
+    stats:redCards 0 ;
+    stats:tackles 24 ;
+    stats:tacklesWon 17 ;
+    stats:touches 437 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2002-05-16"^^xsd:date ;
+    schema:description """Edoardo Bove (born 16 May 2002) is an Italian professional footballer who plays as a midfielder for Serie A club Fiorentina on loan from Roma.\r
+\r
+Early life\r
+Edoardo Bove was born in Rome. Bove's paternal branch of his family is originally from Naples, while his maternal branch is also made up of people of German origin. Bove grew up in the quartiere of Appio-Latino, and studied at the Massimo Institute in Rome's neighborhood EUR. Subsequently, he continued his studies at Luiss 'Guido Carli', in Rome, enrolling in a degree course in Economics and Management. In an interview, Bove stated that he was inspired by Roma's former captain Daniele De Rossi.\r
+\r
+Club career\r
+Bove started playing football in the Roman club of Boreale Donorione until 2012, when he joined Roma after following a successful trial under the supervision of Bruno Conti. On 20 November 2020, Bove extended his contract with Roma unitil 2024. Bove was first called up by the first team on 3 December for a Europa League match against Young Boys without making his debut. Bove made his professional debut for Roma on the 9 May 2021, replacing Ebrima Darboe in the second half of a 5–0 Serie A win against Crotone at the Stadio Olimpico. In the 2021–22 season, Bove was often called up by Roma's coach José Mourinho. He made his first Conference League match on 9 December as a starter in a 3–2 win against CSKA Sofia. On 29 December, Roma announced that his contract would be extended until 2025. On 19 February 2022, Bove scored his first senior goal allowing Roma draw 2–2 against Verona.\r
+\r
+Style of play\r
+Bove is a mezz'ala or trequartista good at offensive insertions and tactically disciplined, he also has a good technique as an eye for the goal."""@en ;
+    schema:height "1.79 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/lagphu1631197656.jpg"^^xsd:anyURI ;
+    schema:memberOf "Roma"^^xsd:string ;
+    schema:name "Edoardo Bove"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

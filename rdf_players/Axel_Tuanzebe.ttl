@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Axel_Tuanzebe a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q27019988> ;
+    foaf:account "www.instagram.com/axeltuanzebe_38/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/gyezct1757174776.png"^^xsd:anyURI ;
+    foaf:name "Axel Tuanzebe"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 49 ;
+    stats:blocks 21 ;
+    stats:carries 402 ;
+    stats:clearances 56 ;
+    stats:dispossessed 1 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 23 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 19.0 ;
+    stats:matchesPlayed 22 ;
+    stats:matchesStarted 20 ;
+    stats:minutesPlayed 1710 ;
+    stats:miscontrols 11 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 10 ;
+    stats:progressivePasses 61 ;
+    stats:progressivePassesReceived 15 ;
+    stats:rank 2639 ;
+    stats:redCards 1 ;
+    stats:tackles 31 ;
+    stats:tacklesWon 19 ;
+    stats:touches 971 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1997-11-14"^^xsd:date ;
+    schema:description """Axel Tuanzebe (born 14 November 1997) is a Congolese professional footballer who plays as a defender for Premier League club Burnley and the DR Congo national team. \r
+\r
+Tuanzebe is a graduate of the Manchester United youth system and won both the Jimmy Murphy Young Player of the Year and Denzil Haroun Reserve Team Player of the Year awards. He made his competitive debut in an FA Cup game against Wigan Athletic in January 2017. He has had three spells on loan at Aston Villa and helped them to win promotion to the Premier League in 2019. After spending time with Napoli in 2022 and Stoke City in 2023, he was released by Manchester United at the end of the 2022–23 season.\r
+\r
+Born in the Democratic Republic of the Congo, Tuanzebe relocated to England at a young age and represented England at under-19, under-20 and under-21 levels, before opting to represent the DR Congo senior team in 2024."""@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/srqyrs1469441361.jpg"^^xsd:anyURI ;
+    schema:memberOf "Burnley"^^xsd:string ;
+    schema:name "Axel Tuanzebe"^^xsd:string ;
+    schema:nationality "DR Congo"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

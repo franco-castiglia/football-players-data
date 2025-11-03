@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Manuel_Lazzari a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q29558961> ;
+    foaf:account "http://www.instagram.com/manulazza29/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/etilu81698231422.png"^^xsd:anyURI ;
+    foaf:name "Manuel Lazzari"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 50 ;
+    stats:blocks 9 ;
+    stats:carries 518 ;
+    stats:clearances 19 ;
+    stats:dispossessed 7 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.3 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 10 ;
+    stats:keyPasses 20 ;
+    stats:matches90s 15.6 ;
+    stats:matchesPlayed 25 ;
+    stats:matchesStarted 16 ;
+    stats:minutesPlayed 1406 ;
+    stats:miscontrols 27 ;
+    stats:passesIntoPenaltyArea 22 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 72 ;
+    stats:progressivePasses 66 ;
+    stats:progressivePassesReceived 96 ;
+    stats:rank 1457 ;
+    stats:redCards 0 ;
+    stats:tackles 26 ;
+    stats:tacklesWon 16 ;
+    stats:touches 896 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1993-11-29"^^xsd:date ;
+    schema:description "Manuel Lazzari (Italian pronunciation: ; born 29 November 1993) is an Italian footballer who plays as a right midfielder (his preferred position) or right-back for S.S. Lazio and the Italy national team."@en ;
+    schema:height "1.74 m (5 ft 8 1⁄2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/7gb8c51577129862.jpg"^^xsd:anyURI ;
+    schema:memberOf "Lazio"^^xsd:string ;
+    schema:name "Manuel Lazzari"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "148 lbs"^^xsd:string .
+

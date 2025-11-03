@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mateus_Fernandes a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q114870703> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/4n6bd51756984935.png"^^xsd:anyURI ;
+    foaf:name "Mateus Fernandes"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 179 ;
+    stats:blocks 43 ;
+    stats:carries 897 ;
+    stats:clearances 35 ;
+    stats:dispossessed 36 ;
+    stats:errors 7 ;
+    stats:expectedAssistedGoals 3.0 ;
+    stats:expectedGoals 4.0 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 28 ;
+    stats:keyPasses 34 ;
+    stats:matches90s 32.3 ;
+    stats:matchesPlayed 36 ;
+    stats:matchesStarted 34 ;
+    stats:minutesPlayed 2909 ;
+    stats:miscontrols 58 ;
+    stats:passesIntoPenaltyArea 27 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 76 ;
+    stats:progressivePasses 145 ;
+    stats:progressivePassesReceived 108 ;
+    stats:rank 894 ;
+    stats:redCards 0 ;
+    stats:tackles 89 ;
+    stats:tacklesWon 48 ;
+    stats:touches 1760 ;
+    stats:yellowCards 8 ;
+    schema:birthDate "2004-07-10"^^xsd:date ;
+    schema:description "Mateus Gonçalo Espanha Fernandes is a Portuguese professional footballer who plays as a midfielder for Premier League club West Ham United."@en ;
+    schema:height "1.78 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/oej5bs1725546442.jpg"^^xsd:anyURI ;
+    schema:memberOf "West Ham United"^^xsd:string ;
+    schema:name "Mateus Fernandes"^^xsd:string ;
+    schema:nationality "Portugal"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

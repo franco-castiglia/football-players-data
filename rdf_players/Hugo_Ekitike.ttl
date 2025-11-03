@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Hugo_Ekitike a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q100602910> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png"^^xsd:anyURI ;
+    foaf:name "Hugo Ekitiké"^^xsd:string ;
+    stats:assists 8 ;
+    stats:ballRecoveries 87 ;
+    stats:blocks 13 ;
+    stats:carries 633 ;
+    stats:clearances 24 ;
+    stats:dispossessed 34 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 6.8 ;
+    stats:expectedGoals 21.6 ;
+    stats:goals 15 ;
+    stats:goalsNonPenalty 14 ;
+    stats:interceptions 7 ;
+    stats:keyPasses 44 ;
+    stats:matches90s 28.5 ;
+    stats:matchesPlayed 33 ;
+    stats:matchesStarted 31 ;
+    stats:minutesPlayed 2563 ;
+    stats:miscontrols 99 ;
+    stats:passesIntoPenaltyArea 31 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 93 ;
+    stats:progressivePasses 53 ;
+    stats:progressivePassesReceived 215 ;
+    stats:rank 824 ;
+    stats:redCards 0 ;
+    stats:tackles 16 ;
+    stats:tacklesWon 12 ;
+    stats:touches 1054 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2002-06-20"^^xsd:date ;
+    schema:description "Hugo Ekitike (or Ekitiké; born 20 June 2002) is a French professional footballer who plays as a striker for Premier League club Liverpool."@en ;
+    schema:height "1.89 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/dtmlr71704447908.jpg"^^xsd:anyURI ;
+    schema:memberOf "Liverpool"^^xsd:string ;
+    schema:name "Hugo Ekitiké"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Manuel_Ugarte a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q27960175> ;
+    foaf:account "www.instagram.com/ugartemanu/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/crepbi1738527631.png"^^xsd:anyURI ;
+    foaf:name "Manuel Ugarte"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 122 ;
+    stats:blocks 33 ;
+    stats:carries 668 ;
+    stats:clearances 17 ;
+    stats:dispossessed 25 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 1.1 ;
+    stats:expectedGoals 1.0 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 27 ;
+    stats:keyPasses 10 ;
+    stats:matches90s 19.8 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 22 ;
+    stats:minutesPlayed 1785 ;
+    stats:miscontrols 32 ;
+    stats:passesIntoPenaltyArea 9 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:progressiveCarries 16 ;
+    stats:progressivePasses 61 ;
+    stats:progressivePassesReceived 20 ;
+    stats:rank 2645 ;
+    stats:redCards 0 ;
+    stats:tackles 77 ;
+    stats:tacklesWon 49 ;
+    stats:touches 1161 ;
+    stats:yellowCards 11 ;
+    schema:birthDate "2001-04-11"^^xsd:date ;
+    schema:description """Manuel Ugarte Ribeiro (born 11 April 2001) is an Uruguayan professional footballer who plays primarily as a defensive midfielder for Premier League club Manchester United and the Uruguay national team. \r
+\r
+Ugarte came through Fénix's youth academy, being promoted to the first-team in 2016. In December 2021, he joined Portuguese Primeira Liga side Famalicão. Following an impressive half-season, Ugarte signed for fellow Primeira Liga side Sporting CP, winning the Taça da Liga in his first season.\r
+\r
+Ugarte is a former youth international for Uruguay, representing his country at various youth levels, being part of the team that finished in third place in the 2020 CONMEBOL Pre-Olympic Tournament. He made his senior international debut in 2021."""@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/aeow5l1718089910.jpg"^^xsd:anyURI ;
+    schema:memberOf "Manchester United"^^xsd:string ;
+    schema:name "Manuel Ugarte"^^xsd:string ;
+    schema:nationality "Uruguay"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

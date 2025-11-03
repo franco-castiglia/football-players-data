@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Matteo_Guendouzi a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q27663808> ;
+    foaf:account "en-gb.facebook.com/Matteoguendouzi/"^^xsd:anyURI,
+        "twitter.com/MatteoGuendouzi"^^xsd:anyURI,
+        "www.instagram.com/matteoguendouzi"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/knb1rg1698231357.png"^^xsd:anyURI ;
+    foaf:name "Matteo Guendouzi"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 173 ;
+    stats:blocks 34 ;
+    stats:carries 1549 ;
+    stats:clearances 50 ;
+    stats:dispossessed 18 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 3.2 ;
+    stats:expectedGoals 1.4 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 32 ;
+    stats:keyPasses 43 ;
+    stats:matches90s 36.3 ;
+    stats:matchesPlayed 37 ;
+    stats:matchesStarted 37 ;
+    stats:minutesPlayed 3270 ;
+    stats:miscontrols 28 ;
+    stats:passesIntoPenaltyArea 33 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 89 ;
+    stats:progressivePasses 316 ;
+    stats:progressivePassesReceived 64 ;
+    stats:rank 1081 ;
+    stats:redCards 0 ;
+    stats:tackles 37 ;
+    stats:tacklesWon 21 ;
+    stats:touches 2437 ;
+    stats:yellowCards 7 ;
+    schema:birthDate "1999-04-14"^^xsd:date ;
+    schema:description "Matteo Elias Kenzo Guendouzi Olié ( (listen); born 14 April 1999) is a French professional footballer who plays as a midfielder for Lazio on loan from  Ligue 1 club Marseille and the France national team."@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/z03olp1661104499.jpg"^^xsd:anyURI ;
+    schema:memberOf "Lazio"^^xsd:string ;
+    schema:name "Matteo Guendouzi"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

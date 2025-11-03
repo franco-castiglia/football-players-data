@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Matteo_Pessina a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q21622362> ;
+    foaf:account "www.instagram.com/pessinamatteo/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/zmgsxf1679666402.png"^^xsd:anyURI ;
+    foaf:name "Matteo Pessina"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 58 ;
+    stats:blocks 6 ;
+    stats:carries 333 ;
+    stats:clearances 7 ;
+    stats:dispossessed 13 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 12 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 9.5 ;
+    stats:matchesPlayed 11 ;
+    stats:matchesStarted 10 ;
+    stats:minutesPlayed 854 ;
+    stats:miscontrols 9 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:progressiveCarries 8 ;
+    stats:progressivePasses 28 ;
+    stats:progressivePassesReceived 20 ;
+    stats:rank 2103 ;
+    stats:redCards 0 ;
+    stats:tackles 15 ;
+    stats:tacklesWon 4 ;
+    stats:touches 559 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1997-04-21"^^xsd:date ;
+    schema:description """Matteo Pessina Cavaliere OMRI (born 21 April 1997) is an Italian professional footballer who plays as a midfielder. He is captain of Serie A club Monza, on loan from Atalanta, and plays for the Italy national team.\r
+\r
+Coming through the youth system, Pessina started his career at Monza. He joined AC Milan in 2015, who sent him on loan to Lecce, Catania and Como. In 2017, he moved to Atalanta, and was loaned out to Spezia and Hellas Verona. Pessina became a starter for Atalanta upon his return from loan in 2020. He returned to his hometown club Monza in 2022 and was made club captain.\r
+\r
+Pessina represented Italy internationally at under-19, under-20 and under-21 levels, before making his senior debut in 2020. He was part of Italy's squad at UEFA Euro 2020, where he scored two goals to help his side win the competition.\r
+\r
+Pessina studied economics at the LUISS Business School in Rome, Italy."""@en ;
+    schema:height "187 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/pi7eo51546084569.jpg"^^xsd:anyURI ;
+    schema:memberOf "Monza"^^xsd:string ;
+    schema:name "Matteo Pessina"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

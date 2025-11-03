@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Robin_Hranac a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q107647351> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/1tyc7w1742066638.png"^^xsd:anyURI ;
+    foaf:name "Robin Hranáč"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 12 ;
+    stats:blocks 3 ;
+    stats:carries 107 ;
+    stats:clearances 9 ;
+    stats:dispossessed 0 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 2.4 ;
+    stats:matchesPlayed 4 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 219 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 4 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1187 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 170 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2000-01-29"^^xsd:date ;
+    schema:description "Robin Hranáč (born 29 January 2000) is a Czech professional footballer who plays as a defender for Bundesliga club TSG Hoffenheim and the Czech Republic national team."@en ;
+    schema:height "1.90 m"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/tmchx21717653270.jpg"^^xsd:anyURI ;
+    schema:memberOf "Hoffenheim"^^xsd:string ;
+    schema:name "Robin Hranáč"^^xsd:string ;
+    schema:nationality "Czechia"^^xsd:string ;
+    schema:weight "185 lbs"^^xsd:string .
+

@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Che_Adams a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18683792> ;
+    foaf:account "twitter.com/cheadams_"^^xsd:anyURI,
+        "www.instagram.com/cheadams_/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/fiwc2j1758813462.png"^^xsd:anyURI ;
+    foaf:name "Che Adams"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 50 ;
+    stats:blocks 13 ;
+    stats:carries 509 ;
+    stats:clearances 18 ;
+    stats:dispossessed 34 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.0 ;
+    stats:expectedGoals 9.0 ;
+    stats:goals 9 ;
+    stats:goalsNonPenalty 9 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 26 ;
+    stats:matches90s 29.5 ;
+    stats:matchesPlayed 36 ;
+    stats:matchesStarted 30 ;
+    stats:minutesPlayed 2652 ;
+    stats:miscontrols 63 ;
+    stats:passesIntoPenaltyArea 7 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 23 ;
+    stats:progressivePasses 40 ;
+    stats:progressivePassesReceived 153 ;
+    stats:rank 25 ;
+    stats:redCards 0 ;
+    stats:tackles 12 ;
+    stats:tacklesWon 6 ;
+    stats:touches 802 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1996-07-13"^^xsd:date ;
+    schema:description """Ché Zach Everton Fred Adams (born 13 July 1996) is a professional footballer who plays as a striker for Torino and the Scotland national team. \r
+He began his senior career in non-league football with Oadby Town and Ilkeston before moving into the Football League with Sheffield United in late 2014. He made 47 League One appearances before signing for Birmingham in August 2016. He represented England at under-20 level in 2015."""@en ;
+    schema:height "179 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/n8t9kv1506025169.jpg"^^xsd:anyURI ;
+    schema:memberOf "Torino"^^xsd:string ;
+    schema:name "Che Adams"^^xsd:string ;
+    schema:nationality "Scotland"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

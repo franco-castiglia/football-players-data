@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Leon_Bailey a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q20890178> ;
+    foaf:account "twitter.com/leonbailey"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/ha7rtx1758816565.png"^^xsd:anyURI ;
+    foaf:name "Leon Bailey"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 59 ;
+    stats:blocks 6 ;
+    stats:carries 348 ;
+    stats:clearances 12 ;
+    stats:dispossessed 25 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.5 ;
+    stats:expectedGoals 1.7 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 3 ;
+    stats:keyPasses 16 ;
+    stats:matches90s 12.7 ;
+    stats:matchesPlayed 24 ;
+    stats:matchesStarted 14 ;
+    stats:minutesPlayed 1139 ;
+    stats:miscontrols 35 ;
+    stats:passesIntoPenaltyArea 20 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:progressiveCarries 58 ;
+    stats:progressivePasses 35 ;
+    stats:progressivePassesReceived 121 ;
+    stats:rank 204 ;
+    stats:redCards 0 ;
+    stats:tackles 7 ;
+    stats:tacklesWon 5 ;
+    stats:touches 545 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1997-08-09"^^xsd:date ;
+    schema:description "Leon Patrick Bailey is a Jamaican professional footballer who plays as a right winger for Serie A club Roma, on loan from Premier League club Aston Villa."@en ;
+    schema:height "1.78 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/4my9sh1710319563.jpg"^^xsd:anyURI ;
+    schema:memberOf "Roma"^^xsd:string ;
+    schema:name "Leon Bailey"^^xsd:string ;
+    schema:nationality "Jamaica"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

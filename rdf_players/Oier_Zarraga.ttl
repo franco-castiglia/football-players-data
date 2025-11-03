@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Oier_Zarraga a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q99231391> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/7ig1uv1604228811.png"^^xsd:anyURI ;
+    foaf:name "Oier Zarraga"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 25 ;
+    stats:blocks 9 ;
+    stats:carries 186 ;
+    stats:clearances 8 ;
+    stats:dispossessed 4 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.4 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 10.0 ;
+    stats:matchesPlayed 22 ;
+    stats:matchesStarted 9 ;
+    stats:minutesPlayed 896 ;
+    stats:miscontrols 9 ;
+    stats:passesIntoPenaltyArea 8 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 7 ;
+    stats:progressivePasses 28 ;
+    stats:progressivePassesReceived 23 ;
+    stats:rank 2826 ;
+    stats:redCards 0 ;
+    stats:tackles 19 ;
+    stats:tacklesWon 13 ;
+    stats:touches 359 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1999-01-04"^^xsd:date ;
+    schema:description "Oier Zarraga Egaña (born 4 January 1999) is a Spanish professional footballer who plays for Udinese as a central midfielder."@en ;
+    schema:height "1.75 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/jsyw6r1605268398.jpg"^^xsd:anyURI ;
+    schema:memberOf "Udinese"^^xsd:string ;
+    schema:name "Oier Zarraga"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

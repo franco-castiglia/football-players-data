@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Borja_Iglesias a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18719485> ;
+    foaf:account "twitter.com/borjaiglesias9"^^xsd:anyURI,
+        "www.instagram.com/borjaiglesias9/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/mrr5cf1724495214.png"^^xsd:anyURI ;
+    foaf:name "Borja Iglesias"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 46 ;
+    stats:blocks 9 ;
+    stats:carries 396 ;
+    stats:clearances 10 ;
+    stats:dispossessed 32 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 3.2 ;
+    stats:expectedGoals 9.3 ;
+    stats:goals 11 ;
+    stats:goalsNonPenalty 11 ;
+    stats:interceptions 7 ;
+    stats:keyPasses 18 ;
+    stats:matches90s 21.7 ;
+    stats:matchesPlayed 37 ;
+    stats:matchesStarted 24 ;
+    stats:minutesPlayed 1952 ;
+    stats:miscontrols 62 ;
+    stats:passesIntoPenaltyArea 9 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 2 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 22 ;
+    stats:progressivePasses 28 ;
+    stats:progressivePassesReceived 108 ;
+    stats:rank 1205 ;
+    stats:redCards 0 ;
+    stats:tackles 10 ;
+    stats:tacklesWon 9 ;
+    stats:touches 685 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1993-01-17"^^xsd:date ;
+    schema:description """Borja Iglesias Quintas (Spanish pronunciation: ; born 17 January 1993) is a Spanish professional footballer who plays as a striker for La Liga club Celta, on loan from Betis, and the Spain national team.\r
+\r
+Formed at Celta, where he played mainly in the reserves, he achieved totals of over 175 La Liga games and 50 goals for that team, Espanyol and Betis, winning the 2021–22 Copa del Rey with the latter."""@en ;
+    schema:height "1.87 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/f6cwxk1514399138.jpg"^^xsd:anyURI ;
+    schema:memberOf "Celta Vigo"^^xsd:string ;
+    schema:name "Borja Iglesias"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "190 lbs"^^xsd:string .
+

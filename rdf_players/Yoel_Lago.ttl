@@ -1,0 +1,51 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Yoel_Lago a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q126143747> ;
+    foaf:name "Yoel Lago"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 22 ;
+    stats:blocks 5 ;
+    stats:carries 289 ;
+    stats:clearances 30 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 6.5 ;
+    stats:matchesPlayed 8 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 583 ;
+    stats:miscontrols 5 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 31 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1439 ;
+    stats:redCards 0 ;
+    stats:tackles 12 ;
+    stats:tacklesWon 8 ;
+    stats:touches 487 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2004-03-25"^^xsd:date ;
+    schema:description "Yoel Lago Amil (born 25 March 2004) is a Spanish professional footballer who plays for RC Celta Fortuna. Mainly a centre-back, he can also play as a midfielder."@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:memberOf "Celta Fortuna"^^xsd:string ;
+    schema:name "Yoel Lago"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

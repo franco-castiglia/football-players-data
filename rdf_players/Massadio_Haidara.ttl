@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Massadio_Haidara a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q970858> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/98k1gb1702307233.png"^^xsd:anyURI ;
+    foaf:name "Massadio Haïdara"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 54 ;
+    stats:blocks 18 ;
+    stats:carries 486 ;
+    stats:clearances 73 ;
+    stats:dispossessed 7 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 26 ;
+    stats:keyPasses 8 ;
+    stats:matches90s 18.6 ;
+    stats:matchesPlayed 22 ;
+    stats:matchesStarted 20 ;
+    stats:minutesPlayed 1678 ;
+    stats:miscontrols 26 ;
+    stats:passesIntoPenaltyArea 11 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 44 ;
+    stats:progressivePasses 77 ;
+    stats:progressivePassesReceived 76 ;
+    stats:rank 1117 ;
+    stats:redCards 2 ;
+    stats:tackles 27 ;
+    stats:tacklesWon 16 ;
+    stats:touches 1106 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1992-12-02"^^xsd:date ;
+    schema:description "Massadio Haïdara (born 2 December 1992) is a professional footballer who plays as a left-back for Ligue 1 club Brest. Born in France, he plays for the Mali national team."@en ;
+    schema:height "1.79 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/jc61gm1502447498.jpg"^^xsd:anyURI ;
+    schema:memberOf "Kocaelispor"^^xsd:string ;
+    schema:name "Massadio Haïdara"^^xsd:string ;
+    schema:nationality "Mali"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

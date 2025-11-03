@@ -1,0 +1,52 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Bilal_El_Khannouss a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q105955374> ;
+    foaf:name "Bilal El Khannouss"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 92 ;
+    stats:blocks 22 ;
+    stats:carries 732 ;
+    stats:clearances 10 ;
+    stats:dispossessed 38 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 4.6 ;
+    stats:expectedGoals 1.3 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 42 ;
+    stats:matches90s 24.2 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 27 ;
+    stats:minutesPlayed 2182 ;
+    stats:miscontrols 38 ;
+    stats:passesIntoPenaltyArea 31 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:progressiveCarries 73 ;
+    stats:progressivePasses 128 ;
+    stats:progressivePassesReceived 89 ;
+    stats:rank 1349 ;
+    stats:redCards 0 ;
+    stats:tackles 50 ;
+    stats:tacklesWon 30 ;
+    stats:touches 1268 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2004-05-10"^^xsd:date ;
+    schema:description "Bilal El Khannouss is a professional footballer who plays as an attacking midfielder for Bundesliga club VfB Stuttgart, on loan from EFL Championship club Leicester City."@en ;
+    schema:height "180cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/c8oqc71756820301.jpg"^^xsd:anyURI ;
+    schema:memberOf "Stuttgart"^^xsd:string ;
+    schema:name "Bilal El Khannouss"^^xsd:string ;
+    schema:nationality "Morocco"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

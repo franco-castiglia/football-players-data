@@ -1,0 +1,66 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Matt_Targett a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18128628> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/aiijv81693823271.png"^^xsd:anyURI ;
+    foaf:name "Matt Targett"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 2 ;
+    stats:blocks 0 ;
+    stats:carries 4 ;
+    stats:clearances 1 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.2 ;
+    stats:matchesPlayed 2 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 21 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 1 ;
+    stats:rank 2552 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 17 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1995-09-18"^^xsd:date ;
+    schema:description """Matthew Robert Targett is an English professional footballer who plays as a left-back for EFL Championship club Middlesbrough, on loan from Premier League club Newcastle United. \r
+\r
+Born in Eastleigh, Hampshire, Targett joined Southampton's academy at the age of eight, after being scouted by his local team. He was named in a senior matchday squad for the first time on 24 September 2013, and was unused as they defeated Bristol City 2–0 in the third round of the League Cup. On 26 April 2014, he was named in a Premier League game for the first time, remaining on the bench as Southampton won 2–0 at home against Everton.\r
+\r
+On 26 August 2014, Targett made his first-team debut for Southampton in a League Cup second round game at Millwall. He played the entire match, which Southampton won 2–0. His next appearance came on 23 September in a 2–1 victory at Arsenal in the following round of the tournament.\r
+\r
+He made his first Premier League appearance on 27 September 2014, replacing Dušan Tadić in added time at the end of a 2–1 home victory over Queens Park Rangers. Targett's first start came on 28 December, a 1–1 draw against Chelsea in which regular left-back Ryan Bertrand was ineligible through being on loan from the visiting team.\r
+\r
+He was named as Southampton's Young Player of the Season for 2014–15. \r
+\r
+Targett represented Scotland at under-18 level before electing to play for England under-19s in September 2013. On 17 November 2014, Targett scored his first goal at international level in a 1–1 draw against Portugal for the England U-20s, followed by a goal in the penalty shoot-out. Targett made his debut for the under-21 side on 27 March 2015, starting in a 1–0 win against the Czech Republic in Prague.\r
+\r
+He was part of the team that won the 2016 Toulon Tournament, their first such win for 22 years."""@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/sqyqty1471448252.jpg"^^xsd:anyURI ;
+    schema:memberOf "Middlesbrough"^^xsd:string ;
+    schema:name "Matt Targett"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

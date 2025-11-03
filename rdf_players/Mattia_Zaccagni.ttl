@@ -1,0 +1,64 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mattia_Zaccagni a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q28968068> ;
+    foaf:account "http://www.instagram.com/mattiazaccagni20_/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/zypi1b1698231657.png"^^xsd:anyURI ;
+    foaf:name "Mattia Zaccagni"^^xsd:string ;
+    stats:assists 6 ;
+    stats:ballRecoveries 86 ;
+    stats:blocks 19 ;
+    stats:carries 911 ;
+    stats:clearances 22 ;
+    stats:dispossessed 40 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 4.6 ;
+    stats:expectedGoals 6.4 ;
+    stats:goals 8 ;
+    stats:goalsNonPenalty 6 ;
+    stats:interceptions 29 ;
+    stats:keyPasses 55 ;
+    stats:matches90s 29.8 ;
+    stats:matchesPlayed 34 ;
+    stats:matchesStarted 33 ;
+    stats:minutesPlayed 2686 ;
+    stats:miscontrols 49 ;
+    stats:passesIntoPenaltyArea 39 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 91 ;
+    stats:progressivePasses 114 ;
+    stats:progressivePassesReceived 264 ;
+    stats:rank 2806 ;
+    stats:redCards 0 ;
+    stats:tackles 38 ;
+    stats:tacklesWon 27 ;
+    stats:touches 1458 ;
+    stats:yellowCards 10 ;
+    schema:birthDate "1995-06-16"^^xsd:date ;
+    schema:description """Mattia Zaccagni (Italian pronunciation: ; born 16 June 1995) is an Italian professional footballer who plays as a midfielder or striker for Serie A side Lazio and the Italy national team.\r
+\r
+Zaccagni made his professional debut in the Lega Pro for Venezia on 10 September 2014 in a game against Südtirol.\r
+\r
+He made his Serie A debut for Verona on 23 September 2015 as a 75th-minute substitute for Jacopo Sala in a 1–0 loss against Internazionale.\r
+\r
+On 17 March 2020, he tested positive for COVID-19.\r
+\r
+On 31 August 2021 Zaccagni completed a move from Hellas Verona to Lazio on loan with a conditional obligation to buy.\r
+\r
+Zaccagni was called up to the senior Italy squad in November 2020."""@en ;
+    schema:height "177 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ely35j1546372853.jpg"^^xsd:anyURI ;
+    schema:memberOf "Lazio"^^xsd:string ;
+    schema:name "Mattia Zaccagni"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "139 lbs"^^xsd:string .
+

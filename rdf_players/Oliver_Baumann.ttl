@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Oliver_Baumann a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q129116> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/meyxty1742066514.png"^^xsd:anyURI ;
+    foaf:name "Oliver Baumann"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 53 ;
+    stats:blocks 0 ;
+    stats:carries 678 ;
+    stats:clearances 15 ;
+    stats:dispossessed 0 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 1.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 28.0 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 28 ;
+    stats:minutesPlayed 2520 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 1 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 264 ;
+    stats:redCards 0 ;
+    stats:tackles 2 ;
+    stats:tacklesWon 2 ;
+    stats:touches 1147 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1990-06-02"^^xsd:date ;
+    schema:description "Oliver Baumann (born 2 June 1990) is a German footballer who plays as a goalkeeper for 1899 Hoffenheim in the Bundesliga."@en ;
+    schema:height "1.87 m (6 ft 1 1⁄2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ba7j8e1578088931.jpg"^^xsd:anyURI ;
+    schema:memberOf "Hoffenheim"^^xsd:string ;
+    schema:name "Oliver Baumann"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "181 lbs"^^xsd:string .
+

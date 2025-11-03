@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Issiaga_Sylla a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q14166912> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/o3ygq21678358846.png"^^xsd:anyURI ;
+    foaf:name "Issiaga Sylla"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 51 ;
+    stats:blocks 13 ;
+    stats:carries 335 ;
+    stats:clearances 34 ;
+    stats:dispossessed 8 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.6 ;
+    stats:expectedGoals 1.8 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 10 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 12.8 ;
+    stats:matchesPlayed 19 ;
+    stats:matchesStarted 15 ;
+    stats:minutesPlayed 1156 ;
+    stats:miscontrols 16 ;
+    stats:passesIntoPenaltyArea 16 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 33 ;
+    stats:progressivePasses 53 ;
+    stats:progressivePassesReceived 46 ;
+    stats:rank 2535 ;
+    stats:redCards 0 ;
+    stats:tackles 25 ;
+    stats:tacklesWon 10 ;
+    stats:touches 683 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1994-01-01"^^xsd:date ;
+    schema:description "Issiaga Sylla (born 1 January 1994) is a Guinean professional footballer who plays as a left-back for Ligue 1 club Montpellier and the Guinea national team."@en ;
+    schema:height "1.80 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/yx8s181551709424.jpg"^^xsd:anyURI ;
+    schema:memberOf "Montpellier"^^xsd:string ;
+    schema:name "Issiaga Sylla"^^xsd:string ;
+    schema:nationality "Guinea"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

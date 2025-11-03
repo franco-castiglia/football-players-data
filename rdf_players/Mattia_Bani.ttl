@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mattia_Bani a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q20090219> ;
+    foaf:account "www.instagram.com/mattiabani/?hl=en"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/wdk41s1697975376.png"^^xsd:anyURI ;
+    foaf:name "Mattia Bani"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 60 ;
+    stats:blocks 13 ;
+    stats:carries 558 ;
+    stats:clearances 85 ;
+    stats:dispossessed 3 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 1.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 22 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 16.7 ;
+    stats:matchesPlayed 20 ;
+    stats:matchesStarted 19 ;
+    stats:minutesPlayed 1507 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 6 ;
+    stats:progressivePasses 25 ;
+    stats:progressivePassesReceived 3 ;
+    stats:rank 231 ;
+    stats:redCards 0 ;
+    stats:tackles 19 ;
+    stats:tacklesWon 10 ;
+    stats:touches 1048 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1993-12-10"^^xsd:date ;
+    schema:description "Mattia Bani (born 10 December 1993) is an Italian footballer who plays as a defender for Serie A club  Genoa."@en ;
+    schema:height "1.90 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/goxso61546786434.jpg"^^xsd:anyURI ;
+    schema:memberOf "Palermo"^^xsd:string ;
+    schema:name "Mattia Bani"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

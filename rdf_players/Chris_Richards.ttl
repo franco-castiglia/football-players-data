@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Chris_Richards a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q60839691> ;
+    foaf:account "twitter.com/eastmamba"^^xsd:anyURI,
+        "www.instagram.com/eastmamba/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/l1yb8m1761492382.png"^^xsd:anyURI ;
+    foaf:name "Chris Richards"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 51 ;
+    stats:blocks 40 ;
+    stats:carries 517 ;
+    stats:clearances 121 ;
+    stats:dispossessed 5 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 1.4 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 19 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 21.4 ;
+    stats:matchesPlayed 24 ;
+    stats:matchesStarted 22 ;
+    stats:minutesPlayed 1922 ;
+    stats:miscontrols 5 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 6 ;
+    stats:progressivePasses 39 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 2209 ;
+    stats:redCards 1 ;
+    stats:tackles 47 ;
+    stats:tacklesWon 30 ;
+    stats:touches 1118 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2000-03-28"^^xsd:date ;
+    schema:description "Christopher Jeffrey Richards (born March 28, 2000) is an American professional soccer player who plays as a center-back for Premier League club Crystal Palace. He also represents the United States national team."@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/s9jw2e1610103389.jpg"^^xsd:anyURI ;
+    schema:memberOf "Crystal Palace"^^xsd:string ;
+    schema:name "Chris Richards"^^xsd:string ;
+    schema:nationality "United States"^^xsd:string ;
+    schema:weight "192 lbs"^^xsd:string .
+

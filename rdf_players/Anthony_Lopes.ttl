@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Anthony_Lopes a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1392235> ;
+    foaf:account "www.facebook.com/Lopes.Anthony/"^^xsd:anyURI,
+        "www.instagram.com/antholopes_officiel/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/du07g81681237118.png"^^xsd:anyURI ;
+    foaf:name "Anthony Lopes"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 11 ;
+    stats:blocks 0 ;
+    stats:carries 320 ;
+    stats:clearances 7 ;
+    stats:dispossessed 0 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 17.4 ;
+    stats:matchesPlayed 18 ;
+    stats:matchesStarted 18 ;
+    stats:minutesPlayed 1563 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1515 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 0 ;
+    stats:touches 597 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1990-10-01"^^xsd:date ;
+    schema:description """Anthony Lopes ComM (born 1 October 1990) is a professional footballer who plays as a goalkeeper for Ligue 1 club Nantes.\r
+\r
+He came through the youth ranks at Lyon, being called to the first team in 2011 and making his debut the following year. He made 489 appearances for the club, including the Coupe de la Ligue finals of 2014 and 2020.\r
+\r
+Born in France, Lopes represented Portugal internationally, totalling 36 caps at youth level including 11 for the under-21 team. He made his senior debut for the country in March 2015, and was chosen for Euro 2016, the 2018 World Cup and Euro 2020."""@en ;
+    schema:height "1.84 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/fngvyw1534009056.jpg"^^xsd:anyURI ;
+    schema:memberOf "Nantes"^^xsd:string ;
+    schema:name "Anthony Lopes"^^xsd:string ;
+    schema:nationality "Portugal"^^xsd:string ;
+    schema:weight "179 lbs"^^xsd:string .
+

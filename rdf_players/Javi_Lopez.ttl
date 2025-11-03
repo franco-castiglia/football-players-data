@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Javi_Lopez a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2030211> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/gsvo3j1701097798.png"^^xsd:anyURI ;
+    foaf:name "Javi López"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 92 ;
+    stats:blocks 21 ;
+    stats:carries 571 ;
+    stats:clearances 59 ;
+    stats:dispossessed 22 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.4 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 11 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 21.5 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 21 ;
+    stats:minutesPlayed 1936 ;
+    stats:miscontrols 24 ;
+    stats:passesIntoPenaltyArea 14 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 36 ;
+    stats:progressivePasses 73 ;
+    stats:progressivePassesReceived 64 ;
+    stats:rank 1521 ;
+    stats:redCards 0 ;
+    stats:tackles 40 ;
+    stats:tacklesWon 23 ;
+    stats:touches 1247 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2002-03-25"^^xsd:date ;
+    schema:description "Javier \"Javi\" López Carballo (born 25 March 2002) is a Spanish professional footballer who plays as a left-back for La Liga club Real Sociedad."@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/y7sj3e1601134237.jpg"^^xsd:anyURI ;
+    schema:memberOf "Real Sociedad"^^xsd:string ;
+    schema:name "Javi López"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

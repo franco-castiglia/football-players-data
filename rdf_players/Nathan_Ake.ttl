@@ -1,0 +1,64 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Nathan_Ake a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1755683> ;
+    foaf:account "http://twitter.com/NathanAke"^^xsd:anyURI,
+        "http://www.facebook.com/nathan.ake"^^xsd:anyURI,
+        "www.instagram.com/nathanake/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/6lfthb1757097807.png"^^xsd:anyURI ;
+    foaf:name "Nathan Ake"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 24 ;
+    stats:blocks 7 ;
+    stats:carries 403 ;
+    stats:clearances 22 ;
+    stats:dispossessed 3 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 3 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 7.5 ;
+    stats:matchesPlayed 10 ;
+    stats:matchesStarted 8 ;
+    stats:minutesPlayed 678 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 12 ;
+    stats:progressivePasses 50 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 64 ;
+    stats:redCards 0 ;
+    stats:tackles 9 ;
+    stats:tacklesWon 7 ;
+    stats:touches 596 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1995-02-18"^^xsd:date ;
+    schema:description """Nathan Benjamin Aké (born 18 February 1995) is a Dutch professional footballer who plays as a defender for Premier League club Manchester City and the Netherlands national team. Although he predominantly plays as a centre-back, he has also been deployed as a left-back.\r
+\r
+Aké has represented the Netherlands at every youth level since his under-15 debut in 2009, making 54 appearances in total. He has captained both the U17 and the U19 teams. Aké was selected into both squads that won the UEFA European Under-17 Championships in 2011 and 2012 in Serbia and in Slovenia, respectively.\r
+\r
+Aké was also eligible to represent the Ivory Coast through his father Moise.\r
+\r
+Aké made his senior international debut in 2017 in a friendly against Morocco, who were beaten 1–2 by the Netherlands.\r
+\r
+Aké was born in The Hague, South Holland. His father is from the Ivory Coast. Aké is a teetotaller."""@en ;
+    schema:height "1.80 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/bclq8j1708244468.jpg"^^xsd:anyURI ;
+    schema:memberOf "Manchester City"^^xsd:string ;
+    schema:name "Nathan Ake"^^xsd:string ;
+    schema:nationality "The Netherlands"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

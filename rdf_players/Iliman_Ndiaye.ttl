@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Iliman_Ndiaye a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q105956269> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/rten2t1756977078.png"^^xsd:anyURI ;
+    foaf:name "Iliman Ndiaye"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 172 ;
+    stats:blocks 30 ;
+    stats:carries 621 ;
+    stats:clearances 24 ;
+    stats:dispossessed 44 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.9 ;
+    stats:expectedGoals 6.2 ;
+    stats:goals 9 ;
+    stats:goalsNonPenalty 7 ;
+    stats:interceptions 20 ;
+    stats:keyPasses 18 ;
+    stats:matches90s 27.0 ;
+    stats:matchesPlayed 33 ;
+    stats:matchesStarted 29 ;
+    stats:minutesPlayed 2430 ;
+    stats:miscontrols 55 ;
+    stats:passesIntoPenaltyArea 14 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 86 ;
+    stats:progressivePasses 59 ;
+    stats:progressivePassesReceived 122 ;
+    stats:rank 1865 ;
+    stats:redCards 0 ;
+    stats:tackles 53 ;
+    stats:tacklesWon 28 ;
+    stats:touches 1084 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2000-03-06"^^xsd:date ;
+    schema:description "Iliman Cheikh Baroy Ndiaye (born 6 March 2000) is a professional footballer who plays as an attacking midfielder for Premier League club Everton. Born in France, he plays for the Senegal national team."@en ;
+    schema:height "1.80 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/mewy8h1628334209.jpg"^^xsd:anyURI ;
+    schema:memberOf "Everton"^^xsd:string ;
+    schema:name "Iliman Ndiaye"^^xsd:string ;
+    schema:nationality "Senegal"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

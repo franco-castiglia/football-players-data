@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Viktor_Kovalenko a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q19060781> ;
+    foaf:account "www.instagram.com/vitykovalenko/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/7pc2qk1697890365.png"^^xsd:anyURI ;
+    foaf:name "Viktor Kovalenko"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 3 ;
+    stats:blocks 0 ;
+    stats:carries 21 ;
+    stats:clearances 0 ;
+    stats:dispossessed 2 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.9 ;
+    stats:matchesPlayed 6 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 77 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 4 ;
+    stats:progressivePassesReceived 3 ;
+    stats:rank 1404 ;
+    stats:redCards 0 ;
+    stats:tackles 2 ;
+    stats:tacklesWon 1 ;
+    stats:touches 44 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1996-02-14"^^xsd:date ;
+    schema:description "Viktor Viktorovych Kovalenko (Ukrainian: Ві́ктор Ві́кторович Ковале́нко; born 14 February 1996) is a Ukrainian professional footballer who plays as a midfielder for Italian Serie A club Empoli and the Ukraine national team."@en ;
+    schema:height "1.82 m (5 ft 11 1⁄2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ywzg6y1533742394.jpg"^^xsd:anyURI ;
+    schema:memberOf "Empoli"^^xsd:string ;
+    schema:name "Viktor Kovalenko"^^xsd:string ;
+    schema:nationality "Ukraine"^^xsd:string ;
+    schema:weight "75 kg (165 lb)"^^xsd:string .
+

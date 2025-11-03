@@ -1,0 +1,52 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Carlos_Guirao a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q131322212> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/hy0voj1724358097.png"^^xsd:anyURI ;
+    foaf:name "Carlos Guirao"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 6 ;
+    stats:blocks 1 ;
+    stats:carries 28 ;
+    stats:clearances 2 ;
+    stats:dispossessed 2 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 3 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 1.2 ;
+    stats:matchesPlayed 2 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 110 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 2 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 1092 ;
+    stats:redCards 0 ;
+    stats:tackles 5 ;
+    stats:tacklesWon 3 ;
+    stats:touches 60 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2003-04-27"^^xsd:date ;
+    schema:height "5' 9\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/jkp8tp1724358188.jpg"^^xsd:anyURI ;
+    schema:memberOf "Leganés B"^^xsd:string ;
+    schema:name "Carlos Guirao"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

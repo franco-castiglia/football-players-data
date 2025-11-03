@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Benedikt_Gimber a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q23908359> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/whqzx21742057346.png"^^xsd:anyURI ;
+    foaf:name "Benedikt Gimber"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 98 ;
+    stats:blocks 53 ;
+    stats:carries 865 ;
+    stats:clearances 131 ;
+    stats:dispossessed 7 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 0.7 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 31 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 29.7 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 32 ;
+    stats:minutesPlayed 2671 ;
+    stats:miscontrols 25 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 2 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 7 ;
+    stats:progressivePasses 46 ;
+    stats:progressivePassesReceived 8 ;
+    stats:rank 1007 ;
+    stats:redCards 0 ;
+    stats:tackles 72 ;
+    stats:tacklesWon 46 ;
+    stats:touches 1643 ;
+    stats:yellowCards 9 ;
+    schema:birthDate "1997-02-19"^^xsd:date ;
+    schema:description """Benedikt Steffen Gimber (born 19 February 1997) is a German professional footballer who plays as a centre-back for 1. FC Heidenheim.\r
+\r
+Career\r
+In June 2017, Gimber was loaned out to Jahn Regensburg by 1899 Hoffenheim.\r
+\r
+In May 2017, it was announced he would join FC Ingolstadt 04 for the 2018–19 season having agreed a contract until 2021. The transfer fee paid to Hoffenheim was reported as €1 million.\r
+\r
+On 27 August 2019, he returned to Regensburg."""@en ;
+    schema:height "1.87 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/f32vxh1705318591.jpg"^^xsd:anyURI ;
+    schema:memberOf "FC Heidenheim"^^xsd:string ;
+    schema:name "Benedikt Gimber"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "185 lbs"^^xsd:string .
+

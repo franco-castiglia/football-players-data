@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Marcao a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q373163> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/9m7oxq1724789885.png"^^xsd:anyURI ;
+    foaf:name "Marcão"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 27 ;
+    stats:blocks 9 ;
+    stats:carries 216 ;
+    stats:clearances 29 ;
+    stats:dispossessed 3 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 7 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 6.1 ;
+    stats:matchesPlayed 12 ;
+    stats:matchesStarted 6 ;
+    stats:minutesPlayed 552 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 19 ;
+    stats:progressivePassesReceived 1 ;
+    stats:rank 1614 ;
+    stats:redCards 1 ;
+    stats:tackles 10 ;
+    stats:tacklesWon 7 ;
+    stats:touches 382 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "1996-06-05"^^xsd:date ;
+    schema:description "Marcos do Nascimento Teixeira (born 5 June 1996), commonly known as Marcão, is a Brazilian professional footballer who plays as a centre-back for La Liga club Sevilla."@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/16oh5j1724790033.jpg"^^xsd:anyURI ;
+    schema:memberOf "Sevilla"^^xsd:string ;
+    schema:name "Marcão"^^xsd:string ;
+    schema:nationality "Brazil"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

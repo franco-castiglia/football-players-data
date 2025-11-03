@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Borja_Mayoral a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18649709> ;
+    foaf:account "twitter.com/mayoral_borja"^^xsd:anyURI,
+        "www.facebook.com/BMayoralOficial/"^^xsd:anyURI,
+        "www.instagram.com/borjitamayoral/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/hk7pze1678795481.png"^^xsd:anyURI ;
+    foaf:name "Borja Mayoral"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 36 ;
+    stats:blocks 4 ;
+    stats:carries 209 ;
+    stats:clearances 6 ;
+    stats:dispossessed 20 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 3.4 ;
+    stats:goals 5 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 8 ;
+    stats:matches90s 12.4 ;
+    stats:matchesPlayed 24 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 1114 ;
+    stats:miscontrols 23 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 10 ;
+    stats:progressivePasses 13 ;
+    stats:progressivePassesReceived 43 ;
+    stats:rank 1684 ;
+    stats:redCards 0 ;
+    stats:tackles 5 ;
+    stats:tacklesWon 4 ;
+    stats:touches 366 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1997-04-05"^^xsd:date ;
+    schema:description """Borja Mayoral Moya (born 5 April 1997) is a Spanish professional footballer who plays as a striker for La Liga club Getafe.\r
+\r
+Formed at Real Madrid from the age of 10, he made his first-team debut in 2015 after featuring for the reserves in Segunda División B. He was also loaned to Levante and Getafe in La Liga, VfL Wolfsburg in the Bundesliga, and Roma in Serie A.\r
+\r
+Mayoral represented Spain up to under-21 level, earning 48 caps and scoring 29 goals. He was top scorer as the under-19 team won the 2015 European Championship, and was a 2017 runner-up and 2019 winner with the under-21 team."""@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/0m5dz61723634287.jpg"^^xsd:anyURI ;
+    schema:memberOf "Getafe"^^xsd:string ;
+    schema:name "Borja Mayoral"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

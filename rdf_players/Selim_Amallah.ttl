@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Selim_Amallah a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q22003119> ;
+    foaf:account "www.instagram.com/selim_amallah/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ak7ll91701180052.png"^^xsd:anyURI ;
+    foaf:name "Selim Amallah"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 73 ;
+    stats:blocks 24 ;
+    stats:carries 308 ;
+    stats:clearances 5 ;
+    stats:dispossessed 25 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.1 ;
+    stats:expectedGoals 3.5 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 14 ;
+    stats:keyPasses 13 ;
+    stats:matches90s 15.3 ;
+    stats:matchesPlayed 24 ;
+    stats:matchesStarted 18 ;
+    stats:minutesPlayed 1376 ;
+    stats:miscontrols 35 ;
+    stats:passesIntoPenaltyArea 11 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:progressiveCarries 24 ;
+    stats:progressivePasses 57 ;
+    stats:progressivePassesReceived 27 ;
+    stats:rank 108 ;
+    stats:redCards 0 ;
+    stats:tackles 30 ;
+    stats:tacklesWon 18 ;
+    stats:touches 607 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "1996-11-15"^^xsd:date ;
+    schema:description "Selim Amallah (born 15 November 1996) is a professional footballer who plays as a midfielder for La Liga club Real Valladolid. Born in Belgium, he plays for the Morocco national team."@en ;
+    schema:height "1.80 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/nab5zf1668886398.jpg"^^xsd:anyURI ;
+    schema:memberOf "Valladolid"^^xsd:string ;
+    schema:name "Selim Amallah"^^xsd:string ;
+    schema:nationality "Morocco"^^xsd:string ;
+    schema:weight "181 lbs"^^xsd:string .
+

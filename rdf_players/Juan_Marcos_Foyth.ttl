@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Juan_Marcos_Foyth a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q29841260> ;
+    foaf:account "twitter.com/JuanMFoyth"^^xsd:anyURI,
+        "www.instagram.com/juanfoyth"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/xkqhzm1631793076.png"^^xsd:anyURI ;
+    foaf:name "Juan Marcos Foyth"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 61 ;
+    stats:blocks 26 ;
+    stats:carries 607 ;
+    stats:clearances 119 ;
+    stats:dispossessed 2 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 2.4 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 19 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 16.9 ;
+    stats:matchesPlayed 19 ;
+    stats:matchesStarted 17 ;
+    stats:minutesPlayed 1517 ;
+    stats:miscontrols 11 ;
+    stats:passesIntoPenaltyArea 8 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 13 ;
+    stats:progressivePasses 65 ;
+    stats:progressivePassesReceived 11 ;
+    stats:rank 927 ;
+    stats:redCards 0 ;
+    stats:tackles 25 ;
+    stats:tacklesWon 15 ;
+    stats:touches 1190 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1998-01-12"^^xsd:date ;
+    schema:description """Juan Marcos Foyth (born 12 January 1998) is an Argentine professional footballer player who plays as defender for Villarreal on loan from English club Tottenham Hotspur.\r
+After spending a number of years in the Estudiantes Youth academy, Foyth signed his first professional contract in January 2017, which linked him to the club until June 2019. He made his Primera Division debut on 19 March 2017 aged 19 years and 2 months. He went on to play a further 6 times in the league, with additional 2 appearances in the Copa Sudamericana.\r
+He was a key member of their 2017 FIFA Under-20 World Cup and 2017 Under-20 South American Championship squads.\r
+Foyth joined Tottenham Hotspur on 30 August 2017"""@en ;
+    schema:height "1.79 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/9fc2id1509457317.jpg"^^xsd:anyURI ;
+    schema:memberOf "Villarreal"^^xsd:string ;
+    schema:name "Juan Marcos Foyth"^^xsd:string ;
+    schema:nationality "Argentina"^^xsd:string ;
+    schema:weight "69 kg"^^xsd:string .
+

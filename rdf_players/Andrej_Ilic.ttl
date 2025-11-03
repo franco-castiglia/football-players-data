@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Andrej_Ilic a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q97924313> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/qjcud71742134684.png"^^xsd:anyURI ;
+    foaf:name "Andrej Ilić"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 16 ;
+    stats:blocks 7 ;
+    stats:carries 151 ;
+    stats:clearances 6 ;
+    stats:dispossessed 9 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 4.9 ;
+    stats:goals 7 ;
+    stats:goalsNonPenalty 6 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 10.4 ;
+    stats:matchesPlayed 16 ;
+    stats:matchesStarted 11 ;
+    stats:minutesPlayed 937 ;
+    stats:miscontrols 32 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacker"^^xsd:string ;
+    stats:progressiveCarries 5 ;
+    stats:progressivePasses 13 ;
+    stats:progressivePassesReceived 59 ;
+    stats:rank 1211 ;
+    stats:redCards 0 ;
+    stats:tackles 2 ;
+    stats:tacklesWon 2 ;
+    stats:touches 302 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2000-04-03"^^xsd:date ;
+    schema:description "Andrej Ilić (born 3 April 2000) is a Serbian professional footballer who plays as a centre-forward for Bundesliga club Union Berlin, on loan from Ligue 1 club Lille."@en ;
+    schema:height "1.89 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/73q3561741614375.jpg"^^xsd:anyURI ;
+    schema:memberOf "Union Berlin"^^xsd:string ;
+    schema:name "Andrej Ilić"^^xsd:string ;
+    schema:nationality "Serbia"^^xsd:string ;
+    schema:weight "190 lbs"^^xsd:string .
+

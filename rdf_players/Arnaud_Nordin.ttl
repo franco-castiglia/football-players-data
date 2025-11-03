@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Arnaud_Nordin a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q27049316> ;
+    foaf:account "mobile.twitter.com/nordinarnaud"^^xsd:anyURI,
+        "www.instagram.com/ar_nordin/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/s6l9wx1742068748.png"^^xsd:anyURI ;
+    foaf:name "Arnaud Nordin"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 47 ;
+    stats:blocks 12 ;
+    stats:carries 323 ;
+    stats:clearances 7 ;
+    stats:dispossessed 14 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 4.1 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 15 ;
+    stats:matches90s 13.0 ;
+    stats:matchesPlayed 16 ;
+    stats:matchesStarted 14 ;
+    stats:minutesPlayed 1166 ;
+    stats:miscontrols 37 ;
+    stats:passesIntoPenaltyArea 12 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 51 ;
+    stats:progressivePasses 23 ;
+    stats:progressivePassesReceived 111 ;
+    stats:rank 1913 ;
+    stats:redCards 0 ;
+    stats:tackles 24 ;
+    stats:tacklesWon 15 ;
+    stats:touches 499 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1998-06-17"^^xsd:date ;
+    schema:description "Arnaud Dominique Nordin (born 17 June 1998) is a French professional footballer who plays as a forward or winger for Bundesliga club Mainz 05."@en ;
+    schema:height "1.70 m (5 ft 6 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/48lc2x1609236756.jpg"^^xsd:anyURI ;
+    schema:memberOf "Mainz"^^xsd:string ;
+    schema:name "Arnaud Nordin"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

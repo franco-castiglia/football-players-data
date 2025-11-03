@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mateusz_Wieteska a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18357913> ;
+    foaf:account "www.instagram.com/mateuszwieteska4/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/hzuieh1697924014.png"^^xsd:anyURI ;
+    foaf:name "Mateusz Wieteska"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 11 ;
+    stats:blocks 3 ;
+    stats:carries 69 ;
+    stats:clearances 6 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 7 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 2.0 ;
+    stats:matchesPlayed 5 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 184 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 5 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 2767 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 0 ;
+    stats:touches 116 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1997-02-11"^^xsd:date ;
+    schema:description "Mateusz Wieteska (born 11 February 1997) is a Polish professional footballer who plays as a centre-back fLocaelispor on loan from Cagliari, and the Poland national team."@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/mn42ja1668523288.jpg"^^xsd:anyURI ;
+    schema:memberOf "Kocaelispor"^^xsd:string ;
+    schema:name "Mateusz Wieteska"^^xsd:string ;
+    schema:nationality "Poland"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

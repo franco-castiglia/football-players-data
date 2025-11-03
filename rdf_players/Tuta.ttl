@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Tuta a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q61680332> ;
+    foaf:account "www.instagram.com/ltuta_38/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/1d7zvw1742044922.png"^^xsd:anyURI ;
+    foaf:name "Tuta"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 120 ;
+    stats:blocks 42 ;
+    stats:carries 1007 ;
+    stats:clearances 135 ;
+    stats:dispossessed 7 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 40 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 25.3 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 26 ;
+    stats:minutesPlayed 2274 ;
+    stats:miscontrols 22 ;
+    stats:passesIntoPenaltyArea 11 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 11 ;
+    stats:progressivePasses 78 ;
+    stats:progressivePassesReceived 12 ;
+    stats:rank 2642 ;
+    stats:redCards 0 ;
+    stats:tackles 44 ;
+    stats:tacklesWon 27 ;
+    stats:touches 1772 ;
+    stats:yellowCards 8 ;
+    schema:birthDate "1999-07-04"^^xsd:date ;
+    schema:description """Lucas Silva Melo (born 4 July 1999), known as Tuta, is a Brazilian professional footballer who plays as a centre-back for Eintracht Frankfurt.\r
+\r
+In January 2019, Tuta joined Bundesliga club Eintracht Frankfurt from São Paulo, signing a four-and-half-year contract lasting until 30 June 2023. In August 2019, Tuta joined Belgian club Kortrijk on a season-long loan from Frankfurt. He made his debut for Kortrijk in the Belgian First Division A on 24 November 2019, starting in the away match against Anderlecht, which finished as a 0–0 draw."""@en ;
+    schema:height "1.84 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/5d1nes1609170280.jpg"^^xsd:anyURI ;
+    schema:memberOf "Eintracht Frankfurt"^^xsd:string ;
+    schema:name "Tuta"^^xsd:string ;
+    schema:nationality "Brazil"^^xsd:string ;
+    schema:weight "179 lbs"^^xsd:string .
+

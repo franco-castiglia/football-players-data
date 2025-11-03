@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Yaser_Asprilla a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q108922253> ;
+    foaf:account "mobile.twitter.com/yeaselmejor"^^xsd:anyURI,
+        "www.instagram.com/yaser_asprilla/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/3ufp4d1694522932.png"^^xsd:anyURI ;
+    foaf:name "Yáser Asprilla"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 62 ;
+    stats:blocks 14 ;
+    stats:carries 534 ;
+    stats:clearances 7 ;
+    stats:dispossessed 17 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 2.8 ;
+    stats:expectedGoals 2.1 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 7 ;
+    stats:keyPasses 24 ;
+    stats:matches90s 15.6 ;
+    stats:matchesPlayed 27 ;
+    stats:matchesStarted 15 ;
+    stats:minutesPlayed 1405 ;
+    stats:miscontrols 45 ;
+    stats:passesIntoPenaltyArea 38 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:progressiveCarries 72 ;
+    stats:progressivePasses 77 ;
+    stats:progressivePassesReceived 140 ;
+    stats:rank 169 ;
+    stats:redCards 0 ;
+    stats:tackles 22 ;
+    stats:tacklesWon 12 ;
+    stats:touches 831 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2003-11-18"^^xsd:date ;
+    schema:description "Yáser Esnéider Asprilla Martínez (born 19 November 2003) is a Colombian professional footballer who plays as a midfielder for La Liga club Girona and the Colombia national team."@en ;
+    schema:height "1.86 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ia0y6z1688931420.jpg"^^xsd:anyURI ;
+    schema:memberOf "Girona"^^xsd:string ;
+    schema:name "Yáser Asprilla"^^xsd:string ;
+    schema:nationality "Colombia"^^xsd:string .
+

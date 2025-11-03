@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Enric_Franquesa a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q66685099> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/67jqsp1724350808.png"^^xsd:anyURI ;
+    foaf:name "Enric Franquesa"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 29 ;
+    stats:blocks 7 ;
+    stats:carries 133 ;
+    stats:clearances 12 ;
+    stats:dispossessed 2 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 6.8 ;
+    stats:matchesPlayed 12 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 616 ;
+    stats:miscontrols 21 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:progressiveCarries 11 ;
+    stats:progressivePasses 12 ;
+    stats:progressivePassesReceived 30 ;
+    stats:rank 932 ;
+    stats:redCards 0 ;
+    stats:tackles 17 ;
+    stats:tacklesWon 9 ;
+    stats:touches 306 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1997-02-26"^^xsd:date ;
+    schema:description "Enric Franquesa Dolz (born 26 February 1997) is a Spanish professional footballer who plays as a left back for CD Leganés."@en ;
+    schema:height "1.75 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/y2md0c1724350730.jpg"^^xsd:anyURI ;
+    schema:memberOf "Leganes"^^xsd:string ;
+    schema:name "Enric Franquesa"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

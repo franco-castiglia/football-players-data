@@ -1,0 +1,68 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:George_Hirst a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q27914873> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/012caa1694894418.png"^^xsd:anyURI ;
+    foaf:name "George Hirst"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 12 ;
+    stats:blocks 1 ;
+    stats:carries 101 ;
+    stats:clearances 10 ;
+    stats:dispossessed 16 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 2.1 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 7.3 ;
+    stats:matchesPlayed 26 ;
+    stats:matchesStarted 5 ;
+    stats:minutesPlayed 661 ;
+    stats:miscontrols 21 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 9 ;
+    stats:progressivePasses 13 ;
+    stats:progressivePassesReceived 31 ;
+    stats:rank 1167 ;
+    stats:redCards 0 ;
+    stats:tackles 3 ;
+    stats:tacklesWon 3 ;
+    stats:touches 188 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1999-02-15"^^xsd:date ;
+    schema:description """George David Eric Hirst (born 15 February 1999) is an English professional footballer who plays as a forward for Ipswich Town. He is the son of former footballer David Hirst. \r
+\r
+Club career\r
+Sheffield Wednesday\r
+After coming through the academy, Hirst signed his first professional contract for Sheffield Wednesday in March 2016.\r
+\r
+He made his first team debut against Cambridge United on 9 August 2016, in the EFL Cup in a 2–1 defeat. His league debut came on 10 December 2016 against Reading in a 2–1 defeat. In April 2018, Hirst was linked with a move to Manchester United after rejecting a long-term contract at Sheffield Wednesday.\r
+\r
+OH Leuven\r
+In June 2018, Hirst was signed by a second division Belgian team, Oud-Heverlee Leuven, led by former Sheffield Wednesday player Nigel Pearson.\r
+\r
+Leicester City\r
+After just one season at OH Leuven, Hirst joined Leicester City in the summer of 2019.  On 19 July 2020 Hirst made his debut for Leicester, coming on in the 83rd minute in a 3–0 loss to Tottenham Hotspur.\r
+\r
+Rotherham United (loan)\r
+On 16 September 2020, Hirst joined Rotherham United on a season-long loan deal."""@en ;
+    schema:height "1.91 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/c3xtrk1610026045.jpg"^^xsd:anyURI ;
+    schema:memberOf "Ipswich Town"^^xsd:string ;
+    schema:name "George Hirst"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

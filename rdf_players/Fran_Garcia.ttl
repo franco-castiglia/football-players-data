@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Fran_Garcia a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q116493977> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/5rem681733653495.png"^^xsd:anyURI ;
+    foaf:name "Fran García"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 106 ;
+    stats:blocks 27 ;
+    stats:carries 1001 ;
+    stats:clearances 67 ;
+    stats:dispossessed 10 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.8 ;
+    stats:expectedGoals 0.9 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 28 ;
+    stats:keyPasses 24 ;
+    stats:matches90s 24.1 ;
+    stats:matchesPlayed 31 ;
+    stats:matchesStarted 24 ;
+    stats:minutesPlayed 2171 ;
+    stats:miscontrols 20 ;
+    stats:passesIntoPenaltyArea 23 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:progressiveCarries 78 ;
+    stats:progressivePasses 119 ;
+    stats:progressivePassesReceived 177 ;
+    stats:rank 971 ;
+    stats:redCards 0 ;
+    stats:tackles 51 ;
+    stats:tacklesWon 36 ;
+    stats:touches 1792 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1999-08-14"^^xsd:date ;
+    schema:description "Francisco \"Fran\" José García Torres (born 14 August 1999) is a Spanish professional footballer who plays as a left back for La Liga club Rayo Vallecano. He will join Real Madrid on 1 July 2023."@en ;
+    schema:height "1.67 m (5 ft 6 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/viwdzp1699384870.jpg"^^xsd:anyURI ;
+    schema:memberOf "Real Madrid"^^xsd:string ;
+    schema:name "Fran García"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

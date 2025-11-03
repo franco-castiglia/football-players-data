@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Adria_Pedrosa a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q58174944> ;
+    foaf:account "twitter.com/adripedrosa_"^^xsd:anyURI,
+        "www.instagram.com/adripedrosa_/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/wjq6xk1724791472.png"^^xsd:anyURI ;
+    foaf:name "Adrià Pedrosa"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 100 ;
+    stats:blocks 43 ;
+    stats:carries 617 ;
+    stats:clearances 85 ;
+    stats:dispossessed 15 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.6 ;
+    stats:expectedGoals 0.9 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 24 ;
+    stats:keyPasses 20 ;
+    stats:matches90s 25.5 ;
+    stats:matchesPlayed 31 ;
+    stats:matchesStarted 27 ;
+    stats:minutesPlayed 2298 ;
+    stats:miscontrols 37 ;
+    stats:passesIntoPenaltyArea 22 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:progressiveCarries 41 ;
+    stats:progressivePasses 79 ;
+    stats:progressivePassesReceived 96 ;
+    stats:rank 2064 ;
+    stats:redCards 0 ;
+    stats:tackles 56 ;
+    stats:tacklesWon 32 ;
+    stats:touches 1526 ;
+    stats:yellowCards 7 ;
+    schema:birthDate "1998-05-13"^^xsd:date ;
+    schema:description "Adrià Giner Pedrosa (born 2 June 1998) is a Spanish professional footballer who plays for RCD Espanyol as a left back."@en ;
+    schema:height "1.72 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/0z4udd1724791357.jpg"^^xsd:anyURI ;
+    schema:memberOf "Sevilla"^^xsd:string ;
+    schema:name "Adrià Pedrosa"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

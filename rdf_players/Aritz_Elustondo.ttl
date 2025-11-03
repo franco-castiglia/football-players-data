@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Aritz_Elustondo a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16516257> ;
+    foaf:account "twitter.com/aritzelustondo"^^xsd:anyURI,
+        "www.facebook.com/aritz.elustondogarate"^^xsd:anyURI,
+        "www.instagram.com/aritzelus/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/kbxl9q1659961262.png"^^xsd:anyURI ;
+    foaf:name "Aritz Elustondo"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 53 ;
+    stats:blocks 17 ;
+    stats:carries 624 ;
+    stats:clearances 96 ;
+    stats:dispossessed 6 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 11 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 16.2 ;
+    stats:matchesPlayed 22 ;
+    stats:matchesStarted 16 ;
+    stats:minutesPlayed 1457 ;
+    stats:miscontrols 14 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 17 ;
+    stats:progressivePasses 51 ;
+    stats:progressivePassesReceived 4 ;
+    stats:rank 836 ;
+    stats:redCards 1 ;
+    stats:tackles 20 ;
+    stats:tacklesWon 11 ;
+    stats:touches 1092 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1994-01-11"^^xsd:date ;
+    schema:description "Aritz Elustondo Irribarria (born 28 March 1994) is a Spanish professional footballer who plays for Real Sociedad mainly as a right back but also as a central defender."@en ;
+    schema:height "1.78 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ojniid1504435735.jpg"^^xsd:anyURI ;
+    schema:memberOf "Real Sociedad"^^xsd:string ;
+    schema:name "Aritz Elustondo"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "71 kg"^^xsd:string .
+

@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Marvin_Pieringer a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q104696207> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/4yryga1742057404.png"^^xsd:anyURI ;
+    foaf:name "Marvin Pieringer"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 63 ;
+    stats:blocks 21 ;
+    stats:carries 467 ;
+    stats:clearances 32 ;
+    stats:dispossessed 24 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 4.0 ;
+    stats:expectedGoals 8.9 ;
+    stats:goals 7 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 30 ;
+    stats:matches90s 24.5 ;
+    stats:matchesPlayed 31 ;
+    stats:matchesStarted 26 ;
+    stats:minutesPlayed 2206 ;
+    stats:miscontrols 69 ;
+    stats:passesIntoPenaltyArea 12 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 2 ;
+    stats:position "Attacker"^^xsd:string ;
+    stats:progressiveCarries 23 ;
+    stats:progressivePasses 59 ;
+    stats:progressivePassesReceived 115 ;
+    stats:rank 2120 ;
+    stats:redCards 0 ;
+    stats:tackles 23 ;
+    stats:tacklesWon 13 ;
+    stats:touches 849 ;
+    stats:yellowCards 7 ;
+    schema:birthDate "1999-10-04"^^xsd:date ;
+    schema:description "Marvin Pieringer (born 4 October 1999) is a German professional footballer who plays as a forward for Bundesliga club 1. FC Heidenheim."@en ;
+    schema:height "1.89 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/jfn6tb1658579810.jpg"^^xsd:anyURI ;
+    schema:memberOf "FC Heidenheim"^^xsd:string ;
+    schema:name "Marvin Pieringer"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "179 lbs"^^xsd:string .
+

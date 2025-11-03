@@ -1,0 +1,70 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jefferson_Lerma a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16300824> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/2xk75w1757013336.png"^^xsd:anyURI ;
+    foaf:name "Jefferson Lerma"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 154 ;
+    stats:blocks 38 ;
+    stats:carries 649 ;
+    stats:clearances 80 ;
+    stats:dispossessed 18 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.6 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 42 ;
+    stats:keyPasses 10 ;
+    stats:matches90s 25.3 ;
+    stats:matchesPlayed 33 ;
+    stats:matchesStarted 26 ;
+    stats:minutesPlayed 2274 ;
+    stats:miscontrols 15 ;
+    stats:passesIntoPenaltyArea 18 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:progressiveCarries 13 ;
+    stats:progressivePasses 97 ;
+    stats:progressivePassesReceived 26 ;
+    stats:rank 1482 ;
+    stats:redCards 0 ;
+    stats:tackles 35 ;
+    stats:tacklesWon 17 ;
+    stats:touches 1406 ;
+    stats:yellowCards 9 ;
+    schema:birthDate "1994-10-25"^^xsd:date ;
+    schema:description """Jefferson Andrés Lerma Solís (born 25 October 1994) is a Colombian professional footballer who plays for Premier League club Crystal Palace and the Colombia national team. Typically a central midfielder, he has also been used as a defensive midfielder and as a right-back. \r
+\r
+Club career\r
+Early career and Atlético Huila\r
+Born in El Cerrito, Valle del Cauca, Lerma graduated with Atlético Huila's youth setup. After being promoted to the main squad in January 2013, he made his professional debut on 30 March, starting in a 0–0 home draw against Millonarios FC.\r
+\r
+Lerma appeared in 20 matches during his first professional season, as his side finished 13th. He scored his first professional goals on 6 February 2014, netting a brace in a 3–1 home success over Fortaleza FC; his first goal was the club's 1000th.\r
+\r
+Levante\r
+On 13 August 2015 Lerma moved abroad for the first time in his career, after agreeing to a one-year loan deal with La Liga side Levante UD. He made his debut in the category late in the month, coming on as a late substitute for Nabil Ghilas in a 0–0 away draw against UD Las Palmas.\r
+\r
+Lerma scored his first goal in the main category of Spanish football on 7 December 2015, netting the first in a 1–1 away draw against RCD Espanyol. After reaching 25 matches for the club, he signed a four-year deal effective on 1 July for a €600,000 fee.\r
+\r
+Bournemouth\r
+On 7 August 2018, Lerma signed with Bournemouth in the Premier League for a club-record fee.\r
+\r
+International career\r
+In June 2018 he was named in Colombia’s 23-man squad for the 2018 FIFA World Cup in Russia."""@en ;
+    schema:height "1.79 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/bh7lz01723963360.jpg"^^xsd:anyURI ;
+    schema:memberOf "Crystal Palace"^^xsd:string ;
+    schema:name "Jefferson Lerma"^^xsd:string ;
+    schema:nationality "Colombia"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Emanuele_Valeri a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q102156391> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/f40cfq1759781007.png"^^xsd:anyURI ;
+    foaf:name "Emanuele Valeri"^^xsd:string ;
+    stats:assists 6 ;
+    stats:ballRecoveries 124 ;
+    stats:blocks 31 ;
+    stats:carries 740 ;
+    stats:clearances 103 ;
+    stats:dispossessed 5 ;
+    stats:errors 4 ;
+    stats:expectedAssistedGoals 4.7 ;
+    stats:expectedGoals 1.8 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 29 ;
+    stats:keyPasses 36 ;
+    stats:matches90s 31.9 ;
+    stats:matchesPlayed 35 ;
+    stats:matchesStarted 34 ;
+    stats:minutesPlayed 2873 ;
+    stats:miscontrols 42 ;
+    stats:passesIntoPenaltyArea 31 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 79 ;
+    stats:progressivePasses 93 ;
+    stats:progressivePassesReceived 109 ;
+    stats:rank 2662 ;
+    stats:redCards 0 ;
+    stats:tackles 51 ;
+    stats:tacklesWon 31 ;
+    stats:touches 1528 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1998-12-07"^^xsd:date ;
+    schema:description """Emanuele Valeri (born 7 December 1998) is an Italian professional footballer who plays as a defender for Serie A club Cremonese.\r
+\r
+Club career\r
+He spent the first several seasons of his senior career in lower Italian divisions.\r
+\r
+On 10 September 2020, he signed with Serie B club Cremonese. He made his Serie B debut for Cremonese on 27 September 2020 in a game against Cittadella. He substituted Alessandro Crescenzi in the 60th minute. He made his first start on 17 October against Venezia."""@en ;
+    schema:height "5' 11\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/d8m7k41670408278.jpg"^^xsd:anyURI ;
+    schema:memberOf "Parma Calcio 1913"^^xsd:string ;
+    schema:name "Emanuele Valeri"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

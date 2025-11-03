@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Javi_Rodriguez a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q123352800> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/nke2ne1724492957.png"^^xsd:anyURI ;
+    foaf:name "Javi Rodríguez"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 87 ;
+    stats:blocks 29 ;
+    stats:carries 1187 ;
+    stats:clearances 96 ;
+    stats:dispossessed 5 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 1.0 ;
+    stats:expectedGoals 2.3 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 33 ;
+    stats:keyPasses 13 ;
+    stats:matches90s 27.9 ;
+    stats:matchesPlayed 36 ;
+    stats:matchesStarted 26 ;
+    stats:minutesPlayed 2514 ;
+    stats:miscontrols 22 ;
+    stats:passesIntoPenaltyArea 10 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 29 ;
+    stats:progressivePasses 114 ;
+    stats:progressivePassesReceived 51 ;
+    stats:rank 2239 ;
+    stats:redCards 0 ;
+    stats:tackles 53 ;
+    stats:tacklesWon 38 ;
+    stats:touches 1994 ;
+    stats:yellowCards 7 ;
+    schema:birthDate "2003-06-26"^^xsd:date ;
+    schema:description "Javier \"Javi\" Rodríguez Galiano (born 26 June 2003) is a Spanish professional footballer who plays for Celta. Mainly a right-back, he can also play as a centre-back."@en ;
+    schema:height "5' 10\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/8s2f6i1724493173.jpg"^^xsd:anyURI ;
+    schema:memberOf "Celta Vigo"^^xsd:string ;
+    schema:name "Javi Rodríguez"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Pablo_Marin a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q110652731> ;
+    foaf:account "mobile.twitter.com/the_pablo16"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/nuc03t1738929070.png"^^xsd:anyURI ;
+    foaf:name "Pablo Marín"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 62 ;
+    stats:blocks 12 ;
+    stats:carries 349 ;
+    stats:clearances 14 ;
+    stats:dispossessed 17 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.0 ;
+    stats:expectedGoals 1.4 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 14 ;
+    stats:matches90s 13.8 ;
+    stats:matchesPlayed 23 ;
+    stats:matchesStarted 14 ;
+    stats:minutesPlayed 1239 ;
+    stats:miscontrols 40 ;
+    stats:passesIntoPenaltyArea 9 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 20 ;
+    stats:progressivePasses 45 ;
+    stats:progressivePassesReceived 47 ;
+    stats:rank 1627 ;
+    stats:redCards 0 ;
+    stats:tackles 25 ;
+    stats:tacklesWon 17 ;
+    stats:touches 641 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2003-07-03"^^xsd:date ;
+    schema:description "Pablo Marín Tejada (born 3 July 2003) is a Spanish professional footballer who plays as a midfielder for Real Sociedad."@en ;
+    schema:height "1.78 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/rdgv6g1738929104.jpg"^^xsd:anyURI ;
+    schema:memberOf "Real Sociedad"^^xsd:string ;
+    schema:name "Pablo Marín"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "157 lbs"^^xsd:string .
+

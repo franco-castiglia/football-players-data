@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mitchell_Weiser a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q694852> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/w1c7kf1742136809.png"^^xsd:anyURI ;
+    foaf:name "Mitchell Weiser"^^xsd:string ;
+    stats:assists 9 ;
+    stats:ballRecoveries 152 ;
+    stats:blocks 33 ;
+    stats:carries 990 ;
+    stats:clearances 61 ;
+    stats:dispossessed 36 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 4.7 ;
+    stats:expectedGoals 5.4 ;
+    stats:goals 5 ;
+    stats:goalsNonPenalty 5 ;
+    stats:interceptions 22 ;
+    stats:keyPasses 42 ;
+    stats:matches90s 31.9 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 32 ;
+    stats:minutesPlayed 2868 ;
+    stats:miscontrols 71 ;
+    stats:passesIntoPenaltyArea 40 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 65 ;
+    stats:progressivePasses 125 ;
+    stats:progressivePassesReceived 200 ;
+    stats:rank 2757 ;
+    stats:redCards 1 ;
+    stats:tackles 61 ;
+    stats:tacklesWon 40 ;
+    stats:touches 1949 ;
+    stats:yellowCards 9 ;
+    schema:birthDate "1994-04-21"^^xsd:date ;
+    schema:description """Mitchell-Elijah Weiser (German pronunciation: ; born 21 April 1994) is a German professional footballer who plays as a right back for Bundesliga club Werder Bremen.\r
+\r
+On 10 January 2010, Weiser debuted in the U-16 Germany national team in a 6–0 against Cyprus. He scored his first goal for the U-17 team on 4 September 2010 in a 2–0 against Azerbaijan.\r
+\r
+His first international tournament was the 2011 UEFA European U-17 Football Championship in Serbia where the team reached the final against the Netherlands, losing 2–5.\r
+\r
+The 2011 FIFA U-17 World Cup in Mexico was his next tournament with the team reaching third place and Weiser ending the tournament with three goals in six matches. His good performance has caught attention of scouts around the world. His playing style and ability have drawn comparisons to Dani Alves.\r
+\r
+Weiser scored the only goal with a header for Germany under-21 team against Spain under-21 team in the 2017 UEFA European Under-21 Championship Final helping the team to clinch their second overall UEFA European Under-21 Championship title."""@en ;
+    schema:height "177 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/msjocr1578226106.jpg"^^xsd:anyURI ;
+    schema:memberOf "Werder Bremen"^^xsd:string ;
+    schema:name "Mitchell Weiser"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

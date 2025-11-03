@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Franck_Honorat a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q15146137> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/qkjxdg1756313460.png"^^xsd:anyURI ;
+    foaf:name "Franck Honorat"^^xsd:string ;
+    stats:assists 7 ;
+    stats:ballRecoveries 72 ;
+    stats:blocks 9 ;
+    stats:carries 373 ;
+    stats:clearances 28 ;
+    stats:dispossessed 12 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 5.3 ;
+    stats:expectedGoals 4.5 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 50 ;
+    stats:matches90s 16.0 ;
+    stats:matchesPlayed 19 ;
+    stats:matchesStarted 18 ;
+    stats:minutesPlayed 1439 ;
+    stats:miscontrols 22 ;
+    stats:passesIntoPenaltyArea 26 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 63 ;
+    stats:progressivePasses 45 ;
+    stats:progressivePassesReceived 124 ;
+    stats:rank 1179 ;
+    stats:redCards 0 ;
+    stats:tackles 17 ;
+    stats:tacklesWon 7 ;
+    stats:touches 762 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1996-08-11"^^xsd:date ;
+    schema:description "Franck Honorat (born 11 August 1996) is a French professional footballer who plays as a winger for Bundesliga club Borussia Mönchengladbach."@en ;
+    schema:height "1.80"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/j907pw1551798362.jpg"^^xsd:anyURI ;
+    schema:memberOf "Borussia Mönchengladbach"^^xsd:string ;
+    schema:name "Franck Honorat"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

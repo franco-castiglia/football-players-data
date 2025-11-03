@@ -1,0 +1,65 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Nediljko_Labrovic a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q99482523> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/p88crq1742055720.png"^^xsd:anyURI ;
+    foaf:name "Nediljko Labrović"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 14 ;
+    stats:blocks 0 ;
+    stats:carries 306 ;
+    stats:clearances 12 ;
+    stats:dispossessed 0 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 15.0 ;
+    stats:matchesPlayed 15 ;
+    stats:matchesStarted 15 ;
+    stats:minutesPlayed 1350 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1434 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 546 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1999-10-10"^^xsd:date ;
+    schema:description """Nediljko Labrović (born 10 October 1999) is a Croatian professional footballer who plays as a goalkeeper for German Bundesliga club Augsburg and the Croatia national team.\r
+\r
+Club career\r
+On 9 June 2021, Labrović signed a four-year contract with Rijeka where he was set to replace the outgoing Ivan Nevistić. On 17 July, he made his debut for the club as the starting goalkeeper on the opening matchday of the domestic league in a 2–0 away win over Gorica. Five days later, he made his European debut in a 2–0 win over Gżira United in the first leg of the second round of the UEFA Europa Conference League.\r
+\r
+On 11 June 2024, Labrović signed a five-year contract with Augsburg in Germany.\r
+\r
+International career\r
+On 14 February 2018, Labrović made his debut for the Croatia national under-20 team playing as a starter in the friendly match against Belarus, which was won 3–1.\r
+\r
+Labrović was called up by the senior Croatia side for the Nations League fixtures against Austria on 3 June 2022, France on 6 and 13 June 2022, and Denmark on 10 June 2022. On 31 October 2022, Labrović was named in the preliminary 34-man squad for the 2022 FIFA World Cup, but did not make the final 26.\r
+\r
+He made his debut on 26 March 2024 in the FIFA Series Final against Egypt."""@en ;
+    schema:height "194 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/5fftvw1720451495.jpg"^^xsd:anyURI ;
+    schema:memberOf "FC Augsburg"^^xsd:string ;
+    schema:name "Nediljko Labrović"^^xsd:string ;
+    schema:nationality "Croatia"^^xsd:string ;
+    schema:weight "192 lbs"^^xsd:string .
+

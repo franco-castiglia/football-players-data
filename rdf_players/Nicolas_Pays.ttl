@@ -1,0 +1,49 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Nicolas_Pays a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q132189964> ;
+    foaf:name "Nicolas Pays"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 20 ;
+    stats:blocks 1 ;
+    stats:carries 170 ;
+    stats:clearances 2 ;
+    stats:dispossessed 13 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 1.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 5.0 ;
+    stats:matchesPlayed 9 ;
+    stats:matchesStarted 4 ;
+    stats:minutesPlayed 447 ;
+    stats:miscontrols 8 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 21 ;
+    stats:progressivePasses 14 ;
+    stats:progressivePassesReceived 53 ;
+    stats:rank 2056 ;
+    stats:redCards 0 ;
+    stats:tackles 13 ;
+    stats:tacklesWon 6 ;
+    stats:touches 247 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2003-07-07"^^xsd:date ;
+    schema:height "None"^^xsd:string ;
+    schema:memberOf "Montpellier"^^xsd:string ;
+    schema:name "Nicolas Pays"^^xsd:string ;
+    schema:nationality "France"^^xsd:string .
+

@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Moises_Caicedo a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q87715532> ;
+    foaf:account "www.facebook.com/rprestigefla"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/u3feyy1757002398.png"^^xsd:anyURI ;
+    foaf:name "Moisés Caicedo"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 229 ;
+    stats:blocks 49 ;
+    stats:carries 1409 ;
+    stats:clearances 60 ;
+    stats:dispossessed 25 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 3.0 ;
+    stats:expectedGoals 0.8 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 49 ;
+    stats:keyPasses 30 ;
+    stats:matches90s 37.2 ;
+    stats:matchesPlayed 38 ;
+    stats:matchesStarted 38 ;
+    stats:minutesPlayed 3351 ;
+    stats:miscontrols 37 ;
+    stats:passesIntoPenaltyArea 34 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 2 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 43 ;
+    stats:progressivePasses 215 ;
+    stats:progressivePassesReceived 37 ;
+    stats:rank 435 ;
+    stats:redCards 0 ;
+    stats:tackles 114 ;
+    stats:tacklesWon 73 ;
+    stats:touches 2579 ;
+    stats:yellowCards 11 ;
+    schema:birthDate "2001-11-02"^^xsd:date ;
+    schema:description "Moisés Isaac Caicedo Corozo (born 2 November 2001) is an Ecuadorian professional footballer who currently plays as a defensive midfielder for Premier League club Chelsea and the Ecuador national team."@en ;
+    schema:height "178cm / 5'10\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/fnetiu1717183018.jpg"^^xsd:anyURI ;
+    schema:memberOf "Chelsea"^^xsd:string ;
+    schema:name "Moisés Caicedo"^^xsd:string ;
+    schema:nationality "Ecuador"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

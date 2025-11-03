@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Cesare_Casadei a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q112081015> ;
+    foaf:account "www.instagram.com/_cesarecasadei_/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/9i4mcp1758813564.png"^^xsd:anyURI ;
+    foaf:name "Cesare Casadei"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 41 ;
+    stats:blocks 4 ;
+    stats:carries 259 ;
+    stats:clearances 26 ;
+    stats:dispossessed 9 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.4 ;
+    stats:expectedGoals 1.2 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 11.3 ;
+    stats:matchesPlayed 15 ;
+    stats:matchesStarted 13 ;
+    stats:minutesPlayed 1017 ;
+    stats:miscontrols 20 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 14 ;
+    stats:progressivePasses 36 ;
+    stats:progressivePassesReceived 12 ;
+    stats:rank 496 ;
+    stats:redCards 0 ;
+    stats:tackles 12 ;
+    stats:tacklesWon 5 ;
+    stats:touches 508 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2003-01-10"^^xsd:date ;
+    schema:description "Cesare Casadei (born 10 January 2003) is an Italian professional footballer who plays as a central midfielder for Serie A club Torino."@en ;
+    schema:height "185 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/xf1r4x1679059597.jpg"^^xsd:anyURI ;
+    schema:memberOf "Torino"^^xsd:string ;
+    schema:name "Cesare Casadei"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Thomas_Meunier a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2036160> ;
+    foaf:account "twitter.com/thommills"^^xsd:anyURI,
+        "www.facebook.com/OfficialMeunier/"^^xsd:anyURI,
+        "www.instagram.com/thomas12meunier/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/dr8pyb1680188464.png"^^xsd:anyURI ;
+    foaf:name "Thomas Meunier"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 88 ;
+    stats:blocks 21 ;
+    stats:carries 899 ;
+    stats:clearances 64 ;
+    stats:dispossessed 11 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.7 ;
+    stats:expectedGoals 1.9 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 34 ;
+    stats:keyPasses 13 ;
+    stats:matches90s 21.4 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 21 ;
+    stats:minutesPlayed 1928 ;
+    stats:miscontrols 24 ;
+    stats:passesIntoPenaltyArea 31 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 64 ;
+    stats:progressivePasses 136 ;
+    stats:progressivePassesReceived 148 ;
+    stats:rank 1733 ;
+    stats:redCards 0 ;
+    stats:tackles 53 ;
+    stats:tacklesWon 38 ;
+    stats:touches 1736 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1991-09-12"^^xsd:date ;
+    schema:description "Thomas André A. Meunier (born 12 September 1991) is a Belgian professional footballer who plays as a right-back for Ligue 1 club Lille and the Belgium national team."@en ;
+    schema:height "1.90 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ikifa01515933211.jpg"^^xsd:anyURI ;
+    schema:memberOf "Lille"^^xsd:string ;
+    schema:name "Thomas Meunier"^^xsd:string ;
+    schema:nationality "Belgium"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

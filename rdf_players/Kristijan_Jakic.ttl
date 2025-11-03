@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Kristijan_Jakic a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q27106995> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/iwosfg1742055650.png"^^xsd:anyURI ;
+    foaf:name "Kristijan Jakić"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 133 ;
+    stats:blocks 42 ;
+    stats:carries 703 ;
+    stats:clearances 50 ;
+    stats:dispossessed 21 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.2 ;
+    stats:expectedGoals 0.8 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 28 ;
+    stats:keyPasses 16 ;
+    stats:matches90s 25.6 ;
+    stats:matchesPlayed 31 ;
+    stats:matchesStarted 27 ;
+    stats:minutesPlayed 2306 ;
+    stats:miscontrols 39 ;
+    stats:passesIntoPenaltyArea 11 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:progressiveCarries 24 ;
+    stats:progressivePasses 106 ;
+    stats:progressivePassesReceived 49 ;
+    stats:rank 1238 ;
+    stats:redCards 0 ;
+    stats:tackles 46 ;
+    stats:tacklesWon 23 ;
+    stats:touches 1361 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1997-05-14"^^xsd:date ;
+    schema:description """Kristijan Jakić (born 14 May 1997) is a Croatian professional footballer who plays as a defensive midfielder for German Bundesliga club FC Augsburg and the Croatia national team. \r
+Jakić earned his first call-up to the Croatia national team on 20 September 2021, when coach Zlatko Dalić called him up for the October World Cup qualifiers against Cyprus and Slovakia. He made him debut on 8 October against the former opponent, getting substituted on in the 84th minute of the 3–0 victory."""@en ;
+    schema:height "181 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/4sw1011632680903.jpg"^^xsd:anyURI ;
+    schema:memberOf "FC Augsburg"^^xsd:string ;
+    schema:name "Kristijan Jakić"^^xsd:string ;
+    schema:nationality "Croatia"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Matteo_Politano a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6789694> ;
+    foaf:account "twitter.com/mpolitano16"^^xsd:anyURI,
+        "www.facebook.com/MatteoPolitano16/"^^xsd:anyURI,
+        "www.instagram.com/matteo_poli7/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/4am7ic1610362593.png"^^xsd:anyURI ;
+    foaf:name "Matteo Politano"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 95 ;
+    stats:blocks 21 ;
+    stats:carries 920 ;
+    stats:clearances 50 ;
+    stats:dispossessed 24 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 4.8 ;
+    stats:expectedGoals 3.1 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 13 ;
+    stats:keyPasses 56 ;
+    stats:matches90s 31.2 ;
+    stats:matchesPlayed 37 ;
+    stats:matchesStarted 34 ;
+    stats:minutesPlayed 2804 ;
+    stats:miscontrols 47 ;
+    stats:passesIntoPenaltyArea 55 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:progressiveCarries 135 ;
+    stats:progressivePasses 129 ;
+    stats:progressivePassesReceived 278 ;
+    stats:rank 2135 ;
+    stats:redCards 0 ;
+    stats:tackles 29 ;
+    stats:tacklesWon 15 ;
+    stats:touches 1561 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1993-08-03"^^xsd:date ;
+    schema:description "Matteo Politano (Italian pronunciation: ; born 3 August 1993) is an Italian professional footballer who plays as a right winger for Serie A club Napoli and the Italy national team."@en ;
+    schema:height "1.71 m (5 ft 7 1⁄2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/4pr9591702565157.jpg"^^xsd:anyURI ;
+    schema:memberOf "Napoli"^^xsd:string ;
+    schema:name "Matteo Politano"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "148 lbs"^^xsd:string .
+

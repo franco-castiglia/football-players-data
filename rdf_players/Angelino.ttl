@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Angelino a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q20688718> ;
+    foaf:account "twitter.com/angel_tasende69"^^xsd:anyURI,
+        "www.instagram.com/angelino_69/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/5pw52n1758816456.png"^^xsd:anyURI ;
+    foaf:name "Angeliño"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 101 ;
+    stats:blocks 33 ;
+    stats:carries 1202 ;
+    stats:clearances 98 ;
+    stats:dispossessed 9 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 3.7 ;
+    stats:expectedGoals 1.4 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 28 ;
+    stats:keyPasses 50 ;
+    stats:matches90s 35.3 ;
+    stats:matchesPlayed 38 ;
+    stats:matchesStarted 36 ;
+    stats:minutesPlayed 3177 ;
+    stats:miscontrols 27 ;
+    stats:passesIntoPenaltyArea 58 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 66 ;
+    stats:progressivePasses 172 ;
+    stats:progressivePassesReceived 172 ;
+    stats:rank 129 ;
+    stats:redCards 0 ;
+    stats:tackles 46 ;
+    stats:tacklesWon 24 ;
+    stats:touches 2266 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1997-01-04"^^xsd:date ;
+    schema:description "José Ángel Esmorís Tasende (born 4 January 1997), known by the diminutive Angeliño, is a Spanish professional footballer who plays as a left back or left midfielder for Hoffenheim on loan from Bundesliga club RB Leipzig."@en ;
+    schema:height "1.76 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/xg2jeu1585495738.jpg"^^xsd:anyURI ;
+    schema:memberOf "Roma"^^xsd:string ;
+    schema:name "Angeliño"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

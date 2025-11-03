@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ivan_Martin a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q60734335> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/n98wcz1662204839.png"^^xsd:anyURI ;
+    foaf:name "Iván Martín"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 110 ;
+    stats:blocks 20 ;
+    stats:carries 1044 ;
+    stats:clearances 15 ;
+    stats:dispossessed 27 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.9 ;
+    stats:expectedGoals 1.8 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 11 ;
+    stats:keyPasses 22 ;
+    stats:matches90s 22.7 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 24 ;
+    stats:minutesPlayed 2039 ;
+    stats:miscontrols 43 ;
+    stats:passesIntoPenaltyArea 15 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 57 ;
+    stats:progressivePasses 131 ;
+    stats:progressivePassesReceived 76 ;
+    stats:rank 1641 ;
+    stats:redCards 0 ;
+    stats:tackles 32 ;
+    stats:tacklesWon 19 ;
+    stats:touches 1577 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1999-02-14"^^xsd:date ;
+    schema:description "Iván Martín Núñez (born 14 February 1999) is a Spanish professional footballer who plays as a midfielder for La Liga club Girona."@en ;
+    schema:height "178 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/j7f7ob1659964522.jpg"^^xsd:anyURI ;
+    schema:memberOf "Girona"^^xsd:string ;
+    schema:name "Iván Martín"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

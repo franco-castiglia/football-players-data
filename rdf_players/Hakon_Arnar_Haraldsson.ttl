@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Hakon_Arnar_Haraldsson a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q108542081> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/btixne1702896881.png"^^xsd:anyURI ;
+    foaf:name "Hákon Arnar Haraldsson"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 71 ;
+    stats:blocks 10 ;
+    stats:carries 715 ;
+    stats:clearances 6 ;
+    stats:dispossessed 13 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.8 ;
+    stats:expectedGoals 3.8 ;
+    stats:goals 5 ;
+    stats:goalsNonPenalty 5 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 35 ;
+    stats:matches90s 19.5 ;
+    stats:matchesPlayed 25 ;
+    stats:matchesStarted 21 ;
+    stats:minutesPlayed 1755 ;
+    stats:miscontrols 42 ;
+    stats:passesIntoPenaltyArea 42 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 52 ;
+    stats:progressivePasses 102 ;
+    stats:progressivePassesReceived 143 ;
+    stats:rank 156 ;
+    stats:redCards 0 ;
+    stats:tackles 36 ;
+    stats:tacklesWon 16 ;
+    stats:touches 1136 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2003-04-10"^^xsd:date ;
+    schema:description "Hákon Arnar Haraldsson (born 10 April 2003) is an Icelandic professional footballer who plays as a midfielder for French Ligue 1 club Lille and the Iceland national team."@en ;
+    schema:height "1.80 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ecrf2c1663233424.jpg"^^xsd:anyURI ;
+    schema:memberOf "Lille"^^xsd:string ;
+    schema:name "Hákon Arnar Haraldsson"^^xsd:string ;
+    schema:nationality "Iceland"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

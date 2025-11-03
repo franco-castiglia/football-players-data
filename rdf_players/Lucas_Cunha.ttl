@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Lucas_Cunha a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q29051050> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/uyajzn1631111198.png"^^xsd:anyURI ;
+    foaf:name "Lucas Cunha"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 157 ;
+    stats:blocks 18 ;
+    stats:carries 1200 ;
+    stats:clearances 30 ;
+    stats:dispossessed 16 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 3.8 ;
+    stats:expectedGoals 2.0 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 17 ;
+    stats:keyPasses 55 ;
+    stats:matches90s 29.0 ;
+    stats:matchesPlayed 36 ;
+    stats:matchesStarted 30 ;
+    stats:minutesPlayed 2613 ;
+    stats:miscontrols 20 ;
+    stats:passesIntoPenaltyArea 29 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:progressiveCarries 63 ;
+    stats:progressivePasses 154 ;
+    stats:progressivePassesReceived 85 ;
+    stats:rank 643 ;
+    stats:redCards 0 ;
+    stats:tackles 45 ;
+    stats:tacklesWon 25 ;
+    stats:touches 1929 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2001-06-09"^^xsd:date ;
+    schema:description "Lucas Da Cunha (born 9 June 2001) is a French professional footballer who plays as an attacking midfielder for Serie B club Como."@en ;
+    schema:height "1.74 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/k945f61631111173.jpg"^^xsd:anyURI ;
+    schema:memberOf "Como"^^xsd:string ;
+    schema:name "Lucas Cunha"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "66 kg"^^xsd:string .
+

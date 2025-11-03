@@ -1,0 +1,64 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Kobbie_Mainoo a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q114703020> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/h41pap1738527656.png"^^xsd:anyURI ;
+    foaf:name "Kobbie Mainoo"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 88 ;
+    stats:blocks 16 ;
+    stats:carries 652 ;
+    stats:clearances 14 ;
+    stats:dispossessed 36 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.6 ;
+    stats:expectedGoals 0.7 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 19 ;
+    stats:keyPasses 14 ;
+    stats:matches90s 18.3 ;
+    stats:matchesPlayed 25 ;
+    stats:matchesStarted 19 ;
+    stats:minutesPlayed 1651 ;
+    stats:miscontrols 36 ;
+    stats:passesIntoPenaltyArea 12 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 22 ;
+    stats:progressivePasses 65 ;
+    stats:progressivePassesReceived 47 ;
+    stats:rank 1575 ;
+    stats:redCards 0 ;
+    stats:tackles 46 ;
+    stats:tacklesWon 29 ;
+    stats:touches 1061 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "2005-04-19"^^xsd:date ;
+    schema:description """Kobbie Boateng Mainoo (born 19 April 2005) is an English professional footballer who plays as a midfielder for Premier League club Manchester United.\r
+\r
+Born in Stockport, Mainoo started his youth career at Cheadle & Gatley Junior Football Club, before joining Manchester United at the age of nine.\r
+\r
+Mainoo signed his first professional contract in May 2022. His performances, including a good midfield display against Carlisle United in the EFL Trophy, earned him a callup to the senior squad for training in October 2022. He was named on the bench for the first time on 16 October, ahead of a Premier League match against Newcastle United.\r
+\r
+Mainoo made his competitive debut for United on 10 January 2023, starting in a 3–0 EFL Cup win over Charlton Athletic, and made his league debut on 19 February by coming on as a substitute in a 3–0 win against Leicester City.\r
+\r
+Mainoo travelled with the Manchester United squad on their 2023–24 pre-season tour in the United States. However, he picked up an injury keeping him out-of-play for the start of the upcoming season. \r
+\r
+Mainoo has represented England at under-17, under-18 and under-19 levels. He is also eligible to represent Ghana."""@en ;
+    schema:height "181cm / 5'11\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/h66a4l1696149845.jpg"^^xsd:anyURI ;
+    schema:memberOf "Manchester United"^^xsd:string ;
+    schema:name "Kobbie Mainoo"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jan_Schoppner a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q99332319> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/2u7fdb1742057448.png"^^xsd:anyURI ;
+    foaf:name "Jan Schöppner"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 130 ;
+    stats:blocks 38 ;
+    stats:carries 704 ;
+    stats:clearances 95 ;
+    stats:dispossessed 24 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 3.4 ;
+    stats:expectedGoals 3.9 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 43 ;
+    stats:keyPasses 25 ;
+    stats:matches90s 29.8 ;
+    stats:matchesPlayed 33 ;
+    stats:matchesStarted 32 ;
+    stats:minutesPlayed 2681 ;
+    stats:miscontrols 40 ;
+    stats:passesIntoPenaltyArea 19 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 35 ;
+    stats:progressivePasses 107 ;
+    stats:progressivePassesReceived 48 ;
+    stats:rank 2379 ;
+    stats:redCards 0 ;
+    stats:tackles 56 ;
+    stats:tacklesWon 30 ;
+    stats:touches 1440 ;
+    stats:yellowCards 8 ;
+    schema:birthDate "1999-06-12"^^xsd:date ;
+    schema:description """Jan Schöppner (born 12 June 1999) is a German professional footballer who plays as a central midfielder for Heidenheim.\r
+\r
+Career\r
+Schöppner joined 2. Bundesliga club 1. FC Heidenheim in August 2020 from SC Verl. He made his professional debut for Heidenheim in the first round of the 2020–21 DFB-Pokal on 13 September 2020, starting against 3. Liga side Wehen Wiesbaden before being substituted out in the 57th minute for Jonas Föhrenbach. The away match finished as a 1–0 loss."""@en ;
+    schema:height "1.90 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/2xe9w01705319373.jpg"^^xsd:anyURI ;
+    schema:memberOf "FC Heidenheim"^^xsd:string ;
+    schema:name "Jan Schöppner"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

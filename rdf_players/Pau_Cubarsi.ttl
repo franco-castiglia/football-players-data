@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Pau_Cubarsi a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q118473161> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/in0e071726509762.png"^^xsd:anyURI ;
+    foaf:name "Pau Cubarsí"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 102 ;
+    stats:blocks 12 ;
+    stats:carries 1823 ;
+    stats:clearances 86 ;
+    stats:dispossessed 1 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.6 ;
+    stats:expectedGoals 0.8 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 16 ;
+    stats:keyPasses 9 ;
+    stats:matches90s 29.1 ;
+    stats:matchesPlayed 35 ;
+    stats:matchesStarted 29 ;
+    stats:minutesPlayed 2618 ;
+    stats:miscontrols 7 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 26 ;
+    stats:progressivePasses 191 ;
+    stats:progressivePassesReceived 6 ;
+    stats:rank 634 ;
+    stats:redCards 0 ;
+    stats:tackles 34 ;
+    stats:tacklesWon 23 ;
+    stats:touches 2805 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2007-01-22"^^xsd:date ;
+    schema:description "Pau Cubarsí Paredes (born 22 January 2007) is a Spanish professional footballer from Catalonia who plays as a centre-back for La Liga club Barcelona and the Spain national team."@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/xef7h11703243846.jpg"^^xsd:anyURI ;
+    schema:memberOf "Barcelona"^^xsd:string ;
+    schema:name "Pau Cubarsí"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "75 kg (165 lb)"^^xsd:string .
+

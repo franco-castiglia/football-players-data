@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Antonio_Rudiger a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q96755> ;
+    foaf:account "twitter.com/ToniRuediger"^^xsd:anyURI,
+        "www.facebook.com/toni.ruediger"^^xsd:anyURI,
+        "www.instagram.com/toniruediger"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ftp1ci1733653186.png"^^xsd:anyURI ;
+    foaf:name "Antonio Rudiger"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 102 ;
+    stats:blocks 22 ;
+    stats:carries 1373 ;
+    stats:clearances 96 ;
+    stats:dispossessed 2 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 1.7 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 9 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 25.5 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 26 ;
+    stats:minutesPlayed 2291 ;
+    stats:miscontrols 7 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 2 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 20 ;
+    stats:progressivePasses 94 ;
+    stats:progressivePassesReceived 4 ;
+    stats:rank 2271 ;
+    stats:redCards 0 ;
+    stats:tackles 20 ;
+    stats:tacklesWon 13 ;
+    stats:touches 2069 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1993-03-03"^^xsd:date ;
+    schema:description """Antonio Rüdiger (born 3 March 1993) is a German professional footballer who plays as a centre-back for La Liga club Real Madrid and the Germany national team.\r
+\r
+Rüdiger began his career at VfB Stuttgart, representing their reserves in 3. Liga and the first team in the Bundesliga. In 2015 he joined Roma, initially on loan and a year later for a €9 million fee. He was signed by Chelsea in 2017 for an estimated £27 million, where he won the FA Cup in his first season, followed by the UEFA Europa League in his second season, and the UEFA Champions League in 2021.\r
+\r
+He made his international debut for Germany in May 2014. He was forced to miss UEFA Euro 2016 due to an injury suffered earlier in the season but he was part of the squad that won the 2017 FIFA Confederations Cup. He kept his spot in the squad for the 2018 World Cup, and later also took part at UEFA Euro 2020."""@en ;
+    schema:height "1.91 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/o0nlgs1673465006.jpg"^^xsd:anyURI ;
+    schema:memberOf "Real Madrid"^^xsd:string ;
+    schema:name "Antonio Rudiger"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "185 lbs"^^xsd:string .
+

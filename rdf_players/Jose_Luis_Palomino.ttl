@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jose_Luis_Palomino a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2882091> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/8j6ygc1695157378.png"^^xsd:anyURI ;
+    foaf:name "Jose Luis Palomino"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 50 ;
+    stats:blocks 21 ;
+    stats:carries 384 ;
+    stats:clearances 46 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.5 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 22 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 12.0 ;
+    stats:matchesPlayed 18 ;
+    stats:matchesStarted 10 ;
+    stats:minutesPlayed 1081 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 4 ;
+    stats:progressivePasses 35 ;
+    stats:progressivePassesReceived 1 ;
+    stats:rank 1536 ;
+    stats:redCards 0 ;
+    stats:tackles 27 ;
+    stats:tacklesWon 15 ;
+    stats:touches 707 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1990-01-05"^^xsd:date ;
+    schema:description "José Luis Palomino (born 5 January 1990) is an Argentine footballer who plays as a centre-back for Serie A club Atalanta."@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/zrgpnw1546033593.jpg"^^xsd:anyURI ;
+    schema:memberOf "Talleres de Córdoba"^^xsd:string ;
+    schema:name "Jose Luis Palomino"^^xsd:string ;
+    schema:nationality "Argentina"^^xsd:string ;
+    schema:weight "78 Kg"^^xsd:string .
+

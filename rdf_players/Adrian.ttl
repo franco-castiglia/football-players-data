@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Adrian a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3557182> ;
+    foaf:account "twitter.com/adrisanmiguel"^^xsd:anyURI,
+        "www.facebook.com/Adr13nSanMiguel/"^^xsd:anyURI,
+        "www.instagram.com/adr13nsanmiguel"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ghz4d61723793921.png"^^xsd:anyURI ;
+    foaf:name "Adrian"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 20 ;
+    stats:blocks 0 ;
+    stats:carries 390 ;
+    stats:clearances 14 ;
+    stats:dispossessed 0 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 19.0 ;
+    stats:matchesPlayed 19 ;
+    stats:matchesStarted 19 ;
+    stats:minutesPlayed 1710 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 34 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 658 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1987-01-03"^^xsd:date ;
+    schema:description """Adrián San Miguel del Castillo (born 3 January 1987), known as Adrián, is a Spanish professional footballer who plays as a goalkeeper for La Liga club Real Betis.\r
+\r
+Adrián began his career playing with Spanish side Real Betis, initially with the club's youth sides, before making his debut with the first team in 2012; he also had spells on loan with Alcalá and Utrera during this period. In 2013, he moved to England, joining West Ham United. After his release from West Ham, he signed with Liverpool in 2019, winning a Premier League title in his first season."""@en ;
+    schema:height "1.90 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/i9hpm91723793890.jpg"^^xsd:anyURI ;
+    schema:memberOf "Real Betis"^^xsd:string ;
+    schema:name "Adrian"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

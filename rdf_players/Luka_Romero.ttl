@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Luka_Romero a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q96335553> ;
+    foaf:account "www.instagram.com/lukaromero10/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/w2v7si1724492018.png"^^xsd:anyURI ;
+    foaf:name "Luka Romero"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 9 ;
+    stats:blocks 2 ;
+    stats:carries 42 ;
+    stats:clearances 0 ;
+    stats:dispossessed 7 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.8 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 2.2 ;
+    stats:matchesPlayed 6 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 199 ;
+    stats:miscontrols 5 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:progressiveCarries 3 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 12 ;
+    stats:rank 2253 ;
+    stats:redCards 0 ;
+    stats:tackles 4 ;
+    stats:tacklesWon 4 ;
+    stats:touches 69 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2004-11-18"^^xsd:date ;
+    schema:description """Luka Romero Bezzana (born 18 November 2004) is a professional footballer who plays as an attacking midfielder and winger for Liga MX club Cruz Azul. Born in Mexico, he represented Argentina at the youth international level. \r
+\r
+Coming through the youth system, Romero made his first-team debut with Mallorca in La Liga aged 15 years and 219 days, becoming the youngest player to play in a top five European league. After alternating in 2020–21 between Mallorca's first team and B team, Romero joined Serie A side Lazio in 2021. His first goal in 2022 made him the first 2004-born player to score in the Italian top flight."""@en ;
+    schema:height "1.65 m (5 ft 5 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/0a02hl1678804311.jpg"^^xsd:anyURI ;
+    schema:memberOf "Cruz Azul"^^xsd:string ;
+    schema:name "Luka Romero"^^xsd:string ;
+    schema:nationality "Argentina"^^xsd:string ;
+    schema:weight "139 lbs"^^xsd:string .
+

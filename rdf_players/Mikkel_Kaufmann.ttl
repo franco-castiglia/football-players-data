@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mikkel_Kaufmann a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q57409385> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/yo945k1610651879.png"^^xsd:anyURI ;
+    foaf:name "Mikkel Kaufmann"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 13 ;
+    stats:blocks 5 ;
+    stats:carries 77 ;
+    stats:clearances 7 ;
+    stats:dispossessed 2 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.5 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 4.1 ;
+    stats:matchesPlayed 9 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 372 ;
+    stats:miscontrols 11 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 4 ;
+    stats:progressivePasses 10 ;
+    stats:progressivePassesReceived 21 ;
+    stats:rank 1327 ;
+    stats:redCards 0 ;
+    stats:tackles 6 ;
+    stats:tacklesWon 4 ;
+    stats:touches 139 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2001-01-03"^^xsd:date ;
+    schema:description """Mikkel Kaufmann Sørensen (born 3 January 2001) is a Danish professional footballer who plays as a forward for German 2. Bundesliga club Karlsruher SC on loan from 1. FC Heidenheim.\r
+Career\r
+AaB\r
+Kaufmann got his official debut for AaB on 6 August 2018 in a game against Vendsyssel FF, coming on the pitch from the bench with 3 minutes left. On 7 April 2019, Kaufmann scored his first professional goal against Hobro IK in the stoppage time, and the game ended 1-1.\r
+\r
+FC Copenhagen\r
+On 24 January 2020 Danish Superliga champions FC Copenhagen announced, that they had signed AaB topscorer Kaufmann from the summer 2020. However, after Carlo Holse was sold from Copenhagen, the club decided to bring him in immediately on the last day of the winter transfer market. The fee was rumored to be about 20 million DKK plus an additional 1,5 million DKK to sign him immediately. Kaufmann's transfer became the third biggest deal in the history of AaB."""@en ;
+    schema:height "1.90 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/jz3ugz1610651660.jpg"^^xsd:anyURI ;
+    schema:memberOf "Karlsruhe"^^xsd:string ;
+    schema:name "Mikkel Kaufmann"^^xsd:string ;
+    schema:nationality "Denmark"^^xsd:string ;
+    schema:weight "179 lbs"^^xsd:string .
+

@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Tyrone_Mings a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16235643> ;
+    foaf:account "http://twitter.com/OfficialTM_3"^^xsd:anyURI,
+        "www.instagram.com/tyronemings/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/z2m4km1756987198.png"^^xsd:anyURI ;
+    foaf:name "Tyrone Mings"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 38 ;
+    stats:blocks 13 ;
+    stats:carries 484 ;
+    stats:clearances 61 ;
+    stats:dispossessed 1 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.8 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 7 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 12.4 ;
+    stats:matchesPlayed 14 ;
+    stats:matchesStarted 12 ;
+    stats:minutesPlayed 1120 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 7 ;
+    stats:progressivePasses 40 ;
+    stats:progressivePassesReceived 1 ;
+    stats:rank 1754 ;
+    stats:redCards 0 ;
+    stats:tackles 7 ;
+    stats:tacklesWon 6 ;
+    stats:touches 794 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1993-03-13"^^xsd:date ;
+    schema:description """Tyrone Deon Mings (born 13 March 1993) is an English professional footballer who plays as a centre-back for Premier League club Aston Villa.\r
+\r
+Mings started his career playing non-League football with Yate Town, having previously been at the Southampton academy for eight years. He joined Southern League Premier Division club Chippenham Town in 2012. Mings signed for Ipswich Town in December 2012 and made his Football League debut on the final day of the 2012–13 season. He spent a further two seasons with Ipswich, before joining AFC Bournemouth in 2015, going on to make his Premier League debut in August 2015. He joined Aston Villa on loan for the remainder of the 2018–19 season in January 2019, helping the club win promotion to the Premier League through the Championship play-offs. Mings signed permanently for Aston Villa in July 2019.\r
+\r
+Mings received his first call up to the senior England squad in August 2019. He made his senior debut in October 2019. In June 2021, Mings was selected for the England squad for the UEFA Euro 2020 tournament, starting the first two games."""@en ;
+    schema:height "6 ft 5 in (1.96 m)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/xjnahx1710319462.jpg"^^xsd:anyURI ;
+    schema:memberOf "Aston Villa"^^xsd:string ;
+    schema:name "Tyrone Mings"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

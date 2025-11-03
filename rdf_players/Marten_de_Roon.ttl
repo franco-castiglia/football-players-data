@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Marten_de_Roon a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q285684> ;
+    foaf:account "twitter.com/Dirono?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"^^xsd:anyURI,
+        "www.facebook.com/Martenderoonofficial/"^^xsd:anyURI,
+        "www.instagram.com/martenderoon15/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/vd6v6q1695157451.png"^^xsd:anyURI ;
+    foaf:name "Marten de Roon"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 140 ;
+    stats:blocks 40 ;
+    stats:carries 1475 ;
+    stats:clearances 67 ;
+    stats:dispossessed 9 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 2.3 ;
+    stats:expectedGoals 0.9 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 47 ;
+    stats:keyPasses 25 ;
+    stats:matches90s 34.0 ;
+    stats:matchesPlayed 36 ;
+    stats:matchesStarted 34 ;
+    stats:minutesPlayed 3058 ;
+    stats:miscontrols 24 ;
+    stats:passesIntoPenaltyArea 27 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 37 ;
+    stats:progressivePasses 242 ;
+    stats:progressivePassesReceived 32 ;
+    stats:rank 2256 ;
+    stats:redCards 0 ;
+    stats:tackles 74 ;
+    stats:tacklesWon 48 ;
+    stats:touches 2538 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1991-03-29"^^xsd:date ;
+    schema:description "Marten Elco de Roon (born 29 March 1991) is a Dutch professional footballer who plays as a midfielder for Italian club Atalanta and the Netherlands national team. He formerly played for Sparta Rotterdam, SC Heerenveen and Middlesbrough."@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/yxxtvt1471617211.jpg"^^xsd:anyURI ;
+    schema:memberOf "Atalanta"^^xsd:string ;
+    schema:name "Marten de Roon"^^xsd:string ;
+    schema:nationality "The Netherlands"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

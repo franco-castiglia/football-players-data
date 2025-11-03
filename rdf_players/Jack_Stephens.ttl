@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jack_Stephens a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6115352> ;
+    foaf:account "twitter.com/jackstephens_18"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/qnt4ge1761322776.png"^^xsd:anyURI ;
+    foaf:name "Jack Stephens"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 44 ;
+    stats:blocks 20 ;
+    stats:carries 631 ;
+    stats:clearances 53 ;
+    stats:dispossessed 3 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.6 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 13 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 15.4 ;
+    stats:matchesPlayed 19 ;
+    stats:matchesStarted 17 ;
+    stats:minutesPlayed 1389 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 14 ;
+    stats:progressivePasses 63 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 2501 ;
+    stats:redCards 2 ;
+    stats:tackles 34 ;
+    stats:tacklesWon 20 ;
+    stats:touches 1097 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1994-01-27"^^xsd:date ;
+    schema:description """Jack Stephens (born 27 January 1994) is an English professional footballer who plays as a defender for and captains EFL Championship club Southampton. \r
+Born in Torpoint, Stephens began his career as a youth player with Plymouth Argyle, remaining with the club as a professional until 2011. Although starting his career as a right back, Stephens has been converted into a centre back. He can also operate as a left back, or in a defensive midfielder role, and has played internationally for the England under-18, under-19 and under-20 sides."""@en ;
+    schema:height "185 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/wqqpxw1471448323.jpg"^^xsd:anyURI ;
+    schema:memberOf "Southampton"^^xsd:string ;
+    schema:name "Jack Stephens"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

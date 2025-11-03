@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Marvin_Ducksch a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q822789> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/z6hxy61742136505.png"^^xsd:anyURI ;
+    foaf:name "Marvin Ducksch"^^xsd:string ;
+    stats:assists 8 ;
+    stats:ballRecoveries 65 ;
+    stats:blocks 10 ;
+    stats:carries 538 ;
+    stats:clearances 26 ;
+    stats:dispossessed 11 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 8.5 ;
+    stats:expectedGoals 10.1 ;
+    stats:goals 8 ;
+    stats:goalsNonPenalty 7 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 61 ;
+    stats:matches90s 26.9 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 30 ;
+    stats:minutesPlayed 2418 ;
+    stats:miscontrols 31 ;
+    stats:passesIntoPenaltyArea 30 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 26 ;
+    stats:progressivePasses 86 ;
+    stats:progressivePassesReceived 166 ;
+    stats:rank 793 ;
+    stats:redCards 0 ;
+    stats:tackles 10 ;
+    stats:tacklesWon 7 ;
+    stats:touches 1105 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1994-03-07"^^xsd:date ;
+    schema:description "Marvin Ducksch is a German professional footballer who plays as a striker for EFL Championship club Birmingham City and the Germany national team."@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/poq0781531057115.jpg"^^xsd:anyURI ;
+    schema:memberOf "Birmingham City"^^xsd:string ;
+    schema:name "Marvin Ducksch"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

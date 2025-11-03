@@ -1,0 +1,52 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Juanmi_Latasa a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q112036549> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/4342901678795282.png"^^xsd:anyURI ;
+    foaf:name "Juanmi Latasa"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 24 ;
+    stats:blocks 4 ;
+    stats:carries 153 ;
+    stats:clearances 11 ;
+    stats:dispossessed 18 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 4.2 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 13 ;
+    stats:matches90s 15.5 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 14 ;
+    stats:minutesPlayed 1398 ;
+    stats:miscontrols 31 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 3 ;
+    stats:progressivePasses 17 ;
+    stats:progressivePassesReceived 40 ;
+    stats:rank 1452 ;
+    stats:redCards 1 ;
+    stats:tackles 4 ;
+    stats:tacklesWon 2 ;
+    stats:touches 390 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "2001-03-23"^^xsd:date ;
+    schema:description "Juan Miguel \"Juanmi\" Latasa Fernández Layos (born 23 March 2001) is a Spanish professional footballer who plays as a forward for La Liga club Real Valladolid."@en ;
+    schema:height "1.91 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/gpurzd1655312667.jpg"^^xsd:anyURI ;
+    schema:memberOf "Valladolid"^^xsd:string ;
+    schema:name "Juanmi Latasa"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string .
+

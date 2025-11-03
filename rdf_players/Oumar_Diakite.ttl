@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Oumar_Diakite a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q110531201> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/vqknme1735338596.png"^^xsd:anyURI ;
+    foaf:name "Oumar Diakité"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 59 ;
+    stats:blocks 13 ;
+    stats:carries 319 ;
+    stats:clearances 9 ;
+    stats:dispossessed 38 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.1 ;
+    stats:expectedGoals 5.5 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 3 ;
+    stats:keyPasses 11 ;
+    stats:matches90s 18.1 ;
+    stats:matchesPlayed 26 ;
+    stats:matchesStarted 20 ;
+    stats:minutesPlayed 1628 ;
+    stats:miscontrols 64 ;
+    stats:passesIntoPenaltyArea 12 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 24 ;
+    stats:progressivePasses 44 ;
+    stats:progressivePassesReceived 93 ;
+    stats:rank 711 ;
+    stats:redCards 0 ;
+    stats:tackles 20 ;
+    stats:tacklesWon 13 ;
+    stats:touches 580 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "2003-12-20"^^xsd:date ;
+    schema:description """Oumar Diakité (born 20 December 2003) is an Ivorian footballer who plays as a forward for Ligue 1 club Reims and the Ivory Coast national team.\r
+\r
+Club career\r
+Diakité joined Red Bull Salzburg from ASEC Mimosas on 12 January 2022 and quickly sent on loan to Red Bull Salzburg's farm team, Liefering. He made his debut in a league match against SKN St. Pölten in 20 February. Diakité scored his first goal against SK Rapid Wien II in the league match on 3 April.\r
+\r
+On 21 June 2023, Diakité signed up for Ligue 1 club Stade de Reims on a five-year contract."""@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ws5egt1735338560.jpg"^^xsd:anyURI ;
+    schema:memberOf "Stade de Reims"^^xsd:string ;
+    schema:name "Oumar Diakité"^^xsd:string ;
+    schema:nationality "Ivory Coast"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

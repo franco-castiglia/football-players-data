@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Tomas_Conechny a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q19343196> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/5vvr4y1724491879.png"^^xsd:anyURI ;
+    foaf:name "Tomás Conechny"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 45 ;
+    stats:blocks 14 ;
+    stats:carries 249 ;
+    stats:clearances 10 ;
+    stats:dispossessed 9 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 2.4 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 9.4 ;
+    stats:matchesPlayed 22 ;
+    stats:matchesStarted 9 ;
+    stats:minutesPlayed 847 ;
+    stats:miscontrols 31 ;
+    stats:passesIntoPenaltyArea 11 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 14 ;
+    stats:progressivePasses 23 ;
+    stats:progressivePassesReceived 61 ;
+    stats:rank 592 ;
+    stats:redCards 0 ;
+    stats:tackles 15 ;
+    stats:tacklesWon 12 ;
+    stats:touches 457 ;
+    stats:yellowCards 8 ;
+    schema:birthDate "1998-03-30"^^xsd:date ;
+    schema:description "Tomás Conechny (born 30 March 1998) is an Argentine professional footballer who plays as a winger or an attacking midfielder for La Liga club Deportivo Alavés."@en ;
+    schema:height "1.76 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/oj33g31723489323.jpg"^^xsd:anyURI ;
+    schema:memberOf "Racing Club"^^xsd:string ;
+    schema:name "Tomás Conechny"^^xsd:string ;
+    schema:nationality "Argentina"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

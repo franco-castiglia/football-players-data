@@ -1,0 +1,62 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Paul_Onuachu a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q15729123> ;
+    foaf:account "www.instagram.com/paulebere/?hl=en"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/ey71ai1758111151.png"^^xsd:anyURI ;
+    foaf:name "Paul Onuachu"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 19 ;
+    stats:blocks 7 ;
+    stats:carries 214 ;
+    stats:clearances 16 ;
+    stats:dispossessed 36 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 3.6 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 8 ;
+    stats:matches90s 11.7 ;
+    stats:matchesPlayed 25 ;
+    stats:matchesStarted 11 ;
+    stats:minutesPlayed 1050 ;
+    stats:miscontrols 50 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 7 ;
+    stats:progressivePasses 13 ;
+    stats:progressivePassesReceived 40 ;
+    stats:rank 1977 ;
+    stats:redCards 0 ;
+    stats:tackles 7 ;
+    stats:tacklesWon 2 ;
+    stats:touches 440 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1994-05-28"^^xsd:date ;
+    schema:description """Ebere Paul Onuachu MON listenⓘ (born 28 May 1994) is a Nigerian professional footballer who plays as a striker for Süper Lig club Trabzonspor and the Nigeria national team.\r
+\r
+Onuachu has won League titles in Denmark and Belgium, and while in the latter country was voted Belgian Footballer of the Year and won the country's top scoring Golden Bull trophy.\r
+\r
+Onuachu was called up to the Nigeria under-23 national team in February 2015. In March 2019 he received his first call-up to the Nigerian senior team.\r
+\r
+On 26 March 2019, Onuachu scored his first goal for Nigeria in a friendly match against Egypt. The goal was scored within the first ten seconds of the game, and the fastest ever scored for Nigeria. Following the goal Onuachu was heralded as the "toast of Nigerian football", with "his coach, team-mates, journalists and fans talking about him". He was selected to the Nigeria squad for the 2019 Africa Cup of Nations. He played in Nigeria's 1–0 win over Burundi, as the Super Eagles reached the semi-finals, losing 2–1 to Algeria in the last four, then beating Tunisia 1–0 in the bronze-medal match.\r
+\r
+On 12 January 2024, he was called up to the Nigerian squad for the 2023 Africa Cup of Nations in Ivory Coast, replacing injured Umar Sadiq."""@en ;
+    schema:height "201 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ximh8x1678182642.jpg"^^xsd:anyURI ;
+    schema:memberOf "Trabzonspor"^^xsd:string ;
+    schema:name "Paul Onuachu"^^xsd:string ;
+    schema:nationality "Nigeria"^^xsd:string ;
+    schema:weight "214 lbs"^^xsd:string .
+

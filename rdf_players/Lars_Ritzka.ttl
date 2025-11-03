@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Lars_Ritzka a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q98556469> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/k1i8pg1742071244.png"^^xsd:anyURI ;
+    foaf:name "Lars Ritzka"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 35 ;
+    stats:blocks 16 ;
+    stats:carries 161 ;
+    stats:clearances 41 ;
+    stats:dispossessed 4 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 11 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 10.2 ;
+    stats:matchesPlayed 21 ;
+    stats:matchesStarted 11 ;
+    stats:minutesPlayed 922 ;
+    stats:miscontrols 6 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 8 ;
+    stats:progressivePasses 21 ;
+    stats:progressivePassesReceived 34 ;
+    stats:rank 2220 ;
+    stats:redCards 0 ;
+    stats:tackles 49 ;
+    stats:tacklesWon 29 ;
+    stats:touches 567 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1998-05-07"^^xsd:date ;
+    schema:description "Lars Ritzka (born 7 May 1998) is a German professional footballer who plays as a left-back for Bundesliga club FC St. Pauli.["@en ;
+    schema:height "185 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/r7b5rt1741633314.jpg"^^xsd:anyURI ;
+    schema:memberOf "St Pauli"^^xsd:string ;
+    schema:name "Lars Ritzka"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

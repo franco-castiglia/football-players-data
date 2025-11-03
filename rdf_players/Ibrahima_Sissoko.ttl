@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ibrahima_Sissoko a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q27662863> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/j5ag741741881149.png"^^xsd:anyURI ;
+    foaf:name "Ibrahima Sissoko"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 154 ;
+    stats:blocks 39 ;
+    stats:carries 691 ;
+    stats:clearances 61 ;
+    stats:dispossessed 32 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.6 ;
+    stats:expectedGoals 1.7 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 36 ;
+    stats:keyPasses 27 ;
+    stats:matches90s 29.0 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 30 ;
+    stats:minutesPlayed 2610 ;
+    stats:miscontrols 40 ;
+    stats:passesIntoPenaltyArea 16 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 35 ;
+    stats:progressivePasses 105 ;
+    stats:progressivePassesReceived 69 ;
+    stats:rank 2440 ;
+    stats:redCards 1 ;
+    stats:tackles 66 ;
+    stats:tacklesWon 44 ;
+    stats:touches 1429 ;
+    stats:yellowCards 11 ;
+    schema:birthDate "1997-10-27"^^xsd:date ;
+    schema:description "Ibrahima Sissoko (born 27 October 1997) is a professional footballer who plays as a defensive midfielder for German Bundesliga club VfL Bochum. Born in France, he plays for the Mali national team."@en ;
+    schema:height "1.93 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ig5frr1607872381.jpg"^^xsd:anyURI ;
+    schema:memberOf "Bochum"^^xsd:string ;
+    schema:name "Ibrahima Sissoko"^^xsd:string ;
+    schema:nationality "Mali"^^xsd:string ;
+    schema:weight "196 lbs"^^xsd:string .
+

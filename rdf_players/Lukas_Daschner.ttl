@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Lukas_Daschner a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q29999471> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ropi711709993964.png"^^xsd:anyURI ;
+    foaf:name "Lukas Daschner"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 17 ;
+    stats:blocks 5 ;
+    stats:carries 116 ;
+    stats:clearances 5 ;
+    stats:dispossessed 2 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.7 ;
+    stats:expectedGoals 2.7 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 4.6 ;
+    stats:matchesPlayed 14 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 412 ;
+    stats:miscontrols 21 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:progressiveCarries 8 ;
+    stats:progressivePasses 11 ;
+    stats:progressivePassesReceived 19 ;
+    stats:rank 669 ;
+    stats:redCards 0 ;
+    stats:tackles 4 ;
+    stats:tacklesWon 2 ;
+    stats:touches 213 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1998-10-01"^^xsd:date ;
+    schema:description """Lukas Stephan Horst Daschner (born 1 October 1998) is a German professional footballer who plays as an attacking midfielder or forward for Swiss Super League club St. Gallen on loan from VfL Bochum.\r
+\r
+Daschner signed his first professional contract with MSV Duisburg in April 2017. He made his 3. Liga debut for the club on 20 May against FSV Zwickau. On 17 August 2019, he extended his contract until 2021. In the 2019–20 season he scored 11 goals and made 5 assists in 34 3. Liga matches.\r
+\r
+In August 2020, Daschner joined 2. Bundesliga side FC St. Pauli having agreed a contract until 2023. The transfer fee paid to MSV Duisburg was undisclosed."""@en ;
+    schema:height "185 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/24f9hg1668791383.jpg"^^xsd:anyURI ;
+    schema:memberOf "St. Gallen"^^xsd:string ;
+    schema:name "Lukas Daschner"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

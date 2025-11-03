@@ -1,0 +1,75 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Alberto_Paleari a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q20895984> ;
+    foaf:account "http://instagram.com/albipale"^^xsd:anyURI,
+        "http://twitter.com/albipale92"^^xsd:anyURI,
+        "http://www.facebook.com/PaleariAlberto"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/9shadg1758814075.png"^^xsd:anyURI ;
+    foaf:name "Alberto Paleari"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 2 ;
+    stats:blocks 0 ;
+    stats:carries 23 ;
+    stats:clearances 2 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 1.0 ;
+    stats:matchesPlayed 1 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 90 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 2028 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 37 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1992-08-29"^^xsd:date ;
+    schema:description """Alberto Andrea Paleari (born 29 August 1992) is an Italian professional footballer who plays as a goalkeeper for Torino.\r
+\r
+Club career\r
+Early career\r
+Born in Giussano, Lombardy, Paleari started his career at hometown club Seregno. In June 2008 he signed for Serie A club a.C. Milan. He was the starting keeper of Primavera under-20 team from 2008–09 to 2010–11 season. In 2010, he was second graded in the Italian championship losing the last match with Atalanta team. In 2011, he reached the first team, coached by Massimiliano Allegri, with number 61.\r
+\r
+In the lower leagues\r
+In August 2011 Paleari signed for Serie D club Pontisola. In the 2011–12 season he played 37 matches for Pontisola, which placed second in its round.\r
+\r
+In summer 2012, he left for Lega Pro club Tritium.\r
+\r
+Next he joined Virtus Verona. He played 34 matches and won the award for "Best Goalkeeper of the year", announced by the three most important national sports daily newspapers.\r
+\r
+In July 2014 he moved to Mantova, where he collected two matches in Coppa Italia and one in his round.\r
+\r
+Genoa\r
+On 2 October 2020, he joined Serie A club Genoa on loan with an obligation to buy.\r
+\r
+International career\r
+Paleari was part of Italy squad at 2013 and 2015 Summer Universiade. In 2013, he played with no. 22 and in 2015 with no. 1. In the 2015 edition, Paleari and his teammates won the gold medal against South of Korea."""@en ;
+    schema:height "1.92 m (6 ft 4 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/0e6zpz1610352665.jpg"^^xsd:anyURI ;
+    schema:memberOf "Torino"^^xsd:string ;
+    schema:name "Alberto Paleari"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "192 lbs"^^xsd:string .
+

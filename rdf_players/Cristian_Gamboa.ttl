@@ -1,0 +1,73 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Cristian_Gamboa a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q577471> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/6bktqy1674562206.png"^^xsd:anyURI ;
+    foaf:name "Cristian Gamboa"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 11 ;
+    stats:blocks 2 ;
+    stats:carries 84 ;
+    stats:clearances 8 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 2.5 ;
+    stats:matchesPlayed 12 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 226 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 5 ;
+    stats:progressivePassesReceived 9 ;
+    stats:rank 962 ;
+    stats:redCards 0 ;
+    stats:tackles 8 ;
+    stats:tacklesWon 3 ;
+    stats:touches 154 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1989-10-24"^^xsd:date ;
+    schema:description """Cristian Esteban Gamboa Luna (born 24 October 1989), commonly known as Cristian Gamboa, is a Costa Rican footballer who plays for VfL Bochum.\r
+\r
+Gamboa is an international player for Costa Rica and played in the team at the 2014 FIFA World Cup that reached the quarter-finals.\r
+\r
+Club career\r
+When 15 years of age, Gamboa was deemed not good enough to play for Costa Rican giants Saprissa and Alajuelense. He played from the 2006–2007 season for hometown club Municipal Liberia. He then moved abroad and joined Norwegian side Fredrikstad in summer 2010 and played there for two half seasons, before he joined Copenhagen in summer 2011. He made his debut in a 0–1 loss against Standard Liege in the UEFA Europa League.\r
+\r
+Gamboa joined Rosenborg on a three-month-loan deal in August 2012 with the Norwegian club having an option to buy. He made his debut on 3 September 2012 in a Tippeligaen match away at Stabæk, winning 2–0. By November he had impressed sufficiently in the ten games he played in for Rosenborg for them to offer him a permanent deal, and he signed five-year contract with the club.\r
+\r
+In late July 2014, English Premier League club West Bromwich Albion agreed to sign Gamboa for a fee estimated in the media as around £2 million. Because the player had insufficient recent international appearances for a work permit to be granted automatically, completion of the deal was dependent on a successful appeal to the Football Association, which was confirmed on 5 August. The player signed a three-year contract.\r
+\r
+He made his debut on 26 August 2014, coming on as a second-half substitute in a League cup tie against Oxford United. He made his League debut a few days later against Swansea City, after which further substitute appearances followed. Gamboa finally made a starting appearance on 4 October in a 2–1 loss away at Liverpool in the league. Despite the defeat, he was reported as having turned in an impressive performance. It was however to be Gamboa's only league start that season, and he fell further out of favour when manager Alan Irvine was sacked in December and replaced by Tony Pulis. From January 2015 onwards to the end of the season, Gamboa only played one minute of first team football, coming on as an injury-time substitute in a fifth round FA Cup tie against West Ham in February 2015.\r
+\r
+Gamboa continued to struggle to hold down a first team place in his second season in England, playing only two games early on in the season. He then went five months without a first team appearance, before making a return to the side in February 2016 in an FA Cup fourth round replay tie against Peterborough United.\r
+\r
+On 30 August 2016, Gamboa signed for Scottish Premiership club Celtic on a three-year deal.\r
+\r
+International career\r
+He participated in the 2009 FIFA U-20 World Cup for Costa Rica where they finished in fourth place. He has represented Costa Rica in other international games.\r
+\r
+He made his debut for the Costa Rica national football team in January 2010, in a friendly match against Argentina. Gamboa scored his first goal in a 7–0 home win against Guyana in a 2014 World Cup qualifier. He was selected for the Costa Rica squad that took part at the 2014 FIFA World Cup, and played in all five games, reaching the quarter final where they eventually knocked out on penalty kicks by the Netherlands."""@en ;
+    schema:height "1.73 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/rgd53o1513015794.jpg"^^xsd:anyURI ;
+    schema:memberOf "Bochum"^^xsd:string ;
+    schema:name "Cristian Gamboa"^^xsd:string ;
+    schema:nationality "Costa Rica"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

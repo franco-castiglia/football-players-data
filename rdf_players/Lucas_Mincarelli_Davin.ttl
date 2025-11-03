@@ -1,0 +1,49 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Lucas_Mincarelli_Davin a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q121422644> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/dhsapz1702305644.png"^^xsd:anyURI ;
+    foaf:name "Lucas Mincarelli Davin"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 25 ;
+    stats:blocks 8 ;
+    stats:carries 255 ;
+    stats:clearances 27 ;
+    stats:dispossessed 2 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 0.6 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 9 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 7.9 ;
+    stats:matchesPlayed 10 ;
+    stats:matchesStarted 8 ;
+    stats:minutesPlayed 715 ;
+    stats:miscontrols 5 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 15 ;
+    stats:progressivePasses 25 ;
+    stats:progressivePassesReceived 16 ;
+    stats:rank 1753 ;
+    stats:redCards 0 ;
+    stats:tackles 17 ;
+    stats:tacklesWon 10 ;
+    stats:touches 462 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2004-06-24"^^xsd:date ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/5xu0zt1702305613.jpg"^^xsd:anyURI ;
+    schema:memberOf "Montpellier"^^xsd:string ;
+    schema:name "Lucas Mincarelli Davin"^^xsd:string ;
+    schema:nationality "France"^^xsd:string .
+

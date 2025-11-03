@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Guillermo_Maripan a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5616198> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/cipk5p1758813193.png"^^xsd:anyURI ;
+    foaf:name "Guillermo Maripán"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 90 ;
+    stats:blocks 27 ;
+    stats:carries 962 ;
+    stats:clearances 138 ;
+    stats:dispossessed 5 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.0 ;
+    stats:expectedGoals 0.9 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 41 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 26.0 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 27 ;
+    stats:minutesPlayed 2340 ;
+    stats:miscontrols 19 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 14 ;
+    stats:progressivePasses 96 ;
+    stats:progressivePassesReceived 9 ;
+    stats:rank 1629 ;
+    stats:redCards 1 ;
+    stats:tackles 40 ;
+    stats:tacklesWon 23 ;
+    stats:touches 1636 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1994-05-06"^^xsd:date ;
+    schema:description "Guillermo Alfonso Maripán Loaysa (born 6 May 1994) is a Chilean footballer who plays as central defender for Monaco in Ligue 1."@en ;
+    schema:height "1.93 m (6 ft 4 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/bcpku11715640982.jpg"^^xsd:anyURI ;
+    schema:memberOf "Torino"^^xsd:string ;
+    schema:name "Guillermo Maripán"^^xsd:string ;
+    schema:nationality "Chile"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

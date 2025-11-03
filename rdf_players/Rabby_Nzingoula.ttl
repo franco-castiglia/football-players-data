@@ -1,0 +1,52 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Rabby_Nzingoula a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q124902174> ;
+    foaf:name "Rabby Nzingoula"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 99 ;
+    stats:blocks 27 ;
+    stats:carries 454 ;
+    stats:clearances 23 ;
+    stats:dispossessed 23 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.6 ;
+    stats:expectedGoals 1.0 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 29 ;
+    stats:keyPasses 8 ;
+    stats:matches90s 18.8 ;
+    stats:matchesPlayed 27 ;
+    stats:matchesStarted 20 ;
+    stats:minutesPlayed 1689 ;
+    stats:miscontrols 33 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 25 ;
+    stats:progressivePasses 40 ;
+    stats:progressivePassesReceived 38 ;
+    stats:rank 1930 ;
+    stats:redCards 0 ;
+    stats:tackles 64 ;
+    stats:tacklesWon 42 ;
+    stats:touches 850 ;
+    stats:yellowCards 11 ;
+    schema:birthDate "2005-11-25"^^xsd:date ;
+    schema:description "Rabby Nzingoula (born 25 November 2005) is a French professional footballer who plays as a midfielder for Ligue 1 club Strasbourg."@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:memberOf "Strasbourg"^^xsd:string ;
+    schema:name "Rabby Nzingoula"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

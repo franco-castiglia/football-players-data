@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Issa_Kabore a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q67175861> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/k5486r1761150449.png"^^xsd:anyURI ;
+    foaf:name "Issa Kaboré"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 20 ;
+    stats:blocks 8 ;
+    stats:carries 128 ;
+    stats:clearances 7 ;
+    stats:dispossessed 2 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.8 ;
+    stats:expectedGoals 0.7 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 3.4 ;
+    stats:matchesPlayed 9 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 308 ;
+    stats:miscontrols 9 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 15 ;
+    stats:progressivePasses 8 ;
+    stats:progressivePassesReceived 35 ;
+    stats:rank 1300 ;
+    stats:redCards 0 ;
+    stats:tackles 8 ;
+    stats:tacklesWon 4 ;
+    stats:touches 253 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2001-05-12"^^xsd:date ;
+    schema:description "Issa Kaboré is a Burkinabé professional footballer who plays as a right-back or right wing-back for EFL Championship club Wrexham, on loan from Premier League club Manchester City, and the Burkina Faso national team."@en ;
+    schema:height "180 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/dvzvzl1631966178.jpg"^^xsd:anyURI ;
+    schema:memberOf "Wrexham"^^xsd:string ;
+    schema:name "Issa Kaboré"^^xsd:string ;
+    schema:nationality "Burkina Faso"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

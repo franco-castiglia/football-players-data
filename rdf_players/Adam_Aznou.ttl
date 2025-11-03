@@ -1,0 +1,74 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Adam_Aznou a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q117288501> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/4ydqac1756976572.png"^^xsd:anyURI ;
+    foaf:name "Adam Aznou"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 56 ;
+    stats:blocks 24 ;
+    stats:carries 219 ;
+    stats:clearances 30 ;
+    stats:dispossessed 12 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 10 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 9.7 ;
+    stats:matchesPlayed 13 ;
+    stats:matchesStarted 10 ;
+    stats:minutesPlayed 876 ;
+    stats:miscontrols 28 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 16 ;
+    stats:progressivePasses 25 ;
+    stats:progressivePassesReceived 26 ;
+    stats:rank 189 ;
+    stats:redCards 0 ;
+    stats:tackles 28 ;
+    stats:tacklesWon 21 ;
+    stats:touches 508 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2006-06-02"^^xsd:date ;
+    schema:description """Adam Aznou Ben Cheikh (Arabic: أدم أزنو بن الشيخ; born 2 June 2006) is a professional footballer who plays as a left-back for Premier League club Everton. Born in Spain, he plays for the Morocco national team.\r
+\r
+Early life\r
+Aznou was born in Barcelona, Spain to Moroccan parents.\r
+\r
+Club career\r
+Early career\r
+Aznou started his career with Damm, before moving to Barcelona's La Masia academy in 2019.\r
+\r
+Bayern Munich\r
+On the summer of 2022, having reportedly rejected a number of clubs across Europe, Aznou signed with German side Bayern Munich. In March 2023, he trained with the Bayern Munich senior squad for the first time.\r
+\r
+Aznou received his first call-up with the Bayern Munich senior team on 27 January 2024, featuring on the bench as an unused substitute for a Bundesliga 3–2 away win match against FC Augsburg.\r
+\r
+On 19 February 2024, he made his professional debut for Bayern Munich II on a 1–0 home loss Regionalliga Bayern match against Greuther Fürth II, starting the game. Later that year, on 15 May, he signed his first professional contract with Bayern Munich until 2027.\r
+\r
+On 2 November 2024, Aznou made his senior debut for Bayern Munich, substituting Alphonso Davies, in a 3–0 Bundesliga home win over Union Berlin.\r
+\r
+Aznou made his UEFA Champions League debut with Bayern Munich during their sixth league phase game on 10 December 2024, at a 5–1 away win against Shakhtar Donetsk, substituting Konrad Laimer.\r
+\r
+Loan to Valladolid\r
+On 3 February 2025, Aznou was loaned to Spanish La Liga side Valladolid for the remainder of the 2024–25 season."""@en ;
+    schema:height "1.78 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ri34fc1756976649.jpg"^^xsd:anyURI ;
+    schema:memberOf "Everton"^^xsd:string ;
+    schema:name "Adam Aznou"^^xsd:string ;
+    schema:nationality "Morocco"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

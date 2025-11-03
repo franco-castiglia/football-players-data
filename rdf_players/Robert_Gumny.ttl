@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Robert_Gumny a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q24452152> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/v1aqkn1742055630.png"^^xsd:anyURI ;
+    foaf:name "Robert Gumny"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 11 ;
+    stats:blocks 2 ;
+    stats:carries 87 ;
+    stats:clearances 6 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 3.0 ;
+    stats:matchesPlayed 7 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 271 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 5 ;
+    stats:progressivePasses 10 ;
+    stats:progressivePassesReceived 13 ;
+    stats:rank 1099 ;
+    stats:redCards 0 ;
+    stats:tackles 3 ;
+    stats:tacklesWon 3 ;
+    stats:touches 170 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1998-06-04"^^xsd:date ;
+    schema:description """Robert Gumny (born 4 June 1998) is a Polish professional footballer who plays as a defender for FC Augsburg.\r
+\r
+Career\r
+In September 2020, Gumny joined Bundesliga club FC Augsburg on a five-year contract. The transfer fee paid to Lech Poznań was reported as €2 million plus possible bonuses."""@en ;
+    schema:height "1.78 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/bnch3z1610106561.jpg"^^xsd:anyURI ;
+    schema:memberOf "FC Augsburg"^^xsd:string ;
+    schema:name "Robert Gumny"^^xsd:string ;
+    schema:nationality "Poland"^^xsd:string ;
+    schema:weight "157 lbs"^^xsd:string .
+

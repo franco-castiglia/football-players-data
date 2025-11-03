@@ -1,0 +1,51 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:David_Torres a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q115209745> ;
+    foaf:name "David Torres"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 27 ;
+    stats:blocks 19 ;
+    stats:carries 451 ;
+    stats:clearances 74 ;
+    stats:dispossessed 3 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 10 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 15.4 ;
+    stats:matchesPlayed 18 ;
+    stats:matchesStarted 15 ;
+    stats:minutesPlayed 1387 ;
+    stats:miscontrols 2 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 11 ;
+    stats:progressivePasses 37 ;
+    stats:progressivePassesReceived 3 ;
+    stats:rank 2612 ;
+    stats:redCards 0 ;
+    stats:tackles 13 ;
+    stats:tacklesWon 8 ;
+    stats:touches 846 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "2003-03-05"^^xsd:date ;
+    schema:description "David Torres Ortiz (born 5 March 2003) is a Spanish footballer who plays as a central defender for Real Valladolid in La Liga."@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:memberOf "Valladolid"^^xsd:string ;
+    schema:name "David Torres"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

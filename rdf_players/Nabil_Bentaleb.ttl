@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Nabil_Bentaleb a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q15410320> ;
+    foaf:account "twitter.com/nabilbentaleb42"^^xsd:anyURI,
+        "www.instagram.com/nabilbentaleb"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/lr6jc01702308105.png"^^xsd:anyURI ;
+    foaf:name "Nabil Bentaleb"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 20 ;
+    stats:blocks 5 ;
+    stats:carries 130 ;
+    stats:clearances 7 ;
+    stats:dispossessed 4 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.7 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 3.7 ;
+    stats:matchesPlayed 10 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 329 ;
+    stats:miscontrols 2 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 23 ;
+    stats:progressivePassesReceived 5 ;
+    stats:rank 303 ;
+    stats:redCards 0 ;
+    stats:tackles 4 ;
+    stats:tacklesWon 3 ;
+    stats:touches 277 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1994-11-24"^^xsd:date ;
+    schema:description """Nabil Bentaleb (Arabic: نبيل بن طالب; born 24 November 1994) is a professional footballer who plays as a central midfielder for Ligue 1 club Lille. Born in France, he plays for the Algeria national team.\r
+\r
+Bentaleb made his senior international debut in March 2014 and has represented Algeria at the 2014 FIFA World Cup and the 2015 and 2017 Africa Cup of Nations."""@en ;
+    schema:height "1.87 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/kluyu41578151803.jpg"^^xsd:anyURI ;
+    schema:memberOf "Lille"^^xsd:string ;
+    schema:name "Nabil Bentaleb"^^xsd:string ;
+    schema:nationality "Algeria"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

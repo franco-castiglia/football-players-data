@@ -1,0 +1,50 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mahamadou_Nagida a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q123594157> ;
+    foaf:name "Mahamadou Nagida"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 37 ;
+    stats:blocks 3 ;
+    stats:carries 169 ;
+    stats:clearances 6 ;
+    stats:dispossessed 7 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 1.5 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 9 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 4.8 ;
+    stats:matchesPlayed 12 ;
+    stats:matchesStarted 4 ;
+    stats:minutesPlayed 430 ;
+    stats:miscontrols 10 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 22 ;
+    stats:progressivePasses 15 ;
+    stats:progressivePassesReceived 55 ;
+    stats:rank 1853 ;
+    stats:redCards 0 ;
+    stats:tackles 8 ;
+    stats:tacklesWon 6 ;
+    stats:touches 289 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2005-06-28"^^xsd:date ;
+    schema:height "5' 9\""^^xsd:string ;
+    schema:memberOf "Rennes"^^xsd:string ;
+    schema:name "Mahamadou Nagida"^^xsd:string ;
+    schema:nationality "Cameroon"^^xsd:string ;
+    schema:weight "139 lbs"^^xsd:string .
+

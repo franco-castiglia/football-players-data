@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Florian_Neuhaus a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q27651401> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/aughv51756313776.png"^^xsd:anyURI ;
+    foaf:name "Florian Neuhaus"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 24 ;
+    stats:blocks 9 ;
+    stats:carries 159 ;
+    stats:clearances 5 ;
+    stats:dispossessed 1 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 0.6 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 4.2 ;
+    stats:matchesPlayed 18 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 382 ;
+    stats:miscontrols 9 ;
+    stats:passesIntoPenaltyArea 7 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 10 ;
+    stats:progressivePasses 27 ;
+    stats:progressivePassesReceived 8 ;
+    stats:rank 1887 ;
+    stats:redCards 0 ;
+    stats:tackles 10 ;
+    stats:tacklesWon 3 ;
+    stats:touches 292 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1997-03-16"^^xsd:date ;
+    schema:description """Florian Christian Neuhaus (born 16 March 1997) is a German footballer who plays as a midfielder for Borussia Mönchengladbach.\r
+\r
+Whilst loan at Fortuna Dusseldorf for the 2017/18 season he played a key role in helping them gain promotion to the Bundesliga."""@en ;
+    schema:height "1.82 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/jo6yvv1578119280.jpg"^^xsd:anyURI ;
+    schema:memberOf "Borussia Mönchengladbach"^^xsd:string ;
+    schema:name "Florian Neuhaus"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

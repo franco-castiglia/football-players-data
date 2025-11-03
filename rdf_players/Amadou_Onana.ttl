@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Amadou_Onana a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q99328435> ;
+    foaf:account "www.instagram.com/its_onana/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/q2bvps1725359471.png"^^xsd:anyURI ;
+    foaf:name "Amadou Onana"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 72 ;
+    stats:blocks 16 ;
+    stats:carries 553 ;
+    stats:clearances 41 ;
+    stats:dispossessed 9 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 0.7 ;
+    stats:expectedGoals 2.1 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 26 ;
+    stats:keyPasses 10 ;
+    stats:matches90s 18.0 ;
+    stats:matchesPlayed 26 ;
+    stats:matchesStarted 20 ;
+    stats:minutesPlayed 1617 ;
+    stats:miscontrols 11 ;
+    stats:passesIntoPenaltyArea 12 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:progressiveCarries 29 ;
+    stats:progressivePasses 75 ;
+    stats:progressivePassesReceived 16 ;
+    stats:rank 1972 ;
+    stats:redCards 0 ;
+    stats:tackles 55 ;
+    stats:tacklesWon 30 ;
+    stats:touches 998 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2001-08-16"^^xsd:date ;
+    schema:description "Amadou Ba Zeund Georges Mvom Onana (born 16 August 2001) is a professional footballer who plays as a defensive midfielder for Premier League club Aston Villa. Born in Senegal, he plays for the Belgium national team."@en ;
+    schema:height "1.92 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/bijuo91634817657.jpg"^^xsd:anyURI ;
+    schema:memberOf "Aston Villa"^^xsd:string ;
+    schema:name "Amadou Onana"^^xsd:string ;
+    schema:nationality "Belgium"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Dante a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q80761> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/cspibo1700558484.png"^^xsd:anyURI ;
+    foaf:name "Dante"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 112 ;
+    stats:blocks 29 ;
+    stats:carries 949 ;
+    stats:clearances 74 ;
+    stats:dispossessed 5 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.5 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 34 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 21.8 ;
+    stats:matchesPlayed 25 ;
+    stats:matchesStarted 21 ;
+    stats:minutesPlayed 1964 ;
+    stats:miscontrols 16 ;
+    stats:passesIntoPenaltyArea 8 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 18 ;
+    stats:progressivePasses 96 ;
+    stats:progressivePassesReceived 8 ;
+    stats:rank 663 ;
+    stats:redCards 1 ;
+    stats:tackles 32 ;
+    stats:tacklesWon 15 ;
+    stats:touches 1651 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1983-10-18"^^xsd:date ;
+    schema:description """Dante Bonfim Costa Santos (born 18 October 1983), commonly known as Dante is a Brazilian professional footballer who plays for French Ligue 1 club Nice. Primarily a central defender, he has previously also been used as a defensive midfielder or a left back.\r
+\r
+Produced at Juventude, he went on to join Lille, Charleroi and Standard Liège, winning the Belgian Pro League with the latter. In January 2009, he was signed by Borussia Mönchengladbach, spending two-and-a-half seasons before making a €4.7 million move to Bayern Munich, where he won nine domestic and international honours.\r
+\r
+Dante made his international debut for Brazil in 2013, winning that year's Confederations Cup and representing the nation at the 2014 FIFA World Cup."""@en ;
+    schema:height "1.85"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/66rbf11499625698.jpg"^^xsd:anyURI ;
+    schema:memberOf "Nice"^^xsd:string ;
+    schema:name "Dante"^^xsd:string ;
+    schema:nationality "Brazil"^^xsd:string ;
+    schema:weight "192 lbs"^^xsd:string .
+

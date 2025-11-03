@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Francis_Coquelin a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q180193> ;
+    foaf:account "twitter.com/franciscoquelin"^^xsd:anyURI,
+        "www.facebook.com/FrancisCoquelinOfficial/"^^xsd:anyURI,
+        "www.instagram.com/fcoquelin_official/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/eeykpd1603550778.png"^^xsd:anyURI ;
+    foaf:name "Francis Coquelin"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 8 ;
+    stats:blocks 3 ;
+    stats:carries 62 ;
+    stats:clearances 3 ;
+    stats:dispossessed 2 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.1 ;
+    stats:expectedGoals 1.0 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 2.5 ;
+    stats:matchesPlayed 6 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 224 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defensive Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 3 ;
+    stats:progressivePasses 8 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 598 ;
+    stats:redCards 0 ;
+    stats:tackles 9 ;
+    stats:tacklesWon 5 ;
+    stats:touches 128 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1991-05-13"^^xsd:date ;
+    schema:description "Francis Joseph Coquelin (born 13 May 1991) is a French professional footballer who plays as a defensive midfielder for Ligue 1 club Nantes. He has also featured for Valencia, Arsenal, Lorient, SC Freiburg, Charlton Athletic and Villarreal in his career."@en ;
+    schema:height "1.77 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/40yrdt1534326329.jpg"^^xsd:anyURI ;
+    schema:memberOf "Nantes"^^xsd:string ;
+    schema:name "Francis Coquelin"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "74 kg (163 lb)"^^xsd:string .
+

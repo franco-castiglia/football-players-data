@@ -1,0 +1,50 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ramon_Martinez a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q132485549> ;
+    foaf:name "Ramón Martínez"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 5 ;
+    stats:blocks 2 ;
+    stats:carries 85 ;
+    stats:clearances 23 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 2.9 ;
+    stats:matchesPlayed 5 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 261 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 5 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 1654 ;
+    stats:redCards 0 ;
+    stats:tackles 6 ;
+    stats:tacklesWon 3 ;
+    stats:touches 167 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2002-10-22"^^xsd:date ;
+    schema:description "Ramón Martínez Gil (born 22 October 2002) is a Spanish professional footballer who plays as a centre-back for Sevilla Atlético."@en ;
+    schema:height "185 cm"^^xsd:string ;
+    schema:memberOf "Sevilla Atletico"^^xsd:string ;
+    schema:name "Ramón Martínez"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "71 kg"^^xsd:string .
+

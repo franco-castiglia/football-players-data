@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jordan_Ferri a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q4014513> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/13nq9w1681315455.png"^^xsd:anyURI ;
+    foaf:name "Jordan Ferri"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 132 ;
+    stats:blocks 20 ;
+    stats:carries 802 ;
+    stats:clearances 20 ;
+    stats:dispossessed 27 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 9 ;
+    stats:keyPasses 13 ;
+    stats:matches90s 19.7 ;
+    stats:matchesPlayed 25 ;
+    stats:matchesStarted 21 ;
+    stats:minutesPlayed 1773 ;
+    stats:miscontrols 16 ;
+    stats:passesIntoPenaltyArea 11 ;
+    stats:penaltiesConceded 3 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 19 ;
+    stats:progressivePasses 137 ;
+    stats:progressivePassesReceived 42 ;
+    stats:rank 903 ;
+    stats:redCards 1 ;
+    stats:tackles 42 ;
+    stats:tacklesWon 23 ;
+    stats:touches 1433 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "1992-03-12"^^xsd:date ;
+    schema:description "Jordan Ferri (born 12 March 1992) is a French professional footballer who plays as a midfielder for Montpellier. He principally plays as a central midfielder and is known for his passing ability."@en ;
+    schema:height "1.72"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/gw6zeo1534006745.jpg"^^xsd:anyURI ;
+    schema:memberOf "Sampdoria"^^xsd:string ;
+    schema:name "Jordan Ferri"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

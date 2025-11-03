@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Adnan_Januzaj a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q14558450> ;
+    foaf:account "twitter.com/adnanjanuzaj"^^xsd:anyURI,
+        "www.facebook.com/AdnanJanuzaj/"^^xsd:anyURI,
+        "www.instagram.com/adnanjanuzaj/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/m41bst1727900471.png"^^xsd:anyURI ;
+    foaf:name "Adnan Januzaj"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 30 ;
+    stats:blocks 6 ;
+    stats:carries 262 ;
+    stats:clearances 3 ;
+    stats:dispossessed 9 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.1 ;
+    stats:expectedGoals 0.8 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 17 ;
+    stats:matches90s 6.6 ;
+    stats:matchesPlayed 18 ;
+    stats:matchesStarted 5 ;
+    stats:minutesPlayed 598 ;
+    stats:miscontrols 31 ;
+    stats:passesIntoPenaltyArea 14 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:progressiveCarries 24 ;
+    stats:progressivePasses 41 ;
+    stats:progressivePassesReceived 58 ;
+    stats:rank 1244 ;
+    stats:redCards 0 ;
+    stats:tackles 10 ;
+    stats:tacklesWon 6 ;
+    stats:touches 459 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1995-02-05"^^xsd:date ;
+    schema:description """Adnan Januzaj (born 5 February 1995) is a Belgian professional footballer who plays as a winger for La Liga club Las Palmas, on loan from Sevilla, and the Belgium national team.\r
+\r
+Born and raised in Brussels, he began his career with Anderlecht before joining Manchester United in 2011 at the age of 16. Januzaj broke into the Manchester United first-team under manager David Moyes during the 2013–14 season, but struggled for opportunities under Moyes' successors Louis van Gaal and José Mourinho, and had loan spells at Borussia Dortmund and Sunderland before joining Real Sociedad in July 2017.\r
+\r
+Januzaj made his full international debut in 2014 and later that year played for Belgium at the FIFA World Cup in 2014 and 2018, reaching the semi-finals of the latter tournament."""@en ;
+    schema:height "1.86 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/6e06jl1669058873.jpg"^^xsd:anyURI ;
+    schema:memberOf "Las Palmas"^^xsd:string ;
+    schema:name "Adnan Januzaj"^^xsd:string ;
+    schema:nationality "Belgium"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

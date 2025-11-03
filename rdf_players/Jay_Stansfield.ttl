@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jay_Stansfield a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q81053047> ;
+    foaf:account "mobile.twitter.com/jaystansfield1"^^xsd:anyURI,
+        "www.instagram.com/jaystansfield__/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/i5vsoc1724785514.png"^^xsd:anyURI ;
+    foaf:name "Jay Stansfield"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 0 ;
+    stats:blocks 0 ;
+    stats:carries 0 ;
+    stats:clearances 0 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.0 ;
+    stats:matchesPlayed 1 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 1 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 2494 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 0 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2002-11-24"^^xsd:date ;
+    schema:description "Jay Stansfield (born 24 November 2002) is an English professional footballer who plays as a forward for EFL League One club Birmingham City. He began his football career with Exeter City, joined Fulham as a 16-year-old, and spent the 2022–23 season on loan at Exeter City. He has represented England at under-18, under-20 and under-21 levels."@en ;
+    schema:height "187 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ai2ffx1661085755.jpg"^^xsd:anyURI ;
+    schema:memberOf "Birmingham"^^xsd:string ;
+    schema:name "Jay Stansfield"^^xsd:string ;
+    schema:nationality "England"^^xsd:string .
+

@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Antoine_Makoumbou a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q104579527> ;
+    foaf:account "www.instagram.com/makoums/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/cdjjyw1697923799.png"^^xsd:anyURI ;
+    foaf:name "Antoine Makoumbou"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 109 ;
+    stats:blocks 26 ;
+    stats:carries 818 ;
+    stats:clearances 28 ;
+    stats:dispossessed 24 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 17 ;
+    stats:keyPasses 8 ;
+    stats:matches90s 23.9 ;
+    stats:matchesPlayed 33 ;
+    stats:matchesStarted 27 ;
+    stats:minutesPlayed 2150 ;
+    stats:miscontrols 17 ;
+    stats:passesIntoPenaltyArea 14 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 11 ;
+    stats:progressivePasses 92 ;
+    stats:progressivePassesReceived 14 ;
+    stats:rank 1581 ;
+    stats:redCards 1 ;
+    stats:tackles 42 ;
+    stats:tacklesWon 23 ;
+    stats:touches 1367 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1998-07-18"^^xsd:date ;
+    schema:description "Antoine Makoumbou (born 18 July 1998) is a professional footballer who plays as a midfielder for Serie A club Cagliari. Born in France, he plays for the Congo national team."@en ;
+    schema:height "183 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ne5fz21697450339.jpg"^^xsd:anyURI ;
+    schema:memberOf "Samsunspor"^^xsd:string ;
+    schema:name "Antoine Makoumbou"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

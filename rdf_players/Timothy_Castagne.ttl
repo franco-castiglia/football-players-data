@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Timothy_Castagne a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18041089> ;
+    foaf:account "www.instagram.com/timothycastagne/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/uc84ft1757070324.png"^^xsd:anyURI ;
+    foaf:name "Timothy Castagne"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 57 ;
+    stats:blocks 15 ;
+    stats:carries 547 ;
+    stats:clearances 83 ;
+    stats:dispossessed 5 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.2 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 22 ;
+    stats:keyPasses 9 ;
+    stats:matches90s 18.3 ;
+    stats:matchesPlayed 24 ;
+    stats:matchesStarted 17 ;
+    stats:minutesPlayed 1649 ;
+    stats:miscontrols 15 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 17 ;
+    stats:progressivePasses 62 ;
+    stats:progressivePassesReceived 67 ;
+    stats:rank 507 ;
+    stats:redCards 0 ;
+    stats:tackles 46 ;
+    stats:tacklesWon 29 ;
+    stats:touches 1164 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1995-11-05"^^xsd:date ;
+    schema:description "Timothy Castagne (born 5 December 1995) is a Belgian professional footballer who plays as a full-back for Premier League club Fulham and the Belgium national team."@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ymfhek1546084344.jpg"^^xsd:anyURI ;
+    schema:memberOf "Fulham"^^xsd:string ;
+    schema:name "Timothy Castagne"^^xsd:string ;
+    schema:nationality "Belgium"^^xsd:string ;
+    schema:weight "80 kg (176 lb)"^^xsd:string .
+

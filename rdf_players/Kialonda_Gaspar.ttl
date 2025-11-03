@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Kialonda_Gaspar a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q109116256> ;
+    foaf:account "www.instagram.com/kialandagaspar6/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/hyn5eh1759691741.png"^^xsd:anyURI ;
+    foaf:name "Kialonda Gaspar"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 58 ;
+    stats:blocks 44 ;
+    stats:carries 572 ;
+    stats:clearances 132 ;
+    stats:dispossessed 1 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.4 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 32 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 23.8 ;
+    stats:matchesPlayed 24 ;
+    stats:matchesStarted 24 ;
+    stats:minutesPlayed 2144 ;
+    stats:miscontrols 14 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 4 ;
+    stats:progressivePasses 34 ;
+    stats:progressivePassesReceived 5 ;
+    stats:rank 1354 ;
+    stats:redCards 0 ;
+    stats:tackles 34 ;
+    stats:tacklesWon 12 ;
+    stats:touches 1229 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1997-09-27"^^xsd:date ;
+    schema:description "Esmevânio Kialonda Gaspar (born 27 September 1997), sometimes known as just Gaspar, is an Angolan footballer who plays as a centre-back for Lecce."@en ;
+    schema:height "1.93 m (6 ft 4 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/8uks2c1731099671.jpg"^^xsd:anyURI ;
+    schema:memberOf "Lecce"^^xsd:string ;
+    schema:name "Kialonda Gaspar"^^xsd:string ;
+    schema:nationality "Angola"^^xsd:string ;
+    schema:weight "196 lbs"^^xsd:string .
+

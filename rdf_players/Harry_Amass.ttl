@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Harry_Amass a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q119971486> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/lop9eb1761336329.png"^^xsd:anyURI ;
+    foaf:name "Harry Amass"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 26 ;
+    stats:blocks 11 ;
+    stats:carries 132 ;
+    stats:clearances 11 ;
+    stats:dispossessed 5 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 3.8 ;
+    stats:matchesPlayed 5 ;
+    stats:matchesStarted 4 ;
+    stats:minutesPlayed 346 ;
+    stats:miscontrols 18 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 9 ;
+    stats:progressivePasses 7 ;
+    stats:progressivePassesReceived 23 ;
+    stats:rank 109 ;
+    stats:redCards 0 ;
+    stats:tackles 6 ;
+    stats:tacklesWon 2 ;
+    stats:touches 250 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2007-03-16"^^xsd:date ;
+    schema:description "Harry John Amass (born 16 March 2007) is an English professional footballer who plays as a left-back for EFL Championship club Sheffield Wednesday, on loan from Premier League club Manchester United. He is an England youth international."@en ;
+    schema:height "5' 11\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/6xxydu1756821048.jpg"^^xsd:anyURI ;
+    schema:memberOf "Sheffield Wednesday"^^xsd:string ;
+    schema:name "Harry Amass"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "157 lbs"^^xsd:string .
+

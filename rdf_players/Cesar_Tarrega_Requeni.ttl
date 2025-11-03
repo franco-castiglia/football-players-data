@@ -1,0 +1,65 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Cesar_Tarrega_Requeni a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q110268348> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ptsdgh1701177921.png"^^xsd:anyURI ;
+    foaf:name "César Tárrega Requeni"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 104 ;
+    stats:blocks 41 ;
+    stats:carries 1134 ;
+    stats:clearances 222 ;
+    stats:dispossessed 4 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 1.9 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 22 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 33.6 ;
+    stats:matchesPlayed 34 ;
+    stats:matchesStarted 34 ;
+    stats:minutesPlayed 3026 ;
+    stats:miscontrols 16 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 2 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 20 ;
+    stats:progressivePasses 79 ;
+    stats:progressivePassesReceived 1 ;
+    stats:rank 2555 ;
+    stats:redCards 0 ;
+    stats:tackles 49 ;
+    stats:tacklesWon 37 ;
+    stats:touches 2096 ;
+    stats:yellowCards 7 ;
+    schema:birthDate "2002-02-26"^^xsd:date ;
+    schema:description """César Tárrega Requeni (born 26 February 2002) is a Spanish professional footballer who plays as a centre-back for Valencia CF Mestalla.\r
+\r
+Career\r
+Tárrega is a youth product of CD Don Bosco, Levante UD and Patacona CF, before finishing his youth training with Valencia CF who he joined in 2019. He was promoted to Valencia Mestalla for the 2021–22 season signing his first professional contract.\r
+\r
+On 2 December 2021, Tárrega made his senior and professional debut with the senior Valencia team in a 3–0 Copa del Rey win over CD Utrillas. On 24 January 2023, he extended his contract with Valencia until 2027.\r
+\r
+Tárrega started training with Valencia's senior team in the summer preseason ahead of the 2023–24 season, and made his La Liga debut as a late substitute with Valencia in a 3–0 win over Atlético de Madrid on 16 September 2023.\r
+\r
+Playing style\r
+Standing at 1.94m, Tárrega is a tall and physically imposing centre-back who is strong and forceful in the aerial game. Despite his height, he has good ball control skills and can pass well.\r
+\r
+Personal life\r
+Tárrega studies physical education at the Valencia Catholic University Saint Vincent Martyr, and speaks English and French thanks to his mother who is a schoolteacher. His great-grandfather, Vicent Olaso, founded a club called Antonio Puchades in Valencia in the 1950s."""@en ;
+    schema:height "1.94 m (6 ft 4 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/xgl6bj1701177917.jpg"^^xsd:anyURI ;
+    schema:memberOf "Valencia"^^xsd:string ;
+    schema:name "César Tárrega Requeni"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string .
+

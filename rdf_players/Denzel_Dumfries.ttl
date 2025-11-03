@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Denzel_Dumfries a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q19882816> ;
+    foaf:account "www.instagram.com/ddumfries2/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/1hd7ox1759408866.png"^^xsd:anyURI ;
+    foaf:name "Denzel Dumfries"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 65 ;
+    stats:blocks 31 ;
+    stats:carries 534 ;
+    stats:clearances 26 ;
+    stats:dispossessed 14 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 3.2 ;
+    stats:expectedGoals 5.4 ;
+    stats:goals 7 ;
+    stats:goalsNonPenalty 7 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 21 ;
+    stats:matches90s 20.7 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 19 ;
+    stats:minutesPlayed 1865 ;
+    stats:miscontrols 27 ;
+    stats:passesIntoPenaltyArea 21 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 2 ;
+    stats:position "Right Midfield"^^xsd:string ;
+    stats:progressiveCarries 55 ;
+    stats:progressivePasses 51 ;
+    stats:progressivePassesReceived 173 ;
+    stats:rank 796 ;
+    stats:redCards 0 ;
+    stats:tackles 25 ;
+    stats:tacklesWon 15 ;
+    stats:touches 1047 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1996-04-18"^^xsd:date ;
+    schema:description "Denzel Dumfries (18 April 1996) is a Dutch professional footballer who plays as a right-back for Inter in the Serie A and for the Netherlands national football team."@en ;
+    schema:height "1.89 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/7uz0v61544971521.jpg"^^xsd:anyURI ;
+    schema:memberOf "Inter Milan"^^xsd:string ;
+    schema:name "Denzel Dumfries"^^xsd:string ;
+    schema:nationality "The Netherlands"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

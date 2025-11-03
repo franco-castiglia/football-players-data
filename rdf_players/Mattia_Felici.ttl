@@ -1,0 +1,51 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mattia_Felici a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q64009899> ;
+    foaf:name "Mattia Felici"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 51 ;
+    stats:blocks 10 ;
+    stats:carries 259 ;
+    stats:clearances 7 ;
+    stats:dispossessed 10 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.0 ;
+    stats:expectedGoals 0.6 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 7 ;
+    stats:keyPasses 10 ;
+    stats:matches90s 10.3 ;
+    stats:matchesPlayed 20 ;
+    stats:matchesStarted 9 ;
+    stats:minutesPlayed 925 ;
+    stats:miscontrols 26 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacker"^^xsd:string ;
+    stats:progressiveCarries 39 ;
+    stats:progressivePasses 19 ;
+    stats:progressivePassesReceived 75 ;
+    stats:rank 882 ;
+    stats:redCards 0 ;
+    stats:tackles 17 ;
+    stats:tacklesWon 12 ;
+    stats:touches 422 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2001-04-17"^^xsd:date ;
+    schema:height "182 cm"^^xsd:string ;
+    schema:image "https://www.thesportsdb.com/images/media/player/thumb/zbened1758801014.jpg"^^xsd:anyURI ;
+    schema:memberOf "Cagliari"^^xsd:string ;
+    schema:name "Mattia Felici"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

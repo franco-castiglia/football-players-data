@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Diogo_Dalot a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q26255506> ;
+    foaf:account "http://twitter.com/DalotDiogo"^^xsd:anyURI,
+        "http://www.facebook.com/DalotDiogo/"^^xsd:anyURI,
+        "http://www.instagram.com/diogodalot"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/o9zk1a1738527724.png"^^xsd:anyURI ;
+    foaf:name "Diogo Dalot"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 167 ;
+    stats:blocks 22 ;
+    stats:carries 1126 ;
+    stats:clearances 72 ;
+    stats:dispossessed 21 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.0 ;
+    stats:expectedGoals 2.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 37 ;
+    stats:keyPasses 26 ;
+    stats:matches90s 31.3 ;
+    stats:matchesPlayed 33 ;
+    stats:matchesStarted 31 ;
+    stats:minutesPlayed 2814 ;
+    stats:miscontrols 38 ;
+    stats:passesIntoPenaltyArea 25 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 62 ;
+    stats:progressivePasses 103 ;
+    stats:progressivePassesReceived 168 ;
+    stats:rank 651 ;
+    stats:redCards 0 ;
+    stats:tackles 68 ;
+    stats:tacklesWon 40 ;
+    stats:touches 1983 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1999-03-18"^^xsd:date ;
+    schema:description "José Diogo Dalot Teixeira (born 18 March 1999) is a Portuguese professional footballer who plays as a full-back and occasionally as a winger for English Premier League club Manchester United."@en ;
+    schema:height "1.84 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/0rv14y1706525697.jpg"^^xsd:anyURI ;
+    schema:memberOf "Manchester United"^^xsd:string ;
+    schema:name "Diogo Dalot"^^xsd:string ;
+    schema:nationality "Portugal"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

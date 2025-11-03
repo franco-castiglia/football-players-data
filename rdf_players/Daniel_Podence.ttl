@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Daniel_Podence a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5218462> ;
+    foaf:account "www.facebook.com/podence56/"^^xsd:anyURI,
+        "www.instagram.com/podence/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/06ptij1662286974.png"^^xsd:anyURI ;
+    foaf:name "Daniel Podence"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 1 ;
+    stats:blocks 0 ;
+    stats:carries 13 ;
+    stats:clearances 0 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.5 ;
+    stats:matchesPlayed 2 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 48 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Winger"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 2 ;
+    stats:progressivePassesReceived 3 ;
+    stats:rank 2133 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 20 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1995-10-21"^^xsd:date ;
+    schema:description """Daniel Castelo Podence (born 21 October 1995) is a Portuguese professional footballer who plays as a right winger for Super League Greece club Olympiacos on loan from Premier League club Wolverhampton Wanderers. \r
+\r
+He started his career with Sporting CP, appearing in 40 competitive matches and also being loaned to Moreirense, with whom he won the 2017 Taça da Liga. He then joined Olympiacos, winning the 2019–20 Super League Greece. In January 2020, he signed with Wolverhampton Wanderers.\r
+\r
+Podence made his full debut for Portugal in 2020."""@en ;
+    schema:height "1.65 m (5 ft 5 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/r0xwuj1527520342.jpg"^^xsd:anyURI ;
+    schema:memberOf "Olympiakos"^^xsd:string ;
+    schema:name "Daniel Podence"^^xsd:string ;
+    schema:nationality "Portugal"^^xsd:string ;
+    schema:weight "128 lbs"^^xsd:string .
+

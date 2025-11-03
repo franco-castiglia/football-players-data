@@ -1,0 +1,69 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Pedri a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q66606355> ;
+    foaf:account "twitter.com/Pedri"^^xsd:anyURI,
+        "www.instagram.com/pedrigonzalez/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/82xtuu1726509836.png"^^xsd:anyURI ;
+    foaf:name "Pedri"^^xsd:string ;
+    stats:assists 5 ;
+    stats:ballRecoveries 254 ;
+    stats:blocks 45 ;
+    stats:carries 2012 ;
+    stats:clearances 21 ;
+    stats:dispossessed 35 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 7.4 ;
+    stats:expectedGoals 2.2 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 26 ;
+    stats:keyPasses 70 ;
+    stats:matches90s 32.0 ;
+    stats:matchesPlayed 37 ;
+    stats:matchesStarted 35 ;
+    stats:minutesPlayed 2879 ;
+    stats:miscontrols 48 ;
+    stats:passesIntoPenaltyArea 79 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 92 ;
+    stats:progressivePasses 360 ;
+    stats:progressivePassesReceived 136 ;
+    stats:rank 2061 ;
+    stats:redCards 0 ;
+    stats:tackles 61 ;
+    stats:tacklesWon 34 ;
+    stats:touches 3060 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2002-11-25"^^xsd:date ;
+    schema:description """Pedro González López (born 25 November 2002), known as Pedri, is a Spanish professional footballer who plays as a central midfielder for La Liga FC Barcelona and the Spain national team. He is regarded as one of the most promising young footballers in the world.\r
+\r
+Las Palmas\r
+\r
+Born in Tegueste, Tenerife, Canary Islands, Pedri joined Las Palmas's youth setup in 2018 from CF Juventud Laguna. On 15 July 2019, aged only 16, he signed a professional four-year contract with the club, being promoted to the first team by manager Pepe Mel.\r
+\r
+Pedri made his professional debut on 18 August 2019, aged only 16, by starting in a 0–1 home loss against Huesca in the Segunda División. He scored his first professional goal on 19 September, with the game's only goal in a home victory over Sporting Gijón and became the youngest goalscorer in Las Palmas history at 16 years, 9 months and 23 days of age.\r
+Barcelona\r
+\r
+On 2 September 2019, Barcelona reached an agreement with Las Palmas for the transfer of Pedri, effective as of the following 1 July 2020. The player agreed to a two-year contract with the Catalan club, who paid €5 million for the deal, which would increase as he fulfilled various clauses in his contract. Assigned to the main squad for the 2020–21 season and with the number 16 shirt, Pedri made his debut on 27 September, replacing Philippe Coutinho in a 4–0 home win against Villarreal in La Liga He received his first start on 17 October in a 0–1 away loss against Getafe.On 20 October, Pedri scored his first goal for the club on his UEFA Champions League debut, in a 5–1 win over Ferencváros in the group stage, after coming on as a substitute in the 61st minute for Ansu Fati. On 7 November, in a 5–2 home win over Real Betis, he scored his first goal in La Liga after an assist from Sergi Roberto.\r
+\r
+On 6 January 2021, he scored a headed goal against Athletic Bilbao and assisted Barcelona's second goal in a 3–2 win at San Mamés. On 17 April, Pedri won the first trophy of his senior career after Barcelona beat Athletic 4–0 in the Copa del Rey final. On 8 May, at 18 years and 164 days, Pedri made his 50th appearance for Barcelona in all competitions when he started in the 0–0 draw against Atlético Madrid at Camp Nou, thus becoming the second youngest player to reach this milestone after Bojan Krkić, who was 18 years and 3 days when he reached 50 appearances. In the middle of October 2021 Pedri signed a new contract with Barcelona which contained a record €1 billion ($1.57 billion) release clause. \r
+\r
+On 29 November, Pedri won the 2021 Kopa Trophy, which is awarded by France Football to the best performing player under the age of 21"""@en ;
+    schema:height "1.74 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/s6w8dh1659987134.jpg"^^xsd:anyURI ;
+    schema:memberOf "Barcelona"^^xsd:string ;
+    schema:name "Pedri"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "130 lbs"^^xsd:string .
+

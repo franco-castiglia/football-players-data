@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Neal_Maupay a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1101455> ;
+    foaf:account "twitter.com/nealmaupay18"^^xsd:anyURI,
+        "www.instagram.com/nealmaupay/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/55xbod1748683566.png"^^xsd:anyURI ;
+    foaf:name "Neal Maupay"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 21 ;
+    stats:blocks 5 ;
+    stats:carries 201 ;
+    stats:clearances 0 ;
+    stats:dispossessed 20 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.2 ;
+    stats:expectedGoals 4.1 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 13 ;
+    stats:matches90s 11.6 ;
+    stats:matchesPlayed 22 ;
+    stats:matchesStarted 13 ;
+    stats:minutesPlayed 1042 ;
+    stats:miscontrols 34 ;
+    stats:passesIntoPenaltyArea 12 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 12 ;
+    stats:progressivePasses 37 ;
+    stats:progressivePassesReceived 81 ;
+    stats:rank 1678 ;
+    stats:redCards 1 ;
+    stats:tackles 9 ;
+    stats:tacklesWon 4 ;
+    stats:touches 386 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1996-08-14"^^xsd:date ;
+    schema:description "Neal Maupay (born 14 August 1996) is a French professional footballer who plays as a striker for Ligue 1 club Marseille, on loan from Premier League club Everton."@en ;
+    schema:height "1.71 m (5 ft 7 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/b9cysn1506261441.jpg"^^xsd:anyURI ;
+    schema:memberOf "Marseille"^^xsd:string ;
+    schema:name "Neal Maupay"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

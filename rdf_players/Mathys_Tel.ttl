@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mathys_Tel a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q108106700> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/4e915x1757016205.png"^^xsd:anyURI ;
+    foaf:name "Mathys Tel"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 38 ;
+    stats:blocks 8 ;
+    stats:carries 266 ;
+    stats:clearances 8 ;
+    stats:dispossessed 15 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 2.6 ;
+    stats:expectedGoals 3.0 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 14 ;
+    stats:matches90s 10.1 ;
+    stats:matchesPlayed 13 ;
+    stats:matchesStarted 11 ;
+    stats:minutesPlayed 911 ;
+    stats:miscontrols 28 ;
+    stats:passesIntoPenaltyArea 14 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 28 ;
+    stats:progressivePasses 21 ;
+    stats:progressivePassesReceived 72 ;
+    stats:rank 2566 ;
+    stats:redCards 0 ;
+    stats:tackles 16 ;
+    stats:tacklesWon 6 ;
+    stats:touches 414 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2005-04-27"^^xsd:date ;
+    schema:description """Mathys Henri Tel (born 27 April 2005) is a French professional footballer who plays as a forward for Premier League club Tottenham Hotspur.\r
+ Known for his pace, finishing, and creative dribble ability and huge potential, Tel has drawn comparisons to his French compatriots Kylian Mbappé and Karim Benzema."""@en ;
+    schema:height "183cm / 6'0\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/2rg50k1659990692.jpg"^^xsd:anyURI ;
+    schema:memberOf "Tottenham Hotspur"^^xsd:string ;
+    schema:name "Mathys Tel"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

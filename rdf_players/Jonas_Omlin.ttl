@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jonas_Omlin a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q22342690> ;
+    foaf:account "twitter.com/omlin_jonas"^^xsd:anyURI,
+        "www.instagram.com/omlinjonas1/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/890m7v1756314673.png"^^xsd:anyURI ;
+    foaf:name "Jonas Omlin"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 21 ;
+    stats:blocks 0 ;
+    stats:carries 353 ;
+    stats:clearances 5 ;
+    stats:dispossessed 0 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 10.9 ;
+    stats:matchesPlayed 12 ;
+    stats:matchesStarted 11 ;
+    stats:minutesPlayed 978 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1969 ;
+    stats:redCards 1 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 544 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1994-01-10"^^xsd:date ;
+    schema:description "Jonas Omlin (born 10 January 1994) is a Swiss professional footballer who plays as a goalkeeper for Bundesliga club Borussia Mönchengladbach and the Switzerland national team."@en ;
+    schema:height "1.89 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/gmozr81608590909.jpg"^^xsd:anyURI ;
+    schema:memberOf "Borussia Mönchengladbach"^^xsd:string ;
+    schema:name "Jonas Omlin"^^xsd:string ;
+    schema:nationality "Switzerland"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

@@ -1,0 +1,52 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Gerard_Martin a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q121943745> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ktmbzp1727027878.png"^^xsd:anyURI ;
+    foaf:name "Gerard Martín"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 42 ;
+    stats:blocks 16 ;
+    stats:carries 413 ;
+    stats:clearances 27 ;
+    stats:dispossessed 4 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.1 ;
+    stats:expectedGoals 0.5 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 13 ;
+    stats:keyPasses 12 ;
+    stats:matches90s 11.5 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 11 ;
+    stats:minutesPlayed 1038 ;
+    stats:miscontrols 7 ;
+    stats:passesIntoPenaltyArea 16 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:progressiveCarries 10 ;
+    stats:progressivePasses 40 ;
+    stats:progressivePassesReceived 122 ;
+    stats:rank 1640 ;
+    stats:redCards 0 ;
+    stats:tackles 22 ;
+    stats:tacklesWon 10 ;
+    stats:touches 909 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2002-02-26"^^xsd:date ;
+    schema:description "Gerard Martín Langreo (born 26 February 2002) is a Spanish professional footballer who plays as a left-back for Barcelona Atlètic."@en ;
+    schema:height "1.86 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ox2f581741723597.jpg"^^xsd:anyURI ;
+    schema:memberOf "Barcelona"^^xsd:string ;
+    schema:name "Gerard Martín"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

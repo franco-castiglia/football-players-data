@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Lewis_Dunk a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6536506> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/m00t971756999849.png"^^xsd:anyURI ;
+    foaf:name "Lewis Dunk"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 104 ;
+    stats:blocks 28 ;
+    stats:carries 1341 ;
+    stats:clearances 79 ;
+    stats:dispossessed 3 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 0.8 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 13 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 23.1 ;
+    stats:matchesPlayed 25 ;
+    stats:matchesStarted 23 ;
+    stats:minutesPlayed 2083 ;
+    stats:miscontrols 9 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 20 ;
+    stats:progressivePasses 142 ;
+    stats:progressivePassesReceived 3 ;
+    stats:rank 798 ;
+    stats:redCards 0 ;
+    stats:tackles 17 ;
+    stats:tacklesWon 10 ;
+    stats:touches 2127 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1991-11-21"^^xsd:date ;
+    schema:description """Lewis Carl Dunk (born 21 November 1991) is an English professional footballer who plays as a defender for Premier League club Brighton & Hove Albion.\r
+\r
+On 30 April 2010, Dunk signed a two-year professional contract with Brighton & Hove Albion following impressive performances captaining the club's youth-team. The following day, Dunk made his first professional appearance starting in the 0–0 draw at Milton Keynes Dons.\r
+\r
+On 31 January 2011, Dunk signed a one-year extension on his contract keeping him at the club until the summer of 2013. Dunk made eight appearances in the 2010–11 season as Brighton gained promotion to the Championship."""@en ;
+    schema:height "1.92"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/7s0ulq1510690211.jpg"^^xsd:anyURI ;
+    schema:memberOf "Brighton and Hove Albion"^^xsd:string ;
+    schema:name "Lewis Dunk"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "192 lbs"^^xsd:string .
+

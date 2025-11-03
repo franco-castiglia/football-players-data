@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Hiroki_Ito a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q30933054> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/9jngzv1756409131.png"^^xsd:anyURI ;
+    foaf:name "Hiroki Ito"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 13 ;
+    stats:blocks 3 ;
+    stats:carries 126 ;
+    stats:clearances 15 ;
+    stats:dispossessed 1 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.4 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 2.8 ;
+    stats:matchesPlayed 6 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 250 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 3 ;
+    stats:progressivePasses 18 ;
+    stats:progressivePassesReceived 6 ;
+    stats:rank 1227 ;
+    stats:redCards 0 ;
+    stats:tackles 2 ;
+    stats:tacklesWon 0 ;
+    stats:touches 245 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1999-05-12"^^xsd:date ;
+    schema:description "Hiroki Itō (伊藤 洋輝, Itō Hiroki, born 12 May 1999) is a Japanese professional footballer who plays as a centre-back and left-back for Bundesliga club Bayern Munich and the Japan national team."@en ;
+    schema:height "188 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/sfbwtu1658489653.jpg"^^xsd:anyURI ;
+    schema:memberOf "Bayern Munich"^^xsd:string ;
+    schema:name "Hiroki Ito"^^xsd:string ;
+    schema:nationality "Japan"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

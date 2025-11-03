@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Anass_Zaroury a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q105203860> ;
+    foaf:account "mobile.twitter.com/zaroury_"^^xsd:anyURI,
+        "www.instagram.com/zaroury_/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/a7ipjw1694094732.png"^^xsd:anyURI ;
+    foaf:name "Anass Zaroury"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 59 ;
+    stats:blocks 9 ;
+    stats:carries 541 ;
+    stats:clearances 15 ;
+    stats:dispossessed 14 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 2.9 ;
+    stats:expectedGoals 1.7 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 35 ;
+    stats:matches90s 15.6 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 16 ;
+    stats:minutesPlayed 1405 ;
+    stats:miscontrols 27 ;
+    stats:passesIntoPenaltyArea 34 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:progressiveCarries 49 ;
+    stats:progressivePasses 65 ;
+    stats:progressivePassesReceived 107 ;
+    stats:rank 2825 ;
+    stats:redCards 1 ;
+    stats:tackles 23 ;
+    stats:tacklesWon 17 ;
+    stats:touches 893 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2000-11-07"^^xsd:date ;
+    schema:description "Anass Zaroury (Arabic: أنس الزروري; born 7 November 2000) is a professional footballer who plays as a left winger for Ligue 1 club Lens. Born in Belgium, he plays for the Morocco national team."@en ;
+    schema:height "1.76 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/t86fep1674657489.jpg"^^xsd:anyURI ;
+    schema:memberOf "Lens"^^xsd:string ;
+    schema:name "Anass Zaroury"^^xsd:string ;
+    schema:nationality "Morocco"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

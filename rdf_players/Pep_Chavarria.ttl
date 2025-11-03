@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Pep_Chavarria a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q96040600> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/frp2mk1679058369.png"^^xsd:anyURI ;
+    foaf:name "Pep Chavarría"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 114 ;
+    stats:blocks 35 ;
+    stats:carries 887 ;
+    stats:clearances 108 ;
+    stats:dispossessed 6 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 1.9 ;
+    stats:expectedGoals 1.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 30 ;
+    stats:keyPasses 24 ;
+    stats:matches90s 28.7 ;
+    stats:matchesPlayed 34 ;
+    stats:matchesStarted 28 ;
+    stats:minutesPlayed 2585 ;
+    stats:miscontrols 39 ;
+    stats:passesIntoPenaltyArea 27 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 59 ;
+    stats:progressivePasses 114 ;
+    stats:progressivePassesReceived 133 ;
+    stats:rank 534 ;
+    stats:redCards 0 ;
+    stats:tackles 46 ;
+    stats:tacklesWon 36 ;
+    stats:touches 1884 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1998-04-10"^^xsd:date ;
+    schema:description "Josep María \"Pep\" Chavarría Pérez (born 10 April 1998) is a Spanish professional footballer who plays for Rayo Vallecano as a left-back."@en ;
+    schema:height "1.74 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/f0eb1z1679051994.jpg"^^xsd:anyURI ;
+    schema:memberOf "Vallecano"^^xsd:string ;
+    schema:name "Pep Chavarría"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

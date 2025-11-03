@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Elias_Saad a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q115803591> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/x81hww1741633487.png"^^xsd:anyURI ;
+    foaf:name "Elias Saad"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 43 ;
+    stats:blocks 14 ;
+    stats:carries 301 ;
+    stats:clearances 1 ;
+    stats:dispossessed 36 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.8 ;
+    stats:expectedGoals 2.8 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 3 ;
+    stats:keyPasses 14 ;
+    stats:matches90s 10.0 ;
+    stats:matchesPlayed 18 ;
+    stats:matchesStarted 10 ;
+    stats:minutesPlayed 900 ;
+    stats:miscontrols 57 ;
+    stats:passesIntoPenaltyArea 14 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacker"^^xsd:string ;
+    stats:progressiveCarries 29 ;
+    stats:progressivePasses 27 ;
+    stats:progressivePassesReceived 76 ;
+    stats:rank 2283 ;
+    stats:redCards 0 ;
+    stats:tackles 20 ;
+    stats:tacklesWon 13 ;
+    stats:touches 427 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1999-12-27"^^xsd:date ;
+    schema:description "Elias Saad (born 27 December 1999) is a professional footballer who plays as a left winger for Bundesliga club FC St. Pauli. Born in Germany, he represents the Tunisia national team, having previously been a former international for the Germany national futsal team."@en ;
+    schema:height "6' 1\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ttj8b31741633479.jpg"^^xsd:anyURI ;
+    schema:memberOf "St Pauli"^^xsd:string ;
+    schema:name "Elias Saad"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

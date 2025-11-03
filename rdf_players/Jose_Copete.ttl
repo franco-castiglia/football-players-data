@@ -1,0 +1,52 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jose_Copete a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q107585778> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/hy7pyc1701170945.png"^^xsd:anyURI ;
+    foaf:name "José Copete"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 46 ;
+    stats:blocks 24 ;
+    stats:carries 518 ;
+    stats:clearances 123 ;
+    stats:dispossessed 2 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.5 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 17 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 17.0 ;
+    stats:matchesPlayed 25 ;
+    stats:matchesStarted 16 ;
+    stats:minutesPlayed 1528 ;
+    stats:miscontrols 7 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 10 ;
+    stats:progressivePasses 47 ;
+    stats:progressivePassesReceived 2 ;
+    stats:rank 596 ;
+    stats:redCards 0 ;
+    stats:tackles 29 ;
+    stats:tacklesWon 17 ;
+    stats:touches 987 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "1999-10-10"^^xsd:date ;
+    schema:description "José Manuel Arias Copete (born 10 October 1999) is a Spanish professional footballer who plays as a centre-back for La Liga club Mallorca."@en ;
+    schema:height "1.90 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/x39jbq1678829777.jpg"^^xsd:anyURI ;
+    schema:memberOf "Mallorca"^^xsd:string ;
+    schema:name "José Copete"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string .
+

@@ -1,0 +1,51 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Aingeru_Olabarrieta a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q121364134> ;
+    foaf:name "Aingeru Olabarrieta"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 4 ;
+    stats:blocks 2 ;
+    stats:carries 15 ;
+    stats:clearances 1 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.6 ;
+    stats:matchesPlayed 1 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 54 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 1 ;
+    stats:progressivePassesReceived 3 ;
+    stats:rank 1956 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 25 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2005-11-14"^^xsd:date ;
+    schema:description "Aingeru Olabarrieta Capelo (born 14 November 2005) is a Spanish professional footballer who plays as a winger for Bilbao Athletic."@en ;
+    schema:height "182 cm"^^xsd:string ;
+    schema:memberOf "Athletic Bilbao B"^^xsd:string ;
+    schema:name "Aingeru Olabarrieta"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

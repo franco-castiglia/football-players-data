@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Javi_Munoz a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18654709> ;
+    foaf:account "twitter.com/javimj10"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/u4rc4q1701092160.png"^^xsd:anyURI ;
+    foaf:name "Javi Muñoz"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 112 ;
+    stats:blocks 27 ;
+    stats:carries 700 ;
+    stats:clearances 39 ;
+    stats:dispossessed 15 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 2.5 ;
+    stats:expectedGoals 1.3 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 31 ;
+    stats:keyPasses 29 ;
+    stats:matches90s 28.8 ;
+    stats:matchesPlayed 35 ;
+    stats:matchesStarted 28 ;
+    stats:minutesPlayed 2588 ;
+    stats:miscontrols 29 ;
+    stats:passesIntoPenaltyArea 32 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 36 ;
+    stats:progressivePasses 108 ;
+    stats:progressivePassesReceived 91 ;
+    stats:rank 1826 ;
+    stats:redCards 0 ;
+    stats:tackles 45 ;
+    stats:tacklesWon 35 ;
+    stats:touches 1411 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1995-02-28"^^xsd:date ;
+    schema:description "Javier Muñoz Jiménez (Spanish pronunciation: ; born 28 February 1995) is a Spanish professional footballer who plays as an attacking midfielder for La Liga club Las Palmas."@en ;
+    schema:height "1.75 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/yv0shy1724166274.jpg"^^xsd:anyURI ;
+    schema:memberOf "Las Palmas"^^xsd:string ;
+    schema:name "Javi Muñoz"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

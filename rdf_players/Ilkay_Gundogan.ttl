@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ilkay_Gundogan a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q161089> ;
+    foaf:account "twitter.com/ilkayguendogan"^^xsd:anyURI,
+        "www.facebook.com/IlkayGuendogan/"^^xsd:anyURI,
+        "www.instagram.com/ilkayguendogan/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/8ksl1x1725454501.png"^^xsd:anyURI ;
+    foaf:name "İlkay Gündoğan"^^xsd:string ;
+    stats:assists 6 ;
+    stats:ballRecoveries 116 ;
+    stats:blocks 15 ;
+    stats:carries 1118 ;
+    stats:clearances 23 ;
+    stats:dispossessed 25 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 3.5 ;
+    stats:expectedGoals 3.2 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 13 ;
+    stats:keyPasses 44 ;
+    stats:matches90s 24.7 ;
+    stats:matchesPlayed 33 ;
+    stats:matchesStarted 25 ;
+    stats:minutesPlayed 2223 ;
+    stats:miscontrols 29 ;
+    stats:passesIntoPenaltyArea 23 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 64 ;
+    stats:progressivePasses 127 ;
+    stats:progressivePassesReceived 96 ;
+    stats:rank 1100 ;
+    stats:redCards 0 ;
+    stats:tackles 25 ;
+    stats:tacklesWon 13 ;
+    stats:touches 1892 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1990-10-24"^^xsd:date ;
+    schema:description """İlkay Gündoğan (born 24 October 1990) is a German professional footballer who plays as a midfielder for Süper Lig club Galatasaray. \r
+Gündoğan joined 1. FC Nürnberg in 2009 before signing for Borussia Dortmund in 2011, winning the 2011–12 Bundesliga and 2011–12 DFB-Pokal in his first season with the latter. He helped Dortmund reach the 2013 UEFA Champions League final, scoring in the match as they lost to Bayern Munich. After playing 157 matches for the club, Gündoğan signed for Manchester City in 2016, where he would go on to win five Premier League titles, four EFL Cups, two FA Cups, and the Champions League. This included a continental treble in the 2022–23 season, his final with the club, for whom he served as club captain. Gündoğan joined Barcelona in 2023, where he only spent a single season, returning to Manchester City in the summer of 2024.\r
+\r
+Gündoğan made his senior debut for Germany in 2011, after previously being capped by the under-18, under-19, under-20, and under-21 teams. He was in Germany's squads for the UEFA European Championship in 2012, 2020, and 2024, and the FIFA World Cup in 2018, 2022, before retiring from international football in 2024."""@en ;
+    schema:height "180cm / 5'11\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/55dcb01690988705.jpg"^^xsd:anyURI ;
+    schema:memberOf "Galatasaray"^^xsd:string ;
+    schema:name "İlkay Gündoğan"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

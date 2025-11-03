@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Alessandro_Buongiorno a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q51389133> ;
+    foaf:account "www.instagram.com/ale.bongio/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/dorn851678372327.png"^^xsd:anyURI ;
+    foaf:name "Alessandro Buongiorno"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 84 ;
+    stats:blocks 30 ;
+    stats:carries 902 ;
+    stats:clearances 73 ;
+    stats:dispossessed 8 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.6 ;
+    stats:expectedGoals 0.8 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 35 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 21.4 ;
+    stats:matchesPlayed 22 ;
+    stats:matchesStarted 22 ;
+    stats:minutesPlayed 1924 ;
+    stats:miscontrols 13 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 27 ;
+    stats:progressivePasses 82 ;
+    stats:progressivePassesReceived 8 ;
+    stats:rank 414 ;
+    stats:redCards 0 ;
+    stats:tackles 39 ;
+    stats:tacklesWon 23 ;
+    stats:touches 1489 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1999-06-06"^^xsd:date ;
+    schema:description "Alessandro Buongiorno is an italian football player defender for Napoli."@en ;
+    schema:height "1.91 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/pnhvd11727416634.jpg"^^xsd:anyURI ;
+    schema:memberOf "Napoli"^^xsd:string ;
+    schema:name "Alessandro Buongiorno"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "190 lbs"^^xsd:string .
+

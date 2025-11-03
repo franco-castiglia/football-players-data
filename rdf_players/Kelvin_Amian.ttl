@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Kelvin_Amian a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q26405176> ;
+    foaf:account "http://twitter.com/KelvinAmian"^^xsd:anyURI,
+        "www.instagram.com/kelvin_amian/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ysrmnz1724096457.png"^^xsd:anyURI ;
+    foaf:name "Kelvin Amian"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 54 ;
+    stats:blocks 18 ;
+    stats:carries 544 ;
+    stats:clearances 85 ;
+    stats:dispossessed 12 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.8 ;
+    stats:expectedGoals 1.0 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 13 ;
+    stats:keyPasses 13 ;
+    stats:matches90s 24.1 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 23 ;
+    stats:minutesPlayed 2165 ;
+    stats:miscontrols 20 ;
+    stats:passesIntoPenaltyArea 24 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 32 ;
+    stats:progressivePasses 73 ;
+    stats:progressivePassesReceived 77 ;
+    stats:rank 113 ;
+    stats:redCards 0 ;
+    stats:tackles 55 ;
+    stats:tacklesWon 31 ;
+    stats:touches 1153 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1998-02-08"^^xsd:date ;
+    schema:description "Kelvin Amian Adou (born 8 February 1998) is a French professional footballer who plays as a right back for Ligue 1 club Nantes."@en ;
+    schema:height "1.79 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/5qp04a1616159925.jpg"^^xsd:anyURI ;
+    schema:memberOf "Nantes"^^xsd:string ;
+    schema:name "Kelvin Amian"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

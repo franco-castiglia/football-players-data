@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ben_Davies a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q93555> ;
+    foaf:account "twitter.com/Ben_Davies33"^^xsd:anyURI,
+        "www.instagram.com/bendavies33"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/dqojh21757016881.png"^^xsd:anyURI ;
+    foaf:name "Ben Davies"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 41 ;
+    stats:blocks 28 ;
+    stats:carries 664 ;
+    stats:clearances 81 ;
+    stats:dispossessed 0 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 12 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 14.8 ;
+    stats:matchesPlayed 17 ;
+    stats:matchesStarted 14 ;
+    stats:minutesPlayed 1331 ;
+    stats:miscontrols 5 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 14 ;
+    stats:progressivePasses 52 ;
+    stats:progressivePassesReceived 6 ;
+    stats:rank 673 ;
+    stats:redCards 0 ;
+    stats:tackles 17 ;
+    stats:tacklesWon 11 ;
+    stats:touches 1186 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1993-04-24"^^xsd:date ;
+    schema:description """Benjamin Thomas Davies (born 24 April 1993) is a Welsh professional footballer who plays as a left back for Premier League club Tottenham Hotspur and the Wales national team.\r
+Davies was born in Neath, Neath Port Talbot and after spending time in the youth academy at Swansea City, he and his family moved to Viborg in Denmark after his father took up a job offer. They spent three years living in Denmark where Davies played for Viborg FF's youth team before returning to Swansea."""@en ;
+    schema:height "5 ft 11 in (1.81 m)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/wft2a51509456421.jpg"^^xsd:anyURI ;
+    schema:memberOf "Tottenham"^^xsd:string ;
+    schema:name "Ben Davies"^^xsd:string ;
+    schema:nationality "Wales"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

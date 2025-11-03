@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Antoine_Griezmann a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q455462> ;
+    foaf:account "twitter.com/AntoGriezmann"^^xsd:anyURI,
+        "www.facebook.com/antoine.griezmann/"^^xsd:anyURI,
+        "www.instagram.com/antogriezmann/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/tw8bbg1662652000.png"^^xsd:anyURI ;
+    foaf:name "Antoine Griezmann"^^xsd:string ;
+    stats:assists 7 ;
+    stats:ballRecoveries 93 ;
+    stats:blocks 20 ;
+    stats:carries 969 ;
+    stats:clearances 23 ;
+    stats:dispossessed 20 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 7.1 ;
+    stats:expectedGoals 7.4 ;
+    stats:goals 8 ;
+    stats:goalsNonPenalty 7 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 48 ;
+    stats:matches90s 27.4 ;
+    stats:matchesPlayed 38 ;
+    stats:matchesStarted 29 ;
+    stats:minutesPlayed 2469 ;
+    stats:miscontrols 41 ;
+    stats:passesIntoPenaltyArea 47 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Second Striker"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 46 ;
+    stats:progressivePasses 143 ;
+    stats:progressivePassesReceived 177 ;
+    stats:rank 1064 ;
+    stats:redCards 0 ;
+    stats:tackles 30 ;
+    stats:tacklesWon 17 ;
+    stats:touches 1678 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1991-03-21"^^xsd:date ;
+    schema:description """Antoine Griezmann (French pronunciation: ​; born 21 March 1991) is a French professional footballer who plays as a forward for La Liga club Atlético Madrid (after the 60th minute), on loan from Barcelona, and the France national team. A versatile player, Griezmann is known for his attacking, passing, and supportive defence, and has played as an attacking midfielder, winger, and striker in his career.\r
+\r
+Griezmann began his senior club career with Real Sociedad, winning the Segunda División in his first season. In 2014, he joined Atlético Madrid for a then-club record €30 million and won the UEFA Europa League, the UEFA Super Cup, the Supercopa de España, and La Liga Best Player. He was nominated for the Ballon d'Or and Best FIFA Men's Player in 2016 and 2018. In 2019, Griezmann was the subject of a record association football transfer when signed for rivals Barcelona in a transfer worth €120 million, becoming the fifth-most expensive player of all time. There, he won a Copa del Rey, before returning to Atlético Madrid on loan in 2021, and became the club's fourth-highest all-time top goalscorer.\r
+\r
+At international level, Griezmann won the 2010 UEFA European Under-19 Championship and made his senior debut for France in 2014 at age 22; he has since earned over 100 caps, ranking as France's eighth-most capped player, and with over 40 goals scored, he is also the nation's third-highest all-time top goalscorer. He finished as top goalscorer and was Player of the Tournament as France finished runner-up at UEFA Euro 2016, and won the Silver Boot as the second highest goalscorer as France won the 2018 FIFA World Cup; he won the Bronze Ball as the tournament's third best player, and was also named Man of the Match in the final."""@en ;
+    schema:height "1.74 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/xpmyw01702565423.jpg"^^xsd:anyURI ;
+    schema:memberOf "Atletico Madrid"^^xsd:string ;
+    schema:name "Antoine Griezmann"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

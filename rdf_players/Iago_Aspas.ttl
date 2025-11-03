@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Iago_Aspas a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q26380> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/t934v21724492357.png"^^xsd:anyURI ;
+    foaf:name "Iago Aspas"^^xsd:string ;
+    stats:assists 5 ;
+    stats:ballRecoveries 55 ;
+    stats:blocks 18 ;
+    stats:carries 724 ;
+    stats:clearances 5 ;
+    stats:dispossessed 20 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 4.6 ;
+    stats:expectedGoals 8.7 ;
+    stats:goals 10 ;
+    stats:goalsNonPenalty 5 ;
+    stats:interceptions 8 ;
+    stats:keyPasses 38 ;
+    stats:matches90s 19.4 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 19 ;
+    stats:minutesPlayed 1745 ;
+    stats:miscontrols 35 ;
+    stats:passesIntoPenaltyArea 35 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 50 ;
+    stats:progressivePasses 132 ;
+    stats:progressivePassesReceived 143 ;
+    stats:rank 168 ;
+    stats:redCards 1 ;
+    stats:tackles 13 ;
+    stats:tacklesWon 8 ;
+    stats:touches 1038 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "1987-08-01"^^xsd:date ;
+    schema:description """Iago Aspas Juncal (Galician pronunciation: ; born 1 August 1987) is a Spanish professional footballer who plays as a striker for Celta de Vigo and the Spain national team.\r
+\r
+He spent most of his career with Celta, appearing in 242 official games over the course of eight seasons and scoring 94 goals. He made his La Liga debut with the club in 2012 and moved to Liverpool the following year, returning to Celta in 2015.\r
+\r
+Aspas first appeared with the Spain senior team in 2016."""@en ;
+    schema:height "1.76 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/up7vdx1514379285.jpg"^^xsd:anyURI ;
+    schema:memberOf "Celta Vigo"^^xsd:string ;
+    schema:name "Iago Aspas"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "148 lbs"^^xsd:string .
+

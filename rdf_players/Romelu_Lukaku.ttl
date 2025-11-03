@@ -1,0 +1,63 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Romelu_Lukaku a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q313316> ;
+    foaf:account "facebook.com/Romelulukaku/"^^xsd:anyURI,
+        "twitter.com/RomeluLukaku9"^^xsd:anyURI,
+        "www.instagram.com/romelulukaku"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/20qtmb1678716864.png"^^xsd:anyURI ;
+    foaf:name "Romelu Lukaku"^^xsd:string ;
+    stats:assists 10 ;
+    stats:ballRecoveries 34 ;
+    stats:blocks 7 ;
+    stats:carries 380 ;
+    stats:clearances 17 ;
+    stats:dispossessed 53 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 4.0 ;
+    stats:expectedGoals 13.0 ;
+    stats:goals 14 ;
+    stats:goalsNonPenalty 11 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 35 ;
+    stats:matches90s 31.6 ;
+    stats:matchesPlayed 36 ;
+    stats:matchesStarted 35 ;
+    stats:minutesPlayed 2843 ;
+    stats:miscontrols 55 ;
+    stats:passesIntoPenaltyArea 11 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 31 ;
+    stats:progressivePasses 36 ;
+    stats:progressivePassesReceived 219 ;
+    stats:rank 1538 ;
+    stats:redCards 0 ;
+    stats:tackles 4 ;
+    stats:tacklesWon 2 ;
+    stats:touches 725 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1993-05-13"^^xsd:date ;
+    schema:description """Romelu Menama Lukaku Bolingoli (Dutch pronunciation: ; born 13 May 1993) is a Belgian professional footballer who plays as a striker for Serie A club Napoli and the Belgium national team.\r
+\r
+Lukaku began his senior club career playing for Anderlecht, where he won a Belgian Pro League title and finished as the league's top goalscorer. In 2011, he joined Chelsea in a transfer worth £10 million (€12 million), but limited playing time resulted in loans to West Bromwich Albion and Everton; in 2014, Lukaku signed with Everton in a then club-record transfer worth £28 million (€32 million), going on to finish as the league's second-top goalscorer. He subsequently signed with Manchester United in a transfer worth £75 million (€88 million), but after a breakdown in relations with the club, Lukaku departed for Inter Milan in 2019, in a club-record deal worth €80 million (£68.1 million), where he won a Serie A title and the Serie A Most Valuable Player award.\r
+\r
+In 2021, Lukaku returned to Chelsea in a club-record transfer worth £97.5 million (€115 million), becoming the seventh-most expensive player, the most expensive Belgian player and, at the time, the most expensive player of all time in cumulative transfer fees. However, after one season, he was sent out on loan back to Italy to Inter Milan and Roma before joining another Italian club Napoli on a permanent deal.\r
+\r
+Belgium's all-time top goalscorer, Lukaku made his senior international debut in 2010, and has represented his country at six major tournaments: the 2016, 2020 and 2024 UEFA European Championships and the 2014, 2018 and 2022 FIFA World Cups; he finished as joint second-highest goalscorer to win the Bronze Boot in 2018."""@en ;
+    schema:height "1.90 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/0yrfdz1725016583.jpg"^^xsd:anyURI ;
+    schema:memberOf "Napoli"^^xsd:string ;
+    schema:name "Romelu Lukaku"^^xsd:string ;
+    schema:nationality "Belgium"^^xsd:string ;
+    schema:weight "203 lbs"^^xsd:string .
+

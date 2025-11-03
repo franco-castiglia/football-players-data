@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Martin_Terrier a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q27978968> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/lq0aiq1756316748.png"^^xsd:anyURI ;
+    foaf:name "Martin Terrier"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 8 ;
+    stats:blocks 3 ;
+    stats:carries 129 ;
+    stats:clearances 1 ;
+    stats:dispossessed 6 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 2.4 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 8 ;
+    stats:matches90s 6.5 ;
+    stats:matchesPlayed 15 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 584 ;
+    stats:miscontrols 11 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:progressiveCarries 11 ;
+    stats:progressivePasses 14 ;
+    stats:progressivePassesReceived 35 ;
+    stats:rank 2577 ;
+    stats:redCards 0 ;
+    stats:tackles 4 ;
+    stats:tacklesWon 2 ;
+    stats:touches 250 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1997-03-04"^^xsd:date ;
+    schema:description "Martin Albert Frédéric Terrier (born 4 March 1997) is a French professional footballer who plays as second striker for Ligue 1 club Rennes."@en ;
+    schema:height "1.84 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/osl7cm1721325715.jpg"^^xsd:anyURI ;
+    schema:memberOf "Bayer Leverkusen"^^xsd:string ;
+    schema:name "Martin Terrier"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "157 lbs"^^xsd:string .
+

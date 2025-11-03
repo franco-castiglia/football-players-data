@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Gabriel_Jesus a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q19708656> ;
+    foaf:account "twitter.com/gabrieljesus33"^^xsd:anyURI,
+        "www.facebook.com/gabrieljesus/"^^xsd:anyURI,
+        "www.instagram.com/dejesusoficial"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/8g7zsb1694203963.png"^^xsd:anyURI ;
+    foaf:name "Gabriel Jesus"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 28 ;
+    stats:blocks 10 ;
+    stats:carries 179 ;
+    stats:clearances 8 ;
+    stats:dispossessed 13 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.7 ;
+    stats:expectedGoals 3.0 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 8 ;
+    stats:matches90s 6.8 ;
+    stats:matchesPlayed 17 ;
+    stats:matchesStarted 6 ;
+    stats:minutesPlayed 608 ;
+    stats:miscontrols 13 ;
+    stats:passesIntoPenaltyArea 9 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Forward"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 15 ;
+    stats:progressivePasses 19 ;
+    stats:progressivePassesReceived 57 ;
+    stats:rank 1257 ;
+    stats:redCards 0 ;
+    stats:tackles 10 ;
+    stats:tacklesWon 6 ;
+    stats:touches 299 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1997-04-03"^^xsd:date ;
+    schema:description """Gabriel Fernando de Jesus (born 3 April 1997) is a Brazilian professional footballer who plays as a forward for Premier League club Arsenal and the Brazil national team.\r
+\r
+Jesus began his career at Palmeiras. He was voted the best newcomer of the 2015 Campeonato Brasileiro Série A, a year in which he also helped his team win the Copa do Brasil. The following year he was named the player of the season as Palmeiras won their first national league title in 22 years. He joined Manchester City in January 2017 for a transfer fee of €32 million, and won the Premier League in 2018, 2019, 2021 and 2022, the EFL Cup in 2018, 2020 and 2021, and the FA Cup in 2019.\r
+\r
+After winning 21 caps and scoring seven goals at youth level, including reaching the final of the 2015 FIFA U-20 World Cup and winning an Olympic gold medal at the 2016 Summer Olympics, Jesus made his senior debut for Brazil in September 2016, and was part of the squad that took part at the 2018 FIFA World Cup, later also participating at the Copa América in 2019 and 2021, winning the former tournament."""@en ;
+    schema:height "1.75 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/iwt0021678196502.jpg"^^xsd:anyURI ;
+    schema:memberOf "Arsenal"^^xsd:string ;
+    schema:name "Gabriel Jesus"^^xsd:string ;
+    schema:nationality "Brazil"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

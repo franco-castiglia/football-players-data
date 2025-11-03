@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Oussama_El_Azzouzi a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q108024285> ;
+    foaf:account "www.instagram.com/o.elazzouzi/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/vw27301695158765.png"^^xsd:anyURI ;
+    foaf:name "Oussama El Azzouzi"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 1 ;
+    stats:blocks 0 ;
+    stats:carries 14 ;
+    stats:clearances 0 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.2 ;
+    stats:matchesPlayed 2 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 19 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 4 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 193 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 20 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2001-05-29"^^xsd:date ;
+    schema:description "Oussama El Azzouzi is a dutch football player, midfielder for Auxerre on loan from Bologna."@en ;
+    schema:height "189 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/0izl3r1689969187.jpg"^^xsd:anyURI ;
+    schema:memberOf "Auxerre"^^xsd:string ;
+    schema:name "Oussama El Azzouzi"^^xsd:string ;
+    schema:nationality "The Netherlands"^^xsd:string ;
+    schema:weight "181 lbs"^^xsd:string .
+

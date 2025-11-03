@@ -1,0 +1,51 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Stanis_Idumbo_Muzambo a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q114650493> ;
+    foaf:name "Stanis Idumbo Muzambo"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 19 ;
+    stats:blocks 3 ;
+    stats:carries 88 ;
+    stats:clearances 2 ;
+    stats:dispossessed 11 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.7 ;
+    stats:expectedGoals 0.6 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 4 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 3.2 ;
+    stats:matchesPlayed 14 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 284 ;
+    stats:miscontrols 12 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:progressiveCarries 10 ;
+    stats:progressivePasses 8 ;
+    stats:progressivePassesReceived 20 ;
+    stats:rank 1202 ;
+    stats:redCards 0 ;
+    stats:tackles 9 ;
+    stats:tacklesWon 5 ;
+    stats:touches 130 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2005-06-29"^^xsd:date ;
+    schema:description "Stanis Idumbo Muzambo (born 29 June 2005) is a Belgian professional footballer who plays as an attacking midfielder for Sevilla Atlético. Born in France, he is a youth international for Belgium."@en ;
+    schema:height "1.70 m (5 ft 7 in)"^^xsd:string ;
+    schema:memberOf "Sevilla Atletico"^^xsd:string ;
+    schema:name "Stanis Idumbo Muzambo"^^xsd:string ;
+    schema:nationality "Belgium"^^xsd:string ;
+    schema:weight "60 kg"^^xsd:string .
+

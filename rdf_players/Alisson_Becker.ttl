@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Alisson_Becker a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18237361> ;
+    foaf:account "twitter.com/Alissonbecker"^^xsd:anyURI,
+        "www.facebook.com/AlissonBeckerOficial"^^xsd:anyURI,
+        "www.instagram.com/alissonbecker"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png"^^xsd:anyURI ;
+    foaf:name "Alisson Becker"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 47 ;
+    stats:blocks 0 ;
+    stats:carries 658 ;
+    stats:clearances 13 ;
+    stats:dispossessed 0 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.6 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 27.9 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 28 ;
+    stats:minutesPlayed 2508 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 1 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 88 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 0 ;
+    stats:touches 1011 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1992-10-02"^^xsd:date ;
+    schema:description """Álisson Ramsés Becker (born 2 October 1992), better known as Alisson Becker or simply Alisson, is a Brazilian professional footballer who plays as a goalkeeper for Premier League club Liverpool and the Brazil national team. Regarded as one of the greatest goalkeepers of all time, he is known for his positioning, distribution, and ability in one-on-one situations.\r
+\r
+Alisson joined Internacional's academy in 2002, progressing through the youth set up before making his senior debut in 2013. During his four years with Internacional's senior side, Alisson won the Campeonato Gaúcho title in each season. He signed for Roma in July 2016 and was awarded Serie A Goalkeeper of the Year in 2017–18. In July 2018, Liverpool signed Alisson for a fee of £66.8 million (€72.5 million), making him the most expensive goalkeeper of all time. At Liverpool, Alisson has won the Premier League, FA Cup, EFL Cup, UEFA Champions League and FIFA Club World Cup. In 2019, he was named The Best FIFA Goalkeeper and was also the recipient of the inaugural Yashin Trophy. Alisson has twice been selected in the FIFA FIFPRO Men's World 11.\r
+\r
+Alisson represented Brazil at various youth levels before making his senior international debut in 2015. He represented the nation at the FIFA World Cup in 2018 and 2022, and the Copa América in 2016, 2019, 2021 and 2024, winning the 2019 tournament while also being named its best goalkeeper."""@en ;
+    schema:height "193 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/yi6dt21746034945.jpg"^^xsd:anyURI ;
+    schema:memberOf "Liverpool"^^xsd:string ;
+    schema:name "Alisson Becker"^^xsd:string ;
+    schema:nationality "Brazil"^^xsd:string ;
+    schema:weight "201 lbs"^^xsd:string .
+

@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Munir_El_Haddadi a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q15963931> ;
+    foaf:account "twitter.com/munirhaddadi"^^xsd:anyURI,
+        "www.instagram.com/munirhaddadi/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/8dsmiq1701092730.png"^^xsd:anyURI ;
+    foaf:name "Munir El Haddadi"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 33 ;
+    stats:blocks 8 ;
+    stats:carries 242 ;
+    stats:clearances 1 ;
+    stats:dispossessed 25 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.8 ;
+    stats:expectedGoals 1.6 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 8 ;
+    stats:matches90s 9.6 ;
+    stats:matchesPlayed 25 ;
+    stats:matchesStarted 10 ;
+    stats:minutesPlayed 862 ;
+    stats:miscontrols 22 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:progressiveCarries 11 ;
+    stats:progressivePasses 29 ;
+    stats:progressivePassesReceived 42 ;
+    stats:rank 1115 ;
+    stats:redCards 1 ;
+    stats:tackles 12 ;
+    stats:tacklesWon 9 ;
+    stats:touches 372 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1995-09-01"^^xsd:date ;
+    schema:description """Munir El Haddadi Mohamed (Arabic: منير الحدادي محمد; born 1 September 1995), known simply as Munir, is a professional footballer who plays as a forward or right winger for La Liga club Leganés. Born in Spain, he plays for the Morocco national team.\r
+\r
+Munir began his career in the youth ranks of Atlético Madrid, before transferring to Barcelona in 2011, where he won the 2013–14 UEFA Youth League. He made his debut for the B-team in March 2014, and scored in his first match for the senior team in August of that year, at the start of a season in which they won the treble. The following year, he was one of five top scorers in the Copa del Rey, which his team won. He also played in La Liga on loan at Valencia and Alavés, and permanently at Sevilla, Getafe, Las Palmas and Leganés, winning the UEFA Europa League with Sevilla in 2020.\r
+\r
+Born in Spain to Moroccan parents, Munir made his full debut for the Spain national team in 2014. In 2021, he chose to represent Morocco at international level, being selected for the 2021 Africa Cup of Nations."""@en ;
+    schema:height "1.75 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/q0p2mr1704443459.jpg"^^xsd:anyURI ;
+    schema:memberOf "Leganes"^^xsd:string ;
+    schema:name "Munir El Haddadi"^^xsd:string ;
+    schema:nationality "Morocco"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Gavi a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q108111889> ;
+    foaf:account "www.instagram.com/pablogavi/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/amm91q1726510077.png"^^xsd:anyURI ;
+    foaf:name "Gavi"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 61 ;
+    stats:blocks 14 ;
+    stats:carries 557 ;
+    stats:clearances 7 ;
+    stats:dispossessed 9 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.6 ;
+    stats:expectedGoals 0.9 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 10 ;
+    stats:keyPasses 14 ;
+    stats:matches90s 12.1 ;
+    stats:matchesPlayed 26 ;
+    stats:matchesStarted 14 ;
+    stats:minutesPlayed 1085 ;
+    stats:miscontrols 19 ;
+    stats:passesIntoPenaltyArea 11 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 13 ;
+    stats:progressivePasses 77 ;
+    stats:progressivePassesReceived 42 ;
+    stats:rank 982 ;
+    stats:redCards 0 ;
+    stats:tackles 30 ;
+    stats:tacklesWon 21 ;
+    stats:touches 943 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2004-08-05"^^xsd:date ;
+    schema:description "Pablo Martín Páez Gavira (Spanish pronunciation: ; born 5 August 2004), known as Gavi (pronounced ), is a Spanish professional footballer who plays as a central midfielder for La Liga club Barcelona and the Spain national team. In 2022, he won the Golden Boy award and received the Kopa Trophy, awarded by France Football during the 2022 Ballon d'Or ceremony."@en ;
+    schema:height "1.73 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/gcpbsi1659987065.jpg"^^xsd:anyURI ;
+    schema:memberOf "Barcelona"^^xsd:string ;
+    schema:name "Gavi"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Pau_Torres a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q43384100> ;
+    foaf:account "twitter.com/pauttorres"^^xsd:anyURI,
+        "www.instagram.com/pauttorres/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/pxsy2h1756987313.png"^^xsd:anyURI ;
+    foaf:name "Pau Torres"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 62 ;
+    stats:blocks 16 ;
+    stats:carries 965 ;
+    stats:clearances 75 ;
+    stats:dispossessed 5 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.5 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 10 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 22.4 ;
+    stats:matchesPlayed 24 ;
+    stats:matchesStarted 23 ;
+    stats:minutesPlayed 2020 ;
+    stats:miscontrols 6 ;
+    stats:passesIntoPenaltyArea 8 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 40 ;
+    stats:progressivePasses 97 ;
+    stats:progressivePassesReceived 8 ;
+    stats:rank 2614 ;
+    stats:redCards 0 ;
+    stats:tackles 21 ;
+    stats:tacklesWon 15 ;
+    stats:touches 1518 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1997-01-16"^^xsd:date ;
+    schema:description "Pau Francisco Torres (born 16 January 1997) is a Spanish professional footballer who plays as a centre-back for Premier League club Aston Villa and the Spain national team."@en ;
+    schema:height "1.91 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/gka1yj1628626708.jpg"^^xsd:anyURI ;
+    schema:memberOf "Aston Villa"^^xsd:string ;
+    schema:name "Pau Torres"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

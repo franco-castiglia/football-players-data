@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Alex_Meret a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q21622039> ;
+    foaf:account "twitter.com/meret_alex"^^xsd:anyURI,
+        "www.instagram.com/alex_meret/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ynh3qr1610361209.png"^^xsd:anyURI ;
+    foaf:name "Alex Meret"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 61 ;
+    stats:blocks 1 ;
+    stats:carries 775 ;
+    stats:clearances 16 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 33.4 ;
+    stats:matchesPlayed 34 ;
+    stats:matchesStarted 34 ;
+    stats:minutesPlayed 3005 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 1 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1725 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 1290 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1997-03-22"^^xsd:date ;
+    schema:description """Alex Meret (born 22 March 1997) is an Italian professional footballer who plays as a goalkeeper for Serie A club Napoli.\r
+\r
+Born in Udine, Meret began his career at an early age with amateur club Donatello Calcio before making a switch to the famous Udinese youth system in 2012. After rising through the academy system at the club, he made his senior debut in 2015. He later had spells on loan with SPAL, whom he helped win the Serie B title in 2017, and achieve promotion to Serie A. He joined Napoli in 2018.\r
+\r
+At international level, Meret has represented Italy at U16, U17, U18, U19 and U21 levels, and made his senior debut for Italy in 2019."""@en ;
+    schema:height "1.90 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ycb7qk1533744837.jpg"^^xsd:anyURI ;
+    schema:memberOf "Napoli"^^xsd:string ;
+    schema:name "Alex Meret"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "181 lbs"^^xsd:string .
+

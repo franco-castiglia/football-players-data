@@ -1,0 +1,64 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Soungoutou_Magassa a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q110390851> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/l80f1j1757019295.png"^^xsd:anyURI ;
+    foaf:name "Soungoutou Magassa"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 90 ;
+    stats:blocks 16 ;
+    stats:carries 386 ;
+    stats:clearances 19 ;
+    stats:dispossessed 13 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 0.5 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 21 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 11.4 ;
+    stats:matchesPlayed 21 ;
+    stats:matchesStarted 12 ;
+    stats:minutesPlayed 1025 ;
+    stats:miscontrols 12 ;
+    stats:passesIntoPenaltyArea 10 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 6 ;
+    stats:progressivePasses 63 ;
+    stats:progressivePassesReceived 11 ;
+    stats:rank 1565 ;
+    stats:redCards 1 ;
+    stats:tackles 47 ;
+    stats:tacklesWon 25 ;
+    stats:touches 781 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "2003-10-08"^^xsd:date ;
+    schema:description """Soungoutou Magassa is a French professional footballer who plays as a defensive midfielder and centre-back for English Premier League club West Ham United. \r
+\r
+Early life\r
+Soungoutou Magassa was born in Stains, Seine-Saint-Denis, playing football for several Francilian clubs before joining the Monaco academy in 2018.\r
+\r
+Club career\r
+Magassa signed his first professional contract with Monaco in April 2021, choosing them over other high-profile clubs seeking to sign him, including Roma and Milan. He made his professional debut for Monaco on 2 January 2022, replacing Wissam Ben Yedder during a 3–1 Coupe de France away win over Quevilly-Rouen in the round of 32.\r
+\r
+International career\r
+Of Malian descent, Soungoutou Magassa is eligible for both the French and Malian national teams. He was called up to the France U20s for the 2023 FIFA U-20 World Cup.\r
+\r
+Style of play\r
+Described as a box-to-box midfielder, Magassa is able to play both as a defensive midfielder and a centre-back. Good with both feet, he describes himself as a player good at winning the ball back and finding optimal passing options."""@en ;
+    schema:height "188 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/sv9yl41705663583.jpg"^^xsd:anyURI ;
+    schema:memberOf "West Ham United"^^xsd:string ;
+    schema:name "Soungoutou Magassa"^^xsd:string ;
+    schema:nationality "France"^^xsd:string .
+

@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:El_Bilal_Toure a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q84522640> ;
+    foaf:account "www.instagram.com/el_bilal_9/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/getyoo1731838245.png"^^xsd:anyURI ;
+    foaf:name "El Bilal Toure"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 8 ;
+    stats:blocks 1 ;
+    stats:carries 72 ;
+    stats:clearances 1 ;
+    stats:dispossessed 2 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.1 ;
+    stats:expectedGoals 1.6 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 7 ;
+    stats:matches90s 4.0 ;
+    stats:matchesPlayed 12 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 356 ;
+    stats:miscontrols 10 ;
+    stats:passesIntoPenaltyArea 4 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 6 ;
+    stats:progressivePasses 7 ;
+    stats:progressivePassesReceived 25 ;
+    stats:rank 333 ;
+    stats:redCards 0 ;
+    stats:tackles 4 ;
+    stats:tacklesWon 1 ;
+    stats:touches 137 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2001-10-03"^^xsd:date ;
+    schema:description "El Bilal Touré (born 3 October 2001) is a professional footballer who plays as a striker for Bundesliga club VfB Stuttgart, on loan from Serie A club Atalanta. Born in Ivory Coast, he represents the Mali national team."@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/1fsv2k1608647661.jpg"^^xsd:anyURI ;
+    schema:memberOf "Beşiktaş"^^xsd:string ;
+    schema:name "El Bilal Toure"^^xsd:string ;
+    schema:nationality "Ivory Coast"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

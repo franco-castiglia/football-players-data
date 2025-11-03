@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Toni_Lato a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q20898221> ;
+    foaf:account "twitter.com/tonilato3"^^xsd:anyURI,
+        "www.instagram.com/tonilato3/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/9pup4p1724407171.png"^^xsd:anyURI ;
+    foaf:name "Toni Lato"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 30 ;
+    stats:blocks 10 ;
+    stats:carries 155 ;
+    stats:clearances 33 ;
+    stats:dispossessed 2 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.4 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 6.9 ;
+    stats:matchesPlayed 14 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 621 ;
+    stats:miscontrols 6 ;
+    stats:passesIntoPenaltyArea 11 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:progressiveCarries 15 ;
+    stats:progressivePasses 26 ;
+    stats:progressivePassesReceived 35 ;
+    stats:rank 1453 ;
+    stats:redCards 1 ;
+    stats:tackles 17 ;
+    stats:tacklesWon 11 ;
+    stats:touches 396 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1997-11-21"^^xsd:date ;
+    schema:description """Antonio Latorre Grueso (born 21 November 1997), known as Toni Lato or simply Lato, is a Spanish professional footballer who plays as a left-back for La Liga club Mallorca.\r
+\r
+Formed at Valencia, he made over 90 appearances for the club, winning the Copa del Rey in 2019 and also featuring on loan at Osasuna in La Liga."""@en ;
+    schema:height "1.71 m (5 ft 7 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/0cciuz1724407244.jpg"^^xsd:anyURI ;
+    schema:memberOf "Mallorca"^^xsd:string ;
+    schema:name "Toni Lato"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "139 lbs"^^xsd:string .
+

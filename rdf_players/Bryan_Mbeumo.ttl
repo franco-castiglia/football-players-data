@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Bryan_Mbeumo a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q49561427> ;
+    foaf:account "www.instagram.com/bryan_.m19/"^^xsd:anyURI,
+        "x.com/BMbeumo19"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/op28s81755176679.png"^^xsd:anyURI ;
+    foaf:name "Bryan Mbeumo"^^xsd:string ;
+    stats:assists 7 ;
+    stats:ballRecoveries 156 ;
+    stats:blocks 26 ;
+    stats:carries 1077 ;
+    stats:clearances 55 ;
+    stats:dispossessed 47 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 8.3 ;
+    stats:expectedGoals 12.3 ;
+    stats:goals 20 ;
+    stats:goalsNonPenalty 15 ;
+    stats:interceptions 14 ;
+    stats:keyPasses 70 ;
+    stats:matches90s 37.9 ;
+    stats:matchesPlayed 38 ;
+    stats:matchesStarted 38 ;
+    stats:minutesPlayed 3414 ;
+    stats:miscontrols 106 ;
+    stats:passesIntoPenaltyArea 59 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:progressiveCarries 130 ;
+    stats:progressivePasses 141 ;
+    stats:progressivePassesReceived 351 ;
+    stats:rank 1694 ;
+    stats:redCards 0 ;
+    stats:tackles 49 ;
+    stats:tacklesWon 31 ;
+    stats:touches 1781 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1999-08-07"^^xsd:date ;
+    schema:description """Bryan Tetsadong Marceau Mbeumo (born 7 August 1999) is a professional footballer who plays as a right winger for Premier League club Manchester United. Born in France, he plays for the Cameroon national team.\r
+\r
+Mbeumo is a product of the Troyes AC academy and began his senior career with the club. He joined Brentford in 2019, and was a part of the squad which was promoted to the Premier League in 2021. Mbeumo was capped by France at youth international level and made his full international debut for Cameroon in 2022."""@en ;
+    schema:height "1.71 m (5 ft 7 1⁄2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ntsyk71608410198.jpg"^^xsd:anyURI ;
+    schema:memberOf "Manchester United"^^xsd:string ;
+    schema:name "Bryan Mbeumo"^^xsd:string ;
+    schema:nationality "Cameroon"^^xsd:string ;
+    schema:weight "139 lbs"^^xsd:string .
+

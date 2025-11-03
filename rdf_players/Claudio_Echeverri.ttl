@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Claudio_Echeverri a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q116463164> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/jbdnk91756315963.png"^^xsd:anyURI ;
+    foaf:name "Claudio Echeverri"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 1 ;
+    stats:blocks 0 ;
+    stats:carries 3 ;
+    stats:clearances 0 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.1 ;
+    stats:matchesPlayed 1 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 6 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 1 ;
+    stats:progressivePassesReceived 1 ;
+    stats:rank 810 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 0 ;
+    stats:touches 3 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2006-01-02"^^xsd:date ;
+    schema:description "Claudio Jeremías Echeverri (born 2 January 2006) is an Argentine professional footballer who plays as an attacking midfielder or winger for Bundesliga club Bayer Leverkusen, on loan from Premier League club Manchester City."@en ;
+    schema:height "1.71 m (5 ft 7 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/kefizm1716543240.jpg"^^xsd:anyURI ;
+    schema:memberOf "Bayer Leverkusen"^^xsd:string ;
+    schema:name "Claudio Echeverri"^^xsd:string ;
+    schema:nationality "Argentina"^^xsd:string ;
+    schema:weight "137 lbs"^^xsd:string .
+

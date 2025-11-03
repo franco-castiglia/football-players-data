@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Benat_Prados a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q106694910> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/d9sf4b1712481765.png"^^xsd:anyURI ;
+    foaf:name "Beñat Prados"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 91 ;
+    stats:blocks 21 ;
+    stats:carries 480 ;
+    stats:clearances 26 ;
+    stats:dispossessed 20 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.1 ;
+    stats:expectedGoals 1.0 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 28 ;
+    stats:keyPasses 11 ;
+    stats:matches90s 19.1 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 21 ;
+    stats:minutesPlayed 1715 ;
+    stats:miscontrols 25 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 20 ;
+    stats:progressivePasses 78 ;
+    stats:progressivePassesReceived 32 ;
+    stats:rank 2146 ;
+    stats:redCards 0 ;
+    stats:tackles 55 ;
+    stats:tacklesWon 36 ;
+    stats:touches 991 ;
+    stats:yellowCards 7 ;
+    schema:birthDate "2001-02-08"^^xsd:date ;
+    schema:description "Beñat Prados Díaz (born 8 February 2001) is a Spanish professional footballer who plays as a midfielder for Athletic Bilbao."@en ;
+    schema:height "1.80 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/b1g67e1712481701.jpg"^^xsd:anyURI ;
+    schema:memberOf "Athletic Bilbao"^^xsd:string ;
+    schema:name "Beñat Prados"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

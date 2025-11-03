@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Sergi_Canos a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q20977918> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/xg49s51725011557.png"^^xsd:anyURI ;
+    foaf:name "Sergi Canós"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 20 ;
+    stats:blocks 6 ;
+    stats:carries 124 ;
+    stats:clearances 5 ;
+    stats:dispossessed 5 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.5 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 4.1 ;
+    stats:matchesPlayed 17 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 370 ;
+    stats:miscontrols 13 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:progressiveCarries 7 ;
+    stats:progressivePasses 9 ;
+    stats:progressivePassesReceived 47 ;
+    stats:rank 466 ;
+    stats:redCards 0 ;
+    stats:tackles 11 ;
+    stats:tacklesWon 7 ;
+    stats:touches 231 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1997-02-03"^^xsd:date ;
+    schema:description """Sergi Canós Tenés (born 2 February 1997) is a Spanish professional footballer who plays as winger for La Liga club Valencia.\r
+\r
+Canós began his career in the Barcelona Academy and transferred to the Liverpool Academy in 2013. A fringe player at both Liverpool and his next club Norwich City, Canós transferred to Brentford in 2017, for whom he had previously played on loan from Liverpool during the 2015–16 season. By the time he returned to his native Spain to join Valencia in 2023, he had made more than 240 appearances for Brentford.\r
+\r
+Canós represented Spain between U15 and U19 level and has been described as a "quick attacking player". He is also a utility player, being adept as a winger, attacking midfielder, forward or right wing back."""@en ;
+    schema:height "1.77 m (5 ft 10 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/58twha1725011690.jpg"^^xsd:anyURI ;
+    schema:memberOf "Valencia"^^xsd:string ;
+    schema:name "Sergi Canós"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string .
+

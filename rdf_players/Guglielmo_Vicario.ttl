@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Guglielmo_Vicario a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q44083681> ;
+    foaf:account "http://www.instagram.com/guglielmovicario/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/5xu8ds1757015525.png"^^xsd:anyURI ;
+    foaf:name "Guglielmo Vicario"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 32 ;
+    stats:blocks 0 ;
+    stats:carries 661 ;
+    stats:clearances 14 ;
+    stats:dispossessed 0 ;
+    stats:errors 6 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 24.0 ;
+    stats:matchesPlayed 24 ;
+    stats:matchesStarted 24 ;
+    stats:minutesPlayed 2160 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 1 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 2703 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 928 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1996-10-07"^^xsd:date ;
+    schema:description "Guglielmo Vicario (born 7 October 1996) is an Italian professional footballer who plays as a goalkeeper for Premier League club Tottenham Hotspur."@en ;
+    schema:height "194cm / 6'4\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/evd0s01748760786.jpg"^^xsd:anyURI ;
+    schema:memberOf "Tottenham"^^xsd:string ;
+    schema:name "Guglielmo Vicario"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

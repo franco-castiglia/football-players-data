@@ -1,0 +1,67 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Sean_Longstaff a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q28542599> ;
+    foaf:account "www.instagram.com/seanlongstaff97/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/3iv6n21757076563.png"^^xsd:anyURI ;
+    foaf:name "Sean Longstaff"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 31 ;
+    stats:blocks 17 ;
+    stats:carries 248 ;
+    stats:clearances 8 ;
+    stats:dispossessed 7 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.6 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 7 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 8.9 ;
+    stats:matchesPlayed 25 ;
+    stats:matchesStarted 8 ;
+    stats:minutesPlayed 798 ;
+    stats:miscontrols 9 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 4 ;
+    stats:progressivePasses 40 ;
+    stats:progressivePassesReceived 22 ;
+    stats:rank 1513 ;
+    stats:redCards 0 ;
+    stats:tackles 27 ;
+    stats:tacklesWon 16 ;
+    stats:touches 434 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1997-10-30"^^xsd:date ;
+    schema:description """Sean David Longstaff (born 30 October 1997) is an English professional footballer who plays as a midfielder for Premier League club Leeds United. \r
+\r
+Longstaff began his career with the youth team of Newcastle United. He moved on loan to Scottish Premiership club Kilmarnock in January 2017, along with Callum Roberts and Freddie Woodman. He signed on loan for Blackpool in July 2017.\r
+\r
+Longstaff impressed manager Rafa Benítez in pre-season and was rewarded with a four-year contract in November 2018. Longstaff made his competitive first team debut against Nottingham Forest in the Carabao Cup in August 2018, before making his Premier League debut as a second-half substitute against Liverpool at Anfield the following December.  This was followed up by his first goal in the FA Cup replay against Blackburn Rovers before he put in a memorable performance by winning the penalty that gave Newcastle a 2–1 win over champions Manchester City in January 2019.\r
+\r
+On 26 February 2019, Longstaff scored his first Premier League goal for Newcastle in a 2–0 win over Burnley.\r
+\r
+In March 2019, Longstaff was ruled out for the rest of the 2018–19 season following a knee ligament injury.\r
+\r
+Raised in North Shields, Longstaff's younger brother Matty is a footballer who also plays for Newcastle United. Their father David is a former Great Britain ice hockey player, who featured over 100 times for the national side, and is still active as player-coach for the Whitley Warriors. David Longstaff is also the cousin of former England international Alan Thompson. They are not related to former Newcastle academy player Luis Longstaff.\r
+\r
+Longstaff's father stated that both Sean and Matty are lifelong fans of Newcastle United."""@en ;
+    schema:height "181 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/y0igyb1511457596.jpg"^^xsd:anyURI ;
+    schema:memberOf "Leeds United"^^xsd:string ;
+    schema:name "Sean Longstaff"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "141 lbs"^^xsd:string .
+

@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:James_Sands a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q39676661> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/y6omq01756310661.png"^^xsd:anyURI ;
+    foaf:name "James Sands"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 21 ;
+    stats:blocks 5 ;
+    stats:carries 119 ;
+    stats:clearances 8 ;
+    stats:dispossessed 3 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 5.0 ;
+    stats:matchesPlayed 7 ;
+    stats:matchesStarted 5 ;
+    stats:minutesPlayed 453 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 3 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 16 ;
+    stats:progressivePassesReceived 6 ;
+    stats:rank 2335 ;
+    stats:redCards 0 ;
+    stats:tackles 15 ;
+    stats:tacklesWon 6 ;
+    stats:touches 259 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2000-07-06"^^xsd:date ;
+    schema:description "James Hoban Sands (born July 6, 2000) is an American professional soccer player who plays as a center-back or defensive midfielder for Bundesliga club FC St. Pauli, on loan from Major League Soccer side New York City FC. He became NYCFC's first homegrown player in July 2017."@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ybyzxd1641850807.jpg"^^xsd:anyURI ;
+    schema:memberOf "St Pauli"^^xsd:string ;
+    schema:name "James Sands"^^xsd:string ;
+    schema:nationality "United States"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

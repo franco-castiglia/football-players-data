@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Neto a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q892981> ;
+    foaf:account "mobile.twitter.com/neto_murara"^^xsd:anyURI,
+        "www.instagram.com/netomurara/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/1p7fm31725293610.png"^^xsd:anyURI ;
+    foaf:name "Neto"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 3 ;
+    stats:blocks 0 ;
+    stats:carries 35 ;
+    stats:clearances 1 ;
+    stats:dispossessed 0 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 2.0 ;
+    stats:matchesPlayed 2 ;
+    stats:matchesStarted 2 ;
+    stats:minutesPlayed 180 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1883 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 70 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1989-07-19"^^xsd:date ;
+    schema:description """Norberto Murara Neto (born 19 July 1989), commonly known as Neto (Brazilian Portuguese: ), is a Brazilian professional footballer who plays as a goalkeeper for Botafogo. \r
+\r
+Neto began his career with Brazilian side Athletico Paranaense and later played for Italian side Fiorentina. He joined Juventus in 2015, where he won the domestic double in each of his two seasons with the club, serving as a back-up to starter Gianluigi Buffon in the league, but appearing in all of the club's games in both of their victorious Coppa Italia campaigns. From 2017, he played in Spain's La Liga as first choice for Valencia and back-up at Barcelona.\r
+\r
+He was first called up for the Brazil national team in 2010 but did not earn his first cap until 2018. He won a silver medal at the 2012 Olympics and was part of the nation's squad at the 2015 Copa América."""@en ;
+    schema:height "1.90 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/7b7lbj1532712608.jpg"^^xsd:anyURI ;
+    schema:memberOf "Botafogo"^^xsd:string ;
+    schema:name "Neto"^^xsd:string ;
+    schema:nationality "Brazil"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

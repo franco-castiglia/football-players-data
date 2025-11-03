@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Sebastian_Walukiewicz a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q58756940> ;
+    foaf:account "www.instagram.com/seba.walukiewicz/?hl=ur"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/coksr11697890567.png"^^xsd:anyURI ;
+    foaf:name "Sebastian Walukiewicz"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 52 ;
+    stats:blocks 21 ;
+    stats:carries 557 ;
+    stats:clearances 60 ;
+    stats:dispossessed 5 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 18 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 18.5 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 20 ;
+    stats:minutesPlayed 1661 ;
+    stats:miscontrols 9 ;
+    stats:passesIntoPenaltyArea 14 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 25 ;
+    stats:progressivePasses 80 ;
+    stats:progressivePassesReceived 31 ;
+    stats:rank 2742 ;
+    stats:redCards 0 ;
+    stats:tackles 38 ;
+    stats:tacklesWon 20 ;
+    stats:touches 1119 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "2000-04-05"^^xsd:date ;
+    schema:description "Sebastian Wiktor Walukiewicz (born 5 April 2000) is a Polish professional footballer who plays as a defender for Serie A club Sassuolo on loan from Torino and the Poland national team."@en ;
+    schema:height "6 ft 2 in (1.88 m)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/a5ss3f1607352233.jpg"^^xsd:anyURI ;
+    schema:memberOf "Sassuolo"^^xsd:string ;
+    schema:name "Sebastian Walukiewicz"^^xsd:string ;
+    schema:nationality "Poland"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

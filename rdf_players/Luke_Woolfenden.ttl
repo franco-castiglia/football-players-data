@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Luke_Woolfenden a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q35554570> ;
+    foaf:account "twitter.com/lukewoolfenden"^^xsd:anyURI,
+        "www.instagram.com/luke_woolfenden/?hl=en"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/0xiwef1761154163.png"^^xsd:anyURI ;
+    foaf:name "Luke Woolfenden"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 38 ;
+    stats:blocks 21 ;
+    stats:carries 368 ;
+    stats:clearances 76 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 19 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 13.2 ;
+    stats:matchesPlayed 15 ;
+    stats:matchesStarted 12 ;
+    stats:minutesPlayed 1187 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 7 ;
+    stats:progressivePasses 15 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 2791 ;
+    stats:redCards 0 ;
+    stats:tackles 9 ;
+    stats:tacklesWon 6 ;
+    stats:touches 694 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1998-10-21"^^xsd:date ;
+    schema:description "Luke Matthew Woolfenden is an English professional footballer who plays as a centre-back for Coventry City. Primarily a centre back, he can also play as a right back."@en ;
+    schema:height "6 ft 4 in (1.93 m)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/po3huy1543778217.jpg"^^xsd:anyURI ;
+    schema:memberOf "Coventry City"^^xsd:string ;
+    schema:name "Luke Woolfenden"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

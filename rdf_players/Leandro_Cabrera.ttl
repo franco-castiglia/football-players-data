@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Leandro_Cabrera a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2299030> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/o840fv1724580385.png"^^xsd:anyURI ;
+    foaf:name "Leandro Cabrera"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 83 ;
+    stats:blocks 35 ;
+    stats:carries 833 ;
+    stats:clearances 199 ;
+    stats:dispossessed 1 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 30 ;
+    stats:keyPasses 9 ;
+    stats:matches90s 31.9 ;
+    stats:matchesPlayed 33 ;
+    stats:matchesStarted 32 ;
+    stats:minutesPlayed 2869 ;
+    stats:miscontrols 9 ;
+    stats:passesIntoPenaltyArea 15 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 9 ;
+    stats:progressivePasses 69 ;
+    stats:progressivePassesReceived 6 ;
+    stats:rank 430 ;
+    stats:redCards 1 ;
+    stats:tackles 40 ;
+    stats:tacklesWon 23 ;
+    stats:touches 1796 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1991-07-17"^^xsd:date ;
+    schema:description """Leandro Daniel Cabrera Sasía (born 17 June 1991) is a Uruguayan footballer who plays for Spanish club RCD Espanyol. Mainly a central defender, he can also play as a left back.\r
+\r
+He spent the vast majority of his career in Spain, mostly in Segunda División. Other than in his own country, he also competed professionally in Italy."""@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/r1u0ir1626379284.jpg"^^xsd:anyURI ;
+    schema:memberOf "Espanyol"^^xsd:string ;
+    schema:name "Leandro Cabrera"^^xsd:string ;
+    schema:nationality "Uruguay"^^xsd:string ;
+    schema:weight "80 kg (176 lb)"^^xsd:string .
+

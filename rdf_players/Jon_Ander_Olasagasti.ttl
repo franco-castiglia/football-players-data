@@ -1,0 +1,51 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jon_Ander_Olasagasti a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q107035459> ;
+    foaf:name "Jon Ander Olasagasti"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 42 ;
+    stats:blocks 8 ;
+    stats:carries 258 ;
+    stats:clearances 10 ;
+    stats:dispossessed 4 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.8 ;
+    stats:expectedGoals 0.9 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 15 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 9.5 ;
+    stats:matchesPlayed 22 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 857 ;
+    stats:miscontrols 11 ;
+    stats:passesIntoPenaltyArea 8 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 11 ;
+    stats:progressivePasses 38 ;
+    stats:progressivePassesReceived 41 ;
+    stats:rank 1958 ;
+    stats:redCards 0 ;
+    stats:tackles 21 ;
+    stats:tacklesWon 10 ;
+    stats:touches 512 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "2000-08-16"^^xsd:date ;
+    schema:description "Jon Ander Olasagasti Imizcoz (born 16 August 2000) is a Spanish professional footballer who plays as a midfielder for Real Sociedad."@en ;
+    schema:height "1.76 m (5 ft 9 in)"^^xsd:string ;
+    schema:memberOf "Real Sociedad"^^xsd:string ;
+    schema:name "Jon Ander Olasagasti"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

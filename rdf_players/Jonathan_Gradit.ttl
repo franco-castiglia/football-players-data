@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Jonathan_Gradit a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q17579987> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/f25uo41702306177.png"^^xsd:anyURI ;
+    foaf:name "Jonathan Gradit"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 73 ;
+    stats:blocks 27 ;
+    stats:carries 865 ;
+    stats:clearances 122 ;
+    stats:dispossessed 3 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.7 ;
+    stats:expectedGoals 0.8 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 25 ;
+    stats:keyPasses 11 ;
+    stats:matches90s 23.5 ;
+    stats:matchesPlayed 25 ;
+    stats:matchesStarted 24 ;
+    stats:minutesPlayed 2112 ;
+    stats:miscontrols 11 ;
+    stats:passesIntoPenaltyArea 10 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 18 ;
+    stats:progressivePasses 127 ;
+    stats:progressivePassesReceived 4 ;
+    stats:rank 1053 ;
+    stats:redCards 0 ;
+    stats:tackles 44 ;
+    stats:tacklesWon 23 ;
+    stats:touches 1594 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "1992-11-24"^^xsd:date ;
+    schema:description """Jonathan Gradit (born 24 November 1992) is a French professional footballer who plays for RC Lens as a centre back.\r
+\r
+Career\r
+Gradit is a youth exponent from Tours. He made his Ligue 2 debut at 10 March 2014 against Angers SCO in a 2–0 home win."""@en ;
+    schema:height "1.80 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/7hbth91608329213.jpg"^^xsd:anyURI ;
+    schema:memberOf "Lens"^^xsd:string ;
+    schema:name "Jonathan Gradit"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "75 kg"^^xsd:string .
+

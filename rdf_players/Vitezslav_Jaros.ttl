@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Vitezslav_Jaros a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q112503285> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/pcg7sm1759497825.png"^^xsd:anyURI ;
+    foaf:name "Vitezslav Jaros"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 0 ;
+    stats:blocks 0 ;
+    stats:carries 7 ;
+    stats:clearances 0 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.1 ;
+    stats:matchesPlayed 1 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 12 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1246 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 8 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2001-07-23"^^xsd:date ;
+    schema:description "Vítězslav Jaroš (born 23 July 2001) is a Czech professional footballer who plays as a goalkeeper for Eredivisie club Ajax, on loan from Premier League club Liverpool and the Czech Republic national team."@en ;
+    schema:height "1.90 m"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/a812zk1717651904.jpg"^^xsd:anyURI ;
+    schema:memberOf "Ajax"^^xsd:string ;
+    schema:name "Vitezslav Jaros"^^xsd:string ;
+    schema:nationality "Czechia"^^xsd:string ;
+    schema:weight "192 lbs"^^xsd:string .
+

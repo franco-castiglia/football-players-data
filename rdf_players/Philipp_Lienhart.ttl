@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Philipp_Lienhart a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q20078774> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/5vzukw1742060284.png"^^xsd:anyURI ;
+    foaf:name "Philipp Lienhart"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 113 ;
+    stats:blocks 31 ;
+    stats:carries 1444 ;
+    stats:clearances 124 ;
+    stats:dispossessed 2 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 0.8 ;
+    stats:expectedGoals 0.5 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 36 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 30.8 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 31 ;
+    stats:minutesPlayed 2770 ;
+    stats:miscontrols 10 ;
+    stats:passesIntoPenaltyArea 9 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 44 ;
+    stats:progressivePasses 138 ;
+    stats:progressivePassesReceived 9 ;
+    stats:rank 1491 ;
+    stats:redCards 0 ;
+    stats:tackles 22 ;
+    stats:tacklesWon 13 ;
+    stats:touches 2520 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1996-07-11"^^xsd:date ;
+    schema:description "Philipp Lienhart (born 11 July 1996) is an Austrian footballer who plays for SC Freiburg as a central defender."@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/mqy4ri1622122767.jpg"^^xsd:anyURI ;
+    schema:memberOf "Freiburg"^^xsd:string ;
+    schema:name "Philipp Lienhart"^^xsd:string ;
+    schema:nationality "Austria"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

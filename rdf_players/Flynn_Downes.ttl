@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Flynn_Downes a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q34994628> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/6bmes61761322421.png"^^xsd:anyURI ;
+    foaf:name "Flynn Downes"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 83 ;
+    stats:blocks 28 ;
+    stats:carries 641 ;
+    stats:clearances 51 ;
+    stats:dispossessed 17 ;
+    stats:errors 4 ;
+    stats:expectedAssistedGoals 1.1 ;
+    stats:expectedGoals 0.6 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 32 ;
+    stats:keyPasses 15 ;
+    stats:matches90s 23.9 ;
+    stats:matchesPlayed 27 ;
+    stats:matchesStarted 25 ;
+    stats:minutesPlayed 2151 ;
+    stats:miscontrols 15 ;
+    stats:passesIntoPenaltyArea 12 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 29 ;
+    stats:progressivePasses 66 ;
+    stats:progressivePassesReceived 29 ;
+    stats:rank 786 ;
+    stats:redCards 0 ;
+    stats:tackles 49 ;
+    stats:tacklesWon 25 ;
+    stats:touches 1339 ;
+    stats:yellowCards 12 ;
+    schema:birthDate "1999-01-20"^^xsd:date ;
+    schema:description """Flynn Downes (born 20 January 1999) is an English professional footballer who plays as a defensive midfielder for EFL Championship club Southampton. \r
+He made his debut on 5 August 2017, coming on a substitute against Birmingham City. Flynn became a schoolboy player with Town during the 2012-13 season, and he became a full academy player with Town in July 2015, signing a two-year scholarship, before he was offered another one-year deal for the 2016-17 season.\r
+After impressing during pre-season, he signed a new three-year deal with the club  , which runs to the summer of 2020,\r
+\r
+On July 16, 2024 he  joined Southampton on a permanent transfer for an undisclosed fee."""@en ;
+    schema:height "178 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/80ig701716983609.jpg"^^xsd:anyURI ;
+    schema:memberOf "Southampton"^^xsd:string ;
+    schema:name "Flynn Downes"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

@@ -1,0 +1,50 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Eloge_Zabi_Gueu a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q132130306> ;
+    foaf:name "Eloge Zabi Gueu"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 3 ;
+    stats:blocks 0 ;
+    stats:carries 9 ;
+    stats:clearances 1 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 0.2 ;
+    stats:matchesPlayed 2 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 18 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 2 ;
+    stats:progressivePassesReceived 1 ;
+    stats:rank 2805 ;
+    stats:redCards 1 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 14 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2006-09-24"^^xsd:date ;
+    schema:height "191 cm"^^xsd:string ;
+    schema:memberOf "Stade de Reims"^^xsd:string ;
+    schema:name "Eloge Zabi Gueu"^^xsd:string ;
+    schema:nationality "Ivory Coast"^^xsd:string ;
+    schema:weight "80 kg"^^xsd:string .
+

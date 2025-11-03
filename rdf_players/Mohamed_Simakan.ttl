@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Mohamed_Simakan a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q60147292> ;
+    foaf:account "www.instagram.com/simakan2/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/0xzawc1679755437.png"^^xsd:anyURI ;
+    foaf:name "Mohamed Simakan"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 3 ;
+    stats:blocks 0 ;
+    stats:carries 27 ;
+    stats:clearances 0 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 2 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 0.6 ;
+    stats:matchesPlayed 1 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 54 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 3 ;
+    stats:progressivePasses 7 ;
+    stats:progressivePassesReceived 4 ;
+    stats:rank 2424 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 52 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2000-05-03"^^xsd:date ;
+    schema:description "Mohamed Sanousy Simakan (born 3 May 2000) is a French professional footballer who plays as a centre-back or right-back for Saudi Pro League club Al-Nassr."@en ;
+    schema:height "1.87 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/9qorix1607872199.jpg"^^xsd:anyURI ;
+    schema:memberOf "Al Nassr FC"^^xsd:string ;
+    schema:name "Mohamed Simakan"^^xsd:string ;
+    schema:nationality "France"^^xsd:string ;
+    schema:weight "181 lbs"^^xsd:string .
+

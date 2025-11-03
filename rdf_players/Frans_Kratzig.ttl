@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Frans_Kratzig a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q120837303> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/mopa9i1750685982.png"^^xsd:anyURI ;
+    foaf:name "Frans Krätzig"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 60 ;
+    stats:blocks 12 ;
+    stats:carries 372 ;
+    stats:clearances 15 ;
+    stats:dispossessed 8 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.8 ;
+    stats:expectedGoals 0.6 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 17 ;
+    stats:keyPasses 28 ;
+    stats:matches90s 13.5 ;
+    stats:matchesPlayed 16 ;
+    stats:matchesStarted 15 ;
+    stats:minutesPlayed 1217 ;
+    stats:miscontrols 21 ;
+    stats:passesIntoPenaltyArea 14 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 25 ;
+    stats:progressivePasses 37 ;
+    stats:progressivePassesReceived 57 ;
+    stats:rank 1412 ;
+    stats:redCards 0 ;
+    stats:tackles 32 ;
+    stats:tacklesWon 18 ;
+    stats:touches 676 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2003-01-14"^^xsd:date ;
+    schema:description "Frans Krätzig (born 14 January 2003) is a German professional footballer who plays as a full-back and midfielder for Bundesliga club 1. FC Heidenheim, on loan from Bayern Munich."@en ;
+    schema:height "5 ft 10 in (1.77 m)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/893pdk1699132049.jpg"^^xsd:anyURI ;
+    schema:memberOf "FC Heidenheim"^^xsd:string ;
+    schema:name "Frans Krätzig"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

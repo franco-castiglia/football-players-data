@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Saba_Goglichidze a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q113414679> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ayxlv01731105068.png"^^xsd:anyURI ;
+    foaf:name "Saba Goglichidze"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 108 ;
+    stats:blocks 36 ;
+    stats:carries 564 ;
+    stats:clearances 97 ;
+    stats:dispossessed 5 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 33 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 28.2 ;
+    stats:matchesPlayed 33 ;
+    stats:matchesStarted 29 ;
+    stats:minutesPlayed 2539 ;
+    stats:miscontrols 19 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 12 ;
+    stats:progressivePasses 45 ;
+    stats:progressivePassesReceived 9 ;
+    stats:rank 1016 ;
+    stats:redCards 1 ;
+    stats:tackles 64 ;
+    stats:tacklesWon 37 ;
+    stats:touches 1200 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2004-06-25"^^xsd:date ;
+    schema:description "Saba Goglichidze (Georgian: საბა გოგლიჩიძე; born 25 June 2004) is a Georgian footballer who plays as a defender for Italian Serie A club Empoli."@en ;
+    schema:height "1.93 m (6 ft 4 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/g9jbbh1731105008.jpg"^^xsd:anyURI ;
+    schema:memberOf "Empoli"^^xsd:string ;
+    schema:name "Saba Goglichidze"^^xsd:string ;
+    schema:nationality "Georgia"^^xsd:string ;
+    schema:weight "181 lbs"^^xsd:string .
+

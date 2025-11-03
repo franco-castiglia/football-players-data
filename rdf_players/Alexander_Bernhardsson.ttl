@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Alexander_Bernhardsson a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q76591341> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/cqyaxr1742067588.png"^^xsd:anyURI ;
+    foaf:name "Alexander Bernhardsson"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 45 ;
+    stats:blocks 14 ;
+    stats:carries 264 ;
+    stats:clearances 25 ;
+    stats:dispossessed 18 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.3 ;
+    stats:expectedGoals 4.1 ;
+    stats:goals 7 ;
+    stats:goalsNonPenalty 7 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 17 ;
+    stats:matches90s 14.0 ;
+    stats:matchesPlayed 19 ;
+    stats:matchesStarted 15 ;
+    stats:minutesPlayed 1263 ;
+    stats:miscontrols 36 ;
+    stats:passesIntoPenaltyArea 10 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Right Winger"^^xsd:string ;
+    stats:progressiveCarries 25 ;
+    stats:progressivePasses 33 ;
+    stats:progressivePassesReceived 72 ;
+    stats:rank 321 ;
+    stats:redCards 0 ;
+    stats:tackles 29 ;
+    stats:tacklesWon 15 ;
+    stats:touches 520 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1998-09-08"^^xsd:date ;
+    schema:description """Alexander Olof Bernhardsson (born 8 September 1998) is a Swedish professional footballer who plays as a forward for Bundesliga club Holstein Kiel.\r
+\r
+Bernhardsson made his full international debut for Sweden on 9 January 2023, playing for 90 minutes in a friendly 2–0 win against Finland."""@en ;
+    schema:height "185 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/lwn6g21695280173.jpg"^^xsd:anyURI ;
+    schema:memberOf "Holstein Kiel"^^xsd:string ;
+    schema:name "Alexander Bernhardsson"^^xsd:string ;
+    schema:nationality "Sweden"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

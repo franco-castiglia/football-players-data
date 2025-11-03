@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Amine_Harit a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q26034345> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/tn1y8q1724525279.png"^^xsd:anyURI ;
+    foaf:name "Amine Harit"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 24 ;
+    stats:blocks 6 ;
+    stats:carries 221 ;
+    stats:clearances 1 ;
+    stats:dispossessed 12 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 2.4 ;
+    stats:expectedGoals 0.8 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 3 ;
+    stats:keyPasses 19 ;
+    stats:matches90s 5.8 ;
+    stats:matchesPlayed 13 ;
+    stats:matchesStarted 8 ;
+    stats:minutesPlayed 519 ;
+    stats:miscontrols 15 ;
+    stats:passesIntoPenaltyArea 8 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:progressiveCarries 13 ;
+    stats:progressivePasses 35 ;
+    stats:progressivePassesReceived 34 ;
+    stats:rank 1127 ;
+    stats:redCards 1 ;
+    stats:tackles 8 ;
+    stats:tacklesWon 7 ;
+    stats:touches 313 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1997-06-18"^^xsd:date ;
+    schema:description "Amine Harit (Arabic: أمين حارث; born 18 June 1997) is a professional footballer who plays as an attacking midfielder for Ligue 1 club Marseille. Born in France, he plays for the Morocco national team."@en ;
+    schema:height "1.79 m (5 ft 10 1⁄2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/qesln41724525017.jpg"^^xsd:anyURI ;
+    schema:memberOf "Marseille"^^xsd:string ;
+    schema:name "Amine Harit"^^xsd:string ;
+    schema:nationality "Morocco"^^xsd:string ;
+    schema:weight "148 lbs"^^xsd:string .
+

@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Javier_Manquillo a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3163157> ;
+    foaf:account "twitter.com/javiermanquillo"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/7xf9gr1724492163.png"^^xsd:anyURI ;
+    foaf:name "Javier Manquillo"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 18 ;
+    stats:blocks 5 ;
+    stats:carries 248 ;
+    stats:clearances 14 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 7 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 5.7 ;
+    stats:matchesPlayed 10 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 515 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 3 ;
+    stats:progressivePasses 24 ;
+    stats:progressivePassesReceived 5 ;
+    stats:rank 1608 ;
+    stats:redCards 0 ;
+    stats:tackles 7 ;
+    stats:tacklesWon 5 ;
+    stats:touches 413 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1994-05-05"^^xsd:date ;
+    schema:description """Javier Manquillo Gaitán (born 5 May 1994) is a Spanish professional footballer who plays as a right-back for La Liga club Celta. \r
+\r
+Manquillo earned 25 caps for Spain at youth level, including seven for the under-21s. He made his debut on 4 September 2014, starting in a 1–0 win in Hungary for the 2015 UEFA European Under-21 Championship qualifiers."""@en ;
+    schema:height "1.80 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/t8mujm1723547077.jpg"^^xsd:anyURI ;
+    schema:memberOf "Celta Vigo"^^xsd:string ;
+    schema:name "Javier Manquillo"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

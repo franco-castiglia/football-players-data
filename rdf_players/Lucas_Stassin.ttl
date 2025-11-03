@@ -1,0 +1,51 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Lucas_Stassin a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q105955387> ;
+    foaf:name "Lucas Stassin"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 34 ;
+    stats:blocks 10 ;
+    stats:carries 326 ;
+    stats:clearances 8 ;
+    stats:dispossessed 20 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 3.4 ;
+    stats:expectedGoals 7.0 ;
+    stats:goals 12 ;
+    stats:goalsNonPenalty 12 ;
+    stats:interceptions 3 ;
+    stats:keyPasses 18 ;
+    stats:matches90s 21.0 ;
+    stats:matchesPlayed 28 ;
+    stats:matchesStarted 23 ;
+    stats:minutesPlayed 1887 ;
+    stats:miscontrols 57 ;
+    stats:passesIntoPenaltyArea 12 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Attacker"^^xsd:string ;
+    stats:progressiveCarries 26 ;
+    stats:progressivePasses 35 ;
+    stats:progressivePassesReceived 149 ;
+    stats:rank 2497 ;
+    stats:redCards 0 ;
+    stats:tackles 16 ;
+    stats:tacklesWon 11 ;
+    stats:touches 655 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2004-11-29"^^xsd:date ;
+    schema:description "Lucas Frédéric Stassin (born 29 November 2004) is a Belgian professional footballer who plays as a striker for Ligue 1 club Saint-Étienne."@en ;
+    schema:height "1.84 m (6 ft 0 in)"^^xsd:string ;
+    schema:memberOf "St Etienne"^^xsd:string ;
+    schema:name "Lucas Stassin"^^xsd:string ;
+    schema:nationality "Belgium"^^xsd:string ;
+    schema:weight "179 lbs"^^xsd:string .
+

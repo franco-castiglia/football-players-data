@@ -1,0 +1,52 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Daniel_Akinbiyi_Oyegoke a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q112847001> ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/678p3n1759246200.png"^^xsd:anyURI ;
+    foaf:name "Daniel Akinbiyi Oyegoke"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 5 ;
+    stats:blocks 1 ;
+    stats:carries 32 ;
+    stats:clearances 7 ;
+    stats:dispossessed 2 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 1 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 1.1 ;
+    stats:matchesPlayed 5 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 103 ;
+    stats:miscontrols 2 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Right-Back"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 2 ;
+    stats:progressivePassesReceived 5 ;
+    stats:rank 2014 ;
+    stats:redCards 0 ;
+    stats:tackles 2 ;
+    stats:tacklesWon 2 ;
+    stats:touches 65 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2003-01-03"^^xsd:date ;
+    schema:description """Daniel Oladele Akinbiyi Oyegoke (born 3 January 2003) is an English professional footballer who plays as a right-back for Serie A club Hellas Verona. \r
+Oyegoke is a product of the Barnet and Arsenal academies and began his professional career with Brentford in 2021. A member of the club's B team, he gained his first senior experience on loan at EFL clubs Milton Keynes Dons and Bradford City. After failing to break into the first team squad at Brentford, Oyegoke transferred to Heart of Midlothian in 2024. He has been capped by England at youth level."""@en ;
+    schema:height "5 ft 10 in"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/zvo8hw1722425174.jpg"^^xsd:anyURI ;
+    schema:memberOf "Verona"^^xsd:string ;
+    schema:name "Daniel Akinbiyi Oyegoke"^^xsd:string ;
+    schema:nationality "England"^^xsd:string .
+

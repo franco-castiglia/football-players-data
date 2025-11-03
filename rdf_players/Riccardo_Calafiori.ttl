@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Riccardo_Calafiori a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q97999586> ;
+    foaf:account "http://www.instagram.com/richycala/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/93ar5z1725292077.png"^^xsd:anyURI ;
+    foaf:name "Riccardo Calafiori"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 35 ;
+    stats:blocks 12 ;
+    stats:carries 308 ;
+    stats:clearances 25 ;
+    stats:dispossessed 5 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 0.9 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 9 ;
+    stats:keyPasses 6 ;
+    stats:matches90s 10.9 ;
+    stats:matchesPlayed 19 ;
+    stats:matchesStarted 11 ;
+    stats:minutesPlayed 983 ;
+    stats:miscontrols 12 ;
+    stats:passesIntoPenaltyArea 9 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 22 ;
+    stats:progressivePasses 54 ;
+    stats:progressivePassesReceived 29 ;
+    stats:rank 440 ;
+    stats:redCards 0 ;
+    stats:tackles 27 ;
+    stats:tacklesWon 19 ;
+    stats:touches 653 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2002-05-19"^^xsd:date ;
+    schema:description "Riccardo Calafiori (born 19 May 2002) is an Italian professional footballer who plays for Premier League club Arsenal.."@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/o1rf571610456166.jpg"^^xsd:anyURI ;
+    schema:memberOf "Arsenal"^^xsd:string ;
+    schema:name "Riccardo Calafiori"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "190 lbs"^^xsd:string .
+

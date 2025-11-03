@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Luis_Diaz a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q28531111> ;
+    foaf:account "twitter.com/luisfdiaz19"^^xsd:anyURI,
+        "www.instagram.com/luisdiaz19_/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/emmcyf1756408968.png"^^xsd:anyURI ;
+    foaf:name "Luis Díaz"^^xsd:string ;
+    stats:assists 5 ;
+    stats:ballRecoveries 105 ;
+    stats:blocks 19 ;
+    stats:carries 780 ;
+    stats:clearances 7 ;
+    stats:dispossessed 49 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 5.0 ;
+    stats:expectedGoals 12.0 ;
+    stats:goals 13 ;
+    stats:goalsNonPenalty 13 ;
+    stats:interceptions 7 ;
+    stats:keyPasses 56 ;
+    stats:matches90s 26.7 ;
+    stats:matchesPlayed 36 ;
+    stats:matchesStarted 28 ;
+    stats:minutesPlayed 2399 ;
+    stats:miscontrols 55 ;
+    stats:passesIntoPenaltyArea 46 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 2 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:progressiveCarries 108 ;
+    stats:progressivePasses 110 ;
+    stats:progressivePassesReceived 293 ;
+    stats:rank 724 ;
+    stats:redCards 0 ;
+    stats:tackles 39 ;
+    stats:tacklesWon 26 ;
+    stats:touches 1184 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1997-01-13"^^xsd:date ;
+    schema:description """Luis Fernando Díaz Marulanda (born 13 January 1997) is a Colombian professional footballer who plays as a left winger for Bundesliga club Bayern Munich and the Colombia national team. \r
+\r
+Díaz began his professional career in the Categoría Primera B at Barranquilla, before moving to Atlético Junior, winning Categoría Primera A, one Copa Colombia and one Superliga Colombiana. In 2019, he joined Porto for a reported fee of €7 million, winning two Primeira Liga titles, one Taça de Portugal, and one Supertaça Cândido de Oliveira. After 14 goals in 18 league games in the first half of 2021–22, Liverpool signed him in a transfer worth €45 million (£37.5 million). He won the EFL Cup and FA Cup in his first season, and was man of the match in the latter final.\r
+\r
+Díaz made his senior international debut for Colombia in 2018. He has earned over 50 caps for his national team, helping them to a third-place finish at the Copa América in 2021, where he was also awarded the Golden Boot, and a runner-up finish in 2024."""@en ;
+    schema:height "180 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/jgr7651723963556.jpg"^^xsd:anyURI ;
+    schema:memberOf "Bayern Munich"^^xsd:string ;
+    schema:name "Luis Díaz"^^xsd:string ;
+    schema:nationality "Colombia"^^xsd:string ;
+    schema:weight "141 lbs"^^xsd:string .
+

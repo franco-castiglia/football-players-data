@@ -1,0 +1,60 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Weston_McKennie a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q29998966> ;
+    foaf:account "http://www.instagram.com/west.mckennie/"^^xsd:anyURI,
+        "twitter.com/wmckennie"^^xsd:anyURI,
+        "www.facebook.com/WestonMcKennieOfficial/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/ct34v01759225325.png"^^xsd:anyURI ;
+    foaf:name "Weston McKennie"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 104 ;
+    stats:blocks 28 ;
+    stats:carries 719 ;
+    stats:clearances 37 ;
+    stats:dispossessed 26 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 3.6 ;
+    stats:expectedGoals 2.9 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 14 ;
+    stats:keyPasses 32 ;
+    stats:matches90s 25.7 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 27 ;
+    stats:minutesPlayed 2310 ;
+    stats:miscontrols 41 ;
+    stats:passesIntoPenaltyArea 22 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 28 ;
+    stats:progressivePasses 101 ;
+    stats:progressivePassesReceived 153 ;
+    stats:rank 1701 ;
+    stats:redCards 0 ;
+    stats:tackles 33 ;
+    stats:tacklesWon 12 ;
+    stats:touches 1350 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1998-08-28"^^xsd:date ;
+    schema:description """Weston James Earl McKennie (born August 28, 1998) is an American professional soccer player who plays as a midfielder for Serie A club Juventus, and the United States national team. A versatile player, McKennie is capable of playing in a multitude of positions in midfield—mainly as a box-to-box or as a deep-lying defensive midfielder.\r
+\r
+Coming through the youth system, McKennie began his senior club career at Bundesliga side Schalke 04. In 2017–18, he established himself as a first team player, playing 25 games in all competitions. After three seasons, McKennie moved to Italian champions Juventus on loan, with the deal becoming permanent in March 2021. With Juventus he won the 2020 Supercoppa Italiana and the 2020–21 Coppa Italia.\r
+\r
+McKennie has represented the United States internationally at both the youth and senior levels. He made his senior debut in 2017 and has finished runner-up in the 2019 CONCACAF Gold Cup and won the inaugural 2019-20 CONCACAF Nations League. Individually he won a U.S. Soccer Male Player of the Year award in 2020."""@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/k5lx3p1621545726.jpg"^^xsd:anyURI ;
+    schema:memberOf "Juventus"^^xsd:string ;
+    schema:name "Weston McKennie"^^xsd:string ;
+    schema:nationality "United States"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

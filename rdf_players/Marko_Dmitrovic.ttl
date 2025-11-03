@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Marko_Dmitrovic a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q4162928> ;
+    foaf:account "twitter.com/the_mitrovic1"^^xsd:anyURI,
+        "www.instagram.com/the_mitrovic1/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/t4d73z1724348172.png"^^xsd:anyURI ;
+    foaf:name "Marko Dmitrović"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 37 ;
+    stats:blocks 0 ;
+    stats:carries 542 ;
+    stats:clearances 27 ;
+    stats:dispossessed 0 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 1 ;
+    stats:matches90s 32.0 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 32 ;
+    stats:minutesPlayed 2880 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 1 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 753 ;
+    stats:redCards 0 ;
+    stats:tackles 1 ;
+    stats:tacklesWon 1 ;
+    stats:touches 1145 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1992-01-24"^^xsd:date ;
+    schema:description "Marko Dmitrović (Serbian Cyrillic: Марко Дмитровић, pronounced ; born 24 January 1992) is a Serbian professional footballer who plays for La Liga club Leganés as a goalkeeper. He has also previously played for the Serbia national team."@en ;
+    schema:height "1.94 m (6 ft 4 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/zjqhdl1603220112.jpg"^^xsd:anyURI ;
+    schema:memberOf "Leganes"^^xsd:string ;
+    schema:name "Marko Dmitrović"^^xsd:string ;
+    schema:nationality "Serbia"^^xsd:string ;
+    schema:weight "201 lbs"^^xsd:string .
+

@@ -1,0 +1,71 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ruben_Garcia a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q118521485> ;
+    foaf:account "twitter.com/rubengarcia14_"^^xsd:anyURI,
+        "www.instagram.com/rubengarcia/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/lpfy2u1678896973.png"^^xsd:anyURI ;
+    foaf:name "Ruben Garcia"^^xsd:string ;
+    stats:assists 5 ;
+    stats:ballRecoveries 122 ;
+    stats:blocks 37 ;
+    stats:carries 779 ;
+    stats:clearances 34 ;
+    stats:dispossessed 21 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 3.6 ;
+    stats:expectedGoals 3.2 ;
+    stats:goals 5 ;
+    stats:goalsNonPenalty 5 ;
+    stats:interceptions 15 ;
+    stats:keyPasses 49 ;
+    stats:matches90s 26.8 ;
+    stats:matchesPlayed 36 ;
+    stats:matchesStarted 30 ;
+    stats:minutesPlayed 2413 ;
+    stats:miscontrols 39 ;
+    stats:passesIntoPenaltyArea 31 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Winger"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 37 ;
+    stats:progressivePasses 112 ;
+    stats:progressivePassesReceived 157 ;
+    stats:rank 975 ;
+    stats:redCards 0 ;
+    stats:tackles 52 ;
+    stats:tacklesWon 31 ;
+    stats:touches 1467 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1993-07-14"^^xsd:date ;
+    schema:description """Rubén García Santos (born 14 July 1993) is a Spanish footballer who plays for CA Osasuna as a left winger.\r
+\r
+Levante\r
+Born in Valencia, Valencian Community, García graduated from local Levante UD's youth system, making his senior debut with the reserves in Tercera División. In 2011, he was linked with a move back to Valencia CF, but a deal could not be reached; on 31 January of the following year, he signed a professional contract running until 2016.\r
+\r
+On 2 September 2012, García made his first La Liga appearance, coming on as a substitute for Nabil El Zhar in a 3–2 home win over RCD Espanyol. On 21 October, in the same competition, he provided an assist to Míchel for the game's only goal against Getafe CF.\r
+\r
+García scored his first top level goal on 9 December 2012, in a 4–0 home win against RCD Mallorca. In January of the following year, he was permanently promoted to the first team, being assigned the number 11.\r
+\r
+On 28 July 2017, after contributing with 17 scoreless appearances to a promotion to the top flight, García was loaned to Segunda División club Sporting de Gijón for one year.\r
+\r
+Osasuna\r
+On 20 August 2018, García agreed to a three-year deal at fellow league side CA Osasuna on a free transfer – Levante also retained 50% of the player's federative rights. The following 21 June, after helping them achieve top tier promotion as champions, García was bought outright and extended his contract at the El Sadar Stadium until 2023.\r
+\r
+International career\r
+On 19 January 2012, García was called to train with the Spain under-19 side."""@en ;
+    schema:height "1.71 m (5 ft 7 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/wowysa1603136641.jpg"^^xsd:anyURI ;
+    schema:memberOf "Osasuna"^^xsd:string ;
+    schema:name "Ruben Garcia"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "72 kg"^^xsd:string .
+

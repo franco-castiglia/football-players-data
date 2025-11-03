@@ -1,0 +1,63 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Sidiki_Cherif a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q124219755> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/u36vr91725215987.png"^^xsd:anyURI ;
+    foaf:name "Sidiki Chérif"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 10 ;
+    stats:blocks 4 ;
+    stats:carries 71 ;
+    stats:clearances 0 ;
+    stats:dispossessed 9 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.2 ;
+    stats:expectedGoals 0.7 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 3.6 ;
+    stats:matchesPlayed 7 ;
+    stats:matchesStarted 3 ;
+    stats:minutesPlayed 324 ;
+    stats:miscontrols 11 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacker"^^xsd:string ;
+    stats:progressiveCarries 8 ;
+    stats:progressivePasses 3 ;
+    stats:progressivePassesReceived 16 ;
+    stats:rank 541 ;
+    stats:redCards 0 ;
+    stats:tackles 5 ;
+    stats:tacklesWon 5 ;
+    stats:touches 107 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2006-12-15"^^xsd:date ;
+    schema:description """Sidiki Cherif (born 15 December 2006) is a professional footballer who plays as a forward for Ligue 1 club Angers. Born in Guinea, he represents France at youth international level.\r
+\r
+Club career\r
+Born in Conakry, Cherif arrived in France at the age of 5. He is a youth product of US Bayard Saumur, Olympique Saumur and Angers, where he impressed with the under-19.\r
+\r
+In July 2023, he signed his first professional contract with Angers.\r
+\r
+Cherif made his professional debut with Angers in a 1–0 Ligue 2 away loss to Stade Lavallois on 9 January 2024.\r
+\r
+International career\r
+Born in France, Cherif also has Guinean origins. At youth level, he was called to the France under-16 team during the 2021–22 season."""@en ;
+    schema:height "185 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/3agwfj1725215928.jpg"^^xsd:anyURI ;
+    schema:memberOf "Angers"^^xsd:string ;
+    schema:name "Sidiki Chérif"^^xsd:string ;
+    schema:nationality "Guinea"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

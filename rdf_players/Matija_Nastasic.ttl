@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Matija_Nastasic a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q455787> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/s5iipd1701170924.png"^^xsd:anyURI ;
+    foaf:name "Matija Nastasic"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 50 ;
+    stats:blocks 39 ;
+    stats:carries 499 ;
+    stats:clearances 165 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 21 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 23.4 ;
+    stats:matchesPlayed 26 ;
+    stats:matchesStarted 24 ;
+    stats:minutesPlayed 2110 ;
+    stats:miscontrols 5 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 2 ;
+    stats:penaltiesWon 1 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 1 ;
+    stats:progressivePasses 59 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1858 ;
+    stats:redCards 0 ;
+    stats:tackles 25 ;
+    stats:tacklesWon 11 ;
+    stats:touches 1128 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1993-03-28"^^xsd:date ;
+    schema:description """Matija Nastasić (Serbian Cyrillic: Матија Настасић; born 28 March 1993) is a Serbian professional footballer who plays as a centre-back for the Serbia national team.\r
+\r
+He began his career at Partizan, and after a loan to Teleoptik joined Italian side Fiorentina in 2011. After one season there he transferred to Manchester City for €15 million and a swap with Stefan Savić, winning the Premier League in 2014, despite injury problems. In 2015, he joined Schalke, where he remained for seven years, before returning to Fiorentina in 2021.\r
+\r
+Nastasić made his senior international debut for Serbia in 2012, and has gone on to earn over 30 caps."""@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/g0wgs81724399928.jpg"^^xsd:anyURI ;
+    schema:memberOf "Leganes"^^xsd:string ;
+    schema:name "Matija Nastasic"^^xsd:string ;
+    schema:nationality "Serbia"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

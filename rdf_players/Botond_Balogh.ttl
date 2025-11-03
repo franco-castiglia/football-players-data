@@ -1,0 +1,59 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Botond_Balogh a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q99519622> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/w6942p1718878414.png"^^xsd:anyURI ;
+    foaf:name "Botond Balogh"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 64 ;
+    stats:blocks 34 ;
+    stats:carries 621 ;
+    stats:clearances 141 ;
+    stats:dispossessed 1 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 25 ;
+    stats:keyPasses 2 ;
+    stats:matches90s 22.8 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 23 ;
+    stats:minutesPlayed 2053 ;
+    stats:miscontrols 9 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 2 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 7 ;
+    stats:progressivePasses 37 ;
+    stats:progressivePassesReceived 1 ;
+    stats:rank 222 ;
+    stats:redCards 0 ;
+    stats:tackles 36 ;
+    stats:tacklesWon 16 ;
+    stats:touches 1228 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "2002-06-06"^^xsd:date ;
+    schema:description """Botond Balogh (born 6 Jun 2002) is a Hungarian professional footballer who plays as a defender for Serie B club Parma and the Hungary national team.\r
+\r
+Balogh was part of the Hungarian U-17 team at the 2019 UEFA European Under-17 Championship and 2019 FIFA U-17 World Cup.\r
+\r
+He made his debut for the Hungary senior national team on 12 November 2021 in a World Cup qualifier against San Marino.\r
+\r
+On 14 May 2024, Balogh was named in Hungary's squad for UEFA Euro 2024."""@en ;
+    schema:height "189 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/honz6a1610385429.jpg"^^xsd:anyURI ;
+    schema:memberOf "Kocaelispor"^^xsd:string ;
+    schema:name "Botond Balogh"^^xsd:string ;
+    schema:nationality "Hungary"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

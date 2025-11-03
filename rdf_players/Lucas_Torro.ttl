@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Lucas_Torro a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q15494540> ;
+    foaf:account "twitter.com/LucasTorro"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/1jn61x1725090451.png"^^xsd:anyURI ;
+    foaf:name "Lucas Torró"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 172 ;
+    stats:blocks 36 ;
+    stats:carries 736 ;
+    stats:clearances 70 ;
+    stats:dispossessed 23 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 1.2 ;
+    stats:expectedGoals 2.3 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 45 ;
+    stats:keyPasses 10 ;
+    stats:matches90s 32.9 ;
+    stats:matchesPlayed 35 ;
+    stats:matchesStarted 35 ;
+    stats:minutesPlayed 2957 ;
+    stats:miscontrols 42 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 2 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 10 ;
+    stats:progressivePasses 109 ;
+    stats:progressivePassesReceived 30 ;
+    stats:rank 2615 ;
+    stats:redCards 0 ;
+    stats:tackles 74 ;
+    stats:tacklesWon 41 ;
+    stats:touches 1706 ;
+    stats:yellowCards 10 ;
+    schema:birthDate "1994-07-19"^^xsd:date ;
+    schema:description "Lucas Torró Marset (born 19 July 1994) is a Spanish professional footballer who plays for La Liga club Osasuna as a central midfielder."@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/jg1har1725090608.jpg"^^xsd:anyURI ;
+    schema:memberOf "Osasuna"^^xsd:string ;
+    schema:name "Lucas Torró"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "170 lbs"^^xsd:string .
+

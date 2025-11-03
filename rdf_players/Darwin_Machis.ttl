@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Darwin_Machis a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2758078> ;
+    foaf:account "twitter.com/darwin_machis"^^xsd:anyURI,
+        "www.instagram.com/darwinmachis11/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/bfo4se1724777592.png"^^xsd:anyURI ;
+    foaf:name "Darwin Machís"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 34 ;
+    stats:blocks 3 ;
+    stats:carries 173 ;
+    stats:clearances 13 ;
+    stats:dispossessed 4 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 0.9 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 5 ;
+    stats:keyPasses 8 ;
+    stats:matches90s 7.1 ;
+    stats:matchesPlayed 18 ;
+    stats:matchesStarted 7 ;
+    stats:minutesPlayed 639 ;
+    stats:miscontrols 5 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left Wing"^^xsd:string ;
+    stats:progressiveCarries 17 ;
+    stats:progressivePasses 19 ;
+    stats:progressivePassesReceived 43 ;
+    stats:rank 1558 ;
+    stats:redCards 0 ;
+    stats:tackles 5 ;
+    stats:tacklesWon 4 ;
+    stats:touches 334 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1993-02-07"^^xsd:date ;
+    schema:description "Darwin Daniel Machís Marcano (born 7 February 1993) is a Venezuelan professional footballer who plays as a left winger for La Liga club Valladolid and the Venezuela national team."@en ;
+    schema:height "1.70 m (5 ft 7 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/9pj0ye1724777568.jpg"^^xsd:anyURI ;
+    schema:memberOf "Valladolid"^^xsd:string ;
+    schema:name "Darwin Machís"^^xsd:string ;
+    schema:nationality "Venezuela"^^xsd:string ;
+    schema:weight "150 lbs"^^xsd:string .
+

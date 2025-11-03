@@ -1,0 +1,62 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Andras_Schafer a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q56249797> ;
+    foaf:account "www.instagram.com/andras_schafer/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/7mce8n1742134907.png"^^xsd:anyURI ;
+    foaf:name "András Schäfer"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 72 ;
+    stats:blocks 33 ;
+    stats:carries 362 ;
+    stats:clearances 36 ;
+    stats:dispossessed 9 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 0.6 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 22 ;
+    stats:keyPasses 10 ;
+    stats:matches90s 17.0 ;
+    stats:matchesPlayed 26 ;
+    stats:matchesStarted 17 ;
+    stats:minutesPlayed 1534 ;
+    stats:miscontrols 27 ;
+    stats:passesIntoPenaltyArea 12 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 23 ;
+    stats:progressivePasses 55 ;
+    stats:progressivePassesReceived 42 ;
+    stats:rank 2368 ;
+    stats:redCards 0 ;
+    stats:tackles 52 ;
+    stats:tacklesWon 26 ;
+    stats:touches 799 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1999-04-13"^^xsd:date ;
+    schema:description """András Schäfer (born 13 April 1999) is a Hungarian professional footballer who plays as a left midfielder for Bundesliga club Union Berlin and the Hungary national team.\r
+\r
+Schäfer made his Hungarian League debut for MTK appearing as a substitute away at against Gyirmót on 1 April 2017.\r
+\r
+On 17 January 2020, he joined Dunajská Streda, playing in the Fortuna Liga on loan until the end of the 2019–20 season, with an option to purchase.\r
+\r
+Schäfer made his debut with the Hungary national team in a 1–0 UEFA Nations League win over Turkey on 3 September 2020.\r
+\r
+On 1 June 2021, he was included in the final 26-man squad to represent Hungary at the rescheduled UEFA Euro 2020 tournament. He scored his first international goal on 4 June 2021, in a 1–0 win against Cyprus."""@en ;
+    schema:height "178 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/c91yzo1623921928.jpg"^^xsd:anyURI ;
+    schema:memberOf "Union Berlin"^^xsd:string ;
+    schema:name "András Schäfer"^^xsd:string ;
+    schema:nationality "Hungary"^^xsd:string ;
+    schema:weight "152 lbs"^^xsd:string .
+

@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Gaetano_Oristanio a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q108215572> ;
+    foaf:account "www.instagram.com/gaetano_oristanio/"^^xsd:anyURI ;
+    foaf:depiction "https://www.thesportsdb.com/images/media/player/cutout/1ljtjv1759780766.png"^^xsd:anyURI ;
+    foaf:name "Gaetano Oristanio"^^xsd:string ;
+    stats:assists 3 ;
+    stats:ballRecoveries 84 ;
+    stats:blocks 16 ;
+    stats:carries 543 ;
+    stats:clearances 6 ;
+    stats:dispossessed 72 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 2.6 ;
+    stats:expectedGoals 4.1 ;
+    stats:goals 3 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 6 ;
+    stats:keyPasses 33 ;
+    stats:matches90s 25.7 ;
+    stats:matchesPlayed 37 ;
+    stats:matchesStarted 29 ;
+    stats:minutesPlayed 2315 ;
+    stats:miscontrols 80 ;
+    stats:passesIntoPenaltyArea 22 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 72 ;
+    stats:progressivePasses 64 ;
+    stats:progressivePassesReceived 131 ;
+    stats:rank 1990 ;
+    stats:redCards 0 ;
+    stats:tackles 17 ;
+    stats:tacklesWon 13 ;
+    stats:touches 758 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2002-09-28"^^xsd:date ;
+    schema:description "Gaetano Oristano is an Italian football player midfielder for Parma on loan from Venezia."@en ;
+    schema:height "175 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/s5mt9u1692622681.jpg"^^xsd:anyURI ;
+    schema:memberOf "Parma"^^xsd:string ;
+    schema:name "Gaetano Oristanio"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "137 lbs"^^xsd:string .
+

@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Adama_Boiro a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q124356417> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/sgupqu1725011239.png"^^xsd:anyURI ;
+    foaf:name "Adama Boiro"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 45 ;
+    stats:blocks 10 ;
+    stats:carries 288 ;
+    stats:clearances 27 ;
+    stats:dispossessed 15 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.5 ;
+    stats:expectedGoals 0.3 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 12 ;
+    stats:keyPasses 5 ;
+    stats:matches90s 12.2 ;
+    stats:matchesPlayed 18 ;
+    stats:matchesStarted 13 ;
+    stats:minutesPlayed 1101 ;
+    stats:miscontrols 23 ;
+    stats:passesIntoPenaltyArea 8 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:progressiveCarries 25 ;
+    stats:progressivePasses 46 ;
+    stats:progressivePassesReceived 36 ;
+    stats:rank 356 ;
+    stats:redCards 0 ;
+    stats:tackles 20 ;
+    stats:tacklesWon 11 ;
+    stats:touches 627 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "2002-06-22"^^xsd:date ;
+    schema:description "Adama Boiro Boiro (born 22 June 2002) is a footballer who plays as a left-back for Bilbao Athletic. Born in Senegal, he is a naturalised citizen of Spain."@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/nbpav51725011321.jpg"^^xsd:anyURI ;
+    schema:memberOf "Athletic Bilbao"^^xsd:string ;
+    schema:name "Adama Boiro"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "163 lbs"^^xsd:string .
+

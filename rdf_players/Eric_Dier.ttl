@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Eric_Dier a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1439915> ;
+    foaf:account "twitter.com/ericdier"^^xsd:anyURI,
+        "www.facebook.com/EricDierOfficial/"^^xsd:anyURI,
+        "www.instagram.com/ericdier15"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/n1whrg1741877633.png"^^xsd:anyURI ;
+    foaf:name "Eric Dier"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 80 ;
+    stats:blocks 19 ;
+    stats:carries 944 ;
+    stats:clearances 77 ;
+    stats:dispossessed 2 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 1.1 ;
+    stats:goals 2 ;
+    stats:goalsNonPenalty 2 ;
+    stats:interceptions 20 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 16.3 ;
+    stats:matchesPlayed 21 ;
+    stats:matchesStarted 16 ;
+    stats:minutesPlayed 1463 ;
+    stats:miscontrols 7 ;
+    stats:passesIntoPenaltyArea 5 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 12 ;
+    stats:progressivePasses 73 ;
+    stats:progressivePassesReceived 1 ;
+    stats:rank 730 ;
+    stats:redCards 0 ;
+    stats:tackles 19 ;
+    stats:tacklesWon 11 ;
+    stats:touches 1591 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1994-01-15"^^xsd:date ;
+    schema:description """Eric Jeremy Edgar Dier (born 15 January 1994) is an English professional footballer who plays as a defender for Bundesliga club Bayern Munich and the England national team.\r
+\r
+Dier grew up in Portugal, where he came through the youth ranks at Sporting CP, making his reserve and senior debuts in 2012. In 2014, he moved to English club Tottenham Hotspur for a fee of £4 million, going on to score 13 goals and total 365 appearances for the club, including in the 2015 Football League Cup final and the 2019 UEFA Champions League final. After ten years with Tottenham, he moved to Bayern Munich in January 2024, initially on loan, before a clause was activated in March 2024 to make the move permanent at the end of June that year.\r
+\r
+Despite interest from Portugal, Dier opted to represent England in international football. He made his debut for the senior team in November 2015, and was chosen for UEFA Euro 2016, the 2018 FIFA World Cup and the 2022 FIFA World Cup."""@en ;
+    schema:height "6 ft 2 in (1.88 m)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/atcy7g1509456947.jpg"^^xsd:anyURI ;
+    schema:memberOf "Monaco"^^xsd:string ;
+    schema:name "Eric Dier"^^xsd:string ;
+    schema:nationality "England"^^xsd:string ;
+    schema:weight "183 lbs"^^xsd:string .
+

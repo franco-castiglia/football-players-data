@@ -1,0 +1,56 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Edoardo_Goldaniga a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q17198160> ;
+    foaf:account "www.instagram.com/edoardogoldaniga/?hl=en"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/9mbobw1718965844.png"^^xsd:anyURI ;
+    foaf:name "Edoardo Goldaniga"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 74 ;
+    stats:blocks 21 ;
+    stats:carries 1008 ;
+    stats:clearances 102 ;
+    stats:dispossessed 8 ;
+    stats:errors 3 ;
+    stats:expectedAssistedGoals 0.3 ;
+    stats:expectedGoals 2.5 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 33 ;
+    stats:keyPasses 4 ;
+    stats:matches90s 28.1 ;
+    stats:matchesPlayed 32 ;
+    stats:matchesStarted 28 ;
+    stats:minutesPlayed 2532 ;
+    stats:miscontrols 10 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 20 ;
+    stats:progressivePasses 81 ;
+    stats:progressivePassesReceived 8 ;
+    stats:rank 1017 ;
+    stats:redCards 1 ;
+    stats:tackles 34 ;
+    stats:tacklesWon 21 ;
+    stats:touches 1757 ;
+    stats:yellowCards 12 ;
+    schema:birthDate "1993-11-02"^^xsd:date ;
+    schema:description """Edoardo Goldaniga (born 2 November 1993) is an Italian professional footballer who plays a defender for Serie A club Como.\r
+\r
+Goldaniga is part of the Italy U21 squad since April 2014, selected by coach Luigi Di Biagio, with whom he made his debut on 4 June 2014 in a friendly match against Montenegro. He has also featured for the Italy U20 squad on three occasions."""@en ;
+    schema:height "193 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/p8y4uh1607975860.jpg"^^xsd:anyURI ;
+    schema:memberOf "Como"^^xsd:string ;
+    schema:name "Edoardo Goldaniga"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "192 lbs"^^xsd:string .
+

@@ -1,0 +1,58 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Vitinha a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q105944494> ;
+    foaf:account "www.instagram.com/vitinha/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/tamphf1740131219.png"^^xsd:anyURI ;
+    foaf:name "Vitinha"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 144 ;
+    stats:blocks 26 ;
+    stats:carries 1756 ;
+    stats:clearances 19 ;
+    stats:dispossessed 19 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 2.6 ;
+    stats:expectedGoals 3.4 ;
+    stats:goals 5 ;
+    stats:goalsNonPenalty 3 ;
+    stats:interceptions 14 ;
+    stats:keyPasses 27 ;
+    stats:matches90s 22.7 ;
+    stats:matchesPlayed 29 ;
+    stats:matchesStarted 20 ;
+    stats:minutesPlayed 2042 ;
+    stats:miscontrols 30 ;
+    stats:passesIntoPenaltyArea 37 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 53 ;
+    stats:progressivePasses 224 ;
+    stats:progressivePassesReceived 57 ;
+    stats:rank 2719 ;
+    stats:redCards 0 ;
+    stats:tackles 43 ;
+    stats:tacklesWon 23 ;
+    stats:touches 2581 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "2000-02-13"^^xsd:date ;
+    schema:description """Vítor Machado Ferreira (born 13 February 2000), known as Vitinha (Portuguese pronunciation: ), is a Portuguese professional footballer who plays as a midfielder for Ligue 1 club Paris Saint-Germain and the Portugal national team.\r
+\r
+Coming through Porto's youth system, Vitinha impressed during his time with the reserve team before being promoted to the first-team in 2020, winning a domestic double of the Primeira Liga and the Taça de Portugal in his first season. He was loaned to Premier League club Wolverhampton Wanderers in September 2020, before returning the following season. He established himself as an integral player for Porto winning a second domestic double, being named in the Primeira Liga Team of the Year and the Best Young Player of the Year. In June 2022, he joined Paris Saint-Germain for a transfer worth €41.5 million.\r
+\r
+Vitinha is a former Portugal youth international, representing his country at various youth levels, being part of the under-19 and under-21 teams that finished as runners-up in the 2019 UEFA European Under-19 Championship and 2021 European Championship, respectively. He made his senior international debut in 2022."""@en ;
+    schema:height "1.72 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/vnyo421704446027.jpg"^^xsd:anyURI ;
+    schema:memberOf "Paris SG"^^xsd:string ;
+    schema:name "Vitinha"^^xsd:string ;
+    schema:nationality "Portugal"^^xsd:string ;
+    schema:weight "139 lbs"^^xsd:string .
+

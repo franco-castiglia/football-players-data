@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Alessandro_Vogliacco a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q59656067> ;
+    foaf:account "www.instagram.com/alexvogliacco_/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/82c4591697976692.png"^^xsd:anyURI ;
+    foaf:name "Alessandro Vogliacco"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 24 ;
+    stats:blocks 15 ;
+    stats:carries 370 ;
+    stats:clearances 37 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 3 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 8.6 ;
+    stats:matchesPlayed 10 ;
+    stats:matchesStarted 10 ;
+    stats:minutesPlayed 772 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 2 ;
+    stats:progressivePasses 21 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 2726 ;
+    stats:redCards 0 ;
+    stats:tackles 5 ;
+    stats:tacklesWon 2 ;
+    stats:touches 551 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1998-09-14"^^xsd:date ;
+    schema:description "Alessandro Vogliacco (born 14 September 1998) is an Italian professional footballer who plays as a centre-back for Serie A club Genoa."@en ;
+    schema:height "1.86 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ed1qw31682597224.jpg"^^xsd:anyURI ;
+    schema:memberOf "Genoa"^^xsd:string ;
+    schema:name "Alessandro Vogliacco"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "181 lbs"^^xsd:string .
+

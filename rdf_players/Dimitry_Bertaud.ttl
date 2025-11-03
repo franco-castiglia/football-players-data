@@ -1,0 +1,57 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Dimitry_Bertaud a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q30117958> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/swq9pq1681315387.png"^^xsd:anyURI ;
+    foaf:name "Dimitry Bertaud"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 2 ;
+    stats:blocks 0 ;
+    stats:carries 63 ;
+    stats:clearances 2 ;
+    stats:dispossessed 0 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 4.0 ;
+    stats:matchesPlayed 4 ;
+    stats:matchesStarted 4 ;
+    stats:minutesPlayed 360 ;
+    stats:miscontrols 0 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 325 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 122 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1998-06-06"^^xsd:date ;
+    schema:description """Dimitry Jean Sylvain Bertaud Yaka (born 6 June 1998) is a professional footballer who plays as a goalkeeper for Ligue 1 club Montpellier and the DR Congo national team.\r
+\r
+Bertaud first joined Montpellier at the age of 13 and within three years found himself training with the club's first and reserve teams. He made his professional debut for the club in 2019.\r
+\r
+Born in France, Bertaud has represented France internationally in various youth levels, first with the under-16s and later on from the under 19 level, all the way up to the France Olympic football team. He opted to play for the DR Congo national team at the senior level."""@en ;
+    schema:height "1.80 m (5 ft 9 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/byz5121608664224.jpg"^^xsd:anyURI ;
+    schema:memberOf "Montpellier"^^xsd:string ;
+    schema:name "Dimitry Bertaud"^^xsd:string ;
+    schema:nationality "DR Congo"^^xsd:string ;
+    schema:weight "185 lbs"^^xsd:string .
+

@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Eldor_Shomurodov a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q20641483> ;
+    foaf:account "www.instagram.com/shomurodov.eldor/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/pzj8ab1697923953.png"^^xsd:anyURI ;
+    foaf:name "Eldor Shomurodov"^^xsd:string ;
+    stats:assists 4 ;
+    stats:ballRecoveries 36 ;
+    stats:blocks 10 ;
+    stats:carries 246 ;
+    stats:clearances 5 ;
+    stats:dispossessed 19 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 1.3 ;
+    stats:expectedGoals 4.7 ;
+    stats:goals 4 ;
+    stats:goalsNonPenalty 4 ;
+    stats:interceptions 3 ;
+    stats:keyPasses 17 ;
+    stats:matches90s 12.2 ;
+    stats:matchesPlayed 27 ;
+    stats:matchesStarted 11 ;
+    stats:minutesPlayed 1097 ;
+    stats:miscontrols 49 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Forward"^^xsd:string ;
+    stats:progressiveCarries 19 ;
+    stats:progressivePasses 21 ;
+    stats:progressivePassesReceived 62 ;
+    stats:rank 2406 ;
+    stats:redCards 0 ;
+    stats:tackles 14 ;
+    stats:tacklesWon 6 ;
+    stats:touches 446 ;
+    stats:yellowCards 1 ;
+    schema:birthDate "1995-06-29"^^xsd:date ;
+    schema:description "Eldor Azamat oʻgʻli Shomurodov (born 29 June 1995) is an Uzbek professional footballer who plays as a striker for Basaksehir on loan from Serie A club  Roma and the Uzbekistan national team."@en ;
+    schema:height "1.90 m (6 ft 3 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/iv5mef1608646798.jpg"^^xsd:anyURI ;
+    schema:memberOf "İstanbul Başakşehir"^^xsd:string ;
+    schema:name "Eldor Shomurodov"^^xsd:string ;
+    schema:nationality "Uzbekistan"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

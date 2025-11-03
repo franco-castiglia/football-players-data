@@ -1,0 +1,61 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Danilo a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q437329> ;
+    foaf:account "pt-pt.facebook.com/danilofcp"^^xsd:anyURI,
+        "twitter.com/daaniloluiz"^^xsd:anyURI,
+        "www.instagram.com/daniluiz2"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/6hr4w81750454528.png"^^xsd:anyURI ;
+    foaf:name "Danilo"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 24 ;
+    stats:blocks 4 ;
+    stats:carries 381 ;
+    stats:clearances 21 ;
+    stats:dispossessed 2 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.4 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 9 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 6.5 ;
+    stats:matchesPlayed 12 ;
+    stats:matchesStarted 6 ;
+    stats:minutesPlayed 581 ;
+    stats:miscontrols 4 ;
+    stats:passesIntoPenaltyArea 2 ;
+    stats:penaltiesConceded 1 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:preferredFoot "Right"^^xsd:string ;
+    stats:progressiveCarries 16 ;
+    stats:progressivePasses 45 ;
+    stats:progressivePassesReceived 7 ;
+    stats:rank 656 ;
+    stats:redCards 0 ;
+    stats:tackles 10 ;
+    stats:tacklesWon 4 ;
+    stats:touches 625 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1991-07-15"^^xsd:date ;
+    schema:description """Danilo Luiz da Silva (born 15 July 1991), known as Danilo, is a Brazilian professional footballer who plays as a centre-back or right-back for and captains the Brazil national team.\r
+\r
+Danilo began his career with América Mineiro before moving to Santos, where he scored the goal that won the 2011 Copa Libertadores. In January 2012, he moved to Portuguese club Porto, where he won consecutive Primeira Liga titles. In 2015, he joined Real Madrid following a €31.5 million transfer fee. In 2017, he joined Manchester City. In 2019, having won two Premier League titles, an FA Cup and two EFL Cups with City, Danilo joined Juventus, winning the Serie A title during his first season with the club.\r
+\r
+Danilo was first capped by the senior Brazil team in 2011, also winning the 2011 U-20 World Cup and a silver medal at the 2012 Summer Olympics. He represented the nation at the FIFA World Cup in 2018 and 2022, and the Copa América in 2021 and 2024."""@en ;
+    schema:height "1.84 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/9qsyun1598691910.jpg"^^xsd:anyURI ;
+    schema:memberOf "Flamengo"^^xsd:string ;
+    schema:name "Danilo"^^xsd:string ;
+    schema:nationality "Brazil"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

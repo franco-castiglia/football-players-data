@@ -1,0 +1,66 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Oscar_Valentin a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q56224005> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/vutnsz1679059796.png"^^xsd:anyURI ;
+    foaf:name "Óscar Valentín"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 109 ;
+    stats:blocks 36 ;
+    stats:carries 509 ;
+    stats:clearances 51 ;
+    stats:dispossessed 8 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.9 ;
+    stats:expectedGoals 0.4 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 21 ;
+    stats:keyPasses 13 ;
+    stats:matches90s 20.4 ;
+    stats:matchesPlayed 34 ;
+    stats:matchesStarted 18 ;
+    stats:minutesPlayed 1835 ;
+    stats:miscontrols 18 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 13 ;
+    stats:progressivePasses 86 ;
+    stats:progressivePassesReceived 8 ;
+    stats:rank 2659 ;
+    stats:redCards 0 ;
+    stats:tackles 55 ;
+    stats:tacklesWon 41 ;
+    stats:touches 1068 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1994-08-20"^^xsd:date ;
+    schema:description """Óscar Valentín Martín Luengo (born 20 August 1994) is a Spanish professional footballer who plays for Rayo Vallecano as a central midfielder.\r
+\r
+Club career\r
+Born in Ajofrín, Toledo, Castile-La Mancha, Valentín finished his formation with CF Rayo Majadahonda, and made his senior debut during the 2012–13 campaign, in Tercera División. In 2013, he moved to fellow fourth division side Fútbol Alcobendas Sport.\r
+\r
+In July 2014, Valentín joined Rayo Vallecano and was immediately loaned back to Alcobendas. Upon returning, he was assigned to the reserves also in the fourth division.\r
+\r
+On 23 July 2016, Valentín joined Alcobendas on a permanent basis. The following 1 July, he returned to his former club Rayo Majadahonda, now assigned to the first team in Segunda División B.\r
+\r
+Valentín was a regular starter during the 2017–18 campaign, contributing with 33 league appearances as his side achieved promotion to Segunda División for the first time ever. He made his professional debut on 19 August 2018, starting in a 2–1 away loss against Real Zaragoza.\r
+\r
+Valentín scored his first professional goal on 12 May 2019, but in a 3–2 home loss against Albacete Balompié. He finished the campaign as an undisputed starter, as his team was immediately relegated back.\r
+\r
+On 25 June 2019, Valentín signed a four-year contract with Rayo Vallecano."""@en ;
+    schema:height "1.77 m (5 ft 8 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/epboiq1630065369.jpg"^^xsd:anyURI ;
+    schema:memberOf "Vallecano"^^xsd:string ;
+    schema:name "Óscar Valentín"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "159 lbs"^^xsd:string .
+

@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Maximilian_Mittelstadt a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q22998602> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/f8oxxq1742128276.png"^^xsd:anyURI ;
+    foaf:name "Maximilian Mittelstädt"^^xsd:string ;
+    stats:assists 7 ;
+    stats:ballRecoveries 119 ;
+    stats:blocks 47 ;
+    stats:carries 1251 ;
+    stats:clearances 96 ;
+    stats:dispossessed 8 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 4.7 ;
+    stats:expectedGoals 0.9 ;
+    stats:goals 1 ;
+    stats:goalsNonPenalty 1 ;
+    stats:interceptions 47 ;
+    stats:keyPasses 47 ;
+    stats:matches90s 27.4 ;
+    stats:matchesPlayed 31 ;
+    stats:matchesStarted 28 ;
+    stats:minutesPlayed 2469 ;
+    stats:miscontrols 24 ;
+    stats:passesIntoPenaltyArea 61 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Left-Back"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 62 ;
+    stats:progressivePasses 182 ;
+    stats:progressivePassesReceived 155 ;
+    stats:rank 1764 ;
+    stats:redCards 0 ;
+    stats:tackles 79 ;
+    stats:tacklesWon 54 ;
+    stats:touches 2385 ;
+    stats:yellowCards 5 ;
+    schema:birthDate "1997-03-18"^^xsd:date ;
+    schema:description "Maximilian Mittelstädt (born 18 March 1997) is a German footballer who plays as a left-back for Bundesliga club VfB Stuttgart and the Germany national team."@en ;
+    schema:height "180cm / 5'11\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ewe7q11578081020.jpg"^^xsd:anyURI ;
+    schema:memberOf "Stuttgart"^^xsd:string ;
+    schema:name "Maximilian Mittelstädt"^^xsd:string ;
+    schema:nationality "Germany"^^xsd:string ;
+    schema:weight "157 lbs"^^xsd:string .
+

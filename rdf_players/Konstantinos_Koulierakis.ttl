@@ -1,0 +1,53 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Konstantinos_Koulierakis a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q109605287> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/uzo9jr1742139489.png"^^xsd:anyURI ;
+    foaf:name "Konstantinos Koulierakis"^^xsd:string ;
+    stats:assists 2 ;
+    stats:ballRecoveries 93 ;
+    stats:blocks 34 ;
+    stats:carries 1049 ;
+    stats:clearances 147 ;
+    stats:dispossessed 2 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 1.0 ;
+    stats:expectedGoals 1.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 33 ;
+    stats:keyPasses 10 ;
+    stats:matches90s 27.4 ;
+    stats:matchesPlayed 30 ;
+    stats:matchesStarted 28 ;
+    stats:minutesPlayed 2468 ;
+    stats:miscontrols 18 ;
+    stats:passesIntoPenaltyArea 12 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Centre-Back"^^xsd:string ;
+    stats:progressiveCarries 20 ;
+    stats:progressivePasses 104 ;
+    stats:progressivePassesReceived 8 ;
+    stats:rank 1399 ;
+    stats:redCards 0 ;
+    stats:tackles 40 ;
+    stats:tacklesWon 20 ;
+    stats:touches 1886 ;
+    stats:yellowCards 4 ;
+    schema:birthDate "2003-11-28"^^xsd:date ;
+    schema:description "Konstantinos Koulierakis (Greek: Κωνσταντίνος Κουλιεράκης; born 28 November 2003) is a Greek professional footballer who plays as a centre-back for Bundesliga club VfL Wolfsburg and the Greece national team."@en ;
+    schema:height "1.85 m (6 ft 1 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/ln06gl1732225304.jpg"^^xsd:anyURI ;
+    schema:memberOf "Wolfsburg"^^xsd:string ;
+    schema:name "Konstantinos Koulierakis"^^xsd:string ;
+    schema:nationality "Greece"^^xsd:string ;
+    schema:weight "172 lbs"^^xsd:string .
+

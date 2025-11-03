@@ -1,0 +1,55 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Ander_Guevara a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q42383726> ;
+    foaf:account "twitter.com/guevara_ander"^^xsd:anyURI,
+        "www.instagram.com/anderguevara/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/5ayzlp1724491755.png"^^xsd:anyURI ;
+    foaf:name "Ander Guevara"^^xsd:string ;
+    stats:assists 1 ;
+    stats:ballRecoveries 120 ;
+    stats:blocks 21 ;
+    stats:carries 512 ;
+    stats:clearances 43 ;
+    stats:dispossessed 19 ;
+    stats:errors 1 ;
+    stats:expectedAssistedGoals 0.6 ;
+    stats:expectedGoals 0.9 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 14 ;
+    stats:keyPasses 12 ;
+    stats:matches90s 21.6 ;
+    stats:matchesPlayed 33 ;
+    stats:matchesStarted 20 ;
+    stats:minutesPlayed 1947 ;
+    stats:miscontrols 22 ;
+    stats:passesIntoPenaltyArea 11 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Midfielder"^^xsd:string ;
+    stats:progressiveCarries 14 ;
+    stats:progressivePasses 112 ;
+    stats:progressivePassesReceived 19 ;
+    stats:rank 1085 ;
+    stats:redCards 0 ;
+    stats:tackles 49 ;
+    stats:tacklesWon 30 ;
+    stats:touches 1208 ;
+    stats:yellowCards 3 ;
+    schema:birthDate "1997-07-07"^^xsd:date ;
+    schema:description "Ander Guevara Lajo (born 7 July 1997) is a Spanish professional footballer who plays as a central midfielder for La Liga club Alavés."@en ;
+    schema:height "1.80 m (5 ft 11 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/jte3pr1604835680.jpg"^^xsd:anyURI ;
+    schema:memberOf "Alaves"^^xsd:string ;
+    schema:name "Ander Guevara"^^xsd:string ;
+    schema:nationality "Spain"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

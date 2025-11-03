@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Caoimhin_Kelleher a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q64627435> ;
+    foaf:account "www.instagram.com/caoimhinkelleher98/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/gabotu1756990093.png"^^xsd:anyURI ;
+    foaf:name "Caoimhín Kelleher"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 18 ;
+    stats:blocks 0 ;
+    stats:carries 290 ;
+    stats:clearances 1 ;
+    stats:dispossessed 0 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.0 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 10.0 ;
+    stats:matchesPlayed 10 ;
+    stats:matchesStarted 10 ;
+    stats:minutesPlayed 900 ;
+    stats:miscontrols 1 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Goalkeeper"^^xsd:string ;
+    stats:progressiveCarries 0 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 0 ;
+    stats:rank 1339 ;
+    stats:redCards 0 ;
+    stats:tackles 0 ;
+    stats:tacklesWon 0 ;
+    stats:touches 398 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "1998-11-23"^^xsd:date ;
+    schema:description "Caoimhín Odhrán Kelleher (born 23 November 1998) is an Irish professional footballer who plays as a goalkeeper for Premier League club Brentford and the Republic of Ireland national team."@en ;
+    schema:height "1.88 m (6 ft 2 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/c50sfy1585670263.jpg"^^xsd:anyURI ;
+    schema:memberOf "Brentford"^^xsd:string ;
+    schema:name "Caoimhín Kelleher"^^xsd:string ;
+    schema:nationality "Ireland"^^xsd:string ;
+    schema:weight "161 lbs"^^xsd:string .
+

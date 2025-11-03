@@ -1,0 +1,76 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Simone_Pafundi a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q112112959> ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/wqhgpa1678458209.png"^^xsd:anyURI ;
+    foaf:name "Simone Pafundi"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 3 ;
+    stats:blocks 0 ;
+    stats:carries 56 ;
+    stats:clearances 1 ;
+    stats:dispossessed 1 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.7 ;
+    stats:expectedGoals 0.1 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 0 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 1.3 ;
+    stats:matchesPlayed 9 ;
+    stats:matchesStarted 0 ;
+    stats:minutesPlayed 116 ;
+    stats:miscontrols 2 ;
+    stats:passesIntoPenaltyArea 0 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Attacking Midfield"^^xsd:string ;
+    stats:preferredFoot "Left"^^xsd:string ;
+    stats:progressiveCarries 3 ;
+    stats:progressivePasses 0 ;
+    stats:progressivePassesReceived 7 ;
+    stats:rank 2023 ;
+    stats:redCards 0 ;
+    stats:tackles 3 ;
+    stats:tacklesWon 3 ;
+    stats:touches 95 ;
+    stats:yellowCards 0 ;
+    schema:birthDate "2006-03-14"^^xsd:date ;
+    schema:description """Simone Pafundi (born 14 March 2006) is an Italian professional footballer who plays as a forward for Serie A club Udinese and the Italian national team.\r
+\r
+Club career\r
+Born in Monfalcone, the city his parents had moved to from Naples, Pafundi started his footballing career with his hometown club UFM Monfalcone, until he got noticed by Udinese scouts during a youth tournament in 2014, and was signed by the Serie A side soon thereafter.\r
+\r
+Throughout the 2021–22 season, Pafundi emerged as a star player and a regular for the club's under-19 team, having scored six goals and provided seven assists in 16 games in the Campionato Primavera 2 at just sixteen years of age: around this period of time, he signed his first professional contract with Udinese and received his first call-ups to the club's first team.\r
+\r
+On 22 May 2022, at 16 years old, Pafundi made his professional debut for Udinese, coming on as a substitute for Roberto Pereyra at the 68th minute of the team's final league game of the season, a 4–0 away win over Salernitana. In the same occasion, he became the first player born in 2006 to take part in a Serie A match.\r
+\r
+International career\r
+Youth\r
+Pafundi represented Italy at several youth international levels, having played for the under-16 and under-17 national teams.\r
+\r
+Senior\r
+In May 2022, Pafundi was called-up by head coach Roberto Mancini to join a training camp with the Italy senior national team, as part of a stage reserved to the most promising players in the country.\r
+\r
+In November of the same year, he received his first official call-up to the senior national team for two friendlies against Albania and Austria. He eventually made his debut with the Azzurri on 16 November 2022, at 16 years old, playing the final minutes against Albania, thus becoming the third-youngest debutant in the history of the Italian national team, and the youngest debutant ever in the last 100 years.\r
+\r
+Style of play\r
+A short, left-footed trequartista, Pafundi has been regarded mainly for his ball control, vision and pace, which allow him to be a frequent threat in the final third, both as an assist-man and as a finisher. He has been compared to former Udinese captain and striker Antonio Di Natale.\r
+\r
+Personal life\r
+Pafundi has an older brother, Andrea (b. 2004), who is also a footballer: they played alongside each other in the youth ranks of Udinese."""@en ;
+    schema:height "166cm / 5'5\""^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/pbc4ju1678458170.jpg"^^xsd:anyURI ;
+    schema:memberOf "Sampdoria"^^xsd:string ;
+    schema:name "Simone Pafundi"^^xsd:string ;
+    schema:nationality "Italy"^^xsd:string ;
+    schema:weight "139 lbs"^^xsd:string .
+

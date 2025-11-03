@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Eray_Comert a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q24052364> ;
+    foaf:account "www.instagram.com/eray_coemert/"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/bsnj9o1705662652.png"^^xsd:anyURI ;
+    foaf:name "Eray Cömert"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 51 ;
+    stats:blocks 28 ;
+    stats:carries 599 ;
+    stats:clearances 75 ;
+    stats:dispossessed 2 ;
+    stats:errors 2 ;
+    stats:expectedAssistedGoals 0.0 ;
+    stats:expectedGoals 0.9 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 24 ;
+    stats:keyPasses 0 ;
+    stats:matches90s 19.8 ;
+    stats:matchesPlayed 25 ;
+    stats:matchesStarted 21 ;
+    stats:minutesPlayed 1779 ;
+    stats:miscontrols 16 ;
+    stats:passesIntoPenaltyArea 1 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Defender"^^xsd:string ;
+    stats:progressiveCarries 9 ;
+    stats:progressivePasses 48 ;
+    stats:progressivePassesReceived 5 ;
+    stats:rank 587 ;
+    stats:redCards 0 ;
+    stats:tackles 24 ;
+    stats:tacklesWon 14 ;
+    stats:touches 1114 ;
+    stats:yellowCards 6 ;
+    schema:birthDate "1998-02-04"^^xsd:date ;
+    schema:description "Eray Ervin Cömert (born 4 February 1998) is a Swiss professional footballer who plays as a defender for Ligue 1 club Nantes and the Switzerland national team."@en ;
+    schema:height "1.83 m (6 ft 0 in)"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/2y3kec1622890244.jpg"^^xsd:anyURI ;
+    schema:memberOf "Valladolid"^^xsd:string ;
+    schema:name "Eray Cömert"^^xsd:string ;
+    schema:nationality "Switzerland"^^xsd:string ;
+    schema:weight "174 lbs"^^xsd:string .
+

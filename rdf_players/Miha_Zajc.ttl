@@ -1,0 +1,54 @@
+@prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Miha_Zajc a foaf:Person,
+        schema:Athlete,
+        schema:SportsTeamMember ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16901322> ;
+    foaf:account "instagram.com/mihazajc?igshid=11lujeruxfllt"^^xsd:anyURI ;
+    foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ych3k21724848370.png"^^xsd:anyURI ;
+    foaf:name "Miha Zajc"^^xsd:string ;
+    stats:assists 0 ;
+    stats:ballRecoveries 14 ;
+    stats:blocks 2 ;
+    stats:carries 121 ;
+    stats:clearances 7 ;
+    stats:dispossessed 2 ;
+    stats:errors 0 ;
+    stats:expectedAssistedGoals 0.1 ;
+    stats:expectedGoals 0.2 ;
+    stats:goals 0 ;
+    stats:goalsNonPenalty 0 ;
+    stats:interceptions 3 ;
+    stats:keyPasses 3 ;
+    stats:matches90s 2.9 ;
+    stats:matchesPlayed 19 ;
+    stats:matchesStarted 1 ;
+    stats:minutesPlayed 262 ;
+    stats:miscontrols 3 ;
+    stats:passesIntoPenaltyArea 6 ;
+    stats:penaltiesConceded 0 ;
+    stats:penaltiesWon 0 ;
+    stats:position "Central Midfield"^^xsd:string ;
+    stats:progressiveCarries 7 ;
+    stats:progressivePasses 24 ;
+    stats:progressivePassesReceived 9 ;
+    stats:rank 2811 ;
+    stats:redCards 0 ;
+    stats:tackles 4 ;
+    stats:tacklesWon 4 ;
+    stats:touches 215 ;
+    stats:yellowCards 2 ;
+    schema:birthDate "1994-07-01"^^xsd:date ;
+    schema:description "Miha Zajc (born 1 July 1994) is a Slovenian footballer who plays as a midfielder for Ligue 1 club Toulouse, on loan from Fenerbahçe, and the Slovenia national team."@en ;
+    schema:height "178 cm"^^xsd:string ;
+    schema:image "https://r2.thesportsdb.com/images/media/player/thumb/91d2kz1546977845.jpg"^^xsd:anyURI ;
+    schema:memberOf "Toulouse"^^xsd:string ;
+    schema:name "Miha Zajc"^^xsd:string ;
+    schema:nationality "Slovenia"^^xsd:string ;
+    schema:weight "168 lbs"^^xsd:string .
+

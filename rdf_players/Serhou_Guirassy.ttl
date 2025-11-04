@@ -5,7 +5,7 @@
 @prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ex:Sehrou_Guirassy a foaf:Person,
+ex:Serhou_Guirassy a foaf:Person,
         schema:Athlete,
         schema:SportsTeamMember ;
     owl:sameAs <http://www.wikidata.org/wiki/Q18637429> ;

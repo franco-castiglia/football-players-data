@@ -13,7 +13,7 @@ ex:Sehrou_Guirassy a foaf:Person,
         "www.facebook.com/guirassy19/"^^xsd:anyURI,
         "www.instagram.com/guirassy19off/"^^xsd:anyURI ;
     foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/ljqkhh1756326306.png"^^xsd:anyURI ;
-    foaf:name "Sehrou Guirassy"^^xsd:string ;
+    foaf:name "Serhou Guirassy"^^xsd:string ;
     stats:assists 4 ;
     stats:ballRecoveries 45 ;
     stats:blocks 10 ;
@@ -51,7 +51,7 @@ ex:Sehrou_Guirassy a foaf:Person,
     schema:height "187cm / 6'2\""^^xsd:string ;
     schema:image "https://r2.thesportsdb.com/images/media/player/thumb/yxbsfb1570031114.jpg"^^xsd:anyURI ;
     schema:memberOf "Borussia Dortmund"^^xsd:string ;
-    schema:name "Sehrou Guirassy"^^xsd:string ;
+    schema:name "Serhou Guirassy"^^xsd:string ;
     schema:nationality "Guinea"^^xsd:string ;
     schema:weight "82kg / 181lbs"^^xsd:string .
 

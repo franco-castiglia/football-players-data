@@ -2143,7 +2143,6 @@
       <a href="rdf_players/Sebastiano_Esposito.ttl" class="player-link">Sebastiano Esposito</a>
       <a href="rdf_players/Sebastiano_Luperto.ttl" class="player-link">Sebastiano Luperto</a>
       <a href="rdf_players/Sebastien_Haller.ttl" class="player-link">Sebastien Haller</a>
-      <a href="rdf_players/Sehrou_Guirassy.ttl" class="player-link">Sehrou Guirassy</a>
       <a href="rdf_players/Seko_Fofana.ttl" class="player-link">Seko Fofana</a>
       <a href="rdf_players/Sekou_Mara.ttl" class="player-link">Sekou Mara</a>
       <a href="rdf_players/Selim_Amallah.ttl" class="player-link">Selim Amallah</a>
@@ -2167,6 +2166,7 @@
       <a href="rdf_players/Sergio_Gomez.ttl" class="player-link">Sergio Gomez</a>
       <a href="rdf_players/Sergio_Herrera.ttl" class="player-link">Sergio Herrera</a>
       <a href="rdf_players/Sergio_Reguilon.ttl" class="player-link">Sergio Reguilon</a>
+      <a href="rdf_players/Serhou_Guirassy.ttl" class="player-link">Serhou Guirassy</a>
       <a href="rdf_players/Seydouba_Cisse.ttl" class="player-link">Seydouba Cisse</a>
       <a href="rdf_players/Shavy_Babicka.ttl" class="player-link">Shavy Babicka</a>
       <a href="rdf_players/Sheraldo_Becker.ttl" class="player-link">Sheraldo Becker</a>

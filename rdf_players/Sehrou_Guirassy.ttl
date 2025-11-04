@@ -1,5 +1,6 @@
 @prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix schema: <https://schema.org/> .
 @prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -7,7 +8,7 @@
 ex:Sehrou_Guirassy a foaf:Person,
         schema:Athlete,
         schema:SportsTeamMember ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q18637429> ;
+    owl:sameAs <http://www.wikidata.org/wiki/Q18637429> ;
     foaf:account "twitter.com/guirassy_19"^^xsd:anyURI,
         "www.facebook.com/guirassy19/"^^xsd:anyURI,
         "www.instagram.com/guirassy19off/"^^xsd:anyURI ;

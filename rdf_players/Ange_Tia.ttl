@@ -1,5 +1,6 @@
 @prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix schema: <https://schema.org/> .
 @prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -7,7 +8,7 @@
 ex:Ange_Tia a foaf:Person,
         schema:Athlete,
         schema:SportsTeamMember ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q123464182> ;
+    owl:sameAs <http://www.wikidata.org/wiki/Q123464182> ;
     foaf:name "Ange Tia"^^xsd:string ;
     stats:assists 0 ;
     stats:ballRecoveries 12 ;

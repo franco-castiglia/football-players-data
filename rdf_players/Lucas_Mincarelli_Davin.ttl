@@ -1,5 +1,6 @@
 @prefix ex: <https://franco-castiglia.github.io/football-players-data/rdf_players/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix schema: <https://schema.org/> .
 @prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -7,7 +8,7 @@
 ex:Lucas_Mincarelli_Davin a foaf:Person,
         schema:Athlete,
         schema:SportsTeamMember ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q121422644> ;
+    owl:sameAs <http://www.wikidata.org/wiki/Q121422644> ;
     foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/dhsapz1702305644.png"^^xsd:anyURI ;
     foaf:name "Lucas Mincarelli Davin"^^xsd:string ;
     stats:assists 0 ;

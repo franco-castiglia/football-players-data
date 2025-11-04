@@ -7,7 +7,7 @@
 
 ex:Samuel_George_Edmundson a foaf:Person,
         schema:Athlete,
-        schema:SportsTeamMember ;  
+        schema:SportsTeamMember ;
     owl:sameAs <http://www.wikidata.org/entity/Q21005715> ;
     foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/iz0qwd1694894009.png"^^xsd:anyURI ;
     foaf:name "Samuel George Edmundson"^^xsd:string ;

@@ -34,7 +34,6 @@
     </style>
   </head>
   <body>
-    <h1>Football Players Data</h1>
     <div class="players-grid">
       <a href="rdf_players/Aaron_Cresswell.ttl" class="player-link">Aaron Cresswell</a>
       <a href="rdf_players/Aaron_Malouda.ttl" class="player-link">Aaron Malouda</a>

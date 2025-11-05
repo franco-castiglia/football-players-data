@@ -36,7 +36,6 @@ ex:Myron_Boadu a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 18 ;
     stats:progressivePassesReceived 70 ;
-    stats:rank 348 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 1 ;

@@ -37,7 +37,6 @@ ex:Pierre_Kalulu a foaf:Person,
     stats:progressiveCarries 48 ;
     stats:progressivePasses 117 ;
     stats:progressivePassesReceived 24 ;
-    stats:rank 1306 ;
     stats:redCards 1 ;
     stats:tackles 41 ;
     stats:tacklesWon 25 ;

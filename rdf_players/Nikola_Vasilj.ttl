@@ -36,7 +36,6 @@ ex:Nikola_Vasilj a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 0 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 2677 ;
     stats:redCards 1 ;
     stats:tackles 0 ;
     stats:tacklesWon 0 ;

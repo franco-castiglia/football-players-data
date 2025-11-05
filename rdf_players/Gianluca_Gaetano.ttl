@@ -37,7 +37,6 @@ ex:Gianluca_Gaetano a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 41 ;
     stats:progressivePassesReceived 82 ;
-    stats:rank 954 ;
     stats:redCards 0 ;
     stats:tackles 11 ;
     stats:tacklesWon 8 ;

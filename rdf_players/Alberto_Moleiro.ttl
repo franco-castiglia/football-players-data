@@ -36,7 +36,6 @@ ex:Alberto_Moleiro a foaf:Person,
     stats:progressiveCarries 97 ;
     stats:progressivePasses 116 ;
     stats:progressivePassesReceived 179 ;
-    stats:rank 1775 ;
     stats:redCards 0 ;
     stats:tackles 27 ;
     stats:tacklesWon 12 ;

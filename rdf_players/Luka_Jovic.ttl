@@ -38,7 +38,6 @@ ex:Luka_Jovic a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 26 ;
     stats:progressivePassesReceived 24 ;
-    stats:rank 1282 ;
     stats:redCards 0 ;
     stats:tackles 0 ;
     stats:tacklesWon 0 ;

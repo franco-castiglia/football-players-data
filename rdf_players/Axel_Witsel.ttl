@@ -40,7 +40,6 @@ ex:Axel_Witsel a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 21 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 2783 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 12 ;

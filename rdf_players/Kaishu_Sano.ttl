@@ -36,7 +36,6 @@ ex:Kaishu_Sano a foaf:Person,
     stats:progressiveCarries 53 ;
     stats:progressivePasses 159 ;
     stats:progressivePassesReceived 46 ;
-    stats:rank 2341 ;
     stats:redCards 0 ;
     stats:tackles 61 ;
     stats:tacklesWon 36 ;

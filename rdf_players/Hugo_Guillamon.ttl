@@ -38,7 +38,6 @@ ex:Hugo_Guillamon a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 15 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 1090 ;
     stats:redCards 0 ;
     stats:tackles 11 ;
     stats:tacklesWon 8 ;

@@ -38,7 +38,6 @@ ex:Yunus_Musah a foaf:Person,
     stats:progressiveCarries 51 ;
     stats:progressivePasses 84 ;
     stats:progressivePassesReceived 74 ;
-    stats:rank 1833 ;
     stats:redCards 0 ;
     stats:tackles 27 ;
     stats:tacklesWon 19 ;

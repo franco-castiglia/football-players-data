@@ -40,7 +40,6 @@ ex:Marcus_Rashford a foaf:Person,
     stats:progressiveCarries 20 ;
     stats:progressivePasses 21 ;
     stats:progressivePassesReceived 79 ;
-    stats:rank 2179 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 4 ;

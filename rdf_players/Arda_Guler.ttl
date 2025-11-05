@@ -37,7 +37,6 @@ ex:Arda_Guler a foaf:Person,
     stats:progressiveCarries 34 ;
     stats:progressivePasses 93 ;
     stats:progressivePassesReceived 86 ;
-    stats:rank 1097 ;
     stats:redCards 0 ;
     stats:tackles 30 ;
     stats:tacklesWon 16 ;

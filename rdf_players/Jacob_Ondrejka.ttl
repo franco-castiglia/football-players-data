@@ -36,7 +36,6 @@ ex:Jacob_Ondrejka a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 11 ;
     stats:progressivePassesReceived 21 ;
-    stats:rank 1975 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 6 ;

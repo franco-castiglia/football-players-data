@@ -36,7 +36,6 @@ ex:Luca_Jaquez a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 18 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 1245 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 0 ;

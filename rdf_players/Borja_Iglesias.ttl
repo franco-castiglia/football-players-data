@@ -38,7 +38,6 @@ ex:Borja_Iglesias a foaf:Person,
     stats:progressiveCarries 22 ;
     stats:progressivePasses 28 ;
     stats:progressivePassesReceived 108 ;
-    stats:rank 1205 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 9 ;

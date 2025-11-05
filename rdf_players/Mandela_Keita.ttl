@@ -36,7 +36,6 @@ ex:Mandela_Keita a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 50 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 1336 ;
     stats:redCards 1 ;
     stats:tackles 44 ;
     stats:tacklesWon 25 ;

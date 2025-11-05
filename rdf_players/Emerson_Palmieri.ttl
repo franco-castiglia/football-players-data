@@ -39,7 +39,6 @@ ex:Emerson_Palmieri a foaf:Person,
     stats:progressiveCarries 47 ;
     stats:progressivePasses 66 ;
     stats:progressivePassesReceived 83 ;
-    stats:rank 2035 ;
     stats:redCards 0 ;
     stats:tackles 60 ;
     stats:tacklesWon 31 ;

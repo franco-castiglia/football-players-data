@@ -39,7 +39,6 @@ ex:Ben_Davies a foaf:Person,
     stats:progressiveCarries 14 ;
     stats:progressivePasses 52 ;
     stats:progressivePassesReceived 6 ;
-    stats:rank 673 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 11 ;

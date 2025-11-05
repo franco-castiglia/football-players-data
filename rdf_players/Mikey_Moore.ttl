@@ -36,7 +36,6 @@ ex:Mikey_Moore a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 9 ;
     stats:progressivePassesReceived 40 ;
-    stats:rank 1782 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 1 ;

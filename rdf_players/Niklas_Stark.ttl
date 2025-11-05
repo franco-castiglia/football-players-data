@@ -36,7 +36,6 @@ ex:Niklas_Stark a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 62 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 2496 ;
     stats:redCards 1 ;
     stats:tackles 33 ;
     stats:tacklesWon 21 ;

@@ -37,7 +37,6 @@ ex:Jose_Maria_Gimenez a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 64 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 1621 ;
     stats:redCards 0 ;
     stats:tackles 26 ;
     stats:tacklesWon 16 ;

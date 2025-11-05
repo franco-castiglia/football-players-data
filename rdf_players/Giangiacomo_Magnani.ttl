@@ -37,7 +37,6 @@ ex:Giangiacomo_Magnani a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 31 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 1567 ;
     stats:redCards 0 ;
     stats:tackles 20 ;
     stats:tacklesWon 15 ;

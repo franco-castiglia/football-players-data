@@ -1,0 +1,165 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <https://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
+
+stats: a owl:Ontology ;
+    dct:title "Ontología de Estadísticas de Fútbol - Proyecto La Floresta"@es ;
+    dct:creator "Grupo La Floresta" ;
+    dct:description "Ontología que define las propiedades estadísticas utilizadas para describir el rendimiento de los jugadores de fútbol en el proyecto La Floresta."@es ;
+    dct:created "2025-10-30"^^xsd:date ;
+    owl:versionInfo "1.0" ;
+    dct:license <https://opensource.org/licenses/MIT> .
+
+stats:StatisticalAttribute a owl:Class ;
+    rdfs:label "Atributo Estadístico"@es ;
+    rdfs:comment "Atributo cuantitativo o cualitativo que describe el rendimiento o las características de un jugador de fútbol."@es ;
+    rdfs:subClassOf schema:PropertyValue .
+
+stats:matchesPlayed a owl:DatatypeProperty ;
+    rdfs:label "Partidos Jugados"@es ;
+    rdfs:comment "Número total de partidos disputados por el jugador."@es ;
+    rdfs:domain foaf:Person ;
+    rdfs:range xsd:integer .
+
+stats:matchesStarted a owl:DatatypeProperty ;
+    rdfs:label "Partidos como Titular"@es ;
+    rdfs:comment "Número de partidos en los que el jugador comenzó como titular."@es ;
+    rdfs:domain foaf:Person ;
+    rdfs:range xsd:integer .
+
+stats:minutesPlayed a owl:DatatypeProperty ;
+    rdfs:label "Minutos Jugados"@es ;
+    rdfs:comment "Cantidad total de minutos jugados por el jugador."@es ;
+    rdfs:domain foaf:Person ;
+    rdfs:range xsd:integer .
+
+stats:matches90s a owl:DatatypeProperty ;
+    rdfs:label "Equivalentes a 90 Minutos"@es ;
+    rdfs:comment "Cantidad de partidos equivalentes a 90 minutos disputados por el jugador."@es ;
+    rdfs:domain foaf:Person ;
+    rdfs:range xsd:decimal .
+
+stats:goals a owl:DatatypeProperty ;
+    rdfs:label "Goles"@es ;
+    rdfs:comment "Número total de goles convertidos por el jugador."@es ;
+    rdfs:domain foaf:Person ;
+    rdfs:range xsd:integer .
+
+stats:assists a owl:DatatypeProperty ;
+    rdfs:label "Asistencias"@es ;
+    rdfs:comment "Número total de asistencias realizadas por el jugador."@es ;
+    rdfs:domain foaf:Person ;
+    rdfs:range xsd:integer .
+
+stats:goalsNonPenalty a owl:DatatypeProperty ;
+    rdfs:label "Goles sin Penales"@es ;
+    rdfs:comment "Número de goles convertidos excluyendo los penales."@es ;
+    rdfs:domain foaf:Person ;
+    rdfs:range xsd:integer .
+
+stats:expectedGoals a owl:DatatypeProperty ;
+    rdfs:label "Goles Esperados (xG)"@es ;
+    rdfs:comment "Métrica que estima la probabilidad de gol según la calidad de las oportunidades."@es ;
+    rdfs:domain foaf:Person ;
+    rdfs:range xsd:decimal .
+
+stats:expectedAssistedGoals a owl:DatatypeProperty ;
+    rdfs:label "Asistencias Esperadas (xAG)"@es ;
+    rdfs:comment "Métrica que estima la calidad de las asistencias generadas por el jugador."@es ;
+    rdfs:domain foaf:Person ;
+    rdfs:range xsd:decimal .
+
+stats:tackles a owl:DatatypeProperty ;
+    rdfs:label "Entradas"@es ;
+    rdfs:comment "Número total de entradas realizadas por el jugador."@es ;
+    rdfs:domain foaf:Person ;
+    rdfs:range xsd:integer .
+
+stats:tacklesWon a owl:DatatypeProperty ;
+    rdfs:label "Entradas Ganadas"@es ;
+    rdfs:comment "Número de entradas exitosas realizadas por el jugador."@es ;
+    rdfs:domain foaf:Person ;
+    rdfs:range xsd:integer .
+
+stats:blocks a owl:DatatypeProperty ;
+    rdfs:label "Bloqueos"@es ;
+    rdfs:comment "Número de veces que el jugador bloqueó un disparo o pase rival."@es ;
+    rdfs:domain foaf:Person ;
+    rdfs:range xsd:integer .
+
+stats:interceptions a owl:DatatypeProperty ;
+    rdfs:label "Intercepciones"@es ;
+    rdfs:comment "Número total de veces que el jugador interceptó el balón."@es ;
+    rdfs:domain foaf:Person ;
+    rdfs:range xsd:integer .
+
+stats:clearances a owl:DatatypeProperty ;
+    rdfs:label "Despejes"@es ;
+    rdfs:comment "Número de despejes realizados por el jugador en zona defensiva."@es ;
+    rdfs:domain foaf:Person ;
+    rdfs:range xsd:integer .
+
+stats:errors a owl:DatatypeProperty ;
+    rdfs:label "Errores"@es ;
+    rdfs:comment "Errores cometidos que derivaron en tiros o goles del rival."@es ;
+    rdfs:domain foaf:Person ;
+    rdfs:range xsd:integer .
+
+stats:keyPasses a owl:DatatypeProperty ;
+    rdfs:label "Pases Clave"@es ;
+    rdfs:comment "Número de pases que generaron directamente una ocasión de gol."@es ;
+    rdfs:domain foaf:Person ;
+    rdfs:range xsd:integer .
+
+stats:passesIntoPenaltyArea a owl:DatatypeProperty ;
+    rdfs:label "Pases al Área"@es ;
+    rdfs:comment "Número de pases enviados hacia el área rival."@es ;
+    rdfs:domain foaf:Person ;
+    rdfs:range xsd:integer .
+
+stats:progressiveCarries a owl:DatatypeProperty ;
+    rdfs:label "Conducciones Progresivas"@es ;
+    rdfs:comment "Número de conducciones que avanzaron significativamente el balón hacia adelante."@es ;
+    rdfs:domain foaf:Person ;
+    rdfs:range xsd:integer .
+
+stats:progressivePasses a owl:DatatypeProperty ;
+    rdfs:label "Pases Progresivos"@es ;
+    rdfs:comment "Número de pases que hicieron progresar la jugada hacia el campo rival."@es ;
+    rdfs:domain foaf:Person ;
+    rdfs:range xsd:integer .
+
+stats:progressivePassesReceived a owl:DatatypeProperty ;
+    rdfs:label "Pases Progresivos Recibidos"@es ;
+    rdfs:comment "Número de veces que el jugador recibió con éxito un pase progresivo."@es ;
+    rdfs:domain foaf:Person ;
+    rdfs:range xsd:integer .
+
+stats:yellowCards a owl:DatatypeProperty ;
+    rdfs:label "Tarjetas Amarillas"@es ;
+    rdfs:comment "Número total de tarjetas amarillas recibidas por el jugador."@es ;
+    rdfs:domain foaf:Person ;
+    rdfs:range xsd:integer .
+
+stats:redCards a owl:DatatypeProperty ;
+    rdfs:label "Tarjetas Rojas"@es ;
+    rdfs:comment "Número total de tarjetas rojas recibidas por el jugador."@es ;
+    rdfs:domain foaf:Person ;
+    rdfs:range xsd:integer .
+
+stats:preferredFoot a owl:DatatypeProperty ;
+    rdfs:label "Pie Hábil"@es ;
+    rdfs:comment "Indica si el jugador utiliza predominantemente el pie izquierdo o derecho."@es ;
+    rdfs:domain foaf:Person ;
+    rdfs:range xsd:string .
+
+stats:position a owl:DatatypeProperty ;
+    rdfs:label "Posición"@es ;
+    rdfs:comment "Posición en la que juega el futbolista (por ejemplo: delantero, mediocampista, defensor, arquero)."@es ;
+    rdfs:domain foaf:Person ;
+    rdfs:range xsd:string .

@@ -39,7 +39,6 @@ ex:Douglas_Luiz a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 35 ;
     stats:progressivePassesReceived 12 ;
-    stats:rank 1537 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 8 ;

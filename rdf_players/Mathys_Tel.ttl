@@ -36,7 +36,6 @@ ex:Mathys_Tel a foaf:Person,
     stats:progressiveCarries 28 ;
     stats:progressivePasses 21 ;
     stats:progressivePassesReceived 72 ;
-    stats:rank 2566 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 6 ;

@@ -36,7 +36,6 @@ ex:Dennis_Appiah a foaf:Person,
     stats:progressiveCarries 51 ;
     stats:progressivePasses 108 ;
     stats:progressivePassesReceived 110 ;
-    stats:rank 140 ;
     stats:redCards 0 ;
     stats:tackles 71 ;
     stats:tacklesWon 43 ;

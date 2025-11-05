@@ -36,7 +36,6 @@ ex:Samuel_Lino a foaf:Person,
     stats:progressiveCarries 72 ;
     stats:progressivePasses 73 ;
     stats:progressivePassesReceived 179 ;
-    stats:rank 1497 ;
     stats:redCards 0 ;
     stats:tackles 33 ;
     stats:tacklesWon 17 ;

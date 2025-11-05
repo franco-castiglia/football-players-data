@@ -36,7 +36,6 @@ ex:Giorgos_Masouras a foaf:Person,
     stats:progressiveCarries 26 ;
     stats:progressivePasses 19 ;
     stats:progressivePassesReceived 82 ;
-    stats:rank 1663 ;
     stats:redCards 0 ;
     stats:tackles 18 ;
     stats:tacklesWon 10 ;

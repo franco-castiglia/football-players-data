@@ -36,7 +36,6 @@ ex:Samuel_Essende a foaf:Person,
     stats:progressiveCarries 33 ;
     stats:progressivePasses 21 ;
     stats:progressivePassesReceived 118 ;
-    stats:rank 855 ;
     stats:redCards 2 ;
     stats:tackles 7 ;
     stats:tacklesWon 6 ;

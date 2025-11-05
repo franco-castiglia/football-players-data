@@ -35,7 +35,6 @@ ex:Ismael_Bekhoucha_Lemlal a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 1 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 278 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 1 ;

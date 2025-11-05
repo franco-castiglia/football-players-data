@@ -35,7 +35,6 @@ ex:Shavy_Babicka a foaf:Person,
     stats:progressiveCarries 36 ;
     stats:progressivePasses 21 ;
     stats:progressivePassesReceived 122 ;
-    stats:rank 195 ;
     stats:redCards 0 ;
     stats:tackles 21 ;
     stats:tacklesWon 12 ;

@@ -40,7 +40,6 @@ ex:Bukayo_Saka a foaf:Person,
     stats:progressiveCarries 96 ;
     stats:progressivePasses 70 ;
     stats:progressivePassesReceived 255 ;
-    stats:rank 2300 ;
     stats:redCards 0 ;
     stats:tackles 29 ;
     stats:tacklesWon 15 ;

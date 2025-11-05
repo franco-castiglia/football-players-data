@@ -36,7 +36,6 @@ ex:Domen_Crnigoj a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 4 ;
     stats:progressivePassesReceived 6 ;
-    stats:rank 630 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 2 ;

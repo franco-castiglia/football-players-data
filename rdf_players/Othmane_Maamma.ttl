@@ -37,7 +37,6 @@ ex:Othmane_Maamma a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 2 ;
     stats:progressivePassesReceived 24 ;
-    stats:rank 1552 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 1 ;

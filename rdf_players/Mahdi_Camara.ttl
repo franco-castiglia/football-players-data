@@ -36,7 +36,6 @@ ex:Mahdi_Camara a foaf:Person,
     stats:progressiveCarries 58 ;
     stats:progressivePasses 111 ;
     stats:progressivePassesReceived 112 ;
-    stats:rank 449 ;
     stats:redCards 0 ;
     stats:tackles 71 ;
     stats:tacklesWon 40 ;

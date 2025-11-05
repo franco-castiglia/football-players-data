@@ -36,7 +36,6 @@ ex:Edon_Zhegrova a foaf:Person,
     stats:progressiveCarries 37 ;
     stats:progressivePasses 54 ;
     stats:progressivePassesReceived 81 ;
-    stats:rank 2838 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 2 ;

@@ -35,7 +35,6 @@ ex:Juma_Bah a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 13 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 202 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 7 ;

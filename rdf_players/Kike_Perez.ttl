@@ -36,7 +36,6 @@ ex:Kike_Perez a foaf:Person,
     stats:progressiveCarries 19 ;
     stats:progressivePasses 67 ;
     stats:progressivePassesReceived 28 ;
-    stats:rank 2093 ;
     stats:redCards 0 ;
     stats:tackles 37 ;
     stats:tacklesWon 26 ;

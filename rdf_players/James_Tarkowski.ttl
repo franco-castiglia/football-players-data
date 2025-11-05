@@ -37,7 +37,6 @@ ex:James_Tarkowski a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 75 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 2554 ;
     stats:redCards 0 ;
     stats:tackles 64 ;
     stats:tacklesWon 40 ;

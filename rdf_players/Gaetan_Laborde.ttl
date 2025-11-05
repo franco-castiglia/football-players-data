@@ -36,7 +36,6 @@ ex:Gaetan_Laborde a foaf:Person,
     stats:progressiveCarries 30 ;
     stats:progressivePasses 40 ;
     stats:progressivePassesReceived 131 ;
-    stats:rank 1433 ;
     stats:redCards 0 ;
     stats:tackles 19 ;
     stats:tacklesWon 13 ;

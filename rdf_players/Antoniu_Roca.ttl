@@ -35,7 +35,6 @@ ex:Antoniu_Roca a foaf:Person,
     stats:progressiveCarries 35 ;
     stats:progressivePasses 28 ;
     stats:progressivePassesReceived 63 ;
-    stats:rank 136 ;
     stats:redCards 0 ;
     stats:tackles 21 ;
     stats:tacklesWon 10 ;

@@ -36,7 +36,6 @@ ex:Patrick_Osterhage a foaf:Person,
     stats:progressiveCarries 26 ;
     stats:progressivePasses 73 ;
     stats:progressivePassesReceived 50 ;
-    stats:rank 1998 ;
     stats:redCards 1 ;
     stats:tackles 45 ;
     stats:tacklesWon 29 ;

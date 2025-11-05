@@ -36,7 +36,6 @@ ex:Patrick_Dorgu a foaf:Person,
     stats:progressiveCarries 68 ;
     stats:progressivePasses 54 ;
     stats:progressivePassesReceived 117 ;
-    stats:rank 768 ;
     stats:redCards 1 ;
     stats:tackles 45 ;
     stats:tacklesWon 27 ;

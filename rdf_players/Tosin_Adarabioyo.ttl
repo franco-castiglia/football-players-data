@@ -38,7 +38,6 @@ ex:Tosin_Adarabioyo a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 42 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 28 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 13 ;

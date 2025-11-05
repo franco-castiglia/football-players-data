@@ -40,7 +40,6 @@ ex:Luka_Modric a foaf:Person,
     stats:progressiveCarries 62 ;
     stats:progressivePasses 208 ;
     stats:progressivePassesReceived 63 ;
-    stats:rank 1769 ;
     stats:redCards 0 ;
     stats:tackles 31 ;
     stats:tacklesWon 20 ;

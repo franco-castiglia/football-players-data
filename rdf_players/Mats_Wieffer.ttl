@@ -37,7 +37,6 @@ ex:Mats_Wieffer a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 62 ;
     stats:progressivePassesReceived 23 ;
-    stats:rank 2766 ;
     stats:redCards 0 ;
     stats:tackles 58 ;
     stats:tacklesWon 34 ;

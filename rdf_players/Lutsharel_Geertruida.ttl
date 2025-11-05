@@ -37,7 +37,6 @@ ex:Lutsharel_Geertruida a foaf:Person,
     stats:progressiveCarries 21 ;
     stats:progressivePasses 93 ;
     stats:progressivePassesReceived 34 ;
-    stats:rank 989 ;
     stats:redCards 0 ;
     stats:tackles 35 ;
     stats:tacklesWon 24 ;

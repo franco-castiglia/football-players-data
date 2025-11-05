@@ -36,7 +36,6 @@ ex:Gabriel_Suazo a foaf:Person,
     stats:progressiveCarries 42 ;
     stats:progressivePasses 109 ;
     stats:progressivePassesReceived 118 ;
-    stats:rank 2518 ;
     stats:redCards 0 ;
     stats:tackles 59 ;
     stats:tacklesWon 39 ;

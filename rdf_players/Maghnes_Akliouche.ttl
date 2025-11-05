@@ -36,7 +36,6 @@ ex:Maghnes_Akliouche a foaf:Person,
     stats:progressiveCarries 127 ;
     stats:progressivePasses 173 ;
     stats:progressivePassesReceived 226 ;
-    stats:rank 67 ;
     stats:redCards 0 ;
     stats:tackles 51 ;
     stats:tacklesWon 31 ;

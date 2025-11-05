@@ -37,7 +37,6 @@ ex:Mikel_Oyarzabal a foaf:Person,
     stats:progressiveCarries 31 ;
     stats:progressivePasses 28 ;
     stats:progressivePassesReceived 133 ;
-    stats:rank 2013 ;
     stats:redCards 1 ;
     stats:tackles 25 ;
     stats:tacklesWon 16 ;

@@ -37,7 +37,6 @@ ex:Alvaro_Garcia a foaf:Person,
     stats:progressiveCarries 68 ;
     stats:progressivePasses 71 ;
     stats:progressivePassesReceived 245 ;
-    stats:rank 968 ;
     stats:redCards 0 ;
     stats:tackles 33 ;
     stats:tacklesWon 24 ;

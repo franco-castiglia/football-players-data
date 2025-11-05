@@ -40,7 +40,6 @@ ex:Daley_Blind a foaf:Person,
     stats:progressiveCarries 71 ;
     stats:progressivePasses 272 ;
     stats:progressivePassesReceived 61 ;
-    stats:rank 347 ;
     stats:redCards 0 ;
     stats:tackles 49 ;
     stats:tacklesWon 27 ;

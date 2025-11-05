@@ -36,7 +36,6 @@ ex:Jerome_Roussillon a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 11 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 2266 ;
     stats:redCards 0 ;
     stats:tackles 0 ;
     stats:tacklesWon 0 ;

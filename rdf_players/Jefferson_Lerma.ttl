@@ -36,7 +36,6 @@ ex:Jefferson_Lerma a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 97 ;
     stats:progressivePassesReceived 26 ;
-    stats:rank 1482 ;
     stats:redCards 0 ;
     stats:tackles 35 ;
     stats:tacklesWon 17 ;

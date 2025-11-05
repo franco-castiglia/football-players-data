@@ -36,7 +36,6 @@ ex:Willi_Orban a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 106 ;
     stats:progressivePassesReceived 8 ;
-    stats:rank 1987 ;
     stats:redCards 2 ;
     stats:tackles 38 ;
     stats:tacklesWon 21 ;

@@ -36,7 +36,6 @@ ex:Marco_Grull a foaf:Person,
     stats:progressiveCarries 24 ;
     stats:progressivePasses 38 ;
     stats:progressivePassesReceived 93 ;
-    stats:rank 1071 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 9 ;

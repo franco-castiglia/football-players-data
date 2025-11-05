@@ -39,7 +39,6 @@ ex:Gabriel_Martinelli a foaf:Person,
     stats:progressiveCarries 124 ;
     stats:progressivePasses 52 ;
     stats:progressivePassesReceived 289 ;
-    stats:rank 1645 ;
     stats:redCards 0 ;
     stats:tackles 23 ;
     stats:tacklesWon 15 ;

@@ -36,7 +36,6 @@ ex:Enzo_Loiodice a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 31 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 1512 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 7 ;

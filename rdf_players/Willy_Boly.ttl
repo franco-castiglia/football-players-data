@@ -37,7 +37,6 @@ ex:Willy_Boly a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 2 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 357 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 1 ;

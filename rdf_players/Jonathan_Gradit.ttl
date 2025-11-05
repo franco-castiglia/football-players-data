@@ -36,7 +36,6 @@ ex:Jonathan_Gradit a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 127 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 1053 ;
     stats:redCards 0 ;
     stats:tackles 44 ;
     stats:tacklesWon 23 ;

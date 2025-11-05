@@ -36,7 +36,6 @@ ex:Leopold_Querfeld a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 49 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 2159 ;
     stats:redCards 0 ;
     stats:tackles 25 ;
     stats:tacklesWon 12 ;

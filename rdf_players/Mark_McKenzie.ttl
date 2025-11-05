@@ -36,7 +36,6 @@ ex:Mark_McKenzie a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 97 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 1702 ;
     stats:redCards 1 ;
     stats:tackles 52 ;
     stats:tacklesWon 31 ;

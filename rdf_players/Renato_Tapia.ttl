@@ -39,7 +39,6 @@ ex:Renato_Tapia a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 83 ;
     stats:progressivePassesReceived 20 ;
-    stats:rank 2548 ;
     stats:redCards 0 ;
     stats:tackles 61 ;
     stats:tacklesWon 35 ;

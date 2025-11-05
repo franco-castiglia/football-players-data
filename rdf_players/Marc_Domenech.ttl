@@ -35,7 +35,6 @@ ex:Marc_Domenech a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 4 ;
     stats:progressivePassesReceived 21 ;
-    stats:rank 759 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 4 ;

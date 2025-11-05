@@ -36,7 +36,6 @@ ex:Dominik_Javorcek a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 4 ;
     stats:progressivePassesReceived 23 ;
-    stats:rank 1249 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 0 ;

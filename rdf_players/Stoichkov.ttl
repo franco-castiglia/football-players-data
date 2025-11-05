@@ -36,7 +36,6 @@ ex:Stoichkov a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 26 ;
     stats:progressivePassesReceived 41 ;
-    stats:rank 2509 ;
     stats:redCards 0 ;
     stats:tackles 14 ;
     stats:tacklesWon 9 ;

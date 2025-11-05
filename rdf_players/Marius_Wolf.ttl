@@ -36,7 +36,6 @@ ex:Marius_Wolf a foaf:Person,
     stats:progressiveCarries 36 ;
     stats:progressivePasses 117 ;
     stats:progressivePassesReceived 95 ;
-    stats:rank 2785 ;
     stats:redCards 0 ;
     stats:tackles 27 ;
     stats:tacklesWon 16 ;

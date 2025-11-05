@@ -35,7 +35,6 @@ ex:HamzatBasit_Ojediran a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 22 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 1949 ;
     stats:redCards 0 ;
     stats:tackles 28 ;
     stats:tacklesWon 15 ;

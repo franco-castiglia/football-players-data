@@ -36,7 +36,6 @@ ex:Jordan_Ferri a foaf:Person,
     stats:progressiveCarries 19 ;
     stats:progressivePasses 137 ;
     stats:progressivePassesReceived 42 ;
-    stats:rank 903 ;
     stats:redCards 1 ;
     stats:tackles 42 ;
     stats:tacklesWon 23 ;

@@ -38,7 +38,6 @@ ex:Alfonso_Pedraza a foaf:Person,
     stats:progressiveCarries 21 ;
     stats:progressivePasses 9 ;
     stats:progressivePassesReceived 43 ;
-    stats:rank 2060 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 2 ;

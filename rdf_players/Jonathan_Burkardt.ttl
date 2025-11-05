@@ -36,7 +36,6 @@ ex:Jonathan_Burkardt a foaf:Person,
     stats:progressiveCarries 32 ;
     stats:progressivePasses 42 ;
     stats:progressivePassesReceived 157 ;
-    stats:rank 416 ;
     stats:redCards 0 ;
     stats:tackles 15 ;
     stats:tacklesWon 8 ;

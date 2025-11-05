@@ -36,7 +36,6 @@ ex:Tobias_Collyer a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 5 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 581 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 9 ;

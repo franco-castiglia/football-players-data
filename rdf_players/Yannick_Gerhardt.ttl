@@ -36,7 +36,6 @@ ex:Yannick_Gerhardt a foaf:Person,
     stats:progressiveCarries 27 ;
     stats:progressivePasses 57 ;
     stats:progressivePassesReceived 63 ;
-    stats:rank 995 ;
     stats:redCards 1 ;
     stats:tackles 28 ;
     stats:tacklesWon 16 ;

@@ -38,7 +38,6 @@ ex:Cucho_Hernandez a foaf:Person,
     stats:progressiveCarries 27 ;
     stats:progressivePasses 34 ;
     stats:progressivePassesReceived 82 ;
-    stats:rank 635 ;
     stats:redCards 0 ;
     stats:tackles 15 ;
     stats:tacklesWon 10 ;

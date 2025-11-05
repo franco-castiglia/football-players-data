@@ -40,7 +40,6 @@ ex:Benjamin_Pavard a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 92 ;
     stats:progressivePassesReceived 26 ;
-    stats:rank 2051 ;
     stats:redCards 0 ;
     stats:tackles 29 ;
     stats:tacklesWon 16 ;

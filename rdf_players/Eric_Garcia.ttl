@@ -39,7 +39,6 @@ ex:Eric_Garcia a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 109 ;
     stats:progressivePassesReceived 22 ;
-    stats:rank 970 ;
     stats:redCards 0 ;
     stats:tackles 38 ;
     stats:tacklesWon 21 ;

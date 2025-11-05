@@ -36,7 +36,6 @@ ex:Maxence_Caqueret a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 76 ;
     stats:progressivePassesReceived 46 ;
-    stats:rank 474 ;
     stats:redCards 0 ;
     stats:tackles 36 ;
     stats:tacklesWon 21 ;

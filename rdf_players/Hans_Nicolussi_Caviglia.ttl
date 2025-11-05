@@ -38,7 +38,6 @@ ex:Hans_Nicolussi_Caviglia a foaf:Person,
     stats:progressiveCarries 20 ;
     stats:progressivePasses 140 ;
     stats:progressivePassesReceived 22 ;
-    stats:rank 1900 ;
     stats:redCards 1 ;
     stats:tackles 47 ;
     stats:tacklesWon 28 ;

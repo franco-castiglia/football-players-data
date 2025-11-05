@@ -36,7 +36,6 @@ ex:Armel_BellaKotchap a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 5 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 284 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 5 ;

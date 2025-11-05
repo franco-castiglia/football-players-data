@@ -39,7 +39,6 @@ ex:Danilo_D039Ambrosio a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 34 ;
     stats:progressivePassesReceived 16 ;
-    stats:rank 642 ;
     stats:redCards 1 ;
     stats:tackles 28 ;
     stats:tacklesWon 15 ;

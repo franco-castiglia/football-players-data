@@ -36,7 +36,6 @@ ex:Zinedine_Ferhat a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 40 ;
     stats:progressivePassesReceived 64 ;
-    stats:rank 891 ;
     stats:redCards 0 ;
     stats:tackles 9 ;
     stats:tacklesWon 7 ;

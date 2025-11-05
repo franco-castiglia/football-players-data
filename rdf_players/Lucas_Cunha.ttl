@@ -36,7 +36,6 @@ ex:Lucas_Cunha a foaf:Person,
     stats:progressiveCarries 63 ;
     stats:progressivePasses 154 ;
     stats:progressivePassesReceived 85 ;
-    stats:rank 643 ;
     stats:redCards 0 ;
     stats:tackles 45 ;
     stats:tacklesWon 25 ;

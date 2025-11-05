@@ -37,7 +37,6 @@ ex:Amad_Diallo a foaf:Person,
     stats:progressiveCarries 109 ;
     stats:progressivePasses 60 ;
     stats:progressivePassesReceived 200 ;
-    stats:rank 712 ;
     stats:redCards 0 ;
     stats:tackles 38 ;
     stats:tacklesWon 31 ;

@@ -36,7 +36,6 @@ ex:Phillip_Tietz a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 29 ;
     stats:progressivePassesReceived 113 ;
-    stats:rank 2597 ;
     stats:redCards 0 ;
     stats:tackles 11 ;
     stats:tacklesWon 6 ;

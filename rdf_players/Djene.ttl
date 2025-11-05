@@ -37,7 +37,6 @@ ex:Djene a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 74 ;
     stats:progressivePassesReceived 21 ;
-    stats:rank 750 ;
     stats:redCards 1 ;
     stats:tackles 25 ;
     stats:tacklesWon 13 ;

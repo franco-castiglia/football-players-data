@@ -36,7 +36,6 @@ ex:Lasso_Coulibaly a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 0 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 617 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 1 ;

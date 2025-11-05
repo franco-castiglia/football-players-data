@@ -36,7 +36,6 @@ ex:Finn_Dahmen a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 3 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 645 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 0 ;

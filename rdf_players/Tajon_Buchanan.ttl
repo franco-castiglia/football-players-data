@@ -36,7 +36,6 @@ ex:Tajon_Buchanan a foaf:Person,
     stats:progressiveCarries 19 ;
     stats:progressivePasses 5 ;
     stats:progressivePassesReceived 45 ;
-    stats:rank 405 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 5 ;

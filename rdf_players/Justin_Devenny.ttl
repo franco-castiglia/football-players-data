@@ -36,7 +36,6 @@ ex:Justin_Devenny a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 21 ;
     stats:progressivePassesReceived 13 ;
-    stats:rank 703 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 12 ;

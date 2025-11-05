@@ -38,7 +38,6 @@ ex:Mats_Hummels a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 26 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 1191 ;
     stats:redCards 0 ;
     stats:tackles 30 ;
     stats:tacklesWon 15 ;

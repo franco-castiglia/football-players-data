@@ -36,7 +36,6 @@ ex:Reinildo_Mandava a foaf:Person,
     stats:progressiveCarries 14 ;
     stats:progressivePasses 34 ;
     stats:progressivePassesReceived 15 ;
-    stats:rank 1601 ;
     stats:redCards 0 ;
     stats:tackles 18 ;
     stats:tacklesWon 11 ;

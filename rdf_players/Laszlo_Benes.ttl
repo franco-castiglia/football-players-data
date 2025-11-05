@@ -37,7 +37,6 @@ ex:Laszlo_Benes a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 28 ;
     stats:progressivePassesReceived 34 ;
-    stats:rank 297 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 2 ;

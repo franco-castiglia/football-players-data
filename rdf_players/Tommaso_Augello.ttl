@@ -38,7 +38,6 @@ ex:Tommaso_Augello a foaf:Person,
     stats:progressiveCarries 58 ;
     stats:progressivePasses 118 ;
     stats:progressivePassesReceived 113 ;
-    stats:rank 176 ;
     stats:redCards 0 ;
     stats:tackles 49 ;
     stats:tacklesWon 28 ;

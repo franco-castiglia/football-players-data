@@ -37,7 +37,6 @@ ex:Marc_Guehi a foaf:Person,
     stats:progressiveCarries 22 ;
     stats:progressivePasses 134 ;
     stats:progressivePassesReceived 10 ;
-    stats:rank 1080 ;
     stats:redCards 1 ;
     stats:tackles 61 ;
     stats:tacklesWon 34 ;

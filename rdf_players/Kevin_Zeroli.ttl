@@ -35,7 +35,6 @@ ex:Kevin_Zeroli a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 5 ;
     stats:progressivePassesReceived 8 ;
-    stats:rank 2832 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 2 ;

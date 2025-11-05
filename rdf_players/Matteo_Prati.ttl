@@ -37,7 +37,6 @@ ex:Matteo_Prati a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 23 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 2148 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 4 ;

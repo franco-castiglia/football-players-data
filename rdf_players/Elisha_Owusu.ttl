@@ -36,7 +36,6 @@ ex:Elisha_Owusu a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 78 ;
     stats:progressivePassesReceived 33 ;
-    stats:rank 2012 ;
     stats:redCards 0 ;
     stats:tackles 73 ;
     stats:tacklesWon 41 ;

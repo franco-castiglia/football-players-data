@@ -39,7 +39,6 @@ ex:Neco_Williams a foaf:Person,
     stats:progressiveCarries 68 ;
     stats:progressivePasses 89 ;
     stats:progressivePassesReceived 103 ;
-    stats:rank 2770 ;
     stats:redCards 0 ;
     stats:tackles 90 ;
     stats:tacklesWon 57 ;

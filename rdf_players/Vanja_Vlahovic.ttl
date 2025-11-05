@@ -36,7 +36,6 @@ ex:Vanja_Vlahovic a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 0 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 2723 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 1 ;

@@ -38,7 +38,6 @@ ex:Oliver_Skipp a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 35 ;
     stats:progressivePassesReceived 19 ;
-    stats:rank 2445 ;
     stats:redCards 0 ;
     stats:tackles 21 ;
     stats:tacklesWon 4 ;

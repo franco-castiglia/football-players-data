@@ -39,7 +39,6 @@ ex:Pedri a foaf:Person,
     stats:progressiveCarries 92 ;
     stats:progressivePasses 360 ;
     stats:progressivePassesReceived 136 ;
-    stats:rank 2061 ;
     stats:redCards 0 ;
     stats:tackles 61 ;
     stats:tacklesWon 34 ;

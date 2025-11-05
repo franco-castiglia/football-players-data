@@ -36,7 +36,6 @@ ex:Sergio_Carreira a foaf:Person,
     stats:progressiveCarries 39 ;
     stats:progressivePasses 53 ;
     stats:progressivePassesReceived 140 ;
-    stats:rank 492 ;
     stats:redCards 0 ;
     stats:tackles 28 ;
     stats:tacklesWon 16 ;

@@ -36,7 +36,6 @@ ex:Pere_Milla a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 13 ;
     stats:progressivePassesReceived 27 ;
-    stats:rank 1747 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 2 ;

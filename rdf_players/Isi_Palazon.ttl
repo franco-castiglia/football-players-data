@@ -36,7 +36,6 @@ ex:Isi_Palazon a foaf:Person,
     stats:progressiveCarries 30 ;
     stats:progressivePasses 117 ;
     stats:progressivePassesReceived 123 ;
-    stats:rank 2027 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 17 ;

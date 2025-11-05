@@ -38,7 +38,6 @@ ex:Mario_Hermoso a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 20 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 1149 ;
     stats:redCards 0 ;
     stats:tackles 0 ;
     stats:tacklesWon 0 ;

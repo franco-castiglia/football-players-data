@@ -37,7 +37,6 @@ ex:Brais_Mendez a foaf:Person,
     stats:progressiveCarries 32 ;
     stats:progressivePasses 91 ;
     stats:progressivePassesReceived 86 ;
-    stats:rank 1719 ;
     stats:redCards 0 ;
     stats:tackles 24 ;
     stats:tacklesWon 13 ;

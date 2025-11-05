@@ -37,7 +37,6 @@ ex:Pietro_Pellegri a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 8 ;
     stats:progressivePassesReceived 28 ;
-    stats:rank 2068 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 2 ;

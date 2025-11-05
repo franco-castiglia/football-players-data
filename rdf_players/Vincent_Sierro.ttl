@@ -36,7 +36,6 @@ ex:Vincent_Sierro a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 147 ;
     stats:progressivePassesReceived 27 ;
-    stats:rank 2410 ;
     stats:redCards 0 ;
     stats:tackles 44 ;
     stats:tacklesWon 27 ;

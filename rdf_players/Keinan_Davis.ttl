@@ -37,7 +37,6 @@ ex:Keinan_Davis a foaf:Person,
     stats:progressiveCarries 26 ;
     stats:progressivePasses 22 ;
     stats:progressivePassesReceived 77 ;
-    stats:rank 674 ;
     stats:redCards 0 ;
     stats:tackles 9 ;
     stats:tacklesWon 4 ;

@@ -36,7 +36,6 @@ ex:Bamba_Dieng a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 35 ;
-    stats:rank 729 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 1 ;

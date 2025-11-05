@@ -37,7 +37,6 @@ ex:Joachim_Andersen a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 112 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 123 ;
     stats:redCards 1 ;
     stats:tackles 27 ;
     stats:tacklesWon 18 ;

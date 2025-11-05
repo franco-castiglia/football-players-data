@@ -38,7 +38,6 @@ ex:Andreas_Pereira a foaf:Person,
     stats:progressiveCarries 29 ;
     stats:progressivePasses 104 ;
     stats:progressivePassesReceived 81 ;
-    stats:rank 2083 ;
     stats:redCards 0 ;
     stats:tackles 24 ;
     stats:tacklesWon 13 ;

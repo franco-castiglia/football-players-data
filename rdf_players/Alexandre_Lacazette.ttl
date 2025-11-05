@@ -39,7 +39,6 @@ ex:Alexandre_Lacazette a foaf:Person,
     stats:progressiveCarries 24 ;
     stats:progressivePasses 66 ;
     stats:progressivePassesReceived 159 ;
-    stats:rank 1435 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 6 ;

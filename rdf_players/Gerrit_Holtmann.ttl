@@ -37,7 +37,6 @@ ex:Gerrit_Holtmann a foaf:Person,
     stats:progressiveCarries 50 ;
     stats:progressivePasses 33 ;
     stats:progressivePassesReceived 97 ;
-    stats:rank 1178 ;
     stats:redCards 0 ;
     stats:tackles 24 ;
     stats:tacklesWon 19 ;

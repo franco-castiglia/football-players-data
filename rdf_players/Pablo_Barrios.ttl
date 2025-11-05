@@ -38,7 +38,6 @@ ex:Pablo_Barrios a foaf:Person,
     stats:progressiveCarries 29 ;
     stats:progressivePasses 142 ;
     stats:progressivePassesReceived 69 ;
-    stats:rank 251 ;
     stats:redCards 1 ;
     stats:tackles 46 ;
     stats:tacklesWon 26 ;

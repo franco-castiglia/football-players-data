@@ -36,7 +36,6 @@ ex:Adrian_Benedyczak a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 3 ;
     stats:progressivePassesReceived 12 ;
-    stats:rank 296 ;
     stats:redCards 0 ;
     stats:tackles 0 ;
     stats:tacklesWon 0 ;

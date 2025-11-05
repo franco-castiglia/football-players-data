@@ -35,7 +35,6 @@ ex:Theo_Chennahi a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 0 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 540 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 3 ;

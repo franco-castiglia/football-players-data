@@ -36,7 +36,6 @@ ex:Mykhailo_Mudryk a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 5 ;
     stats:progressivePassesReceived 12 ;
-    stats:rank 1811 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 2 ;

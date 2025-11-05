@@ -39,7 +39,6 @@ ex:Geoffrey_Kondogbia a foaf:Person,
     stats:progressiveCarries 20 ;
     stats:progressivePasses 105 ;
     stats:progressivePassesReceived 11 ;
-    stats:rank 1386 ;
     stats:redCards 0 ;
     stats:tackles 60 ;
     stats:tacklesWon 38 ;

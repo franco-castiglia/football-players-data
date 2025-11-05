@@ -36,7 +36,6 @@ ex:Dennis_Geiger a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 37 ;
     stats:progressivePassesReceived 21 ;
-    stats:rank 990 ;
     stats:redCards 0 ;
     stats:tackles 24 ;
     stats:tacklesWon 11 ;

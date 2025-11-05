@@ -36,7 +36,6 @@ ex:Abdoulaye_Ndiaye a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 39 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 1895 ;
     stats:redCards 1 ;
     stats:tackles 49 ;
     stats:tacklesWon 33 ;

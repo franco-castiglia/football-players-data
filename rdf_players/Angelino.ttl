@@ -39,7 +39,6 @@ ex:Angelino a foaf:Person,
     stats:progressiveCarries 66 ;
     stats:progressivePasses 172 ;
     stats:progressivePassesReceived 172 ;
-    stats:rank 129 ;
     stats:redCards 0 ;
     stats:tackles 46 ;
     stats:tacklesWon 24 ;

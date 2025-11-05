@@ -37,7 +37,6 @@ ex:Chimuanya_Ugochukwu a foaf:Person,
     stats:progressiveCarries 29 ;
     stats:progressivePasses 49 ;
     stats:progressivePassesReceived 20 ;
-    stats:rank 2646 ;
     stats:redCards 0 ;
     stats:tackles 50 ;
     stats:tacklesWon 24 ;

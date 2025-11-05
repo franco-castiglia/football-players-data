@@ -37,7 +37,6 @@ ex:Kobbie_Mainoo a foaf:Person,
     stats:progressiveCarries 22 ;
     stats:progressivePasses 65 ;
     stats:progressivePassesReceived 47 ;
-    stats:rank 1575 ;
     stats:redCards 0 ;
     stats:tackles 46 ;
     stats:tacklesWon 29 ;

@@ -35,7 +35,6 @@ ex:Noah_Edjouma a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 17 ;
-    stats:rank 813 ;
     stats:redCards 1 ;
     stats:tackles 2 ;
     stats:tacklesWon 2 ;

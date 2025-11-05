@@ -36,7 +36,6 @@ ex:Pau_Victor a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 11 ;
     stats:progressivePassesReceived 28 ;
-    stats:rank 2705 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 1 ;

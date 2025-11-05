@@ -35,7 +35,6 @@ ex:Mattia_Felici a foaf:Person,
     stats:progressiveCarries 39 ;
     stats:progressivePasses 19 ;
     stats:progressivePassesReceived 75 ;
-    stats:rank 882 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 12 ;

@@ -39,7 +39,6 @@ ex:Marten_de_Roon a foaf:Person,
     stats:progressiveCarries 37 ;
     stats:progressivePasses 242 ;
     stats:progressivePassesReceived 32 ;
-    stats:rank 2256 ;
     stats:redCards 0 ;
     stats:tackles 74 ;
     stats:tacklesWon 48 ;

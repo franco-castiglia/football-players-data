@@ -35,7 +35,6 @@ ex:Yael_Mouanga a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 22 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 1803 ;
     stats:redCards 0 ;
     stats:tackles 14 ;
     stats:tacklesWon 8 ;

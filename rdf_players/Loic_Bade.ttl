@@ -36,7 +36,6 @@ ex:Loic_Bade a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 62 ;
     stats:progressivePassesReceived 6 ;
-    stats:rank 198 ;
     stats:redCards 1 ;
     stats:tackles 47 ;
     stats:tacklesWon 27 ;

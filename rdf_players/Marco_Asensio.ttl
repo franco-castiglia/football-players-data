@@ -40,7 +40,6 @@ ex:Marco_Asensio a foaf:Person,
     stats:progressiveCarries 22 ;
     stats:progressivePasses 45 ;
     stats:progressivePassesReceived 38 ;
-    stats:rank 165 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 5 ;

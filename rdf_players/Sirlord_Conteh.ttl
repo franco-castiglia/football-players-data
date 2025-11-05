@@ -36,7 +36,6 @@ ex:Sirlord_Conteh a foaf:Person,
     stats:progressiveCarries 29 ;
     stats:progressivePasses 19 ;
     stats:progressivePassesReceived 75 ;
-    stats:rank 594 ;
     stats:redCards 0 ;
     stats:tackles 9 ;
     stats:tacklesWon 5 ;

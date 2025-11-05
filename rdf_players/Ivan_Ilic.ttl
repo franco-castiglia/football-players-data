@@ -37,7 +37,6 @@ ex:Ivan_Ilic a foaf:Person,
     stats:progressiveCarries 24 ;
     stats:progressivePasses 45 ;
     stats:progressivePassesReceived 41 ;
-    stats:rank 1212 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 2 ;

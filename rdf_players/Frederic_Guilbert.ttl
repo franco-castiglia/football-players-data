@@ -39,7 +39,6 @@ ex:Frederic_Guilbert a foaf:Person,
     stats:progressiveCarries 48 ;
     stats:progressivePasses 88 ;
     stats:progressivePassesReceived 45 ;
-    stats:rank 1088 ;
     stats:redCards 2 ;
     stats:tackles 65 ;
     stats:tacklesWon 36 ;

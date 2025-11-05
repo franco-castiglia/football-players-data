@@ -36,7 +36,6 @@ ex:Tyler_Adams a foaf:Person,
     stats:progressiveCarries 14 ;
     stats:progressivePasses 76 ;
     stats:progressivePassesReceived 10 ;
-    stats:rank 26 ;
     stats:redCards 0 ;
     stats:tackles 83 ;
     stats:tacklesWon 50 ;

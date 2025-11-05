@@ -36,7 +36,6 @@ ex:Ignatius_Ganago a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 9 ;
     stats:progressivePassesReceived 26 ;
-    stats:rank 964 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 1 ;

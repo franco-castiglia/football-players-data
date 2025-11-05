@@ -36,7 +36,6 @@ ex:Romain_Faivre a foaf:Person,
     stats:progressiveCarries 24 ;
     stats:progressivePasses 44 ;
     stats:progressivePassesReceived 49 ;
-    stats:rank 874 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 10 ;

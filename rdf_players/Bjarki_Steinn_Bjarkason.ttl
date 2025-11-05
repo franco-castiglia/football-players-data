@@ -37,7 +37,6 @@ ex:Bjarki_Steinn_Bjarkason a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 10 ;
     stats:progressivePassesReceived 13 ;
-    stats:rank 344 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 2 ;

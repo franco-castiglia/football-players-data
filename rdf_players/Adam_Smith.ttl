@@ -36,7 +36,6 @@ ex:Adam_Smith a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 49 ;
     stats:progressivePassesReceived 34 ;
-    stats:rank 2455 ;
     stats:redCards 0 ;
     stats:tackles 24 ;
     stats:tacklesWon 12 ;

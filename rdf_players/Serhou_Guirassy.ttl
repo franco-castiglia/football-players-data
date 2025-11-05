@@ -40,7 +40,6 @@ ex:Serhou_Guirassy a foaf:Person,
     stats:progressiveCarries 25 ;
     stats:progressivePasses 43 ;
     stats:progressivePassesReceived 128 ;
-    stats:rank 1094 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 6 ;

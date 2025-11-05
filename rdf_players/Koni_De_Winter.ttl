@@ -37,7 +37,6 @@ ex:Koni_De_Winter a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 56 ;
     stats:progressivePassesReceived 10 ;
-    stats:rank 687 ;
     stats:redCards 0 ;
     stats:tackles 33 ;
     stats:tacklesWon 19 ;

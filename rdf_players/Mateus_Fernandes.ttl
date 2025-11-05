@@ -36,7 +36,6 @@ ex:Mateus_Fernandes a foaf:Person,
     stats:progressiveCarries 76 ;
     stats:progressivePasses 145 ;
     stats:progressivePassesReceived 108 ;
-    stats:rank 894 ;
     stats:redCards 0 ;
     stats:tackles 89 ;
     stats:tacklesWon 48 ;

@@ -36,7 +36,6 @@ ex:Aitor_Paredes a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 46 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 2038 ;
     stats:redCards 1 ;
     stats:tackles 15 ;
     stats:tacklesWon 13 ;

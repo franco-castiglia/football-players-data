@@ -35,7 +35,6 @@ ex:Jhoanner_Chavez a foaf:Person,
     stats:progressiveCarries 14 ;
     stats:progressivePasses 9 ;
     stats:progressivePassesReceived 36 ;
-    stats:rank 536 ;
     stats:redCards 0 ;
     stats:tackles 9 ;
     stats:tacklesWon 5 ;

@@ -36,7 +36,6 @@ ex:Elye_Wahi a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 41 ;
-    stats:rank 2735 ;
     stats:redCards 0 ;
     stats:tackles 0 ;
     stats:tacklesWon 0 ;

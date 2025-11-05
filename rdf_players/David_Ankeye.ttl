@@ -36,7 +36,6 @@ ex:David_Ankeye a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 1 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 71 ;
     stats:redCards 0 ;
     stats:tackles 0 ;
     stats:tacklesWon 0 ;

@@ -36,7 +36,6 @@ ex:AlMusrati a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 41 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 1836 ;
     stats:redCards 0 ;
     stats:tackles 14 ;
     stats:tacklesWon 11 ;

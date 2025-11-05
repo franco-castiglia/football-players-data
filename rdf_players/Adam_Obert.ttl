@@ -37,7 +37,6 @@ ex:Adam_Obert a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 50 ;
     stats:progressivePassesReceived 19 ;
-    stats:rank 1937 ;
     stats:redCards 0 ;
     stats:tackles 31 ;
     stats:tacklesWon 18 ;

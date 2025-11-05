@@ -38,7 +38,6 @@ ex:Mikel_Merino a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 69 ;
     stats:progressivePassesReceived 94 ;
-    stats:rank 1726 ;
     stats:redCards 1 ;
     stats:tackles 46 ;
     stats:tacklesWon 28 ;

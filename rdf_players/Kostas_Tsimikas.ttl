@@ -38,7 +38,6 @@ ex:Kostas_Tsimikas a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 76 ;
     stats:progressivePassesReceived 43 ;
-    stats:rank 2637 ;
     stats:redCards 0 ;
     stats:tackles 31 ;
     stats:tacklesWon 20 ;

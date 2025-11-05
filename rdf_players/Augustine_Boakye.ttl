@@ -35,7 +35,6 @@ ex:Augustine_Boakye a foaf:Person,
     stats:progressiveCarries 25 ;
     stats:progressivePasses 35 ;
     stats:progressivePassesReceived 60 ;
-    stats:rank 349 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 3 ;

@@ -35,7 +35,6 @@ ex:Martial_Godo a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 3 ;
     stats:progressivePassesReceived 6 ;
-    stats:rank 1015 ;
     stats:redCards 0 ;
     stats:tackles 0 ;
     stats:tacklesWon 0 ;

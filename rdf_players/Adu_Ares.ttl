@@ -36,7 +36,6 @@ ex:Adu_Ares a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 3 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 149 ;
     stats:redCards 0 ;
     stats:tackles 0 ;
     stats:tacklesWon 0 ;

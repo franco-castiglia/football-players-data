@@ -36,7 +36,6 @@ ex:Marin_Ljubicic a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 6 ;
     stats:progressivePassesReceived 19 ;
-    stats:rank 1501 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 1 ;

@@ -38,7 +38,6 @@ ex:Vincenzo_Grifo a foaf:Person,
     stats:progressiveCarries 58 ;
     stats:progressivePasses 128 ;
     stats:progressivePassesReceived 147 ;
-    stats:rank 1065 ;
     stats:redCards 0 ;
     stats:tackles 30 ;
     stats:tacklesWon 22 ;

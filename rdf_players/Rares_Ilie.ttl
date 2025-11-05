@@ -35,7 +35,6 @@ ex:Rares_Ilie a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 3 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 1213 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 1 ;

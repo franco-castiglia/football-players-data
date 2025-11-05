@@ -36,7 +36,6 @@ ex:Alexsandro a foaf:Person,
     stats:progressiveCarries 25 ;
     stats:progressivePasses 178 ;
     stats:progressivePassesReceived 8 ;
-    stats:rank 2206 ;
     stats:redCards 0 ;
     stats:tackles 32 ;
     stats:tacklesWon 19 ;

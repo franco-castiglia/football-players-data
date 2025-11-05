@@ -36,7 +36,6 @@ ex:Lukas_Kubler a foaf:Person,
     stats:progressiveCarries 24 ;
     stats:progressivePasses 78 ;
     stats:progressivePassesReceived 49 ;
-    stats:rank 1419 ;
     stats:redCards 0 ;
     stats:tackles 40 ;
     stats:tacklesWon 21 ;

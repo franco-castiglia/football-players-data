@@ -37,7 +37,6 @@ ex:Nico_Schlotterbeck a foaf:Person,
     stats:progressiveCarries 37 ;
     stats:progressivePasses 195 ;
     stats:progressivePassesReceived 14 ;
-    stats:rank 2375 ;
     stats:redCards 2 ;
     stats:tackles 38 ;
     stats:tacklesWon 24 ;

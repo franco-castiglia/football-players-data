@@ -39,7 +39,6 @@ ex:Kingsley_Coman a foaf:Person,
     stats:progressiveCarries 66 ;
     stats:progressivePasses 45 ;
     stats:progressivePassesReceived 215 ;
-    stats:rank 586 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 12 ;

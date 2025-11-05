@@ -37,7 +37,6 @@ ex:Omari_Hutchinson a foaf:Person,
     stats:progressiveCarries 97 ;
     stats:progressivePasses 75 ;
     stats:progressivePassesReceived 159 ;
-    stats:rank 1192 ;
     stats:redCards 0 ;
     stats:tackles 32 ;
     stats:tacklesWon 13 ;

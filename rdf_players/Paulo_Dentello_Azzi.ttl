@@ -37,7 +37,6 @@ ex:Paulo_Dentello_Azzi a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 13 ;
     stats:progressivePassesReceived 26 ;
-    stats:rank 192 ;
     stats:redCards 0 ;
     stats:tackles 11 ;
     stats:tacklesWon 9 ;

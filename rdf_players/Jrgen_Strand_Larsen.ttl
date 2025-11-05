@@ -37,7 +37,6 @@ ex:Jrgen_Strand_Larsen a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 29 ;
     stats:progressivePassesReceived 112 ;
-    stats:rank 2513 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 6 ;

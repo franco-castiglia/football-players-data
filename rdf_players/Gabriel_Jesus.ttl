@@ -40,7 +40,6 @@ ex:Gabriel_Jesus a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 19 ;
     stats:progressivePassesReceived 57 ;
-    stats:rank 1257 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 6 ;

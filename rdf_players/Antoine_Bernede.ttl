@@ -39,7 +39,6 @@ ex:Antoine_Bernede a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 29 ;
     stats:progressivePassesReceived 22 ;
-    stats:rank 320 ;
     stats:redCards 0 ;
     stats:tackles 15 ;
     stats:tacklesWon 8 ;

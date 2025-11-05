@@ -38,7 +38,6 @@ ex:Albert_Gumundsson a foaf:Person,
     stats:progressiveCarries 35 ;
     stats:progressivePasses 37 ;
     stats:progressivePassesReceived 59 ;
-    stats:rank 1106 ;
     stats:redCards 0 ;
     stats:tackles 9 ;
     stats:tacklesWon 5 ;

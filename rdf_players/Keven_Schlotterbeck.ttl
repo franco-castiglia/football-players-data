@@ -36,7 +36,6 @@ ex:Keven_Schlotterbeck a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 59 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 2374 ;
     stats:redCards 1 ;
     stats:tackles 19 ;
     stats:tacklesWon 17 ;

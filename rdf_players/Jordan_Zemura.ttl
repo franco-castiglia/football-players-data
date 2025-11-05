@@ -36,7 +36,6 @@ ex:Jordan_Zemura a foaf:Person,
     stats:progressiveCarries 25 ;
     stats:progressivePasses 42 ;
     stats:progressivePassesReceived 76 ;
-    stats:rank 2828 ;
     stats:redCards 0 ;
     stats:tackles 31 ;
     stats:tacklesWon 14 ;

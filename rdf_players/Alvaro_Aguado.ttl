@@ -36,7 +36,6 @@ ex:Alvaro_Aguado a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 37 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 46 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 2 ;

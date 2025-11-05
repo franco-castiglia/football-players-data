@@ -36,7 +36,6 @@ ex:Maximilian_Eggestein a foaf:Person,
     stats:progressiveCarries 34 ;
     stats:progressivePasses 141 ;
     stats:progressivePassesReceived 41 ;
-    stats:rank 820 ;
     stats:redCards 0 ;
     stats:tackles 57 ;
     stats:tacklesWon 32 ;

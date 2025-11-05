@@ -36,7 +36,6 @@ ex:Ethan_Pinnock a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 41 ;
     stats:progressivePassesReceived 9 ;
-    stats:rank 2125 ;
     stats:redCards 0 ;
     stats:tackles 35 ;
     stats:tacklesWon 19 ;

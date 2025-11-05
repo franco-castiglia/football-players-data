@@ -36,7 +36,6 @@ ex:Salih_Ozcan a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 31 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 2016 ;
     stats:redCards 0 ;
     stats:tackles 11 ;
     stats:tacklesWon 7 ;

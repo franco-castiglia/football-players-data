@@ -38,7 +38,6 @@ ex:Riccardo_Calafiori a foaf:Person,
     stats:progressiveCarries 22 ;
     stats:progressivePasses 54 ;
     stats:progressivePassesReceived 29 ;
-    stats:rank 440 ;
     stats:redCards 0 ;
     stats:tackles 27 ;
     stats:tacklesWon 19 ;

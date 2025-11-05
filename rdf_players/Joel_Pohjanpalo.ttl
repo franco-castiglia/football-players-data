@@ -38,7 +38,6 @@ ex:Joel_Pohjanpalo a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 29 ;
     stats:progressivePassesReceived 72 ;
-    stats:rank 2134 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 3 ;

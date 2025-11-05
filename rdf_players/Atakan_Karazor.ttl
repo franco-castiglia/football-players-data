@@ -36,7 +36,6 @@ ex:Atakan_Karazor a foaf:Person,
     stats:progressiveCarries 19 ;
     stats:progressivePasses 140 ;
     stats:progressivePassesReceived 33 ;
-    stats:rank 1321 ;
     stats:redCards 1 ;
     stats:tackles 59 ;
     stats:tacklesWon 29 ;

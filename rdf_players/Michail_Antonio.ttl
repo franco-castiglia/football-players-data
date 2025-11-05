@@ -36,7 +36,6 @@ ex:Michail_Antonio a foaf:Person,
     stats:progressiveCarries 29 ;
     stats:progressivePasses 18 ;
     stats:progressivePassesReceived 59 ;
-    stats:rank 135 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 2 ;

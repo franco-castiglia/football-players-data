@@ -38,7 +38,6 @@ ex:Andrea_Carboni a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 51 ;
     stats:progressivePassesReceived 32 ;
-    stats:rank 477 ;
     stats:redCards 0 ;
     stats:tackles 60 ;
     stats:tacklesWon 35 ;

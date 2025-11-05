@@ -37,7 +37,6 @@ ex:Simone_Pafundi a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 0 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 2023 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 3 ;

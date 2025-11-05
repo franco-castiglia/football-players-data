@@ -36,7 +36,6 @@ ex:Diego_Moreira a foaf:Person,
     stats:progressiveCarries 99 ;
     stats:progressivePasses 87 ;
     stats:progressivePassesReceived 245 ;
-    stats:rank 1785 ;
     stats:redCards 1 ;
     stats:tackles 44 ;
     stats:tacklesWon 28 ;

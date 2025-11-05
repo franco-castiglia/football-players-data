@@ -38,7 +38,6 @@ ex:Antonin_Barak a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 2 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 235 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 0 ;

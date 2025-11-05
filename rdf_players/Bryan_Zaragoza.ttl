@@ -36,7 +36,6 @@ ex:Bryan_Zaragoza a foaf:Person,
     stats:progressiveCarries 105 ;
     stats:progressivePasses 50 ;
     stats:progressivePassesReceived 140 ;
-    stats:rank 2824 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 9 ;

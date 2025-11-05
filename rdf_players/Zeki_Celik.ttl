@@ -36,7 +36,6 @@ ex:Zeki_Celik a foaf:Person,
     stats:progressiveCarries 28 ;
     stats:progressivePasses 106 ;
     stats:progressivePassesReceived 93 ;
-    stats:rank 519 ;
     stats:redCards 0 ;
     stats:tackles 62 ;
     stats:tacklesWon 37 ;

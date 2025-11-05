@@ -36,7 +36,6 @@ ex:Jose_Copete a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 47 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 596 ;
     stats:redCards 0 ;
     stats:tackles 29 ;
     stats:tacklesWon 17 ;

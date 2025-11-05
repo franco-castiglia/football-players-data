@@ -38,7 +38,6 @@ ex:Francisco_Conceicao a foaf:Person,
     stats:progressiveCarries 95 ;
     stats:progressivePasses 35 ;
     stats:progressivePassesReceived 143 ;
-    stats:rank 590 ;
     stats:redCards 1 ;
     stats:tackles 23 ;
     stats:tacklesWon 14 ;

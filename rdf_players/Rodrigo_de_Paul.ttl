@@ -39,7 +39,6 @@ ex:Rodrigo_de_Paul a foaf:Person,
     stats:progressiveCarries 85 ;
     stats:progressivePasses 231 ;
     stats:progressivePassesReceived 64 ;
-    stats:rank 682 ;
     stats:redCards 0 ;
     stats:tackles 33 ;
     stats:tacklesWon 26 ;

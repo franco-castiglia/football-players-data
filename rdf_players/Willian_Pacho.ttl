@@ -36,7 +36,6 @@ ex:Willian_Pacho a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 53 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 2020 ;
     stats:redCards 0 ;
     stats:tackles 56 ;
     stats:tacklesWon 32 ;

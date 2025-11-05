@@ -37,7 +37,6 @@ ex:Jordan_Lotomba a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 3 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 1528 ;
     stats:redCards 0 ;
     stats:tackles 0 ;
     stats:tacklesWon 0 ;

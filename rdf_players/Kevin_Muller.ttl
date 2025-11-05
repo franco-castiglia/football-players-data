@@ -36,7 +36,6 @@ ex:Kevin_Muller a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 1 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 1815 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 2 ;

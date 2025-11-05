@@ -38,7 +38,6 @@ ex:Pierre_Hojbjerg a foaf:Person,
     stats:progressiveCarries 36 ;
     stats:progressivePasses 263 ;
     stats:progressivePassesReceived 43 ;
-    stats:rank 1195 ;
     stats:redCards 0 ;
     stats:tackles 64 ;
     stats:tacklesWon 45 ;

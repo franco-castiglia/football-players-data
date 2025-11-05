@@ -37,7 +37,6 @@ ex:Carles_Perez a foaf:Person,
     stats:progressiveCarries 31 ;
     stats:progressivePasses 20 ;
     stats:progressivePassesReceived 77 ;
-    stats:rank 2090 ;
     stats:redCards 0 ;
     stats:tackles 33 ;
     stats:tacklesWon 23 ;

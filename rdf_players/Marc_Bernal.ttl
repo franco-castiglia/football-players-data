@@ -36,7 +36,6 @@ ex:Marc_Bernal a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 8 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 315 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 6 ;

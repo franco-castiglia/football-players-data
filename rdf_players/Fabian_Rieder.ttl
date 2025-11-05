@@ -36,7 +36,6 @@ ex:Fabian_Rieder a foaf:Person,
     stats:progressiveCarries 20 ;
     stats:progressivePasses 38 ;
     stats:progressivePassesReceived 61 ;
-    stats:rank 2213 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 14 ;

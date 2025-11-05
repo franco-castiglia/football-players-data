@@ -37,7 +37,6 @@ ex:Ben_Johnson a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 27 ;
     stats:progressivePassesReceived 33 ;
-    stats:rank 1269 ;
     stats:redCards 1 ;
     stats:tackles 38 ;
     stats:tacklesWon 22 ;

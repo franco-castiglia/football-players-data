@@ -36,7 +36,6 @@ ex:Jamal_Musiala a foaf:Person,
     stats:progressiveCarries 71 ;
     stats:progressivePasses 107 ;
     stats:progressivePassesReceived 156 ;
-    stats:rank 1834 ;
     stats:redCards 0 ;
     stats:tackles 36 ;
     stats:tacklesWon 21 ;

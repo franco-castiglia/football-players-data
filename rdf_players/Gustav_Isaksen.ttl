@@ -38,7 +38,6 @@ ex:Gustav_Isaksen a foaf:Person,
     stats:progressiveCarries 95 ;
     stats:progressivePasses 46 ;
     stats:progressivePassesReceived 249 ;
-    stats:rank 1221 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 9 ;

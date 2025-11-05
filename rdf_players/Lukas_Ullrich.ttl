@@ -36,7 +36,6 @@ ex:Lukas_Ullrich a foaf:Person,
     stats:progressiveCarries 31 ;
     stats:progressivePasses 39 ;
     stats:progressivePassesReceived 71 ;
-    stats:rank 2647 ;
     stats:redCards 0 ;
     stats:tackles 25 ;
     stats:tacklesWon 16 ;

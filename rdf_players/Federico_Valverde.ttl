@@ -40,7 +40,6 @@ ex:Federico_Valverde a foaf:Person,
     stats:progressiveCarries 66 ;
     stats:progressivePasses 226 ;
     stats:progressivePassesReceived 76 ;
-    stats:rank 2667 ;
     stats:redCards 0 ;
     stats:tackles 50 ;
     stats:tacklesWon 30 ;

@@ -37,7 +37,6 @@ ex:Curtis_Jones a foaf:Person,
     stats:progressiveCarries 30 ;
     stats:progressivePasses 117 ;
     stats:progressivePassesReceived 79 ;
-    stats:rank 1274 ;
     stats:redCards 1 ;
     stats:tackles 39 ;
     stats:tacklesWon 22 ;

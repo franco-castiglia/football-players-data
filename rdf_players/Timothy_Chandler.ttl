@@ -36,7 +36,6 @@ ex:Timothy_Chandler a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 3 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 528 ;
     stats:redCards 0 ;
     stats:tackles 0 ;
     stats:tacklesWon 0 ;

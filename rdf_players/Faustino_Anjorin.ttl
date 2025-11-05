@@ -36,7 +36,6 @@ ex:Faustino_Anjorin a foaf:Person,
     stats:progressiveCarries 28 ;
     stats:progressivePasses 55 ;
     stats:progressivePassesReceived 35 ;
-    stats:rank 131 ;
     stats:redCards 0 ;
     stats:tackles 29 ;
     stats:tacklesWon 13 ;

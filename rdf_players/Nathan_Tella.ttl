@@ -36,7 +36,6 @@ ex:Nathan_Tella a foaf:Person,
     stats:progressiveCarries 38 ;
     stats:progressivePasses 22 ;
     stats:progressivePassesReceived 130 ;
-    stats:rank 2568 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 11 ;

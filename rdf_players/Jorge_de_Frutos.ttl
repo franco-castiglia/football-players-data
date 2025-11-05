@@ -36,7 +36,6 @@ ex:Jorge_de_Frutos a foaf:Person,
     stats:progressiveCarries 77 ;
     stats:progressivePasses 44 ;
     stats:progressivePassesReceived 201 ;
-    stats:rank 942 ;
     stats:redCards 1 ;
     stats:tackles 37 ;
     stats:tacklesWon 21 ;

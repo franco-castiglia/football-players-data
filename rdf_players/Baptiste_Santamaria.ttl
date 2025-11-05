@@ -38,7 +38,6 @@ ex:Baptiste_Santamaria a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 45 ;
     stats:progressivePassesReceived 11 ;
-    stats:rank 2344 ;
     stats:redCards 0 ;
     stats:tackles 20 ;
     stats:tacklesWon 10 ;

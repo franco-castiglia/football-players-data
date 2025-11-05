@@ -37,7 +37,6 @@ ex:Niclas_Fullkrug a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 14 ;
     stats:progressivePassesReceived 31 ;
-    stats:rank 947 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 3 ;

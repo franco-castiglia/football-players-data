@@ -36,7 +36,6 @@ ex:Mathias_Honsak a foaf:Person,
     stats:progressiveCarries 37 ;
     stats:progressivePasses 29 ;
     stats:progressivePassesReceived 58 ;
-    stats:rank 1180 ;
     stats:redCards 0 ;
     stats:tackles 15 ;
     stats:tacklesWon 8 ;

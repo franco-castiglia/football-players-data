@@ -36,7 +36,6 @@ ex:Jonas_Fohrenbach a foaf:Person,
     stats:progressiveCarries 36 ;
     stats:progressivePasses 59 ;
     stats:progressivePassesReceived 50 ;
-    stats:rank 917 ;
     stats:redCards 0 ;
     stats:tackles 45 ;
     stats:tacklesWon 24 ;

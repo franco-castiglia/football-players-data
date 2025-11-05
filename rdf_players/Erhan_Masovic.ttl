@@ -36,7 +36,6 @@ ex:Erhan_Masovic a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 35 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 1664 ;
     stats:redCards 0 ;
     stats:tackles 14 ;
     stats:tacklesWon 10 ;

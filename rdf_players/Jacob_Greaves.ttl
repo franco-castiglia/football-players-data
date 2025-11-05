@@ -36,7 +36,6 @@ ex:Jacob_Greaves a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 69 ;
     stats:progressivePassesReceived 11 ;
-    stats:rank 1060 ;
     stats:redCards 0 ;
     stats:tackles 40 ;
     stats:tacklesWon 21 ;

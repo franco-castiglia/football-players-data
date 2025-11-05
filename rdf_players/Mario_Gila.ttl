@@ -36,7 +36,6 @@ ex:Mario_Gila a foaf:Person,
     stats:progressiveCarries 48 ;
     stats:progressivePasses 157 ;
     stats:progressivePassesReceived 12 ;
-    stats:rank 1004 ;
     stats:redCards 0 ;
     stats:tackles 55 ;
     stats:tacklesWon 37 ;

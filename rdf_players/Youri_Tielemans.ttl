@@ -40,7 +40,6 @@ ex:Youri_Tielemans a foaf:Person,
     stats:progressiveCarries 39 ;
     stats:progressivePasses 235 ;
     stats:progressivePassesReceived 48 ;
-    stats:rank 2595 ;
     stats:redCards 0 ;
     stats:tackles 84 ;
     stats:tacklesWon 58 ;

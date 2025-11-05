@@ -39,7 +39,6 @@ ex:Virgil_van_Dijk a foaf:Person,
     stats:progressiveCarries 22 ;
     stats:progressivePasses 198 ;
     stats:progressivePassesReceived 6 ;
-    stats:rank 2671 ;
     stats:redCards 0 ;
     stats:tackles 38 ;
     stats:tacklesWon 20 ;

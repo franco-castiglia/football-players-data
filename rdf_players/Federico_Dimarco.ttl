@@ -39,7 +39,6 @@ ex:Federico_Dimarco a foaf:Person,
     stats:progressiveCarries 47 ;
     stats:progressivePasses 83 ;
     stats:progressivePassesReceived 232 ;
-    stats:rank 733 ;
     stats:redCards 0 ;
     stats:tackles 25 ;
     stats:tacklesWon 14 ;

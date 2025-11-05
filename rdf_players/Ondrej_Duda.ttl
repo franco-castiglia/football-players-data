@@ -38,7 +38,6 @@ ex:Ondrej_Duda a foaf:Person,
     stats:progressiveCarries 23 ;
     stats:progressivePasses 117 ;
     stats:progressivePassesReceived 26 ;
-    stats:rank 794 ;
     stats:redCards 1 ;
     stats:tackles 46 ;
     stats:tacklesWon 27 ;

@@ -37,7 +37,6 @@ ex:Denzel_Dumfries a foaf:Person,
     stats:progressiveCarries 55 ;
     stats:progressivePasses 51 ;
     stats:progressivePassesReceived 173 ;
-    stats:rank 796 ;
     stats:redCards 0 ;
     stats:tackles 25 ;
     stats:tacklesWon 15 ;

@@ -36,7 +36,6 @@ ex:Luka_Sucic a foaf:Person,
     stats:progressiveCarries 30 ;
     stats:progressivePasses 79 ;
     stats:progressivePassesReceived 56 ;
-    stats:rank 2519 ;
     stats:redCards 0 ;
     stats:tackles 25 ;
     stats:tacklesWon 18 ;

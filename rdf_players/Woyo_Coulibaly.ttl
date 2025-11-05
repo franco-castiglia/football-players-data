@@ -37,7 +37,6 @@ ex:Woyo_Coulibaly a foaf:Person,
     stats:progressiveCarries 36 ;
     stats:progressivePasses 41 ;
     stats:progressivePassesReceived 23 ;
-    stats:rank 622 ;
     stats:redCards 1 ;
     stats:tackles 13 ;
     stats:tacklesWon 10 ;

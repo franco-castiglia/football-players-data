@@ -36,7 +36,6 @@ ex:Julien_Cardinal a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 39 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 1458 ;
     stats:redCards 0 ;
     stats:tackles 27 ;
     stats:tacklesWon 15 ;

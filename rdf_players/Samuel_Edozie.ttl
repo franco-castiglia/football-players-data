@@ -36,7 +36,6 @@ ex:Samuel_Edozie a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 4 ;
     stats:progressivePassesReceived 23 ;
-    stats:rank 817 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 1 ;

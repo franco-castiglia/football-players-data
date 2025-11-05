@@ -40,7 +40,6 @@ ex:Daniel_Carvajal a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 27 ;
     stats:progressivePassesReceived 48 ;
-    stats:rank 493 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 8 ;

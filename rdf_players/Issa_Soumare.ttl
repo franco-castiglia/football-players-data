@@ -36,7 +36,6 @@ ex:Issa_Soumare a foaf:Person,
     stats:progressiveCarries 61 ;
     stats:progressivePasses 45 ;
     stats:progressivePassesReceived 144 ;
-    stats:rank 2483 ;
     stats:redCards 0 ;
     stats:tackles 25 ;
     stats:tacklesWon 14 ;

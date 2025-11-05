@@ -36,7 +36,6 @@ ex:Jeffrey_Gouweleeuw a foaf:Person,
     stats:progressiveCarries 24 ;
     stats:progressivePasses 142 ;
     stats:progressivePassesReceived 19 ;
-    stats:rank 1051 ;
     stats:redCards 0 ;
     stats:tackles 50 ;
     stats:tacklesWon 28 ;

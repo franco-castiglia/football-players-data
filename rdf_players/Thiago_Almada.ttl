@@ -38,7 +38,6 @@ ex:Thiago_Almada a foaf:Person,
     stats:progressiveCarries 38 ;
     stats:progressivePasses 97 ;
     stats:progressivePassesReceived 50 ;
-    stats:rank 92 ;
     stats:redCards 0 ;
     stats:tackles 14 ;
     stats:tacklesWon 8 ;

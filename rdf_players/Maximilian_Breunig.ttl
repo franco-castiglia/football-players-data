@@ -36,7 +36,6 @@ ex:Maximilian_Breunig a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 13 ;
-    stats:rank 394 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 3 ;

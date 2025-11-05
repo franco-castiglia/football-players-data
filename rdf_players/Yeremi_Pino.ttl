@@ -36,7 +36,6 @@ ex:Yeremi_Pino a foaf:Person,
     stats:progressiveCarries 42 ;
     stats:progressivePasses 66 ;
     stats:progressivePassesReceived 213 ;
-    stats:rank 2126 ;
     stats:redCards 0 ;
     stats:tackles 60 ;
     stats:tacklesWon 32 ;

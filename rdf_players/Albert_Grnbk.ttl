@@ -36,7 +36,6 @@ ex:Albert_Grnbk a foaf:Person,
     stats:progressiveCarries 23 ;
     stats:progressivePasses 30 ;
     stats:progressivePassesReceived 58 ;
-    stats:rank 1073 ;
     stats:redCards 0 ;
     stats:tackles 21 ;
     stats:tacklesWon 11 ;

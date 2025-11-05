@@ -36,7 +36,6 @@ ex:Danny_da_Costa a foaf:Person,
     stats:progressiveCarries 21 ;
     stats:progressivePasses 109 ;
     stats:progressivePassesReceived 22 ;
-    stats:rank 609 ;
     stats:redCards 0 ;
     stats:tackles 42 ;
     stats:tacklesWon 23 ;

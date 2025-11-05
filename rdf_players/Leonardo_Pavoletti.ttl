@@ -37,7 +37,6 @@ ex:Leonardo_Pavoletti a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 17 ;
     stats:progressivePassesReceived 26 ;
-    stats:rank 2054 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 0 ;

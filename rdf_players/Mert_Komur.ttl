@@ -36,7 +36,6 @@ ex:Mert_Komur a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 11 ;
     stats:progressivePassesReceived 46 ;
-    stats:rank 1383 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 2 ;

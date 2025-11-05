@@ -36,7 +36,6 @@ ex:Oscar_Perea a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 2 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 2082 ;
     stats:redCards 0 ;
     stats:tackles 0 ;
     stats:tacklesWon 0 ;

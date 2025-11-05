@@ -36,7 +36,6 @@ ex:David_Nemeth a foaf:Person,
     stats:progressiveCarries 14 ;
     stats:progressivePasses 65 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 1881 ;
     stats:redCards 0 ;
     stats:tackles 43 ;
     stats:tacklesWon 29 ;

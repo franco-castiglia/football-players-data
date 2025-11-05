@@ -39,7 +39,6 @@ ex:Ben_White a foaf:Person,
     stats:progressiveCarries 23 ;
     stats:progressivePasses 59 ;
     stats:progressivePassesReceived 42 ;
-    stats:rank 2764 ;
     stats:redCards 0 ;
     stats:tackles 20 ;
     stats:tacklesWon 14 ;

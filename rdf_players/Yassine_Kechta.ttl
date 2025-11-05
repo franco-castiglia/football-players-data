@@ -36,7 +36,6 @@ ex:Yassine_Kechta a foaf:Person,
     stats:progressiveCarries 44 ;
     stats:progressivePasses 97 ;
     stats:progressivePassesReceived 85 ;
-    stats:rank 1333 ;
     stats:redCards 0 ;
     stats:tackles 60 ;
     stats:tacklesWon 36 ;

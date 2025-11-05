@@ -38,7 +38,6 @@ ex:Maxwel_Cornet a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 4 ;
     stats:progressivePassesReceived 26 ;
-    stats:rank 602 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 1 ;

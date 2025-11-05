@@ -40,7 +40,6 @@ ex:Andrej_Kramaric a foaf:Person,
     stats:progressiveCarries 75 ;
     stats:progressivePasses 143 ;
     stats:progressivePassesReceived 202 ;
-    stats:rank 1411 ;
     stats:redCards 0 ;
     stats:tackles 15 ;
     stats:tacklesWon 8 ;

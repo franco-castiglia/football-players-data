@@ -36,7 +36,6 @@ ex:Haris_Belkebla a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 69 ;
     stats:progressivePassesReceived 15 ;
-    stats:rank 281 ;
     stats:redCards 0 ;
     stats:tackles 56 ;
     stats:tacklesWon 38 ;

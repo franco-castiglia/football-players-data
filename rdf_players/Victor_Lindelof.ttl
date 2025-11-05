@@ -39,7 +39,6 @@ ex:Victor_Lindelof a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 26 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 1494 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 2 ;

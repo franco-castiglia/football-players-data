@@ -36,7 +36,6 @@ ex:Jeremy_Sebas a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 3 ;
     stats:progressivePassesReceived 10 ;
-    stats:rank 2386 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 2 ;

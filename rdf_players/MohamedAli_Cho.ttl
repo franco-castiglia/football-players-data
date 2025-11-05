@@ -36,7 +36,6 @@ ex:MohamedAli_Cho a foaf:Person,
     stats:progressiveCarries 81 ;
     stats:progressivePasses 59 ;
     stats:progressivePassesReceived 133 ;
-    stats:rank 86 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 9 ;

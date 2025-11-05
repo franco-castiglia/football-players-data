@@ -40,7 +40,6 @@ ex:Sead_Kolasinac a foaf:Person,
     stats:progressiveCarries 52 ;
     stats:progressivePasses 142 ;
     stats:progressivePassesReceived 47 ;
-    stats:rank 1379 ;
     stats:redCards 0 ;
     stats:tackles 41 ;
     stats:tacklesWon 26 ;

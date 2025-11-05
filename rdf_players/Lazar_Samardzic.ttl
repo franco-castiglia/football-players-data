@@ -38,7 +38,6 @@ ex:Lazar_Samardzic a foaf:Person,
     stats:progressiveCarries 54 ;
     stats:progressivePasses 92 ;
     stats:progressivePassesReceived 99 ;
-    stats:rank 2315 ;
     stats:redCards 0 ;
     stats:tackles 21 ;
     stats:tacklesWon 15 ;

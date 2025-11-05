@@ -37,7 +37,6 @@ ex:Alex_Baena a foaf:Person,
     stats:progressiveCarries 91 ;
     stats:progressivePasses 189 ;
     stats:progressivePassesReceived 154 ;
-    stats:rank 201 ;
     stats:redCards 0 ;
     stats:tackles 28 ;
     stats:tacklesWon 15 ;

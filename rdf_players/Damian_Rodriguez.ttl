@@ -36,7 +36,6 @@ ex:Damian_Rodriguez a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 71 ;
     stats:progressivePassesReceived 12 ;
-    stats:rank 2234 ;
     stats:redCards 0 ;
     stats:tackles 14 ;
     stats:tacklesWon 9 ;

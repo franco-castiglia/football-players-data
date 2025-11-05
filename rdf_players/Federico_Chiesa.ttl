@@ -39,7 +39,6 @@ ex:Federico_Chiesa a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 3 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 548 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 0 ;

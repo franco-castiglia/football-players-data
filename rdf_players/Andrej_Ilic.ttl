@@ -36,7 +36,6 @@ ex:Andrej_Ilic a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 13 ;
     stats:progressivePassesReceived 59 ;
-    stats:rank 1211 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 2 ;

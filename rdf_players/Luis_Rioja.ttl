@@ -37,7 +37,6 @@ ex:Luis_Rioja a foaf:Person,
     stats:progressiveCarries 93 ;
     stats:progressivePasses 103 ;
     stats:progressivePassesReceived 228 ;
-    stats:rank 2216 ;
     stats:redCards 0 ;
     stats:tackles 33 ;
     stats:tacklesWon 21 ;

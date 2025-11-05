@@ -37,7 +37,6 @@ ex:Walid_Cheddira a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 12 ;
     stats:progressivePassesReceived 34 ;
-    stats:rank 538 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 0 ;

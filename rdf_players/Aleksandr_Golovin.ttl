@@ -36,7 +36,6 @@ ex:Aleksandr_Golovin a foaf:Person,
     stats:progressiveCarries 39 ;
     stats:progressivePasses 112 ;
     stats:progressivePassesReceived 72 ;
-    stats:rank 1020 ;
     stats:redCards 0 ;
     stats:tackles 38 ;
     stats:tacklesWon 24 ;

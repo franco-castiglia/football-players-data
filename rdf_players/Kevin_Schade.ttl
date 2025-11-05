@@ -36,7 +36,6 @@ ex:Kevin_Schade a foaf:Person,
     stats:progressiveCarries 61 ;
     stats:progressivePasses 38 ;
     stats:progressivePassesReceived 165 ;
-    stats:rank 2367 ;
     stats:redCards 0 ;
     stats:tackles 39 ;
     stats:tacklesWon 25 ;

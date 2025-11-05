@@ -38,7 +38,6 @@ ex:MBala_Nzola a foaf:Person,
     stats:progressiveCarries 26 ;
     stats:progressivePasses 22 ;
     stats:progressivePassesReceived 118 ;
-    stats:rank 1931 ;
     stats:redCards 1 ;
     stats:tackles 5 ;
     stats:tacklesWon 4 ;

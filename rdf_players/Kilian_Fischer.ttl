@@ -38,7 +38,6 @@ ex:Kilian_Fischer a foaf:Person,
     stats:progressiveCarries 51 ;
     stats:progressivePasses 110 ;
     stats:progressivePassesReceived 89 ;
-    stats:rank 906 ;
     stats:redCards 0 ;
     stats:tackles 64 ;
     stats:tacklesWon 44 ;

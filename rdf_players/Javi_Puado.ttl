@@ -36,7 +36,6 @@ ex:Javi_Puado a foaf:Person,
     stats:progressiveCarries 73 ;
     stats:progressivePasses 75 ;
     stats:progressivePassesReceived 113 ;
-    stats:rank 2154 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 17 ;

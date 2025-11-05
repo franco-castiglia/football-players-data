@@ -38,7 +38,6 @@ ex:Pablo_Marin a foaf:Person,
     stats:progressiveCarries 20 ;
     stats:progressivePasses 45 ;
     stats:progressivePassesReceived 47 ;
-    stats:rank 1627 ;
     stats:redCards 0 ;
     stats:tackles 25 ;
     stats:tacklesWon 17 ;

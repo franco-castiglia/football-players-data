@@ -36,7 +36,6 @@ ex:Valentino_Livramento a foaf:Person,
     stats:progressiveCarries 83 ;
     stats:progressivePasses 158 ;
     stats:progressivePassesReceived 119 ;
-    stats:rank 1500 ;
     stats:redCards 0 ;
     stats:tackles 54 ;
     stats:tacklesWon 36 ;

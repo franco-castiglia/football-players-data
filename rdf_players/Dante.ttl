@@ -36,7 +36,6 @@ ex:Dante a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 96 ;
     stats:progressivePassesReceived 8 ;
-    stats:rank 663 ;
     stats:redCards 1 ;
     stats:tackles 32 ;
     stats:tacklesWon 15 ;

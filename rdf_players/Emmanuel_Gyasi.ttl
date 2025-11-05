@@ -37,7 +37,6 @@ ex:Emmanuel_Gyasi a foaf:Person,
     stats:progressiveCarries 22 ;
     stats:progressivePasses 53 ;
     stats:progressivePassesReceived 108 ;
-    stats:rank 1108 ;
     stats:redCards 0 ;
     stats:tackles 52 ;
     stats:tacklesWon 29 ;

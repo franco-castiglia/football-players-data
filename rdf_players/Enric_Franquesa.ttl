@@ -36,7 +36,6 @@ ex:Enric_Franquesa a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 12 ;
     stats:progressivePassesReceived 30 ;
-    stats:rank 932 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 9 ;

@@ -37,7 +37,6 @@ ex:Michael_Svoboda a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 43 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 2532 ;
     stats:redCards 0 ;
     stats:tackles 26 ;
     stats:tacklesWon 14 ;

@@ -36,7 +36,6 @@ ex:Anas_Haj_Mohamed a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 13 ;
     stats:progressivePassesReceived 28 ;
-    stats:rank 1119 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 1 ;

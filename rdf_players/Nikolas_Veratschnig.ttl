@@ -36,7 +36,6 @@ ex:Nikolas_Veratschnig a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 30 ;
-    stats:rank 2694 ;
     stats:redCards 0 ;
     stats:tackles 9 ;
     stats:tacklesWon 6 ;

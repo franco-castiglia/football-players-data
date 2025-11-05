@@ -37,7 +37,6 @@ ex:Gerard_Moreno a foaf:Person,
     stats:progressiveCarries 19 ;
     stats:progressivePasses 53 ;
     stats:progressivePassesReceived 60 ;
-    stats:rank 1788 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 4 ;

@@ -36,7 +36,6 @@ ex:Mathieu_Cafaro a foaf:Person,
     stats:progressiveCarries 19 ;
     stats:progressivePasses 16 ;
     stats:progressivePassesReceived 51 ;
-    stats:rank 434 ;
     stats:redCards 1 ;
     stats:tackles 10 ;
     stats:tacklesWon 7 ;

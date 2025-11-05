@@ -36,7 +36,6 @@ ex:Julio_Enciso a foaf:Person,
     stats:progressiveCarries 23 ;
     stats:progressivePasses 28 ;
     stats:progressivePassesReceived 44 ;
-    stats:rank 843 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 9 ;

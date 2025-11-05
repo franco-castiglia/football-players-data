@@ -36,7 +36,6 @@ ex:Andoni_Gorosabel a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 51 ;
     stats:progressivePassesReceived 59 ;
-    stats:rank 1044 ;
     stats:redCards 0 ;
     stats:tackles 47 ;
     stats:tacklesWon 28 ;

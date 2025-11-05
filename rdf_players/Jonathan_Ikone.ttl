@@ -37,7 +37,6 @@ ex:Jonathan_Ikone a foaf:Person,
     stats:progressiveCarries 23 ;
     stats:progressivePasses 17 ;
     stats:progressivePassesReceived 55 ;
-    stats:rank 1208 ;
     stats:redCards 0 ;
     stats:tackles 15 ;
     stats:tacklesWon 9 ;

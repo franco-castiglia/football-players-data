@@ -36,7 +36,6 @@ ex:Nicola_Zalewski a foaf:Person,
     stats:progressiveCarries 31 ;
     stats:progressivePasses 17 ;
     stats:progressivePassesReceived 54 ;
-    stats:rank 2814 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 6 ;

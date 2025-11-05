@@ -36,7 +36,6 @@ ex:Przemysaw_Frankowski a foaf:Person,
     stats:progressiveCarries 33 ;
     stats:progressivePasses 117 ;
     stats:progressivePassesReceived 95 ;
-    stats:rank 931 ;
     stats:redCards 0 ;
     stats:tackles 32 ;
     stats:tacklesWon 21 ;

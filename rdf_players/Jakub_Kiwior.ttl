@@ -37,7 +37,6 @@ ex:Jakub_Kiwior a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 48 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 1364 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 8 ;

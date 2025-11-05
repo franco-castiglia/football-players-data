@@ -35,7 +35,6 @@ ex:Beres_Owusu a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 3 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 2011 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 2 ;

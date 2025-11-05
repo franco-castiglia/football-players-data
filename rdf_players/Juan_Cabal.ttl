@@ -36,7 +36,6 @@ ex:Juan_Cabal a foaf:Person,
     stats:progressiveCarries 14 ;
     stats:progressivePasses 17 ;
     stats:progressivePassesReceived 19 ;
-    stats:rank 670 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 4 ;

@@ -36,7 +36,6 @@ ex:Strahinja_Pavlovic a foaf:Person,
     stats:progressiveCarries 40 ;
     stats:progressivePasses 94 ;
     stats:progressivePassesReceived 10 ;
-    stats:rank 2053 ;
     stats:redCards 1 ;
     stats:tackles 52 ;
     stats:tacklesWon 31 ;

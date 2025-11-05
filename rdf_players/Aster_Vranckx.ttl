@@ -36,7 +36,6 @@ ex:Aster_Vranckx a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 20 ;
     stats:progressivePassesReceived 6 ;
-    stats:rank 2731 ;
     stats:redCards 0 ;
     stats:tackles 11 ;
     stats:tacklesWon 6 ;

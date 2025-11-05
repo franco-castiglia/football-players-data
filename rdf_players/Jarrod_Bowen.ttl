@@ -39,7 +39,6 @@ ex:Jarrod_Bowen a foaf:Person,
     stats:progressiveCarries 109 ;
     stats:progressivePasses 91 ;
     stats:progressivePassesReceived 212 ;
-    stats:rank 375 ;
     stats:redCards 0 ;
     stats:tackles 41 ;
     stats:tacklesWon 26 ;

@@ -36,7 +36,6 @@ ex:Jakub_Kaminski a foaf:Person,
     stats:progressiveCarries 41 ;
     stats:progressivePasses 40 ;
     stats:progressivePassesReceived 69 ;
-    stats:rank 1315 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 8 ;

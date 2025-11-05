@@ -37,7 +37,6 @@ ex:Gaetano_Oristanio a foaf:Person,
     stats:progressiveCarries 72 ;
     stats:progressivePasses 64 ;
     stats:progressivePassesReceived 131 ;
-    stats:rank 1990 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 13 ;

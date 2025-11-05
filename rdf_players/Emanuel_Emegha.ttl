@@ -36,7 +36,6 @@ ex:Emanuel_Emegha a foaf:Person,
     stats:progressiveCarries 37 ;
     stats:progressivePasses 14 ;
     stats:progressivePassesReceived 104 ;
-    stats:rank 840 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 6 ;

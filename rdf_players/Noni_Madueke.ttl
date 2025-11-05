@@ -38,7 +38,6 @@ ex:Noni_Madueke a foaf:Person,
     stats:progressiveCarries 154 ;
     stats:progressivePasses 69 ;
     stats:progressivePassesReceived 226 ;
-    stats:rank 1562 ;
     stats:redCards 0 ;
     stats:tackles 25 ;
     stats:tacklesWon 18 ;

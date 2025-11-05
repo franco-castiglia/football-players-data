@@ -38,7 +38,6 @@ ex:Hans_Hateboer a foaf:Person,
     stats:progressiveCarries 28 ;
     stats:progressivePasses 92 ;
     stats:progressivePassesReceived 63 ;
-    stats:rank 1133 ;
     stats:redCards 0 ;
     stats:tackles 31 ;
     stats:tacklesWon 16 ;

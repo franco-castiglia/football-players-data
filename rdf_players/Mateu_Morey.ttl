@@ -37,7 +37,6 @@ ex:Mateu_Morey a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 17 ;
     stats:progressivePassesReceived 32 ;
-    stats:rank 1792 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 18 ;

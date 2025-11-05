@@ -36,7 +36,6 @@ ex:Romain_Perraud a foaf:Person,
     stats:progressiveCarries 51 ;
     stats:progressivePasses 62 ;
     stats:progressivePassesReceived 106 ;
-    stats:rank 2098 ;
     stats:redCards 1 ;
     stats:tackles 36 ;
     stats:tacklesWon 22 ;

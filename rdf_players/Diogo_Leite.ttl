@@ -38,7 +38,6 @@ ex:Diogo_Leite a foaf:Person,
     stats:progressiveCarries 20 ;
     stats:progressivePasses 116 ;
     stats:progressivePassesReceived 16 ;
-    stats:rank 1467 ;
     stats:redCards 0 ;
     stats:tackles 64 ;
     stats:tacklesWon 32 ;

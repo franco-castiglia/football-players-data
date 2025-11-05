@@ -40,7 +40,6 @@ ex:Antony a foaf:Person,
     stats:progressiveCarries 94 ;
     stats:progressivePasses 67 ;
     stats:progressivePassesReceived 157 ;
-    stats:rank 138 ;
     stats:redCards 1 ;
     stats:tackles 25 ;
     stats:tacklesWon 11 ;

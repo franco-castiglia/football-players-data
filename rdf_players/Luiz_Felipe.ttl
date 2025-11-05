@@ -37,7 +37,6 @@ ex:Luiz_Felipe a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 4 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 883 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 3 ;

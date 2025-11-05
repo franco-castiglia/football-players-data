@@ -36,7 +36,6 @@ ex:Derrick_Kohn a foaf:Person,
     stats:progressiveCarries 36 ;
     stats:progressivePasses 39 ;
     stats:progressivePassesReceived 122 ;
-    stats:rank 1374 ;
     stats:redCards 0 ;
     stats:tackles 20 ;
     stats:tacklesWon 10 ;

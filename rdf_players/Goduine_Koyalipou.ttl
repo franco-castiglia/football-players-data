@@ -35,7 +35,6 @@ ex:Goduine_Koyalipou a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 20 ;
     stats:progressivePassesReceived 68 ;
-    stats:rank 1407 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 2 ;

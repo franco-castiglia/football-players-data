@@ -36,7 +36,6 @@ ex:Kristijan_Jakic a foaf:Person,
     stats:progressiveCarries 24 ;
     stats:progressivePasses 106 ;
     stats:progressivePassesReceived 49 ;
-    stats:rank 1238 ;
     stats:redCards 0 ;
     stats:tackles 46 ;
     stats:tacklesWon 23 ;

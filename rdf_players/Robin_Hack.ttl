@@ -36,7 +36,6 @@ ex:Robin_Hack a foaf:Person,
     stats:progressiveCarries 51 ;
     stats:progressivePasses 95 ;
     stats:progressivePassesReceived 141 ;
-    stats:rank 1113 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 17 ;

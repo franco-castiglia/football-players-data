@@ -39,7 +39,6 @@ ex:Andre_Gomes a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 101 ;
     stats:progressivePassesReceived 28 ;
-    stats:rank 1021 ;
     stats:redCards 0 ;
     stats:tackles 27 ;
     stats:tacklesWon 13 ;

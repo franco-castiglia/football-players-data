@@ -38,7 +38,6 @@ ex:Ibrahim_Sangare a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 27 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 2338 ;
     stats:redCards 0 ;
     stats:tackles 28 ;
     stats:tacklesWon 14 ;

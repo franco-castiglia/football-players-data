@@ -37,7 +37,6 @@ ex:Julian_Chabot a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 108 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 523 ;
     stats:redCards 1 ;
     stats:tackles 37 ;
     stats:tacklesWon 24 ;

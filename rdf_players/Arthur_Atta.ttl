@@ -36,7 +36,6 @@ ex:Arthur_Atta a foaf:Person,
     stats:progressiveCarries 31 ;
     stats:progressivePasses 57 ;
     stats:progressivePassesReceived 77 ;
-    stats:rank 173 ;
     stats:redCards 0 ;
     stats:tackles 20 ;
     stats:tacklesWon 12 ;

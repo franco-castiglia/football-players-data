@@ -38,7 +38,6 @@ ex:Leonardo_Balerdi a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 105 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 219 ;
     stats:redCards 1 ;
     stats:tackles 54 ;
     stats:tacklesWon 39 ;

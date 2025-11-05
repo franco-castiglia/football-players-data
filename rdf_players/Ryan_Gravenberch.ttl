@@ -37,7 +37,6 @@ ex:Ryan_Gravenberch a foaf:Person,
     stats:progressiveCarries 70 ;
     stats:progressivePasses 181 ;
     stats:progressivePassesReceived 55 ;
-    stats:rank 1057 ;
     stats:redCards 1 ;
     stats:tackles 69 ;
     stats:tacklesWon 35 ;

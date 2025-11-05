@@ -39,7 +39,6 @@ ex:Aritz_Elustondo a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 51 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 836 ;
     stats:redCards 1 ;
     stats:tackles 20 ;
     stats:tacklesWon 11 ;

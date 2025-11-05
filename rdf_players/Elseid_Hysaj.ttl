@@ -37,7 +37,6 @@ ex:Elseid_Hysaj a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 14 ;
     stats:progressivePassesReceived 18 ;
-    stats:rank 1193 ;
     stats:redCards 1 ;
     stats:tackles 11 ;
     stats:tacklesWon 6 ;

@@ -36,7 +36,6 @@ ex:Hugo_Sotelo a foaf:Person,
     stats:progressiveCarries 21 ;
     stats:progressivePasses 83 ;
     stats:progressivePassesReceived 38 ;
-    stats:rank 2476 ;
     stats:redCards 0 ;
     stats:tackles 28 ;
     stats:tacklesWon 17 ;

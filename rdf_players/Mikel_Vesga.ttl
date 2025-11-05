@@ -37,7 +37,6 @@ ex:Mikel_Vesga a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 64 ;
     stats:progressivePassesReceived 22 ;
-    stats:rank 2700 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 15 ;

@@ -39,7 +39,6 @@ ex:Jordan_Pickford a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 0 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 2118 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 0 ;

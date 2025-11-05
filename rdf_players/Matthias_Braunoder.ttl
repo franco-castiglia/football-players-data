@@ -35,7 +35,6 @@ ex:Matthias_Braunoder a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 18 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 386 ;
     stats:redCards 1 ;
     stats:tackles 10 ;
     stats:tacklesWon 4 ;

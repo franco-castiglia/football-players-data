@@ -36,7 +36,6 @@ ex:Luca_Netz a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 28 ;
     stats:progressivePassesReceived 55 ;
-    stats:rank 1885 ;
     stats:redCards 0 ;
     stats:tackles 24 ;
     stats:tacklesWon 14 ;

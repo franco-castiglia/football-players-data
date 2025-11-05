@@ -38,7 +38,6 @@ ex:Frank_Onyeka a foaf:Person,
     stats:progressiveCarries 46 ;
     stats:progressivePasses 106 ;
     stats:progressivePassesReceived 71 ;
-    stats:rank 1979 ;
     stats:redCards 0 ;
     stats:tackles 58 ;
     stats:tacklesWon 45 ;

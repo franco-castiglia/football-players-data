@@ -40,7 +40,6 @@ ex:Leroy_Sane a foaf:Person,
     stats:progressiveCarries 75 ;
     stats:progressivePasses 64 ;
     stats:progressivePassesReceived 266 ;
-    stats:rank 2336 ;
     stats:redCards 0 ;
     stats:tackles 23 ;
     stats:tacklesWon 15 ;

@@ -36,7 +36,6 @@ ex:Diego_Carlos a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 34 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 488 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 3 ;

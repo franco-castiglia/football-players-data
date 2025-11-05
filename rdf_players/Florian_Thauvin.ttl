@@ -36,7 +36,6 @@ ex:Florian_Thauvin a foaf:Person,
     stats:progressiveCarries 92 ;
     stats:progressivePasses 90 ;
     stats:progressivePassesReceived 148 ;
-    stats:rank 2582 ;
     stats:redCards 0 ;
     stats:tackles 20 ;
     stats:tacklesWon 14 ;

@@ -36,7 +36,6 @@ ex:Marco_Komenda a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 53 ;
     stats:progressivePassesReceived 16 ;
-    stats:rank 1382 ;
     stats:redCards 0 ;
     stats:tackles 26 ;
     stats:tacklesWon 17 ;

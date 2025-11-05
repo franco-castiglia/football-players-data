@@ -36,7 +36,6 @@ ex:Timothy_Weah a foaf:Person,
     stats:progressiveCarries 45 ;
     stats:progressivePasses 56 ;
     stats:progressivePassesReceived 120 ;
-    stats:rank 2752 ;
     stats:redCards 0 ;
     stats:tackles 36 ;
     stats:tacklesWon 19 ;

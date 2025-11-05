@@ -36,7 +36,6 @@ ex:Ismael_Kone a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 30 ;
     stats:progressivePassesReceived 16 ;
-    stats:rank 1390 ;
     stats:redCards 0 ;
     stats:tackles 9 ;
     stats:tacklesWon 6 ;

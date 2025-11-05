@@ -37,7 +37,6 @@ ex:Yerry_Mina a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 76 ;
     stats:progressivePassesReceived 9 ;
-    stats:rank 1751 ;
     stats:redCards 1 ;
     stats:tackles 66 ;
     stats:tacklesWon 32 ;

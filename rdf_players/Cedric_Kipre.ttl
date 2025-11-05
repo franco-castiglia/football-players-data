@@ -37,7 +37,6 @@ ex:Cedric_Kipre a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 77 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 1363 ;
     stats:redCards 2 ;
     stats:tackles 42 ;
     stats:tacklesWon 30 ;

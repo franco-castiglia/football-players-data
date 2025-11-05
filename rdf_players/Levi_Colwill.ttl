@@ -36,7 +36,6 @@ ex:Levi_Colwill a foaf:Person,
     stats:progressiveCarries 14 ;
     stats:progressivePasses 131 ;
     stats:progressivePassesReceived 12 ;
-    stats:rank 584 ;
     stats:redCards 0 ;
     stats:tackles 47 ;
     stats:tacklesWon 34 ;

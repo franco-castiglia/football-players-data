@@ -36,7 +36,6 @@ ex:Shuto_Machino a foaf:Person,
     stats:progressiveCarries 30 ;
     stats:progressivePasses 59 ;
     stats:progressivePassesReceived 108 ;
-    stats:rank 1557 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 5 ;

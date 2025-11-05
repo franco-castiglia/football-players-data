@@ -36,7 +36,6 @@ ex:Thibault_De_Smet a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 9 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 686 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 4 ;

@@ -37,7 +37,6 @@ ex:Pasquale_Mazzocchi a foaf:Person,
     stats:progressiveCarries 20 ;
     stats:progressivePasses 23 ;
     stats:progressivePassesReceived 43 ;
-    stats:rank 1689 ;
     stats:redCards 0 ;
     stats:tackles 15 ;
     stats:tacklesWon 7 ;

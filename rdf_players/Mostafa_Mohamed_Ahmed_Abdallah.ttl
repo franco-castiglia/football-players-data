@@ -39,7 +39,6 @@ ex:Mostafa_Mohamed_Ahmed_Abdallah a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 20 ;
     stats:progressivePassesReceived 50 ;
-    stats:rank 1772 ;
     stats:redCards 0 ;
     stats:tackles 18 ;
     stats:tacklesWon 9 ;

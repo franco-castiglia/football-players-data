@@ -36,7 +36,6 @@ ex:Elvis_Rexhbecaj a foaf:Person,
     stats:progressiveCarries 31 ;
     stats:progressivePasses 94 ;
     stats:progressivePassesReceived 82 ;
-    stats:rank 2203 ;
     stats:redCards 0 ;
     stats:tackles 27 ;
     stats:tacklesWon 19 ;

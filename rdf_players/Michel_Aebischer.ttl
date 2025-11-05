@@ -37,7 +37,6 @@ ex:Michel_Aebischer a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 33 ;
     stats:progressivePassesReceived 17 ;
-    stats:rank 37 ;
     stats:redCards 0 ;
     stats:tackles 18 ;
     stats:tacklesWon 13 ;

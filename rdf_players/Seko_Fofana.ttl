@@ -38,7 +38,6 @@ ex:Seko_Fofana a foaf:Person,
     stats:progressiveCarries 32 ;
     stats:progressivePasses 72 ;
     stats:progressivePassesReceived 38 ;
-    stats:rank 913 ;
     stats:redCards 0 ;
     stats:tackles 11 ;
     stats:tacklesWon 7 ;

@@ -37,7 +37,6 @@ ex:Andrea_Colpani a foaf:Person,
     stats:progressiveCarries 37 ;
     stats:progressivePasses 57 ;
     stats:progressivePassesReceived 129 ;
-    stats:rank 583 ;
     stats:redCards 0 ;
     stats:tackles 15 ;
     stats:tacklesWon 9 ;

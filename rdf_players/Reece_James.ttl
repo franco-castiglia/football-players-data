@@ -39,7 +39,6 @@ ex:Reece_James a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 64 ;
     stats:progressivePassesReceived 12 ;
-    stats:rank 1242 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 9 ;

@@ -36,7 +36,6 @@ ex:Oscar_Valentin a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 86 ;
     stats:progressivePassesReceived 8 ;
-    stats:rank 2659 ;
     stats:redCards 0 ;
     stats:tackles 55 ;
     stats:tacklesWon 41 ;

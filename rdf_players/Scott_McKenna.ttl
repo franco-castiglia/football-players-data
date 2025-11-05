@@ -38,7 +38,6 @@ ex:Scott_McKenna a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 45 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 1700 ;
     stats:redCards 1 ;
     stats:tackles 21 ;
     stats:tacklesWon 13 ;

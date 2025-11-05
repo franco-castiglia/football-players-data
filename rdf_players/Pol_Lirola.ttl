@@ -37,7 +37,6 @@ ex:Pol_Lirola a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 21 ;
     stats:progressivePassesReceived 40 ;
-    stats:rank 1498 ;
     stats:redCards 1 ;
     stats:tackles 13 ;
     stats:tacklesWon 9 ;

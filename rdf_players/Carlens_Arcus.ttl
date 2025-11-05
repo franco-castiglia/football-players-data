@@ -36,7 +36,6 @@ ex:Carlens_Arcus a foaf:Person,
     stats:progressiveCarries 39 ;
     stats:progressivePasses 70 ;
     stats:progressivePassesReceived 79 ;
-    stats:rank 147 ;
     stats:redCards 0 ;
     stats:tackles 52 ;
     stats:tacklesWon 35 ;

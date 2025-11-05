@@ -38,7 +38,6 @@ ex:Pau_Torres a foaf:Person,
     stats:progressiveCarries 40 ;
     stats:progressivePasses 97 ;
     stats:progressivePassesReceived 8 ;
-    stats:rank 2614 ;
     stats:redCards 0 ;
     stats:tackles 21 ;
     stats:tacklesWon 15 ;

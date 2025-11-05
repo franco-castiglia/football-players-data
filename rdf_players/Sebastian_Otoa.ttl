@@ -36,7 +36,6 @@ ex:Sebastian_Otoa a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 0 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 2001 ;
     stats:redCards 1 ;
     stats:tackles 1 ;
     stats:tacklesWon 0 ;

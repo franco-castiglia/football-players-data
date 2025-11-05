@@ -37,7 +37,6 @@ ex:Malick_Thiaw a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 89 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 2586 ;
     stats:redCards 0 ;
     stats:tackles 24 ;
     stats:tacklesWon 17 ;

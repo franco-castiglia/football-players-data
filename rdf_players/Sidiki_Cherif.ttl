@@ -36,7 +36,6 @@ ex:Sidiki_Cherif a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 3 ;
     stats:progressivePassesReceived 16 ;
-    stats:rank 541 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 5 ;

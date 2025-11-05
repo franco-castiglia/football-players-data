@@ -36,7 +36,6 @@ ex:Silvere_Ganvoula a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 4 ;
     stats:progressivePassesReceived 21 ;
-    stats:rank 965 ;
     stats:redCards 0 ;
     stats:tackles 0 ;
     stats:tacklesWon 0 ;

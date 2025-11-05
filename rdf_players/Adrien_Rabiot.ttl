@@ -39,7 +39,6 @@ ex:Adrien_Rabiot a foaf:Person,
     stats:progressiveCarries 79 ;
     stats:progressivePasses 168 ;
     stats:progressivePassesReceived 174 ;
-    stats:rank 2161 ;
     stats:redCards 0 ;
     stats:tackles 49 ;
     stats:tacklesWon 31 ;

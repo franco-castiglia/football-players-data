@@ -36,7 +36,6 @@ ex:Pedro_Chirivella_Burgos a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 170 ;
     stats:progressivePassesReceived 25 ;
-    stats:rank 552 ;
     stats:redCards 0 ;
     stats:tackles 44 ;
     stats:tacklesWon 29 ;

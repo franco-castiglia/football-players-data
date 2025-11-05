@@ -36,7 +36,6 @@ ex:Oliver_Scarles a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 22 ;
     stats:progressivePassesReceived 44 ;
-    stats:rank 2365 ;
     stats:redCards 0 ;
     stats:tackles 21 ;
     stats:tacklesWon 11 ;

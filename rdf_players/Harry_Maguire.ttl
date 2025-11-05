@@ -39,7 +39,6 @@ ex:Harry_Maguire a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 51 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 1570 ;
     stats:redCards 0 ;
     stats:tackles 30 ;
     stats:tacklesWon 15 ;

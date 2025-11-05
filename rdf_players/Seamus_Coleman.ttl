@@ -36,7 +36,6 @@ ex:Seamus_Coleman a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 11 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 578 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 2 ;

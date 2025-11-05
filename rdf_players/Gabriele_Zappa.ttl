@@ -36,7 +36,6 @@ ex:Gabriele_Zappa a foaf:Person,
     stats:progressiveCarries 57 ;
     stats:progressivePasses 146 ;
     stats:progressivePassesReceived 82 ;
-    stats:rank 2822 ;
     stats:redCards 0 ;
     stats:tackles 40 ;
     stats:tacklesWon 23 ;

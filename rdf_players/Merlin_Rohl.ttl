@@ -36,7 +36,6 @@ ex:Merlin_Rohl a foaf:Person,
     stats:progressiveCarries 20 ;
     stats:progressivePasses 22 ;
     stats:progressivePassesReceived 60 ;
-    stats:rank 2247 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 10 ;

@@ -37,7 +37,6 @@ ex:Angel_Correa a foaf:Person,
     stats:progressiveCarries 30 ;
     stats:progressivePasses 25 ;
     stats:progressivePassesReceived 85 ;
-    stats:rank 604 ;
     stats:redCards 1 ;
     stats:tackles 9 ;
     stats:tacklesWon 3 ;

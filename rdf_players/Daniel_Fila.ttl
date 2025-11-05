@@ -35,7 +35,6 @@ ex:Daniel_Fila a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 8 ;
     stats:progressivePassesReceived 30 ;
-    stats:rank 904 ;
     stats:redCards 1 ;
     stats:tackles 2 ;
     stats:tacklesWon 0 ;

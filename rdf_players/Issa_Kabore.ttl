@@ -36,7 +36,6 @@ ex:Issa_Kabore a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 8 ;
     stats:progressivePassesReceived 35 ;
-    stats:rank 1300 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 4 ;

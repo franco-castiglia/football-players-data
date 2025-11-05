@@ -38,7 +38,6 @@ ex:Theo_Pellenard a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 1 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 2072 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 2 ;

@@ -40,7 +40,6 @@ ex:Ben_Chilwell a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 8 ;
     stats:progressivePassesReceived 15 ;
-    stats:rank 549 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 6 ;

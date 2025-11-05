@@ -38,7 +38,6 @@ ex:Mohammed_Salisu a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 68 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 2312 ;
     stats:redCards 0 ;
     stats:tackles 28 ;
     stats:tacklesWon 18 ;

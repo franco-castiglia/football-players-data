@@ -35,7 +35,6 @@ ex:Kyllian_Antonio a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 0 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 134 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 2 ;

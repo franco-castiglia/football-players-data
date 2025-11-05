@@ -37,7 +37,6 @@ ex:Loum_Tchaouna a foaf:Person,
     stats:progressiveCarries 22 ;
     stats:progressivePasses 20 ;
     stats:progressivePassesReceived 66 ;
-    stats:rank 2560 ;
     stats:redCards 1 ;
     stats:tackles 8 ;
     stats:tacklesWon 4 ;

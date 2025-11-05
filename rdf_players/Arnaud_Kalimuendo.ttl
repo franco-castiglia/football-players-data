@@ -37,7 +37,6 @@ ex:Arnaud_Kalimuendo a foaf:Person,
     stats:progressiveCarries 50 ;
     stats:progressivePasses 72 ;
     stats:progressivePassesReceived 167 ;
-    stats:rank 1305 ;
     stats:redCards 0 ;
     stats:tackles 19 ;
     stats:tacklesWon 12 ;

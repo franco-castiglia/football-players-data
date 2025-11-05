@@ -36,7 +36,6 @@ ex:Lilian_Brassier a foaf:Person,
     stats:progressiveCarries 21 ;
     stats:progressivePasses 75 ;
     stats:progressivePassesReceived 11 ;
-    stats:rank 385 ;
     stats:redCards 0 ;
     stats:tackles 15 ;
     stats:tacklesWon 12 ;

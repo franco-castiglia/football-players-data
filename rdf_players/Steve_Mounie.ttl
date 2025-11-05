@@ -37,7 +37,6 @@ ex:Steve_Mounie a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 11 ;
     stats:progressivePassesReceived 27 ;
-    stats:rank 1806 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 4 ;

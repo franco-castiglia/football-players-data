@@ -36,7 +36,6 @@ ex:Benjamin_Dominguez a foaf:Person,
     stats:progressiveCarries 50 ;
     stats:progressivePasses 32 ;
     stats:progressivePassesReceived 123 ;
-    stats:rank 761 ;
     stats:redCards 0 ;
     stats:tackles 18 ;
     stats:tacklesWon 7 ;

@@ -36,7 +36,6 @@ ex:Logan_Costa a foaf:Person,
     stats:progressiveCarries 25 ;
     stats:progressivePasses 116 ;
     stats:progressivePassesReceived 10 ;
-    stats:rank 611 ;
     stats:redCards 0 ;
     stats:tackles 38 ;
     stats:tacklesWon 21 ;

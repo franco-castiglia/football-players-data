@@ -38,7 +38,6 @@ ex:Christian_Mawissa a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 44 ;
     stats:progressivePassesReceived 10 ;
-    stats:rank 1682 ;
     stats:redCards 0 ;
     stats:tackles 42 ;
     stats:tacklesWon 29 ;

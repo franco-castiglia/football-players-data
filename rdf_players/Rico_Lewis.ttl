@@ -36,7 +36,6 @@ ex:Rico_Lewis a foaf:Person,
     stats:progressiveCarries 39 ;
     stats:progressivePasses 107 ;
     stats:progressivePassesReceived 78 ;
-    stats:rank 1486 ;
     stats:redCards 1 ;
     stats:tackles 30 ;
     stats:tacklesWon 19 ;

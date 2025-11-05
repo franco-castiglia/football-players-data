@@ -36,7 +36,6 @@ ex:Pontus_Almqvist a foaf:Person,
     stats:progressiveCarries 42 ;
     stats:progressivePasses 12 ;
     stats:progressivePassesReceived 85 ;
-    stats:rank 96 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 13 ;

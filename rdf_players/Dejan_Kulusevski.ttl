@@ -38,7 +38,6 @@ ex:Dejan_Kulusevski a foaf:Person,
     stats:progressiveCarries 120 ;
     stats:progressivePasses 124 ;
     stats:progressivePassesReceived 210 ;
-    stats:rank 1422 ;
     stats:redCards 0 ;
     stats:tackles 45 ;
     stats:tacklesWon 23 ;

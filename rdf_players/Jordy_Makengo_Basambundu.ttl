@@ -36,7 +36,6 @@ ex:Jordy_Makengo_Basambundu a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 15 ;
     stats:progressivePassesReceived 35 ;
-    stats:rank 1580 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 9 ;

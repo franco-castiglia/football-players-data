@@ -40,7 +40,6 @@ ex:Eric_Dier a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 73 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 730 ;
     stats:redCards 0 ;
     stats:tackles 19 ;
     stats:tacklesWon 11 ;

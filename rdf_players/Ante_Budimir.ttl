@@ -38,7 +38,6 @@ ex:Ante_Budimir a foaf:Person,
     stats:progressiveCarries 23 ;
     stats:progressivePasses 24 ;
     stats:progressivePassesReceived 134 ;
-    stats:rank 406 ;
     stats:redCards 0 ;
     stats:tackles 20 ;
     stats:tacklesWon 9 ;

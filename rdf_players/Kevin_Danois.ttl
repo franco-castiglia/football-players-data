@@ -35,7 +35,6 @@ ex:Kevin_Danois a foaf:Person,
     stats:progressiveCarries 19 ;
     stats:progressivePasses 95 ;
     stats:progressivePassesReceived 50 ;
-    stats:rank 660 ;
     stats:redCards 0 ;
     stats:tackles 49 ;
     stats:tacklesWon 30 ;

@@ -36,7 +36,6 @@ ex:Vitezslav_Jaros a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 0 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 1246 ;
     stats:redCards 0 ;
     stats:tackles 0 ;
     stats:tacklesWon 0 ;

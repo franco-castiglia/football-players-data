@@ -36,7 +36,6 @@ ex:Rabby_Nzingoula a foaf:Person,
     stats:progressiveCarries 25 ;
     stats:progressivePasses 40 ;
     stats:progressivePassesReceived 38 ;
-    stats:rank 1930 ;
     stats:redCards 0 ;
     stats:tackles 64 ;
     stats:tacklesWon 42 ;

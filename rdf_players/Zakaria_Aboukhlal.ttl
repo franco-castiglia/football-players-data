@@ -39,7 +39,6 @@ ex:Zakaria_Aboukhlal a foaf:Person,
     stats:progressiveCarries 34 ;
     stats:progressivePasses 22 ;
     stats:progressivePassesReceived 164 ;
-    stats:rank 16 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 13 ;

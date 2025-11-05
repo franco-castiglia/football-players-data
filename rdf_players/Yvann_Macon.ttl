@@ -36,7 +36,6 @@ ex:Yvann_Macon a foaf:Person,
     stats:progressiveCarries 25 ;
     stats:progressivePasses 46 ;
     stats:progressivePassesReceived 40 ;
-    stats:rank 1559 ;
     stats:redCards 0 ;
     stats:tackles 19 ;
     stats:tacklesWon 11 ;

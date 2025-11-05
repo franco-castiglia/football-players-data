@@ -38,7 +38,6 @@ ex:Amar_Dedic a foaf:Person,
     stats:progressiveCarries 21 ;
     stats:progressivePasses 16 ;
     stats:progressivePassesReceived 46 ;
-    stats:rank 688 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 4 ;

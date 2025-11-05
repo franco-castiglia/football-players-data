@@ -38,7 +38,6 @@ ex:Diadie_Samassekou a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 11 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 2316 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 5 ;

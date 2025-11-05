@@ -39,7 +39,6 @@ ex:Hamza_Rafia a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 51 ;
     stats:progressivePassesReceived 32 ;
-    stats:rank 2163 ;
     stats:redCards 0 ;
     stats:tackles 44 ;
     stats:tacklesWon 27 ;

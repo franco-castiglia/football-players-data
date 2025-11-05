@@ -37,7 +37,6 @@ ex:Antonio_Sivera a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 1 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 2442 ;
     stats:redCards 1 ;
     stats:tackles 2 ;
     stats:tacklesWon 1 ;

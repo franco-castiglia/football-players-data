@@ -37,7 +37,6 @@ ex:Tyrell_Malacia a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 3 ;
     stats:progressivePassesReceived 6 ;
-    stats:rank 1583 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 1 ;

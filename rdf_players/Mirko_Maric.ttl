@@ -35,7 +35,6 @@ ex:Mirko_Maric a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 9 ;
     stats:progressivePassesReceived 27 ;
-    stats:rank 1624 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 3 ;

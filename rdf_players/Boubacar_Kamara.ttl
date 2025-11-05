@@ -38,7 +38,6 @@ ex:Boubacar_Kamara a foaf:Person,
     stats:progressiveCarries 19 ;
     stats:progressivePasses 85 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 1310 ;
     stats:redCards 0 ;
     stats:tackles 50 ;
     stats:tacklesWon 21 ;

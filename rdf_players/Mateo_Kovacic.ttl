@@ -40,7 +40,6 @@ ex:Mateo_Kovacic a foaf:Person,
     stats:progressiveCarries 56 ;
     stats:progressivePasses 164 ;
     stats:progressivePassesReceived 16 ;
-    stats:rank 1403 ;
     stats:redCards 1 ;
     stats:tackles 69 ;
     stats:tacklesWon 38 ;

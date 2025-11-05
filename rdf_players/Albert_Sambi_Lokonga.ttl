@@ -36,7 +36,6 @@ ex:Albert_Sambi_Lokonga a foaf:Person,
     stats:progressiveCarries 24 ;
     stats:progressivePasses 93 ;
     stats:progressivePassesReceived 20 ;
-    stats:rank 2321 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 15 ;

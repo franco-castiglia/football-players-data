@@ -36,7 +36,6 @@ ex:Mitchell_Weiser a foaf:Person,
     stats:progressiveCarries 65 ;
     stats:progressivePasses 125 ;
     stats:progressivePassesReceived 200 ;
-    stats:rank 2757 ;
     stats:redCards 1 ;
     stats:tackles 61 ;
     stats:tacklesWon 40 ;

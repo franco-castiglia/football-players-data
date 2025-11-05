@@ -36,7 +36,6 @@ ex:Carlos_Forbs_Borges a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 8 ;
     stats:progressivePassesReceived 28 ;
-    stats:rank 921 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 5 ;

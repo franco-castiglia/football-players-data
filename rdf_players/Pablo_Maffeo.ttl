@@ -36,7 +36,6 @@ ex:Pablo_Maffeo a foaf:Person,
     stats:progressiveCarries 46 ;
     stats:progressivePasses 74 ;
     stats:progressivePassesReceived 122 ;
-    stats:rank 1563 ;
     stats:redCards 0 ;
     stats:tackles 60 ;
     stats:tacklesWon 40 ;

@@ -35,7 +35,6 @@ ex:Asher_Agbinone a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 0 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 41 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 1 ;

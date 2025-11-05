@@ -40,7 +40,6 @@ ex:Antonio_Rudiger a foaf:Person,
     stats:progressiveCarries 20 ;
     stats:progressivePasses 94 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 2271 ;
     stats:redCards 0 ;
     stats:tackles 20 ;
     stats:tacklesWon 13 ;

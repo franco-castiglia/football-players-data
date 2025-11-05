@@ -38,7 +38,6 @@ ex:Alexis_Mac_Allister a foaf:Person,
     stats:progressiveCarries 36 ;
     stats:progressivePasses 177 ;
     stats:progressivePassesReceived 80 ;
-    stats:rank 1554 ;
     stats:redCards 0 ;
     stats:tackles 95 ;
     stats:tacklesWon 58 ;

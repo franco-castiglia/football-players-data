@@ -36,7 +36,6 @@ ex:Morgan_Guilavogui a foaf:Person,
     stats:progressiveCarries 42 ;
     stats:progressivePasses 41 ;
     stats:progressivePassesReceived 135 ;
-    stats:rank 1087 ;
     stats:redCards 0 ;
     stats:tackles 32 ;
     stats:tacklesWon 17 ;

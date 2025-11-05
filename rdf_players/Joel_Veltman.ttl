@@ -39,7 +39,6 @@ ex:Joel_Veltman a foaf:Person,
     stats:progressiveCarries 32 ;
     stats:progressivePasses 85 ;
     stats:progressivePassesReceived 34 ;
-    stats:rank 2691 ;
     stats:redCards 0 ;
     stats:tackles 43 ;
     stats:tacklesWon 29 ;

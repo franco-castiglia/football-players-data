@@ -36,7 +36,6 @@ ex:Nick_Woltemade a foaf:Person,
     stats:progressiveCarries 31 ;
     stats:progressivePasses 52 ;
     stats:progressivePassesReceived 141 ;
-    stats:rank 2786 ;
     stats:redCards 1 ;
     stats:tackles 10 ;
     stats:tacklesWon 7 ;

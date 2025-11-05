@@ -37,7 +37,6 @@ ex:Rafa_Mir a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 20 ;
     stats:progressivePassesReceived 28 ;
-    stats:rank 1759 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 6 ;

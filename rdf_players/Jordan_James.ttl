@@ -36,7 +36,6 @@ ex:Jordan_James a foaf:Person,
     stats:progressiveCarries 21 ;
     stats:progressivePasses 67 ;
     stats:progressivePassesReceived 15 ;
-    stats:rank 1241 ;
     stats:redCards 0 ;
     stats:tackles 30 ;
     stats:tacklesWon 19 ;

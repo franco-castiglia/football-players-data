@@ -40,7 +40,6 @@ ex:Nelson_Semedo a foaf:Person,
     stats:progressiveCarries 67 ;
     stats:progressivePasses 80 ;
     stats:progressivePassesReceived 119 ;
-    stats:rank 2393 ;
     stats:redCards 0 ;
     stats:tackles 62 ;
     stats:tacklesWon 36 ;

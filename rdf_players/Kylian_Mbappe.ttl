@@ -40,7 +40,6 @@ ex:Kylian_Mbappe a foaf:Person,
     stats:progressiveCarries 150 ;
     stats:progressivePasses 140 ;
     stats:progressivePassesReceived 386 ;
-    stats:rank 1692 ;
     stats:redCards 1 ;
     stats:tackles 8 ;
     stats:tacklesWon 5 ;

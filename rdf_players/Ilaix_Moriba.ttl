@@ -37,7 +37,6 @@ ex:Ilaix_Moriba a foaf:Person,
     stats:progressiveCarries 34 ;
     stats:progressivePasses 119 ;
     stats:progressivePassesReceived 64 ;
-    stats:rank 1793 ;
     stats:redCards 1 ;
     stats:tackles 68 ;
     stats:tacklesWon 42 ;

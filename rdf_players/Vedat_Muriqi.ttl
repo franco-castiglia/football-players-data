@@ -39,7 +39,6 @@ ex:Vedat_Muriqi a foaf:Person,
     stats:progressiveCarries 23 ;
     stats:progressivePasses 30 ;
     stats:progressivePassesReceived 103 ;
-    stats:rank 1830 ;
     stats:redCards 2 ;
     stats:tackles 7 ;
     stats:tacklesWon 5 ;

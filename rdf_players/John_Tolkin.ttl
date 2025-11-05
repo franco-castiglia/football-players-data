@@ -36,7 +36,6 @@ ex:John_Tolkin a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 17 ;
     stats:progressivePassesReceived 12 ;
-    stats:rank 2603 ;
     stats:redCards 0 ;
     stats:tackles 18 ;
     stats:tacklesWon 11 ;

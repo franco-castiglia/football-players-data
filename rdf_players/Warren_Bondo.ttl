@@ -36,7 +36,6 @@ ex:Warren_Bondo a foaf:Person,
     stats:progressiveCarries 25 ;
     stats:progressivePasses 39 ;
     stats:progressivePassesReceived 21 ;
-    stats:rank 359 ;
     stats:redCards 1 ;
     stats:tackles 35 ;
     stats:tacklesWon 24 ;

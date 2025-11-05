@@ -36,7 +36,6 @@ ex:Connor_Metcalfe a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 8 ;
     stats:progressivePassesReceived 11 ;
-    stats:rank 1731 ;
     stats:redCards 1 ;
     stats:tackles 2 ;
     stats:tacklesWon 0 ;

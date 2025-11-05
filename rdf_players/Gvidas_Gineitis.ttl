@@ -36,7 +36,6 @@ ex:Gvidas_Gineitis a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 36 ;
     stats:progressivePassesReceived 43 ;
-    stats:rank 1009 ;
     stats:redCards 0 ;
     stats:tackles 25 ;
     stats:tacklesWon 15 ;

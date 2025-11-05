@@ -36,7 +36,6 @@ ex:Marko_Arnautovic a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 16 ;
     stats:progressivePassesReceived 61 ;
-    stats:rank 157 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 5 ;

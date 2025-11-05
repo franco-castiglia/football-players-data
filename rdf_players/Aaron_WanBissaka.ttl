@@ -40,7 +40,6 @@ ex:Aaron_WanBissaka a foaf:Person,
     stats:progressiveCarries 110 ;
     stats:progressivePasses 149 ;
     stats:progressivePassesReceived 167 ;
-    stats:rank 2744 ;
     stats:redCards 0 ;
     stats:tackles 70 ;
     stats:tacklesWon 49 ;

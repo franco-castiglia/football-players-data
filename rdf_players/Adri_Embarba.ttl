@@ -38,7 +38,6 @@ ex:Adri_Embarba a foaf:Person,
     stats:progressiveCarries 47 ;
     stats:progressivePasses 45 ;
     stats:progressivePassesReceived 114 ;
-    stats:rank 838 ;
     stats:redCards 0 ;
     stats:tackles 41 ;
     stats:tacklesWon 20 ;

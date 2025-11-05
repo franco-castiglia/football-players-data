@@ -39,7 +39,6 @@ ex:Ayoze_Perez a foaf:Person,
     stats:progressiveCarries 59 ;
     stats:progressivePasses 73 ;
     stats:progressivePassesReceived 124 ;
-    stats:rank 2089 ;
     stats:redCards 0 ;
     stats:tackles 27 ;
     stats:tacklesWon 14 ;

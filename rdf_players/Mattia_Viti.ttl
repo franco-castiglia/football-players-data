@@ -37,7 +37,6 @@ ex:Mattia_Viti a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 86 ;
     stats:progressivePassesReceived 10 ;
-    stats:rank 2717 ;
     stats:redCards 0 ;
     stats:tackles 65 ;
     stats:tacklesWon 45 ;

@@ -37,7 +37,6 @@ ex:Valentin_Mihaila a foaf:Person,
     stats:progressiveCarries 25 ;
     stats:progressivePasses 41 ;
     stats:progressivePassesReceived 72 ;
-    stats:rank 1739 ;
     stats:redCards 0 ;
     stats:tackles 29 ;
     stats:tacklesWon 15 ;

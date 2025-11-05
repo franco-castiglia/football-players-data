@@ -36,7 +36,6 @@ ex:Kamory_Doumbia a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 72 ;
     stats:progressivePassesReceived 54 ;
-    stats:rank 781 ;
     stats:redCards 0 ;
     stats:tackles 41 ;
     stats:tacklesWon 29 ;

@@ -39,7 +39,6 @@ ex:Lucas_Hernandez a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 50 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 1152 ;
     stats:redCards 0 ;
     stats:tackles 24 ;
     stats:tacklesWon 18 ;

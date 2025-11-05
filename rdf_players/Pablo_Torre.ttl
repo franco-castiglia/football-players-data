@@ -39,7 +39,6 @@ ex:Pablo_Torre a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 17 ;
     stats:progressivePassesReceived 20 ;
-    stats:rank 2611 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 4 ;

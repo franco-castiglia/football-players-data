@@ -37,7 +37,6 @@ ex:Junior_Messias a foaf:Person,
     stats:progressiveCarries 32 ;
     stats:progressivePasses 32 ;
     stats:progressivePassesReceived 49 ;
-    stats:rank 1730 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 7 ;

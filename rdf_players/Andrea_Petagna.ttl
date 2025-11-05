@@ -38,7 +38,6 @@ ex:Andrea_Petagna a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 1 ;
     stats:progressivePassesReceived 17 ;
-    stats:rank 2104 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 1 ;

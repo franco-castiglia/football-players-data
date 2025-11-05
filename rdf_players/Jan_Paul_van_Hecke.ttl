@@ -37,7 +37,6 @@ ex:Jan_Paul_van_Hecke a foaf:Person,
     stats:progressiveCarries 55 ;
     stats:progressivePasses 228 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 1137 ;
     stats:redCards 1 ;
     stats:tackles 45 ;
     stats:tacklesWon 29 ;

@@ -40,7 +40,6 @@ ex:Jorginho a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 48 ;
     stats:progressivePassesReceived 6 ;
-    stats:rank 1277 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 4 ;

@@ -37,7 +37,6 @@ ex:Eldor_Shomurodov a foaf:Person,
     stats:progressiveCarries 19 ;
     stats:progressivePasses 21 ;
     stats:progressivePassesReceived 62 ;
-    stats:rank 2406 ;
     stats:redCards 0 ;
     stats:tackles 14 ;
     stats:tacklesWon 6 ;

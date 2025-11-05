@@ -37,7 +37,6 @@ ex:Dan_Ndoye a foaf:Person,
     stats:progressiveCarries 132 ;
     stats:progressivePasses 74 ;
     stats:progressivePassesReceived 231 ;
-    stats:rank 1872 ;
     stats:redCards 0 ;
     stats:tackles 26 ;
     stats:tacklesWon 19 ;

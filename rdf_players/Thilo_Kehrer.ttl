@@ -40,7 +40,6 @@ ex:Thilo_Kehrer a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 139 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 1334 ;
     stats:redCards 0 ;
     stats:tackles 37 ;
     stats:tacklesWon 23 ;

@@ -35,7 +35,6 @@ ex:Angel_Ortiz a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 15 ;
     stats:progressivePassesReceived 20 ;
-    stats:rank 1994 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 8 ;

@@ -36,7 +36,6 @@ ex:Cheick_Conde a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 8 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 2009 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 5 ;

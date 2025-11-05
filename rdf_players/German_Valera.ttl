@@ -36,7 +36,6 @@ ex:German_Valera a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 2 ;
     stats:progressivePassesReceived 10 ;
-    stats:rank 2661 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 1 ;

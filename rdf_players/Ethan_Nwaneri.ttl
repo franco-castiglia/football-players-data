@@ -39,7 +39,6 @@ ex:Ethan_Nwaneri a foaf:Person,
     stats:progressiveCarries 46 ;
     stats:progressivePasses 33 ;
     stats:progressivePassesReceived 113 ;
-    stats:rank 1927 ;
     stats:redCards 0 ;
     stats:tackles 11 ;
     stats:tacklesWon 7 ;

@@ -36,7 +36,6 @@ ex:Moritz_Broschinski a foaf:Person,
     stats:progressiveCarries 37 ;
     stats:progressivePasses 20 ;
     stats:progressivePassesReceived 130 ;
-    stats:rank 400 ;
     stats:redCards 0 ;
     stats:tackles 19 ;
     stats:tacklesWon 14 ;

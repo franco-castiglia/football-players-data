@@ -36,7 +36,6 @@ ex:David_Zec a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 34 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 2827 ;
     stats:redCards 0 ;
     stats:tackles 23 ;
     stats:tacklesWon 10 ;

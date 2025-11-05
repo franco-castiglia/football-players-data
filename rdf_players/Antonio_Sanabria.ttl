@@ -37,7 +37,6 @@ ex:Antonio_Sanabria a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 18 ;
     stats:progressivePassesReceived 54 ;
-    stats:rank 2324 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 3 ;

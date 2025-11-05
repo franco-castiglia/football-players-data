@@ -36,7 +36,6 @@ ex:Jesus_Areso a foaf:Person,
     stats:progressiveCarries 101 ;
     stats:progressivePasses 106 ;
     stats:progressivePassesReceived 203 ;
-    stats:rank 150 ;
     stats:redCards 0 ;
     stats:tackles 53 ;
     stats:tacklesWon 38 ;

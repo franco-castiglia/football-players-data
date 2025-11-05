@@ -36,7 +36,6 @@ ex:Antoine_Hainaut a foaf:Person,
     stats:progressiveCarries 22 ;
     stats:progressivePasses 34 ;
     stats:progressivePassesReceived 37 ;
-    stats:rank 1118 ;
     stats:redCards 0 ;
     stats:tackles 26 ;
     stats:tacklesWon 14 ;

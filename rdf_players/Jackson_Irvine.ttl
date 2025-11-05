@@ -36,7 +36,6 @@ ex:Jackson_Irvine a foaf:Person,
     stats:progressiveCarries 19 ;
     stats:progressivePasses 117 ;
     stats:progressivePassesReceived 58 ;
-    stats:rank 1218 ;
     stats:redCards 0 ;
     stats:tackles 56 ;
     stats:tacklesWon 28 ;

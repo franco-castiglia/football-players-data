@@ -36,7 +36,6 @@ ex:Saimon_Bouabre a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 2 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 366 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 0 ;

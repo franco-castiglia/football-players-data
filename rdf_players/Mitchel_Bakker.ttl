@@ -38,7 +38,6 @@ ex:Mitchel_Bakker a foaf:Person,
     stats:progressiveCarries 43 ;
     stats:progressivePasses 57 ;
     stats:progressivePassesReceived 120 ;
-    stats:rank 210 ;
     stats:redCards 1 ;
     stats:tackles 23 ;
     stats:tacklesWon 13 ;

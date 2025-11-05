@@ -37,7 +37,6 @@ ex:Simone_Verdi a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 5 ;
     stats:progressivePassesReceived 13 ;
-    stats:rank 2696 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 2 ;

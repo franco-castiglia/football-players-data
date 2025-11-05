@@ -38,7 +38,6 @@ ex:Johan_Mojica a foaf:Person,
     stats:progressiveCarries 66 ;
     stats:progressivePasses 130 ;
     stats:progressivePassesReceived 142 ;
-    stats:rank 1773 ;
     stats:redCards 0 ;
     stats:tackles 35 ;
     stats:tacklesWon 23 ;

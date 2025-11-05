@@ -37,7 +37,6 @@ ex:Derek_Cornelius a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 68 ;
     stats:progressivePassesReceived 11 ;
-    stats:rank 600 ;
     stats:redCards 2 ;
     stats:tackles 24 ;
     stats:tacklesWon 17 ;

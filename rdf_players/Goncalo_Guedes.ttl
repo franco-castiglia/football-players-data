@@ -38,7 +38,6 @@ ex:Goncalo_Guedes a foaf:Person,
     stats:progressiveCarries 41 ;
     stats:progressivePasses 40 ;
     stats:progressivePassesReceived 79 ;
-    stats:rank 1078 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 5 ;

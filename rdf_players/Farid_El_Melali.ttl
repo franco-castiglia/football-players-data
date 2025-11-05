@@ -36,7 +36,6 @@ ex:Farid_El_Melali a foaf:Person,
     stats:progressiveCarries 62 ;
     stats:progressivePasses 43 ;
     stats:progressivePassesReceived 113 ;
-    stats:rank 1715 ;
     stats:redCards 0 ;
     stats:tackles 28 ;
     stats:tacklesWon 16 ;

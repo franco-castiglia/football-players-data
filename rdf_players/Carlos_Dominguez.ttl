@@ -36,7 +36,6 @@ ex:Carlos_Dominguez a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 66 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 762 ;
     stats:redCards 0 ;
     stats:tackles 23 ;
     stats:tacklesWon 11 ;

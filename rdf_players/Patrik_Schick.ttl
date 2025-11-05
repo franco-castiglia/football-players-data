@@ -38,7 +38,6 @@ ex:Patrik_Schick a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 21 ;
     stats:progressivePassesReceived 107 ;
-    stats:rank 2370 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 5 ;

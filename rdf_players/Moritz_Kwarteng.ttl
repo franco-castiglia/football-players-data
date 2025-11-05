@@ -36,7 +36,6 @@ ex:Moritz_Kwarteng a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 12 ;
     stats:progressivePassesReceived 16 ;
-    stats:rank 1429 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 3 ;

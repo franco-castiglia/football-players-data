@@ -36,7 +36,6 @@ ex:Sergio_Akieme a foaf:Person,
     stats:progressiveCarries 55 ;
     stats:progressivePasses 86 ;
     stats:progressivePassesReceived 97 ;
-    stats:rank 66 ;
     stats:redCards 0 ;
     stats:tackles 34 ;
     stats:tacklesWon 23 ;

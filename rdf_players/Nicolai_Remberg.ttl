@@ -36,7 +36,6 @@ ex:Nicolai_Remberg a foaf:Person,
     stats:progressiveCarries 25 ;
     stats:progressivePasses 80 ;
     stats:progressivePassesReceived 31 ;
-    stats:rank 2197 ;
     stats:redCards 0 ;
     stats:tackles 45 ;
     stats:tacklesWon 25 ;

@@ -38,7 +38,6 @@ ex:Alberto_Moreno_Perez a foaf:Person,
     stats:progressiveCarries 23 ;
     stats:progressivePasses 81 ;
     stats:progressivePassesReceived 58 ;
-    stats:rank 1786 ;
     stats:redCards 0 ;
     stats:tackles 25 ;
     stats:tacklesWon 11 ;

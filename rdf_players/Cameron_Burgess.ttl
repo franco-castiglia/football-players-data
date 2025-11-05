@@ -36,7 +36,6 @@ ex:Cameron_Burgess a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 42 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 415 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 12 ;

@@ -36,7 +36,6 @@ ex:Tete_Morente a foaf:Person,
     stats:progressiveCarries 48 ;
     stats:progressivePasses 102 ;
     stats:progressivePassesReceived 144 ;
-    stats:rank 1791 ;
     stats:redCards 0 ;
     stats:tackles 27 ;
     stats:tacklesWon 17 ;

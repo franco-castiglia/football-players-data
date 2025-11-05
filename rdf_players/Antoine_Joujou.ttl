@@ -36,7 +36,6 @@ ex:Antoine_Joujou a foaf:Person,
     stats:progressiveCarries 44 ;
     stats:progressivePasses 18 ;
     stats:progressivePassesReceived 85 ;
-    stats:rank 1281 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 11 ;

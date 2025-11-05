@@ -36,7 +36,6 @@ ex:Saud_Abdulhamid a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 9 ;
     stats:progressivePassesReceived 26 ;
-    stats:rank 10 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 2 ;

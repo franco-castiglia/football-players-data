@@ -39,7 +39,6 @@ ex:Karol_Linetty a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 47 ;
     stats:progressivePassesReceived 19 ;
-    stats:rank 1496 ;
     stats:redCards 0 ;
     stats:tackles 39 ;
     stats:tacklesWon 23 ;

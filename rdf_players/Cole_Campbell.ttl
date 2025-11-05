@@ -37,7 +37,6 @@ ex:Cole_Campbell a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 0 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 459 ;
     stats:redCards 0 ;
     stats:tackles 0 ;
     stats:tacklesWon 0 ;

@@ -37,7 +37,6 @@ ex:Unai_Lopez a foaf:Person,
     stats:progressiveCarries 22 ;
     stats:progressivePasses 112 ;
     stats:progressivePassesReceived 40 ;
-    stats:rank 1524 ;
     stats:redCards 1 ;
     stats:tackles 31 ;
     stats:tacklesWon 21 ;

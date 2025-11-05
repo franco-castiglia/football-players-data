@@ -36,7 +36,6 @@ ex:Bence_Dardai a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 39 ;
     stats:progressivePassesReceived 24 ;
-    stats:rank 666 ;
     stats:redCards 0 ;
     stats:tackles 24 ;
     stats:tacklesWon 14 ;

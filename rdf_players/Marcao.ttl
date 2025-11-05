@@ -36,7 +36,6 @@ ex:Marcao a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 19 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 1614 ;
     stats:redCards 1 ;
     stats:tackles 10 ;
     stats:tacklesWon 7 ;

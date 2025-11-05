@@ -38,7 +38,6 @@ ex:Ismaily a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 54 ;
     stats:progressivePassesReceived 51 ;
-    stats:rank 1223 ;
     stats:redCards 0 ;
     stats:tackles 33 ;
     stats:tacklesWon 17 ;

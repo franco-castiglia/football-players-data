@@ -40,7 +40,6 @@ ex:Mario_Gotze a foaf:Person,
     stats:progressiveCarries 29 ;
     stats:progressivePasses 88 ;
     stats:progressivePassesReceived 96 ;
-    stats:rank 1047 ;
     stats:redCards 0 ;
     stats:tackles 41 ;
     stats:tacklesWon 28 ;

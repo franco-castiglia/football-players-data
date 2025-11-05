@@ -40,7 +40,6 @@ ex:Alex_Iwobi a foaf:Person,
     stats:progressiveCarries 144 ;
     stats:progressivePasses 213 ;
     stats:progressivePassesReceived 246 ;
-    stats:rank 1231 ;
     stats:redCards 0 ;
     stats:tackles 44 ;
     stats:tacklesWon 25 ;

@@ -36,7 +36,6 @@ ex:Ramon_Sosa a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 6 ;
     stats:progressivePassesReceived 17 ;
-    stats:rank 2475 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 3 ;

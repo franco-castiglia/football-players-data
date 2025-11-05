@@ -36,7 +36,6 @@ ex:Martin_Payero a foaf:Person,
     stats:progressiveCarries 33 ;
     stats:progressivePasses 51 ;
     stats:progressivePassesReceived 44 ;
-    stats:rank 2055 ;
     stats:redCards 0 ;
     stats:tackles 24 ;
     stats:tacklesWon 16 ;

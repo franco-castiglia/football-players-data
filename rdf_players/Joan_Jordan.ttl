@@ -37,7 +37,6 @@ ex:Joan_Jordan a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 104 ;
     stats:progressivePassesReceived 35 ;
-    stats:rank 1276 ;
     stats:redCards 0 ;
     stats:tackles 32 ;
     stats:tacklesWon 18 ;

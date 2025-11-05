@@ -36,7 +36,6 @@ ex:Yann_Gboho a foaf:Person,
     stats:progressiveCarries 116 ;
     stats:progressivePasses 103 ;
     stats:progressivePassesReceived 189 ;
-    stats:rank 986 ;
     stats:redCards 0 ;
     stats:tackles 31 ;
     stats:tacklesWon 18 ;

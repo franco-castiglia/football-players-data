@@ -39,7 +39,6 @@ ex:Giovani_Lo_Celso a foaf:Person,
     stats:progressiveCarries 26 ;
     stats:progressivePasses 132 ;
     stats:progressivePassesReceived 66 ;
-    stats:rank 1506 ;
     stats:redCards 0 ;
     stats:tackles 34 ;
     stats:tacklesWon 22 ;

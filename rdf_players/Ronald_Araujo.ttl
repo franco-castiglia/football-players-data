@@ -37,7 +37,6 @@ ex:Ronald_Araujo a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 49 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 145 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 9 ;

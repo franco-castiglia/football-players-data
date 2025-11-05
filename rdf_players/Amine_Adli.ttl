@@ -36,7 +36,6 @@ ex:Amine_Adli a foaf:Person,
     stats:progressiveCarries 37 ;
     stats:progressivePasses 24 ;
     stats:progressivePassesReceived 100 ;
-    stats:rank 32 ;
     stats:redCards 0 ;
     stats:tackles 15 ;
     stats:tacklesWon 9 ;

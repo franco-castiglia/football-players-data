@@ -35,7 +35,6 @@ ex:Tiago_Tomas a foaf:Person,
     stats:progressiveCarries 31 ;
     stats:progressivePasses 50 ;
     stats:progressivePassesReceived 125 ;
-    stats:rank 2606 ;
     stats:redCards 0 ;
     stats:tackles 33 ;
     stats:tacklesWon 19 ;

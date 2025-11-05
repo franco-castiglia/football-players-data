@@ -36,7 +36,6 @@ ex:Mama_Balde a foaf:Person,
     stats:progressiveCarries 35 ;
     stats:progressivePasses 22 ;
     stats:progressivePassesReceived 100 ;
-    stats:rank 2318 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 9 ;

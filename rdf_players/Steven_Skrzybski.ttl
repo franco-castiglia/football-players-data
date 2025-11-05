@@ -38,7 +38,6 @@ ex:Steven_Skrzybski a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 64 ;
     stats:progressivePassesReceived 71 ;
-    stats:rank 2452 ;
     stats:redCards 0 ;
     stats:tackles 19 ;
     stats:tacklesWon 6 ;

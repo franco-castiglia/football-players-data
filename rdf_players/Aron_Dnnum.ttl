@@ -36,7 +36,6 @@ ex:Aron_Dnnum a foaf:Person,
     stats:progressiveCarries 94 ;
     stats:progressivePasses 126 ;
     stats:progressivePassesReceived 142 ;
-    stats:rank 807 ;
     stats:redCards 0 ;
     stats:tackles 56 ;
     stats:tacklesWon 35 ;

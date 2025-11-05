@@ -37,7 +37,6 @@ ex:Amadou_Onana a foaf:Person,
     stats:progressiveCarries 29 ;
     stats:progressivePasses 75 ;
     stats:progressivePassesReceived 16 ;
-    stats:rank 1972 ;
     stats:redCards 0 ;
     stats:tackles 55 ;
     stats:tacklesWon 30 ;

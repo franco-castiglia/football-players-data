@@ -38,7 +38,6 @@ ex:Marco_Palestra a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 6 ;
     stats:progressivePassesReceived 14 ;
-    stats:rank 2029 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 4 ;

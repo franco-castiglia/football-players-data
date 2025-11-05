@@ -36,7 +36,6 @@ ex:Theo_Bair a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 16 ;
     stats:progressivePassesReceived 42 ;
-    stats:rank 206 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 3 ;

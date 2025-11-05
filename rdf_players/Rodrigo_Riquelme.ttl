@@ -36,7 +36,6 @@ ex:Rodrigo_Riquelme a foaf:Person,
     stats:progressiveCarries 43 ;
     stats:progressivePasses 24 ;
     stats:progressivePassesReceived 62 ;
-    stats:rank 2217 ;
     stats:redCards 0 ;
     stats:tackles 11 ;
     stats:tacklesWon 5 ;

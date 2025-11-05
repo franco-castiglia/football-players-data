@@ -36,7 +36,6 @@ ex:Denis_Genreau a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 13 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 993 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 5 ;

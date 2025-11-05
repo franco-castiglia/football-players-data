@@ -36,7 +36,6 @@ ex:Botond_Balogh a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 37 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 222 ;
     stats:redCards 0 ;
     stats:tackles 36 ;
     stats:tacklesWon 16 ;

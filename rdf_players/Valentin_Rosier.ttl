@@ -36,7 +36,6 @@ ex:Valentin_Rosier a foaf:Person,
     stats:progressiveCarries 41 ;
     stats:progressivePasses 74 ;
     stats:progressivePassesReceived 89 ;
-    stats:rank 2261 ;
     stats:redCards 0 ;
     stats:tackles 72 ;
     stats:tacklesWon 52 ;

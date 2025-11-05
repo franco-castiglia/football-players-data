@@ -36,7 +36,6 @@ ex:Dodi_Lukebakio a foaf:Person,
     stats:progressiveCarries 131 ;
     stats:progressivePasses 93 ;
     stats:progressivePassesReceived 247 ;
-    stats:rank 1540 ;
     stats:redCards 1 ;
     stats:tackles 22 ;
     stats:tacklesWon 14 ;

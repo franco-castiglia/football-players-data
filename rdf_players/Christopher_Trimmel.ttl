@@ -36,7 +36,6 @@ ex:Christopher_Trimmel a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 73 ;
     stats:progressivePassesReceived 45 ;
-    stats:rank 2633 ;
     stats:redCards 0 ;
     stats:tackles 38 ;
     stats:tacklesWon 25 ;

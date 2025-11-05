@@ -36,7 +36,6 @@ ex:Nathan_Zeze a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 46 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 2837 ;
     stats:redCards 0 ;
     stats:tackles 38 ;
     stats:tacklesWon 22 ;

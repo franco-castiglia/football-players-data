@@ -36,7 +36,6 @@ ex:Birama_Toure a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 9 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 2619 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 5 ;

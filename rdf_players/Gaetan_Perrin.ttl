@@ -38,7 +38,6 @@ ex:Gaetan_Perrin a foaf:Person,
     stats:progressiveCarries 83 ;
     stats:progressivePasses 142 ;
     stats:progressivePassesReceived 125 ;
-    stats:rank 2100 ;
     stats:redCards 0 ;
     stats:tackles 49 ;
     stats:tacklesWon 26 ;

@@ -39,7 +39,6 @@ ex:Pedro a foaf:Person,
     stats:progressiveCarries 48 ;
     stats:progressivePasses 76 ;
     stats:progressivePassesReceived 89 ;
-    stats:rank 2062 ;
     stats:redCards 0 ;
     stats:tackles 19 ;
     stats:tacklesWon 14 ;

@@ -36,7 +36,6 @@ ex:Youssouf_Ndayishimiye a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 86 ;
     stats:progressivePassesReceived 9 ;
-    stats:rank 1864 ;
     stats:redCards 0 ;
     stats:tackles 40 ;
     stats:tacklesWon 21 ;

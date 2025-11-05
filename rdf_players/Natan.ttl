@@ -37,7 +37,6 @@ ex:Natan a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 52 ;
     stats:progressivePassesReceived 6 ;
-    stats:rank 1859 ;
     stats:redCards 1 ;
     stats:tackles 35 ;
     stats:tacklesWon 24 ;

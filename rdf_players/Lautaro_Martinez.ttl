@@ -39,7 +39,6 @@ ex:Lautaro_Martinez a foaf:Person,
     stats:progressiveCarries 34 ;
     stats:progressivePasses 68 ;
     stats:progressivePassesReceived 197 ;
-    stats:rank 1651 ;
     stats:redCards 0 ;
     stats:tackles 30 ;
     stats:tacklesWon 16 ;

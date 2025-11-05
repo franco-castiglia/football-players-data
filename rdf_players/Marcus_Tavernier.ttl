@@ -38,7 +38,6 @@ ex:Marcus_Tavernier a foaf:Person,
     stats:progressiveCarries 53 ;
     stats:progressivePasses 128 ;
     stats:progressivePassesReceived 129 ;
-    stats:rank 2557 ;
     stats:redCards 0 ;
     stats:tackles 43 ;
     stats:tacklesWon 24 ;

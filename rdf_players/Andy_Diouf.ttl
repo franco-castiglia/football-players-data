@@ -36,7 +36,6 @@ ex:Andy_Diouf a foaf:Person,
     stats:progressiveCarries 82 ;
     stats:progressivePasses 116 ;
     stats:progressivePassesReceived 94 ;
-    stats:rank 743 ;
     stats:redCards 0 ;
     stats:tackles 37 ;
     stats:tacklesWon 26 ;

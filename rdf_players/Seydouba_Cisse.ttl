@@ -36,7 +36,6 @@ ex:Seydouba_Cisse a foaf:Person,
     stats:progressiveCarries 26 ;
     stats:progressivePasses 110 ;
     stats:progressivePassesReceived 42 ;
-    stats:rank 566 ;
     stats:redCards 1 ;
     stats:tackles 59 ;
     stats:tacklesWon 37 ;

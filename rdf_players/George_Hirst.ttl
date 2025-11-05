@@ -36,7 +36,6 @@ ex:George_Hirst a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 13 ;
     stats:progressivePassesReceived 31 ;
-    stats:rank 1167 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 3 ;

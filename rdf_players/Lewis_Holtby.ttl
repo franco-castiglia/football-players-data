@@ -36,7 +36,6 @@ ex:Lewis_Holtby a foaf:Person,
     stats:progressiveCarries 14 ;
     stats:progressivePasses 47 ;
     stats:progressivePassesReceived 34 ;
-    stats:rank 1177 ;
     stats:redCards 1 ;
     stats:tackles 34 ;
     stats:tacklesWon 20 ;

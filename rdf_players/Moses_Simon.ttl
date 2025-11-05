@@ -36,7 +36,6 @@ ex:Moses_Simon a foaf:Person,
     stats:progressiveCarries 147 ;
     stats:progressivePasses 59 ;
     stats:progressivePassesReceived 222 ;
-    stats:rank 2427 ;
     stats:redCards 0 ;
     stats:tackles 20 ;
     stats:tacklesWon 14 ;

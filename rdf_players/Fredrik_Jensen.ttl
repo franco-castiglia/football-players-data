@@ -37,7 +37,6 @@ ex:Fredrik_Jensen a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 20 ;
     stats:progressivePassesReceived 58 ;
-    stats:rank 1254 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 7 ;

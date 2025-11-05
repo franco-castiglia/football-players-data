@@ -39,7 +39,6 @@ ex:William_Carvalho a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 45 ;
     stats:progressivePassesReceived 10 ;
-    stats:rank 495 ;
     stats:redCards 0 ;
     stats:tackles 9 ;
     stats:tacklesWon 6 ;

@@ -35,7 +35,6 @@ ex:Valentin_Atangana a foaf:Person,
     stats:progressiveCarries 41 ;
     stats:progressivePasses 93 ;
     stats:progressivePassesReceived 38 ;
-    stats:rank 172 ;
     stats:redCards 0 ;
     stats:tackles 69 ;
     stats:tacklesWon 50 ;

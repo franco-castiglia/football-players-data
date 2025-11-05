@@ -38,7 +38,6 @@ ex:Alfred_Duncan a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 53 ;
     stats:progressivePassesReceived 12 ;
-    stats:rank 797 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 8 ;

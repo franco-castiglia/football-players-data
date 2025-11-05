@@ -36,7 +36,6 @@ ex:Finn_Jeltsch a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 31 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 1252 ;
     stats:redCards 0 ;
     stats:tackles 18 ;
     stats:tacklesWon 13 ;

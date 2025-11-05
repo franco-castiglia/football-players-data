@@ -36,7 +36,6 @@ ex:Vitaly_Janelt a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 80 ;
     stats:progressivePassesReceived 38 ;
-    stats:rank 1243 ;
     stats:redCards 0 ;
     stats:tackles 38 ;
     stats:tacklesWon 22 ;

@@ -40,7 +40,6 @@ ex:Danilo a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 45 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 656 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 4 ;

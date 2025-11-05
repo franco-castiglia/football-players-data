@@ -37,7 +37,6 @@ ex:Nicolas_Pepe a foaf:Person,
     stats:progressiveCarries 76 ;
     stats:progressivePasses 60 ;
     stats:progressivePassesReceived 159 ;
-    stats:rank 2079 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 9 ;

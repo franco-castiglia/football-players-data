@@ -37,7 +37,6 @@ ex:Antoine_Semenyo a foaf:Person,
     stats:progressiveCarries 140 ;
     stats:progressivePasses 109 ;
     stats:progressivePassesReceived 282 ;
-    stats:rank 2394 ;
     stats:redCards 0 ;
     stats:tackles 55 ;
     stats:tacklesWon 35 ;

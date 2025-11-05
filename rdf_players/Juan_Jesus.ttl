@@ -38,7 +38,6 @@ ex:Juan_Jesus a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 50 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 1258 ;
     stats:redCards 0 ;
     stats:tackles 25 ;
     stats:tacklesWon 14 ;

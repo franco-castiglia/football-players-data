@@ -39,7 +39,6 @@ ex:Michael_Olise a foaf:Person,
     stats:progressiveCarries 119 ;
     stats:progressivePasses 184 ;
     stats:progressivePassesReceived 381 ;
-    stats:rank 1961 ;
     stats:redCards 0 ;
     stats:tackles 36 ;
     stats:tacklesWon 23 ;

@@ -36,7 +36,6 @@ ex:Drissa_Camara a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 27 ;
     stats:progressivePassesReceived 35 ;
-    stats:rank 446 ;
     stats:redCards 0 ;
     stats:tackles 9 ;
     stats:tacklesWon 7 ;

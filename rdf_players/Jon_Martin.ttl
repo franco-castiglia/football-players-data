@@ -36,7 +36,6 @@ ex:Jon_Martin a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 34 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 1642 ;
     stats:redCards 0 ;
     stats:tackles 11 ;
     stats:tacklesWon 9 ;

@@ -35,7 +35,6 @@ ex:Stefan_Lekovic a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 15 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 1470 ;
     stats:redCards 0 ;
     stats:tackles 9 ;
     stats:tacklesWon 4 ;

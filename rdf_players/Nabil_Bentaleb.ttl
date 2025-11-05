@@ -39,7 +39,6 @@ ex:Nabil_Bentaleb a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 23 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 303 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 3 ;

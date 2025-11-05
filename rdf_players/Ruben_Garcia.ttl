@@ -39,7 +39,6 @@ ex:Ruben_Garcia a foaf:Person,
     stats:progressiveCarries 37 ;
     stats:progressivePasses 112 ;
     stats:progressivePassesReceived 157 ;
-    stats:rank 975 ;
     stats:redCards 0 ;
     stats:tackles 52 ;
     stats:tacklesWon 31 ;

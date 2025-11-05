@@ -40,7 +40,6 @@ ex:Romelu_Lukaku a foaf:Person,
     stats:progressiveCarries 31 ;
     stats:progressivePasses 36 ;
     stats:progressivePassesReceived 219 ;
-    stats:rank 1538 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 2 ;

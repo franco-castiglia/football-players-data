@@ -36,7 +36,6 @@ ex:Paul_Wanner a foaf:Person,
     stats:progressiveCarries 28 ;
     stats:progressivePasses 64 ;
     stats:progressivePassesReceived 65 ;
-    stats:rank 2745 ;
     stats:redCards 0 ;
     stats:tackles 40 ;
     stats:tacklesWon 27 ;

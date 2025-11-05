@@ -36,7 +36,6 @@ ex:Djylian_NGuessan a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 9 ;
     stats:progressivePassesReceived 16 ;
-    stats:rank 1849 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 4 ;

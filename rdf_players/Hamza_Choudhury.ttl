@@ -38,7 +38,6 @@ ex:Hamza_Choudhury a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 3 ;
     stats:progressivePassesReceived 6 ;
-    stats:rank 554 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 1 ;

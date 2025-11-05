@@ -37,7 +37,6 @@ ex:Lovro_Majer a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 17 ;
     stats:progressivePassesReceived 10 ;
-    stats:rank 1578 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 1 ;

@@ -36,7 +36,6 @@ ex:Maxime_Bernauer a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 41 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 319 ;
     stats:redCards 1 ;
     stats:tackles 9 ;
     stats:tacklesWon 9 ;

@@ -38,7 +38,6 @@ ex:Nico_Williams a foaf:Person,
     stats:progressiveCarries 118 ;
     stats:progressivePasses 69 ;
     stats:progressivePassesReceived 254 ;
-    stats:rank 2771 ;
     stats:redCards 0 ;
     stats:tackles 28 ;
     stats:tacklesWon 18 ;

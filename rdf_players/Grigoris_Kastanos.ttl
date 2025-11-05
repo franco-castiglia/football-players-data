@@ -37,7 +37,6 @@ ex:Grigoris_Kastanos a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 34 ;
     stats:progressivePassesReceived 27 ;
-    stats:rank 1326 ;
     stats:redCards 0 ;
     stats:tackles 23 ;
     stats:tacklesWon 16 ;

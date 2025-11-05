@@ -36,7 +36,6 @@ ex:Florian_Sotoca a foaf:Person,
     stats:progressiveCarries 44 ;
     stats:progressivePasses 105 ;
     stats:progressivePassesReceived 170 ;
-    stats:rank 2477 ;
     stats:redCards 1 ;
     stats:tackles 22 ;
     stats:tacklesWon 13 ;

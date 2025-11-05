@@ -36,7 +36,6 @@ ex:Julian_Malatini a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 24 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 1585 ;
     stats:redCards 0 ;
     stats:tackles 11 ;
     stats:tacklesWon 9 ;

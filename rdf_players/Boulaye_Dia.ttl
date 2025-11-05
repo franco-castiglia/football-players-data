@@ -38,7 +38,6 @@ ex:Boulaye_Dia a foaf:Person,
     stats:progressiveCarries 23 ;
     stats:progressivePasses 51 ;
     stats:progressivePassesReceived 114 ;
-    stats:rank 707 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 10 ;

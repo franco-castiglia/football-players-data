@@ -35,7 +35,6 @@ ex:Ange_Tia a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 8 ;
     stats:progressivePassesReceived 9 ;
-    stats:rank 1636 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 3 ;

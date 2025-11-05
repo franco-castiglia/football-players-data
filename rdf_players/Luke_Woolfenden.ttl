@@ -38,7 +38,6 @@ ex:Luke_Woolfenden a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 15 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 2791 ;
     stats:redCards 0 ;
     stats:tackles 9 ;
     stats:tacklesWon 6 ;

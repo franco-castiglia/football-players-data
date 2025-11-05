@@ -37,7 +37,6 @@ ex:Pape_Gueye a foaf:Person,
     stats:progressiveCarries 36 ;
     stats:progressivePasses 156 ;
     stats:progressivePassesReceived 69 ;
-    stats:rank 1086 ;
     stats:redCards 2 ;
     stats:tackles 54 ;
     stats:tacklesWon 26 ;

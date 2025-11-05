@@ -37,7 +37,6 @@ ex:Michael_Folorunsho a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 21 ;
     stats:progressivePassesReceived 33 ;
-    stats:rank 918 ;
     stats:redCards 0 ;
     stats:tackles 19 ;
     stats:tacklesWon 12 ;

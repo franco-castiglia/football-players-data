@@ -37,7 +37,6 @@ ex:Federico_Gatti a foaf:Person,
     stats:progressiveCarries 24 ;
     stats:progressivePasses 73 ;
     stats:progressivePassesReceived 6 ;
-    stats:rank 981 ;
     stats:redCards 0 ;
     stats:tackles 28 ;
     stats:tacklesWon 23 ;

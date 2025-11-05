@@ -37,7 +37,6 @@ ex:Nicolas_Tagliafico a foaf:Person,
     stats:progressiveCarries 31 ;
     stats:progressivePasses 97 ;
     stats:progressivePassesReceived 81 ;
-    stats:rank 2544 ;
     stats:redCards 0 ;
     stats:tackles 57 ;
     stats:tacklesWon 37 ;

@@ -35,7 +35,6 @@ ex:Saad_El_Haddad a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 1 ;
     stats:progressivePassesReceived 6 ;
-    stats:rank 1114 ;
     stats:redCards 0 ;
     stats:tackles 0 ;
     stats:tacklesWon 0 ;

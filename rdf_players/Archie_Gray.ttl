@@ -37,7 +37,6 @@ ex:Archie_Gray a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 40 ;
     stats:progressivePassesReceived 17 ;
-    stats:rank 1058 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 8 ;

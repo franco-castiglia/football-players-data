@@ -37,7 +37,6 @@ ex:Jesus_Navas a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 23 ;
     stats:progressivePassesReceived 48 ;
-    stats:rank 1862 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 2 ;

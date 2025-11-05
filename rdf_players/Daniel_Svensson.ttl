@@ -36,7 +36,6 @@ ex:Daniel_Svensson a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 41 ;
     stats:progressivePassesReceived 51 ;
-    stats:rank 2529 ;
     stats:redCards 0 ;
     stats:tackles 15 ;
     stats:tacklesWon 11 ;

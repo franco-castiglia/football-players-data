@@ -36,7 +36,6 @@ ex:Quentin_Merlin a foaf:Person,
     stats:progressiveCarries 40 ;
     stats:progressivePasses 86 ;
     stats:progressivePassesReceived 169 ;
-    stats:rank 1727 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 17 ;

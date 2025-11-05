@@ -36,7 +36,6 @@ ex:Yoann_Salmier a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 24 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 2314 ;
     stats:redCards 0 ;
     stats:tackles 14 ;
     stats:tacklesWon 7 ;

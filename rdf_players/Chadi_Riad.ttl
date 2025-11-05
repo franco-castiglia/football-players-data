@@ -36,7 +36,6 @@ ex:Chadi_Riad a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 2205 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 2 ;

@@ -36,7 +36,6 @@ ex:Tommaso_Baldanzi a foaf:Person,
     stats:progressiveCarries 39 ;
     stats:progressivePasses 23 ;
     stats:progressivePassesReceived 57 ;
-    stats:rank 215 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 4 ;

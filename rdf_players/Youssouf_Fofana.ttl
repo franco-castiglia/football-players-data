@@ -38,7 +38,6 @@ ex:Youssouf_Fofana a foaf:Person,
     stats:progressiveCarries 44 ;
     stats:progressivePasses 176 ;
     stats:progressivePassesReceived 32 ;
-    stats:rank 916 ;
     stats:redCards 0 ;
     stats:tackles 56 ;
     stats:tacklesWon 34 ;

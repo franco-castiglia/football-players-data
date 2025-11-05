@@ -35,7 +35,6 @@ ex:Clement_Akpa a foaf:Person,
     stats:progressiveCarries 27 ;
     stats:progressivePasses 74 ;
     stats:progressivePassesReceived 24 ;
-    stats:rank 69 ;
     stats:redCards 0 ;
     stats:tackles 55 ;
     stats:tacklesWon 34 ;

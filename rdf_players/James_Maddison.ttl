@@ -39,7 +39,6 @@ ex:James_Maddison a foaf:Person,
     stats:progressiveCarries 45 ;
     stats:progressivePasses 164 ;
     stats:progressivePassesReceived 95 ;
-    stats:rank 1560 ;
     stats:redCards 0 ;
     stats:tackles 31 ;
     stats:tacklesWon 19 ;

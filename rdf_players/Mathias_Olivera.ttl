@@ -38,7 +38,6 @@ ex:Mathias_Olivera a foaf:Person,
     stats:progressiveCarries 46 ;
     stats:progressivePasses 126 ;
     stats:progressivePassesReceived 62 ;
-    stats:rank 1964 ;
     stats:redCards 0 ;
     stats:tackles 63 ;
     stats:tacklesWon 35 ;

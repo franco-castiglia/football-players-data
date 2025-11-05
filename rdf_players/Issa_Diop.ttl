@@ -38,7 +38,6 @@ ex:Issa_Diop a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 25 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 740 ;
     stats:redCards 0 ;
     stats:tackles 26 ;
     stats:tacklesWon 12 ;

@@ -36,7 +36,6 @@ ex:Lewis_Hall a foaf:Person,
     stats:progressiveCarries 41 ;
     stats:progressivePasses 123 ;
     stats:progressivePassesReceived 80 ;
-    stats:rank 1121 ;
     stats:redCards 0 ;
     stats:tackles 58 ;
     stats:tacklesWon 41 ;

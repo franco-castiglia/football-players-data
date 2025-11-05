@@ -36,7 +36,6 @@ ex:Ousmane_Camara a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 3 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 450 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 3 ;

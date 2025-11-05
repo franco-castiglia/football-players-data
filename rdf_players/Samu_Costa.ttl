@@ -36,7 +36,6 @@ ex:Samu_Costa a foaf:Person,
     stats:progressiveCarries 24 ;
     stats:progressivePasses 116 ;
     stats:progressivePassesReceived 69 ;
-    stats:rank 613 ;
     stats:redCards 1 ;
     stats:tackles 90 ;
     stats:tacklesWon 44 ;

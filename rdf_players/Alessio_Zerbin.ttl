@@ -36,7 +36,6 @@ ex:Alessio_Zerbin a foaf:Person,
     stats:progressiveCarries 53 ;
     stats:progressivePasses 54 ;
     stats:progressivePassesReceived 70 ;
-    stats:rank 2830 ;
     stats:redCards 0 ;
     stats:tackles 51 ;
     stats:tacklesWon 28 ;

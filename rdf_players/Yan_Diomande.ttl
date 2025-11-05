@@ -36,7 +36,6 @@ ex:Yan_Diomande a foaf:Person,
     stats:progressiveCarries 37 ;
     stats:progressivePasses 16 ;
     stats:progressivePassesReceived 64 ;
-    stats:rank 738 ;
     stats:redCards 0 ;
     stats:tackles 14 ;
     stats:tacklesWon 9 ;

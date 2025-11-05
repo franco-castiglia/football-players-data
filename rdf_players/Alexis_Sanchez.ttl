@@ -38,7 +38,6 @@ ex:Alexis_Sanchez a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 19 ;
     stats:progressivePassesReceived 19 ;
-    stats:rank 2326 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 1 ;

@@ -36,7 +36,6 @@ ex:Luca_Kerber a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 16 ;
     stats:progressivePassesReceived 12 ;
-    stats:rank 1346 ;
     stats:redCards 0 ;
     stats:tackles 26 ;
     stats:tacklesWon 16 ;

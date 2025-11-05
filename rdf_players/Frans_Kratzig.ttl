@@ -36,7 +36,6 @@ ex:Frans_Kratzig a foaf:Person,
     stats:progressiveCarries 25 ;
     stats:progressivePasses 37 ;
     stats:progressivePassesReceived 57 ;
-    stats:rank 1412 ;
     stats:redCards 0 ;
     stats:tackles 32 ;
     stats:tacklesWon 18 ;

@@ -36,7 +36,6 @@ ex:Bojan_Miovski a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 4 ;
     stats:progressivePassesReceived 33 ;
-    stats:rank 1758 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 5 ;

@@ -36,7 +36,6 @@ ex:Aleksandar_Sedlar a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 12 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 2387 ;
     stats:redCards 1 ;
     stats:tackles 18 ;
     stats:tacklesWon 10 ;

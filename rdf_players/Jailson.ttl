@@ -36,7 +36,6 @@ ex:Jailson a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 43 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 2437 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 11 ;

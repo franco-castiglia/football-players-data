@@ -36,7 +36,6 @@ ex:Pau_Cabanes a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 5 ;
     stats:progressivePassesReceived 15 ;
-    stats:rank 428 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 2 ;

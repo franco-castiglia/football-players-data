@@ -38,7 +38,6 @@ ex:Toni_Martinez a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 11 ;
     stats:progressivePassesReceived 57 ;
-    stats:rank 1655 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 7 ;

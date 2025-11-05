@@ -40,7 +40,6 @@ ex:Raphael_Guerreiro a foaf:Person,
     stats:progressiveCarries 39 ;
     stats:progressivePasses 85 ;
     stats:progressivePassesReceived 126 ;
-    stats:rank 1083 ;
     stats:redCards 0 ;
     stats:tackles 19 ;
     stats:tacklesWon 12 ;

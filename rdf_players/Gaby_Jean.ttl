@@ -35,7 +35,6 @@ ex:Gaby_Jean a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 42 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 1250 ;
     stats:redCards 0 ;
     stats:tackles 14 ;
     stats:tacklesWon 7 ;

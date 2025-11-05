@@ -36,7 +36,6 @@ ex:Mihailo_Ristic a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 10 ;
     stats:progressivePassesReceived 11 ;
-    stats:rank 2219 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 7 ;

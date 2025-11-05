@@ -40,7 +40,6 @@ ex:Matteo_Darmian a foaf:Person,
     stats:progressiveCarries 14 ;
     stats:progressivePasses 45 ;
     stats:progressivePassesReceived 102 ;
-    stats:rank 668 ;
     stats:redCards 0 ;
     stats:tackles 28 ;
     stats:tacklesWon 17 ;

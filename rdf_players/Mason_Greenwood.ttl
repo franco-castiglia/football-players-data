@@ -39,7 +39,6 @@ ex:Mason_Greenwood a foaf:Person,
     stats:progressiveCarries 126 ;
     stats:progressivePasses 157 ;
     stats:progressivePassesReceived 295 ;
-    stats:rank 1061 ;
     stats:redCards 0 ;
     stats:tackles 35 ;
     stats:tacklesWon 18 ;

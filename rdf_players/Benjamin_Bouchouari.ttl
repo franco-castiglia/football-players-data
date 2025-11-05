@@ -36,7 +36,6 @@ ex:Benjamin_Bouchouari a foaf:Person,
     stats:progressiveCarries 48 ;
     stats:progressivePasses 133 ;
     stats:progressivePassesReceived 54 ;
-    stats:rank 369 ;
     stats:redCards 0 ;
     stats:tackles 33 ;
     stats:tacklesWon 27 ;

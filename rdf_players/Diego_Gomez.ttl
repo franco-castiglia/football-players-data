@@ -36,7 +36,6 @@ ex:Diego_Gomez a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 27 ;
     stats:progressivePassesReceived 23 ;
-    stats:rank 1028 ;
     stats:redCards 0 ;
     stats:tackles 21 ;
     stats:tacklesWon 13 ;

@@ -36,7 +36,6 @@ ex:Welington_Santos a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 11 ;
     stats:progressivePassesReceived 19 ;
-    stats:rank 2761 ;
     stats:redCards 0 ;
     stats:tackles 21 ;
     stats:tacklesWon 9 ;

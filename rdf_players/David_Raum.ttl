@@ -36,7 +36,6 @@ ex:David_Raum a foaf:Person,
     stats:progressiveCarries 36 ;
     stats:progressivePasses 71 ;
     stats:progressivePassesReceived 127 ;
-    stats:rank 2184 ;
     stats:redCards 0 ;
     stats:tackles 38 ;
     stats:tacklesWon 28 ;

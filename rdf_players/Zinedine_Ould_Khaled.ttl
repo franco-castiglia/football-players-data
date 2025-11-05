@@ -36,7 +36,6 @@ ex:Zinedine_Ould_Khaled a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 11 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 2008 ;
     stats:redCards 0 ;
     stats:tackles 9 ;
     stats:tacklesWon 7 ;

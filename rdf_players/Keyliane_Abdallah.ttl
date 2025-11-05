@@ -35,7 +35,6 @@ ex:Keyliane_Abdallah a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 0 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 5 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 1 ;

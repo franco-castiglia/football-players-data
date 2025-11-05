@@ -38,7 +38,6 @@ ex:Sergio_Herrera a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 2 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 1157 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 1 ;

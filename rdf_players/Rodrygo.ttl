@@ -40,7 +40,6 @@ ex:Rodrygo a foaf:Person,
     stats:progressiveCarries 113 ;
     stats:progressivePasses 108 ;
     stats:progressivePassesReceived 253 ;
-    stats:rank 2243 ;
     stats:redCards 0 ;
     stats:tackles 21 ;
     stats:tacklesWon 14 ;

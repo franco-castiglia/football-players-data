@@ -38,7 +38,6 @@ ex:Tyrone_Mings a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 40 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 1754 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 6 ;

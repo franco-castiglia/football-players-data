@@ -36,7 +36,6 @@ ex:Paul_Nebel a foaf:Person,
     stats:progressiveCarries 67 ;
     stats:progressivePasses 91 ;
     stats:progressivePassesReceived 219 ;
-    stats:rank 1873 ;
     stats:redCards 1 ;
     stats:tackles 38 ;
     stats:tacklesWon 24 ;

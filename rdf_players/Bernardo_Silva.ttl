@@ -40,7 +40,6 @@ ex:Bernardo_Silva a foaf:Person,
     stats:progressiveCarries 101 ;
     stats:progressivePasses 134 ;
     stats:progressivePassesReceived 200 ;
-    stats:rank 2416 ;
     stats:redCards 0 ;
     stats:tackles 56 ;
     stats:tacklesWon 37 ;

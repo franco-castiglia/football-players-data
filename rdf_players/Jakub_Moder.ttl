@@ -38,7 +38,6 @@ ex:Jakub_Moder a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 4 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 1767 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 0 ;

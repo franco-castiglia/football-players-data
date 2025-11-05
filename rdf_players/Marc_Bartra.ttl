@@ -37,7 +37,6 @@ ex:Marc_Bartra a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 68 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 254 ;
     stats:redCards 0 ;
     stats:tackles 33 ;
     stats:tacklesWon 19 ;

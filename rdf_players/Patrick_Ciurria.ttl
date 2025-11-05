@@ -36,7 +36,6 @@ ex:Patrick_Ciurria a foaf:Person,
     stats:progressiveCarries 19 ;
     stats:progressivePasses 27 ;
     stats:progressivePassesReceived 52 ;
-    stats:rank 568 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 14 ;

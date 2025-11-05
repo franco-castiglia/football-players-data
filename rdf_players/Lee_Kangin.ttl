@@ -37,7 +37,6 @@ ex:Lee_Kangin a foaf:Person,
     stats:progressiveCarries 50 ;
     stats:progressivePasses 143 ;
     stats:progressivePassesReceived 138 ;
-    stats:rank 1319 ;
     stats:redCards 0 ;
     stats:tackles 25 ;
     stats:tacklesWon 17 ;

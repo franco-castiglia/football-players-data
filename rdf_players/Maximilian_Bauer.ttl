@@ -36,7 +36,6 @@ ex:Maximilian_Bauer a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 30 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 263 ;
     stats:redCards 0 ;
     stats:tackles 14 ;
     stats:tacklesWon 8 ;

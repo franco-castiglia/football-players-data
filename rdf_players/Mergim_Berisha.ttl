@@ -38,7 +38,6 @@ ex:Mergim_Berisha a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 18 ;
-    stats:rank 312 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 3 ;

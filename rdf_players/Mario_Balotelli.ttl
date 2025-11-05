@@ -40,7 +40,6 @@ ex:Mario_Balotelli a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 1 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 224 ;
     stats:redCards 0 ;
     stats:tackles 0 ;
     stats:tacklesWon 0 ;

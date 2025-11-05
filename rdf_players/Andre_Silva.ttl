@@ -39,7 +39,6 @@ ex:Andre_Silva a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 10 ;
     stats:progressivePassesReceived 28 ;
-    stats:rank 2414 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 2 ;

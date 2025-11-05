@@ -37,7 +37,6 @@ ex:Danilo_Cataldi a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 90 ;
     stats:progressivePassesReceived 16 ;
-    stats:rank 513 ;
     stats:redCards 0 ;
     stats:tackles 25 ;
     stats:tacklesWon 16 ;

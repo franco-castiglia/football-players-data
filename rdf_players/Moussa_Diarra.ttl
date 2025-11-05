@@ -36,7 +36,6 @@ ex:Moussa_Diarra a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 70 ;
     stats:progressivePassesReceived 31 ;
-    stats:rank 716 ;
     stats:redCards 0 ;
     stats:tackles 40 ;
     stats:tacklesWon 24 ;

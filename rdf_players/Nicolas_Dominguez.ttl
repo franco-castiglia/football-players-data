@@ -37,7 +37,6 @@ ex:Nicolas_Dominguez a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 83 ;
     stats:progressivePassesReceived 33 ;
-    stats:rank 764 ;
     stats:redCards 0 ;
     stats:tackles 86 ;
     stats:tacklesWon 45 ;

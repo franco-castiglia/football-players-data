@@ -36,7 +36,6 @@ ex:Szymon_Zurkowski a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 1 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 2851 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 4 ;

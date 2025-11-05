@@ -36,7 +36,6 @@ ex:Andu_Kelati a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 19 ;
     stats:progressivePassesReceived 11 ;
-    stats:rank 1338 ;
     stats:redCards 1 ;
     stats:tackles 7 ;
     stats:tacklesWon 4 ;

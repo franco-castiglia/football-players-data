@@ -40,7 +40,6 @@ ex:Nathaniel_Clyne a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 8 ;
-    stats:rank 574 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 8 ;

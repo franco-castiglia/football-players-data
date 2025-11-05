@@ -36,7 +36,6 @@ ex:Morato a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 19 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 1784 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 14 ;

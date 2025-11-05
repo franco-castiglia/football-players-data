@@ -40,7 +40,6 @@ ex:Bruno_Fernandes a foaf:Person,
     stats:progressiveCarries 77 ;
     stats:progressivePasses 325 ;
     stats:progressivePassesReceived 129 ;
-    stats:rank 892 ;
     stats:redCards 2 ;
     stats:tackles 84 ;
     stats:tacklesWon 50 ;

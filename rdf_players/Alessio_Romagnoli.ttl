@@ -39,7 +39,6 @@ ex:Alessio_Romagnoli a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 90 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 2248 ;
     stats:redCards 2 ;
     stats:tackles 48 ;
     stats:tacklesWon 29 ;

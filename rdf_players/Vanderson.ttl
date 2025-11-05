@@ -36,7 +36,6 @@ ex:Vanderson a foaf:Person,
     stats:progressiveCarries 57 ;
     stats:progressivePasses 102 ;
     stats:progressivePassesReceived 151 ;
-    stats:rank 2672 ;
     stats:redCards 1 ;
     stats:tackles 76 ;
     stats:tacklesWon 48 ;

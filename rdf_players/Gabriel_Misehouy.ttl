@@ -36,7 +36,6 @@ ex:Gabriel_Misehouy a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 15 ;
     stats:progressivePassesReceived 22 ;
-    stats:rank 1995 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 1 ;

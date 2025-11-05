@@ -36,7 +36,6 @@ ex:Jon_Aramburu a foaf:Person,
     stats:progressiveCarries 26 ;
     stats:progressivePasses 97 ;
     stats:progressivePassesReceived 53 ;
-    stats:rank 143 ;
     stats:redCards 0 ;
     stats:tackles 102 ;
     stats:tacklesWon 70 ;

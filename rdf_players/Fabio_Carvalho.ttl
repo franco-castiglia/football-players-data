@@ -36,7 +36,6 @@ ex:Fabio_Carvalho a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 17 ;
     stats:progressivePassesReceived 23 ;
-    stats:rank 494 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 9 ;

@@ -36,7 +36,6 @@ ex:Sacha_Boey a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 39 ;
     stats:progressivePassesReceived 63 ;
-    stats:rank 352 ;
     stats:redCards 0 ;
     stats:tackles 20 ;
     stats:tacklesWon 5 ;

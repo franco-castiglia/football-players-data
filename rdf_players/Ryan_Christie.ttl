@@ -37,7 +37,6 @@ ex:Ryan_Christie a foaf:Person,
     stats:progressiveCarries 34 ;
     stats:progressivePasses 137 ;
     stats:progressivePassesReceived 44 ;
-    stats:rank 556 ;
     stats:redCards 0 ;
     stats:tackles 54 ;
     stats:tacklesWon 33 ;

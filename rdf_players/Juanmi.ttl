@@ -38,7 +38,6 @@ ex:Juanmi a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 8 ;
     stats:progressivePassesReceived 28 ;
-    stats:rank 1283 ;
     stats:redCards 0 ;
     stats:tackles 14 ;
     stats:tacklesWon 11 ;

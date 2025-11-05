@@ -36,7 +36,6 @@ ex:Alberto_Grassi a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 74 ;
     stats:progressivePassesReceived 24 ;
-    stats:rank 1056 ;
     stats:redCards 0 ;
     stats:tackles 39 ;
     stats:tacklesWon 21 ;

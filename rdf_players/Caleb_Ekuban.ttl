@@ -37,7 +37,6 @@ ex:Caleb_Ekuban a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 8 ;
     stats:progressivePassesReceived 42 ;
-    stats:rank 828 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 3 ;

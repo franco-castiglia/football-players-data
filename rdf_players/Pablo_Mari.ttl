@@ -39,7 +39,6 @@ ex:Pablo_Mari a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 58 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 1619 ;
     stats:redCards 1 ;
     stats:tackles 26 ;
     stats:tacklesWon 15 ;

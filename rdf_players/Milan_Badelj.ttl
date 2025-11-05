@@ -37,7 +37,6 @@ ex:Milan_Badelj a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 83 ;
     stats:progressivePassesReceived 14 ;
-    stats:rank 199 ;
     stats:redCards 0 ;
     stats:tackles 29 ;
     stats:tacklesWon 16 ;

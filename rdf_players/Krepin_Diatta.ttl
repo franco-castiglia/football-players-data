@@ -37,7 +37,6 @@ ex:Krepin_Diatta a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 21 ;
     stats:progressivePassesReceived 41 ;
-    stats:rank 718 ;
     stats:redCards 0 ;
     stats:tackles 18 ;
     stats:tacklesWon 12 ;

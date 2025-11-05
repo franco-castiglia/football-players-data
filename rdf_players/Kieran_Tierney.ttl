@@ -40,7 +40,6 @@ ex:Kieran_Tierney a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 15 ;
     stats:progressivePassesReceived 29 ;
-    stats:rank 2596 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 5 ;

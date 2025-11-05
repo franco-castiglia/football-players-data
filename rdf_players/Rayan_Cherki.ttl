@@ -37,7 +37,6 @@ ex:Rayan_Cherki a foaf:Person,
     stats:progressiveCarries 106 ;
     stats:progressivePasses 206 ;
     stats:progressivePassesReceived 184 ;
-    stats:rank 542 ;
     stats:redCards 0 ;
     stats:tackles 15 ;
     stats:tacklesWon 12 ;

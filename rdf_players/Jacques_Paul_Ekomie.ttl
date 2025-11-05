@@ -36,7 +36,6 @@ ex:Jacques_Paul_Ekomie a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 20 ;
     stats:progressivePassesReceived 24 ;
-    stats:rank 826 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 14 ;

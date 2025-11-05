@@ -36,7 +36,6 @@ ex:Zito_Luvumbo a foaf:Person,
     stats:progressiveCarries 70 ;
     stats:progressivePasses 31 ;
     stats:progressivePassesReceived 125 ;
-    stats:rank 1548 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 6 ;

@@ -36,7 +36,6 @@ ex:Sammie_Szmodics a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 19 ;
     stats:progressivePassesReceived 47 ;
-    stats:rank 2538 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 10 ;

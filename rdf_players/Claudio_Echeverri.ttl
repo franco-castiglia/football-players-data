@@ -36,7 +36,6 @@ ex:Claudio_Echeverri a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 1 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 810 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 0 ;

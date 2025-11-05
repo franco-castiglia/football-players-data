@@ -36,7 +36,6 @@ ex:Philipp_Treu a foaf:Person,
     stats:progressiveCarries 58 ;
     stats:progressivePasses 105 ;
     stats:progressivePassesReceived 117 ;
-    stats:rank 2631 ;
     stats:redCards 0 ;
     stats:tackles 61 ;
     stats:tacklesWon 42 ;

@@ -38,7 +38,6 @@ ex:Matty_Cash a foaf:Person,
     stats:progressiveCarries 48 ;
     stats:progressivePasses 42 ;
     stats:progressivePassesReceived 90 ;
-    stats:rank 502 ;
     stats:redCards 0 ;
     stats:tackles 56 ;
     stats:tacklesWon 32 ;

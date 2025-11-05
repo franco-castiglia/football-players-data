@@ -37,7 +37,6 @@ ex:Liam_Henderson a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 108 ;
     stats:progressivePassesReceived 54 ;
-    stats:rank 1140 ;
     stats:redCards 0 ;
     stats:tackles 42 ;
     stats:tacklesWon 22 ;

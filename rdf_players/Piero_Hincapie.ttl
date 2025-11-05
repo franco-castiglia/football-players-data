@@ -36,7 +36,6 @@ ex:Piero_Hincapie a foaf:Person,
     stats:progressiveCarries 52 ;
     stats:progressivePasses 152 ;
     stats:progressivePassesReceived 72 ;
-    stats:rank 1164 ;
     stats:redCards 0 ;
     stats:tackles 52 ;
     stats:tacklesWon 40 ;

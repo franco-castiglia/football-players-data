@@ -38,7 +38,6 @@ ex:Pervis_Estupinan a foaf:Person,
     stats:progressiveCarries 59 ;
     stats:progressivePasses 132 ;
     stats:progressivePassesReceived 112 ;
-    stats:rank 859 ;
     stats:redCards 0 ;
     stats:tackles 65 ;
     stats:tacklesWon 43 ;

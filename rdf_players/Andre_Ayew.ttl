@@ -38,7 +38,6 @@ ex:Andre_Ayew a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 18 ;
     stats:progressivePassesReceived 43 ;
-    stats:rank 184 ;
     stats:redCards 0 ;
     stats:tackles 18 ;
     stats:tacklesWon 10 ;

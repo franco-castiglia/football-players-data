@@ -36,7 +36,6 @@ ex:Josip_Stanisic a foaf:Person,
     stats:progressiveCarries 20 ;
     stats:progressivePasses 76 ;
     stats:progressivePassesReceived 30 ;
-    stats:rank 2492 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 11 ;

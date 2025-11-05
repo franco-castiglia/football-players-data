@@ -40,7 +40,6 @@ ex:Julian_Brandt a foaf:Person,
     stats:progressiveCarries 61 ;
     stats:progressivePasses 149 ;
     stats:progressivePassesReceived 199 ;
-    stats:rank 381 ;
     stats:redCards 0 ;
     stats:tackles 26 ;
     stats:tacklesWon 11 ;

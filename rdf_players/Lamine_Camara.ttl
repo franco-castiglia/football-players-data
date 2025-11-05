@@ -36,7 +36,6 @@ ex:Lamine_Camara a foaf:Person,
     stats:progressiveCarries 25 ;
     stats:progressivePasses 141 ;
     stats:progressivePassesReceived 46 ;
-    stats:rank 448 ;
     stats:redCards 1 ;
     stats:tackles 66 ;
     stats:tacklesWon 41 ;

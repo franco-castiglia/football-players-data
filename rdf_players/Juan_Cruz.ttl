@@ -36,7 +36,6 @@ ex:Juan_Cruz a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 53 ;
     stats:progressivePassesReceived 12 ;
-    stats:rank 631 ;
     stats:redCards 0 ;
     stats:tackles 26 ;
     stats:tacklesWon 14 ;

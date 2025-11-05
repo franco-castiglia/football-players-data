@@ -36,7 +36,6 @@ ex:Skelly_Alvero a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 8 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 106 ;
     stats:redCards 0 ;
     stats:tackles 11 ;
     stats:tacklesWon 6 ;

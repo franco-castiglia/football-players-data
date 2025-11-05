@@ -37,7 +37,6 @@ ex:Reda_Khadra a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 4 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 1348 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 1 ;

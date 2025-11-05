@@ -39,7 +39,6 @@ ex:Stephan_El_Shaarawy a foaf:Person,
     stats:progressiveCarries 42 ;
     stats:progressivePasses 49 ;
     stats:progressivePassesReceived 77 ;
-    stats:rank 2403 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 12 ;

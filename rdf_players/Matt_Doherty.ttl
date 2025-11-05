@@ -39,7 +39,6 @@ ex:Matt_Doherty a foaf:Person,
     stats:progressiveCarries 29 ;
     stats:progressivePasses 79 ;
     stats:progressivePassesReceived 41 ;
-    stats:rank 757 ;
     stats:redCards 0 ;
     stats:tackles 38 ;
     stats:tacklesWon 21 ;

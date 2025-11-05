@@ -37,7 +37,6 @@ ex:Junior_Mwanga a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 42 ;
     stats:progressivePassesReceived 15 ;
-    stats:rank 1840 ;
     stats:redCards 1 ;
     stats:tackles 26 ;
     stats:tacklesWon 16 ;

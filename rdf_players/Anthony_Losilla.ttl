@@ -36,7 +36,6 @@ ex:Anthony_Losilla a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 45 ;
     stats:progressivePassesReceived 11 ;
-    stats:rank 1527 ;
     stats:redCards 0 ;
     stats:tackles 30 ;
     stats:tacklesWon 16 ;

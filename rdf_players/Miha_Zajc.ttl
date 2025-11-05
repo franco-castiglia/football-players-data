@@ -37,7 +37,6 @@ ex:Miha_Zajc a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 24 ;
     stats:progressivePassesReceived 9 ;
-    stats:rank 2811 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 4 ;

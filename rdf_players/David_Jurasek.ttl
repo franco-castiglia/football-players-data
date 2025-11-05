@@ -36,7 +36,6 @@ ex:David_Jurasek a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 22 ;
     stats:progressivePassesReceived 42 ;
-    stats:rank 1292 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 3 ;

@@ -37,7 +37,6 @@ ex:Arthur_Vermeeren a foaf:Person,
     stats:progressiveCarries 14 ;
     stats:progressivePasses 77 ;
     stats:progressivePassesReceived 20 ;
-    stats:rank 2698 ;
     stats:redCards 0 ;
     stats:tackles 32 ;
     stats:tacklesWon 19 ;

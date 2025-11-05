@@ -36,7 +36,6 @@ ex:Lucas_Mincarelli_Davin a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 25 ;
     stats:progressivePassesReceived 16 ;
-    stats:rank 1753 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 10 ;

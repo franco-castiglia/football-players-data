@@ -38,7 +38,6 @@ ex:Rasmus_Kristensen a foaf:Person,
     stats:progressiveCarries 51 ;
     stats:progressivePasses 172 ;
     stats:progressivePassesReceived 162 ;
-    stats:rank 1416 ;
     stats:redCards 0 ;
     stats:tackles 59 ;
     stats:tacklesWon 33 ;

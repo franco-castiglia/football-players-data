@@ -37,7 +37,6 @@ ex:Matheus_Cunha a foaf:Person,
     stats:progressiveCarries 112 ;
     stats:progressivePasses 144 ;
     stats:progressivePassesReceived 161 ;
-    stats:rank 638 ;
     stats:redCards 0 ;
     stats:tackles 38 ;
     stats:tacklesWon 22 ;

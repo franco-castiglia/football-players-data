@@ -36,7 +36,6 @@ ex:Andrey_Santos a foaf:Person,
     stats:progressiveCarries 29 ;
     stats:progressivePasses 149 ;
     stats:progressivePassesReceived 26 ;
-    stats:rank 2347 ;
     stats:redCards 0 ;
     stats:tackles 110 ;
     stats:tacklesWon 74 ;

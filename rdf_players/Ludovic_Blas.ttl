@@ -36,7 +36,6 @@ ex:Ludovic_Blas a foaf:Person,
     stats:progressiveCarries 83 ;
     stats:progressivePasses 116 ;
     stats:progressivePassesReceived 184 ;
-    stats:rank 346 ;
     stats:redCards 0 ;
     stats:tackles 38 ;
     stats:tacklesWon 25 ;

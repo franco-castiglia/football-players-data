@@ -37,7 +37,6 @@ ex:Sergi_Guardiola a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 3 ;
     stats:progressivePassesReceived 22 ;
-    stats:rank 1075 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 3 ;

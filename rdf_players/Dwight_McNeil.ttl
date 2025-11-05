@@ -38,7 +38,6 @@ ex:Dwight_McNeil a foaf:Person,
     stats:progressiveCarries 38 ;
     stats:progressivePasses 69 ;
     stats:progressivePassesReceived 80 ;
-    stats:rank 1703 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 8 ;

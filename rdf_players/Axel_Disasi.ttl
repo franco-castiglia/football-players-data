@@ -37,7 +37,6 @@ ex:Axel_Disasi a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 16 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 746 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 5 ;

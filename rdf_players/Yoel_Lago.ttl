@@ -35,7 +35,6 @@ ex:Yoel_Lago a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 31 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 1439 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 8 ;

@@ -39,7 +39,6 @@ ex:Kieran_Trippier a foaf:Person,
     stats:progressiveCarries 26 ;
     stats:progressivePasses 117 ;
     stats:progressivePassesReceived 58 ;
-    stats:rank 2634 ;
     stats:redCards 0 ;
     stats:tackles 38 ;
     stats:tacklesWon 21 ;

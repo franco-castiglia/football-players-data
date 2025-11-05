@@ -36,7 +36,6 @@ ex:Daniele_Ghilardi a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 57 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 997 ;
     stats:redCards 1 ;
     stats:tackles 44 ;
     stats:tacklesWon 29 ;

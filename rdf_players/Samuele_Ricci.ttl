@@ -37,7 +37,6 @@ ex:Samuele_Ricci a foaf:Person,
     stats:progressiveCarries 43 ;
     stats:progressivePasses 116 ;
     stats:progressivePassesReceived 30 ;
-    stats:rank 2207 ;
     stats:redCards 1 ;
     stats:tackles 35 ;
     stats:tacklesWon 21 ;

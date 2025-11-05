@@ -37,7 +37,6 @@ ex:Vitaliy_Mykolenko a foaf:Person,
     stats:progressiveCarries 33 ;
     stats:progressivePasses 110 ;
     stats:progressivePassesReceived 99 ;
-    stats:rank 1843 ;
     stats:redCards 0 ;
     stats:tackles 63 ;
     stats:tacklesWon 38 ;

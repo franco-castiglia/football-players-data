@@ -39,7 +39,6 @@ ex:Jamie_Vardy a foaf:Person,
     stats:progressiveCarries 29 ;
     stats:progressivePasses 22 ;
     stats:progressivePassesReceived 120 ;
-    stats:rank 2674 ;
     stats:redCards 0 ;
     stats:tackles 19 ;
     stats:tacklesWon 13 ;

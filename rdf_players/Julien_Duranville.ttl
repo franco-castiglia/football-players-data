@@ -36,7 +36,6 @@ ex:Julien_Duranville a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 33 ;
-    stats:rank 801 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 0 ;

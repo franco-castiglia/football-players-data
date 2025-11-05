@@ -37,7 +37,6 @@ ex:Azor_Matusiwa a foaf:Person,
     stats:progressiveCarries 19 ;
     stats:progressivePasses 134 ;
     stats:progressivePassesReceived 26 ;
-    stats:rank 1677 ;
     stats:redCards 0 ;
     stats:tackles 64 ;
     stats:tacklesWon 39 ;

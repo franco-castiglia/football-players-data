@@ -37,7 +37,6 @@ ex:Samuele_Vignato a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 17 ;
     stats:progressivePassesReceived 30 ;
-    stats:rank 2711 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 3 ;

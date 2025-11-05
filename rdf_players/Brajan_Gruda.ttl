@@ -36,7 +36,6 @@ ex:Brajan_Gruda a foaf:Person,
     stats:progressiveCarries 22 ;
     stats:progressivePasses 26 ;
     stats:progressivePassesReceived 57 ;
-    stats:rank 1070 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 8 ;

@@ -38,7 +38,6 @@ ex:Alexis_Saelemaekers a foaf:Person,
     stats:progressiveCarries 39 ;
     stats:progressivePasses 53 ;
     stats:progressivePassesReceived 136 ;
-    stats:rank 2291 ;
     stats:redCards 0 ;
     stats:tackles 33 ;
     stats:tacklesWon 20 ;

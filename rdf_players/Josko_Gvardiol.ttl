@@ -37,7 +37,6 @@ ex:Josko_Gvardiol a foaf:Person,
     stats:progressiveCarries 91 ;
     stats:progressivePasses 264 ;
     stats:progressivePassesReceived 121 ;
-    stats:rank 1107 ;
     stats:redCards 0 ;
     stats:tackles 58 ;
     stats:tacklesWon 39 ;

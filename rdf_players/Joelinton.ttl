@@ -38,7 +38,6 @@ ex:Joelinton a foaf:Person,
     stats:progressiveCarries 40 ;
     stats:progressivePasses 116 ;
     stats:progressivePassesReceived 110 ;
-    stats:rank 1265 ;
     stats:redCards 0 ;
     stats:tackles 57 ;
     stats:tacklesWon 35 ;

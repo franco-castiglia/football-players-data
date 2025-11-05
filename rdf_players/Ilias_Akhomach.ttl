@@ -38,7 +38,6 @@ ex:Ilias_Akhomach a foaf:Person,
     stats:progressiveCarries 30 ;
     stats:progressivePasses 12 ;
     stats:progressivePassesReceived 64 ;
-    stats:rank 65 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 7 ;

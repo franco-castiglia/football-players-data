@@ -40,7 +40,6 @@ ex:Isco a foaf:Person,
     stats:progressiveCarries 38 ;
     stats:progressivePasses 152 ;
     stats:progressivePassesReceived 112 ;
-    stats:rank 1222 ;
     stats:redCards 0 ;
     stats:tackles 20 ;
     stats:tacklesWon 13 ;

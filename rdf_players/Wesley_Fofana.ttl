@@ -38,7 +38,6 @@ ex:Wesley_Fofana a foaf:Person,
     stats:progressiveCarries 19 ;
     stats:progressivePasses 32 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 914 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 12 ;

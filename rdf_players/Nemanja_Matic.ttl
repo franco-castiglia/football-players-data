@@ -39,7 +39,6 @@ ex:Nemanja_Matic a foaf:Person,
     stats:progressiveCarries 35 ;
     stats:progressivePasses 150 ;
     stats:progressivePassesReceived 15 ;
-    stats:rank 1672 ;
     stats:redCards 0 ;
     stats:tackles 42 ;
     stats:tacklesWon 29 ;

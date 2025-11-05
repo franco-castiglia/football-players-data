@@ -38,7 +38,6 @@ ex:Max_Kilman a foaf:Person,
     stats:progressiveCarries 31 ;
     stats:progressivePasses 113 ;
     stats:progressivePassesReceived 6 ;
-    stats:rank 1356 ;
     stats:redCards 0 ;
     stats:tackles 39 ;
     stats:tacklesWon 24 ;

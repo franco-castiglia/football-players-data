@@ -36,7 +36,6 @@ ex:Michael_Kayode a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 12 ;
     stats:progressivePassesReceived 24 ;
-    stats:rank 1329 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 11 ;

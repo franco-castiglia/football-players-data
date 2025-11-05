@@ -35,7 +35,6 @@ ex:Jon_Ander_Olasagasti a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 38 ;
     stats:progressivePassesReceived 41 ;
-    stats:rank 1958 ;
     stats:redCards 0 ;
     stats:tackles 21 ;
     stats:tacklesWon 10 ;

@@ -36,7 +36,6 @@ ex:Nathaniel_Brown a foaf:Person,
     stats:progressiveCarries 45 ;
     stats:progressivePasses 63 ;
     stats:progressivePassesReceived 119 ;
-    stats:rank 401 ;
     stats:redCards 0 ;
     stats:tackles 71 ;
     stats:tacklesWon 42 ;

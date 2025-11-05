@@ -36,7 +36,6 @@ ex:Hamari_Traore a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 26 ;
     stats:progressivePassesReceived 20 ;
-    stats:rank 2626 ;
     stats:redCards 0 ;
     stats:tackles 19 ;
     stats:tacklesWon 12 ;

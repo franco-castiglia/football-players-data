@@ -38,7 +38,6 @@ ex:Nehuen_Perez a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 4 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 2095 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 1 ;

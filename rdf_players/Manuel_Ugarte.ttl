@@ -37,7 +37,6 @@ ex:Manuel_Ugarte a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 61 ;
     stats:progressivePassesReceived 20 ;
-    stats:rank 2645 ;
     stats:redCards 0 ;
     stats:tackles 77 ;
     stats:tacklesWon 49 ;

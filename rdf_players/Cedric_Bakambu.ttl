@@ -37,7 +37,6 @@ ex:Cedric_Bakambu a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 14 ;
     stats:progressivePassesReceived 43 ;
-    stats:rank 208 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 4 ;

@@ -37,7 +37,6 @@ ex:Berat_Djimsiti a foaf:Person,
     stats:progressiveCarries 32 ;
     stats:progressivePasses 109 ;
     stats:progressivePassesReceived 42 ;
-    stats:rank 752 ;
     stats:redCards 0 ;
     stats:tackles 53 ;
     stats:tacklesWon 33 ;

@@ -36,7 +36,6 @@ ex:Julian_Araujo a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 14 ;
     stats:progressivePassesReceived 22 ;
-    stats:rank 144 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 5 ;

@@ -38,7 +38,6 @@ ex:Gorka_Guruzeta a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 31 ;
     stats:progressivePassesReceived 64 ;
-    stats:rank 1103 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 8 ;

@@ -38,7 +38,6 @@ ex:Franco_Cervi a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 14 ;
     stats:progressivePassesReceived 21 ;
-    stats:rank 522 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 3 ;

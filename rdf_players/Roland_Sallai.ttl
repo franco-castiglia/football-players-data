@@ -36,7 +36,6 @@ ex:Roland_Sallai a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 3 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 2313 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 1 ;

@@ -37,7 +37,6 @@ ex:Nicolo_Cambiaghi a foaf:Person,
     stats:progressiveCarries 45 ;
     stats:progressivePasses 25 ;
     stats:progressivePassesReceived 63 ;
-    stats:rank 453 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 10 ;

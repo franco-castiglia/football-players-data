@@ -39,7 +39,6 @@ ex:Ben_Godfrey a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 4 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 1013 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 0 ;

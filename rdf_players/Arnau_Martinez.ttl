@@ -36,7 +36,6 @@ ex:Arnau_Martinez a foaf:Person,
     stats:progressiveCarries 41 ;
     stats:progressivePasses 162 ;
     stats:progressivePassesReceived 102 ;
-    stats:rank 1646 ;
     stats:redCards 0 ;
     stats:tackles 51 ;
     stats:tacklesWon 28 ;

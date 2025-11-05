@@ -37,7 +37,6 @@ ex:Aimar_Oroz a foaf:Person,
     stats:progressiveCarries 74 ;
     stats:progressivePasses 163 ;
     stats:progressivePassesReceived 142 ;
-    stats:rank 1991 ;
     stats:redCards 0 ;
     stats:tackles 35 ;
     stats:tacklesWon 19 ;

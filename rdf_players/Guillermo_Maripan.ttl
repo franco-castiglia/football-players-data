@@ -37,7 +37,6 @@ ex:Guillermo_Maripan a foaf:Person,
     stats:progressiveCarries 14 ;
     stats:progressivePasses 96 ;
     stats:progressivePassesReceived 9 ;
-    stats:rank 1629 ;
     stats:redCards 1 ;
     stats:tackles 40 ;
     stats:tacklesWon 23 ;

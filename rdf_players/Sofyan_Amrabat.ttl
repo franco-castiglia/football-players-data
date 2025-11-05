@@ -38,7 +38,6 @@ ex:Sofyan_Amrabat a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 14 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 121 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 2 ;

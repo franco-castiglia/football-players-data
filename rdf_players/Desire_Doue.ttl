@@ -37,7 +37,6 @@ ex:Desire_Doue a foaf:Person,
     stats:progressiveCarries 97 ;
     stats:progressivePasses 139 ;
     stats:progressivePassesReceived 232 ;
-    stats:rank 776 ;
     stats:redCards 0 ;
     stats:tackles 48 ;
     stats:tacklesWon 30 ;

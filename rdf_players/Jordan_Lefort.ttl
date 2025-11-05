@@ -36,7 +36,6 @@ ex:Jordan_Lefort a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 89 ;
     stats:progressivePassesReceived 13 ;
-    stats:rank 1466 ;
     stats:redCards 0 ;
     stats:tackles 52 ;
     stats:tacklesWon 30 ;

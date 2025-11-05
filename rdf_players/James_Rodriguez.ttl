@@ -40,7 +40,6 @@ ex:James_Rodriguez a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 13 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 2238 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 2 ;

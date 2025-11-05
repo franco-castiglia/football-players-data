@@ -39,7 +39,6 @@ ex:Fran_Beltran a foaf:Person,
     stats:progressiveCarries 28 ;
     stats:progressivePasses 152 ;
     stats:progressivePassesReceived 29 ;
-    stats:rank 292 ;
     stats:redCards 0 ;
     stats:tackles 50 ;
     stats:tacklesWon 35 ;

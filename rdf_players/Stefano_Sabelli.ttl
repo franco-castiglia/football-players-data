@@ -37,7 +37,6 @@ ex:Stefano_Sabelli a foaf:Person,
     stats:progressiveCarries 36 ;
     stats:progressivePasses 88 ;
     stats:progressivePassesReceived 43 ;
-    stats:rank 2286 ;
     stats:redCards 0 ;
     stats:tackles 58 ;
     stats:tacklesWon 31 ;

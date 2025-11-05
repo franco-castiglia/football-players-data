@@ -37,7 +37,6 @@ ex:Takuma_Asano a foaf:Person,
     stats:progressiveCarries 28 ;
     stats:progressivePasses 20 ;
     stats:progressivePassesReceived 76 ;
-    stats:rank 163 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 9 ;

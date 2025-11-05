@@ -37,7 +37,6 @@ ex:Bradley_Barcola a foaf:Person,
     stats:progressiveCarries 137 ;
     stats:progressivePasses 96 ;
     stats:progressivePassesReceived 374 ;
-    stats:rank 239 ;
     stats:redCards 0 ;
     stats:tackles 27 ;
     stats:tacklesWon 17 ;

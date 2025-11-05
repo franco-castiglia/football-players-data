@@ -36,7 +36,6 @@ ex:Pietro_Comuzzo a foaf:Person,
     stats:progressiveCarries 14 ;
     stats:progressivePasses 75 ;
     stats:progressivePassesReceived 12 ;
-    stats:rank 589 ;
     stats:redCards 0 ;
     stats:tackles 43 ;
     stats:tacklesWon 21 ;

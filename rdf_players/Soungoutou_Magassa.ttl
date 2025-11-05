@@ -36,7 +36,6 @@ ex:Soungoutou_Magassa a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 63 ;
     stats:progressivePassesReceived 11 ;
-    stats:rank 1565 ;
     stats:redCards 1 ;
     stats:tackles 47 ;
     stats:tacklesWon 25 ;

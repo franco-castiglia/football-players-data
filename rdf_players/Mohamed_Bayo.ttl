@@ -37,7 +37,6 @@ ex:Mohamed_Bayo a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 4 ;
     stats:progressivePassesReceived 20 ;
-    stats:rank 1445 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 1 ;

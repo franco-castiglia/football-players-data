@@ -35,7 +35,6 @@ ex:Stanis_Idumbo_Muzambo a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 8 ;
     stats:progressivePassesReceived 20 ;
-    stats:rank 1202 ;
     stats:redCards 0 ;
     stats:tackles 9 ;
     stats:tacklesWon 5 ;

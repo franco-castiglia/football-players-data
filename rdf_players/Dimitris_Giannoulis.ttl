@@ -36,7 +36,6 @@ ex:Dimitris_Giannoulis a foaf:Person,
     stats:progressiveCarries 60 ;
     stats:progressivePasses 104 ;
     stats:progressivePassesReceived 164 ;
-    stats:rank 999 ;
     stats:redCards 0 ;
     stats:tackles 47 ;
     stats:tacklesWon 32 ;

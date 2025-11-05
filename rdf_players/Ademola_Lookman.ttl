@@ -40,7 +40,6 @@ ex:Ademola_Lookman a foaf:Person,
     stats:progressiveCarries 142 ;
     stats:progressivePasses 73 ;
     stats:progressivePassesReceived 316 ;
-    stats:rank 1514 ;
     stats:redCards 0 ;
     stats:tackles 32 ;
     stats:tacklesWon 15 ;

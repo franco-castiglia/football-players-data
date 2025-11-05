@@ -37,7 +37,6 @@ ex:Edimilson_Fernandes a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 40 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 893 ;
     stats:redCards 0 ;
     stats:tackles 9 ;
     stats:tacklesWon 7 ;

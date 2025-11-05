@@ -36,7 +36,6 @@ ex:Leandro_Cabrera a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 69 ;
     stats:progressivePassesReceived 6 ;
-    stats:rank 430 ;
     stats:redCards 1 ;
     stats:tackles 40 ;
     stats:tacklesWon 23 ;

@@ -38,7 +38,6 @@ ex:Alex_Kral a foaf:Person,
     stats:progressiveCarries 49 ;
     stats:progressivePasses 78 ;
     stats:progressivePassesReceived 79 ;
-    stats:rank 1410 ;
     stats:redCards 0 ;
     stats:tackles 55 ;
     stats:tacklesWon 37 ;

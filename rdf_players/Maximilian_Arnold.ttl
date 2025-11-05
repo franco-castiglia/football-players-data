@@ -36,7 +36,6 @@ ex:Maximilian_Arnold a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 128 ;
     stats:progressivePassesReceived 16 ;
-    stats:rank 158 ;
     stats:redCards 1 ;
     stats:tackles 34 ;
     stats:tacklesWon 20 ;

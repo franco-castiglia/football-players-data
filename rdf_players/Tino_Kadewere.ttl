@@ -36,7 +36,6 @@ ex:Tino_Kadewere a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 19 ;
     stats:progressivePassesReceived 27 ;
-    stats:rank 1303 ;
     stats:redCards 0 ;
     stats:tackles 14 ;
     stats:tacklesWon 8 ;

@@ -36,7 +36,6 @@ ex:Steve_Ngoura a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 8 ;
     stats:progressivePassesReceived 19 ;
-    stats:rank 1892 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 2 ;

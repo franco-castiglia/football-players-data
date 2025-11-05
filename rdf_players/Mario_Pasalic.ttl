@@ -38,7 +38,6 @@ ex:Mario_Pasalic a foaf:Person,
     stats:progressiveCarries 44 ;
     stats:progressivePasses 149 ;
     stats:progressivePassesReceived 68 ;
-    stats:rank 2045 ;
     stats:redCards 0 ;
     stats:tackles 26 ;
     stats:tacklesWon 16 ;

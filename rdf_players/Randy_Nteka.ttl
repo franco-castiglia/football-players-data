@@ -37,7 +37,6 @@ ex:Randy_Nteka a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 8 ;
     stats:progressivePassesReceived 44 ;
-    stats:rank 1919 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 5 ;

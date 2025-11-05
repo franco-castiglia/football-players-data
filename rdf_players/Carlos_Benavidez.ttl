@@ -37,7 +37,6 @@ ex:Carlos_Benavidez a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 26 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 295 ;
     stats:redCards 0 ;
     stats:tackles 19 ;
     stats:tacklesWon 14 ;

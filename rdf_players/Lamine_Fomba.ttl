@@ -36,7 +36,6 @@ ex:Lamine_Fomba a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 18 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 920 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 6 ;

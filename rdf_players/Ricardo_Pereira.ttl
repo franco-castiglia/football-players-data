@@ -40,7 +40,6 @@ ex:Ricardo_Pereira a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 18 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 2086 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 8 ;

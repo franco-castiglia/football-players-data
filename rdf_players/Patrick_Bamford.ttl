@@ -38,7 +38,6 @@ ex:Patrick_Bamford a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 30 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 2048 ;
     stats:redCards 0 ;
     stats:tackles 9 ;
     stats:tacklesWon 6 ;

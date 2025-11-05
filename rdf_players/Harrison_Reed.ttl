@@ -39,7 +39,6 @@ ex:Harrison_Reed a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 4 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 2190 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 3 ;

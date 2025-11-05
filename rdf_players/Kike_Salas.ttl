@@ -36,7 +36,6 @@ ex:Kike_Salas a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 59 ;
     stats:progressivePassesReceived 18 ;
-    stats:rank 2309 ;
     stats:redCards 0 ;
     stats:tackles 47 ;
     stats:tacklesWon 28 ;

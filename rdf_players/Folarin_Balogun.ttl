@@ -36,7 +36,6 @@ ex:Folarin_Balogun a foaf:Person,
     stats:progressiveCarries 21 ;
     stats:progressivePasses 9 ;
     stats:progressivePassesReceived 73 ;
-    stats:rank 223 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 1 ;

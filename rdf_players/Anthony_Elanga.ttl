@@ -36,7 +36,6 @@ ex:Anthony_Elanga a foaf:Person,
     stats:progressiveCarries 102 ;
     stats:progressivePasses 63 ;
     stats:progressivePassesReceived 229 ;
-    stats:rank 830 ;
     stats:redCards 0 ;
     stats:tackles 19 ;
     stats:tacklesWon 14 ;

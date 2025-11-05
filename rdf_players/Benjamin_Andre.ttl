@@ -36,7 +36,6 @@ ex:Benjamin_Andre a foaf:Person,
     stats:progressiveCarries 29 ;
     stats:progressivePasses 209 ;
     stats:progressivePassesReceived 72 ;
-    stats:rank 126 ;
     stats:redCards 0 ;
     stats:tackles 103 ;
     stats:tacklesWon 57 ;

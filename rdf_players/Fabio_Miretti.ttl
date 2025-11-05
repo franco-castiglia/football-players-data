@@ -36,7 +36,6 @@ ex:Fabio_Miretti a foaf:Person,
     stats:progressiveCarries 33 ;
     stats:progressivePasses 54 ;
     stats:progressivePassesReceived 100 ;
-    stats:rank 1761 ;
     stats:redCards 0 ;
     stats:tackles 28 ;
     stats:tacklesWon 15 ;

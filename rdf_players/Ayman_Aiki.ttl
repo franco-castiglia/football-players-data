@@ -35,7 +35,6 @@ ex:Ayman_Aiki a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 5 ;
     stats:progressivePassesReceived 8 ;
-    stats:rank 56 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 3 ;

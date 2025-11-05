@@ -37,7 +37,6 @@ ex:Nikola_Vlasic a foaf:Person,
     stats:progressiveCarries 53 ;
     stats:progressivePasses 94 ;
     stats:progressivePassesReceived 110 ;
-    stats:rank 2724 ;
     stats:redCards 0 ;
     stats:tackles 37 ;
     stats:tacklesWon 19 ;

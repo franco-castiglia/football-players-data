@@ -38,7 +38,6 @@ ex:FinnDominik_Porath a foaf:Person,
     stats:progressiveCarries 42 ;
     stats:progressivePasses 58 ;
     stats:progressivePassesReceived 69 ;
-    stats:rank 2139 ;
     stats:redCards 0 ;
     stats:tackles 45 ;
     stats:tacklesWon 26 ;

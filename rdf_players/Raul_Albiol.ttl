@@ -37,7 +37,6 @@ ex:Raul_Albiol a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 34 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 77 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 9 ;

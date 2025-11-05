@@ -36,7 +36,6 @@ ex:Luke_Thomas a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 37 ;
     stats:progressivePassesReceived 16 ;
-    stats:rank 2588 ;
     stats:redCards 0 ;
     stats:tackles 31 ;
     stats:tacklesWon 25 ;

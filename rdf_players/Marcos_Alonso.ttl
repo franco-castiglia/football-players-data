@@ -40,7 +40,6 @@ ex:Marcos_Alonso a foaf:Person,
     stats:progressiveCarries 64 ;
     stats:progressivePasses 215 ;
     stats:progressivePassesReceived 49 ;
-    stats:rank 97 ;
     stats:redCards 2 ;
     stats:tackles 35 ;
     stats:tacklesWon 21 ;

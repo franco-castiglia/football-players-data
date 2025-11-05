@@ -38,7 +38,6 @@ ex:Piotr_Zielinski a foaf:Person,
     stats:progressiveCarries 26 ;
     stats:progressivePasses 65 ;
     stats:progressivePassesReceived 24 ;
-    stats:rank 2839 ;
     stats:redCards 0 ;
     stats:tackles 14 ;
     stats:tacklesWon 10 ;

@@ -35,7 +35,6 @@ ex:Kazeem_Olaigbe a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 18 ;
     stats:progressivePassesReceived 32 ;
-    stats:rank 1957 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 4 ;

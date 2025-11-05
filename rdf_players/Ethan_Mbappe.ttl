@@ -36,7 +36,6 @@ ex:Ethan_Mbappe a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 8 ;
     stats:progressivePassesReceived 32 ;
-    stats:rank 1691 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 2 ;

@@ -38,7 +38,6 @@ ex:Marash_Kumbulla a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 71 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 1424 ;
     stats:redCards 0 ;
     stats:tackles 51 ;
     stats:tacklesWon 26 ;

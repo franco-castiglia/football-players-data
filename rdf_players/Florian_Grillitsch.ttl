@@ -38,7 +38,6 @@ ex:Florian_Grillitsch a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 38 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 1066 ;
     stats:redCards 0 ;
     stats:tackles 11 ;
     stats:tacklesWon 7 ;

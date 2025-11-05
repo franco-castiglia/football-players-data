@@ -36,7 +36,6 @@ ex:Bazoumana_Toure a foaf:Person,
     stats:progressiveCarries 24 ;
     stats:progressivePasses 14 ;
     stats:progressivePassesReceived 56 ;
-    stats:rank 2618 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 10 ;

@@ -37,7 +37,6 @@ ex:Odilon_Kossounou a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 46 ;
     stats:progressivePassesReceived 14 ;
-    stats:rank 1395 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 11 ;

@@ -36,7 +36,6 @@ ex:Mikel_Jauregizar a foaf:Person,
     stats:progressiveCarries 14 ;
     stats:progressivePasses 118 ;
     stats:progressivePassesReceived 31 ;
-    stats:rank 1248 ;
     stats:redCards 1 ;
     stats:tackles 84 ;
     stats:tacklesWon 48 ;

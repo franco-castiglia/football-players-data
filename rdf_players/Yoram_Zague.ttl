@@ -37,7 +37,6 @@ ex:Yoram_Zague a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 10 ;
     stats:progressivePassesReceived 17 ;
-    stats:rank 2808 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 6 ;

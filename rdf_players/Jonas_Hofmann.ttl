@@ -36,7 +36,6 @@ ex:Jonas_Hofmann a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 14 ;
     stats:progressivePassesReceived 29 ;
-    stats:rank 1171 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 0 ;

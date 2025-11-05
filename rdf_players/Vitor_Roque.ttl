@@ -36,7 +36,6 @@ ex:Vitor_Roque a foaf:Person,
     stats:progressiveCarries 24 ;
     stats:progressivePasses 17 ;
     stats:progressivePassesReceived 57 ;
-    stats:rank 2257 ;
     stats:redCards 0 ;
     stats:tackles 11 ;
     stats:tacklesWon 6 ;

@@ -39,7 +39,6 @@ ex:Pol_Lozano a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 115 ;
     stats:progressivePassesReceived 12 ;
-    stats:rank 1531 ;
     stats:redCards 0 ;
     stats:tackles 53 ;
     stats:tacklesWon 34 ;

@@ -37,7 +37,6 @@ ex:Ellyes_Skhiri a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 105 ;
     stats:progressivePassesReceived 27 ;
-    stats:rank 2444 ;
     stats:redCards 0 ;
     stats:tackles 40 ;
     stats:tacklesWon 22 ;

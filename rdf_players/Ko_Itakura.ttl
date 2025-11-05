@@ -37,7 +37,6 @@ ex:Ko_Itakura a foaf:Person,
     stats:progressiveCarries 23 ;
     stats:progressivePasses 69 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 1226 ;
     stats:redCards 0 ;
     stats:tackles 40 ;
     stats:tacklesWon 29 ;

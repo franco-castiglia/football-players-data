@@ -37,7 +37,6 @@ ex:Ricardo_Rodriguez a foaf:Person,
     stats:progressiveCarries 19 ;
     stats:progressivePasses 63 ;
     stats:progressivePassesReceived 32 ;
-    stats:rank 2242 ;
     stats:redCards 0 ;
     stats:tackles 28 ;
     stats:tacklesWon 15 ;

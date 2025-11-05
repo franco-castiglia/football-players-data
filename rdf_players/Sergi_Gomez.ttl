@@ -39,7 +39,6 @@ ex:Sergi_Gomez a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 8 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 1031 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 5 ;

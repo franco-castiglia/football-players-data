@@ -36,7 +36,6 @@ ex:Williot_Swedberg a foaf:Person,
     stats:progressiveCarries 34 ;
     stats:progressivePasses 28 ;
     stats:progressivePassesReceived 116 ;
-    stats:rank 2533 ;
     stats:redCards 0 ;
     stats:tackles 23 ;
     stats:tacklesWon 16 ;

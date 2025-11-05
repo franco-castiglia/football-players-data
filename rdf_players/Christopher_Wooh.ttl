@@ -37,7 +37,6 @@ ex:Christopher_Wooh a foaf:Person,
     stats:progressiveCarries 14 ;
     stats:progressivePasses 59 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 2790 ;
     stats:redCards 1 ;
     stats:tackles 36 ;
     stats:tacklesWon 19 ;

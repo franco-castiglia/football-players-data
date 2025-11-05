@@ -36,7 +36,6 @@ ex:Luca_Marianucci a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 28 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 1622 ;
     stats:redCards 1 ;
     stats:tackles 28 ;
     stats:tacklesWon 12 ;

@@ -36,7 +36,6 @@ ex:Balthazar_Pierret a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 82 ;
     stats:progressivePassesReceived 13 ;
-    stats:rank 2123 ;
     stats:redCards 0 ;
     stats:tackles 51 ;
     stats:tacklesWon 31 ;

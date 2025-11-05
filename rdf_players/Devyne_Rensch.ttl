@@ -36,7 +36,6 @@ ex:Devyne_Rensch a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 14 ;
     stats:progressivePassesReceived 25 ;
-    stats:rank 2199 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 13 ;

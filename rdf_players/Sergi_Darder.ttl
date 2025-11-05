@@ -36,7 +36,6 @@ ex:Sergi_Darder a foaf:Person,
     stats:progressiveCarries 37 ;
     stats:progressivePasses 142 ;
     stats:progressivePassesReceived 83 ;
-    stats:rank 667 ;
     stats:redCards 0 ;
     stats:tackles 40 ;
     stats:tacklesWon 26 ;

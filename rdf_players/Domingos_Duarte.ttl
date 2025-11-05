@@ -38,7 +38,6 @@ ex:Domingos_Duarte a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 47 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 791 ;
     stats:redCards 2 ;
     stats:tackles 28 ;
     stats:tacklesWon 15 ;

@@ -36,7 +36,6 @@ ex:Moise_Bombito a foaf:Person,
     stats:progressiveCarries 27 ;
     stats:progressivePasses 97 ;
     stats:progressivePassesReceived 10 ;
-    stats:rank 358 ;
     stats:redCards 1 ;
     stats:tackles 37 ;
     stats:tacklesWon 25 ;

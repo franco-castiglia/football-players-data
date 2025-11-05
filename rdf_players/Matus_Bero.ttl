@@ -37,7 +37,6 @@ ex:Matus_Bero a foaf:Person,
     stats:progressiveCarries 29 ;
     stats:progressivePasses 143 ;
     stats:progressivePassesReceived 111 ;
-    stats:rank 323 ;
     stats:redCards 0 ;
     stats:tackles 65 ;
     stats:tacklesWon 35 ;

@@ -36,7 +36,6 @@ ex:Saul_Coco a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 70 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 577 ;
     stats:redCards 0 ;
     stats:tackles 46 ;
     stats:tacklesWon 26 ;

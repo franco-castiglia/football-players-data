@@ -38,7 +38,6 @@ ex:Leandro_Trossard a foaf:Person,
     stats:progressiveCarries 80 ;
     stats:progressivePasses 101 ;
     stats:progressivePassesReceived 226 ;
-    stats:rank 2635 ;
     stats:redCards 1 ;
     stats:tackles 31 ;
     stats:tacklesWon 20 ;

@@ -38,7 +38,6 @@ ex:Bafode_Diakite a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 90 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 710 ;
     stats:redCards 1 ;
     stats:tackles 31 ;
     stats:tacklesWon 18 ;

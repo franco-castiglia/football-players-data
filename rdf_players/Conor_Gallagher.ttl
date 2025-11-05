@@ -37,7 +37,6 @@ ex:Conor_Gallagher a foaf:Person,
     stats:progressiveCarries 24 ;
     stats:progressivePasses 64 ;
     stats:progressivePassesReceived 64 ;
-    stats:rank 959 ;
     stats:redCards 0 ;
     stats:tackles 45 ;
     stats:tacklesWon 32 ;

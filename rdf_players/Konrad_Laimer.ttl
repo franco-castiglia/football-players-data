@@ -36,7 +36,6 @@ ex:Konrad_Laimer a foaf:Person,
     stats:progressiveCarries 87 ;
     stats:progressivePasses 141 ;
     stats:progressivePassesReceived 113 ;
-    stats:rank 1440 ;
     stats:redCards 0 ;
     stats:tackles 49 ;
     stats:tacklesWon 27 ;

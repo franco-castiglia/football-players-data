@@ -37,7 +37,6 @@ ex:Dani_de_Wit a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 33 ;
     stats:progressivePassesReceived 37 ;
-    stats:rank 2782 ;
     stats:redCards 0 ;
     stats:tackles 29 ;
     stats:tacklesWon 17 ;

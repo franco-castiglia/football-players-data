@@ -36,7 +36,6 @@ ex:Kristjan_Asllani a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 55 ;
     stats:progressivePassesReceived 20 ;
-    stats:rank 167 ;
     stats:redCards 0 ;
     stats:tackles 14 ;
     stats:tacklesWon 3 ;

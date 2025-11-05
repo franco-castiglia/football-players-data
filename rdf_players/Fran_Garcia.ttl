@@ -36,7 +36,6 @@ ex:Fran_Garcia a foaf:Person,
     stats:progressiveCarries 78 ;
     stats:progressivePasses 119 ;
     stats:progressivePassesReceived 177 ;
-    stats:rank 971 ;
     stats:redCards 0 ;
     stats:tackles 51 ;
     stats:tacklesWon 36 ;

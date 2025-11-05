@@ -40,7 +40,6 @@ ex:Harry_Winks a foaf:Person,
     stats:progressiveCarries 19 ;
     stats:progressivePasses 101 ;
     stats:progressivePassesReceived 11 ;
-    stats:rank 2778 ;
     stats:redCards 0 ;
     stats:tackles 24 ;
     stats:tacklesWon 11 ;

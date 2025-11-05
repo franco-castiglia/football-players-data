@@ -37,7 +37,6 @@ ex:Kalvin_Phillips a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 51 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 2112 ;
     stats:redCards 1 ;
     stats:tackles 35 ;
     stats:tacklesWon 19 ;

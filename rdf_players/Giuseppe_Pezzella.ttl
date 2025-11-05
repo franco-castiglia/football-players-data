@@ -37,7 +37,6 @@ ex:Giuseppe_Pezzella a foaf:Person,
     stats:progressiveCarries 77 ;
     stats:progressivePasses 80 ;
     stats:progressivePassesReceived 143 ;
-    stats:rank 2108 ;
     stats:redCards 0 ;
     stats:tackles 55 ;
     stats:tacklesWon 31 ;

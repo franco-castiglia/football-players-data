@@ -36,7 +36,6 @@ ex:Manu_Morlanes a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 88 ;
     stats:progressivePassesReceived 39 ;
-    stats:rank 1794 ;
     stats:redCards 0 ;
     stats:tackles 43 ;
     stats:tacklesWon 27 ;

@@ -36,7 +36,6 @@ ex:Scott_Banks a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 1 ;
     stats:progressivePassesReceived 8 ;
-    stats:rank 233 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 1 ;

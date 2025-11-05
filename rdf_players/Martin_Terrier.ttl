@@ -36,7 +36,6 @@ ex:Martin_Terrier a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 14 ;
     stats:progressivePassesReceived 35 ;
-    stats:rank 2577 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 2 ;

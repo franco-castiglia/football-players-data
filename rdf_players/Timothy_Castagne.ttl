@@ -37,7 +37,6 @@ ex:Timothy_Castagne a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 62 ;
     stats:progressivePassesReceived 67 ;
-    stats:rank 507 ;
     stats:redCards 0 ;
     stats:tackles 46 ;
     stats:tacklesWon 29 ;

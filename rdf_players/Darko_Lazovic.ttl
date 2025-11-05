@@ -36,7 +36,6 @@ ex:Darko_Lazovic a foaf:Person,
     stats:progressiveCarries 22 ;
     stats:progressivePasses 40 ;
     stats:progressivePassesReceived 88 ;
-    stats:rank 1456 ;
     stats:redCards 0 ;
     stats:tackles 21 ;
     stats:tacklesWon 10 ;

@@ -38,7 +38,6 @@ ex:Martin_Valjent a foaf:Person,
     stats:progressiveCarries 23 ;
     stats:progressivePasses 91 ;
     stats:progressivePassesReceived 17 ;
-    stats:rank 2663 ;
     stats:redCards 0 ;
     stats:tackles 30 ;
     stats:tacklesWon 21 ;

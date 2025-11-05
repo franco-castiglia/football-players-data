@@ -36,7 +36,6 @@ ex:Deiver_Machado a foaf:Person,
     stats:progressiveCarries 42 ;
     stats:progressivePasses 45 ;
     stats:progressivePassesReceived 80 ;
-    stats:rank 1555 ;
     stats:redCards 2 ;
     stats:tackles 36 ;
     stats:tacklesWon 26 ;

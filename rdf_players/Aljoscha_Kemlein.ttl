@@ -36,7 +36,6 @@ ex:Aljoscha_Kemlein a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 42 ;
     stats:progressivePassesReceived 19 ;
-    stats:rank 1343 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 4 ;

@@ -36,7 +36,6 @@ ex:Etienne_Youte_Kinkoue a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 63 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 2803 ;
     stats:redCards 1 ;
     stats:tackles 19 ;
     stats:tacklesWon 10 ;

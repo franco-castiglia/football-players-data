@@ -36,7 +36,6 @@ ex:Aimen_Moueffek a foaf:Person,
     stats:progressiveCarries 20 ;
     stats:progressivePasses 43 ;
     stats:progressivePassesReceived 31 ;
-    stats:rank 1804 ;
     stats:redCards 0 ;
     stats:tackles 20 ;
     stats:tacklesWon 12 ;

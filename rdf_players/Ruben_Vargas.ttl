@@ -36,7 +36,6 @@ ex:Ruben_Vargas a foaf:Person,
     stats:progressiveCarries 29 ;
     stats:progressivePasses 14 ;
     stats:progressivePassesReceived 63 ;
-    stats:rank 2675 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 4 ;

@@ -38,7 +38,6 @@ ex:Yaser_Asprilla a foaf:Person,
     stats:progressiveCarries 72 ;
     stats:progressivePasses 77 ;
     stats:progressivePassesReceived 140 ;
-    stats:rank 169 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 12 ;

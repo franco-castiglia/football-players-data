@@ -38,7 +38,6 @@ ex:Juan_Miranda a foaf:Person,
     stats:progressiveCarries 34 ;
     stats:progressivePasses 163 ;
     stats:progressivePassesReceived 88 ;
-    stats:rank 1760 ;
     stats:redCards 1 ;
     stats:tackles 32 ;
     stats:tacklesWon 18 ;

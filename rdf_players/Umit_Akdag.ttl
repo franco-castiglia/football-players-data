@@ -35,7 +35,6 @@ ex:Umit_Akdag a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 29 ;
     stats:progressivePassesReceived 9 ;
-    stats:rank 63 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 4 ;

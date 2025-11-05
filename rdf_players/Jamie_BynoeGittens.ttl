@@ -36,7 +36,6 @@ ex:Jamie_BynoeGittens a foaf:Person,
     stats:progressiveCarries 113 ;
     stats:progressivePasses 42 ;
     stats:progressivePassesReceived 180 ;
-    stats:rank 1011 ;
     stats:redCards 0 ;
     stats:tackles 31 ;
     stats:tacklesWon 19 ;

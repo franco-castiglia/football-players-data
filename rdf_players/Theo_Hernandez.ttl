@@ -39,7 +39,6 @@ ex:Theo_Hernandez a foaf:Person,
     stats:progressiveCarries 93 ;
     stats:progressivePasses 132 ;
     stats:progressivePassesReceived 148 ;
-    stats:rank 1153 ;
     stats:redCards 1 ;
     stats:tackles 36 ;
     stats:tacklesWon 28 ;

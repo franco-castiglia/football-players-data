@@ -36,7 +36,6 @@ ex:Alvaro_Djalo a foaf:Person,
     stats:progressiveCarries 22 ;
     stats:progressivePasses 13 ;
     stats:progressivePassesReceived 60 ;
-    stats:rank 749 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 5 ;

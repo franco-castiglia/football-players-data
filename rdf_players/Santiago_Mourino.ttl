@@ -37,7 +37,6 @@ ex:Santiago_Mourino a foaf:Person,
     stats:progressiveCarries 14 ;
     stats:progressivePasses 46 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 1808 ;
     stats:redCards 0 ;
     stats:tackles 43 ;
     stats:tacklesWon 28 ;

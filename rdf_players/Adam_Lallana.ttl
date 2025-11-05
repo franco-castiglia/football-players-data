@@ -40,7 +40,6 @@ ex:Adam_Lallana a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 24 ;
     stats:progressivePassesReceived 10 ;
-    stats:rank 1443 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 5 ;

@@ -36,7 +36,6 @@ ex:Harry_Clarke a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 14 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 569 ;
     stats:redCards 1 ;
     stats:tackles 5 ;
     stats:tacklesWon 3 ;

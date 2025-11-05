@@ -38,7 +38,6 @@ ex:Djed_Spence a foaf:Person,
     stats:progressiveCarries 59 ;
     stats:progressivePasses 105 ;
     stats:progressivePassesReceived 70 ;
-    stats:rank 2487 ;
     stats:redCards 1 ;
     stats:tackles 47 ;
     stats:tacklesWon 34 ;

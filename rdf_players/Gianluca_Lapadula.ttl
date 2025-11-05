@@ -39,7 +39,6 @@ ex:Gianluca_Lapadula a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 16 ;
-    stats:rank 1448 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 0 ;

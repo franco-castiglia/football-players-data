@@ -37,7 +37,6 @@ ex:Marin_Pongracic a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 34 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 2137 ;
     stats:redCards 1 ;
     stats:tackles 18 ;
     stats:tacklesWon 13 ;

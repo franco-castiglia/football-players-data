@@ -36,7 +36,6 @@ ex:Nahuel_Tenaglia a foaf:Person,
     stats:progressiveCarries 42 ;
     stats:progressivePasses 103 ;
     stats:progressivePassesReceived 98 ;
-    stats:rank 2569 ;
     stats:redCards 0 ;
     stats:tackles 96 ;
     stats:tacklesWon 61 ;

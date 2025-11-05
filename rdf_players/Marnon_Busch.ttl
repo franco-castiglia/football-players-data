@@ -36,7 +36,6 @@ ex:Marnon_Busch a foaf:Person,
     stats:progressiveCarries 22 ;
     stats:progressivePasses 63 ;
     stats:progressivePassesReceived 43 ;
-    stats:rank 421 ;
     stats:redCards 0 ;
     stats:tackles 26 ;
     stats:tacklesWon 17 ;

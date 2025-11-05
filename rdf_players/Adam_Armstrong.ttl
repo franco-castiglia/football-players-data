@@ -36,7 +36,6 @@ ex:Adam_Armstrong a foaf:Person,
     stats:progressiveCarries 25 ;
     stats:progressivePasses 21 ;
     stats:progressivePassesReceived 79 ;
-    stats:rank 153 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 3 ;

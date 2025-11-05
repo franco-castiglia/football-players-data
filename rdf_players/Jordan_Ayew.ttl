@@ -39,7 +39,6 @@ ex:Jordan_Ayew a foaf:Person,
     stats:progressiveCarries 49 ;
     stats:progressivePasses 46 ;
     stats:progressivePassesReceived 86 ;
-    stats:rank 186 ;
     stats:redCards 0 ;
     stats:tackles 27 ;
     stats:tacklesWon 15 ;

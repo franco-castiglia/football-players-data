@@ -36,7 +36,6 @@ ex:Augusto_Batalla a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 2 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 260 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 2 ;

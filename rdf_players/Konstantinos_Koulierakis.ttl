@@ -36,7 +36,6 @@ ex:Konstantinos_Koulierakis a foaf:Person,
     stats:progressiveCarries 20 ;
     stats:progressivePasses 104 ;
     stats:progressivePassesReceived 8 ;
-    stats:rank 1399 ;
     stats:redCards 0 ;
     stats:tackles 40 ;
     stats:tacklesWon 20 ;

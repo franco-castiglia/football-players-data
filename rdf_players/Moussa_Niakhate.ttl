@@ -36,7 +36,6 @@ ex:Moussa_Niakhate a foaf:Person,
     stats:progressiveCarries 34 ;
     stats:progressivePasses 111 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 1894 ;
     stats:redCards 0 ;
     stats:tackles 47 ;
     stats:tacklesWon 27 ;

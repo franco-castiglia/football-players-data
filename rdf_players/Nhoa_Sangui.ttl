@@ -35,7 +35,6 @@ ex:Nhoa_Sangui a foaf:Person,
     stats:progressiveCarries 21 ;
     stats:progressivePasses 45 ;
     stats:progressivePassesReceived 53 ;
-    stats:rank 2339 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 9 ;

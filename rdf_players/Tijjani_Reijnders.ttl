@@ -38,7 +38,6 @@ ex:Tijjani_Reijnders a foaf:Person,
     stats:progressiveCarries 111 ;
     stats:progressivePasses 230 ;
     stats:progressivePassesReceived 121 ;
-    stats:rank 2193 ;
     stats:redCards 1 ;
     stats:tackles 26 ;
     stats:tacklesWon 13 ;

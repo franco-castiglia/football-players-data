@@ -36,7 +36,6 @@ ex:Victor_Boniface a foaf:Person,
     stats:progressiveCarries 26 ;
     stats:progressivePasses 23 ;
     stats:progressivePassesReceived 61 ;
-    stats:rank 361 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 4 ;

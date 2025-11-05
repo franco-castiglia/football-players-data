@@ -36,7 +36,6 @@ ex:Victor_Munoz a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 0 ;
     stats:progressivePassesReceived 9 ;
-    stats:rank 1827 ;
     stats:redCards 0 ;
     stats:tackles 0 ;
     stats:tacklesWon 0 ;

@@ -36,7 +36,6 @@ ex:Moi_Gomez a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 49 ;
     stats:progressivePassesReceived 16 ;
-    stats:rank 1030 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 9 ;

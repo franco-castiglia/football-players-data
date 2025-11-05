@@ -36,7 +36,6 @@ ex:Lasse_Rosenboom a foaf:Person,
     stats:progressiveCarries 19 ;
     stats:progressivePasses 34 ;
     stats:progressivePassesReceived 50 ;
-    stats:rank 2259 ;
     stats:redCards 0 ;
     stats:tackles 47 ;
     stats:tacklesWon 35 ;

@@ -37,7 +37,6 @@ ex:Stanislav_Lobotka a foaf:Person,
     stats:progressiveCarries 30 ;
     stats:progressivePasses 118 ;
     stats:progressivePassesReceived 32 ;
-    stats:rank 1507 ;
     stats:redCards 0 ;
     stats:tackles 47 ;
     stats:tacklesWon 30 ;

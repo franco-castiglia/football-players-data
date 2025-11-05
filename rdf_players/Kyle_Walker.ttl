@@ -40,7 +40,6 @@ ex:Kyle_Walker a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 64 ;
     stats:progressivePassesReceived 11 ;
-    stats:rank 2738 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 10 ;

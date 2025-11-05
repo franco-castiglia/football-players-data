@@ -36,7 +36,6 @@ ex:David_Pereira_da_Costa a foaf:Person,
     stats:progressiveCarries 14 ;
     stats:progressivePasses 24 ;
     stats:progressivePassesReceived 20 ;
-    stats:rank 610 ;
     stats:redCards 1 ;
     stats:tackles 2 ;
     stats:tacklesWon 0 ;

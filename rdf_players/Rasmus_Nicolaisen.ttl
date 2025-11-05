@@ -36,7 +36,6 @@ ex:Rasmus_Nicolaisen a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 27 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 1898 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 3 ;

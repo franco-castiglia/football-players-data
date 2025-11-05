@@ -36,7 +36,6 @@ ex:Patrick_Wimmer a foaf:Person,
     stats:progressiveCarries 46 ;
     stats:progressivePasses 91 ;
     stats:progressivePassesReceived 75 ;
-    stats:rank 2776 ;
     stats:redCards 1 ;
     stats:tackles 47 ;
     stats:tacklesWon 35 ;

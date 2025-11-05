@@ -36,7 +36,6 @@ ex:Hugo_Alvarez a foaf:Person,
     stats:progressiveCarries 74 ;
     stats:progressivePasses 60 ;
     stats:progressivePassesReceived 171 ;
-    stats:rank 103 ;
     stats:redCards 0 ;
     stats:tackles 26 ;
     stats:tacklesWon 9 ;

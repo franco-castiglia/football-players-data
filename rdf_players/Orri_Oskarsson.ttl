@@ -38,7 +38,6 @@ ex:Orri_Oskarsson a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 9 ;
     stats:progressivePassesReceived 50 ;
-    stats:rank 2499 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 6 ;

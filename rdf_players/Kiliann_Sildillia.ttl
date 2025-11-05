@@ -37,7 +37,6 @@ ex:Kiliann_Sildillia a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 29 ;
     stats:progressivePassesReceived 34 ;
-    stats:rank 2413 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 10 ;

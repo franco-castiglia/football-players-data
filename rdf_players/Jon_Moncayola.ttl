@@ -37,7 +37,6 @@ ex:Jon_Moncayola a foaf:Person,
     stats:progressiveCarries 25 ;
     stats:progressivePasses 107 ;
     stats:progressivePassesReceived 51 ;
-    stats:rank 1778 ;
     stats:redCards 0 ;
     stats:tackles 70 ;
     stats:tacklesWon 41 ;

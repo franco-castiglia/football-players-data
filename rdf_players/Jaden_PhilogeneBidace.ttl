@@ -37,7 +37,6 @@ ex:Jaden_PhilogeneBidace a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 10 ;
     stats:progressivePassesReceived 36 ;
-    stats:rank 2114 ;
     stats:redCards 0 ;
     stats:tackles 14 ;
     stats:tacklesWon 7 ;

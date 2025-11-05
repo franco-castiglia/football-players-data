@@ -37,7 +37,6 @@ ex:Jesper_Karlstrom a foaf:Person,
     stats:progressiveCarries 23 ;
     stats:progressivePasses 135 ;
     stats:progressivePassesReceived 46 ;
-    stats:rank 1324 ;
     stats:redCards 0 ;
     stats:tackles 61 ;
     stats:tacklesWon 34 ;

@@ -35,7 +35,6 @@ ex:Esteban_Lepaul a foaf:Person,
     stats:progressiveCarries 26 ;
     stats:progressivePasses 20 ;
     stats:progressivePassesReceived 68 ;
-    stats:rank 1480 ;
     stats:redCards 0 ;
     stats:tackles 11 ;
     stats:tacklesWon 6 ;

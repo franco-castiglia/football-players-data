@@ -36,7 +36,6 @@ ex:Ivan_Nekic a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 2 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 1877 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 1 ;

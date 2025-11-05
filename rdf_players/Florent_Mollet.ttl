@@ -37,7 +37,6 @@ ex:Florent_Mollet a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 9 ;
     stats:progressivePassesReceived 12 ;
-    stats:rank 1777 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 2 ;

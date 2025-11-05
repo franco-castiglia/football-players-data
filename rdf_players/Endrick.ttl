@@ -37,7 +37,6 @@ ex:Endrick a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 8 ;
     stats:progressivePassesReceived 32 ;
-    stats:rank 846 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 1 ;

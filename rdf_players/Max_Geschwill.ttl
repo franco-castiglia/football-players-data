@@ -36,7 +36,6 @@ ex:Max_Geschwill a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 58 ;
     stats:progressivePassesReceived 16 ;
-    stats:rank 996 ;
     stats:redCards 0 ;
     stats:tackles 26 ;
     stats:tacklesWon 21 ;

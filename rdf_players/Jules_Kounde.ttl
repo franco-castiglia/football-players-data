@@ -37,7 +37,6 @@ ex:Jules_Kounde a foaf:Person,
     stats:progressiveCarries 44 ;
     stats:progressivePasses 165 ;
     stats:progressivePassesReceived 190 ;
-    stats:rank 1401 ;
     stats:redCards 0 ;
     stats:tackles 63 ;
     stats:tacklesWon 43 ;

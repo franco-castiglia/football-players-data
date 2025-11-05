@@ -36,7 +36,6 @@ ex:Marvin_Senaya a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 5 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 2395 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 3 ;

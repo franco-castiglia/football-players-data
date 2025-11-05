@@ -36,7 +36,6 @@ ex:Cristhian_Mosquera a foaf:Person,
     stats:progressiveCarries 35 ;
     stats:progressivePasses 123 ;
     stats:progressivePassesReceived 6 ;
-    stats:rank 1799 ;
     stats:redCards 0 ;
     stats:tackles 56 ;
     stats:tacklesWon 36 ;

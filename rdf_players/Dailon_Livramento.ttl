@@ -38,7 +38,6 @@ ex:Dailon_Livramento a foaf:Person,
     stats:progressiveCarries 23 ;
     stats:progressivePasses 13 ;
     stats:progressivePassesReceived 67 ;
-    stats:rank 1499 ;
     stats:redCards 1 ;
     stats:tackles 15 ;
     stats:tacklesWon 11 ;

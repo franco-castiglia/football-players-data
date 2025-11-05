@@ -36,7 +36,6 @@ ex:Chrislain_Matsima a foaf:Person,
     stats:progressiveCarries 14 ;
     stats:progressivePasses 84 ;
     stats:progressivePassesReceived 13 ;
-    stats:rank 1674 ;
     stats:redCards 0 ;
     stats:tackles 31 ;
     stats:tacklesWon 20 ;

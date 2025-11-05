@@ -40,7 +40,6 @@ ex:David_Alaba a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 74 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 0 ;

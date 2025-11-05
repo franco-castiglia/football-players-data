@@ -36,7 +36,6 @@ ex:Kevin_Behrens a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 4 ;
     stats:progressivePassesReceived 18 ;
-    stats:rank 275 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 1 ;

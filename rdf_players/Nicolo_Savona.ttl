@@ -36,7 +36,6 @@ ex:Nicolo_Savona a foaf:Person,
     stats:progressiveCarries 35 ;
     stats:progressivePasses 59 ;
     stats:progressivePassesReceived 44 ;
-    stats:rank 2360 ;
     stats:redCards 0 ;
     stats:tackles 29 ;
     stats:tacklesWon 13 ;

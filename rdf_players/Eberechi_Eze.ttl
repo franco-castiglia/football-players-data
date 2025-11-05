@@ -36,7 +36,6 @@ ex:Eberechi_Eze a foaf:Person,
     stats:progressiveCarries 69 ;
     stats:progressivePasses 97 ;
     stats:progressivePassesReceived 153 ;
-    stats:rank 866 ;
     stats:redCards 0 ;
     stats:tackles 39 ;
     stats:tacklesWon 22 ;

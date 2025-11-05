@@ -37,7 +37,6 @@ ex:Lloyd_Kelly a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 36 ;
     stats:progressivePassesReceived 26 ;
-    stats:rank 1342 ;
     stats:redCards 0 ;
     stats:tackles 15 ;
     stats:tacklesWon 11 ;

@@ -35,7 +35,6 @@ ex:Ibrahim_Hafiz_Umar a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 2 ;
     stats:progressivePassesReceived 16 ;
-    stats:rank 1199 ;
     stats:redCards 1 ;
     stats:tackles 3 ;
     stats:tacklesWon 2 ;

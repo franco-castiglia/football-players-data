@@ -39,7 +39,6 @@ ex:Ruben_Dias a foaf:Person,
     stats:progressiveCarries 43 ;
     stats:progressivePasses 160 ;
     stats:progressivePassesReceived 8 ;
-    stats:rank 717 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 11 ;

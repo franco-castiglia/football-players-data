@@ -36,7 +36,6 @@ ex:Johnny_Cardoso a foaf:Person,
     stats:progressiveCarries 19 ;
     stats:progressivePasses 71 ;
     stats:progressivePassesReceived 28 ;
-    stats:rank 485 ;
     stats:redCards 0 ;
     stats:tackles 55 ;
     stats:tacklesWon 31 ;

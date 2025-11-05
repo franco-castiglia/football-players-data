@@ -37,7 +37,6 @@ ex:Wataru_Endo a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 19 ;
     stats:progressivePassesReceived 8 ;
-    stats:rank 845 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 8 ;

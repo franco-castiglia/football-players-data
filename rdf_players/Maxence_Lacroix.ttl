@@ -36,7 +36,6 @@ ex:Maxence_Lacroix a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 65 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 1437 ;
     stats:redCards 0 ;
     stats:tackles 68 ;
     stats:tacklesWon 41 ;

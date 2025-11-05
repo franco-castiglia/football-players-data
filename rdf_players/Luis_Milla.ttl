@@ -36,7 +36,6 @@ ex:Luis_Milla a foaf:Person,
     stats:progressiveCarries 32 ;
     stats:progressivePasses 152 ;
     stats:progressivePassesReceived 30 ;
-    stats:rank 1746 ;
     stats:redCards 0 ;
     stats:tackles 61 ;
     stats:tacklesWon 40 ;

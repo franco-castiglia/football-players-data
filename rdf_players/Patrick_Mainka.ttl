@@ -36,7 +36,6 @@ ex:Patrick_Mainka a foaf:Person,
     stats:progressiveCarries 21 ;
     stats:progressivePasses 102 ;
     stats:progressivePassesReceived 12 ;
-    stats:rank 1574 ;
     stats:redCards 0 ;
     stats:tackles 58 ;
     stats:tacklesWon 30 ;

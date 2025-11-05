@@ -40,7 +40,6 @@ ex:Christian_Pulisic a foaf:Person,
     stats:progressiveCarries 121 ;
     stats:progressivePasses 105 ;
     stats:progressivePassesReceived 191 ;
-    stats:rank 2157 ;
     stats:redCards 0 ;
     stats:tackles 43 ;
     stats:tacklesWon 29 ;

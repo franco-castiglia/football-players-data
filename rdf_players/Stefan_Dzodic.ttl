@@ -35,7 +35,6 @@ ex:Stefan_Dzodic a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 10 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 805 ;
     stats:redCards 1 ;
     stats:tackles 8 ;
     stats:tacklesWon 5 ;

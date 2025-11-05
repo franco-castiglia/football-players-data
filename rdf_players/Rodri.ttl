@@ -37,7 +37,6 @@ ex:Rodri a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 4 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 2227 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 1 ;

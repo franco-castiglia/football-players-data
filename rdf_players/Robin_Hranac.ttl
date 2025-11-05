@@ -36,7 +36,6 @@ ex:Robin_Hranac a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 4 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 1187 ;
     stats:redCards 0 ;
     stats:tackles 0 ;
     stats:tacklesWon 0 ;

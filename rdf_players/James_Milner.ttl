@@ -39,7 +39,6 @@ ex:James_Milner a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 10 ;
     stats:progressivePassesReceived 10 ;
-    stats:rank 1749 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 2 ;

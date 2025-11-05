@@ -38,7 +38,6 @@ ex:Paul_Joly a foaf:Person,
     stats:progressiveCarries 28 ;
     stats:progressivePasses 51 ;
     stats:progressivePassesReceived 61 ;
-    stats:rank 1273 ;
     stats:redCards 1 ;
     stats:tackles 49 ;
     stats:tacklesWon 32 ;

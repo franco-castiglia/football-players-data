@@ -35,7 +35,6 @@ ex:Gabriel_Bares a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 3 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 242 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 2 ;

@@ -36,7 +36,6 @@ ex:Haris_Tabakovic a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 45 ;
-    stats:rank 2543 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 1 ;

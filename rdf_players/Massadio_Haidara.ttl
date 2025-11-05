@@ -37,7 +37,6 @@ ex:Massadio_Haidara a foaf:Person,
     stats:progressiveCarries 44 ;
     stats:progressivePasses 77 ;
     stats:progressivePassesReceived 76 ;
-    stats:rank 1117 ;
     stats:redCards 2 ;
     stats:tackles 27 ;
     stats:tacklesWon 16 ;

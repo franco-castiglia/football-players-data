@@ -37,7 +37,6 @@ ex:Marc_Roca a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 59 ;
     stats:progressivePassesReceived 13 ;
-    stats:rank 2226 ;
     stats:redCards 0 ;
     stats:tackles 20 ;
     stats:tacklesWon 14 ;

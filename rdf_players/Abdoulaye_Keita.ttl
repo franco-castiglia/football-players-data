@@ -35,7 +35,6 @@ ex:Abdoulaye_Keita a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 2 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 1335 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 2 ;

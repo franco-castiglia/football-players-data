@@ -36,7 +36,6 @@ ex:Phil_Harres a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 16 ;
     stats:progressivePassesReceived 71 ;
-    stats:rank 1129 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 10 ;

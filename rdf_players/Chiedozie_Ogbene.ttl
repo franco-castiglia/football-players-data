@@ -36,7 +36,6 @@ ex:Chiedozie_Ogbene a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 0 ;
     stats:progressivePassesReceived 15 ;
-    stats:rank 1946 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 3 ;

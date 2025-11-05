@@ -36,7 +36,6 @@ ex:Orel_Mangala a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 34 ;
     stats:progressivePassesReceived 19 ;
-    stats:rank 1605 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 8 ;

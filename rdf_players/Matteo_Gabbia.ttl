@@ -37,7 +37,6 @@ ex:Matteo_Gabbia a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 74 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 950 ;
     stats:redCards 0 ;
     stats:tackles 21 ;
     stats:tacklesWon 15 ;

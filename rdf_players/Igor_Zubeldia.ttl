@@ -37,7 +37,6 @@ ex:Igor_Zubeldia a foaf:Person,
     stats:progressiveCarries 22 ;
     stats:progressivePasses 101 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 2848 ;
     stats:redCards 1 ;
     stats:tackles 34 ;
     stats:tacklesWon 22 ;

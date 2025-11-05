@@ -36,7 +36,6 @@ ex:Wahbi_Khazri a foaf:Person,
     stats:progressiveCarries 24 ;
     stats:progressivePasses 33 ;
     stats:progressivePassesReceived 53 ;
-    stats:rank 1350 ;
     stats:redCards 0 ;
     stats:tackles 25 ;
     stats:tacklesWon 18 ;

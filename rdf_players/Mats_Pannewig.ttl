@@ -36,7 +36,6 @@ ex:Mats_Pannewig a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 10 ;
     stats:progressivePassesReceived 16 ;
-    stats:rank 2036 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 6 ;

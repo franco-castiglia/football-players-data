@@ -38,7 +38,6 @@ ex:Yuri_Berchiche a foaf:Person,
     stats:progressiveCarries 43 ;
     stats:progressivePasses 161 ;
     stats:progressivePassesReceived 66 ;
-    stats:rank 307 ;
     stats:redCards 0 ;
     stats:tackles 33 ;
     stats:tacklesWon 21 ;

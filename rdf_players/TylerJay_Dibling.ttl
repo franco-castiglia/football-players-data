@@ -36,7 +36,6 @@ ex:TylerJay_Dibling a foaf:Person,
     stats:progressiveCarries 69 ;
     stats:progressivePasses 64 ;
     stats:progressivePassesReceived 96 ;
-    stats:rank 726 ;
     stats:redCards 0 ;
     stats:tackles 34 ;
     stats:tacklesWon 20 ;

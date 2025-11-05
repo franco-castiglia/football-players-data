@@ -36,7 +36,6 @@ ex:Sekou_Mara a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 11 ;
     stats:progressivePassesReceived 47 ;
-    stats:rank 1611 ;
     stats:redCards 0 ;
     stats:tackles 9 ;
     stats:tacklesWon 6 ;

@@ -37,7 +37,6 @@ ex:Rodrigo_Bentancur a foaf:Person,
     stats:progressiveCarries 28 ;
     stats:progressivePasses 100 ;
     stats:progressivePassesReceived 34 ;
-    stats:rank 304 ;
     stats:redCards 0 ;
     stats:tackles 40 ;
     stats:tacklesWon 22 ;

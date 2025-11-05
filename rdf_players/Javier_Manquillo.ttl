@@ -38,7 +38,6 @@ ex:Javier_Manquillo a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 24 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 1608 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 5 ;

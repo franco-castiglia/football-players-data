@@ -36,7 +36,6 @@ ex:Felix_Agu a foaf:Person,
     stats:progressiveCarries 33 ;
     stats:progressivePasses 43 ;
     stats:progressivePassesReceived 105 ;
-    stats:rank 45 ;
     stats:redCards 0 ;
     stats:tackles 30 ;
     stats:tacklesWon 14 ;

@@ -37,7 +37,6 @@ ex:Giovanni_Di_Lorenzo a foaf:Person,
     stats:progressiveCarries 50 ;
     stats:progressivePasses 224 ;
     stats:progressivePassesReceived 163 ;
-    stats:rank 706 ;
     stats:redCards 0 ;
     stats:tackles 66 ;
     stats:tacklesWon 44 ;

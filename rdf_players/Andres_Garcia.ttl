@@ -36,7 +36,6 @@ ex:Andres_Garcia a foaf:Person,
     stats:progressiveCarries 26 ;
     stats:progressivePasses 15 ;
     stats:progressivePassesReceived 28 ;
-    stats:rank 969 ;
     stats:redCards 0 ;
     stats:tackles 9 ;
     stats:tacklesWon 5 ;

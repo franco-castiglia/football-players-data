@@ -36,7 +36,6 @@ ex:Exequiel_Palacios a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 97 ;
     stats:progressivePassesReceived 40 ;
-    stats:rank 2024 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 15 ;

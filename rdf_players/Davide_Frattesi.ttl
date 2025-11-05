@@ -38,7 +38,6 @@ ex:Davide_Frattesi a foaf:Person,
     stats:progressiveCarries 23 ;
     stats:progressivePasses 31 ;
     stats:progressivePassesReceived 50 ;
-    stats:rank 934 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 8 ;

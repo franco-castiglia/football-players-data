@@ -36,7 +36,6 @@ ex:Dayot_Upamecano a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 137 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 2652 ;
     stats:redCards 0 ;
     stats:tackles 36 ;
     stats:tacklesWon 22 ;

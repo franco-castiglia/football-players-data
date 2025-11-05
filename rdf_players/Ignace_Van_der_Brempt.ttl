@@ -37,7 +37,6 @@ ex:Ignace_Van_der_Brempt a foaf:Person,
     stats:progressiveCarries 19 ;
     stats:progressivePasses 42 ;
     stats:progressivePassesReceived 34 ;
-    stats:rank 2668 ;
     stats:redCards 0 ;
     stats:tackles 40 ;
     stats:tacklesWon 32 ;

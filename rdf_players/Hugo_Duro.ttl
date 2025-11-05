@@ -37,7 +37,6 @@ ex:Hugo_Duro a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 28 ;
     stats:progressivePassesReceived 88 ;
-    stats:rank 802 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 8 ;

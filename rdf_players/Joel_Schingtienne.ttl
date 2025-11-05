@@ -35,7 +35,6 @@ ex:Joel_Schingtienne a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 28 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 2372 ;
     stats:redCards 0 ;
     stats:tackles 27 ;
     stats:tacklesWon 16 ;

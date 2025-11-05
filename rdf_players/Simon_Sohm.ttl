@@ -37,7 +37,6 @@ ex:Simon_Sohm a foaf:Person,
     stats:progressiveCarries 69 ;
     stats:progressivePasses 140 ;
     stats:progressivePassesReceived 67 ;
-    stats:rank 2461 ;
     stats:redCards 0 ;
     stats:tackles 28 ;
     stats:tacklesWon 17 ;

@@ -38,7 +38,6 @@ ex:Ridgeciano_Haps a foaf:Person,
     stats:progressiveCarries 26 ;
     stats:progressivePasses 52 ;
     stats:progressivePassesReceived 47 ;
-    stats:rank 1126 ;
     stats:redCards 0 ;
     stats:tackles 30 ;
     stats:tacklesWon 16 ;

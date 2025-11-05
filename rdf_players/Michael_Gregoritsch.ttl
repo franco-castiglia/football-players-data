@@ -39,7 +39,6 @@ ex:Michael_Gregoritsch a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 19 ;
     stats:progressivePassesReceived 36 ;
-    stats:rank 1062 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 2 ;

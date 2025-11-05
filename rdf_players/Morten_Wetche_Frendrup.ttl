@@ -38,7 +38,6 @@ ex:Morten_Wetche_Frendrup a foaf:Person,
     stats:progressiveCarries 24 ;
     stats:progressivePasses 106 ;
     stats:progressivePassesReceived 29 ;
-    stats:rank 936 ;
     stats:redCards 0 ;
     stats:tackles 102 ;
     stats:tacklesWon 61 ;

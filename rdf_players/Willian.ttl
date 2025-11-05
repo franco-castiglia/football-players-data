@@ -40,7 +40,6 @@ ex:Willian a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 40 ;
     stats:progressivePassesReceived 33 ;
-    stats:rank 2772 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 2 ;

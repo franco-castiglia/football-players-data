@@ -39,7 +39,6 @@ ex:Lucas_Martinez_Quarta a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 14 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 1653 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 7 ;

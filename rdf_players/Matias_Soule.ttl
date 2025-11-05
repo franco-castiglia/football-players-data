@@ -37,7 +37,6 @@ ex:Matias_Soule a foaf:Person,
     stats:progressiveCarries 84 ;
     stats:progressivePasses 89 ;
     stats:progressivePassesReceived 191 ;
-    stats:rank 2481 ;
     stats:redCards 0 ;
     stats:tackles 26 ;
     stats:tacklesWon 16 ;

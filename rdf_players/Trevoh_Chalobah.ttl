@@ -36,7 +36,6 @@ ex:Trevoh_Chalobah a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 34 ;
     stats:progressivePassesReceived 6 ;
-    stats:rank 526 ;
     stats:redCards 0 ;
     stats:tackles 20 ;
     stats:tacklesWon 16 ;

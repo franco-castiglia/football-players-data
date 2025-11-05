@@ -37,7 +37,6 @@ ex:Soumaila_Coulibaly a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 16 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 619 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 2 ;

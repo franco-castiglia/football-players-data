@@ -35,7 +35,6 @@ ex:Valentin_Barco a foaf:Person,
     stats:progressiveCarries 20 ;
     stats:progressivePasses 64 ;
     stats:progressivePassesReceived 55 ;
-    stats:rank 238 ;
     stats:redCards 0 ;
     stats:tackles 36 ;
     stats:tacklesWon 22 ;

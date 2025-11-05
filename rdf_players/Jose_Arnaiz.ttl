@@ -36,7 +36,6 @@ ex:Jose_Arnaiz a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 4 ;
     stats:progressivePassesReceived 20 ;
-    stats:rank 155 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 5 ;

@@ -36,7 +36,6 @@ ex:Hiroki_Ito a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 18 ;
     stats:progressivePassesReceived 6 ;
-    stats:rank 1227 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 0 ;

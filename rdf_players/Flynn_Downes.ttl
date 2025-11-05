@@ -36,7 +36,6 @@ ex:Flynn_Downes a foaf:Person,
     stats:progressiveCarries 29 ;
     stats:progressivePasses 66 ;
     stats:progressivePassesReceived 29 ;
-    stats:rank 786 ;
     stats:redCards 0 ;
     stats:tackles 49 ;
     stats:tacklesWon 25 ;

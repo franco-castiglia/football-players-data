@@ -36,7 +36,6 @@ ex:Omar_Traore a foaf:Person,
     stats:progressiveCarries 103 ;
     stats:progressivePasses 117 ;
     stats:progressivePassesReceived 115 ;
-    stats:rank 2627 ;
     stats:redCards 0 ;
     stats:tackles 50 ;
     stats:tacklesWon 26 ;

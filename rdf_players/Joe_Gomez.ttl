@@ -40,7 +40,6 @@ ex:Joe_Gomez a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 35 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 1029 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 10 ;

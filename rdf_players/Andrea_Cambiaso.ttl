@@ -37,7 +37,6 @@ ex:Andrea_Cambiaso a foaf:Person,
     stats:progressiveCarries 78 ;
     stats:progressivePasses 111 ;
     stats:progressivePassesReceived 122 ;
-    stats:rank 454 ;
     stats:redCards 0 ;
     stats:tackles 46 ;
     stats:tacklesWon 30 ;

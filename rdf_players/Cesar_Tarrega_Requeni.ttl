@@ -36,7 +36,6 @@ ex:Cesar_Tarrega_Requeni a foaf:Person,
     stats:progressiveCarries 20 ;
     stats:progressivePasses 79 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 2555 ;
     stats:redCards 0 ;
     stats:tackles 49 ;
     stats:tacklesWon 37 ;

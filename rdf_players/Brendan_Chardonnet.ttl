@@ -36,7 +36,6 @@ ex:Brendan_Chardonnet a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 51 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 530 ;
     stats:redCards 0 ;
     stats:tackles 45 ;
     stats:tacklesWon 33 ;

@@ -36,7 +36,6 @@ ex:Arouna_Sangante a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 48 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 2337 ;
     stats:redCards 1 ;
     stats:tackles 25 ;
     stats:tacklesWon 16 ;

@@ -36,7 +36,6 @@ ex:Martin_Tejon a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 4 ;
     stats:progressivePassesReceived 6 ;
-    stats:rank 2565 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 0 ;

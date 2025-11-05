@@ -37,7 +37,6 @@ ex:Kike_Garcia a foaf:Person,
     stats:progressiveCarries 25 ;
     stats:progressivePasses 50 ;
     stats:progressivePassesReceived 158 ;
-    stats:rank 1355 ;
     stats:redCards 1 ;
     stats:tackles 19 ;
     stats:tacklesWon 14 ;

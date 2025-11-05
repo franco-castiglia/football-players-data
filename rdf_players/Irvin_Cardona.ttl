@@ -36,7 +36,6 @@ ex:Irvin_Cardona a foaf:Person,
     stats:progressiveCarries 30 ;
     stats:progressivePasses 32 ;
     stats:progressivePassesReceived 135 ;
-    stats:rank 482 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 5 ;

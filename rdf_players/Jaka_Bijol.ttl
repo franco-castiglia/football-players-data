@@ -38,7 +38,6 @@ ex:Jaka_Bijol a foaf:Person,
     stats:progressiveCarries 22 ;
     stats:progressivePasses 98 ;
     stats:progressivePassesReceived 10 ;
-    stats:rank 332 ;
     stats:redCards 1 ;
     stats:tackles 43 ;
     stats:tacklesWon 25 ;

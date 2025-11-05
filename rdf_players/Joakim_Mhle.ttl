@@ -37,7 +37,6 @@ ex:Joakim_Mhle a foaf:Person,
     stats:progressiveCarries 59 ;
     stats:progressivePasses 88 ;
     stats:progressivePassesReceived 117 ;
-    stats:rank 1844 ;
     stats:redCards 0 ;
     stats:tackles 34 ;
     stats:tacklesWon 15 ;

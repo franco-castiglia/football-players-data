@@ -36,7 +36,6 @@ ex:Georges_Mikautadze a foaf:Person,
     stats:progressiveCarries 37 ;
     stats:progressivePasses 54 ;
     stats:progressivePassesReceived 140 ;
-    stats:rank 1740 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 6 ;

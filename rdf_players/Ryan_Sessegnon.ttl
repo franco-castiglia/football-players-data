@@ -39,7 +39,6 @@ ex:Ryan_Sessegnon a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 22 ;
     stats:progressivePassesReceived 59 ;
-    stats:rank 2402 ;
     stats:redCards 0 ;
     stats:tackles 27 ;
     stats:tacklesWon 13 ;

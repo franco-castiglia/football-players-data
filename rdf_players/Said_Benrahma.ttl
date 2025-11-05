@@ -40,7 +40,6 @@ ex:Said_Benrahma a foaf:Person,
     stats:progressiveCarries 41 ;
     stats:progressivePasses 32 ;
     stats:progressivePassesReceived 109 ;
-    stats:rank 301 ;
     stats:redCards 0 ;
     stats:tackles 9 ;
     stats:tacklesWon 5 ;

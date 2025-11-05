@@ -36,7 +36,6 @@ ex:Jeff_Ekhator_Osayuki a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 14 ;
     stats:progressivePassesReceived 51 ;
-    stats:rank 823 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 4 ;

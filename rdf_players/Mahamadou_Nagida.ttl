@@ -35,7 +35,6 @@ ex:Mahamadou_Nagida a foaf:Person,
     stats:progressiveCarries 22 ;
     stats:progressivePasses 15 ;
     stats:progressivePassesReceived 55 ;
-    stats:rank 1853 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 6 ;

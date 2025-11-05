@@ -36,7 +36,6 @@ ex:Cher_Ndour a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 17 ;
     stats:progressivePassesReceived 26 ;
-    stats:rank 1871 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 1 ;

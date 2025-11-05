@@ -39,7 +39,6 @@ ex:Juan_Cuadrado a foaf:Person,
     stats:progressiveCarries 41 ;
     stats:progressivePasses 64 ;
     stats:progressivePassesReceived 90 ;
-    stats:rank 633 ;
     stats:redCards 0 ;
     stats:tackles 19 ;
     stats:tacklesWon 9 ;

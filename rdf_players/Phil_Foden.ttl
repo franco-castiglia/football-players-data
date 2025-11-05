@@ -40,7 +40,6 @@ ex:Phil_Foden a foaf:Person,
     stats:progressiveCarries 50 ;
     stats:progressivePasses 103 ;
     stats:progressivePassesReceived 128 ;
-    stats:rank 910 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 5 ;

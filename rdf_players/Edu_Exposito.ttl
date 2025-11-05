@@ -38,7 +38,6 @@ ex:Edu_Exposito a foaf:Person,
     stats:progressiveCarries 23 ;
     stats:progressivePasses 64 ;
     stats:progressivePassesReceived 41 ;
-    stats:rank 865 ;
     stats:redCards 0 ;
     stats:tackles 23 ;
     stats:tacklesWon 13 ;

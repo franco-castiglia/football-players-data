@@ -35,7 +35,6 @@ ex:Giovanni_Leoni a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 21 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 1479 ;
     stats:redCards 1 ;
     stats:tackles 14 ;
     stats:tacklesWon 6 ;

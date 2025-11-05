@@ -39,7 +39,6 @@ ex:Alexander_Isak a foaf:Person,
     stats:progressiveCarries 83 ;
     stats:progressivePasses 88 ;
     stats:progressivePassesReceived 217 ;
-    stats:rank 1220 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 5 ;

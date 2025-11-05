@@ -36,7 +36,6 @@ ex:Milos_Veljkovic a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 64 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 2690 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 5 ;

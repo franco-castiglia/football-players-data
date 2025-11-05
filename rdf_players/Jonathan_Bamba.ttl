@@ -37,7 +37,6 @@ ex:Jonathan_Bamba a foaf:Person,
     stats:progressiveCarries 31 ;
     stats:progressivePasses 30 ;
     stats:progressivePassesReceived 71 ;
-    stats:rank 226 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 7 ;

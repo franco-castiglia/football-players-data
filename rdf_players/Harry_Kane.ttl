@@ -40,7 +40,6 @@ ex:Harry_Kane a foaf:Person,
     stats:progressiveCarries 29 ;
     stats:progressivePasses 97 ;
     stats:progressivePassesReceived 143 ;
-    stats:rank 1318 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 11 ;

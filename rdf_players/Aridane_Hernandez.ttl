@@ -37,7 +37,6 @@ ex:Aridane_Hernandez a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 38 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 1151 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 11 ;

@@ -38,7 +38,6 @@ ex:Konstantinos_Mavropanos a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 61 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 1681 ;
     stats:redCards 1 ;
     stats:tackles 35 ;
     stats:tacklesWon 24 ;

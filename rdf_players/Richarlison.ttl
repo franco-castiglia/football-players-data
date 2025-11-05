@@ -40,7 +40,6 @@ ex:Richarlison a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 11 ;
     stats:progressivePassesReceived 22 ;
-    stats:rank 2211 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 3 ;

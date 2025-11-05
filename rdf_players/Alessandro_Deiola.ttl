@@ -39,7 +39,6 @@ ex:Alessandro_Deiola a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 40 ;
     stats:progressivePassesReceived 36 ;
-    stats:rank 689 ;
     stats:redCards 0 ;
     stats:tackles 31 ;
     stats:tacklesWon 20 ;

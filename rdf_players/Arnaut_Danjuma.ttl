@@ -36,7 +36,6 @@ ex:Arnaut_Danjuma a foaf:Person,
     stats:progressiveCarries 91 ;
     stats:progressivePasses 41 ;
     stats:progressivePassesReceived 185 ;
-    stats:rank 658 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 6 ;

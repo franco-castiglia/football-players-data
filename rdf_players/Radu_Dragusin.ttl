@@ -37,7 +37,6 @@ ex:Radu_Dragusin a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 37 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 788 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 6 ;

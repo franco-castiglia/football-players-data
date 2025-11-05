@@ -37,7 +37,6 @@ ex:Denis_Zakaria a foaf:Person,
     stats:progressiveCarries 27 ;
     stats:progressivePasses 113 ;
     stats:progressivePassesReceived 36 ;
-    stats:rank 2812 ;
     stats:redCards 0 ;
     stats:tackles 41 ;
     stats:tacklesWon 26 ;

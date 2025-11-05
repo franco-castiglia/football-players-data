@@ -37,7 +37,6 @@ ex:Jonathan_Clauss a foaf:Person,
     stats:progressiveCarries 53 ;
     stats:progressivePasses 105 ;
     stats:progressivePassesReceived 160 ;
-    stats:rank 572 ;
     stats:redCards 0 ;
     stats:tackles 52 ;
     stats:tacklesWon 35 ;

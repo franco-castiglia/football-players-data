@@ -36,7 +36,6 @@ ex:Asier_Villalibre a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 18 ;
-    stats:rank 2712 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 2 ;

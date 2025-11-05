@@ -36,7 +36,6 @@ ex:Carlos_Alcaraz a foaf:Person,
     stats:progressiveCarries 19 ;
     stats:progressivePasses 42 ;
     stats:progressivePassesReceived 21 ;
-    stats:rank 79 ;
     stats:redCards 0 ;
     stats:tackles 11 ;
     stats:tacklesWon 5 ;

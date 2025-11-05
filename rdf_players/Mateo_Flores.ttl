@@ -35,7 +35,6 @@ ex:Mateo_Flores a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 9 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 909 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 1 ;

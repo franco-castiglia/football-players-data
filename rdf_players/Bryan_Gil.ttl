@@ -39,7 +39,6 @@ ex:Bryan_Gil a foaf:Person,
     stats:progressiveCarries 76 ;
     stats:progressivePasses 74 ;
     stats:progressivePassesReceived 210 ;
-    stats:rank 1003 ;
     stats:redCards 0 ;
     stats:tackles 34 ;
     stats:tacklesWon 20 ;

@@ -39,7 +39,6 @@ ex:Matteo_Politano a foaf:Person,
     stats:progressiveCarries 135 ;
     stats:progressivePasses 129 ;
     stats:progressivePassesReceived 278 ;
-    stats:rank 2135 ;
     stats:redCards 0 ;
     stats:tackles 29 ;
     stats:tacklesWon 15 ;

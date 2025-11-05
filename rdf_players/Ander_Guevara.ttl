@@ -38,7 +38,6 @@ ex:Ander_Guevara a foaf:Person,
     stats:progressiveCarries 14 ;
     stats:progressivePasses 112 ;
     stats:progressivePassesReceived 19 ;
-    stats:rank 1085 ;
     stats:redCards 0 ;
     stats:tackles 49 ;
     stats:tacklesWon 30 ;

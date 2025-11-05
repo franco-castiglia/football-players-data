@@ -36,7 +36,6 @@ ex:Aleix_Garcia a foaf:Person,
     stats:progressiveCarries 27 ;
     stats:progressivePasses 120 ;
     stats:progressivePassesReceived 47 ;
-    stats:rank 967 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 7 ;

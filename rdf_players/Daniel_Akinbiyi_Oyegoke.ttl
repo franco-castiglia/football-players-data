@@ -36,7 +36,6 @@ ex:Daniel_Akinbiyi_Oyegoke a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 2 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 2014 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 2 ;

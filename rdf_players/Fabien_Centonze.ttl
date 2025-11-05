@@ -37,7 +37,6 @@ ex:Fabien_Centonze a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 15 ;
     stats:progressivePassesReceived 31 ;
-    stats:rank 520 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 4 ;

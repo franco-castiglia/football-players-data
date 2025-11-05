@@ -37,7 +37,6 @@ ex:Robin_Le_Normand a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 55 ;
     stats:progressivePassesReceived 6 ;
-    stats:rank 1461 ;
     stats:redCards 0 ;
     stats:tackles 27 ;
     stats:tacklesWon 18 ;

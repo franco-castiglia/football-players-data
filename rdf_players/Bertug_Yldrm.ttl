@@ -35,7 +35,6 @@ ex:Bertug_Yldrm a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 14 ;
     stats:progressivePassesReceived 48 ;
-    stats:rank 2799 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 5 ;

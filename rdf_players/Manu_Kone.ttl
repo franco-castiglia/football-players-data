@@ -37,7 +37,6 @@ ex:Manu_Kone a foaf:Person,
     stats:progressiveCarries 70 ;
     stats:progressivePasses 144 ;
     stats:progressivePassesReceived 50 ;
-    stats:rank 1391 ;
     stats:redCards 0 ;
     stats:tackles 41 ;
     stats:tacklesWon 26 ;

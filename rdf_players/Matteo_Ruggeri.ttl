@@ -36,7 +36,6 @@ ex:Matteo_Ruggeri a foaf:Person,
     stats:progressiveCarries 60 ;
     stats:progressivePasses 114 ;
     stats:progressivePassesReceived 104 ;
-    stats:rank 2272 ;
     stats:redCards 0 ;
     stats:tackles 39 ;
     stats:tacklesWon 24 ;

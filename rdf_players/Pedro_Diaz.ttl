@@ -35,7 +35,6 @@ ex:Pedro_Diaz a foaf:Person,
     stats:progressiveCarries 27 ;
     stats:progressivePasses 62 ;
     stats:progressivePassesReceived 49 ;
-    stats:rank 725 ;
     stats:redCards 0 ;
     stats:tackles 23 ;
     stats:tacklesWon 15 ;

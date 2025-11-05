@@ -36,7 +36,6 @@ ex:Benedict_Hollerbach a foaf:Person,
     stats:progressiveCarries 103 ;
     stats:progressivePasses 68 ;
     stats:progressivePassesReceived 214 ;
-    stats:rank 1175 ;
     stats:redCards 0 ;
     stats:tackles 43 ;
     stats:tacklesWon 22 ;

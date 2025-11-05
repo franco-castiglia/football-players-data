@@ -35,7 +35,6 @@ ex:Sofiane_Diop a foaf:Person,
     stats:progressiveCarries 26 ;
     stats:progressivePasses 64 ;
     stats:progressivePassesReceived 70 ;
-    stats:rank 742 ;
     stats:redCards 0 ;
     stats:tackles 23 ;
     stats:tacklesWon 16 ;

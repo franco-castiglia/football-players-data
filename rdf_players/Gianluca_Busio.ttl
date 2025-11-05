@@ -38,7 +38,6 @@ ex:Gianluca_Busio a foaf:Person,
     stats:progressiveCarries 60 ;
     stats:progressivePasses 95 ;
     stats:progressivePassesReceived 135 ;
-    stats:rank 422 ;
     stats:redCards 0 ;
     stats:tackles 46 ;
     stats:tacklesWon 31 ;

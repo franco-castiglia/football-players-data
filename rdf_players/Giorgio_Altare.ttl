@@ -38,7 +38,6 @@ ex:Giorgio_Altare a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 20 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 98 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 12 ;

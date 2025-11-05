@@ -35,7 +35,6 @@ ex:Wilfried_Ndollo_Bille a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 18 ;
-    stats:rank 1869 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 5 ;

@@ -37,7 +37,6 @@ ex:Javi_Galan a foaf:Person,
     stats:progressiveCarries 52 ;
     stats:progressivePasses 54 ;
     stats:progressivePassesReceived 107 ;
-    stats:rank 957 ;
     stats:redCards 0 ;
     stats:tackles 51 ;
     stats:tacklesWon 31 ;

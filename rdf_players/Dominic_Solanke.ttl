@@ -36,7 +36,6 @@ ex:Dominic_Solanke a foaf:Person,
     stats:progressiveCarries 31 ;
     stats:progressivePasses 47 ;
     stats:progressivePassesReceived 88 ;
-    stats:rank 2464 ;
     stats:redCards 0 ;
     stats:tackles 18 ;
     stats:tacklesWon 11 ;

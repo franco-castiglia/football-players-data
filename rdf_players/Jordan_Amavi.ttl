@@ -38,7 +38,6 @@ ex:Jordan_Amavi a foaf:Person,
     stats:progressiveCarries 22 ;
     stats:progressivePasses 36 ;
     stats:progressivePassesReceived 21 ;
-    stats:rank 111 ;
     stats:redCards 0 ;
     stats:tackles 24 ;
     stats:tacklesWon 17 ;

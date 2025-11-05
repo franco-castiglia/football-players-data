@@ -37,7 +37,6 @@ ex:Abdon_Prats a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 14 ;
-    stats:rank 2149 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 1 ;

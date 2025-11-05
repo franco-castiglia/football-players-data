@@ -37,7 +37,6 @@ ex:Joao_Felix a foaf:Person,
     stats:progressiveCarries 20 ;
     stats:progressivePasses 40 ;
     stats:progressivePassesReceived 56 ;
-    stats:rank 885 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 6 ;

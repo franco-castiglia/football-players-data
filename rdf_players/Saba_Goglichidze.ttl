@@ -36,7 +36,6 @@ ex:Saba_Goglichidze a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 45 ;
     stats:progressivePassesReceived 9 ;
-    stats:rank 1016 ;
     stats:redCards 1 ;
     stats:tackles 64 ;
     stats:tacklesWon 37 ;

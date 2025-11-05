@@ -38,7 +38,6 @@ ex:Simon_Adingra a foaf:Person,
     stats:progressiveCarries 50 ;
     stats:progressivePasses 18 ;
     stats:progressivePassesReceived 136 ;
-    stats:rank 31 ;
     stats:redCards 0 ;
     stats:tackles 23 ;
     stats:tacklesWon 14 ;

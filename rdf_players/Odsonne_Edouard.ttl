@@ -37,7 +37,6 @@ ex:Odsonne_Edouard a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 4 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 815 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 0 ;

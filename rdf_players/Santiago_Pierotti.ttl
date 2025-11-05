@@ -36,7 +36,6 @@ ex:Santiago_Pierotti a foaf:Person,
     stats:progressiveCarries 43 ;
     stats:progressivePasses 38 ;
     stats:progressivePassesReceived 85 ;
-    stats:rank 2122 ;
     stats:redCards 1 ;
     stats:tackles 46 ;
     stats:tacklesWon 24 ;

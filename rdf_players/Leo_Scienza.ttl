@@ -36,7 +36,6 @@ ex:Leo_Scienza a foaf:Person,
     stats:progressiveCarries 70 ;
     stats:progressivePasses 30 ;
     stats:progressivePassesReceived 90 ;
-    stats:rank 2382 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 12 ;

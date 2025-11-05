@@ -39,7 +39,6 @@ ex:Lorenzo_De_Silvestri a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 46 ;
     stats:progressivePassesReceived 30 ;
-    stats:rank 685 ;
     stats:redCards 0 ;
     stats:tackles 11 ;
     stats:tacklesWon 6 ;

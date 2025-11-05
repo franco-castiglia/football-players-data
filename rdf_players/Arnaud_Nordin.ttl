@@ -38,7 +38,6 @@ ex:Arnaud_Nordin a foaf:Person,
     stats:progressiveCarries 51 ;
     stats:progressivePasses 23 ;
     stats:progressivePassesReceived 111 ;
-    stats:rank 1913 ;
     stats:redCards 0 ;
     stats:tackles 24 ;
     stats:tacklesWon 15 ;

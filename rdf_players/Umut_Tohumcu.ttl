@@ -36,7 +36,6 @@ ex:Umut_Tohumcu a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 13 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 2601 ;
     stats:redCards 0 ;
     stats:tackles 9 ;
     stats:tacklesWon 5 ;

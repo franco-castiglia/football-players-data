@@ -36,7 +36,6 @@ ex:Melvin_Bard a foaf:Person,
     stats:progressiveCarries 53 ;
     stats:progressivePasses 88 ;
     stats:progressivePassesReceived 95 ;
-    stats:rank 240 ;
     stats:redCards 2 ;
     stats:tackles 53 ;
     stats:tacklesWon 36 ;

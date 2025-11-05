@@ -38,7 +38,6 @@ ex:Nikola_Moro a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 93 ;
     stats:progressivePassesReceived 21 ;
-    stats:rank 1795 ;
     stats:redCards 0 ;
     stats:tackles 35 ;
     stats:tacklesWon 27 ;

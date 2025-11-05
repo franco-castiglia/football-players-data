@@ -40,7 +40,6 @@ ex:Jan_Bednarek a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 60 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 272 ;
     stats:redCards 0 ;
     stats:tackles 36 ;
     stats:tacklesWon 19 ;

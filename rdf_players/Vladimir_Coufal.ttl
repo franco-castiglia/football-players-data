@@ -38,7 +38,6 @@ ex:Vladimir_Coufal a foaf:Person,
     stats:progressiveCarries 26 ;
     stats:progressivePasses 39 ;
     stats:progressivePassesReceived 33 ;
-    stats:rank 615 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 15 ;

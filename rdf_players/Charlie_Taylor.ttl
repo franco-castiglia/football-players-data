@@ -36,7 +36,6 @@ ex:Charlie_Taylor a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 9 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 2558 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 5 ;

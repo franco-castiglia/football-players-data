@@ -37,7 +37,6 @@ ex:Adam_Marusic a foaf:Person,
     stats:progressiveCarries 23 ;
     stats:progressivePasses 84 ;
     stats:progressivePassesReceived 108 ;
-    stats:rank 1658 ;
     stats:redCards 0 ;
     stats:tackles 32 ;
     stats:tacklesWon 20 ;

@@ -38,7 +38,6 @@ ex:Carney_Chukwuemeka a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 18 ;
     stats:progressivePassesReceived 24 ;
-    stats:rank 557 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 5 ;

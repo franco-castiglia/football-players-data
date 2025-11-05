@@ -36,7 +36,6 @@ ex:Jon_Pacheco a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 27 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 2019 ;
     stats:redCards 0 ;
     stats:tackles 15 ;
     stats:tacklesWon 9 ;

@@ -37,7 +37,6 @@ ex:Lorenzo_Colombo a foaf:Person,
     stats:progressiveCarries 27 ;
     stats:progressivePasses 48 ;
     stats:progressivePassesReceived 116 ;
-    stats:rank 582 ;
     stats:redCards 1 ;
     stats:tackles 31 ;
     stats:tacklesWon 14 ;

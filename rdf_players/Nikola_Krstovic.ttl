@@ -37,7 +37,6 @@ ex:Nikola_Krstovic a foaf:Person,
     stats:progressiveCarries 42 ;
     stats:progressivePasses 56 ;
     stats:progressivePassesReceived 149 ;
-    stats:rank 1418 ;
     stats:redCards 0 ;
     stats:tackles 18 ;
     stats:tacklesWon 9 ;

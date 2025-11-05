@@ -38,7 +38,6 @@ ex:Alberto_Dossena a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 36 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 772 ;
     stats:redCards 1 ;
     stats:tackles 33 ;
     stats:tacklesWon 20 ;

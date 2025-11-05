@@ -38,7 +38,6 @@ ex:Darwin_Machis a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 19 ;
     stats:progressivePassesReceived 43 ;
-    stats:rank 1558 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 4 ;

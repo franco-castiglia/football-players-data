@@ -36,7 +36,6 @@ ex:Massimo_Luongo a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 6 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 1546 ;
     stats:redCards 0 ;
     stats:tackles 9 ;
     stats:tacklesWon 6 ;

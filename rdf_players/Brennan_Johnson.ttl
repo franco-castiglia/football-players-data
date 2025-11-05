@@ -36,7 +36,6 @@ ex:Brennan_Johnson a foaf:Person,
     stats:progressiveCarries 60 ;
     stats:progressivePasses 71 ;
     stats:progressivePassesReceived 197 ;
-    stats:rank 1270 ;
     stats:redCards 0 ;
     stats:tackles 39 ;
     stats:tacklesWon 26 ;

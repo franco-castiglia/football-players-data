@@ -37,7 +37,6 @@ ex:Xavi_Simons a foaf:Person,
     stats:progressiveCarries 85 ;
     stats:progressivePasses 140 ;
     stats:progressivePassesReceived 185 ;
-    stats:rank 2429 ;
     stats:redCards 0 ;
     stats:tackles 28 ;
     stats:tacklesWon 21 ;

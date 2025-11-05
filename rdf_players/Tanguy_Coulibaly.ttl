@@ -36,7 +36,6 @@ ex:Tanguy_Coulibaly a foaf:Person,
     stats:progressiveCarries 48 ;
     stats:progressivePasses 20 ;
     stats:progressivePassesReceived 97 ;
-    stats:rank 620 ;
     stats:redCards 2 ;
     stats:tackles 32 ;
     stats:tacklesWon 24 ;

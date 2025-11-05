@@ -38,7 +38,6 @@ ex:Oscar_Mingueza a foaf:Person,
     stats:progressiveCarries 69 ;
     stats:progressivePasses 200 ;
     stats:progressivePassesReceived 194 ;
-    stats:rank 1755 ;
     stats:redCards 1 ;
     stats:tackles 38 ;
     stats:tacklesWon 24 ;

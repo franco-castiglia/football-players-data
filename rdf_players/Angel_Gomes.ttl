@@ -38,7 +38,6 @@ ex:Angel_Gomes a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 49 ;
     stats:progressivePassesReceived 47 ;
-    stats:rank 1022 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 6 ;

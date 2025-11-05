@@ -36,7 +36,6 @@ ex:Jesus_Rodriguez a foaf:Person,
     stats:progressiveCarries 53 ;
     stats:progressivePasses 35 ;
     stats:progressivePassesReceived 99 ;
-    stats:rank 2240 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 14 ;

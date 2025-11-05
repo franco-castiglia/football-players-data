@@ -36,7 +36,6 @@ ex:Roman_Dixon a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 0 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 748 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 5 ;

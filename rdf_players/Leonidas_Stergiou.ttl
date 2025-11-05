@@ -36,7 +36,6 @@ ex:Leonidas_Stergiou a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 39 ;
     stats:progressivePassesReceived 32 ;
-    stats:rank 2502 ;
     stats:redCards 1 ;
     stats:tackles 24 ;
     stats:tacklesWon 13 ;

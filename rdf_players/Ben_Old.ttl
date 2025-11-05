@@ -36,7 +36,6 @@ ex:Ben_Old a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 14 ;
     stats:progressivePassesReceived 48 ;
-    stats:rank 1959 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 5 ;

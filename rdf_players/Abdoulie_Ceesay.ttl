@@ -36,7 +36,6 @@ ex:Abdoulie_Ceesay a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 0 ;
     stats:progressivePassesReceived 8 ;
-    stats:rank 518 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 3 ;

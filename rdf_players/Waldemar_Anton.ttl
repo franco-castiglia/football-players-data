@@ -36,7 +36,6 @@ ex:Waldemar_Anton a foaf:Person,
     stats:progressiveCarries 32 ;
     stats:progressivePasses 117 ;
     stats:progressivePassesReceived 28 ;
-    stats:rank 132 ;
     stats:redCards 0 ;
     stats:tackles 34 ;
     stats:tacklesWon 21 ;

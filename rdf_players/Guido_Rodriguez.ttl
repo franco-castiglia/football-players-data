@@ -37,7 +37,6 @@ ex:Guido_Rodriguez a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 33 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 2237 ;
     stats:redCards 0 ;
     stats:tackles 36 ;
     stats:tacklesWon 19 ;

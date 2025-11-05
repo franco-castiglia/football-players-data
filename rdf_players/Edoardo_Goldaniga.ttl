@@ -37,7 +37,6 @@ ex:Edoardo_Goldaniga a foaf:Person,
     stats:progressiveCarries 20 ;
     stats:progressivePasses 81 ;
     stats:progressivePassesReceived 8 ;
-    stats:rank 1017 ;
     stats:redCards 1 ;
     stats:tackles 34 ;
     stats:tacklesWon 21 ;

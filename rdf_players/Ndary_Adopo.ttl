@@ -36,7 +36,6 @@ ex:Ndary_Adopo a foaf:Person,
     stats:progressiveCarries 20 ;
     stats:progressivePasses 106 ;
     stats:progressivePassesReceived 61 ;
-    stats:rank 1863 ;
     stats:redCards 1 ;
     stats:tackles 55 ;
     stats:tacklesWon 32 ;

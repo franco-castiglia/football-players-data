@@ -35,7 +35,6 @@ ex:Lucas_Stassin a foaf:Person,
     stats:progressiveCarries 26 ;
     stats:progressivePasses 35 ;
     stats:progressivePassesReceived 149 ;
-    stats:rank 2497 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 11 ;

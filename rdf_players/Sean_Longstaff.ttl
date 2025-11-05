@@ -38,7 +38,6 @@ ex:Sean_Longstaff a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 40 ;
     stats:progressivePassesReceived 22 ;
-    stats:rank 1513 ;
     stats:redCards 0 ;
     stats:tackles 27 ;
     stats:tacklesWon 16 ;

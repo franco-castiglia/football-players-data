@@ -37,7 +37,6 @@ ex:Tomas_Suslov a foaf:Person,
     stats:progressiveCarries 39 ;
     stats:progressivePasses 82 ;
     stats:progressivePassesReceived 77 ;
-    stats:rank 2525 ;
     stats:redCards 1 ;
     stats:tackles 54 ;
     stats:tacklesWon 38 ;

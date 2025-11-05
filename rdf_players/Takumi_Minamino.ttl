@@ -38,7 +38,6 @@ ex:Takumi_Minamino a foaf:Person,
     stats:progressiveCarries 51 ;
     stats:progressivePasses 114 ;
     stats:progressivePassesReceived 193 ;
-    stats:rank 1752 ;
     stats:redCards 0 ;
     stats:tackles 33 ;
     stats:tacklesWon 19 ;

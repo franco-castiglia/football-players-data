@@ -39,7 +39,6 @@ ex:Che_Adams a foaf:Person,
     stats:progressiveCarries 23 ;
     stats:progressivePasses 40 ;
     stats:progressivePassesReceived 153 ;
-    stats:rank 25 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 6 ;

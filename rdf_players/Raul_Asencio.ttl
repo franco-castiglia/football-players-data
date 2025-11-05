@@ -36,7 +36,6 @@ ex:Raul_Asencio a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 27 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 164 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 16 ;

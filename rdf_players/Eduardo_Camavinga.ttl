@@ -39,7 +39,6 @@ ex:Eduardo_Camavinga a foaf:Person,
     stats:progressiveCarries 26 ;
     stats:progressivePasses 61 ;
     stats:progressivePassesReceived 31 ;
-    stats:rank 452 ;
     stats:redCards 0 ;
     stats:tackles 42 ;
     stats:tacklesWon 26 ;

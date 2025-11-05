@@ -38,7 +38,6 @@ ex:Cody_Gakpo a foaf:Person,
     stats:progressiveCarries 59 ;
     stats:progressivePasses 52 ;
     stats:progressivePassesReceived 278 ;
-    stats:rank 956 ;
     stats:redCards 0 ;
     stats:tackles 28 ;
     stats:tacklesWon 16 ;

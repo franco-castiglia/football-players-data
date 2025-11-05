@@ -37,7 +37,6 @@ ex:Christopher_Nkunku a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 25 ;
     stats:progressivePassesReceived 68 ;
-    stats:rank 1910 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 8 ;

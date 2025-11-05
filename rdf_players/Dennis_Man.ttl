@@ -38,7 +38,6 @@ ex:Dennis_Man a foaf:Person,
     stats:progressiveCarries 67 ;
     stats:progressivePasses 60 ;
     stats:progressivePassesReceived 142 ;
-    stats:rank 1596 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 6 ;

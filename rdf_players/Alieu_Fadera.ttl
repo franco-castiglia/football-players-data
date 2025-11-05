@@ -36,7 +36,6 @@ ex:Alieu_Fadera a foaf:Person,
     stats:progressiveCarries 74 ;
     stats:progressivePasses 36 ;
     stats:progressivePassesReceived 160 ;
-    stats:rank 870 ;
     stats:redCards 1 ;
     stats:tackles 64 ;
     stats:tacklesWon 47 ;

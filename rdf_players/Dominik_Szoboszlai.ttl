@@ -38,7 +38,6 @@ ex:Dominik_Szoboszlai a foaf:Person,
     stats:progressiveCarries 72 ;
     stats:progressivePasses 131 ;
     stats:progressivePassesReceived 127 ;
-    stats:rank 2539 ;
     stats:redCards 0 ;
     stats:tackles 38 ;
     stats:tacklesWon 20 ;

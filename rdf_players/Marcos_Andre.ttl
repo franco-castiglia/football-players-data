@@ -36,7 +36,6 @@ ex:Marcos_Andre a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 16 ;
     stats:progressivePassesReceived 39 ;
-    stats:rank 127 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 6 ;

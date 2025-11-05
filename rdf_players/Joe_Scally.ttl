@@ -39,7 +39,6 @@ ex:Joe_Scally a foaf:Person,
     stats:progressiveCarries 52 ;
     stats:progressivePasses 68 ;
     stats:progressivePassesReceived 69 ;
-    stats:rank 2362 ;
     stats:redCards 0 ;
     stats:tackles 45 ;
     stats:tacklesWon 32 ;

@@ -36,7 +36,6 @@ ex:James_Hill a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 16 ;
     stats:progressivePassesReceived 8 ;
-    stats:rank 1163 ;
     stats:redCards 0 ;
     stats:tackles 15 ;
     stats:tacklesWon 8 ;

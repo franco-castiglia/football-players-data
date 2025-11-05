@@ -39,7 +39,6 @@ ex:Scott_McTominay a foaf:Person,
     stats:progressiveCarries 56 ;
     stats:progressivePasses 112 ;
     stats:progressivePassesReceived 131 ;
-    stats:rank 1705 ;
     stats:redCards 0 ;
     stats:tackles 43 ;
     stats:tacklesWon 25 ;

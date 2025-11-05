@@ -39,7 +39,6 @@ ex:Manuel_Akanji a foaf:Person,
     stats:progressiveCarries 46 ;
     stats:progressivePasses 158 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 62 ;
     stats:redCards 0 ;
     stats:tackles 19 ;
     stats:tacklesWon 12 ;

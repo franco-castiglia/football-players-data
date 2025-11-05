@@ -37,7 +37,6 @@ ex:Hamed_Junior_Traore a foaf:Person,
     stats:progressiveCarries 66 ;
     stats:progressivePasses 99 ;
     stats:progressivePassesReceived 146 ;
-    stats:rank 1289 ;
     stats:redCards 0 ;
     stats:tackles 41 ;
     stats:tacklesWon 20 ;

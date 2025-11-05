@@ -37,7 +37,6 @@ ex:Bamo_Meite a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 1711 ;
     stats:redCards 1 ;
     stats:tackles 5 ;
     stats:tacklesWon 3 ;

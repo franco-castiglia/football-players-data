@@ -37,7 +37,6 @@ ex:Florian_Aye a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 30 ;
-    stats:rank 183 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 2 ;

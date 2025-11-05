@@ -36,7 +36,6 @@ ex:Christian_Kouame a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 16 ;
     stats:progressivePassesReceived 46 ;
-    stats:rank 1396 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 8 ;

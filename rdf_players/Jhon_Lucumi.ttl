@@ -36,7 +36,6 @@ ex:Jhon_Lucumi a foaf:Person,
     stats:progressiveCarries 34 ;
     stats:progressivePasses 108 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 1533 ;
     stats:redCards 1 ;
     stats:tackles 53 ;
     stats:tacklesWon 30 ;

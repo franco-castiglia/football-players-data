@@ -36,7 +36,6 @@ ex:Enrico_Del_Prato a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 81 ;
     stats:progressivePassesReceived 31 ;
-    stats:rank 691 ;
     stats:redCards 0 ;
     stats:tackles 33 ;
     stats:tacklesWon 17 ;

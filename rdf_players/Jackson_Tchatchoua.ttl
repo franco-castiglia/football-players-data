@@ -36,7 +36,6 @@ ex:Jackson_Tchatchoua a foaf:Person,
     stats:progressiveCarries 88 ;
     stats:progressivePasses 72 ;
     stats:progressivePassesReceived 163 ;
-    stats:rank 2561 ;
     stats:redCards 1 ;
     stats:tackles 50 ;
     stats:tacklesWon 31 ;

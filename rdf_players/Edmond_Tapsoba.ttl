@@ -37,7 +37,6 @@ ex:Edmond_Tapsoba a foaf:Person,
     stats:progressiveCarries 52 ;
     stats:progressivePasses 164 ;
     stats:progressivePassesReceived 17 ;
-    stats:rank 2549 ;
     stats:redCards 0 ;
     stats:tackles 39 ;
     stats:tacklesWon 24 ;

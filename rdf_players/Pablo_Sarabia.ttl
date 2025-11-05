@@ -40,7 +40,6 @@ ex:Pablo_Sarabia a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 60 ;
     stats:progressivePassesReceived 62 ;
-    stats:rank 2350 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 8 ;

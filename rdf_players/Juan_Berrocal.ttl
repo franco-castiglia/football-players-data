@@ -35,7 +35,6 @@ ex:Juan_Berrocal a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 25 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 324 ;
     stats:redCards 1 ;
     stats:tackles 14 ;
     stats:tacklesWon 7 ;

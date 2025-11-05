@@ -37,7 +37,6 @@ ex:Trent_AlexanderArnold a foaf:Person,
     stats:progressiveCarries 51 ;
     stats:progressivePasses 232 ;
     stats:progressivePassesReceived 94 ;
-    stats:rank 84 ;
     stats:redCards 0 ;
     stats:tackles 72 ;
     stats:tacklesWon 50 ;

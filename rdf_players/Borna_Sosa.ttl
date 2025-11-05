@@ -37,7 +37,6 @@ ex:Borna_Sosa a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 51 ;
     stats:progressivePassesReceived 49 ;
-    stats:rank 2474 ;
     stats:redCards 0 ;
     stats:tackles 26 ;
     stats:tacklesWon 19 ;

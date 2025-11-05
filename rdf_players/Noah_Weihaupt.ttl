@@ -37,7 +37,6 @@ ex:Noah_Weihaupt a foaf:Person,
     stats:progressiveCarries 42 ;
     stats:progressivePasses 33 ;
     stats:progressivePassesReceived 94 ;
-    stats:rank 2758 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 4 ;

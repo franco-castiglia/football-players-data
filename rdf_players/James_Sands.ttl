@@ -36,7 +36,6 @@ ex:James_Sands a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 16 ;
     stats:progressivePassesReceived 6 ;
-    stats:rank 2335 ;
     stats:redCards 0 ;
     stats:tackles 15 ;
     stats:tacklesWon 6 ;

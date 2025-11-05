@@ -36,7 +36,6 @@ ex:Ryan_Yates a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 53 ;
     stats:progressivePassesReceived 16 ;
-    stats:rank 2797 ;
     stats:redCards 0 ;
     stats:tackles 42 ;
     stats:tacklesWon 21 ;

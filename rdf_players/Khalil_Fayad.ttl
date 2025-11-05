@@ -36,7 +36,6 @@ ex:Khalil_Fayad a foaf:Person,
     stats:progressiveCarries 25 ;
     stats:progressivePasses 50 ;
     stats:progressivePassesReceived 42 ;
-    stats:rank 879 ;
     stats:redCards 0 ;
     stats:tackles 31 ;
     stats:tacklesWon 16 ;

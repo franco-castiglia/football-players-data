@@ -37,7 +37,6 @@ ex:Kenny_Tete a foaf:Person,
     stats:progressiveCarries 34 ;
     stats:progressivePasses 63 ;
     stats:progressivePassesReceived 54 ;
-    stats:rank 2579 ;
     stats:redCards 0 ;
     stats:tackles 56 ;
     stats:tacklesWon 38 ;

@@ -36,7 +36,6 @@ ex:Jaydee_Canvot a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 41 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 467 ;
     stats:redCards 0 ;
     stats:tackles 23 ;
     stats:tacklesWon 11 ;

@@ -36,7 +36,6 @@ ex:Hakon_Arnar_Haraldsson a foaf:Person,
     stats:progressiveCarries 52 ;
     stats:progressivePasses 102 ;
     stats:progressivePassesReceived 143 ;
-    stats:rank 156 ;
     stats:redCards 0 ;
     stats:tackles 36 ;
     stats:tacklesWon 16 ;

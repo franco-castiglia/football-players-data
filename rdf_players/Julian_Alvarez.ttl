@@ -37,7 +37,6 @@ ex:Julian_Alvarez a foaf:Person,
     stats:progressiveCarries 79 ;
     stats:progressivePasses 92 ;
     stats:progressivePassesReceived 162 ;
-    stats:rank 104 ;
     stats:redCards 0 ;
     stats:tackles 25 ;
     stats:tacklesWon 17 ;

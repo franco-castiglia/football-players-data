@@ -39,7 +39,6 @@ ex:Ola_Aina a foaf:Person,
     stats:progressiveCarries 67 ;
     stats:progressivePasses 107 ;
     stats:progressivePassesReceived 67 ;
-    stats:rank 57 ;
     stats:redCards 0 ;
     stats:tackles 55 ;
     stats:tacklesWon 42 ;

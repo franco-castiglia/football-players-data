@@ -36,7 +36,6 @@ ex:Jose_Luis_Palomino a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 35 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 1536 ;
     stats:redCards 0 ;
     stats:tackles 27 ;
     stats:tacklesWon 15 ;

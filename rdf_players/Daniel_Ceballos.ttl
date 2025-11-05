@@ -39,7 +39,6 @@ ex:Daniel_Ceballos a foaf:Person,
     stats:progressiveCarries 42 ;
     stats:progressivePasses 150 ;
     stats:progressivePassesReceived 17 ;
-    stats:rank 517 ;
     stats:redCards 0 ;
     stats:tackles 41 ;
     stats:tacklesWon 21 ;

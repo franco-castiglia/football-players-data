@@ -36,7 +36,6 @@ ex:Luke_Shaw a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 24 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 2404 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 3 ;

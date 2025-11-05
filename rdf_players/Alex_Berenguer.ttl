@@ -37,7 +37,6 @@ ex:Alex_Berenguer a foaf:Person,
     stats:progressiveCarries 65 ;
     stats:progressivePasses 78 ;
     stats:progressivePassesReceived 216 ;
-    stats:rank 308 ;
     stats:redCards 0 ;
     stats:tackles 32 ;
     stats:tacklesWon 16 ;

@@ -36,7 +36,6 @@ ex:Stefan_Lainer a foaf:Person,
     stats:progressiveCarries 25 ;
     stats:progressivePasses 25 ;
     stats:progressivePassesReceived 32 ;
-    stats:rank 1441 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 13 ;

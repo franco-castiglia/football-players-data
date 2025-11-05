@@ -38,7 +38,6 @@ ex:Diego_Rico a foaf:Person,
     stats:progressiveCarries 27 ;
     stats:progressivePasses 136 ;
     stats:progressivePassesReceived 84 ;
-    stats:rank 2212 ;
     stats:redCards 1 ;
     stats:tackles 81 ;
     stats:tacklesWon 49 ;

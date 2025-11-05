@@ -38,7 +38,6 @@ ex:Chidera_Ejuke a foaf:Person,
     stats:progressiveCarries 75 ;
     stats:progressivePasses 38 ;
     stats:progressivePassesReceived 101 ;
-    stats:rank 822 ;
     stats:redCards 0 ;
     stats:tackles 19 ;
     stats:tacklesWon 13 ;

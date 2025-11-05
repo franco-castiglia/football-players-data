@@ -36,7 +36,6 @@ ex:Lorenzo_Venturino a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 10 ;
-    stats:rank 2693 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 3 ;

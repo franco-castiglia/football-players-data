@@ -37,7 +37,6 @@ ex:Nicolo_Rovella a foaf:Person,
     stats:progressiveCarries 45 ;
     stats:progressivePasses 159 ;
     stats:progressivePassesReceived 42 ;
-    stats:rank 2267 ;
     stats:redCards 0 ;
     stats:tackles 84 ;
     stats:tacklesWon 50 ;

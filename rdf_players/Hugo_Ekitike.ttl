@@ -37,7 +37,6 @@ ex:Hugo_Ekitike a foaf:Person,
     stats:progressiveCarries 93 ;
     stats:progressivePasses 53 ;
     stats:progressivePassesReceived 215 ;
-    stats:rank 824 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 12 ;

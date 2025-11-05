@@ -39,7 +39,6 @@ ex:Kamaldeen_Sulemana a foaf:Person,
     stats:progressiveCarries 63 ;
     stats:progressivePasses 27 ;
     stats:progressivePassesReceived 87 ;
-    stats:rank 2523 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 17 ;

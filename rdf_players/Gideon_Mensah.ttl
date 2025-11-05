@@ -36,7 +36,6 @@ ex:Gideon_Mensah a foaf:Person,
     stats:progressiveCarries 52 ;
     stats:progressivePasses 93 ;
     stats:progressivePassesReceived 101 ;
-    stats:rank 1724 ;
     stats:redCards 0 ;
     stats:tackles 68 ;
     stats:tacklesWon 45 ;

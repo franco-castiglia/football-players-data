@@ -36,7 +36,6 @@ ex:Adam_Aznou a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 25 ;
     stats:progressivePassesReceived 26 ;
-    stats:rank 189 ;
     stats:redCards 0 ;
     stats:tackles 28 ;
     stats:tacklesWon 21 ;

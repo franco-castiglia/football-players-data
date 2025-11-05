@@ -36,7 +36,6 @@ ex:Aaron_Martin a foaf:Person,
     stats:progressiveCarries 50 ;
     stats:progressivePasses 90 ;
     stats:progressivePassesReceived 108 ;
-    stats:rank 1637 ;
     stats:redCards 0 ;
     stats:tackles 71 ;
     stats:tacklesWon 47 ;

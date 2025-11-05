@@ -35,7 +35,6 @@ ex:Nelson_Weiper a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 13 ;
     stats:progressivePassesReceived 62 ;
-    stats:rank 2756 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 4 ;

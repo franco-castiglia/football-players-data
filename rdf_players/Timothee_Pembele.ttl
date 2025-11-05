@@ -36,7 +36,6 @@ ex:Timothee_Pembele a foaf:Person,
     stats:progressiveCarries 27 ;
     stats:progressivePasses 43 ;
     stats:progressivePassesReceived 44 ;
-    stats:rank 2075 ;
     stats:redCards 0 ;
     stats:tackles 30 ;
     stats:tacklesWon 22 ;

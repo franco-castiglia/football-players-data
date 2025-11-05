@@ -36,7 +36,6 @@ ex:Hector_Fort a foaf:Person,
     stats:progressiveCarries 14 ;
     stats:progressivePasses 26 ;
     stats:progressivePassesReceived 33 ;
-    stats:rank 925 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 8 ;

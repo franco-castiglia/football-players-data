@@ -37,7 +37,6 @@ ex:Mohamed_Kaba a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 18 ;
     stats:progressivePassesReceived 8 ;
-    stats:rank 1296 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 8 ;

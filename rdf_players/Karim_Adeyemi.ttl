@@ -39,7 +39,6 @@ ex:Karim_Adeyemi a foaf:Person,
     stats:progressiveCarries 68 ;
     stats:progressivePasses 28 ;
     stats:progressivePassesReceived 153 ;
-    stats:rank 30 ;
     stats:redCards 0 ;
     stats:tackles 20 ;
     stats:tacklesWon 14 ;

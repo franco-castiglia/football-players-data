@@ -39,7 +39,6 @@ ex:Mason_Mount a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 33 ;
     stats:progressivePassesReceived 41 ;
-    stats:rank 1807 ;
     stats:redCards 0 ;
     stats:tackles 15 ;
     stats:tacklesWon 5 ;

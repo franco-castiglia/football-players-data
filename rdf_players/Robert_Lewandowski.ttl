@@ -40,7 +40,6 @@ ex:Robert_Lewandowski a foaf:Person,
     stats:progressiveCarries 27 ;
     stats:progressivePasses 48 ;
     stats:progressivePassesReceived 164 ;
-    stats:rank 1484 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 5 ;

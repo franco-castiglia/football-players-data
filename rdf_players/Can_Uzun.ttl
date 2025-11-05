@@ -36,7 +36,6 @@ ex:Can_Uzun a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 42 ;
     stats:progressivePassesReceived 45 ;
-    stats:rank 2656 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 4 ;

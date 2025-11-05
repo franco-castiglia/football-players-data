@@ -37,7 +37,6 @@ ex:Dusan_Vlahovic a foaf:Person,
     stats:progressiveCarries 27 ;
     stats:progressivePasses 22 ;
     stats:progressivePassesReceived 117 ;
-    stats:rank 2722 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 2 ;

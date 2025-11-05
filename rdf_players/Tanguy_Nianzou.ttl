@@ -36,7 +36,6 @@ ex:Tanguy_Nianzou a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 10 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 1897 ;
     stats:redCards 1 ;
     stats:tackles 7 ;
     stats:tacklesWon 5 ;

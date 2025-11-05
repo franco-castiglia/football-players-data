@@ -36,7 +36,6 @@ ex:Badredine_Bouanani a foaf:Person,
     stats:progressiveCarries 47 ;
     stats:progressivePasses 44 ;
     stats:progressivePassesReceived 93 ;
-    stats:rank 368 ;
     stats:redCards 0 ;
     stats:tackles 11 ;
     stats:tacklesWon 4 ;

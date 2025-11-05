@@ -39,7 +39,6 @@ ex:Noah_Okafor a foaf:Person,
     stats:progressiveCarries 21 ;
     stats:progressivePasses 12 ;
     stats:progressivePassesReceived 48 ;
-    stats:rank 1950 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 1 ;

@@ -39,7 +39,6 @@ ex:Idrissa_Gueye a foaf:Person,
     stats:progressiveCarries 27 ;
     stats:progressivePasses 145 ;
     stats:progressivePassesReceived 27 ;
-    stats:rank 963 ;
     stats:redCards 0 ;
     stats:tackles 133 ;
     stats:tacklesWon 80 ;

@@ -37,7 +37,6 @@ ex:Robert_Andrich a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 65 ;
     stats:progressivePassesReceived 17 ;
-    stats:rank 128 ;
     stats:redCards 0 ;
     stats:tackles 24 ;
     stats:tacklesWon 12 ;

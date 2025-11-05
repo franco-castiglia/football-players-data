@@ -36,7 +36,6 @@ ex:Amin_Sarr a foaf:Person,
     stats:progressiveCarries 31 ;
     stats:progressivePasses 41 ;
     stats:progressivePassesReceived 103 ;
-    stats:rank 2352 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 12 ;

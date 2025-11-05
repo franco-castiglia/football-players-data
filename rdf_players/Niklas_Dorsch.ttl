@@ -36,7 +36,6 @@ ex:Niklas_Dorsch a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 57 ;
     stats:progressivePassesReceived 21 ;
-    stats:rank 771 ;
     stats:redCards 1 ;
     stats:tackles 27 ;
     stats:tacklesWon 16 ;

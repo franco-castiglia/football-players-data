@@ -35,7 +35,6 @@ ex:Djaoui_Cisse a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 84 ;
     stats:progressivePassesReceived 14 ;
-    stats:rank 565 ;
     stats:redCards 0 ;
     stats:tackles 33 ;
     stats:tacklesWon 18 ;

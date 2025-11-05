@@ -38,7 +38,6 @@ ex:Will_Smallbone a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 27 ;
     stats:progressivePassesReceived 25 ;
-    stats:rank 2454 ;
     stats:redCards 0 ;
     stats:tackles 20 ;
     stats:tacklesWon 13 ;

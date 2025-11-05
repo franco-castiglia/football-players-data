@@ -40,7 +40,6 @@ ex:Francis_Coquelin a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 8 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 598 ;
     stats:redCards 0 ;
     stats:tackles 9 ;
     stats:tacklesWon 5 ;

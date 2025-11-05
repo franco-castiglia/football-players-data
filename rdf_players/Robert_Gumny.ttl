@@ -36,7 +36,6 @@ ex:Robert_Gumny a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 10 ;
     stats:progressivePassesReceived 13 ;
-    stats:rank 1099 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 3 ;

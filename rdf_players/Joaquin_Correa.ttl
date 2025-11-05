@@ -40,7 +40,6 @@ ex:Joaquin_Correa a foaf:Person,
     stats:progressiveCarries 22 ;
     stats:progressivePasses 42 ;
     stats:progressivePassesReceived 45 ;
-    stats:rank 605 ;
     stats:redCards 0 ;
     stats:tackles 11 ;
     stats:tacklesWon 5 ;

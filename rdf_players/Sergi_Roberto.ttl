@@ -37,7 +37,6 @@ ex:Sergi_Roberto a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 36 ;
     stats:progressivePassesReceived 19 ;
-    stats:rank 2222 ;
     stats:redCards 0 ;
     stats:tackles 14 ;
     stats:tacklesWon 8 ;

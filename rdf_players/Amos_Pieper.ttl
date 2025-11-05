@@ -36,7 +36,6 @@ ex:Amos_Pieper a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 62 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 2119 ;
     stats:redCards 0 ;
     stats:tackles 32 ;
     stats:tacklesWon 17 ;

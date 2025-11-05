@@ -40,7 +40,6 @@ ex:Ferran_Torres a foaf:Person,
     stats:progressiveCarries 23 ;
     stats:progressivePasses 35 ;
     stats:progressivePassesReceived 98 ;
-    stats:rank 2613 ;
     stats:redCards 1 ;
     stats:tackles 8 ;
     stats:tacklesWon 4 ;

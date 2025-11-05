@@ -40,7 +40,6 @@ ex:Raul_Jimenez a foaf:Person,
     stats:progressiveCarries 35 ;
     stats:progressivePasses 62 ;
     stats:progressivePassesReceived 125 ;
-    stats:rank 1260 ;
     stats:redCards 0 ;
     stats:tackles 35 ;
     stats:tacklesWon 24 ;

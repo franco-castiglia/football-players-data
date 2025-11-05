@@ -39,7 +39,6 @@ ex:Callum_HudsonOdoi a foaf:Person,
     stats:progressiveCarries 130 ;
     stats:progressivePasses 71 ;
     stats:progressivePassesReceived 189 ;
-    stats:rank 1188 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 14 ;

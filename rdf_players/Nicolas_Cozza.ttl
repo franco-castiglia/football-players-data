@@ -36,7 +36,6 @@ ex:Nicolas_Cozza a foaf:Person,
     stats:progressiveCarries 25 ;
     stats:progressivePasses 64 ;
     stats:progressivePassesReceived 56 ;
-    stats:rank 626 ;
     stats:redCards 1 ;
     stats:tackles 59 ;
     stats:tacklesWon 41 ;

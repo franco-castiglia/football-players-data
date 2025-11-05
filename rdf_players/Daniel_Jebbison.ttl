@@ -36,7 +36,6 @@ ex:Daniel_Jebbison a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 3 ;
     stats:progressivePassesReceived 16 ;
-    stats:rank 1251 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 3 ;

@@ -36,7 +36,6 @@ ex:Jan_Schoppner a foaf:Person,
     stats:progressiveCarries 35 ;
     stats:progressivePasses 107 ;
     stats:progressivePassesReceived 48 ;
-    stats:rank 2379 ;
     stats:redCards 0 ;
     stats:tackles 56 ;
     stats:tacklesWon 30 ;

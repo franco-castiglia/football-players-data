@@ -36,7 +36,6 @@ ex:Roberto_Lopez a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 20 ;
     stats:progressivePassesReceived 11 ;
-    stats:rank 1523 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 6 ;

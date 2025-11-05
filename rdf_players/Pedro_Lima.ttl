@@ -36,7 +36,6 @@ ex:Pedro_Lima a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 4 ;
     stats:progressivePassesReceived 11 ;
-    stats:rank 1493 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 0 ;

@@ -36,7 +36,6 @@ ex:Nicolas_Pallois a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 52 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 2031 ;
     stats:redCards 0 ;
     stats:tackles 61 ;
     stats:tacklesWon 27 ;

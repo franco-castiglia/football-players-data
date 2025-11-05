@@ -35,7 +35,6 @@ ex:Malick_Fofana a foaf:Person,
     stats:progressiveCarries 112 ;
     stats:progressivePasses 45 ;
     stats:progressivePassesReceived 205 ;
-    stats:rank 911 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 11 ;

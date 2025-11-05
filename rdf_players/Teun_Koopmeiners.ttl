@@ -37,7 +37,6 @@ ex:Teun_Koopmeiners a foaf:Person,
     stats:progressiveCarries 32 ;
     stats:progressivePasses 89 ;
     stats:progressivePassesReceived 127 ;
-    stats:rank 1393 ;
     stats:redCards 0 ;
     stats:tackles 32 ;
     stats:tacklesWon 16 ;

@@ -36,7 +36,6 @@ ex:Anuar a foaf:Person,
     stats:progressiveCarries 24 ;
     stats:progressivePasses 30 ;
     stats:progressivePassesReceived 68 ;
-    stats:rank 139 ;
     stats:redCards 0 ;
     stats:tackles 38 ;
     stats:tacklesWon 27 ;

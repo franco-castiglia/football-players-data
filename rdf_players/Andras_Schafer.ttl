@@ -37,7 +37,6 @@ ex:Andras_Schafer a foaf:Person,
     stats:progressiveCarries 23 ;
     stats:progressivePasses 55 ;
     stats:progressivePassesReceived 42 ;
-    stats:rank 2368 ;
     stats:redCards 0 ;
     stats:tackles 52 ;
     stats:tacklesWon 26 ;

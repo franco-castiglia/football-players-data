@@ -36,7 +36,6 @@ ex:Davide_Bartesaghi a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 2 ;
     stats:progressivePassesReceived 17 ;
-    stats:rank 253 ;
     stats:redCards 1 ;
     stats:tackles 4 ;
     stats:tacklesWon 2 ;

@@ -36,7 +36,6 @@ ex:Emanuele_Valeri a foaf:Person,
     stats:progressiveCarries 79 ;
     stats:progressivePasses 93 ;
     stats:progressivePassesReceived 109 ;
-    stats:rank 2662 ;
     stats:redCards 0 ;
     stats:tackles 51 ;
     stats:tacklesWon 31 ;

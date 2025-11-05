@@ -37,7 +37,6 @@ ex:Miguel_Gutierrez a foaf:Person,
     stats:progressiveCarries 63 ;
     stats:progressivePasses 103 ;
     stats:progressivePassesReceived 199 ;
-    stats:rank 1105 ;
     stats:redCards 0 ;
     stats:tackles 37 ;
     stats:tacklesWon 24 ;

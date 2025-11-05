@@ -35,7 +35,6 @@ ex:Alberto_Risco a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 3 ;
     stats:progressivePassesReceived 6 ;
-    stats:rank 2218 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 4 ;

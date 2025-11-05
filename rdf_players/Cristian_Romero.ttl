@@ -38,7 +38,6 @@ ex:Cristian_Romero a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 71 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 2251 ;
     stats:redCards 0 ;
     stats:tackles 35 ;
     stats:tacklesWon 29 ;

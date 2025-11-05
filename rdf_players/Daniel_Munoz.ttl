@@ -36,7 +36,6 @@ ex:Daniel_Munoz a foaf:Person,
     stats:progressiveCarries 62 ;
     stats:progressivePasses 97 ;
     stats:progressivePassesReceived 206 ;
-    stats:rank 1824 ;
     stats:redCards 0 ;
     stats:tackles 123 ;
     stats:tacklesWon 80 ;

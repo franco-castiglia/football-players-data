@@ -39,7 +39,6 @@ ex:Emiliano_Buendia a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 14 ;
     stats:progressivePassesReceived 24 ;
-    stats:rank 408 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 5 ;

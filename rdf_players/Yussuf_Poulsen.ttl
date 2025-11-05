@@ -38,7 +38,6 @@ ex:Yussuf_Poulsen a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 12 ;
     stats:progressivePassesReceived 30 ;
-    stats:rank 2145 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 5 ;

@@ -36,7 +36,6 @@ ex:Fermin a foaf:Person,
     stats:progressiveCarries 31 ;
     stats:progressivePasses 79 ;
     stats:progressivePassesReceived 108 ;
-    stats:rank 1520 ;
     stats:redCards 1 ;
     stats:tackles 19 ;
     stats:tacklesWon 15 ;

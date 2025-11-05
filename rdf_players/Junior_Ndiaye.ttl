@@ -35,7 +35,6 @@ ex:Junior_Ndiaye a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 26 ;
-    stats:rank 1866 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 2 ;

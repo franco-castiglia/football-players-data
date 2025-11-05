@@ -36,7 +36,6 @@ ex:Phillipp_Mwene a foaf:Person,
     stats:progressiveCarries 62 ;
     stats:progressivePasses 106 ;
     stats:progressivePassesReceived 144 ;
-    stats:rank 1842 ;
     stats:redCards 0 ;
     stats:tackles 51 ;
     stats:tacklesWon 29 ;

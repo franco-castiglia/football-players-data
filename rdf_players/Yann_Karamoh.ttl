@@ -38,7 +38,6 @@ ex:Yann_Karamoh a foaf:Person,
     stats:progressiveCarries 37 ;
     stats:progressivePasses 28 ;
     stats:progressivePassesReceived 80 ;
-    stats:rank 1320 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 2 ;

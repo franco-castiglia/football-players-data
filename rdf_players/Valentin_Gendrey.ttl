@@ -36,7 +36,6 @@ ex:Valentin_Gendrey a foaf:Person,
     stats:progressiveCarries 24 ;
     stats:progressivePasses 49 ;
     stats:progressivePassesReceived 86 ;
-    stats:rank 992 ;
     stats:redCards 0 ;
     stats:tackles 30 ;
     stats:tacklesWon 12 ;

@@ -37,7 +37,6 @@ ex:Facundo_Buonanotte a foaf:Person,
     stats:progressiveCarries 39 ;
     stats:progressivePasses 54 ;
     stats:progressivePassesReceived 74 ;
-    stats:rank 413 ;
     stats:redCards 0 ;
     stats:tackles 53 ;
     stats:tacklesWon 32 ;

@@ -36,7 +36,6 @@ ex:Ludovic_Ajorque a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 41 ;
     stats:progressivePassesReceived 124 ;
-    stats:rank 61 ;
     stats:redCards 0 ;
     stats:tackles 26 ;
     stats:tacklesWon 19 ;

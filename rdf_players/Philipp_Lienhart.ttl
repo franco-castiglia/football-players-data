@@ -36,7 +36,6 @@ ex:Philipp_Lienhart a foaf:Person,
     stats:progressiveCarries 44 ;
     stats:progressivePasses 138 ;
     stats:progressivePassesReceived 9 ;
-    stats:rank 1491 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 13 ;

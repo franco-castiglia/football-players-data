@@ -36,7 +36,6 @@ ex:Daniel_Peretz a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 1 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 2088 ;
     stats:redCards 0 ;
     stats:tackles 0 ;
     stats:tacklesWon 0 ;

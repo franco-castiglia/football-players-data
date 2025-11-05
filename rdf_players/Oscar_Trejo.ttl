@@ -36,7 +36,6 @@ ex:Oscar_Trejo a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 37 ;
     stats:progressivePassesReceived 28 ;
-    stats:rank 2630 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 5 ;

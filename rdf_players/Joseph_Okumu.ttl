@@ -36,7 +36,6 @@ ex:Joseph_Okumu a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 116 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 1955 ;
     stats:redCards 1 ;
     stats:tackles 30 ;
     stats:tacklesWon 15 ;

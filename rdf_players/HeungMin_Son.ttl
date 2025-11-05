@@ -39,7 +39,6 @@ ex:HeungMin_Son a foaf:Person,
     stats:progressiveCarries 96 ;
     stats:progressivePasses 111 ;
     stats:progressivePassesReceived 265 ;
-    stats:rank 1160 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 9 ;

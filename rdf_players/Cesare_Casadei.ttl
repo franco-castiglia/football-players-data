@@ -37,7 +37,6 @@ ex:Cesare_Casadei a foaf:Person,
     stats:progressiveCarries 14 ;
     stats:progressivePasses 36 ;
     stats:progressivePassesReceived 12 ;
-    stats:rank 496 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 5 ;

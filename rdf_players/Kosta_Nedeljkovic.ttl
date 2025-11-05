@@ -36,7 +36,6 @@ ex:Kosta_Nedeljkovic a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 16 ;
     stats:progressivePassesReceived 27 ;
-    stats:rank 1875 ;
     stats:redCards 0 ;
     stats:tackles 11 ;
     stats:tacklesWon 8 ;

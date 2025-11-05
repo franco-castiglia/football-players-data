@@ -37,7 +37,6 @@ ex:Eder_Militao a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 46 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 1745 ;
     stats:redCards 0 ;
     stats:tackles 19 ;
     stats:tacklesWon 17 ;

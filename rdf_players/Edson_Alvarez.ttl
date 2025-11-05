@@ -39,7 +39,6 @@ ex:Edson_Alvarez a foaf:Person,
     stats:progressiveCarries 24 ;
     stats:progressivePasses 85 ;
     stats:progressivePassesReceived 18 ;
-    stats:rank 102 ;
     stats:redCards 1 ;
     stats:tackles 50 ;
     stats:tacklesWon 27 ;

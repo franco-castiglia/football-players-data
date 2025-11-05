@@ -39,7 +39,6 @@ ex:Rasmus_Hjlund a foaf:Person,
     stats:progressiveCarries 28 ;
     stats:progressivePasses 18 ;
     stats:progressivePassesReceived 101 ;
-    stats:rank 1197 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 1 ;

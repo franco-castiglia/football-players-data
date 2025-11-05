@@ -37,7 +37,6 @@ ex:Liberato_Cacace a foaf:Person,
     stats:progressiveCarries 53 ;
     stats:progressivePasses 70 ;
     stats:progressivePassesReceived 97 ;
-    stats:rank 431 ;
     stats:redCards 0 ;
     stats:tackles 37 ;
     stats:tacklesWon 25 ;

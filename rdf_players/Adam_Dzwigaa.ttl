@@ -36,7 +36,6 @@ ex:Adam_Dzwigaa a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 14 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 806 ;
     stats:redCards 1 ;
     stats:tackles 20 ;
     stats:tacklesWon 10 ;

@@ -36,7 +36,6 @@ ex:Kevin_Kampl a foaf:Person,
     stats:progressiveCarries 21 ;
     stats:progressivePasses 106 ;
     stats:progressivePassesReceived 32 ;
-    stats:rank 1316 ;
     stats:redCards 0 ;
     stats:tackles 27 ;
     stats:tacklesWon 18 ;

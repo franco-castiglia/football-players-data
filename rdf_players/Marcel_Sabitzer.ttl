@@ -37,7 +37,6 @@ ex:Marcel_Sabitzer a foaf:Person,
     stats:progressiveCarries 24 ;
     stats:progressivePasses 97 ;
     stats:progressivePassesReceived 70 ;
-    stats:rank 2287 ;
     stats:redCards 0 ;
     stats:tackles 29 ;
     stats:tacklesWon 19 ;

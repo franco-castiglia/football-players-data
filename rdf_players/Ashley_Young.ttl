@@ -40,7 +40,6 @@ ex:Ashley_Young a foaf:Person,
     stats:progressiveCarries 24 ;
     stats:progressivePasses 90 ;
     stats:progressivePassesReceived 32 ;
-    stats:rank 2802 ;
     stats:redCards 1 ;
     stats:tackles 58 ;
     stats:tacklesWon 33 ;

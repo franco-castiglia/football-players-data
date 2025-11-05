@@ -36,7 +36,6 @@ ex:Alvaro_Rodriguez a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 13 ;
     stats:progressivePassesReceived 50 ;
-    stats:rank 2231 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 7 ;

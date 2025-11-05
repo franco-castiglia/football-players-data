@@ -36,7 +36,6 @@ ex:Tom_Bischof a foaf:Person,
     stats:progressiveCarries 47 ;
     stats:progressivePasses 138 ;
     stats:progressivePassesReceived 102 ;
-    stats:rank 339 ;
     stats:redCards 0 ;
     stats:tackles 95 ;
     stats:tacklesWon 53 ;

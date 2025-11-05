@@ -35,7 +35,6 @@ ex:Tyler_Fredricson a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 8 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 935 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 3 ;

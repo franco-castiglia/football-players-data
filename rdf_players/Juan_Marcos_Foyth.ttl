@@ -39,7 +39,6 @@ ex:Juan_Marcos_Foyth a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 65 ;
     stats:progressivePassesReceived 11 ;
-    stats:rank 927 ;
     stats:redCards 0 ;
     stats:tackles 25 ;
     stats:tacklesWon 15 ;

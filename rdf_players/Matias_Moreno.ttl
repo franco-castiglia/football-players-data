@@ -35,7 +35,6 @@ ex:Matias_Moreno a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 6 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 1789 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 8 ;

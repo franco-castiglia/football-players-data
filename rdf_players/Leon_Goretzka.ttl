@@ -40,7 +40,6 @@ ex:Leon_Goretzka a foaf:Person,
     stats:progressiveCarries 35 ;
     stats:progressivePasses 127 ;
     stats:progressivePassesReceived 28 ;
-    stats:rank 1042 ;
     stats:redCards 0 ;
     stats:tackles 21 ;
     stats:tacklesWon 11 ;

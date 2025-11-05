@@ -37,7 +37,6 @@ ex:Alessandro_Zanoli a foaf:Person,
     stats:progressiveCarries 65 ;
     stats:progressivePasses 27 ;
     stats:progressivePassesReceived 90 ;
-    stats:rank 2820 ;
     stats:redCards 0 ;
     stats:tackles 29 ;
     stats:tacklesWon 20 ;

@@ -36,7 +36,6 @@ ex:Felix_Lemarechal a foaf:Person,
     stats:progressiveCarries 35 ;
     stats:progressivePasses 58 ;
     stats:progressivePassesReceived 90 ;
-    stats:rank 1474 ;
     stats:redCards 0 ;
     stats:tackles 35 ;
     stats:tacklesWon 24 ;

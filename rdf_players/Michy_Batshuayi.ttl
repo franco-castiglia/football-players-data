@@ -40,7 +40,6 @@ ex:Michy_Batshuayi a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 8 ;
     stats:progressivePassesReceived 15 ;
-    stats:rank 261 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 1 ;

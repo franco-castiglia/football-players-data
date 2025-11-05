@@ -37,7 +37,6 @@ ex:Nicolo_Barella a foaf:Person,
     stats:progressiveCarries 63 ;
     stats:progressivePasses 235 ;
     stats:progressivePassesReceived 133 ;
-    stats:rank 241 ;
     stats:redCards 0 ;
     stats:tackles 50 ;
     stats:tacklesWon 31 ;

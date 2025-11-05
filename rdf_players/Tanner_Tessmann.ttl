@@ -38,7 +38,6 @@ ex:Tanner_Tessmann a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 56 ;
     stats:progressivePassesReceived 27 ;
-    stats:rank 2578 ;
     stats:redCards 0 ;
     stats:tackles 25 ;
     stats:tacklesWon 15 ;

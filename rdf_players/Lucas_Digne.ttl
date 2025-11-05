@@ -40,7 +40,6 @@ ex:Lucas_Digne a foaf:Person,
     stats:progressiveCarries 23 ;
     stats:progressivePasses 57 ;
     stats:progressivePassesReceived 142 ;
-    stats:rank 731 ;
     stats:redCards 0 ;
     stats:tackles 65 ;
     stats:tacklesWon 38 ;

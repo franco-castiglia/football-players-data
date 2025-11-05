@@ -36,7 +36,6 @@ ex:Hernani a foaf:Person,
     stats:progressiveCarries 29 ;
     stats:progressivePasses 78 ;
     stats:progressivePassesReceived 40 ;
-    stats:rank 1154 ;
     stats:redCards 0 ;
     stats:tackles 47 ;
     stats:tacklesWon 26 ;

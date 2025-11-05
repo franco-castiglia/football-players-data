@@ -37,7 +37,6 @@ ex:Ivan_Ordets a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 48 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 1988 ;
     stats:redCards 0 ;
     stats:tackles 18 ;
     stats:tacklesWon 8 ;

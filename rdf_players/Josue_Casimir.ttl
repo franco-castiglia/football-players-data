@@ -36,7 +36,6 @@ ex:Josue_Casimir a foaf:Person,
     stats:progressiveCarries 71 ;
     stats:progressivePasses 41 ;
     stats:progressivePassesReceived 151 ;
-    stats:rank 504 ;
     stats:redCards 0 ;
     stats:tackles 37 ;
     stats:tacklesWon 26 ;

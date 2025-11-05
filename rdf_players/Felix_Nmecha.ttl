@@ -36,7 +36,6 @@ ex:Felix_Nmecha a foaf:Person,
     stats:progressiveCarries 21 ;
     stats:progressivePasses 85 ;
     stats:progressivePassesReceived 27 ;
-    stats:rank 1911 ;
     stats:redCards 0 ;
     stats:tackles 34 ;
     stats:tacklesWon 22 ;

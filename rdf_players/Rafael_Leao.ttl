@@ -40,7 +40,6 @@ ex:Rafael_Leao a foaf:Person,
     stats:progressiveCarries 123 ;
     stats:progressivePasses 93 ;
     stats:progressivePassesReceived 262 ;
-    stats:rank 1463 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 10 ;

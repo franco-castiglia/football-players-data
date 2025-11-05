@@ -38,7 +38,6 @@ ex:Lukas_Klostermann a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 83 ;
     stats:progressivePassesReceived 26 ;
-    stats:rank 1366 ;
     stats:redCards 0 ;
     stats:tackles 27 ;
     stats:tacklesWon 14 ;

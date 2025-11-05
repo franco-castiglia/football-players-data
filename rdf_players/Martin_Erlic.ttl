@@ -36,7 +36,6 @@ ex:Martin_Erlic a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 11 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 850 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 0 ;

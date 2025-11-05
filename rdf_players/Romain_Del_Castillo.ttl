@@ -36,7 +36,6 @@ ex:Romain_Del_Castillo a foaf:Person,
     stats:progressiveCarries 29 ;
     stats:progressivePasses 61 ;
     stats:progressivePassesReceived 106 ;
-    stats:rank 690 ;
     stats:redCards 0 ;
     stats:tackles 31 ;
     stats:tacklesWon 22 ;

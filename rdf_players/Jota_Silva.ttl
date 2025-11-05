@@ -36,7 +36,6 @@ ex:Jota_Silva a foaf:Person,
     stats:progressiveCarries 21 ;
     stats:progressivePasses 18 ;
     stats:progressivePassesReceived 59 ;
-    stats:rank 2419 ;
     stats:redCards 0 ;
     stats:tackles 27 ;
     stats:tacklesWon 14 ;

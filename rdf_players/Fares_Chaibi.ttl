@@ -36,7 +36,6 @@ ex:Fares_Chaibi a foaf:Person,
     stats:progressiveCarries 20 ;
     stats:progressivePasses 52 ;
     stats:progressivePassesReceived 73 ;
-    stats:rank 525 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 9 ;

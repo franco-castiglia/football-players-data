@@ -35,7 +35,6 @@ ex:Bahereba_Guirassy a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 6 ;
     stats:progressivePassesReceived 34 ;
-    stats:rank 1093 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 8 ;

@@ -36,7 +36,6 @@ ex:Joe_Aribo a foaf:Person,
     stats:progressiveCarries 36 ;
     stats:progressivePasses 75 ;
     stats:progressivePassesReceived 65 ;
-    stats:rank 152 ;
     stats:redCards 0 ;
     stats:tackles 47 ;
     stats:tacklesWon 33 ;

@@ -40,7 +40,6 @@ ex:Alvaro_Morata a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 26 ;
     stats:progressivePassesReceived 63 ;
-    stats:rank 1783 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 10 ;

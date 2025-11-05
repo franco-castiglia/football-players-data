@@ -38,7 +38,6 @@ ex:Matthijs_de_Ligt a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 55 ;
     stats:progressivePassesReceived 6 ;
-    stats:rank 1492 ;
     stats:redCards 0 ;
     stats:tackles 30 ;
     stats:tacklesWon 22 ;

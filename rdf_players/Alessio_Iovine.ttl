@@ -35,7 +35,6 @@ ex:Alessio_Iovine a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 6 ;
     stats:progressivePassesReceived 8 ;
-    stats:rank 1216 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 2 ;

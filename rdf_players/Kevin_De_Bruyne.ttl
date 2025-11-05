@@ -40,7 +40,6 @@ ex:Kevin_De_Bruyne a foaf:Person,
     stats:progressiveCarries 51 ;
     stats:progressivePasses 157 ;
     stats:progressivePassesReceived 150 ;
-    stats:rank 679 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 9 ;

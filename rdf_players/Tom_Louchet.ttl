@@ -36,7 +36,6 @@ ex:Tom_Louchet a foaf:Person,
     stats:progressiveCarries 19 ;
     stats:progressivePasses 36 ;
     stats:progressivePassesReceived 37 ;
-    stats:rank 1529 ;
     stats:redCards 0 ;
     stats:tackles 27 ;
     stats:tacklesWon 17 ;

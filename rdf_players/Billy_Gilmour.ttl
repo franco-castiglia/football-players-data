@@ -38,7 +38,6 @@ ex:Billy_Gilmour a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 67 ;
     stats:progressivePassesReceived 18 ;
-    stats:rank 1006 ;
     stats:redCards 0 ;
     stats:tackles 24 ;
     stats:tacklesWon 16 ;

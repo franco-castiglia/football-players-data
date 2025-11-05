@@ -36,7 +36,6 @@ ex:Marvin_Pieringer a foaf:Person,
     stats:progressiveCarries 23 ;
     stats:progressivePasses 59 ;
     stats:progressivePassesReceived 115 ;
-    stats:rank 2120 ;
     stats:redCards 0 ;
     stats:tackles 23 ;
     stats:tacklesWon 13 ;

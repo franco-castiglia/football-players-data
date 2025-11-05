@@ -37,7 +37,6 @@ ex:Alan_Matturro_Romero a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 15 ;
     stats:progressivePassesReceived 9 ;
-    stats:rank 1676 ;
     stats:redCards 0 ;
     stats:tackles 11 ;
     stats:tacklesWon 6 ;

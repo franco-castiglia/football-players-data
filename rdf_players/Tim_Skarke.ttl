@@ -36,7 +36,6 @@ ex:Tim_Skarke a foaf:Person,
     stats:progressiveCarries 26 ;
     stats:progressivePasses 25 ;
     stats:progressivePassesReceived 96 ;
-    stats:rank 2443 ;
     stats:redCards 0 ;
     stats:tackles 14 ;
     stats:tacklesWon 11 ;

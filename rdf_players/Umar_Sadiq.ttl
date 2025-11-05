@@ -36,7 +36,6 @@ ex:Umar_Sadiq a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 49 ;
-    stats:rank 2289 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 5 ;

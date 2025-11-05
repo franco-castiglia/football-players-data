@@ -39,7 +39,6 @@ ex:Declan_Rice a foaf:Person,
     stats:progressiveCarries 90 ;
     stats:progressivePasses 192 ;
     stats:progressivePassesReceived 94 ;
-    stats:rank 2208 ;
     stats:redCards 1 ;
     stats:tackles 53 ;
     stats:tacklesWon 25 ;

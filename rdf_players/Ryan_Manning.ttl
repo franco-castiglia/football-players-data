@@ -39,7 +39,6 @@ ex:Ryan_Manning a foaf:Person,
     stats:progressiveCarries 14 ;
     stats:progressivePasses 35 ;
     stats:progressivePassesReceived 74 ;
-    stats:rank 1607 ;
     stats:redCards 0 ;
     stats:tackles 28 ;
     stats:tacklesWon 17 ;

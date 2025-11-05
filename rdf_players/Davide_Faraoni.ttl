@@ -39,7 +39,6 @@ ex:Davide_Faraoni a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 3 ;
     stats:progressivePassesReceived 13 ;
-    stats:rank 876 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 9 ;

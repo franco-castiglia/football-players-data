@@ -36,7 +36,6 @@ ex:Cedric_Hountondji a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 1 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 1183 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 4 ;

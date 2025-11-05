@@ -38,7 +38,6 @@ ex:Amir_Rrahmani a foaf:Person,
     stats:progressiveCarries 30 ;
     stats:progressivePasses 188 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 2269 ;
     stats:redCards 0 ;
     stats:tackles 39 ;
     stats:tacklesWon 31 ;

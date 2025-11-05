@@ -36,7 +36,6 @@ ex:Nathan_Michael_Collins a foaf:Person,
     stats:progressiveCarries 32 ;
     stats:progressivePasses 127 ;
     stats:progressivePassesReceived 18 ;
-    stats:rank 579 ;
     stats:redCards 0 ;
     stats:tackles 40 ;
     stats:tacklesWon 24 ;

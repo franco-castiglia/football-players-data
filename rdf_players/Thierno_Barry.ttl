@@ -36,7 +36,6 @@ ex:Thierno_Barry a foaf:Person,
     stats:progressiveCarries 44 ;
     stats:progressivePasses 27 ;
     stats:progressivePassesReceived 124 ;
-    stats:rank 252 ;
     stats:redCards 0 ;
     stats:tackles 11 ;
     stats:tacklesWon 8 ;

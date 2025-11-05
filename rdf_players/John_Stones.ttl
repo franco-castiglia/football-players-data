@@ -39,7 +39,6 @@ ex:John_Stones a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 21 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 2512 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 2 ;

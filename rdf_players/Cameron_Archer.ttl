@@ -36,7 +36,6 @@ ex:Cameron_Archer a foaf:Person,
     stats:progressiveCarries 22 ;
     stats:progressivePasses 14 ;
     stats:progressivePassesReceived 66 ;
-    stats:rank 146 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 8 ;

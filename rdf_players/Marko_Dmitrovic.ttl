@@ -38,7 +38,6 @@ ex:Marko_Dmitrovic a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 1 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 753 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 1 ;

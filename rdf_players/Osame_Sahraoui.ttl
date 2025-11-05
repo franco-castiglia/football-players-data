@@ -36,7 +36,6 @@ ex:Osame_Sahraoui a foaf:Person,
     stats:progressiveCarries 69 ;
     stats:progressivePasses 89 ;
     stats:progressivePassesReceived 159 ;
-    stats:rank 2297 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 9 ;

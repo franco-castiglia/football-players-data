@@ -37,7 +37,6 @@ ex:Youssef_Maleh a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 72 ;
     stats:progressivePassesReceived 37 ;
-    stats:rank 1588 ;
     stats:redCards 1 ;
     stats:tackles 45 ;
     stats:tacklesWon 23 ;

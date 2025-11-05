@@ -36,7 +36,6 @@ ex:James_Abankwah a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 4 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 4 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 2 ;

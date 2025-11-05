@@ -40,7 +40,6 @@ ex:Matteo_Guendouzi a foaf:Person,
     stats:progressiveCarries 89 ;
     stats:progressivePasses 316 ;
     stats:progressivePassesReceived 64 ;
-    stats:rank 1081 ;
     stats:redCards 0 ;
     stats:tackles 37 ;
     stats:tacklesWon 21 ;

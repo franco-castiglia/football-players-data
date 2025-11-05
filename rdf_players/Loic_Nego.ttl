@@ -36,7 +36,6 @@ ex:Loic_Nego a foaf:Person,
     stats:progressiveCarries 64 ;
     stats:progressivePasses 102 ;
     stats:progressivePassesReceived 123 ;
-    stats:rank 1876 ;
     stats:redCards 0 ;
     stats:tackles 58 ;
     stats:tacklesWon 35 ;

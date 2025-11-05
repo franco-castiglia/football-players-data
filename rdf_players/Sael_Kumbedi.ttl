@@ -36,7 +36,6 @@ ex:Sael_Kumbedi a foaf:Person,
     stats:progressiveCarries 23 ;
     stats:progressivePasses 37 ;
     stats:progressivePassesReceived 71 ;
-    stats:rank 1423 ;
     stats:redCards 0 ;
     stats:tackles 28 ;
     stats:tacklesWon 14 ;

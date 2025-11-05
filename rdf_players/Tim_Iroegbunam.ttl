@@ -38,7 +38,6 @@ ex:Tim_Iroegbunam a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 15 ;
     stats:progressivePassesReceived 9 ;
-    stats:rank 1217 ;
     stats:redCards 0 ;
     stats:tackles 29 ;
     stats:tacklesWon 14 ;

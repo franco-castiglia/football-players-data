@@ -36,7 +36,6 @@ ex:Armando_Broja a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 2 ;
     stats:progressivePassesReceived 26 ;
-    stats:rank 397 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 1 ;

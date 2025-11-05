@@ -36,7 +36,6 @@ ex:Janik_Haberer a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 59 ;
     stats:progressivePassesReceived 22 ;
-    stats:rank 1112 ;
     stats:redCards 0 ;
     stats:tackles 39 ;
     stats:tacklesWon 29 ;

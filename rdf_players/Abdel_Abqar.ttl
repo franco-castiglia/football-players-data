@@ -36,7 +36,6 @@ ex:Abdel_Abqar a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 79 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 17 ;
     stats:redCards 0 ;
     stats:tackles 36 ;
     stats:tacklesWon 23 ;

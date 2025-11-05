@@ -35,7 +35,6 @@ ex:Ibrahima_Wadji a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 4 ;
     stats:progressivePassesReceived 24 ;
-    stats:rank 2733 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 6 ;

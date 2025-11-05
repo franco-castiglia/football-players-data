@@ -37,7 +37,6 @@ ex:Leon_Bailey a foaf:Person,
     stats:progressiveCarries 58 ;
     stats:progressivePasses 35 ;
     stats:progressivePassesReceived 121 ;
-    stats:rank 204 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 5 ;

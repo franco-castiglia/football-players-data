@@ -37,7 +37,6 @@ ex:Mohamed_Simakan a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 2424 ;
     stats:redCards 0 ;
     stats:tackles 0 ;
     stats:tacklesWon 0 ;

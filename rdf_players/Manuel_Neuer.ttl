@@ -40,7 +40,6 @@ ex:Manuel_Neuer a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 10 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 1886 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 0 ;

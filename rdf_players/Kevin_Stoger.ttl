@@ -38,7 +38,6 @@ ex:Kevin_Stoger a foaf:Person,
     stats:progressiveCarries 40 ;
     stats:progressivePasses 121 ;
     stats:progressivePassesReceived 95 ;
-    stats:rank 2508 ;
     stats:redCards 0 ;
     stats:tackles 37 ;
     stats:tacklesWon 21 ;

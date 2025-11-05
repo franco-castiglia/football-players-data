@@ -39,7 +39,6 @@ ex:Joshua_Kimmich a foaf:Person,
     stats:progressiveCarries 51 ;
     stats:progressivePasses 362 ;
     stats:progressivePassesReceived 77 ;
-    stats:rank 1357 ;
     stats:redCards 0 ;
     stats:tackles 47 ;
     stats:tacklesWon 29 ;

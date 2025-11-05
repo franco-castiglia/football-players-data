@@ -37,7 +37,6 @@ ex:Axel_Tuanzebe a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 61 ;
     stats:progressivePassesReceived 15 ;
-    stats:rank 2639 ;
     stats:redCards 1 ;
     stats:tackles 31 ;
     stats:tacklesWon 19 ;

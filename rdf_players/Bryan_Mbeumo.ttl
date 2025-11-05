@@ -38,7 +38,6 @@ ex:Bryan_Mbeumo a foaf:Person,
     stats:progressiveCarries 130 ;
     stats:progressivePasses 141 ;
     stats:progressivePassesReceived 351 ;
-    stats:rank 1694 ;
     stats:redCards 0 ;
     stats:tackles 49 ;
     stats:tacklesWon 31 ;

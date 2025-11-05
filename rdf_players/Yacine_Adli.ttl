@@ -38,7 +38,6 @@ ex:Yacine_Adli a foaf:Person,
     stats:progressiveCarries 24 ;
     stats:progressivePasses 103 ;
     stats:progressivePassesReceived 30 ;
-    stats:rank 33 ;
     stats:redCards 1 ;
     stats:tackles 32 ;
     stats:tacklesWon 19 ;

@@ -38,7 +38,6 @@ ex:Gabriel_Magalhaes a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 126 ;
     stats:progressivePassesReceived 11 ;
-    stats:rank 1564 ;
     stats:redCards 0 ;
     stats:tackles 25 ;
     stats:tacklesWon 15 ;

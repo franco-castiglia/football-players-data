@@ -38,7 +38,6 @@ ex:Nicolo_Zaniolo a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 13 ;
     stats:progressivePassesReceived 33 ;
-    stats:rank 2819 ;
     stats:redCards 0 ;
     stats:tackles 0 ;
     stats:tacklesWon 0 ;

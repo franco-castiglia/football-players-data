@@ -38,7 +38,6 @@ ex:Javi_Munoz a foaf:Person,
     stats:progressiveCarries 36 ;
     stats:progressivePasses 108 ;
     stats:progressivePassesReceived 91 ;
-    stats:rank 1826 ;
     stats:redCards 0 ;
     stats:tackles 45 ;
     stats:tacklesWon 35 ;

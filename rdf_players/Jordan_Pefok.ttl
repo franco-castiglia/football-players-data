@@ -39,7 +39,6 @@ ex:Jordan_Pefok a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 12 ;
     stats:progressivePassesReceived 40 ;
-    stats:rank 2066 ;
     stats:redCards 0 ;
     stats:tackles 11 ;
     stats:tacklesWon 6 ;

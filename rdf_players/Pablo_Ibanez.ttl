@@ -36,7 +36,6 @@ ex:Pablo_Ibanez a foaf:Person,
     stats:progressiveCarries 21 ;
     stats:progressivePasses 51 ;
     stats:progressivePassesReceived 31 ;
-    stats:rank 1198 ;
     stats:redCards 0 ;
     stats:tackles 20 ;
     stats:tacklesWon 10 ;

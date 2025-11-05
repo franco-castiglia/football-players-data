@@ -40,7 +40,6 @@ ex:Mohamed_Salah a foaf:Person,
     stats:progressiveCarries 154 ;
     stats:progressivePasses 144 ;
     stats:progressivePassesReceived 488 ;
-    stats:rank 2305 ;
     stats:redCards 0 ;
     stats:tackles 21 ;
     stats:tacklesWon 11 ;

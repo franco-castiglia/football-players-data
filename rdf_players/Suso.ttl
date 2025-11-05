@@ -39,7 +39,6 @@ ex:Suso a foaf:Person,
     stats:progressiveCarries 20 ;
     stats:progressivePasses 43 ;
     stats:progressivePassesReceived 74 ;
-    stats:rank 2526 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 7 ;

@@ -36,7 +36,6 @@ ex:Jamie_Leweling a foaf:Person,
     stats:progressiveCarries 55 ;
     stats:progressivePasses 51 ;
     stats:progressivePassesReceived 164 ;
-    stats:rank 1485 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 6 ;

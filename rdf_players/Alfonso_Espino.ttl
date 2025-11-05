@@ -36,7 +36,6 @@ ex:Alfonso_Espino a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 39 ;
     stats:progressivePassesReceived 29 ;
-    stats:rank 852 ;
     stats:redCards 0 ;
     stats:tackles 41 ;
     stats:tacklesWon 24 ;

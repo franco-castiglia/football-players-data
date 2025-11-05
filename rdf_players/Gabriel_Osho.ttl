@@ -36,7 +36,6 @@ ex:Gabriel_Osho a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 43 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 1996 ;
     stats:redCards 1 ;
     stats:tackles 23 ;
     stats:tacklesWon 15 ;

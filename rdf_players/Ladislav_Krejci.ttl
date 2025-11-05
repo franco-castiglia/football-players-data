@@ -36,7 +36,6 @@ ex:Ladislav_Krejci a foaf:Person,
     stats:progressiveCarries 29 ;
     stats:progressivePasses 144 ;
     stats:progressivePassesReceived 6 ;
-    stats:rank 1415 ;
     stats:redCards 0 ;
     stats:tackles 23 ;
     stats:tacklesWon 16 ;

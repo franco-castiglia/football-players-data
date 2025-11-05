@@ -36,7 +36,6 @@ ex:Rico_Henry a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 4 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 1146 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 2 ;

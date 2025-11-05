@@ -37,7 +37,6 @@ ex:Ian_Maatsen a foaf:Person,
     stats:progressiveCarries 31 ;
     stats:progressivePasses 50 ;
     stats:progressivePassesReceived 104 ;
-    stats:rank 1553 ;
     stats:redCards 0 ;
     stats:tackles 29 ;
     stats:tacklesWon 17 ;

@@ -36,7 +36,6 @@ ex:Manolis_Saliakas a foaf:Person,
     stats:progressiveCarries 28 ;
     stats:progressivePasses 93 ;
     stats:progressivePassesReceived 80 ;
-    stats:rank 2310 ;
     stats:redCards 0 ;
     stats:tackles 46 ;
     stats:tacklesWon 22 ;

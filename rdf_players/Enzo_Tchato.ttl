@@ -36,7 +36,6 @@ ex:Enzo_Tchato a foaf:Person,
     stats:progressiveCarries 44 ;
     stats:progressivePasses 62 ;
     stats:progressivePassesReceived 95 ;
-    stats:rank 2562 ;
     stats:redCards 0 ;
     stats:tackles 48 ;
     stats:tacklesWon 26 ;

@@ -36,7 +36,6 @@ ex:Malo_Gusto a foaf:Person,
     stats:progressiveCarries 50 ;
     stats:progressivePasses 119 ;
     stats:progressivePassesReceived 85 ;
-    stats:rank 1104 ;
     stats:redCards 0 ;
     stats:tackles 45 ;
     stats:tacklesWon 29 ;

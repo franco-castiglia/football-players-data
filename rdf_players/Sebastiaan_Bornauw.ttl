@@ -36,7 +36,6 @@ ex:Sebastiaan_Bornauw a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 21 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 364 ;
     stats:redCards 0 ;
     stats:tackles 9 ;
     stats:tacklesWon 6 ;

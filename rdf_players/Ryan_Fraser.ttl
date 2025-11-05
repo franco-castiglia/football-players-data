@@ -38,7 +38,6 @@ ex:Ryan_Fraser a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 8 ;
     stats:progressivePassesReceived 18 ;
-    stats:rank 933 ;
     stats:redCards 1 ;
     stats:tackles 6 ;
     stats:tacklesWon 2 ;

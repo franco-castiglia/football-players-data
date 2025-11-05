@@ -37,7 +37,6 @@ ex:Sven_Botman a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 365 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 9 ;

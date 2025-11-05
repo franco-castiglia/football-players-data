@@ -36,7 +36,6 @@ ex:Ivan_Balliu_Campeny a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 46 ;
     stats:progressivePassesReceived 21 ;
-    stats:rank 220 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 14 ;

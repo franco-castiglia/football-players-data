@@ -36,7 +36,6 @@ ex:Florian_Neuhaus a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 27 ;
     stats:progressivePassesReceived 8 ;
-    stats:rank 1887 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 3 ;

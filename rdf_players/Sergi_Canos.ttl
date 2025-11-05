@@ -36,7 +36,6 @@ ex:Sergi_Canos a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 9 ;
     stats:progressivePassesReceived 47 ;
-    stats:rank 466 ;
     stats:redCards 0 ;
     stats:tackles 11 ;
     stats:tacklesWon 7 ;

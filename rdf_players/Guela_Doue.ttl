@@ -36,7 +36,6 @@ ex:Guela_Doue a foaf:Person,
     stats:progressiveCarries 51 ;
     stats:progressivePasses 173 ;
     stats:progressivePassesReceived 54 ;
-    stats:rank 777 ;
     stats:redCards 0 ;
     stats:tackles 65 ;
     stats:tacklesWon 45 ;

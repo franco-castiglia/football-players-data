@@ -36,7 +36,6 @@ ex:Oscar_De_Marcos a foaf:Person,
     stats:progressiveCarries 26 ;
     stats:progressivePasses 102 ;
     stats:progressivePassesReceived 78 ;
-    stats:rank 1617 ;
     stats:redCards 0 ;
     stats:tackles 32 ;
     stats:tacklesWon 15 ;

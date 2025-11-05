@@ -39,7 +39,6 @@ ex:Jacob_Bruun_Larsen a foaf:Person,
     stats:progressiveCarries 19 ;
     stats:progressivePasses 19 ;
     stats:progressivePassesReceived 40 ;
-    stats:rank 403 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 1 ;

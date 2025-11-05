@@ -36,7 +36,6 @@ ex:Manu_Fuster a foaf:Person,
     stats:progressiveCarries 23 ;
     stats:progressivePasses 71 ;
     stats:progressivePassesReceived 75 ;
-    stats:rank 949 ;
     stats:redCards 0 ;
     stats:tackles 19 ;
     stats:tacklesWon 11 ;

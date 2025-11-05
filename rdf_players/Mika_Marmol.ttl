@@ -36,7 +36,6 @@ ex:Mika_Marmol a foaf:Person,
     stats:progressiveCarries 33 ;
     stats:progressivePasses 106 ;
     stats:progressivePassesReceived 62 ;
-    stats:rank 1630 ;
     stats:redCards 0 ;
     stats:tackles 61 ;
     stats:tacklesWon 29 ;

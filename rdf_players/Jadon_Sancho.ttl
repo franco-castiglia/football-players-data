@@ -40,7 +40,6 @@ ex:Jadon_Sancho a foaf:Person,
     stats:progressiveCarries 102 ;
     stats:progressivePasses 90 ;
     stats:progressivePassesReceived 225 ;
-    stats:rank 2333 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 7 ;

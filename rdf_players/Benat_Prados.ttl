@@ -37,7 +37,6 @@ ex:Benat_Prados a foaf:Person,
     stats:progressiveCarries 20 ;
     stats:progressivePasses 78 ;
     stats:progressivePassesReceived 32 ;
-    stats:rank 2146 ;
     stats:redCards 0 ;
     stats:tackles 55 ;
     stats:tacklesWon 36 ;

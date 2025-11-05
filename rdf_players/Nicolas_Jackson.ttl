@@ -36,7 +36,6 @@ ex:Nicolas_Jackson a foaf:Person,
     stats:progressiveCarries 47 ;
     stats:progressivePasses 38 ;
     stats:progressivePassesReceived 129 ;
-    stats:rank 1234 ;
     stats:redCards 1 ;
     stats:tackles 22 ;
     stats:tacklesWon 13 ;

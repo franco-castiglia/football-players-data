@@ -36,7 +36,6 @@ ex:Ulisses_Garcia a foaf:Person,
     stats:progressiveCarries 23 ;
     stats:progressivePasses 53 ;
     stats:progressivePassesReceived 87 ;
-    stats:rank 976 ;
     stats:redCards 0 ;
     stats:tackles 14 ;
     stats:tacklesWon 11 ;

@@ -37,7 +37,6 @@ ex:David_Raya a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 14 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 2187 ;
     stats:redCards 0 ;
     stats:tackles 0 ;
     stats:tacklesWon 0 ;

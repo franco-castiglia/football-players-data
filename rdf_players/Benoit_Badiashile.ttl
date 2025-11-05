@@ -36,7 +36,6 @@ ex:Benoit_Badiashile a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 17 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 200 ;
     stats:redCards 0 ;
     stats:tackles 9 ;
     stats:tacklesWon 6 ;

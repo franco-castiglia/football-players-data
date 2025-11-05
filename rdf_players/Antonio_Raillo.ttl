@@ -36,7 +36,6 @@ ex:Antonio_Raillo a foaf:Person,
     stats:progressiveCarries 31 ;
     stats:progressivePasses 108 ;
     stats:progressivePassesReceived 20 ;
-    stats:rank 2166 ;
     stats:redCards 1 ;
     stats:tackles 31 ;
     stats:tacklesWon 18 ;

@@ -40,7 +40,6 @@ ex:Keita_Balde a foaf:Person,
     stats:progressiveCarries 19 ;
     stats:progressivePasses 35 ;
     stats:progressivePassesReceived 29 ;
-    stats:rank 217 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 1 ;

@@ -36,7 +36,6 @@ ex:Pape_Matar_Sarr a foaf:Person,
     stats:progressiveCarries 33 ;
     stats:progressivePasses 88 ;
     stats:progressivePassesReceived 53 ;
-    stats:rank 1669 ;
     stats:redCards 0 ;
     stats:tackles 49 ;
     stats:tacklesWon 36 ;

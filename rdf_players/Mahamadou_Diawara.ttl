@@ -36,7 +36,6 @@ ex:Mahamadou_Diawara a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 16 ;
     stats:progressivePassesReceived 6 ;
-    stats:rank 720 ;
     stats:redCards 0 ;
     stats:tackles 20 ;
     stats:tacklesWon 12 ;

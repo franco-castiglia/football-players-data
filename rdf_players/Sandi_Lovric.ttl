@@ -36,7 +36,6 @@ ex:Sandi_Lovric a foaf:Person,
     stats:progressiveCarries 60 ;
     stats:progressivePasses 120 ;
     stats:progressivePassesReceived 71 ;
-    stats:rank 1530 ;
     stats:redCards 0 ;
     stats:tackles 46 ;
     stats:tacklesWon 29 ;

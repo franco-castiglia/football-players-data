@@ -37,7 +37,6 @@ ex:Lassana_Coulibaly a foaf:Person,
     stats:progressiveCarries 21 ;
     stats:progressivePasses 93 ;
     stats:progressivePassesReceived 49 ;
-    stats:rank 616 ;
     stats:redCards 0 ;
     stats:tackles 48 ;
     stats:tacklesWon 29 ;

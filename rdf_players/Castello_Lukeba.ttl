@@ -36,7 +36,6 @@ ex:Castello_Lukeba a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 80 ;
     stats:progressivePassesReceived 23 ;
-    stats:rank 1539 ;
     stats:redCards 0 ;
     stats:tackles 31 ;
     stats:tacklesWon 17 ;

@@ -38,7 +38,6 @@ ex:Pedro_Porro a foaf:Person,
     stats:progressiveCarries 65 ;
     stats:progressivePasses 154 ;
     stats:progressivePassesReceived 109 ;
-    stats:rank 2140 ;
     stats:redCards 0 ;
     stats:tackles 66 ;
     stats:tacklesWon 49 ;

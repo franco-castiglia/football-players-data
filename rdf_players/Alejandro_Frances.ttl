@@ -36,7 +36,6 @@ ex:Alejandro_Frances a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 63 ;
     stats:progressivePassesReceived 21 ;
-    stats:rank 930 ;
     stats:redCards 0 ;
     stats:tackles 36 ;
     stats:tacklesWon 24 ;

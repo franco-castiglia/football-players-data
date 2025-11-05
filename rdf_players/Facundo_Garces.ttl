@@ -37,7 +37,6 @@ ex:Facundo_Garces a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 12 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 966 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 2 ;

@@ -36,7 +36,6 @@ ex:Santiago_Gimenez a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 6 ;
     stats:progressivePassesReceived 38 ;
-    stats:rank 1008 ;
     stats:redCards 1 ;
     stats:tackles 5 ;
     stats:tacklesWon 3 ;

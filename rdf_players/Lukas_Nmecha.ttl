@@ -35,7 +35,6 @@ ex:Lukas_Nmecha a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 6 ;
     stats:progressivePassesReceived 32 ;
-    stats:rank 1912 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 0 ;

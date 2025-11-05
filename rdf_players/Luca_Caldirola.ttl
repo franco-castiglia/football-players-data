@@ -39,7 +39,6 @@ ex:Luca_Caldirola a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 22 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 441 ;
     stats:redCards 0 ;
     stats:tackles 11 ;
     stats:tacklesWon 7 ;

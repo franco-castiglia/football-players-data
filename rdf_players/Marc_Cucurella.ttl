@@ -38,7 +38,6 @@ ex:Marc_Cucurella a foaf:Person,
     stats:progressiveCarries 35 ;
     stats:progressivePasses 118 ;
     stats:progressivePassesReceived 117 ;
-    stats:rank 636 ;
     stats:redCards 1 ;
     stats:tackles 67 ;
     stats:tacklesWon 45 ;

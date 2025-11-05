@@ -39,7 +39,6 @@ ex:Leonardo_Spinazzola a foaf:Person,
     stats:progressiveCarries 83 ;
     stats:progressivePasses 88 ;
     stats:progressivePassesReceived 81 ;
-    stats:rank 2488 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 10 ;

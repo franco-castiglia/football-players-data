@@ -36,7 +36,6 @@ ex:Akor_Adams a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 6 ;
     stats:progressivePassesReceived 45 ;
-    stats:rank 24 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 3 ;

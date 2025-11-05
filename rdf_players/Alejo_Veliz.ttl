@@ -36,7 +36,6 @@ ex:Alejo_Veliz a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 8 ;
     stats:progressivePassesReceived 27 ;
-    stats:rank 2689 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 1 ;

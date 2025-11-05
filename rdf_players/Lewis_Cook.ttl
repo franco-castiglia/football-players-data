@@ -37,7 +37,6 @@ ex:Lewis_Cook a foaf:Person,
     stats:progressiveCarries 33 ;
     stats:progressivePasses 158 ;
     stats:progressivePassesReceived 52 ;
-    stats:rank 595 ;
     stats:redCards 1 ;
     stats:tackles 81 ;
     stats:tacklesWon 42 ;

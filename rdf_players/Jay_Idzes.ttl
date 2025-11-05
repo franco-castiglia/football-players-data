@@ -36,7 +36,6 @@ ex:Jay_Idzes a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 84 ;
     stats:progressivePassesReceived 15 ;
-    stats:rank 1203 ;
     stats:redCards 0 ;
     stats:tackles 45 ;
     stats:tacklesWon 29 ;

@@ -37,7 +37,6 @@ ex:Yankuba_Minteh a foaf:Person,
     stats:progressiveCarries 90 ;
     stats:progressivePasses 48 ;
     stats:progressivePassesReceived 201 ;
-    stats:rank 1757 ;
     stats:redCards 0 ;
     stats:tackles 48 ;
     stats:tacklesWon 35 ;

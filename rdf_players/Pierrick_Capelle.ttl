@@ -38,7 +38,6 @@ ex:Pierrick_Capelle a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 22 ;
     stats:progressivePassesReceived 17 ;
-    stats:rank 468 ;
     stats:redCards 0 ;
     stats:tackles 24 ;
     stats:tacklesWon 17 ;

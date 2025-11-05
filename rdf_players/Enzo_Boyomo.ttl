@@ -36,7 +36,6 @@ ex:Enzo_Boyomo a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 111 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 376 ;
     stats:redCards 0 ;
     stats:tackles 68 ;
     stats:tacklesWon 43 ;

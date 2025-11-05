@@ -37,7 +37,6 @@ ex:Mattia_Zaccagni a foaf:Person,
     stats:progressiveCarries 91 ;
     stats:progressivePasses 114 ;
     stats:progressivePassesReceived 264 ;
-    stats:rank 2806 ;
     stats:redCards 0 ;
     stats:tackles 38 ;
     stats:tacklesWon 27 ;

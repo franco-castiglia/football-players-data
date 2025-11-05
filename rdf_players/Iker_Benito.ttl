@@ -37,7 +37,6 @@ ex:Iker_Benito a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 0 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 298 ;
     stats:redCards 0 ;
     stats:tackles 0 ;
     stats:tacklesWon 0 ;

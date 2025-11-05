@@ -37,7 +37,6 @@ ex:Aihen_Munoz a foaf:Person,
     stats:progressiveCarries 26 ;
     stats:progressivePasses 38 ;
     stats:progressivePassesReceived 28 ;
-    stats:rank 1822 ;
     stats:redCards 0 ;
     stats:tackles 24 ;
     stats:tacklesWon 12 ;

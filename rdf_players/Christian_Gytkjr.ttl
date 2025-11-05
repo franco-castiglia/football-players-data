@@ -37,7 +37,6 @@ ex:Christian_Gytkjr a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 5 ;
     stats:progressivePassesReceived 52 ;
-    stats:rank 1109 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 4 ;

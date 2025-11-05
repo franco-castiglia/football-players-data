@@ -37,7 +37,6 @@ ex:Nicolas_Viola a foaf:Person,
     stats:progressiveCarries 21 ;
     stats:progressivePasses 46 ;
     stats:progressivePassesReceived 70 ;
-    stats:rank 2715 ;
     stats:redCards 0 ;
     stats:tackles 14 ;
     stats:tacklesWon 7 ;

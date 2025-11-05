@@ -38,7 +38,6 @@ ex:Matthias_Ginter a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 113 ;
     stats:progressivePassesReceived 16 ;
-    stats:rank 1010 ;
     stats:redCards 0 ;
     stats:tackles 30 ;
     stats:tacklesWon 17 ;

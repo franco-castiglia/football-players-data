@@ -40,7 +40,6 @@ ex:Kai_Havertz a foaf:Person,
     stats:progressiveCarries 35 ;
     stats:progressivePasses 61 ;
     stats:progressivePassesReceived 113 ;
-    stats:rank 1135 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 9 ;

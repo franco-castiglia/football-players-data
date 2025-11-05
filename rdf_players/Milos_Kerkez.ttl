@@ -38,7 +38,6 @@ ex:Milos_Kerkez a foaf:Person,
     stats:progressiveCarries 106 ;
     stats:progressivePasses 159 ;
     stats:progressivePassesReceived 197 ;
-    stats:rank 1347 ;
     stats:redCards 0 ;
     stats:tackles 52 ;
     stats:tacklesWon 26 ;

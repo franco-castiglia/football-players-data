@@ -37,7 +37,6 @@ ex:Iago_Aspas a foaf:Person,
     stats:progressiveCarries 50 ;
     stats:progressivePasses 132 ;
     stats:progressivePassesReceived 143 ;
-    stats:rank 168 ;
     stats:redCards 1 ;
     stats:tackles 13 ;
     stats:tacklesWon 8 ;

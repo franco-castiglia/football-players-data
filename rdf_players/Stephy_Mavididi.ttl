@@ -36,7 +36,6 @@ ex:Stephy_Mavididi a foaf:Person,
     stats:progressiveCarries 91 ;
     stats:progressivePasses 57 ;
     stats:progressivePassesReceived 138 ;
-    stats:rank 1680 ;
     stats:redCards 0 ;
     stats:tackles 34 ;
     stats:tacklesWon 19 ;

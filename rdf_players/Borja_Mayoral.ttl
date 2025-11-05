@@ -39,7 +39,6 @@ ex:Borja_Mayoral a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 13 ;
     stats:progressivePassesReceived 43 ;
-    stats:rank 1684 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 4 ;

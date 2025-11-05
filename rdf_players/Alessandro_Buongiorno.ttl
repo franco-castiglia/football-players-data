@@ -37,7 +37,6 @@ ex:Alessandro_Buongiorno a foaf:Person,
     stats:progressiveCarries 27 ;
     stats:progressivePasses 82 ;
     stats:progressivePassesReceived 8 ;
-    stats:rank 414 ;
     stats:redCards 0 ;
     stats:tackles 39 ;
     stats:tacklesWon 23 ;

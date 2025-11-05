@@ -37,7 +37,6 @@ ex:Maximo_Perrone a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 98 ;
     stats:progressivePassesReceived 19 ;
-    stats:rank 2101 ;
     stats:redCards 0 ;
     stats:tackles 38 ;
     stats:tacklesWon 27 ;

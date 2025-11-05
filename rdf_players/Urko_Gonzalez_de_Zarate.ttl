@@ -36,7 +36,6 @@ ex:Urko_Gonzalez_de_Zarate a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 62 ;
     stats:progressivePassesReceived 8 ;
-    stats:rank 1039 ;
     stats:redCards 0 ;
     stats:tackles 46 ;
     stats:tacklesWon 28 ;

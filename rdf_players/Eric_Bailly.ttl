@@ -40,7 +40,6 @@ ex:Eric_Bailly a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 18 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 205 ;
     stats:redCards 1 ;
     stats:tackles 12 ;
     stats:tacklesWon 4 ;

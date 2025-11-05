@@ -36,7 +36,6 @@ ex:Kenny_Lala a foaf:Person,
     stats:progressiveCarries 58 ;
     stats:progressivePasses 138 ;
     stats:progressivePassesReceived 91 ;
-    stats:rank 1442 ;
     stats:redCards 0 ;
     stats:tackles 66 ;
     stats:tacklesWon 42 ;

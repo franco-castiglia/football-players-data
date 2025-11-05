@@ -37,7 +37,6 @@ ex:Mergim_Vojvoda a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 64 ;
     stats:progressivePassesReceived 34 ;
-    stats:rank 2728 ;
     stats:redCards 0 ;
     stats:tackles 18 ;
     stats:tacklesWon 10 ;

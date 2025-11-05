@@ -37,7 +37,6 @@ ex:Martin_Zubimendi a foaf:Person,
     stats:progressiveCarries 38 ;
     stats:progressivePasses 195 ;
     stats:progressivePassesReceived 43 ;
-    stats:rank 2849 ;
     stats:redCards 0 ;
     stats:tackles 73 ;
     stats:tacklesWon 37 ;

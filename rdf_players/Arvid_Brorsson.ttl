@@ -36,7 +36,6 @@ ex:Arvid_Brorsson a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 9 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 399 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 3 ;

@@ -37,7 +37,6 @@ ex:Mattia_Bani a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 25 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 231 ;
     stats:redCards 0 ;
     stats:tackles 19 ;
     stats:tacklesWon 10 ;

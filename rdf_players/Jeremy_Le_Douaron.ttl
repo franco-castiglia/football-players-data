@@ -36,7 +36,6 @@ ex:Jeremy_Le_Douaron a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 1 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 1459 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 0 ;

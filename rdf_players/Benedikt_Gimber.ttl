@@ -36,7 +36,6 @@ ex:Benedikt_Gimber a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 46 ;
     stats:progressivePassesReceived 8 ;
-    stats:rank 1007 ;
     stats:redCards 0 ;
     stats:tackles 72 ;
     stats:tacklesWon 46 ;

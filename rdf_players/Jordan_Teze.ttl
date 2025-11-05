@@ -36,7 +36,6 @@ ex:Jordan_Teze a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 31 ;
     stats:progressivePassesReceived 41 ;
-    stats:rank 2581 ;
     stats:redCards 1 ;
     stats:tackles 18 ;
     stats:tacklesWon 9 ;

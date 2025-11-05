@@ -38,7 +38,6 @@ ex:Sander_Berge a foaf:Person,
     stats:progressiveCarries 29 ;
     stats:progressivePasses 124 ;
     stats:progressivePassesReceived 9 ;
-    stats:rank 309 ;
     stats:redCards 0 ;
     stats:tackles 50 ;
     stats:tacklesWon 30 ;

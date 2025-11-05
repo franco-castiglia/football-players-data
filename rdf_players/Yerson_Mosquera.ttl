@@ -36,7 +36,6 @@ ex:Yerson_Mosquera a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 1801 ;
     stats:redCards 0 ;
     stats:tackles 11 ;
     stats:tacklesWon 7 ;

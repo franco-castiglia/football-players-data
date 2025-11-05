@@ -35,7 +35,6 @@ ex:Ngalayel_Mukau a foaf:Person,
     stats:progressiveCarries 19 ;
     stats:progressivePasses 57 ;
     stats:progressivePassesReceived 43 ;
-    stats:rank 1812 ;
     stats:redCards 0 ;
     stats:tackles 33 ;
     stats:tacklesWon 18 ;

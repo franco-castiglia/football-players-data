@@ -40,7 +40,6 @@ ex:Marquinhos a foaf:Person,
     stats:progressiveCarries 29 ;
     stats:progressivePasses 151 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 1634 ;
     stats:redCards 0 ;
     stats:tackles 30 ;
     stats:tacklesWon 19 ;

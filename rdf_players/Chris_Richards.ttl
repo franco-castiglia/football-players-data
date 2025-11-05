@@ -38,7 +38,6 @@ ex:Chris_Richards a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 39 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 2209 ;
     stats:redCards 1 ;
     stats:tackles 47 ;
     stats:tacklesWon 30 ;

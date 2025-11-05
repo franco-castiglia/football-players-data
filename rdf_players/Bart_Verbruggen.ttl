@@ -36,7 +36,6 @@ ex:Bart_Verbruggen a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 2 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 2695 ;
     stats:redCards 0 ;
     stats:tackles 0 ;
     stats:tacklesWon 0 ;

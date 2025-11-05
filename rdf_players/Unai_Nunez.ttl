@@ -38,7 +38,6 @@ ex:Unai_Nunez a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 26 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 1925 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 5 ;

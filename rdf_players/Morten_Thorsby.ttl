@@ -38,7 +38,6 @@ ex:Morten_Thorsby a foaf:Person,
     stats:progressiveCarries 24 ;
     stats:progressivePasses 58 ;
     stats:progressivePassesReceived 76 ;
-    stats:rank 2591 ;
     stats:redCards 0 ;
     stats:tackles 49 ;
     stats:tacklesWon 30 ;

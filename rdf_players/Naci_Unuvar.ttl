@@ -37,7 +37,6 @@ ex:Naci_Unuvar a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 1 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 2651 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 2 ;

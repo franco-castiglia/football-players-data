@@ -36,7 +36,6 @@ ex:Andrew_Omobamidele a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 9 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 1970 ;
     stats:redCards 1 ;
     stats:tackles 7 ;
     stats:tacklesWon 4 ;

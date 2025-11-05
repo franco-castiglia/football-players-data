@@ -39,7 +39,6 @@ ex:Matias_Vecino a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 29 ;
     stats:progressivePassesReceived 14 ;
-    stats:rank 2685 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 7 ;

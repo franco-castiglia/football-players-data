@@ -35,7 +35,6 @@ ex:Rafik_Messali a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 21 ;
     stats:progressivePassesReceived 29 ;
-    stats:rank 1729 ;
     stats:redCards 0 ;
     stats:tackles 15 ;
     stats:tacklesWon 8 ;

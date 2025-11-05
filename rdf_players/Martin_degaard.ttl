@@ -40,7 +40,6 @@ ex:Martin_degaard a foaf:Person,
     stats:progressiveCarries 92 ;
     stats:progressivePasses 258 ;
     stats:progressivePassesReceived 154 ;
-    stats:rank 2852 ;
     stats:redCards 0 ;
     stats:tackles 19 ;
     stats:tacklesWon 11 ;

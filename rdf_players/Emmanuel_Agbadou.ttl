@@ -36,7 +36,6 @@ ex:Emmanuel_Agbadou a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 31 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 39 ;
     stats:redCards 0 ;
     stats:tackles 30 ;
     stats:tacklesWon 19 ;

@@ -40,7 +40,6 @@ ex:Tanguy_Ndombele a foaf:Person,
     stats:progressiveCarries 22 ;
     stats:progressivePasses 61 ;
     stats:progressivePassesReceived 36 ;
-    stats:rank 1870 ;
     stats:redCards 0 ;
     stats:tackles 35 ;
     stats:tacklesWon 23 ;

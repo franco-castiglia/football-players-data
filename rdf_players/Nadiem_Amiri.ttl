@@ -37,7 +37,6 @@ ex:Nadiem_Amiri a foaf:Person,
     stats:progressiveCarries 50 ;
     stats:progressivePasses 204 ;
     stats:progressivePassesReceived 64 ;
-    stats:rank 115 ;
     stats:redCards 2 ;
     stats:tackles 50 ;
     stats:tacklesWon 23 ;

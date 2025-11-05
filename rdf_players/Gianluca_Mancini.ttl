@@ -37,7 +37,6 @@ ex:Gianluca_Mancini a foaf:Person,
     stats:progressiveCarries 45 ;
     stats:progressivePasses 139 ;
     stats:progressivePassesReceived 23 ;
-    stats:rank 1598 ;
     stats:redCards 0 ;
     stats:tackles 42 ;
     stats:tacklesWon 26 ;

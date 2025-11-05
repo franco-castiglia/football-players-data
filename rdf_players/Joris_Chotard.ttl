@@ -36,7 +36,6 @@ ex:Joris_Chotard a foaf:Person,
     stats:progressiveCarries 20 ;
     stats:progressivePasses 80 ;
     stats:progressivePassesReceived 35 ;
-    stats:rank 553 ;
     stats:redCards 0 ;
     stats:tackles 39 ;
     stats:tacklesWon 27 ;

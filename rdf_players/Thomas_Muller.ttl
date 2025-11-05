@@ -40,7 +40,6 @@ ex:Thomas_Muller a foaf:Person,
     stats:progressiveCarries 24 ;
     stats:progressivePasses 50 ;
     stats:progressivePassesReceived 143 ;
-    stats:rank 1817 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 5 ;

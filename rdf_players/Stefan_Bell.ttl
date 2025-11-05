@@ -36,7 +36,6 @@ ex:Stefan_Bell a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 38 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 283 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 12 ;

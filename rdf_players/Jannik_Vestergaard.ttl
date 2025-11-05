@@ -40,7 +40,6 @@ ex:Jannik_Vestergaard a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 32 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 2701 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 10 ;

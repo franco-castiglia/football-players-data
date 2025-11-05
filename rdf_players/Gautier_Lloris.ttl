@@ -37,7 +37,6 @@ ex:Gautier_Lloris a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 99 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 1505 ;
     stats:redCards 0 ;
     stats:tackles 68 ;
     stats:tacklesWon 43 ;

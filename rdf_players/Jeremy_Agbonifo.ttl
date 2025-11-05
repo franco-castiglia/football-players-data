@@ -36,7 +36,6 @@ ex:Jeremy_Agbonifo a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 6 ;
     stats:progressivePassesReceived 36 ;
-    stats:rank 42 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 6 ;

@@ -37,7 +37,6 @@ ex:Lucas_Torro a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 109 ;
     stats:progressivePassesReceived 30 ;
-    stats:rank 2615 ;
     stats:redCards 0 ;
     stats:tackles 74 ;
     stats:tacklesWon 41 ;

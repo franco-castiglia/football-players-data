@@ -36,7 +36,6 @@ ex:Iker_Munoz a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 24 ;
     stats:progressivePassesReceived 10 ;
-    stats:rank 1825 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 2 ;

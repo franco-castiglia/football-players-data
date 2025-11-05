@@ -39,7 +39,6 @@ ex:Ousmane_Dembele a foaf:Person,
     stats:progressiveCarries 127 ;
     stats:progressivePasses 137 ;
     stats:progressivePassesReceived 252 ;
-    stats:rank 698 ;
     stats:redCards 0 ;
     stats:tackles 11 ;
     stats:tacklesWon 5 ;

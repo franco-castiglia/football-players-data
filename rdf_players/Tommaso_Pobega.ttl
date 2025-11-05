@@ -37,7 +37,6 @@ ex:Tommaso_Pobega a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 42 ;
     stats:progressivePassesReceived 23 ;
-    stats:rank 2132 ;
     stats:redCards 2 ;
     stats:tackles 33 ;
     stats:tacklesWon 19 ;

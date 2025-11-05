@@ -39,7 +39,6 @@ ex:Denis_Suarez a foaf:Person,
     stats:progressiveCarries 27 ;
     stats:progressivePasses 35 ;
     stats:progressivePassesReceived 24 ;
-    stats:rank 2517 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 8 ;

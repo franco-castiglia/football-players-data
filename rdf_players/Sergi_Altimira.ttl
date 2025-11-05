@@ -36,7 +36,6 @@ ex:Sergi_Altimira a foaf:Person,
     stats:progressiveCarries 25 ;
     stats:progressivePasses 99 ;
     stats:progressivePassesReceived 30 ;
-    stats:rank 100 ;
     stats:redCards 0 ;
     stats:tackles 61 ;
     stats:tacklesWon 37 ;

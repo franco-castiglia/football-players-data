@@ -36,7 +36,6 @@ ex:Sam_Morsy a foaf:Person,
     stats:progressiveCarries 22 ;
     stats:progressivePasses 120 ;
     stats:progressivePassesReceived 13 ;
-    stats:rank 1797 ;
     stats:redCards 0 ;
     stats:tackles 68 ;
     stats:tacklesWon 41 ;

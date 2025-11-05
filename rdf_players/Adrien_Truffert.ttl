@@ -38,7 +38,6 @@ ex:Adrien_Truffert a foaf:Person,
     stats:progressiveCarries 69 ;
     stats:progressivePasses 104 ;
     stats:progressivePassesReceived 243 ;
-    stats:rank 2636 ;
     stats:redCards 0 ;
     stats:tackles 61 ;
     stats:tacklesWon 36 ;

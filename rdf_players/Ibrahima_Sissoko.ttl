@@ -36,7 +36,6 @@ ex:Ibrahima_Sissoko a foaf:Person,
     stats:progressiveCarries 35 ;
     stats:progressivePasses 105 ;
     stats:progressivePassesReceived 69 ;
-    stats:rank 2440 ;
     stats:redCards 1 ;
     stats:tackles 66 ;
     stats:tacklesWon 44 ;

@@ -40,7 +40,6 @@ ex:Raheem_Sterling a foaf:Person,
     stats:progressiveCarries 27 ;
     stats:progressivePasses 18 ;
     stats:progressivePassesReceived 79 ;
-    stats:rank 2503 ;
     stats:redCards 0 ;
     stats:tackles 9 ;
     stats:tacklesWon 4 ;

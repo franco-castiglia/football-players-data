@@ -37,7 +37,6 @@ ex:Carlos_Vicente a foaf:Person,
     stats:progressiveCarries 104 ;
     stats:progressivePasses 68 ;
     stats:progressivePassesReceived 226 ;
-    stats:rank 2704 ;
     stats:redCards 0 ;
     stats:tackles 47 ;
     stats:tacklesWon 31 ;

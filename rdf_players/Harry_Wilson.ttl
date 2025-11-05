@@ -38,7 +38,6 @@ ex:Harry_Wilson a foaf:Person,
     stats:progressiveCarries 22 ;
     stats:progressivePasses 51 ;
     stats:progressivePassesReceived 96 ;
-    stats:rank 2775 ;
     stats:redCards 0 ;
     stats:tackles 20 ;
     stats:tacklesWon 14 ;

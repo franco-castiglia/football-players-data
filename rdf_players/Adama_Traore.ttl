@@ -39,7 +39,6 @@ ex:Adama_Traore a foaf:Person,
     stats:progressiveCarries 100 ;
     stats:progressivePasses 68 ;
     stats:progressivePassesReceived 161 ;
-    stats:rank 2624 ;
     stats:redCards 0 ;
     stats:tackles 20 ;
     stats:tacklesWon 13 ;

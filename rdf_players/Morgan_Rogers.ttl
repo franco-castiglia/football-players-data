@@ -36,7 +36,6 @@ ex:Morgan_Rogers a foaf:Person,
     stats:progressiveCarries 114 ;
     stats:progressivePasses 123 ;
     stats:progressivePassesReceived 188 ;
-    stats:rank 2246 ;
     stats:redCards 0 ;
     stats:tackles 43 ;
     stats:tacklesWon 22 ;

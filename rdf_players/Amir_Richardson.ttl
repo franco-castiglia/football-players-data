@@ -36,7 +36,6 @@ ex:Amir_Richardson a foaf:Person,
     stats:progressiveCarries 19 ;
     stats:progressivePasses 47 ;
     stats:progressivePassesReceived 31 ;
-    stats:rank 2210 ;
     stats:redCards 0 ;
     stats:tackles 30 ;
     stats:tacklesWon 13 ;

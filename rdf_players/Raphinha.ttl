@@ -39,7 +39,6 @@ ex:Raphinha a foaf:Person,
     stats:progressiveCarries 94 ;
     stats:progressivePasses 135 ;
     stats:progressivePassesReceived 349 ;
-    stats:rank 2178 ;
     stats:redCards 0 ;
     stats:tackles 36 ;
     stats:tacklesWon 22 ;

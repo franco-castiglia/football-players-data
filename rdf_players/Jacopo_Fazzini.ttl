@@ -36,7 +36,6 @@ ex:Jacopo_Fazzini a foaf:Person,
     stats:progressiveCarries 34 ;
     stats:progressivePasses 49 ;
     stats:progressivePassesReceived 88 ;
-    stats:rank 880 ;
     stats:redCards 1 ;
     stats:tackles 32 ;
     stats:tacklesWon 19 ;

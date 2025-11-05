@@ -37,7 +37,6 @@ ex:Emil_Holm a foaf:Person,
     stats:progressiveCarries 29 ;
     stats:progressivePasses 49 ;
     stats:progressivePassesReceived 43 ;
-    stats:rank 1176 ;
     stats:redCards 0 ;
     stats:tackles 34 ;
     stats:tacklesWon 21 ;

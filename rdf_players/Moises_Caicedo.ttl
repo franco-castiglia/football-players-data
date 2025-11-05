@@ -38,7 +38,6 @@ ex:Moises_Caicedo a foaf:Person,
     stats:progressiveCarries 43 ;
     stats:progressivePasses 215 ;
     stats:progressivePassesReceived 37 ;
-    stats:rank 435 ;
     stats:redCards 0 ;
     stats:tackles 114 ;
     stats:tacklesWon 73 ;

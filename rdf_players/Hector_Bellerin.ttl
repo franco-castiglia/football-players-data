@@ -40,7 +40,6 @@ ex:Hector_Bellerin a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 24 ;
     stats:progressivePassesReceived 22 ;
-    stats:rank 288 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 7 ;

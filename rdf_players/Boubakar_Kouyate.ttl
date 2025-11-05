@@ -36,7 +36,6 @@ ex:Boubakar_Kouyate a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 12 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 1402 ;
     stats:redCards 1 ;
     stats:tackles 22 ;
     stats:tacklesWon 17 ;

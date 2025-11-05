@@ -37,7 +37,6 @@ ex:Honest_Ahanor a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 3 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 51 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 5 ;

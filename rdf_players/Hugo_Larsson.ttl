@@ -38,7 +38,6 @@ ex:Hugo_Larsson a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 121 ;
     stats:progressivePassesReceived 33 ;
-    stats:rank 1451 ;
     stats:redCards 0 ;
     stats:tackles 47 ;
     stats:tacklesWon 27 ;

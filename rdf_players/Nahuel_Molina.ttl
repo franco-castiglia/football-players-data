@@ -37,7 +37,6 @@ ex:Nahuel_Molina a foaf:Person,
     stats:progressiveCarries 35 ;
     stats:progressivePasses 61 ;
     stats:progressivePassesReceived 96 ;
-    stats:rank 1776 ;
     stats:redCards 0 ;
     stats:tackles 44 ;
     stats:tacklesWon 19 ;

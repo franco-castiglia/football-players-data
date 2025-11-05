@@ -36,7 +36,6 @@ ex:Cristian_Gamboa a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 5 ;
     stats:progressivePassesReceived 9 ;
-    stats:rank 962 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 3 ;

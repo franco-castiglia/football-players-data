@@ -36,7 +36,6 @@ ex:Jonas_Rouhi a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 9 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 2265 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 1 ;

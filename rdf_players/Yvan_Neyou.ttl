@@ -36,7 +36,6 @@ ex:Yvan_Neyou a foaf:Person,
     stats:progressiveCarries 24 ;
     stats:progressivePasses 96 ;
     stats:progressivePassesReceived 30 ;
-    stats:rank 1889 ;
     stats:redCards 0 ;
     stats:tackles 53 ;
     stats:tacklesWon 33 ;

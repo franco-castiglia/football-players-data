@@ -35,7 +35,6 @@ ex:Arkaitz_Mariezkurrena a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 4 ;
     stats:progressivePassesReceived 12 ;
-    stats:rank 1625 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 0 ;

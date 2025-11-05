@@ -38,7 +38,6 @@ ex:Jeremie_Boga a foaf:Person,
     stats:progressiveCarries 64 ;
     stats:progressivePasses 39 ;
     stats:progressivePassesReceived 75 ;
-    stats:rank 353 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 5 ;

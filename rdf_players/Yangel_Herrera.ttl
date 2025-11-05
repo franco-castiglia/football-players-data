@@ -38,7 +38,6 @@ ex:Yangel_Herrera a foaf:Person,
     stats:progressiveCarries 31 ;
     stats:progressivePasses 110 ;
     stats:progressivePassesReceived 99 ;
-    stats:rank 1158 ;
     stats:redCards 1 ;
     stats:tackles 66 ;
     stats:tacklesWon 39 ;

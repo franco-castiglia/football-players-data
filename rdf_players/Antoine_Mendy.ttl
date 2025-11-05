@@ -36,7 +36,6 @@ ex:Antoine_Mendy a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 35 ;
     stats:progressivePassesReceived 15 ;
-    stats:rank 1720 ;
     stats:redCards 0 ;
     stats:tackles 30 ;
     stats:tacklesWon 21 ;

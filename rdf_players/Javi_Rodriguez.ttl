@@ -36,7 +36,6 @@ ex:Javi_Rodriguez a foaf:Person,
     stats:progressiveCarries 29 ;
     stats:progressivePasses 114 ;
     stats:progressivePassesReceived 51 ;
-    stats:rank 2239 ;
     stats:redCards 0 ;
     stats:tackles 53 ;
     stats:tacklesWon 38 ;

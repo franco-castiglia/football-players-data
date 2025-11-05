@@ -37,7 +37,6 @@ ex:Eric_Junior_Dina_Ebimbe a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 3 ;
     stats:progressivePassesReceived 27 ;
-    stats:rank 735 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 2 ;

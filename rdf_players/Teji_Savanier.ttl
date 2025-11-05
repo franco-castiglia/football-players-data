@@ -36,7 +36,6 @@ ex:Teji_Savanier a foaf:Person,
     stats:progressiveCarries 26 ;
     stats:progressivePasses 183 ;
     stats:progressivePassesReceived 108 ;
-    stats:rank 2358 ;
     stats:redCards 1 ;
     stats:tackles 29 ;
     stats:tacklesWon 25 ;

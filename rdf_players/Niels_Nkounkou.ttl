@@ -36,7 +36,6 @@ ex:Niels_Nkounkou a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 15 ;
     stats:progressivePassesReceived 21 ;
-    stats:rank 1909 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 10 ;

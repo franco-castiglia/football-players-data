@@ -39,7 +39,6 @@ ex:Andrea_Belotti a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 9 ;
     stats:progressivePassesReceived 33 ;
-    stats:rank 291 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 5 ;

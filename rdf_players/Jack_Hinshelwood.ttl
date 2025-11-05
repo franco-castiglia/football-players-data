@@ -36,7 +36,6 @@ ex:Jack_Hinshelwood a foaf:Person,
     stats:progressiveCarries 19 ;
     stats:progressivePasses 68 ;
     stats:progressivePassesReceived 54 ;
-    stats:rank 1166 ;
     stats:redCards 0 ;
     stats:tackles 27 ;
     stats:tacklesWon 19 ;

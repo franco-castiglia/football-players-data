@@ -37,7 +37,6 @@ ex:Matt_ORiley a foaf:Person,
     stats:progressiveCarries 22 ;
     stats:progressivePasses 38 ;
     stats:progressivePassesReceived 52 ;
-    stats:rank 1935 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 9 ;

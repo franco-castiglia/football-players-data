@@ -37,7 +37,6 @@ ex:Djibril_Sidibe a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 121 ;
     stats:progressivePassesReceived 50 ;
-    stats:rank 2407 ;
     stats:redCards 0 ;
     stats:tackles 65 ;
     stats:tacklesWon 36 ;

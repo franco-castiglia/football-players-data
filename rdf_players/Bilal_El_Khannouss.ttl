@@ -35,7 +35,6 @@ ex:Bilal_El_Khannouss a foaf:Person,
     stats:progressiveCarries 73 ;
     stats:progressivePasses 128 ;
     stats:progressivePassesReceived 89 ;
-    stats:rank 1349 ;
     stats:redCards 0 ;
     stats:tackles 50 ;
     stats:tacklesWon 30 ;

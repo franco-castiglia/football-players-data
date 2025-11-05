@@ -38,7 +38,6 @@ ex:Remy_Cabella a foaf:Person,
     stats:progressiveCarries 45 ;
     stats:progressivePasses 77 ;
     stats:progressivePassesReceived 130 ;
-    stats:rank 429 ;
     stats:redCards 0 ;
     stats:tackles 39 ;
     stats:tacklesWon 19 ;

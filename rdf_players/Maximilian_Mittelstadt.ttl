@@ -37,7 +37,6 @@ ex:Maximilian_Mittelstadt a foaf:Person,
     stats:progressiveCarries 62 ;
     stats:progressivePasses 182 ;
     stats:progressivePassesReceived 155 ;
-    stats:rank 1764 ;
     stats:redCards 0 ;
     stats:tackles 79 ;
     stats:tacklesWon 54 ;

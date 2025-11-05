@@ -36,7 +36,6 @@ ex:Romeo_Lavia a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 31 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 1454 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 13 ;

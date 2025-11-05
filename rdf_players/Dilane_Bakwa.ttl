@@ -36,7 +36,6 @@ ex:Dilane_Bakwa a foaf:Person,
     stats:progressiveCarries 107 ;
     stats:progressivePasses 129 ;
     stats:progressivePassesReceived 249 ;
-    stats:rank 214 ;
     stats:redCards 0 ;
     stats:tackles 26 ;
     stats:tacklesWon 14 ;

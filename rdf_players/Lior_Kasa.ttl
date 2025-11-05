@@ -35,7 +35,6 @@ ex:Lior_Kasa a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 1325 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 4 ;

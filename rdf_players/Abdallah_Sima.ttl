@@ -36,7 +36,6 @@ ex:Abdallah_Sima a foaf:Person,
     stats:progressiveCarries 36 ;
     stats:progressivePasses 24 ;
     stats:progressivePassesReceived 92 ;
-    stats:rank 2423 ;
     stats:redCards 0 ;
     stats:tackles 15 ;
     stats:tacklesWon 11 ;

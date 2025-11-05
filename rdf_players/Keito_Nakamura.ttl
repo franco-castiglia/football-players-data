@@ -37,7 +37,6 @@ ex:Keito_Nakamura a foaf:Person,
     stats:progressiveCarries 90 ;
     stats:progressivePasses 82 ;
     stats:progressivePassesReceived 197 ;
-    stats:rank 1854 ;
     stats:redCards 0 ;
     stats:tackles 24 ;
     stats:tacklesWon 16 ;

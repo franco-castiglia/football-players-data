@@ -37,7 +37,6 @@ ex:Cyle_Larin a foaf:Person,
     stats:progressiveCarries 20 ;
     stats:progressivePasses 20 ;
     stats:progressivePassesReceived 95 ;
-    stats:rank 1449 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 6 ;

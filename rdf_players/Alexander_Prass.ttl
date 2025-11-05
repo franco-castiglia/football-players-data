@@ -36,7 +36,6 @@ ex:Alexander_Prass a foaf:Person,
     stats:progressiveCarries 28 ;
     stats:progressivePasses 63 ;
     stats:progressivePassesReceived 66 ;
-    stats:rank 2147 ;
     stats:redCards 0 ;
     stats:tackles 42 ;
     stats:tacklesWon 23 ;

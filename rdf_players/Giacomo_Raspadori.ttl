@@ -38,7 +38,6 @@ ex:Giacomo_Raspadori a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 42 ;
     stats:progressivePassesReceived 57 ;
-    stats:rank 2181 ;
     stats:redCards 0 ;
     stats:tackles 18 ;
     stats:tacklesWon 9 ;

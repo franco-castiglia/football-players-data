@@ -37,7 +37,6 @@ ex:Samuel_Gigot a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 12 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 1001 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 3 ;

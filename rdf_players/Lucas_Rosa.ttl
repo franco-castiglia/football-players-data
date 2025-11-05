@@ -39,7 +39,6 @@ ex:Lucas_Rosa a foaf:Person,
     stats:progressiveCarries 31 ;
     stats:progressivePasses 50 ;
     stats:progressivePassesReceived 74 ;
-    stats:rank 1963 ;
     stats:redCards 0 ;
     stats:tackles 53 ;
     stats:tacklesWon 33 ;

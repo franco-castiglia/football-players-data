@@ -37,7 +37,6 @@ ex:Andy_Pelmard a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 13 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 2074 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 0 ;

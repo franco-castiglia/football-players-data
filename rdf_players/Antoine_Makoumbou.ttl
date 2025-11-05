@@ -37,7 +37,6 @@ ex:Antoine_Makoumbou a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 92 ;
     stats:progressivePassesReceived 14 ;
-    stats:rank 1581 ;
     stats:redCards 1 ;
     stats:tackles 42 ;
     stats:tacklesWon 23 ;

@@ -36,7 +36,6 @@ ex:Joao_Neves a foaf:Person,
     stats:progressiveCarries 35 ;
     stats:progressivePasses 144 ;
     stats:progressivePassesReceived 80 ;
-    stats:rank 1888 ;
     stats:redCards 0 ;
     stats:tackles 63 ;
     stats:tacklesWon 31 ;

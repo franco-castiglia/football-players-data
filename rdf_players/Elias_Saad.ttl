@@ -36,7 +36,6 @@ ex:Elias_Saad a foaf:Person,
     stats:progressiveCarries 29 ;
     stats:progressivePasses 27 ;
     stats:progressivePassesReceived 76 ;
-    stats:rank 2283 ;
     stats:redCards 0 ;
     stats:tackles 20 ;
     stats:tacklesWon 13 ;

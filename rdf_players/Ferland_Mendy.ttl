@@ -37,7 +37,6 @@ ex:Ferland_Mendy a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 36 ;
     stats:progressivePassesReceived 40 ;
-    stats:rank 1721 ;
     stats:redCards 1 ;
     stats:tackles 17 ;
     stats:tacklesWon 14 ;

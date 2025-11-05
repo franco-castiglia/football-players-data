@@ -40,7 +40,6 @@ ex:Inigo_Martinez a foaf:Person,
     stats:progressiveCarries 70 ;
     stats:progressivePasses 260 ;
     stats:progressivePassesReceived 11 ;
-    stats:rank 1648 ;
     stats:redCards 0 ;
     stats:tackles 25 ;
     stats:tacklesWon 14 ;

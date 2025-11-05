@@ -37,7 +37,6 @@ ex:Jurrien_Timber a foaf:Person,
     stats:progressiveCarries 57 ;
     stats:progressivePasses 146 ;
     stats:progressivePassesReceived 104 ;
-    stats:rank 2598 ;
     stats:redCards 0 ;
     stats:tackles 58 ;
     stats:tacklesWon 38 ;

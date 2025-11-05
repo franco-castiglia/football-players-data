@@ -36,7 +36,6 @@ ex:Fabio_Chiarodia a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 10 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 545 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 4 ;

@@ -38,7 +38,6 @@ ex:Lorenzo_Pellegrini a foaf:Person,
     stats:progressiveCarries 27 ;
     stats:progressivePasses 61 ;
     stats:progressivePassesReceived 82 ;
-    stats:rank 2069 ;
     stats:redCards 0 ;
     stats:tackles 24 ;
     stats:tacklesWon 16 ;

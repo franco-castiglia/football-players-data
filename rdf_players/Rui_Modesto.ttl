@@ -36,7 +36,6 @@ ex:Rui_Modesto a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 22 ;
     stats:progressivePassesReceived 43 ;
-    stats:rank 1768 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 12 ;

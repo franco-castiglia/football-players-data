@@ -37,7 +37,6 @@ ex:Carlos_Baleba a foaf:Person,
     stats:progressiveCarries 43 ;
     stats:progressivePasses 118 ;
     stats:progressivePassesReceived 29 ;
-    stats:rank 218 ;
     stats:redCards 1 ;
     stats:tackles 79 ;
     stats:tacklesWon 46 ;

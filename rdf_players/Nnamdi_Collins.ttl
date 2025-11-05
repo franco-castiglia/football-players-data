@@ -36,7 +36,6 @@ ex:Nnamdi_Collins a foaf:Person,
     stats:progressiveCarries 30 ;
     stats:progressivePasses 63 ;
     stats:progressivePassesReceived 42 ;
-    stats:rank 580 ;
     stats:redCards 0 ;
     stats:tackles 33 ;
     stats:tacklesWon 24 ;

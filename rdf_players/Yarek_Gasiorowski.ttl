@@ -36,7 +36,6 @@ ex:Yarek_Gasiorowski a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 38 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 980 ;
     stats:redCards 0 ;
     stats:tackles 19 ;
     stats:tacklesWon 16 ;

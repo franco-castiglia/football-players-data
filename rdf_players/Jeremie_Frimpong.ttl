@@ -37,7 +37,6 @@ ex:Jeremie_Frimpong a foaf:Person,
     stats:progressiveCarries 100 ;
     stats:progressivePasses 55 ;
     stats:progressivePassesReceived 272 ;
-    stats:rank 941 ;
     stats:redCards 0 ;
     stats:tackles 33 ;
     stats:tacklesWon 25 ;

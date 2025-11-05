@@ -37,7 +37,6 @@ ex:Andreas_Skov_Olsen a foaf:Person,
     stats:progressiveCarries 22 ;
     stats:progressivePasses 22 ;
     stats:progressivePassesReceived 48 ;
-    stats:rank 2449 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 6 ;

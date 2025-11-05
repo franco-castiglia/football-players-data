@@ -37,7 +37,6 @@ ex:Giorgos_Kyriakopoulos a foaf:Person,
     stats:progressiveCarries 67 ;
     stats:progressivePasses 97 ;
     stats:progressivePassesReceived 132 ;
-    stats:rank 1430 ;
     stats:redCards 0 ;
     stats:tackles 43 ;
     stats:tacklesWon 26 ;

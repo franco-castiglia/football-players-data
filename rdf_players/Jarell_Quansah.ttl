@@ -37,7 +37,6 @@ ex:Jarell_Quansah a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 19 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 2158 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 8 ;

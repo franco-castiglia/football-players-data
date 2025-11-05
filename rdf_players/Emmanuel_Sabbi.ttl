@@ -36,7 +36,6 @@ ex:Emmanuel_Sabbi a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 15 ;
     stats:progressivePassesReceived 39 ;
-    stats:rank 2285 ;
     stats:redCards 0 ;
     stats:tackles 14 ;
     stats:tacklesWon 7 ;

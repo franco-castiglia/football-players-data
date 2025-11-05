@@ -40,7 +40,6 @@ ex:Tomas_Soucek a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 74 ;
     stats:progressivePassesReceived 68 ;
-    stats:rank 2480 ;
     stats:redCards 0 ;
     stats:tackles 46 ;
     stats:tacklesWon 21 ;

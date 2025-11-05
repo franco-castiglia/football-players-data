@@ -39,7 +39,6 @@ ex:Charles_De_Ketelaere a foaf:Person,
     stats:progressiveCarries 108 ;
     stats:progressivePasses 140 ;
     stats:progressivePassesReceived 211 ;
-    stats:rank 681 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 9 ;

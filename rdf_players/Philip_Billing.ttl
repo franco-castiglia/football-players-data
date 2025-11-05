@@ -39,7 +39,6 @@ ex:Philip_Billing a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 5 ;
     stats:progressivePassesReceived 8 ;
-    stats:rank 335 ;
     stats:redCards 0 ;
     stats:tackles 9 ;
     stats:tacklesWon 6 ;

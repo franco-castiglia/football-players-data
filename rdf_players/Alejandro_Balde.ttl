@@ -37,7 +37,6 @@ ex:Alejandro_Balde a foaf:Person,
     stats:progressiveCarries 107 ;
     stats:progressivePasses 93 ;
     stats:progressivePassesReceived 246 ;
-    stats:rank 216 ;
     stats:redCards 0 ;
     stats:tackles 18 ;
     stats:tacklesWon 10 ;

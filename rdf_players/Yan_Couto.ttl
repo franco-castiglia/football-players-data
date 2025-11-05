@@ -36,7 +36,6 @@ ex:Yan_Couto a foaf:Person,
     stats:progressiveCarries 46 ;
     stats:progressivePasses 68 ;
     stats:progressivePassesReceived 83 ;
-    stats:rank 625 ;
     stats:redCards 0 ;
     stats:tackles 24 ;
     stats:tacklesWon 16 ;

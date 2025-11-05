@@ -36,7 +36,6 @@ ex:Ramy_Bensebaini a foaf:Person,
     stats:progressiveCarries 26 ;
     stats:progressivePasses 128 ;
     stats:progressivePassesReceived 58 ;
-    stats:rank 302 ;
     stats:redCards 0 ;
     stats:tackles 51 ;
     stats:tacklesWon 25 ;

@@ -36,7 +36,6 @@ ex:Cristian_Casseres_Jr a foaf:Person,
     stats:progressiveCarries 31 ;
     stats:progressivePasses 128 ;
     stats:progressivePassesReceived 46 ;
-    stats:rank 506 ;
     stats:redCards 0 ;
     stats:tackles 96 ;
     stats:tacklesWon 61 ;

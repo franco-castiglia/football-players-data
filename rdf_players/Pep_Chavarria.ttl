@@ -36,7 +36,6 @@ ex:Pep_Chavarria a foaf:Person,
     stats:progressiveCarries 59 ;
     stats:progressivePasses 114 ;
     stats:progressivePassesReceived 133 ;
-    stats:rank 534 ;
     stats:redCards 0 ;
     stats:tackles 46 ;
     stats:tacklesWon 36 ;

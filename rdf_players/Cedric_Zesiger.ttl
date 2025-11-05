@@ -36,7 +36,6 @@ ex:Cedric_Zesiger a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 40 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 2834 ;
     stats:redCards 1 ;
     stats:tackles 13 ;
     stats:tacklesWon 7 ;

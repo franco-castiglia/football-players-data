@@ -38,7 +38,6 @@ ex:Yordan_Osorio a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 3 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 1997 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 3 ;

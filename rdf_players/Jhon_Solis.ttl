@@ -36,7 +36,6 @@ ex:Jhon_Solis a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 29 ;
     stats:progressivePassesReceived 15 ;
-    stats:rank 2469 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 7 ;

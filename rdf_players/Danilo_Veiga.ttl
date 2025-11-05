@@ -36,7 +36,6 @@ ex:Danilo_Veiga a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 10 ;
     stats:progressivePassesReceived 13 ;
-    stats:rank 2686 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 6 ;

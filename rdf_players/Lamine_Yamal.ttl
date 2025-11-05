@@ -38,7 +38,6 @@ ex:Lamine_Yamal a foaf:Person,
     stats:progressiveCarries 181 ;
     stats:progressivePasses 160 ;
     stats:progressivePassesReceived 433 ;
-    stats:rank 2793 ;
     stats:redCards 0 ;
     stats:tackles 42 ;
     stats:tacklesWon 28 ;

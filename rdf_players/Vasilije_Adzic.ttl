@@ -36,7 +36,6 @@ ex:Vasilije_Adzic a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 1 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 36 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 2 ;

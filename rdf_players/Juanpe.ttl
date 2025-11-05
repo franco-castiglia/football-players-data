@@ -36,7 +36,6 @@ ex:Juanpe a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 26 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 1285 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 5 ;

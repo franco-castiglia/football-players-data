@@ -36,7 +36,6 @@ ex:Lewis_Miley a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 17 ;
     stats:progressivePassesReceived 8 ;
-    stats:rank 1743 ;
     stats:redCards 0 ;
     stats:tackles 14 ;
     stats:tacklesWon 11 ;

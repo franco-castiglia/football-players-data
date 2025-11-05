@@ -39,7 +39,6 @@ ex:Samuel_Chukwueze a foaf:Person,
     stats:progressiveCarries 48 ;
     stats:progressivePasses 36 ;
     stats:progressivePassesReceived 116 ;
-    stats:rank 558 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 11 ;

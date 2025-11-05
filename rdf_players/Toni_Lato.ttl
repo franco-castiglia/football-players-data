@@ -38,7 +38,6 @@ ex:Toni_Lato a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 26 ;
     stats:progressivePassesReceived 35 ;
-    stats:rank 1453 ;
     stats:redCards 1 ;
     stats:tackles 17 ;
     stats:tacklesWon 11 ;

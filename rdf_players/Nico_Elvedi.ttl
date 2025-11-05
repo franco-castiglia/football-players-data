@@ -37,7 +37,6 @@ ex:Nico_Elvedi a foaf:Person,
     stats:progressiveCarries 20 ;
     stats:progressivePasses 55 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 837 ;
     stats:redCards 0 ;
     stats:tackles 38 ;
     stats:tacklesWon 23 ;

@@ -36,7 +36,6 @@ ex:Yorbe_Vertessen a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 16 ;
     stats:progressivePassesReceived 42 ;
-    stats:rank 2699 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 3 ;

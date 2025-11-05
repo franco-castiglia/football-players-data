@@ -36,7 +36,6 @@ ex:Chuba_Akpom a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 38 ;
-    stats:rank 73 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 5 ;

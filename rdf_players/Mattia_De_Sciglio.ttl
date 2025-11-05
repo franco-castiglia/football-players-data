@@ -39,7 +39,6 @@ ex:Mattia_De_Sciglio a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 18 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 684 ;
     stats:redCards 0 ;
     stats:tackles 18 ;
     stats:tacklesWon 13 ;

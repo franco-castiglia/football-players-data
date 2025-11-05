@@ -38,7 +38,6 @@ ex:Portu a foaf:Person,
     stats:progressiveCarries 20 ;
     stats:progressivePasses 16 ;
     stats:progressivePassesReceived 79 ;
-    stats:rank 2141 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 7 ;

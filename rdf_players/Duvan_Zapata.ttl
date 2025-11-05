@@ -37,7 +37,6 @@ ex:Duvan_Zapata a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 36 ;
-    stats:rank 2821 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 5 ;

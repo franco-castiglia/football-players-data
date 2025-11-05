@@ -37,7 +37,6 @@ ex:Clinton_Mata a foaf:Person,
     stats:progressiveCarries 20 ;
     stats:progressivePasses 88 ;
     stats:progressivePassesReceived 23 ;
-    stats:rank 1666 ;
     stats:redCards 0 ;
     stats:tackles 41 ;
     stats:tacklesWon 29 ;

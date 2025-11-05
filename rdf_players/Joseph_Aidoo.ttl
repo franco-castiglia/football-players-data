@@ -37,7 +37,6 @@ ex:Joseph_Aidoo a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 14 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 54 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 5 ;

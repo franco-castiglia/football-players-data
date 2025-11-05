@@ -36,7 +36,6 @@ ex:Tim_Kleindienst a foaf:Person,
     stats:progressiveCarries 45 ;
     stats:progressivePasses 63 ;
     stats:progressivePassesReceived 145 ;
-    stats:rank 1365 ;
     stats:redCards 1 ;
     stats:tackles 30 ;
     stats:tacklesWon 15 ;

@@ -37,7 +37,6 @@ ex:Francesco_Acerbi a foaf:Person,
     stats:progressiveCarries 19 ;
     stats:progressivePasses 62 ;
     stats:progressivePassesReceived 22 ;
-    stats:rank 21 ;
     stats:redCards 0 ;
     stats:tackles 23 ;
     stats:tacklesWon 19 ;

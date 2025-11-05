@@ -36,7 +36,6 @@ ex:Luis_Henrique a foaf:Person,
     stats:progressiveCarries 84 ;
     stats:progressivePasses 143 ;
     stats:progressivePassesReceived 280 ;
-    stats:rank 1145 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 9 ;

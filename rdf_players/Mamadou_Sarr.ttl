@@ -36,7 +36,6 @@ ex:Mamadou_Sarr a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 52 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 2355 ;
     stats:redCards 0 ;
     stats:tackles 37 ;
     stats:tacklesWon 21 ;

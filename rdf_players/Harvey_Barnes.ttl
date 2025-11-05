@@ -38,7 +38,6 @@ ex:Harvey_Barnes a foaf:Person,
     stats:progressiveCarries 93 ;
     stats:progressivePasses 83 ;
     stats:progressivePassesReceived 192 ;
-    stats:rank 248 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 9 ;

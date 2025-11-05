@@ -36,7 +36,6 @@ ex:Alex_Munoz a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 45 ;
     stats:progressivePassesReceived 53 ;
-    stats:rank 1823 ;
     stats:redCards 0 ;
     stats:tackles 39 ;
     stats:tacklesWon 29 ;

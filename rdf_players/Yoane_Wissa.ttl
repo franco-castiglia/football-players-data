@@ -36,7 +36,6 @@ ex:Yoane_Wissa a foaf:Person,
     stats:progressiveCarries 60 ;
     stats:progressivePasses 67 ;
     stats:progressivePassesReceived 154 ;
-    stats:rank 2781 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 12 ;

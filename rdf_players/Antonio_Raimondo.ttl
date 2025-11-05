@@ -36,7 +36,6 @@ ex:Antonio_Raimondo a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 2 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 2167 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 1 ;

@@ -36,7 +36,6 @@ ex:Caleb_Wiley a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 9 ;
-    stats:rank 2768 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 0 ;

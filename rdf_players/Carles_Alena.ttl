@@ -39,7 +39,6 @@ ex:Carles_Alena a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 58 ;
     stats:progressivePassesReceived 43 ;
-    stats:rank 82 ;
     stats:redCards 0 ;
     stats:tackles 19 ;
     stats:tacklesWon 12 ;

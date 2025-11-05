@@ -37,7 +37,6 @@ ex:Ruben_Pena a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 27 ;
     stats:progressivePassesReceived 57 ;
-    stats:rank 2078 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 5 ;

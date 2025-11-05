@@ -36,7 +36,6 @@ ex:Carlos_Guirao a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 2 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 1092 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 3 ;

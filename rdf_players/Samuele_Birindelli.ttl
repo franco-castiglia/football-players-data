@@ -37,7 +37,6 @@ ex:Samuele_Birindelli a foaf:Person,
     stats:progressiveCarries 40 ;
     stats:progressivePasses 35 ;
     stats:progressivePassesReceived 100 ;
-    stats:rank 338 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 15 ;

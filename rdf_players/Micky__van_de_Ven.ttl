@@ -36,7 +36,6 @@ ex:Micky__van_de_Ven a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 51 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 2692 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 6 ;

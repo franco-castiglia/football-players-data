@@ -38,7 +38,6 @@ ex:Miguel_Almiron a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 6 ;
     stats:progressivePassesReceived 18 ;
-    stats:rank 95 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 2 ;

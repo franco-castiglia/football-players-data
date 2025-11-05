@@ -36,7 +36,6 @@ ex:Lars_Ritzka a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 21 ;
     stats:progressivePassesReceived 34 ;
-    stats:rank 2220 ;
     stats:redCards 0 ;
     stats:tackles 49 ;
     stats:tacklesWon 29 ;

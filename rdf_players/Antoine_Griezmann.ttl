@@ -40,7 +40,6 @@ ex:Antoine_Griezmann a foaf:Person,
     stats:progressiveCarries 46 ;
     stats:progressivePasses 143 ;
     stats:progressivePassesReceived 177 ;
-    stats:rank 1064 ;
     stats:redCards 0 ;
     stats:tackles 30 ;
     stats:tacklesWon 17 ;

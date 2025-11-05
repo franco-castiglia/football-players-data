@@ -39,7 +39,6 @@ ex:Daniel_Parejo a foaf:Person,
     stats:progressiveCarries 19 ;
     stats:progressivePasses 176 ;
     stats:progressivePassesReceived 26 ;
-    stats:rank 2041 ;
     stats:redCards 0 ;
     stats:tackles 52 ;
     stats:tacklesWon 40 ;

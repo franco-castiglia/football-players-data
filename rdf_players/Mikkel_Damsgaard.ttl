@@ -37,7 +37,6 @@ ex:Mikkel_Damsgaard a foaf:Person,
     stats:progressiveCarries 73 ;
     stats:progressivePasses 234 ;
     stats:progressivePassesReceived 137 ;
-    stats:rank 652 ;
     stats:redCards 0 ;
     stats:tackles 83 ;
     stats:tacklesWon 44 ;

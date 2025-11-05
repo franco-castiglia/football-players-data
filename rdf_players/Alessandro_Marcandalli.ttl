@@ -36,7 +36,6 @@ ex:Alessandro_Marcandalli a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 10 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 1613 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 6 ;

@@ -36,7 +36,6 @@ ex:Willy_Kambwala a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 16 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 1314 ;
     stats:redCards 1 ;
     stats:tackles 17 ;
     stats:tacklesWon 12 ;

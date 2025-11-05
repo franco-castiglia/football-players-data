@@ -37,7 +37,6 @@ ex:Jose_Luis_Gaya a foaf:Person,
     stats:progressiveCarries 29 ;
     stats:progressivePasses 59 ;
     stats:progressivePassesReceived 156 ;
-    stats:rank 1535 ;
     stats:redCards 0 ;
     stats:tackles 57 ;
     stats:tacklesWon 40 ;

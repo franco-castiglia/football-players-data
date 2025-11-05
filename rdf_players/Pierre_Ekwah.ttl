@@ -36,7 +36,6 @@ ex:Pierre_Ekwah a foaf:Person,
     stats:progressiveCarries 20 ;
     stats:progressivePasses 146 ;
     stats:progressivePassesReceived 21 ;
-    stats:rank 829 ;
     stats:redCards 0 ;
     stats:tackles 54 ;
     stats:tacklesWon 33 ;

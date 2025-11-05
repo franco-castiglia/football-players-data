@@ -39,7 +39,6 @@ ex:Giovanni_Simeone a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 30 ;
-    stats:rank 2425 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 0 ;

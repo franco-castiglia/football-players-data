@@ -36,7 +36,6 @@ ex:Alex_Valle a foaf:Person,
     stats:progressiveCarries 19 ;
     stats:progressivePasses 44 ;
     stats:progressivePassesReceived 30 ;
-    stats:rank 2664 ;
     stats:redCards 0 ;
     stats:tackles 26 ;
     stats:tacklesWon 12 ;

@@ -37,7 +37,6 @@ ex:Fabiano_Parisi a foaf:Person,
     stats:progressiveCarries 25 ;
     stats:progressivePasses 40 ;
     stats:progressivePassesReceived 35 ;
-    stats:rank 2043 ;
     stats:redCards 0 ;
     stats:tackles 27 ;
     stats:tacklesWon 17 ;

@@ -36,7 +36,6 @@ ex:Ruben_Aguilar a foaf:Person,
     stats:progressiveCarries 32 ;
     stats:progressivePasses 74 ;
     stats:progressivePassesReceived 101 ;
-    stats:rank 49 ;
     stats:redCards 0 ;
     stats:tackles 34 ;
     stats:tacklesWon 18 ;

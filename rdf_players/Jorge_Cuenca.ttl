@@ -38,7 +38,6 @@ ex:Jorge_Cuenca a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 10 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 637 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 2 ;

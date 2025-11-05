@@ -36,7 +36,6 @@ ex:Valentin_Rongier a foaf:Person,
     stats:progressiveCarries 25 ;
     stats:progressivePasses 110 ;
     stats:progressivePassesReceived 28 ;
-    stats:rank 2255 ;
     stats:redCards 0 ;
     stats:tackles 50 ;
     stats:tacklesWon 28 ;

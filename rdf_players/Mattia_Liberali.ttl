@@ -35,7 +35,6 @@ ex:Mattia_Liberali a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 5 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 1490 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 1 ;

@@ -36,7 +36,6 @@ ex:Eric_Smith a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 118 ;
     stats:progressivePassesReceived 11 ;
-    stats:rank 2456 ;
     stats:redCards 0 ;
     stats:tackles 46 ;
     stats:tacklesWon 29 ;

@@ -36,7 +36,6 @@ ex:Nicolas_Seiwald a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 140 ;
     stats:progressivePassesReceived 30 ;
-    stats:rank 2390 ;
     stats:redCards 0 ;
     stats:tackles 53 ;
     stats:tacklesWon 31 ;

@@ -36,7 +36,6 @@ ex:Medon_Berisha a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 42 ;
     stats:progressivePassesReceived 17 ;
-    stats:rank 311 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 8 ;

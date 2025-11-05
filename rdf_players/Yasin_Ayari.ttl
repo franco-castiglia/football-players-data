@@ -36,7 +36,6 @@ ex:Yasin_Ayari a foaf:Person,
     stats:progressiveCarries 30 ;
     stats:progressivePasses 75 ;
     stats:progressivePassesReceived 61 ;
-    stats:rank 182 ;
     stats:redCards 0 ;
     stats:tackles 59 ;
     stats:tacklesWon 32 ;

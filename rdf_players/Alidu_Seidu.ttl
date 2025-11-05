@@ -36,7 +36,6 @@ ex:Alidu_Seidu a foaf:Person,
     stats:progressiveCarries 23 ;
     stats:progressivePasses 41 ;
     stats:progressivePassesReceived 17 ;
-    stats:rank 2389 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 18 ;

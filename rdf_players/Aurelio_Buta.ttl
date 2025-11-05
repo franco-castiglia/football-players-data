@@ -36,7 +36,6 @@ ex:Aurelio_Buta a foaf:Person,
     stats:progressiveCarries 28 ;
     stats:progressivePasses 83 ;
     stats:progressivePassesReceived 64 ;
-    stats:rank 423 ;
     stats:redCards 0 ;
     stats:tackles 37 ;
     stats:tacklesWon 24 ;

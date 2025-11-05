@@ -35,7 +35,6 @@ ex:Jim_Allevinah a foaf:Person,
     stats:progressiveCarries 57 ;
     stats:progressivePasses 48 ;
     stats:progressivePassesReceived 99 ;
-    stats:rank 90 ;
     stats:redCards 0 ;
     stats:tackles 19 ;
     stats:tacklesWon 11 ;

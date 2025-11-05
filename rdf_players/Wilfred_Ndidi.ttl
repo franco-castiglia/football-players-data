@@ -39,7 +39,6 @@ ex:Wilfred_Ndidi a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 70 ;
     stats:progressivePassesReceived 75 ;
-    stats:rank 1868 ;
     stats:redCards 0 ;
     stats:tackles 85 ;
     stats:tacklesWon 51 ;

@@ -38,7 +38,6 @@ ex:Jack_Stephens a foaf:Person,
     stats:progressiveCarries 14 ;
     stats:progressivePasses 63 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 2501 ;
     stats:redCards 2 ;
     stats:tackles 34 ;
     stats:tacklesWon 20 ;

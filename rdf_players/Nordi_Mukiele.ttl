@@ -38,7 +38,6 @@ ex:Nordi_Mukiele a foaf:Person,
     stats:progressiveCarries 20 ;
     stats:progressivePasses 36 ;
     stats:progressivePassesReceived 28 ;
-    stats:rank 1813 ;
     stats:redCards 0 ;
     stats:tackles 20 ;
     stats:tacklesWon 16 ;

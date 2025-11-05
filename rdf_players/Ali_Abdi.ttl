@@ -37,7 +37,6 @@ ex:Ali_Abdi a foaf:Person,
     stats:progressiveCarries 35 ;
     stats:progressivePasses 42 ;
     stats:progressivePassesReceived 101 ;
-    stats:rank 9 ;
     stats:redCards 0 ;
     stats:tackles 43 ;
     stats:tacklesWon 25 ;

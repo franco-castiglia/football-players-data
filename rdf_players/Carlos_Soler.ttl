@@ -39,7 +39,6 @@ ex:Carlos_Soler a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 56 ;
     stats:progressivePassesReceived 37 ;
-    stats:rank 2466 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 11 ;

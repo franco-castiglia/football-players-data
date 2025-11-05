@@ -35,7 +35,6 @@ ex:Eloge_Zabi_Gueu a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 2 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 2805 ;
     stats:redCards 1 ;
     stats:tackles 0 ;
     stats:tacklesWon 0 ;

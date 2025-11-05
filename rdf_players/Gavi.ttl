@@ -38,7 +38,6 @@ ex:Gavi a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 77 ;
     stats:progressivePassesReceived 42 ;
-    stats:rank 982 ;
     stats:redCards 0 ;
     stats:tackles 30 ;
     stats:tacklesWon 21 ;

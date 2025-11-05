@@ -36,7 +36,6 @@ ex:Jarrad_Branthwaite a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 66 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 382 ;
     stats:redCards 0 ;
     stats:tackles 36 ;
     stats:tacklesWon 20 ;

@@ -36,7 +36,6 @@ ex:Anrie_Chase a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 28 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 533 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 4 ;

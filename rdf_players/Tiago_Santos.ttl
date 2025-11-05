@@ -36,7 +36,6 @@ ex:Tiago_Santos a foaf:Person,
     stats:progressiveCarries 24 ;
     stats:progressivePasses 17 ;
     stats:progressivePassesReceived 43 ;
-    stats:rank 2349 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 7 ;

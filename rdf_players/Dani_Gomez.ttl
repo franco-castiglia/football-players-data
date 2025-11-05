@@ -36,7 +36,6 @@ ex:Dani_Gomez a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 6 ;
     stats:progressivePassesReceived 24 ;
-    stats:rank 1027 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 2 ;

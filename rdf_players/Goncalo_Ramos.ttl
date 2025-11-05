@@ -37,7 +37,6 @@ ex:Goncalo_Ramos a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 24 ;
     stats:progressivePassesReceived 63 ;
-    stats:rank 2172 ;
     stats:redCards 0 ;
     stats:tackles 11 ;
     stats:tacklesWon 6 ;

@@ -40,7 +40,6 @@ ex:Lucas_Paqueta a foaf:Person,
     stats:progressiveCarries 26 ;
     stats:progressivePasses 155 ;
     stats:progressivePassesReceived 85 ;
-    stats:rank 2037 ;
     stats:redCards 0 ;
     stats:tackles 66 ;
     stats:tacklesWon 37 ;

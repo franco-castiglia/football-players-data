@@ -39,7 +39,6 @@ ex:Will_Hughes a foaf:Person,
     stats:progressiveCarries 20 ;
     stats:progressivePasses 87 ;
     stats:progressivePassesReceived 27 ;
-    stats:rank 1189 ;
     stats:redCards 0 ;
     stats:tackles 66 ;
     stats:tacklesWon 36 ;

@@ -36,7 +36,6 @@ ex:Eliot_Matazo a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 1670 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 2 ;

@@ -36,7 +36,6 @@ ex:Adama_Boiro a foaf:Person,
     stats:progressiveCarries 25 ;
     stats:progressivePasses 46 ;
     stats:progressivePassesReceived 36 ;
-    stats:rank 356 ;
     stats:redCards 0 ;
     stats:tackles 20 ;
     stats:tacklesWon 11 ;

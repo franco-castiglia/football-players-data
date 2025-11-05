@@ -36,7 +36,6 @@ ex:Lennard_Maloney a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 14 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 1592 ;
     stats:redCards 0 ;
     stats:tackles 20 ;
     stats:tacklesWon 11 ;

@@ -36,7 +36,6 @@ ex:Marko_Ivezic a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 40 ;
     stats:progressivePassesReceived 9 ;
-    stats:rank 1230 ;
     stats:redCards 0 ;
     stats:tackles 29 ;
     stats:tacklesWon 19 ;

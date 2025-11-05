@@ -36,7 +36,6 @@ ex:Marcus_Coco a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 34 ;
     stats:progressivePassesReceived 40 ;
-    stats:rank 576 ;
     stats:redCards 2 ;
     stats:tackles 27 ;
     stats:tacklesWon 21 ;

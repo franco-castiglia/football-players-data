@@ -36,7 +36,6 @@ ex:Jacob_Ramsey a foaf:Person,
     stats:progressiveCarries 61 ;
     stats:progressivePasses 68 ;
     stats:progressivePassesReceived 114 ;
-    stats:rank 2174 ;
     stats:redCards 1 ;
     stats:tackles 30 ;
     stats:tacklesWon 15 ;

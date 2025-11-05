@@ -36,7 +36,6 @@ ex:Antonio_Sanchez a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 38 ;
     stats:progressivePassesReceived 53 ;
-    stats:rank 2327 ;
     stats:redCards 0 ;
     stats:tackles 28 ;
     stats:tacklesWon 16 ;

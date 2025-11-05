@@ -38,7 +38,6 @@ ex:Ben_Lhassine_Kone a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 3 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 1489 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 2 ;

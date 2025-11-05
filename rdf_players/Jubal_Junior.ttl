@@ -36,7 +36,6 @@ ex:Jubal_Junior a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 33 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 1286 ;
     stats:redCards 0 ;
     stats:tackles 60 ;
     stats:tacklesWon 39 ;

@@ -36,7 +36,6 @@ ex:Ramon_Hendriks a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 36 ;
     stats:progressivePassesReceived 22 ;
-    stats:rank 1141 ;
     stats:redCards 0 ;
     stats:tackles 20 ;
     stats:tacklesWon 9 ;

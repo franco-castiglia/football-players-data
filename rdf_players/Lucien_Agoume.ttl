@@ -37,7 +37,6 @@ ex:Lucien_Agoume a foaf:Person,
     stats:progressiveCarries 29 ;
     stats:progressivePasses 135 ;
     stats:progressivePassesReceived 23 ;
-    stats:rank 44 ;
     stats:redCards 1 ;
     stats:tackles 70 ;
     stats:tacklesWon 32 ;

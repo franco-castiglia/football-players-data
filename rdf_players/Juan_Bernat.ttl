@@ -40,7 +40,6 @@ ex:Juan_Bernat a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 14 ;
     stats:progressivePassesReceived 36 ;
-    stats:rank 318 ;
     stats:redCards 0 ;
     stats:tackles 19 ;
     stats:tacklesWon 13 ;

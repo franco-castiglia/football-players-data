@@ -38,7 +38,6 @@ ex:Diego_Llorente a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 81 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 1503 ;
     stats:redCards 0 ;
     stats:tackles 36 ;
     stats:tacklesWon 20 ;

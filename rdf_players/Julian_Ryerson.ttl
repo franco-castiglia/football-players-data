@@ -37,7 +37,6 @@ ex:Julian_Ryerson a foaf:Person,
     stats:progressiveCarries 66 ;
     stats:progressivePasses 92 ;
     stats:progressivePassesReceived 136 ;
-    stats:rank 2280 ;
     stats:redCards 1 ;
     stats:tackles 46 ;
     stats:tacklesWon 30 ;

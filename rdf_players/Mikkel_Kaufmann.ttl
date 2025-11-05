@@ -36,7 +36,6 @@ ex:Mikkel_Kaufmann a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 10 ;
     stats:progressivePassesReceived 21 ;
-    stats:rank 1327 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 4 ;

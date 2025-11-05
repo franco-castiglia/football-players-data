@@ -38,7 +38,6 @@ ex:Takefusa_Kubo a foaf:Person,
     stats:progressiveCarries 133 ;
     stats:progressivePasses 110 ;
     stats:progressivePassesReceived 218 ;
-    stats:rank 1420 ;
     stats:redCards 0 ;
     stats:tackles 31 ;
     stats:tacklesWon 20 ;

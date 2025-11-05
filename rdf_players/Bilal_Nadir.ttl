@@ -36,7 +36,6 @@ ex:Bilal_Nadir a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 18 ;
     stats:progressivePassesReceived 25 ;
-    stats:rank 1852 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 3 ;

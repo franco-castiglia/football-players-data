@@ -37,7 +37,6 @@ ex:Victor_Kristiansen a foaf:Person,
     stats:progressiveCarries 40 ;
     stats:progressivePasses 70 ;
     stats:progressivePassesReceived 78 ;
-    stats:rank 322 ;
     stats:redCards 0 ;
     stats:tackles 87 ;
     stats:tacklesWon 51 ;

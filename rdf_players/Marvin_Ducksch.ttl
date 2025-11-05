@@ -36,7 +36,6 @@ ex:Marvin_Ducksch a foaf:Person,
     stats:progressiveCarries 26 ;
     stats:progressivePasses 86 ;
     stats:progressivePassesReceived 166 ;
-    stats:rank 793 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 7 ;

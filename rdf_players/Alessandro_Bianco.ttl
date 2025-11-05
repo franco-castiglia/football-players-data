@@ -36,7 +36,6 @@ ex:Alessandro_Bianco a foaf:Person,
     stats:progressiveCarries 35 ;
     stats:progressivePasses 125 ;
     stats:progressivePassesReceived 24 ;
-    stats:rank 329 ;
     stats:redCards 0 ;
     stats:tackles 51 ;
     stats:tacklesWon 28 ;

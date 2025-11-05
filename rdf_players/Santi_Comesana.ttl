@@ -36,7 +36,6 @@ ex:Santi_Comesana a foaf:Person,
     stats:progressiveCarries 39 ;
     stats:progressivePasses 154 ;
     stats:progressivePassesReceived 58 ;
-    stats:rank 588 ;
     stats:redCards 0 ;
     stats:tackles 85 ;
     stats:tacklesWon 49 ;

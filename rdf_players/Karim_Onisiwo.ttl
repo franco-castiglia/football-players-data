@@ -36,7 +36,6 @@ ex:Karim_Onisiwo a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 0 ;
     stats:progressivePassesReceived 8 ;
-    stats:rank 1976 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 1 ;

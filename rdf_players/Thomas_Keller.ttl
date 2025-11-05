@@ -36,7 +36,6 @@ ex:Thomas_Keller a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 6 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 1340 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 5 ;

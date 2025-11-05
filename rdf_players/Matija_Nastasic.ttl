@@ -36,7 +36,6 @@ ex:Matija_Nastasic a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 59 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 1858 ;
     stats:redCards 0 ;
     stats:tackles 25 ;
     stats:tacklesWon 11 ;

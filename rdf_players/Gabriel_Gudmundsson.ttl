@@ -38,7 +38,6 @@ ex:Gabriel_Gudmundsson a foaf:Person,
     stats:progressiveCarries 71 ;
     stats:progressivePasses 91 ;
     stats:progressivePassesReceived 115 ;
-    stats:rank 1077 ;
     stats:redCards 0 ;
     stats:tackles 36 ;
     stats:tacklesWon 25 ;

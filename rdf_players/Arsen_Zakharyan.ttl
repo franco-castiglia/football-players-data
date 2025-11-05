@@ -36,7 +36,6 @@ ex:Arsen_Zakharyan a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 3 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 2813 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 1 ;

@@ -39,7 +39,6 @@ ex:Ezri_Konsa a foaf:Person,
     stats:progressiveCarries 24 ;
     stats:progressivePasses 90 ;
     stats:progressivePassesReceived 11 ;
-    stats:rank 1392 ;
     stats:redCards 0 ;
     stats:tackles 34 ;
     stats:tacklesWon 18 ;

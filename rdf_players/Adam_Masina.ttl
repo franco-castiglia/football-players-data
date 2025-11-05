@@ -37,7 +37,6 @@ ex:Adam_Masina a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 73 ;
     stats:progressivePassesReceived 10 ;
-    stats:rank 1661 ;
     stats:redCards 0 ;
     stats:tackles 33 ;
     stats:tacklesWon 15 ;

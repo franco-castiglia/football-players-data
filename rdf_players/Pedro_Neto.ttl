@@ -38,7 +38,6 @@ ex:Pedro_Neto a foaf:Person,
     stats:progressiveCarries 126 ;
     stats:progressivePasses 60 ;
     stats:progressivePassesReceived 253 ;
-    stats:rank 1884 ;
     stats:redCards 0 ;
     stats:tackles 23 ;
     stats:tacklesWon 9 ;

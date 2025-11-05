@@ -36,7 +36,6 @@ ex:Jack_Clarke a foaf:Person,
     stats:progressiveCarries 39 ;
     stats:progressivePasses 44 ;
     stats:progressivePassesReceived 57 ;
-    stats:rank 570 ;
     stats:redCards 0 ;
     stats:tackles 32 ;
     stats:tacklesWon 20 ;

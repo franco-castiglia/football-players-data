@@ -40,7 +40,6 @@ ex:Reiss_Nelson a foaf:Person,
     stats:progressiveCarries 45 ;
     stats:progressivePasses 35 ;
     stats:progressivePassesReceived 63 ;
-    stats:rank 1879 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 6 ;

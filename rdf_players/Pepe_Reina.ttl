@@ -40,7 +40,6 @@ ex:Pepe_Reina a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 0 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 2194 ;
     stats:redCards 1 ;
     stats:tackles 0 ;
     stats:tacklesWon 0 ;

@@ -38,7 +38,6 @@ ex:Djibril_Sow a foaf:Person,
     stats:progressiveCarries 23 ;
     stats:progressivePasses 100 ;
     stats:progressivePassesReceived 50 ;
-    stats:rank 2484 ;
     stats:redCards 0 ;
     stats:tackles 25 ;
     stats:tacklesWon 14 ;

@@ -36,7 +36,6 @@ ex:Kingsley_Ehizibue a foaf:Person,
     stats:progressiveCarries 54 ;
     stats:progressivePasses 55 ;
     stats:progressivePassesReceived 116 ;
-    stats:rank 821 ;
     stats:redCards 0 ;
     stats:tackles 55 ;
     stats:tacklesWon 35 ;

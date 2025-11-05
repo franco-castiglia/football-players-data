@@ -37,7 +37,6 @@ ex:Malang_Sarr a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 54 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 2354 ;
     stats:redCards 0 ;
     stats:tackles 21 ;
     stats:tacklesWon 13 ;

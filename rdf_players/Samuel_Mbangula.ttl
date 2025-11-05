@@ -36,7 +36,6 @@ ex:Samuel_Mbangula a foaf:Person,
     stats:progressiveCarries 25 ;
     stats:progressivePasses 17 ;
     stats:progressivePassesReceived 44 ;
-    stats:rank 1690 ;
     stats:redCards 0 ;
     stats:tackles 15 ;
     stats:tacklesWon 10 ;

@@ -39,7 +39,6 @@ ex:Pablo_Fornals a foaf:Person,
     stats:progressiveCarries 32 ;
     stats:progressivePasses 146 ;
     stats:progressivePassesReceived 85 ;
-    stats:rank 922 ;
     stats:redCards 0 ;
     stats:tackles 21 ;
     stats:tacklesWon 13 ;

@@ -36,7 +36,6 @@ ex:Rodrigo_Gomes a foaf:Person,
     stats:progressiveCarries 23 ;
     stats:progressivePasses 27 ;
     stats:progressivePassesReceived 81 ;
-    stats:rank 1024 ;
     stats:redCards 0 ;
     stats:tackles 23 ;
     stats:tacklesWon 15 ;

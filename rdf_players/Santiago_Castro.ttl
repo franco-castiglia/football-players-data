@@ -37,7 +37,6 @@ ex:Santiago_Castro a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 39 ;
     stats:progressivePassesReceived 136 ;
-    stats:rank 510 ;
     stats:redCards 0 ;
     stats:tackles 18 ;
     stats:tacklesWon 10 ;

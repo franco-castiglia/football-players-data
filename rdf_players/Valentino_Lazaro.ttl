@@ -39,7 +39,6 @@ ex:Valentino_Lazaro a foaf:Person,
     stats:progressiveCarries 35 ;
     stats:progressivePasses 76 ;
     stats:progressivePassesReceived 131 ;
-    stats:rank 1455 ;
     stats:redCards 0 ;
     stats:tackles 26 ;
     stats:tacklesWon 12 ;

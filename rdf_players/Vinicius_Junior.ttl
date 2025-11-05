@@ -39,7 +39,6 @@ ex:Vinicius_Junior a foaf:Person,
     stats:progressiveCarries 169 ;
     stats:progressivePasses 85 ;
     stats:progressivePassesReceived 256 ;
-    stats:rank 1290 ;
     stats:redCards 1 ;
     stats:tackles 21 ;
     stats:tacklesWon 10 ;

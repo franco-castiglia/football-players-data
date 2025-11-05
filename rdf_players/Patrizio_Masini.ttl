@@ -36,7 +36,6 @@ ex:Patrizio_Masini a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 44 ;
     stats:progressivePassesReceived 27 ;
-    stats:rank 1662 ;
     stats:redCards 0 ;
     stats:tackles 54 ;
     stats:tacklesWon 29 ;

@@ -36,7 +36,6 @@ ex:Neil_El_Aynaoui a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 75 ;
     stats:progressivePassesReceived 29 ;
-    stats:rank 187 ;
     stats:redCards 0 ;
     stats:tackles 39 ;
     stats:tacklesWon 21 ;

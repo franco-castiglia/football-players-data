@@ -36,7 +36,6 @@ ex:Dan_Burn a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 75 ;
     stats:progressivePassesReceived 14 ;
-    stats:rank 418 ;
     stats:redCards 0 ;
     stats:tackles 39 ;
     stats:tacklesWon 24 ;

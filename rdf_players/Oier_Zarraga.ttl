@@ -37,7 +37,6 @@ ex:Oier_Zarraga a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 28 ;
     stats:progressivePassesReceived 23 ;
-    stats:rank 2826 ;
     stats:redCards 0 ;
     stats:tackles 19 ;
     stats:tacklesWon 13 ;

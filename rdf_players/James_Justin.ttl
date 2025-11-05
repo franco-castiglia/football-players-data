@@ -39,7 +39,6 @@ ex:James_Justin a foaf:Person,
     stats:progressiveCarries 39 ;
     stats:progressivePasses 91 ;
     stats:progressivePassesReceived 96 ;
-    stats:rank 1294 ;
     stats:redCards 0 ;
     stats:tackles 58 ;
     stats:tacklesWon 37 ;

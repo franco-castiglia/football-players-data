@@ -37,7 +37,6 @@ ex:Sebastian_Walukiewicz a foaf:Person,
     stats:progressiveCarries 25 ;
     stats:progressivePasses 80 ;
     stats:progressivePassesReceived 31 ;
-    stats:rank 2742 ;
     stats:redCards 0 ;
     stats:tackles 38 ;
     stats:tacklesWon 20 ;

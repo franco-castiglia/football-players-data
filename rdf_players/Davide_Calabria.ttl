@@ -40,7 +40,6 @@ ex:Davide_Calabria a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 40 ;
     stats:progressivePassesReceived 20 ;
-    stats:rank 438 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 8 ;

@@ -37,7 +37,6 @@ ex:Milan_uric a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 21 ;
     stats:progressivePassesReceived 30 ;
-    stats:rank 2853 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 1 ;

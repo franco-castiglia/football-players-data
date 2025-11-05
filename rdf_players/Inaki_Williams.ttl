@@ -39,7 +39,6 @@ ex:Inaki_Williams a foaf:Person,
     stats:progressiveCarries 107 ;
     stats:progressivePasses 76 ;
     stats:progressivePassesReceived 302 ;
-    stats:rank 2769 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 10 ;

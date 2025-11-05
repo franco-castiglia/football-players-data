@@ -36,7 +36,6 @@ ex:Sergi_Cardona a foaf:Person,
     stats:progressiveCarries 52 ;
     stats:progressivePasses 77 ;
     stats:progressivePassesReceived 198 ;
-    stats:rank 484 ;
     stats:redCards 0 ;
     stats:tackles 71 ;
     stats:tacklesWon 48 ;

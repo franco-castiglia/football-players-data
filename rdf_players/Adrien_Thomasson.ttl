@@ -36,7 +36,6 @@ ex:Adrien_Thomasson a foaf:Person,
     stats:progressiveCarries 30 ;
     stats:progressivePasses 149 ;
     stats:progressivePassesReceived 138 ;
-    stats:rank 2590 ;
     stats:redCards 0 ;
     stats:tackles 90 ;
     stats:tacklesWon 47 ;

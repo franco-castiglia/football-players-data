@@ -35,7 +35,6 @@ ex:Francesco_Zampano a foaf:Person,
     stats:progressiveCarries 42 ;
     stats:progressivePasses 41 ;
     stats:progressivePassesReceived 85 ;
-    stats:rank 2817 ;
     stats:redCards 0 ;
     stats:tackles 31 ;
     stats:tacklesWon 20 ;

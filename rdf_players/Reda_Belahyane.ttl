@@ -36,7 +36,6 @@ ex:Reda_Belahyane a foaf:Person,
     stats:progressiveCarries 22 ;
     stats:progressivePasses 73 ;
     stats:progressivePassesReceived 13 ;
-    stats:rank 279 ;
     stats:redCards 1 ;
     stats:tackles 36 ;
     stats:tacklesWon 26 ;

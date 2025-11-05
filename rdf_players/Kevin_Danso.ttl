@@ -40,7 +40,6 @@ ex:Kevin_Danso a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 52 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 662 ;
     stats:redCards 0 ;
     stats:tackles 19 ;
     stats:tacklesWon 7 ;

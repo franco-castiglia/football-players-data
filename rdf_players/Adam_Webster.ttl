@@ -38,7 +38,6 @@ ex:Adam_Webster a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 63 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 2753 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 6 ;

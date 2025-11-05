@@ -35,7 +35,6 @@ ex:Yael_Nandjou a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 3 ;
     stats:progressivePassesReceived 9 ;
-    stats:rank 1856 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 1 ;

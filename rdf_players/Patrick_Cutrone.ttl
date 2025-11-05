@@ -38,7 +38,6 @@ ex:Patrick_Cutrone a foaf:Person,
     stats:progressiveCarries 53 ;
     stats:progressivePasses 31 ;
     stats:progressivePassesReceived 155 ;
-    stats:rank 639 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 11 ;

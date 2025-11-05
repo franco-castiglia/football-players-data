@@ -37,7 +37,6 @@ ex:Eliesse_Ben_Seghir a foaf:Person,
     stats:progressiveCarries 85 ;
     stats:progressivePasses 122 ;
     stats:progressivePassesReceived 170 ;
-    stats:rank 294 ;
     stats:redCards 0 ;
     stats:tackles 31 ;
     stats:tacklesWon 22 ;

@@ -37,7 +37,6 @@ ex:Jon_Guridi a foaf:Person,
     stats:progressiveCarries 27 ;
     stats:progressivePasses 79 ;
     stats:progressivePassesReceived 90 ;
-    stats:rank 1102 ;
     stats:redCards 0 ;
     stats:tackles 40 ;
     stats:tacklesWon 22 ;

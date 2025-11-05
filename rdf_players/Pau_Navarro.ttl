@@ -35,7 +35,6 @@ ex:Pau_Navarro a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 40 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 1860 ;
     stats:redCards 0 ;
     stats:tackles 23 ;
     stats:tacklesWon 17 ;

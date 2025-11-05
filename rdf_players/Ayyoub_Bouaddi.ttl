@@ -36,7 +36,6 @@ ex:Ayyoub_Bouaddi a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 37 ;
     stats:progressivePassesReceived 26 ;
-    stats:rank 367 ;
     stats:redCards 0 ;
     stats:tackles 50 ;
     stats:tacklesWon 31 ;

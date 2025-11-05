@@ -36,7 +36,6 @@ ex:Ernest_Nuamah a foaf:Person,
     stats:progressiveCarries 44 ;
     stats:progressivePasses 33 ;
     stats:progressivePassesReceived 131 ;
-    stats:rank 1920 ;
     stats:redCards 0 ;
     stats:tackles 21 ;
     stats:tacklesWon 11 ;

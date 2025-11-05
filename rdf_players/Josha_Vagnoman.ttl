@@ -36,7 +36,6 @@ ex:Josha_Vagnoman a foaf:Person,
     stats:progressiveCarries 24 ;
     stats:progressivePasses 47 ;
     stats:progressivePassesReceived 96 ;
-    stats:rank 2657 ;
     stats:redCards 0 ;
     stats:tackles 26 ;
     stats:tacklesWon 14 ;

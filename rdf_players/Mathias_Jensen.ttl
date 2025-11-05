@@ -36,7 +36,6 @@ ex:Mathias_Jensen a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 61 ;
     stats:progressivePassesReceived 27 ;
-    stats:rank 1255 ;
     stats:redCards 0 ;
     stats:tackles 14 ;
     stats:tacklesWon 10 ;

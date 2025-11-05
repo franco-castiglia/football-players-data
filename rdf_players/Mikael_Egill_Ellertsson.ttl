@@ -36,7 +36,6 @@ ex:Mikael_Egill_Ellertsson a foaf:Person,
     stats:progressiveCarries 33 ;
     stats:progressivePasses 36 ;
     stats:progressivePassesReceived 92 ;
-    stats:rank 832 ;
     stats:redCards 0 ;
     stats:tackles 58 ;
     stats:tacklesWon 26 ;

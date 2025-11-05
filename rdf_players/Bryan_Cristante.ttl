@@ -37,7 +37,6 @@ ex:Bryan_Cristante a foaf:Person,
     stats:progressiveCarries 25 ;
     stats:progressivePasses 145 ;
     stats:progressivePassesReceived 41 ;
-    stats:rank 629 ;
     stats:redCards 0 ;
     stats:tackles 48 ;
     stats:tacklesWon 29 ;

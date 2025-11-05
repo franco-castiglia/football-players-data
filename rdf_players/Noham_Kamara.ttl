@@ -36,7 +36,6 @@ ex:Noham_Kamara a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 5 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 1313 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 1 ;

@@ -38,7 +38,6 @@ ex:Filippo_Melegoni a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 1 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 1716 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 1 ;

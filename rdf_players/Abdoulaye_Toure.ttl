@@ -37,7 +37,6 @@ ex:Abdoulaye_Toure a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 109 ;
     stats:progressivePassesReceived 28 ;
-    stats:rank 2617 ;
     stats:redCards 0 ;
     stats:tackles 61 ;
     stats:tacklesWon 34 ;

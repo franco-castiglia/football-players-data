@@ -37,7 +37,6 @@ ex:Kialonda_Gaspar a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 34 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 1354 ;
     stats:redCards 0 ;
     stats:tackles 34 ;
     stats:tacklesWon 12 ;

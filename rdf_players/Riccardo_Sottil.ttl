@@ -37,7 +37,6 @@ ex:Riccardo_Sottil a foaf:Person,
     stats:progressiveCarries 71 ;
     stats:progressivePasses 18 ;
     stats:progressivePassesReceived 100 ;
-    stats:rank 2478 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 4 ;

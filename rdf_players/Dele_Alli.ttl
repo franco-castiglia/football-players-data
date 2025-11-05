@@ -40,7 +40,6 @@ ex:Dele_Alli a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 0 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 91 ;
     stats:redCards 1 ;
     stats:tackles 0 ;
     stats:tacklesWon 0 ;

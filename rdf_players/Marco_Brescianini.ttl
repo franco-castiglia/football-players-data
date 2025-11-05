@@ -37,7 +37,6 @@ ex:Marco_Brescianini a foaf:Person,
     stats:progressiveCarries 46 ;
     stats:progressivePasses 36 ;
     stats:progressivePassesReceived 69 ;
-    stats:rank 393 ;
     stats:redCards 0 ;
     stats:tackles 18 ;
     stats:tacklesWon 11 ;

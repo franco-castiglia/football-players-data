@@ -37,7 +37,6 @@ ex:Jurgen_Ekkelenkamp a foaf:Person,
     stats:progressiveCarries 34 ;
     stats:progressivePasses 72 ;
     stats:progressivePassesReceived 86 ;
-    stats:rank 825 ;
     stats:redCards 0 ;
     stats:tackles 36 ;
     stats:tacklesWon 25 ;

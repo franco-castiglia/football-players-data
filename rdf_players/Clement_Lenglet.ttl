@@ -39,7 +39,6 @@ ex:Clement_Lenglet a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 79 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 1476 ;
     stats:redCards 0 ;
     stats:tackles 27 ;
     stats:tacklesWon 17 ;

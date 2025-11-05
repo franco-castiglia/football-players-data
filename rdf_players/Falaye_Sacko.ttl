@@ -36,7 +36,6 @@ ex:Falaye_Sacko a foaf:Person,
     stats:progressiveCarries 21 ;
     stats:progressivePasses 59 ;
     stats:progressivePassesReceived 34 ;
-    stats:rank 2288 ;
     stats:redCards 0 ;
     stats:tackles 14 ;
     stats:tacklesWon 8 ;

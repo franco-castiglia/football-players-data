@@ -39,7 +39,6 @@ ex:Dani_Olmo a foaf:Person,
     stats:progressiveCarries 33 ;
     stats:progressivePasses 81 ;
     stats:progressivePassesReceived 97 ;
-    stats:rank 1965 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 11 ;

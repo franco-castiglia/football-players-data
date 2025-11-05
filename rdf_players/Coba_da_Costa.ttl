@@ -35,7 +35,6 @@ ex:Coba_da_Costa a foaf:Person,
     stats:progressiveCarries 46 ;
     stats:progressivePasses 16 ;
     stats:progressivePassesReceived 83 ;
-    stats:rank 608 ;
     stats:redCards 0 ;
     stats:tackles 29 ;
     stats:tacklesWon 13 ;

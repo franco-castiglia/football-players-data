@@ -36,7 +36,6 @@ ex:Tamas_Nikitscher a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 13 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 1905 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 8 ;

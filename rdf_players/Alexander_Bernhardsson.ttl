@@ -36,7 +36,6 @@ ex:Alexander_Bernhardsson a foaf:Person,
     stats:progressiveCarries 25 ;
     stats:progressivePasses 33 ;
     stats:progressivePassesReceived 72 ;
-    stats:rank 321 ;
     stats:redCards 0 ;
     stats:tackles 29 ;
     stats:tacklesWon 15 ;

@@ -38,7 +38,6 @@ ex:Harry_Toffolo a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 2 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 2600 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 3 ;

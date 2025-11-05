@@ -40,7 +40,6 @@ ex:Christian_Kabasele a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 44 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 1299 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 9 ;

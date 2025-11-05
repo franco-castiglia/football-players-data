@@ -39,7 +39,6 @@ ex:Ross_Barkley a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 36 ;
     stats:progressivePassesReceived 10 ;
-    stats:rank 246 ;
     stats:redCards 0 ;
     stats:tackles 14 ;
     stats:tacklesWon 3 ;

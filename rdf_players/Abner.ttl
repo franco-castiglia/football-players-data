@@ -36,7 +36,6 @@ ex:Abner a foaf:Person,
     stats:progressiveCarries 31 ;
     stats:progressivePasses 66 ;
     stats:progressivePassesReceived 55 ;
-    stats:rank 15 ;
     stats:redCards 0 ;
     stats:tackles 29 ;
     stats:tacklesWon 20 ;

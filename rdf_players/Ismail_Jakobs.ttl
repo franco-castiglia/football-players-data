@@ -36,7 +36,6 @@ ex:Ismail_Jakobs a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 6 ;
     stats:progressivePassesReceived 17 ;
-    stats:rank 1240 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 5 ;

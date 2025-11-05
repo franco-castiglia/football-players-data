@@ -40,7 +40,6 @@ ex:Kike_Barja a foaf:Person,
     stats:progressiveCarries 22 ;
     stats:progressivePasses 4 ;
     stats:progressivePassesReceived 39 ;
-    stats:rank 245 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 4 ;

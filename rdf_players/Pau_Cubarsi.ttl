@@ -37,7 +37,6 @@ ex:Pau_Cubarsi a foaf:Person,
     stats:progressiveCarries 26 ;
     stats:progressivePasses 191 ;
     stats:progressivePassesReceived 6 ;
-    stats:rank 634 ;
     stats:redCards 0 ;
     stats:tackles 34 ;
     stats:tacklesWon 23 ;

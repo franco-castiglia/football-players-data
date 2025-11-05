@@ -36,7 +36,6 @@ ex:Kaoru_Mitoma a foaf:Person,
     stats:progressiveCarries 146 ;
     stats:progressivePasses 89 ;
     stats:progressivePassesReceived 291 ;
-    stats:rank 1763 ;
     stats:redCards 0 ;
     stats:tackles 45 ;
     stats:tacklesWon 27 ;

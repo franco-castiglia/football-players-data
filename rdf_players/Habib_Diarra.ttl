@@ -36,7 +36,6 @@ ex:Habib_Diarra a foaf:Person,
     stats:progressiveCarries 61 ;
     stats:progressivePasses 116 ;
     stats:progressivePassesReceived 114 ;
-    stats:rank 715 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 13 ;

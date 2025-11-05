@@ -36,7 +36,6 @@ ex:Gerard_Martin a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 40 ;
     stats:progressivePassesReceived 122 ;
-    stats:rank 1640 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 10 ;

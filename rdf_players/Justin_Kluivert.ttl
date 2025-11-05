@@ -37,7 +37,6 @@ ex:Justin_Kluivert a foaf:Person,
     stats:progressiveCarries 81 ;
     stats:progressivePasses 105 ;
     stats:progressivePassesReceived 173 ;
-    stats:rank 1367 ;
     stats:redCards 0 ;
     stats:tackles 23 ;
     stats:tacklesWon 11 ;

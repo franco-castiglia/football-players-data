@@ -37,7 +37,6 @@ ex:Hassane_Kamara a foaf:Person,
     stats:progressiveCarries 52 ;
     stats:progressivePasses 61 ;
     stats:progressivePassesReceived 103 ;
-    stats:rank 1312 ;
     stats:redCards 1 ;
     stats:tackles 35 ;
     stats:tacklesWon 25 ;

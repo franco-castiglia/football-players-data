@@ -38,7 +38,6 @@ ex:Jordan_Veretout a foaf:Person,
     stats:progressiveCarries 35 ;
     stats:progressivePasses 99 ;
     stats:progressivePassesReceived 60 ;
-    stats:rank 2697 ;
     stats:redCards 0 ;
     stats:tackles 30 ;
     stats:tacklesWon 14 ;

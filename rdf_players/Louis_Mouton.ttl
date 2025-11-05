@@ -35,7 +35,6 @@ ex:Louis_Mouton a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 54 ;
     stats:progressivePassesReceived 51 ;
-    stats:rank 1809 ;
     stats:redCards 0 ;
     stats:tackles 49 ;
     stats:tacklesWon 25 ;

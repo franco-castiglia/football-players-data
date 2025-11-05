@@ -36,7 +36,6 @@ ex:Kirian_Rodriguez a foaf:Person,
     stats:progressiveCarries 25 ;
     stats:progressivePasses 128 ;
     stats:progressivePassesReceived 39 ;
-    stats:rank 2241 ;
     stats:redCards 0 ;
     stats:tackles 33 ;
     stats:tacklesWon 17 ;

@@ -35,7 +35,6 @@ ex:Florent_Hanin a foaf:Person,
     stats:progressiveCarries 48 ;
     stats:progressivePasses 99 ;
     stats:progressivePassesReceived 108 ;
-    stats:rank 1125 ;
     stats:redCards 0 ;
     stats:tackles 69 ;
     stats:tacklesWon 48 ;

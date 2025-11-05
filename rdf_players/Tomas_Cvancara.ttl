@@ -36,7 +36,6 @@ ex:Tomas_Cvancara a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 23 ;
     stats:progressivePassesReceived 50 ;
-    stats:rank 640 ;
     stats:redCards 1 ;
     stats:tackles 4 ;
     stats:tacklesWon 1 ;

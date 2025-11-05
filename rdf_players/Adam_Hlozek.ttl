@@ -36,7 +36,6 @@ ex:Adam_Hlozek a foaf:Person,
     stats:progressiveCarries 54 ;
     stats:progressivePasses 68 ;
     stats:progressivePassesReceived 102 ;
-    stats:rank 1168 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 10 ;

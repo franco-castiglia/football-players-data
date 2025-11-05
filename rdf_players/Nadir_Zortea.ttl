@@ -38,7 +38,6 @@ ex:Nadir_Zortea a foaf:Person,
     stats:progressiveCarries 69 ;
     stats:progressivePasses 63 ;
     stats:progressivePassesReceived 144 ;
-    stats:rank 2845 ;
     stats:redCards 0 ;
     stats:tackles 30 ;
     stats:tacklesWon 14 ;

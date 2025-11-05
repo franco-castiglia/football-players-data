@@ -36,7 +36,6 @@ ex:Ollie_Watkins a foaf:Person,
     stats:progressiveCarries 55 ;
     stats:progressivePasses 31 ;
     stats:progressivePassesReceived 165 ;
-    stats:rank 2751 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 7 ;

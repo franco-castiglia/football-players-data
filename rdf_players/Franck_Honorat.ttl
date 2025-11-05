@@ -36,7 +36,6 @@ ex:Franck_Honorat a foaf:Person,
     stats:progressiveCarries 63 ;
     stats:progressivePasses 45 ;
     stats:progressivePassesReceived 124 ;
-    stats:rank 1179 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 7 ;

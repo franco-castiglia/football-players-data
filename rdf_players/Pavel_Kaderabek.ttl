@@ -36,7 +36,6 @@ ex:Pavel_Kaderabek a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 47 ;
     stats:progressivePassesReceived 86 ;
-    stats:rank 1302 ;
     stats:redCards 0 ;
     stats:tackles 25 ;
     stats:tacklesWon 14 ;

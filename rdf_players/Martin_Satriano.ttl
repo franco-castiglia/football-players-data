@@ -35,7 +35,6 @@ ex:Martin_Satriano a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 2 ;
     stats:progressivePassesReceived 14 ;
-    stats:rank 2356 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 1 ;

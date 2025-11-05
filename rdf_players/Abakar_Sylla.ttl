@@ -37,7 +37,6 @@ ex:Abakar_Sylla a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 21 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 2534 ;
     stats:redCards 1 ;
     stats:tackles 27 ;
     stats:tacklesWon 15 ;

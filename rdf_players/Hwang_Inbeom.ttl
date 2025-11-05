@@ -36,7 +36,6 @@ ex:Hwang_Inbeom a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 12 ;
     stats:progressivePassesReceived 42 ;
-    stats:rank 1138 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 4 ;

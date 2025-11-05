@@ -37,7 +37,6 @@ ex:Donyell_Malen a foaf:Person,
     stats:progressiveCarries 23 ;
     stats:progressivePasses 17 ;
     stats:progressivePassesReceived 75 ;
-    stats:rank 1590 ;
     stats:redCards 0 ;
     stats:tackles 0 ;
     stats:tacklesWon 0 ;

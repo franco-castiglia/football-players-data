@@ -36,7 +36,6 @@ ex:Carl_Johansson a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 12 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 1268 ;
     stats:redCards 1 ;
     stats:tackles 4 ;
     stats:tacklesWon 2 ;

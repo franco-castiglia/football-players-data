@@ -36,7 +36,6 @@ ex:Jorge_Herrando a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 38 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 1155 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 11 ;

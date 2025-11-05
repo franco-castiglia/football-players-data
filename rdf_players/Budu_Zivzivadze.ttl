@@ -36,7 +36,6 @@ ex:Budu_Zivzivadze a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 20 ;
     stats:progressivePassesReceived 43 ;
-    stats:rank 2843 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 11 ;

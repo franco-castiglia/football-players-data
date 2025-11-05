@@ -36,7 +36,6 @@ ex:Andrei_Ratiu a foaf:Person,
     stats:progressiveCarries 122 ;
     stats:progressivePasses 145 ;
     stats:progressivePassesReceived 167 ;
-    stats:rank 2182 ;
     stats:redCards 0 ;
     stats:tackles 71 ;
     stats:tacklesWon 41 ;

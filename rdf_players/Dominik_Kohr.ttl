@@ -36,7 +36,6 @@ ex:Dominik_Kohr a foaf:Person,
     stats:progressiveCarries 26 ;
     stats:progressivePasses 101 ;
     stats:progressivePassesReceived 31 ;
-    stats:rank 1376 ;
     stats:redCards 1 ;
     stats:tackles 62 ;
     stats:tacklesWon 46 ;

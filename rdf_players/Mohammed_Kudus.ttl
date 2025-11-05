@@ -36,7 +36,6 @@ ex:Mohammed_Kudus a foaf:Person,
     stats:progressiveCarries 98 ;
     stats:progressivePasses 79 ;
     stats:progressivePassesReceived 216 ;
-    stats:rank 1421 ;
     stats:redCards 1 ;
     stats:tackles 38 ;
     stats:tacklesWon 23 ;

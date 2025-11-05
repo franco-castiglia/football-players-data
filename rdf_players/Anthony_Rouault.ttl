@@ -36,7 +36,6 @@ ex:Anthony_Rouault a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 52 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 2264 ;
     stats:redCards 0 ;
     stats:tackles 15 ;
     stats:tacklesWon 11 ;

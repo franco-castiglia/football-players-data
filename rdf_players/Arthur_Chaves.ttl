@@ -36,7 +36,6 @@ ex:Arthur_Chaves a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 57 ;
     stats:progressivePassesReceived 13 ;
-    stats:rank 535 ;
     stats:redCards 0 ;
     stats:tackles 51 ;
     stats:tacklesWon 36 ;

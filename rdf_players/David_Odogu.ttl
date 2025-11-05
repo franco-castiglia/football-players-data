@@ -36,7 +36,6 @@ ex:David_Odogu a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 8 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 1943 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 4 ;

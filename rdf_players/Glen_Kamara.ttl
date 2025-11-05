@@ -36,7 +36,6 @@ ex:Glen_Kamara a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 34 ;
     stats:progressivePassesReceived 22 ;
-    stats:rank 1311 ;
     stats:redCards 0 ;
     stats:tackles 23 ;
     stats:tacklesWon 11 ;

@@ -37,7 +37,6 @@ ex:Nicolas_Gonzalez a foaf:Person,
     stats:progressiveCarries 35 ;
     stats:progressivePasses 69 ;
     stats:progressivePassesReceived 123 ;
-    stats:rank 1037 ;
     stats:redCards 0 ;
     stats:tackles 24 ;
     stats:tacklesWon 13 ;

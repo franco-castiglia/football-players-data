@@ -38,7 +38,6 @@ ex:Manuel_Lazzari a foaf:Person,
     stats:progressiveCarries 72 ;
     stats:progressivePasses 66 ;
     stats:progressivePassesReceived 96 ;
-    stats:rank 1457 ;
     stats:redCards 0 ;
     stats:tackles 26 ;
     stats:tacklesWon 16 ;

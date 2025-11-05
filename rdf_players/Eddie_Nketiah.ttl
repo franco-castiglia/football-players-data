@@ -40,7 +40,6 @@ ex:Eddie_Nketiah a foaf:Person,
     stats:progressiveCarries 41 ;
     stats:progressivePasses 19 ;
     stats:progressivePassesReceived 79 ;
-    stats:rank 1908 ;
     stats:redCards 1 ;
     stats:tackles 15 ;
     stats:tacklesWon 8 ;

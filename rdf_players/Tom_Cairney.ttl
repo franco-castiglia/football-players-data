@@ -36,7 +36,6 @@ ex:Tom_Cairney a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 53 ;
     stats:progressivePassesReceived 33 ;
-    stats:rank 436 ;
     stats:redCards 1 ;
     stats:tackles 13 ;
     stats:tacklesWon 5 ;

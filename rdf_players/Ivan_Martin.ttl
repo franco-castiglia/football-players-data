@@ -37,7 +37,6 @@ ex:Ivan_Martin a foaf:Person,
     stats:progressiveCarries 57 ;
     stats:progressivePasses 131 ;
     stats:progressivePassesReceived 76 ;
-    stats:rank 1641 ;
     stats:redCards 0 ;
     stats:tackles 32 ;
     stats:tacklesWon 19 ;

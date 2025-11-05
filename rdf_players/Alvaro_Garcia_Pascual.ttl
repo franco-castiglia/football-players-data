@@ -35,7 +35,6 @@ ex:Alvaro_Garcia_Pascual a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 3 ;
     stats:progressivePassesReceived 27 ;
-    stats:rank 2046 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 3 ;

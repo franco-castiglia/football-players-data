@@ -36,7 +36,6 @@ ex:Lameck_Banda a foaf:Person,
     stats:progressiveCarries 27 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 46 ;
-    stats:rank 229 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 5 ;

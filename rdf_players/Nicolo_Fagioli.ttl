@@ -36,7 +36,6 @@ ex:Nicolo_Fagioli a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 50 ;
     stats:progressivePassesReceived 19 ;
-    stats:rank 872 ;
     stats:redCards 0 ;
     stats:tackles 19 ;
     stats:tacklesWon 10 ;

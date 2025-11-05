@@ -36,7 +36,6 @@ ex:Maximilian_Wittek a foaf:Person,
     stats:progressiveCarries 47 ;
     stats:progressivePasses 141 ;
     stats:progressivePassesReceived 83 ;
-    stats:rank 2784 ;
     stats:redCards 0 ;
     stats:tackles 65 ;
     stats:tacklesWon 42 ;

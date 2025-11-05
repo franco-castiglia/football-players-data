@@ -36,7 +36,6 @@ ex:Carlos_Romero a foaf:Person,
     stats:progressiveCarries 50 ;
     stats:progressivePasses 64 ;
     stats:progressivePassesReceived 113 ;
-    stats:rank 2250 ;
     stats:redCards 0 ;
     stats:tackles 73 ;
     stats:tacklesWon 47 ;

@@ -38,7 +38,6 @@ ex:Gianluca_Caprari a foaf:Person,
     stats:progressiveCarries 43 ;
     stats:progressivePasses 81 ;
     stats:progressivePassesReceived 104 ;
-    stats:rank 469 ;
     stats:redCards 0 ;
     stats:tackles 19 ;
     stats:tacklesWon 11 ;

@@ -40,7 +40,6 @@ ex:Davide_Zappacosta a foaf:Person,
     stats:progressiveCarries 67 ;
     stats:progressivePasses 107 ;
     stats:progressivePassesReceived 139 ;
-    stats:rank 2823 ;
     stats:redCards 0 ;
     stats:tackles 26 ;
     stats:tacklesWon 16 ;

@@ -38,7 +38,6 @@ ex:Alvaro_Tejero a foaf:Person,
     stats:progressiveCarries 27 ;
     stats:progressivePasses 46 ;
     stats:progressivePassesReceived 72 ;
-    stats:rank 2564 ;
     stats:redCards 0 ;
     stats:tackles 14 ;
     stats:tacklesWon 4 ;

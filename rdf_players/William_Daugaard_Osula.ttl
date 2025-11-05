@@ -36,7 +36,6 @@ ex:William_Daugaard_Osula a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 4 ;
     stats:progressivePassesReceived 17 ;
-    stats:rank 1999 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 0 ;

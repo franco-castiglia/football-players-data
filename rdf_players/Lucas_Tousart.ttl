@@ -38,7 +38,6 @@ ex:Lucas_Tousart a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 18 ;
     stats:progressivePassesReceived 13 ;
-    stats:rank 2622 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 9 ;

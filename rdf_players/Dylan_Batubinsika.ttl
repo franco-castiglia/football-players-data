@@ -38,7 +38,6 @@ ex:Dylan_Batubinsika a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 51 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 262 ;
     stats:redCards 1 ;
     stats:tackles 26 ;
     stats:tacklesWon 13 ;

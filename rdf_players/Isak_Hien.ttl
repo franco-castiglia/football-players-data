@@ -37,7 +37,6 @@ ex:Isak_Hien a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 51 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 1161 ;
     stats:redCards 0 ;
     stats:tackles 48 ;
     stats:tacklesWon 28 ;

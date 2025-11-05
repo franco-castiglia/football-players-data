@@ -35,7 +35,6 @@ ex:Hiroki_Sekine a foaf:Person,
     stats:progressiveCarries 22 ;
     stats:progressivePasses 39 ;
     stats:progressivePassesReceived 40 ;
-    stats:rank 2391 ;
     stats:redCards 0 ;
     stats:tackles 9 ;
     stats:tacklesWon 7 ;

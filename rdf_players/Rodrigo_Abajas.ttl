@@ -35,7 +35,6 @@ ex:Rodrigo_Abajas a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 2 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 3 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 2 ;

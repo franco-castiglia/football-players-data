@@ -36,7 +36,6 @@ ex:Wilfried_Singo a foaf:Person,
     stats:progressiveCarries 35 ;
     stats:progressivePasses 118 ;
     stats:progressivePassesReceived 27 ;
-    stats:rank 2433 ;
     stats:redCards 0 ;
     stats:tackles 37 ;
     stats:tacklesWon 23 ;

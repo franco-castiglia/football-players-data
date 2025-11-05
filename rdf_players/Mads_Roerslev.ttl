@@ -36,7 +36,6 @@ ex:Mads_Roerslev a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 51 ;
     stats:progressivePassesReceived 54 ;
-    stats:rank 2244 ;
     stats:redCards 0 ;
     stats:tackles 18 ;
     stats:tacklesWon 8 ;

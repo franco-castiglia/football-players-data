@@ -38,7 +38,6 @@ ex:Oliver_Burke a foaf:Person,
     stats:progressiveCarries 22 ;
     stats:progressivePasses 15 ;
     stats:progressivePassesReceived 88 ;
-    stats:rank 417 ;
     stats:redCards 0 ;
     stats:tackles 11 ;
     stats:tacklesWon 4 ;

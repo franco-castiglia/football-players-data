@@ -36,7 +36,6 @@ ex:Tim_Oermann a foaf:Person,
     stats:progressiveCarries 15 ;
     stats:progressivePasses 61 ;
     stats:progressivePassesReceived 16 ;
-    stats:rank 1945 ;
     stats:redCards 0 ;
     stats:tackles 50 ;
     stats:tacklesWon 31 ;

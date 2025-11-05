@@ -39,7 +39,6 @@ ex:Ansu_Fati a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 6 ;
     stats:progressivePassesReceived 32 ;
-    stats:rank 878 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 1 ;

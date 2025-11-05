@@ -37,7 +37,6 @@ ex:Federico_Barba a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 25 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 236 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 2 ;

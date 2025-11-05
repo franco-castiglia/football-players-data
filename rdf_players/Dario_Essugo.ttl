@@ -36,7 +36,6 @@ ex:Dario_Essugo a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 76 ;
     stats:progressivePassesReceived 8 ;
-    stats:rank 856 ;
     stats:redCards 2 ;
     stats:tackles 59 ;
     stats:tacklesWon 45 ;

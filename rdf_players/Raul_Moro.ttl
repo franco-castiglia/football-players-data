@@ -37,7 +37,6 @@ ex:Raul_Moro a foaf:Person,
     stats:progressiveCarries 112 ;
     stats:progressivePasses 81 ;
     stats:progressivePassesReceived 190 ;
-    stats:rank 1796 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 13 ;

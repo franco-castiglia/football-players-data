@@ -37,7 +37,6 @@ ex:Cole_Palmer a foaf:Person,
     stats:progressiveCarries 120 ;
     stats:progressivePasses 214 ;
     stats:progressivePassesReceived 187 ;
-    stats:rank 2034 ;
     stats:redCards 0 ;
     stats:tackles 34 ;
     stats:tacklesWon 20 ;

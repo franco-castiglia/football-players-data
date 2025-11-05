@@ -38,7 +38,6 @@ ex:Solly_March a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 2 ;
     stats:progressivePassesReceived 20 ;
-    stats:rank 1615 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 3 ;

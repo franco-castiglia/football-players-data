@@ -40,7 +40,6 @@ ex:Granit_Xhaka a foaf:Person,
     stats:progressiveCarries 42 ;
     stats:progressivePasses 318 ;
     stats:progressivePassesReceived 72 ;
-    stats:rank 2792 ;
     stats:redCards 0 ;
     stats:tackles 48 ;
     stats:tacklesWon 26 ;

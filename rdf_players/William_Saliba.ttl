@@ -38,7 +38,6 @@ ex:William_Saliba a foaf:Person,
     stats:progressiveCarries 16 ;
     stats:progressivePasses 138 ;
     stats:progressivePassesReceived 6 ;
-    stats:rank 2311 ;
     stats:redCards 1 ;
     stats:tackles 62 ;
     stats:tacklesWon 37 ;

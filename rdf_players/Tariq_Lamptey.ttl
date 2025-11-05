@@ -37,7 +37,6 @@ ex:Tariq_Lamptey a foaf:Person,
     stats:progressiveCarries 32 ;
     stats:progressivePasses 14 ;
     stats:progressivePassesReceived 45 ;
-    stats:rank 1446 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 11 ;

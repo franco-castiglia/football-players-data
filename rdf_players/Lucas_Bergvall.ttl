@@ -37,7 +37,6 @@ ex:Lucas_Bergvall a foaf:Person,
     stats:progressiveCarries 33 ;
     stats:progressivePasses 49 ;
     stats:progressivePassesReceived 31 ;
-    stats:rank 310 ;
     stats:redCards 0 ;
     stats:tackles 39 ;
     stats:tacklesWon 19 ;

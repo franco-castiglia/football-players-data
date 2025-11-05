@@ -40,7 +40,6 @@ ex:Oriol_Romeu a foaf:Person,
     stats:progressiveCarries 22 ;
     stats:progressivePasses 73 ;
     stats:progressivePassesReceived 8 ;
-    stats:rank 2254 ;
     stats:redCards 0 ;
     stats:tackles 38 ;
     stats:tacklesWon 25 ;

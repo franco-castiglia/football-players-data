@@ -37,7 +37,6 @@ ex:Daichi_Kamada a foaf:Person,
     stats:progressiveCarries 25 ;
     stats:progressivePasses 89 ;
     stats:progressivePassesReceived 56 ;
-    stats:rank 1308 ;
     stats:redCards 1 ;
     stats:tackles 47 ;
     stats:tacklesWon 29 ;

@@ -40,7 +40,6 @@ ex:Diogo_Dalot a foaf:Person,
     stats:progressiveCarries 62 ;
     stats:progressivePasses 103 ;
     stats:progressivePassesReceived 168 ;
-    stats:rank 651 ;
     stats:redCards 0 ;
     stats:tackles 68 ;
     stats:tacklesWon 40 ;

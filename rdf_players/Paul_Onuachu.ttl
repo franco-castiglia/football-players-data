@@ -37,7 +37,6 @@ ex:Paul_Onuachu a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 13 ;
     stats:progressivePassesReceived 40 ;
-    stats:rank 1977 ;
     stats:redCards 0 ;
     stats:tackles 7 ;
     stats:tacklesWon 2 ;

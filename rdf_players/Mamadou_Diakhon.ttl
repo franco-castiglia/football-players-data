@@ -35,7 +35,6 @@ ex:Mamadou_Diakhon a foaf:Person,
     stats:progressiveCarries 61 ;
     stats:progressivePasses 17 ;
     stats:progressivePassesReceived 77 ;
-    stats:rank 709 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 8 ;

@@ -37,7 +37,6 @@ ex:Junior_Sambia a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 21 ;
     stats:progressivePassesReceived 20 ;
-    stats:rank 2322 ;
     stats:redCards 0 ;
     stats:tackles 14 ;
     stats:tacklesWon 10 ;

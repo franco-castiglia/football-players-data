@@ -36,7 +36,6 @@ ex:Tyrique_George a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 3 ;
     stats:progressivePassesReceived 22 ;
-    stats:rank 994 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 0 ;

@@ -36,7 +36,6 @@ ex:Romano_Schmid a foaf:Person,
     stats:progressiveCarries 107 ;
     stats:progressivePasses 279 ;
     stats:progressivePassesReceived 201 ;
-    stats:rank 2377 ;
     stats:redCards 0 ;
     stats:tackles 43 ;
     stats:tacklesWon 25 ;

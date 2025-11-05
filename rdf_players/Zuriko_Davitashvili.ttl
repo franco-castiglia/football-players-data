@@ -36,7 +36,6 @@ ex:Zuriko_Davitashvili a foaf:Person,
     stats:progressiveCarries 95 ;
     stats:progressivePasses 73 ;
     stats:progressivePassesReceived 224 ;
-    stats:rank 676 ;
     stats:redCards 0 ;
     stats:tackles 22 ;
     stats:tacklesWon 14 ;

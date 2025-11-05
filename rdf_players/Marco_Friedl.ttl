@@ -36,7 +36,6 @@ ex:Marco_Friedl a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 69 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 939 ;
     stats:redCards 2 ;
     stats:tackles 62 ;
     stats:tacklesWon 42 ;

@@ -36,7 +36,6 @@ ex:Issiaga_Sylla a foaf:Person,
     stats:progressiveCarries 33 ;
     stats:progressivePasses 53 ;
     stats:progressivePassesReceived 46 ;
-    stats:rank 2535 ;
     stats:redCards 0 ;
     stats:tackles 25 ;
     stats:tacklesWon 10 ;

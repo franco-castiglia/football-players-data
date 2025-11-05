@@ -37,7 +37,6 @@ ex:Charalambos_Lykogiannis a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 49 ;
     stats:progressivePassesReceived 36 ;
-    stats:rank 1549 ;
     stats:redCards 0 ;
     stats:tackles 23 ;
     stats:tacklesWon 14 ;

@@ -37,7 +37,6 @@ ex:Artem_Dovbyk a foaf:Person,
     stats:progressiveCarries 24 ;
     stats:progressivePasses 16 ;
     stats:progressivePassesReceived 175 ;
-    stats:rank 785 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 2 ;

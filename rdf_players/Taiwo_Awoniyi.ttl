@@ -37,7 +37,6 @@ ex:Taiwo_Awoniyi a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 20 ;
-    stats:rank 181 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 3 ;

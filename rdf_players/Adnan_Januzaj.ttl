@@ -39,7 +39,6 @@ ex:Adnan_Januzaj a foaf:Person,
     stats:progressiveCarries 24 ;
     stats:progressivePasses 41 ;
     stats:progressivePassesReceived 58 ;
-    stats:rank 1244 ;
     stats:redCards 0 ;
     stats:tackles 10 ;
     stats:tacklesWon 6 ;

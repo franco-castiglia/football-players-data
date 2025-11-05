@@ -38,7 +38,6 @@ ex:Sepp_van_den_Berg a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 79 ;
     stats:progressivePassesReceived 28 ;
-    stats:rank 700 ;
     stats:redCards 0 ;
     stats:tackles 39 ;
     stats:tacklesWon 24 ;

@@ -36,7 +36,6 @@ ex:Pascal_Stenzel a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 12 ;
     stats:progressivePassesReceived 16 ;
-    stats:rank 2500 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 2 ;

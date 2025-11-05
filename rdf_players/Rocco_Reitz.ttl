@@ -36,7 +36,6 @@ ex:Rocco_Reitz a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 91 ;
     stats:progressivePassesReceived 30 ;
-    stats:rank 2196 ;
     stats:redCards 0 ;
     stats:tackles 52 ;
     stats:tacklesWon 24 ;

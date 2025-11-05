@@ -36,7 +36,6 @@ ex:Senny_Mayulu a foaf:Person,
     stats:progressiveCarries 29 ;
     stats:progressivePasses 46 ;
     stats:progressivePassesReceived 56 ;
-    stats:rank 1685 ;
     stats:redCards 0 ;
     stats:tackles 25 ;
     stats:tacklesWon 16 ;

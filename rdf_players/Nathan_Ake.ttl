@@ -39,7 +39,6 @@ ex:Nathan_Ake a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 50 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 64 ;
     stats:redCards 0 ;
     stats:tackles 9 ;
     stats:tacklesWon 7 ;

@@ -36,7 +36,6 @@ ex:Cheick_Doucoure a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 19 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 774 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 8 ;

@@ -36,7 +36,6 @@ ex:Stefan_Posch a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 36 ;
     stats:progressivePassesReceived 35 ;
-    stats:rank 2142 ;
     stats:redCards 0 ;
     stats:tackles 26 ;
     stats:tacklesWon 15 ;

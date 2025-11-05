@@ -38,7 +38,6 @@ ex:Mateusz_Wieteska a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 5 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 2767 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 0 ;

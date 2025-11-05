@@ -38,7 +38,6 @@ ex:Jonas_Martin a foaf:Person,
     stats:progressiveCarries 8 ;
     stats:progressivePasses 21 ;
     stats:progressivePassesReceived 9 ;
-    stats:rank 1643 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 7 ;

@@ -36,7 +36,6 @@ ex:Christantus_Uche a foaf:Person,
     stats:progressiveCarries 43 ;
     stats:progressivePasses 49 ;
     stats:progressivePassesReceived 148 ;
-    stats:rank 2643 ;
     stats:redCards 2 ;
     stats:tackles 35 ;
     stats:tacklesWon 21 ;

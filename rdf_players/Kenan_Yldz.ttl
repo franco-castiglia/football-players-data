@@ -38,7 +38,6 @@ ex:Kenan_Yldz a foaf:Person,
     stats:progressiveCarries 115 ;
     stats:progressivePasses 121 ;
     stats:progressivePassesReceived 223 ;
-    stats:rank 2800 ;
     stats:redCards 1 ;
     stats:tackles 54 ;
     stats:tacklesWon 30 ;

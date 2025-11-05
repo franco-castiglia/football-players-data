@@ -36,7 +36,6 @@ ex:Justin_Njinmah a foaf:Person,
     stats:progressiveCarries 33 ;
     stats:progressivePasses 23 ;
     stats:progressivePassesReceived 103 ;
-    stats:rank 1907 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 2 ;

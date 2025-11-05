@@ -36,7 +36,6 @@ ex:Kevin_Vogt a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 70 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 2727 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 8 ;

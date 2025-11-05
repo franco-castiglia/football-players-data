@@ -36,7 +36,6 @@ ex:Maarten_Vandevoordt a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 4 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 2673 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 0 ;

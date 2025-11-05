@@ -35,7 +35,6 @@ ex:Marco_Sala a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 16 ;
     stats:progressivePassesReceived 16 ;
-    stats:rank 2302 ;
     stats:redCards 0 ;
     stats:tackles 9 ;
     stats:tacklesWon 6 ;

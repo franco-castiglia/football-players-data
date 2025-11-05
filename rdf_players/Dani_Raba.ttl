@@ -36,7 +36,6 @@ ex:Dani_Raba a foaf:Person,
     stats:progressiveCarries 42 ;
     stats:progressivePasses 69 ;
     stats:progressivePassesReceived 101 ;
-    stats:rank 2160 ;
     stats:redCards 0 ;
     stats:tackles 37 ;
     stats:tacklesWon 23 ;

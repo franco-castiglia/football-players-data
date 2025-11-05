@@ -36,7 +36,6 @@ ex:Arne_Maier a foaf:Person,
     stats:progressiveCarries 19 ;
     stats:progressivePasses 44 ;
     stats:progressivePassesReceived 56 ;
-    stats:rank 1572 ;
     stats:redCards 1 ;
     stats:tackles 13 ;
     stats:tacklesWon 7 ;

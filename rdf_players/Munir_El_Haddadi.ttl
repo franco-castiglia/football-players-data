@@ -38,7 +38,6 @@ ex:Munir_El_Haddadi a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 29 ;
     stats:progressivePassesReceived 42 ;
-    stats:rank 1115 ;
     stats:redCards 1 ;
     stats:tackles 12 ;
     stats:tacklesWon 9 ;

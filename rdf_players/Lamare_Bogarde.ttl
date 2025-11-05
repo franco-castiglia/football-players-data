@@ -36,7 +36,6 @@ ex:Lamare_Bogarde a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 14 ;
     stats:progressivePassesReceived 9 ;
-    stats:rank 354 ;
     stats:redCards 0 ;
     stats:tackles 14 ;
     stats:tacklesWon 6 ;

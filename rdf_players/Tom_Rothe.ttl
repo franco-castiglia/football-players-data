@@ -36,7 +36,6 @@ ex:Tom_Rothe a foaf:Person,
     stats:progressiveCarries 25 ;
     stats:progressivePasses 50 ;
     stats:progressivePassesReceived 91 ;
-    stats:rank 2262 ;
     stats:redCards 1 ;
     stats:tackles 45 ;
     stats:tacklesWon 28 ;

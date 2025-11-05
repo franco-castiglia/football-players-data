@@ -36,7 +36,6 @@ ex:Wout_Faes a foaf:Person,
     stats:progressiveCarries 12 ;
     stats:progressivePasses 86 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 871 ;
     stats:redCards 0 ;
     stats:tackles 42 ;
     stats:tacklesWon 26 ;

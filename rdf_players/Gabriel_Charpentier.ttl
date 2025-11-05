@@ -36,7 +36,6 @@ ex:Gabriel_Charpentier a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 16 ;
-    stats:rank 531 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 3 ;

@@ -39,7 +39,6 @@ ex:Corentin_Tolisso a foaf:Person,
     stats:progressiveCarries 31 ;
     stats:progressivePasses 166 ;
     stats:progressivePassesReceived 133 ;
-    stats:rank 2602 ;
     stats:redCards 0 ;
     stats:tackles 57 ;
     stats:tacklesWon 25 ;

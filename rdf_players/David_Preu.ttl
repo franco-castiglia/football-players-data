@@ -35,7 +35,6 @@ ex:David_Preu a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 3 ;
     stats:progressivePassesReceived 9 ;
-    stats:rank 2150 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 1 ;

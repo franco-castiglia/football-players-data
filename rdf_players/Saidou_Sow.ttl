@@ -36,7 +36,6 @@ ex:Saidou_Sow a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 16 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 2485 ;
     stats:redCards 0 ;
     stats:tackles 9 ;
     stats:tacklesWon 5 ;

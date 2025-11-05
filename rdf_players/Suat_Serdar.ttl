@@ -37,7 +37,6 @@ ex:Suat_Serdar a foaf:Person,
     stats:progressiveCarries 18 ;
     stats:progressivePasses 56 ;
     stats:progressivePassesReceived 35 ;
-    stats:rank 2398 ;
     stats:redCards 1 ;
     stats:tackles 35 ;
     stats:tacklesWon 22 ;

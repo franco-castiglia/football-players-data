@@ -36,7 +36,6 @@ ex:Benjamin_Sesko a foaf:Person,
     stats:progressiveCarries 47 ;
     stats:progressivePasses 46 ;
     stats:progressivePassesReceived 141 ;
-    stats:rank 2401 ;
     stats:redCards 1 ;
     stats:tackles 7 ;
     stats:tacklesWon 3 ;

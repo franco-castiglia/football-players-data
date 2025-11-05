@@ -36,7 +36,6 @@ ex:Omar_Alderete a foaf:Person,
     stats:progressiveCarries 25 ;
     stats:progressivePasses 112 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 80 ;
     stats:redCards 0 ;
     stats:tackles 43 ;
     stats:tacklesWon 29 ;

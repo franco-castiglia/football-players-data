@@ -38,7 +38,6 @@ ex:Sebastiano_Esposito a foaf:Person,
     stats:progressiveCarries 31 ;
     stats:progressivePasses 93 ;
     stats:progressivePassesReceived 106 ;
-    stats:rank 853 ;
     stats:redCards 0 ;
     stats:tackles 57 ;
     stats:tacklesWon 29 ;

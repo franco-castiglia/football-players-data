@@ -39,7 +39,6 @@ ex:Andrew_Robertson a foaf:Person,
     stats:progressiveCarries 64 ;
     stats:progressivePasses 176 ;
     stats:progressivePassesReceived 108 ;
-    stats:rank 2223 ;
     stats:redCards 1 ;
     stats:tackles 39 ;
     stats:tacklesWon 22 ;

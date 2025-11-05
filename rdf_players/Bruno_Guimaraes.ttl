@@ -39,7 +39,6 @@ ex:Bruno_Guimaraes a foaf:Person,
     stats:progressiveCarries 64 ;
     stats:progressivePasses 271 ;
     stats:progressivePassesReceived 96 ;
-    stats:rank 1091 ;
     stats:redCards 0 ;
     stats:tackles 83 ;
     stats:tacklesWon 47 ;

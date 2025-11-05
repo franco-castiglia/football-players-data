@@ -39,7 +39,6 @@ ex:Oihan_Sancet a foaf:Person,
     stats:progressiveCarries 52 ;
     stats:progressivePasses 90 ;
     stats:progressivePassesReceived 115 ;
-    stats:rank 2325 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 8 ;

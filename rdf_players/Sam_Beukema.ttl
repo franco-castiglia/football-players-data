@@ -37,7 +37,6 @@ ex:Sam_Beukema a foaf:Person,
     stats:progressiveCarries 27 ;
     stats:progressivePasses 153 ;
     stats:progressivePassesReceived 9 ;
-    stats:rank 328 ;
     stats:redCards 0 ;
     stats:tackles 54 ;
     stats:tacklesWon 29 ;

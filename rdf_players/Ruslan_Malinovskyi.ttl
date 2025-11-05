@@ -37,7 +37,6 @@ ex:Ruslan_Malinovskyi a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 32 ;
     stats:progressivePassesReceived 10 ;
-    stats:rank 1591 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 8 ;

@@ -36,7 +36,6 @@ ex:Mickael_Nade a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 72 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 1851 ;
     stats:redCards 0 ;
     stats:tackles 59 ;
     stats:tacklesWon 43 ;

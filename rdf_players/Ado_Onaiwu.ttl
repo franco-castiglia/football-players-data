@@ -38,7 +38,6 @@ ex:Ado_Onaiwu a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 33 ;
     stats:progressivePassesReceived 74 ;
-    stats:rank 1971 ;
     stats:redCards 1 ;
     stats:tackles 11 ;
     stats:tacklesWon 7 ;

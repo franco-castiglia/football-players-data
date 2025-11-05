@@ -37,7 +37,6 @@ ex:Angelo_Fulgini a foaf:Person,
     stats:progressiveCarries 29 ;
     stats:progressivePasses 69 ;
     stats:progressivePassesReceived 113 ;
-    stats:rank 946 ;
     stats:redCards 0 ;
     stats:tackles 14 ;
     stats:tacklesWon 10 ;

@@ -36,7 +36,6 @@ ex:Niccolo_Pisilli a foaf:Person,
     stats:progressiveCarries 22 ;
     stats:progressivePasses 63 ;
     stats:progressivePassesReceived 44 ;
-    stats:rank 2128 ;
     stats:redCards 0 ;
     stats:tackles 24 ;
     stats:tacklesWon 11 ;

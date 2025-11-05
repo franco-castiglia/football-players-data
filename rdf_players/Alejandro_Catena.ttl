@@ -36,7 +36,6 @@ ex:Alejandro_Catena a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 89 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 514 ;
     stats:redCards 0 ;
     stats:tackles 46 ;
     stats:tacklesWon 28 ;

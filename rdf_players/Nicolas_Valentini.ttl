@@ -36,7 +36,6 @@ ex:Nicolas_Valentini a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 42 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 2660 ;
     stats:redCards 1 ;
     stats:tackles 35 ;
     stats:tacklesWon 23 ;

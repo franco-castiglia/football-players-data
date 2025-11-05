@@ -36,7 +36,6 @@ ex:Erencan_Yardmc a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 4 ;
     stats:progressivePassesReceived 12 ;
-    stats:rank 2795 ;
     stats:redCards 0 ;
     stats:tackles 4 ;
     stats:tacklesWon 3 ;

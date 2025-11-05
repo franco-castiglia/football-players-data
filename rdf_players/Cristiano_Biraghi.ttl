@@ -38,7 +38,6 @@ ex:Cristiano_Biraghi a foaf:Person,
     stats:progressiveCarries 24 ;
     stats:progressivePasses 36 ;
     stats:progressivePassesReceived 49 ;
-    stats:rank 336 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 10 ;

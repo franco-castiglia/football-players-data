@@ -37,7 +37,6 @@ ex:Lucas_Beraldo a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 131 ;
     stats:progressivePassesReceived 0 ;
-    stats:rank 306 ;
     stats:redCards 0 ;
     stats:tackles 38 ;
     stats:tacklesWon 31 ;

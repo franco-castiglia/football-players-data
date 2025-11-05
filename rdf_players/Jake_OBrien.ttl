@@ -36,7 +36,6 @@ ex:Jake_OBrien a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 50 ;
     stats:progressivePassesReceived 25 ;
-    stats:rank 1934 ;
     stats:redCards 0 ;
     stats:tackles 26 ;
     stats:tacklesWon 17 ;

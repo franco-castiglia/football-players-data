@@ -38,7 +38,6 @@ ex:Jose_Campana a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 87 ;
     stats:progressivePassesReceived 15 ;
-    stats:rank 457 ;
     stats:redCards 0 ;
     stats:tackles 21 ;
     stats:tacklesWon 16 ;

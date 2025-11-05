@@ -36,7 +36,6 @@ ex:Senne_Lynen a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 91 ;
     stats:progressivePassesReceived 28 ;
-    stats:rank 1550 ;
     stats:redCards 0 ;
     stats:tackles 72 ;
     stats:tacklesWon 39 ;

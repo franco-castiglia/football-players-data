@@ -39,7 +39,6 @@ ex:Patson_Daka a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 8 ;
     stats:progressivePassesReceived 36 ;
-    stats:rank 648 ;
     stats:redCards 0 ;
     stats:tackles 19 ;
     stats:tacklesWon 10 ;

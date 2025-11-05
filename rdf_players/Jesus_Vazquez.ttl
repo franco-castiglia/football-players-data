@@ -36,7 +36,6 @@ ex:Jesus_Vazquez a foaf:Person,
     stats:progressiveCarries 32 ;
     stats:progressivePasses 21 ;
     stats:progressivePassesReceived 48 ;
-    stats:rank 2683 ;
     stats:redCards 0 ;
     stats:tackles 23 ;
     stats:tacklesWon 18 ;

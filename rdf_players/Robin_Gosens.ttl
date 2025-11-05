@@ -37,7 +37,6 @@ ex:Robin_Gosens a foaf:Person,
     stats:progressiveCarries 31 ;
     stats:progressivePasses 102 ;
     stats:progressivePassesReceived 91 ;
-    stats:rank 1045 ;
     stats:redCards 0 ;
     stats:tackles 56 ;
     stats:tacklesWon 31 ;

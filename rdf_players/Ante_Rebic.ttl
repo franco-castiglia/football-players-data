@@ -37,7 +37,6 @@ ex:Ante_Rebic a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 36 ;
     stats:progressivePassesReceived 63 ;
-    stats:rank 2189 ;
     stats:redCards 2 ;
     stats:tackles 12 ;
     stats:tacklesWon 9 ;

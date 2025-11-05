@@ -36,7 +36,6 @@ ex:Kevin_Paredes a foaf:Person,
     stats:progressiveCarries 1 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 12 ;
-    stats:rank 2039 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 1 ;

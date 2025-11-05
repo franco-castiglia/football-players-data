@@ -37,7 +37,6 @@ ex:Eray_Comert a foaf:Person,
     stats:progressiveCarries 9 ;
     stats:progressivePasses 48 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 587 ;
     stats:redCards 0 ;
     stats:tackles 24 ;
     stats:tacklesWon 14 ;

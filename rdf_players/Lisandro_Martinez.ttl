@@ -38,7 +38,6 @@ ex:Lisandro_Martinez a foaf:Person,
     stats:progressiveCarries 23 ;
     stats:progressivePasses 117 ;
     stats:progressivePassesReceived 7 ;
-    stats:rank 1652 ;
     stats:redCards 0 ;
     stats:tackles 40 ;
     stats:tacklesWon 24 ;

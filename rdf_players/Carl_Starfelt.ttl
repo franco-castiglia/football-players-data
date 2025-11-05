@@ -36,7 +36,6 @@ ex:Carl_Starfelt a foaf:Person,
     stats:progressiveCarries 11 ;
     stats:progressivePasses 66 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 2495 ;
     stats:redCards 0 ;
     stats:tackles 40 ;
     stats:tacklesWon 20 ;

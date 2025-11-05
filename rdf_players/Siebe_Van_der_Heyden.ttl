@@ -36,7 +36,6 @@ ex:Siebe_Van_der_Heyden a foaf:Person,
     stats:progressiveCarries 10 ;
     stats:progressivePasses 28 ;
     stats:progressivePassesReceived 26 ;
-    stats:rank 2670 ;
     stats:redCards 1 ;
     stats:tackles 17 ;
     stats:tacklesWon 10 ;

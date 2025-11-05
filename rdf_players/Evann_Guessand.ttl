@@ -36,7 +36,6 @@ ex:Evann_Guessand a foaf:Person,
     stats:progressiveCarries 87 ;
     stats:progressivePasses 79 ;
     stats:progressivePassesReceived 162 ;
-    stats:rank 1084 ;
     stats:redCards 0 ;
     stats:tackles 44 ;
     stats:tacklesWon 29 ;

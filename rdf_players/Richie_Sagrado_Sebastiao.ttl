@@ -36,7 +36,6 @@ ex:Richie_Sagrado_Sebastiao a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 2 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 2296 ;
     stats:redCards 0 ;
     stats:tackles 2 ;
     stats:tacklesWon 2 ;

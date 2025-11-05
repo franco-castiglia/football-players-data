@@ -40,7 +40,6 @@ ex:Ilkay_Gundogan a foaf:Person,
     stats:progressiveCarries 64 ;
     stats:progressivePasses 127 ;
     stats:progressivePassesReceived 96 ;
-    stats:rank 1100 ;
     stats:redCards 0 ;
     stats:tackles 25 ;
     stats:tacklesWon 13 ;

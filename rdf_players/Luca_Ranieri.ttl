@@ -37,7 +37,6 @@ ex:Luca_Ranieri a foaf:Person,
     stats:progressiveCarries 25 ;
     stats:progressivePasses 80 ;
     stats:progressivePassesReceived 11 ;
-    stats:rank 2175 ;
     stats:redCards 0 ;
     stats:tackles 42 ;
     stats:tacklesWon 24 ;

@@ -40,7 +40,6 @@ ex:Thomas_Meunier a foaf:Person,
     stats:progressiveCarries 64 ;
     stats:progressivePasses 136 ;
     stats:progressivePassesReceived 148 ;
-    stats:rank 1733 ;
     stats:redCards 0 ;
     stats:tackles 53 ;
     stats:tacklesWon 38 ;

@@ -36,7 +36,6 @@ ex:Joao_Gomes a foaf:Person,
     stats:progressiveCarries 59 ;
     stats:progressivePasses 165 ;
     stats:progressivePassesReceived 76 ;
-    stats:rank 1023 ;
     stats:redCards 1 ;
     stats:tackles 116 ;
     stats:tacklesWon 71 ;

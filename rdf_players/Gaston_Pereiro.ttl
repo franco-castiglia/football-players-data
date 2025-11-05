@@ -38,7 +38,6 @@ ex:Gaston_Pereiro a foaf:Person,
     stats:progressiveCarries 0 ;
     stats:progressivePasses 2 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 2087 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 0 ;

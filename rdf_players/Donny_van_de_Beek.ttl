@@ -40,7 +40,6 @@ ex:Donny_van_de_Beek a foaf:Person,
     stats:progressiveCarries 17 ;
     stats:progressivePasses 45 ;
     stats:progressivePassesReceived 85 ;
-    stats:rank 273 ;
     stats:redCards 0 ;
     stats:tackles 29 ;
     stats:tacklesWon 18 ;

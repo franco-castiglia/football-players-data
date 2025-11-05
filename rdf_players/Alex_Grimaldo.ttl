@@ -40,7 +40,6 @@ ex:Alex_Grimaldo a foaf:Person,
     stats:progressiveCarries 86 ;
     stats:progressivePasses 160 ;
     stats:progressivePassesReceived 252 ;
-    stats:rank 1068 ;
     stats:redCards 1 ;
     stats:tackles 24 ;
     stats:tacklesWon 14 ;

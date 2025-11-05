@@ -36,7 +36,6 @@ ex:Cheikh_Niasse a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 25 ;
     stats:progressivePassesReceived 15 ;
-    stats:rank 2594 ;
     stats:redCards 0 ;
     stats:tackles 18 ;
     stats:tacklesWon 15 ;

@@ -37,7 +37,6 @@ ex:James_McAtee a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 32 ;
-    stats:rank 1695 ;
     stats:redCards 0 ;
     stats:tackles 5 ;
     stats:tacklesWon 2 ;

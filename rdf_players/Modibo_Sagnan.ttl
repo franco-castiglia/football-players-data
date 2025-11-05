@@ -36,7 +36,6 @@ ex:Modibo_Sagnan a foaf:Person,
     stats:progressiveCarries 13 ;
     stats:progressivePasses 51 ;
     stats:progressivePassesReceived 3 ;
-    stats:rank 2295 ;
     stats:redCards 0 ;
     stats:tackles 57 ;
     stats:tacklesWon 35 ;

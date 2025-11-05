@@ -37,7 +37,6 @@ ex:Roberto_Piccoli a foaf:Person,
     stats:progressiveCarries 30 ;
     stats:progressivePasses 37 ;
     stats:progressivePassesReceived 165 ;
-    stats:rank 2116 ;
     stats:redCards 0 ;
     stats:tackles 13 ;
     stats:tacklesWon 9 ;

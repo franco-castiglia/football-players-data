@@ -39,7 +39,6 @@ ex:Lucas_Ocampos a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 7 ;
     stats:progressivePassesReceived 20 ;
-    stats:rank 1940 ;
     stats:redCards 0 ;
     stats:tackles 3 ;
     stats:tacklesWon 2 ;

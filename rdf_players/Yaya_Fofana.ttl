@@ -35,7 +35,6 @@ ex:Yaya_Fofana a foaf:Person,
     stats:progressiveCarries 19 ;
     stats:progressivePasses 22 ;
     stats:progressivePassesReceived 29 ;
-    stats:rank 1301 ;
     stats:redCards 0 ;
     stats:tackles 17 ;
     stats:tacklesWon 11 ;

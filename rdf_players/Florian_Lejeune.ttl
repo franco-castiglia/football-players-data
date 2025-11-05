@@ -40,7 +40,6 @@ ex:Florian_Lejeune a foaf:Person,
     stats:progressiveCarries 21 ;
     stats:progressivePasses 143 ;
     stats:progressivePassesReceived 5 ;
-    stats:rank 1469 ;
     stats:redCards 0 ;
     stats:tackles 46 ;
     stats:tacklesWon 28 ;

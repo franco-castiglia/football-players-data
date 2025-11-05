@@ -37,7 +37,6 @@ ex:Christian_Nrgaard a foaf:Person,
     stats:progressiveCarries 14 ;
     stats:progressivePasses 154 ;
     stats:progressivePassesReceived 42 ;
-    stats:rank 1933 ;
     stats:redCards 1 ;
     stats:tackles 79 ;
     stats:tacklesWon 49 ;

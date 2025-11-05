@@ -38,7 +38,6 @@ ex:Riccardo_Orsolini a foaf:Person,
     stats:progressiveCarries 61 ;
     stats:progressivePasses 69 ;
     stats:progressivePassesReceived 186 ;
-    stats:rank 1992 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 13 ;

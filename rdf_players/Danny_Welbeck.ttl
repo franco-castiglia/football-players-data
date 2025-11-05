@@ -40,7 +40,6 @@ ex:Danny_Welbeck a foaf:Person,
     stats:progressiveCarries 21 ;
     stats:progressivePasses 47 ;
     stats:progressivePassesReceived 95 ;
-    stats:rank 2760 ;
     stats:redCards 0 ;
     stats:tackles 26 ;
     stats:tacklesWon 16 ;

@@ -38,7 +38,6 @@ ex:Alessandro_Bastoni a foaf:Person,
     stats:progressiveCarries 62 ;
     stats:progressivePasses 162 ;
     stats:progressivePassesReceived 83 ;
-    stats:rank 259 ;
     stats:redCards 1 ;
     stats:tackles 46 ;
     stats:tacklesWon 23 ;

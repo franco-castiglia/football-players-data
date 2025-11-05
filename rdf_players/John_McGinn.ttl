@@ -39,7 +39,6 @@ ex:John_McGinn a foaf:Person,
     stats:progressiveCarries 32 ;
     stats:progressivePasses 103 ;
     stats:progressivePassesReceived 87 ;
-    stats:rank 1699 ;
     stats:redCards 0 ;
     stats:tackles 33 ;
     stats:tacklesWon 24 ;

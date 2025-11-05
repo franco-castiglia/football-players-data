@@ -36,7 +36,6 @@ ex:Marvin_Schulz a foaf:Person,
     stats:progressiveCarries 5 ;
     stats:progressivePasses 11 ;
     stats:progressivePassesReceived 2 ;
-    stats:rank 2380 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 5 ;

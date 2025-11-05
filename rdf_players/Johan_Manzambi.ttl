@@ -35,7 +35,6 @@ ex:Johan_Manzambi a foaf:Person,
     stats:progressiveCarries 7 ;
     stats:progressivePasses 10 ;
     stats:progressivePassesReceived 12 ;
-    stats:rank 1609 ;
     stats:redCards 0 ;
     stats:tackles 8 ;
     stats:tacklesWon 2 ;

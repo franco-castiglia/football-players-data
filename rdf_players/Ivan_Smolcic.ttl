@@ -36,7 +36,6 @@ ex:Ivan_Smolcic a foaf:Person,
     stats:progressiveCarries 3 ;
     stats:progressivePasses 23 ;
     stats:progressivePassesReceived 9 ;
-    stats:rank 2459 ;
     stats:redCards 0 ;
     stats:tackles 16 ;
     stats:tacklesWon 9 ;

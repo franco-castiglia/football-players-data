@@ -37,7 +37,6 @@ ex:Assane_Diao a foaf:Person,
     stats:progressiveCarries 50 ;
     stats:progressivePasses 36 ;
     stats:progressivePassesReceived 116 ;
-    stats:rank 713 ;
     stats:redCards 0 ;
     stats:tackles 25 ;
     stats:tacklesWon 14 ;

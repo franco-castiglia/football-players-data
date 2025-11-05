@@ -36,7 +36,6 @@ ex:Matthis_Abline a foaf:Person,
     stats:progressiveCarries 75 ;
     stats:progressivePasses 48 ;
     stats:progressivePassesReceived 169 ;
-    stats:rank 14 ;
     stats:redCards 0 ;
     stats:tackles 11 ;
     stats:tacklesWon 5 ;

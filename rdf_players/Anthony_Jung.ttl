@@ -36,7 +36,6 @@ ex:Anthony_Jung a foaf:Person,
     stats:progressiveCarries 20 ;
     stats:progressivePasses 121 ;
     stats:progressivePassesReceived 6 ;
-    stats:rank 1287 ;
     stats:redCards 0 ;
     stats:tackles 34 ;
     stats:tacklesWon 22 ;

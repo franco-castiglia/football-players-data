@@ -36,7 +36,6 @@ ex:Niklas_Schmidt a foaf:Person,
     stats:progressiveCarries 2 ;
     stats:progressivePasses 23 ;
     stats:progressivePassesReceived 1 ;
-    stats:rank 2378 ;
     stats:redCards 0 ;
     stats:tackles 6 ;
     stats:tacklesWon 4 ;

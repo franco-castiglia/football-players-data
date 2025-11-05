@@ -37,7 +37,6 @@ ex:Javi_Sanchez a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 34 ;
     stats:progressivePassesReceived 4 ;
-    stats:rank 2329 ;
     stats:redCards 0 ;
     stats:tackles 26 ;
     stats:tacklesWon 16 ;

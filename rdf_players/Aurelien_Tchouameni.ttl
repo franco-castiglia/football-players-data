@@ -37,7 +37,6 @@ ex:Aurelien_Tchouameni a foaf:Person,
     stats:progressiveCarries 19 ;
     stats:progressivePasses 154 ;
     stats:progressivePassesReceived 13 ;
-    stats:rank 2563 ;
     stats:redCards 0 ;
     stats:tackles 47 ;
     stats:tacklesWon 23 ;

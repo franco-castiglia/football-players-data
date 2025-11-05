@@ -38,7 +38,6 @@ ex:Ermedin_Demirovic a foaf:Person,
     stats:progressiveCarries 20 ;
     stats:progressivePasses 31 ;
     stats:progressivePassesReceived 115 ;
-    stats:rank 699 ;
     stats:redCards 0 ;
     stats:tackles 12 ;
     stats:tacklesWon 7 ;

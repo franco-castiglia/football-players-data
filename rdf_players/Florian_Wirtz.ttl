@@ -38,7 +38,6 @@ ex:Florian_Wirtz a foaf:Person,
     stats:progressiveCarries 131 ;
     stats:progressivePasses 176 ;
     stats:progressivePassesReceived 309 ;
-    stats:rank 2780 ;
     stats:redCards 0 ;
     stats:tackles 32 ;
     stats:tacklesWon 20 ;

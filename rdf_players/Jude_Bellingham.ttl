@@ -38,7 +38,6 @@ ex:Jude_Bellingham a foaf:Person,
     stats:progressiveCarries 74 ;
     stats:progressivePasses 199 ;
     stats:progressivePassesReceived 143 ;
-    stats:rank 289 ;
     stats:redCards 1 ;
     stats:tackles 61 ;
     stats:tacklesWon 33 ;

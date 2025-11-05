@@ -36,7 +36,6 @@ ex:Leo_Petrot a foaf:Person,
     stats:progressiveCarries 28 ;
     stats:progressivePasses 93 ;
     stats:progressivePassesReceived 100 ;
-    stats:rank 2106 ;
     stats:redCards 0 ;
     stats:tackles 62 ;
     stats:tacklesWon 39 ;

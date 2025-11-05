@@ -36,7 +36,6 @@ ex:Ali_AlHamadi a foaf:Person,
     stats:progressiveCarries 4 ;
     stats:progressivePasses 3 ;
     stats:progressivePassesReceived 14 ;
-    stats:rank 1123 ;
     stats:redCards 0 ;
     stats:tackles 1 ;
     stats:tacklesWon 0 ;

@@ -35,7 +35,6 @@ ex:Iker_Almena a foaf:Person,
     stats:progressiveCarries 6 ;
     stats:progressivePasses 2 ;
     stats:progressivePassesReceived 10 ;
-    stats:rank 94 ;
     stats:redCards 0 ;
     stats:tackles 0 ;
     stats:tacklesWon 0 ;

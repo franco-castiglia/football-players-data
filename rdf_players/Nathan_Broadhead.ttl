@@ -36,7 +36,6 @@ ex:Nathan_Broadhead a foaf:Person,
     stats:progressiveCarries 20 ;
     stats:progressivePasses 14 ;
     stats:progressivePassesReceived 33 ;
-    stats:rank 396 ;
     stats:redCards 0 ;
     stats:tackles 9 ;
     stats:tacklesWon 4 ;

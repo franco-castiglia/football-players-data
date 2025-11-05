@@ -1,0 +1,17 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://franco-castiglia.github.io/football-players-data/>
+    a schema:Dataset ;
+    dct:title "La Floresta – Football Players Linked Data 2024-2025"@en ;
+    dct:creator "Equipo La Floresta" ;
+    dct:issued "2025-11-05"^^xsd:date ;
+    dct:modified "2025-11-05"^^xsd:date ;
+    dct:license <https://opensource.org/licenses/MIT> ;
+    dct:source <https://www.kaggle.com/datasets/hubertsidorowicz/football-players-stats-2024-2025> ,
+                 <https://www.thesportsdb.com/> ;
+    dct:rights "Player statistics derived from Kaggle dataset (MIT License). Biographical & media data derived from TheSportsDB API under its Terms of Use; all rights to artwork remain with TheSportsDB or third-party rights-holders." ;
+    prov:wasDerivedFrom <https://www.kaggle.com/datasets/hubertsidorowicz/football-players-stats-2024-2025> ,
+                       <https://www.thesportsdb.com/> ;

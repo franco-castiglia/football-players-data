@@ -5,7 +5,7 @@
 @prefix stats: <https://franco-castiglia.github.io/football-players-data/ontology/stats/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ex:Danilo_D039Ambrosio a foaf:Person,
+ex:Danilo_DAmbrosio a foaf:Person,
         schema:Athlete,
         schema:SportsTeamMember ;
     owl:sameAs <http://www.wikidata.org/entity/Q3702162> ;
@@ -13,7 +13,7 @@ ex:Danilo_D039Ambrosio a foaf:Person,
         "www.facebook.com/DaniloDAmbrosioOfficialPage/"^^xsd:anyURI,
         "www.instagram.com/danilodambrosioreal/"^^xsd:anyURI ;
     foaf:depiction "https://r2.thesportsdb.com/images/media/player/cutout/yaxym01718362019.png"^^xsd:anyURI ;
-    foaf:name "Danilo D&#039;Ambrosio"^^xsd:string ;
+    foaf:name "Danilo D'Ambrosio"^^xsd:string ;
     stats:assists 1 ;
     stats:ballRecoveries 46 ;
     stats:blocks 12 ;
@@ -45,10 +45,10 @@ ex:Danilo_D039Ambrosio a foaf:Person,
     stats:touches 776 ;
     stats:yellowCards 2 ;
     schema:birthDate "1988-09-09"^^xsd:date ;
-    schema:description "Danilo d'Ambrosio (born 9 September 1988) is an Italian professional footballer who plays as a centre-back or right-back for Serie A club Monza."@en ;
+    schema:description "Danilo D'Ambrosio (born 9 September 1988) is an Italian professional footballer who plays as a centre-back or right-back for Serie A club Monza."@en ;
     schema:height "180 cm"^^xsd:string ;
     schema:image "https://r2.thesportsdb.com/images/media/player/thumb/6grz971546189735.jpg"^^xsd:anyURI ;
     schema:memberOf "_Free Agent Soccer"^^xsd:string ;
-    schema:name "Danilo D&#039;Ambrosio"^^xsd:string ;
+    schema:name "Danilo D'Ambrosio"^^xsd:string ;
     schema:nationality "Italy"^^xsd:string .
 

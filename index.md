@@ -1,7 +1,6 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Football Players Data</title>
     <style>
       body {
         font-family: Arial, sans-serif;
